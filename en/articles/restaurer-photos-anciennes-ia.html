@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/restaurer-photos-anciennes-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Restore and colorize old photos with AI · Jerwis</title>
+<meta name="description" content="Bring damaged family photos back to life with AI, for free and with zero technical skills. Tools, method, and privacy tips explained clearly.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Restore and colorize old photos with AI · Jerwis">
+<meta property="og:description" content="Bring damaged family photos back to life with AI, free and no technical skills needed. Tools, method, and privacy tips explained.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/restaurer-photos-anciennes-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/restaurer-photos-anciennes-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-07">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Restore and colorize old photos with AI · Jerwis">
+<meta name="twitter:description" content="Bring damaged family photos back to life with AI, free and no technical skills needed. Tools, method, and privacy tips explained.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/restaurer-photos-anciennes-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/restaurer-photos-anciennes-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/restaurer-photos-anciennes-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/restaurer-photos-anciennes-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/restaurer-photos-anciennes-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Restore and colorize old photos with AI",
+  "description": "Bring damaged family photos back to life with AI, for free and with zero technical skills. Tools, method, and privacy tips explained clearly.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/restaurer-photos-anciennes-ia",
+  "datePublished": "2026-09-07",
+  "dateModified": "2026-09-07",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/restaurer-photos-anciennes-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Breakdown · 40</div>
+    <h1>Your old photos<br>deserve better<br><em>than a shoebox</em></h1>
+    <p class="hero-lead">
+      You've got a shoebox somewhere, or an album going yellow. Photos with scratches, faded colors, sometimes barely readable. You're wondering if AI can actually fix them, and whether it's doable without being a developer or a graphic designer. I dug into it for you. Here's what I found: free tools, a simple method, and a few things worth knowing before you upload your great-grandmother's photo to the internet.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> Hotpot.ai, Palette.fm, Canva</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>AI can <strong>fix scratches, blur, and fading</strong> on heavily damaged photos, in seconds.</li>
+      <li>Tools like <strong>Hotpot.ai, Palette.fm, or Canva</strong> are free and require zero technical skills.</li>
+      <li>Before you upload, <strong>read the terms of service</strong>: some platforms can use your images to train their models.</li>
+      <li>AI colorization is <strong>an interpretation, not a fact</strong>: the colors are educated guesses, not historical certainties.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>I test it myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+  <span>Zero jargon</span><span>I test it myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What AI actually does to an old photo</h2>
+    <p>Before you dive in, it's worth understanding what these tools actually do under the hood. It's not magic. It's reconstruction.</p>
+    <p>An AI photo restoration tool can remove dust and scratches, reduce blur and digital noise, recover lost contrast, upscale a low-quality scan, and rebuild facial details. It can also add color to a black-and-white photo. All of this automatically, without you touching a single slider.</p>
+    <p>What sets this apart from classic software like Photoshop is speed and accessibility. You don't need to know what a layer or a levels curve is. You upload, you click, you download. The AI model (often based on <a href="/en/lexique/diffusion">diffusion</a> techniques) has learned from millions of images to guess what's missing and reconstruct it in a coherent way.</p>
+    <p>The result isn't always perfect. On a heavily damaged photo, AI can invent details that weren't there. A partially erased face will be reconstructed based on what the model "thinks" it should look like. That's useful. It's also a limitation worth keeping in mind.</p>
+    <p>Same goes for colorization: AI makes an estimate based on visual context (sky, skin, vegetation, period clothing). It doesn't know what color your grandfather's sweater actually was.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>The tools I recommend to get started</h2>
+    <p>There are a lot of platforms out there. I've narrowed it down to a few that combine free access, simplicity, and solid results.</p>
+    <p><strong>Hotpot.ai</strong> is probably the most versatile starting point. The platform offers restoration, colorization, background removal, and image enhancement, all in one place. Its restoration tool was updated in September 2025. You drag in your photo, pick the operation, and it's processed in seconds. There's a free plan, with limits on the number of edits.</p>
+    <p><strong>Palette.fm</strong> specializes in colorization. That's its only job, and it shows. The interface is minimal. You upload a black-and-white photo, choose from customizable color filters, and download. The free plan gives you unlimited colorizations, with a watermark on the result. Palette.fm is regularly cited as one of the best AI colorization tools in 2026.</p>
+    <p><strong>Canva</strong> includes an app called "Colorize" that uses AI to turn black-and-white photos into colorized images with natural tones. If you already use Canva for other things, it's the most direct path: no need to create an account somewhere else.</p>
+    <p><strong>Fotor</strong> is an all-in-one editor that includes old photo restoration among its features. It claims 800 million users worldwide according to its own data (August 2026), and a 97% satisfaction rate on Apple's App Store. Those numbers come from Fotor itself, so take them with the usual grain of salt. But the tool is solid and accessible.</p>
+    <p><strong>Remini</strong> is a very popular mobile app (Android and iOS) for restoration and image enhancement. It's particularly well known for reconstructing blurry or pixelated faces. Useful if you'd rather work from your phone than a computer.</p>
+    <p><strong>VanceAI</strong> offers restoration and colorization tools available as a web version or desktop software for Windows. It's a good option if you want to process a lot of photos without sending them to a remote server, which raises fewer privacy concerns.</p>
+    <div class="callout tip"><h4>Where to start</h4><p>If you only have one photo to test, start with Hotpot.ai for restoration and Palette.fm for colorization. Both are free, quick to pick up, and don't require creating an account for a first try.</p></div>
+    
+    <p>If you want to go further with AI photo editing in general, I wrote a dedicated article on <a href="/en/articles/modifier-photo-avec-ia">how to edit a photo with AI</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>How I do it, step by step</h2>
+    <p>Here's my concrete method, no unnecessary steps.</p>
+    <p><strong>Step 1: scan your photo properly.</strong> Before you even think about AI, the quality of your scan matters. A flatbed scanner gives better results than a phone photo. If you don't have a scanner, some public libraries lend them out. The higher the starting resolution, the more material the AI has to work with.</p>
+    <p><strong>Step 2: figure out what you need.</strong> Restoration (fixing physical damage) or colorization (adding color)? Both? Some tools do both in a single pass, others specialize. It's often better to restore first, then colorize, so the colorization AI works from a clean image.</p>
+    <p><strong>Step 3: upload to your chosen tool.</strong> On Hotpot.ai, for example, go to the "Restore Old Photo" section, drag in your file, and start the process. On Palette.fm, do the same in the colorization interface. On Canva, open a new design, import your photo, and look for the "Colorize" app in the side panel.</p>
+    <p><strong>Step 4: compare and adjust.</strong> Most tools show a before/after view. Look closely at the details, especially faces. If something looks off (a weirdly reconstructed eye, a color that doesn't fit), you can rerun the process or try a different tool. ImgGen AI, for example, can fix scratches, tears, stains, fading, and blur in seconds.</p>
+    <p><strong>Step 5: download in high resolution.</strong> Some free plans limit the resolution of the final file or add a watermark. If the photo is meant to be printed or framed, check the available resolution before settling for the free tier.</p>
+    <p>If you want to explore AI image creation beyond restoration, I also have an article on <a href="/en/articles/creer-images-ia-gratuit">creating images with AI for free</a>.</p>
+    <h2>MyHeritage and photo animation</h2>
+    <p>I want to mention one special case: MyHeritage and its Deep Nostalgia feature.</p>
+    <p>Launched in February 2021, Deep Nostalgia animates faces in still photos using deepfake technology: the face appears to move, smile, blink. Within two weeks of launch, more than 10 million faces had been animated, and the app became the most downloaded free app on Apple's App Store in the United States.</p>
+    <p>It's fascinating to watch. And it's also where the ethical question comes up most clearly. Animating a deceased person's face means making them do something they never did. Some people find that moving. Others find it unsettling. There's no universal right answer. It's a personal decision, and one worth making consciously.</p>
+    <h2>What you need to know about privacy</h2>
+    <p>This is the point most people skip, and it might be the most important one.</p>
+    <p>When you upload a photo to a cloud-based AI platform, that image leaves your device. It's processed on remote servers. And depending on each service's terms of use, it can be used to train and improve the platform's future AI models. Sensitive content could influence future AI outputs or become part of its internal knowledge base indefinitely.</p>
+    <p>That's not always the case. But it's a real possibility.</p>
+    <div class="callout tip"><h4>The reflex before you upload</h4><p>Take two minutes to read the privacy policy of the tool you're using, especially the section on image usage rights. If you can't find that information easily, that's a signal. VanceAI Local, the desktop version of VanceAI, processes images locally on your computer: a solid alternative if privacy is your priority.</p></div>
+    
+    <p>For a deeper dive on this topic, I wrote a full guide on <a href="/en/articles/donnees-perso-ia-confidentialite">personal data and privacy with AI tools</a>.</p>
+    <p>And if you're wondering whether it's worth upgrading to a paid tool for more control, this article on <a href="/en/articles/ia-gratuite-ou-payante">free vs. paid AI tools</a> can help you decide.</p>
+    <h2>A few limits worth knowing</h2>
+    <p>AI reconstructs what it thinks is missing. On a heavily degraded photo, it can invent details. A half-erased face will be filled in based on patterns the model has learned, not based on what the actual person looked like.</p>
+    <p>Same logic for colorization. Colors are statistical estimates. AI knows that a sky is often blue, a lawn is green, human skin has certain tones. But it doesn't know that your grandmother's coat was burgundy rather than brown.</p>
+    <p>That doesn't make these tools useless. It just means you should treat the result as an interpretation, not a documentary truth.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>FAQ</h2>
+    <h3>Can you really restore and colorize heavily damaged photos for free with AI?</h3>
+    <p>Yes, to a large extent. Tools like Hotpot.ai or ImgGen AI can fix scratches, tears, stains, fading, and blur on heavily damaged photos, for free and in seconds. Results vary depending on the level of damage. A lightly scratched photo will be restored convincingly. A photo where half the image is missing will give a rougher result, since the AI has to reconstruct entire areas from nothing.</p>
+    <h3>Are my photos safe when I upload them to these AI tools? What about my privacy?</h3>
+    <p>That's a real question to ask. Cloud-based AI platforms can use the images you upload to train their future models. Not all of them do, but it's a documented practice. Before uploading family photos, read the tool's terms of service. If you want to avoid that risk, look for solutions that process images locally, like VanceAI Local.</p>
+    <h3>What's the difference between AI restoration and colorization, and can I do both at once?</h3>
+    <p>Restoration fixes the physical damage in a photo: scratches, stains, blur, lost contrast, missing pixels. Colorization adds color to a black-and-white image. They're two separate operations, even if some tools combine them. I generally recommend restoring first, then colorizing: it gives the colorization AI a clean image to work from, which improves the final result.</p>
+    <h3>Are the colors added by AI realistic, and can I adjust them?</h3>
+    <p>The generated colors are estimates based on visual context. They're often natural and convincing for common elements (sky, vegetation, skin). But they're still interpretations, not certainties. On Palette.fm, you can choose from color filters and adjust the rendering. On other tools, adjustment options are more limited. If historical accuracy matters to you (you know a garment was a specific color), you can use an editor like Canva or Fotor to fine-tune things manually after the automatic processing.</p>
+    <h3>What are the best free, simple AI tools for a non-developer entrepreneur in 2026?</h3>
+    <p>For restoration: Hotpot.ai and ImgGen AI are accessible with no technical skills. For colorization: Palette.fm (unlimited colorizations on the free plan, with a watermark) and the Colorize app built into Canva. For working from your phone: Remini is well regarded for face reconstruction. For those who want to avoid sending images to the cloud: VanceAI Local runs directly on Windows. None of these tools require any coding knowledge.</p>
+    <h2>My takeaways</h2>
+    <p>These tools surprised me with how accessible they are. A few years ago, restoring an old photo meant hiring a graphic designer or spending hours in Photoshop. Today, it's a matter of a few clicks.</p>
+    <p>What matters is keeping a clear head. AI reconstructs, interprets, estimates. The result is often beautiful. It's not always accurate. And before uploading photos of your loved ones, taking two minutes to read the platform's terms of service is a habit worth building.</p>
+    <p>I do all of this for myself first. I have family photos that deserve better than a shoebox. And now I have the tools to do something about it.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what actually works, no jargon, no hype. If this article was useful, the easiest way to stay in the loop is my Friday newsletter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>One email a week.<br>What I actually <em>test.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me — I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

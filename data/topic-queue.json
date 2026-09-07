@@ -381,8 +381,9 @@
       "topic": "restaurer et coloriser ses vieilles photos de famille avec l IA : redonner vie aux souvenirs abîmés, gratuitement et simplement",
       "type": "A",
       "priority": 3,
-      "status": "pending",
-      "added": "2026-07-20"
+      "status": "done",
+      "added": "2026-07-20",
+      "published_at": "2026-09-07"
     },
     {
       "id": "annonces-qui-vendent-ia",
