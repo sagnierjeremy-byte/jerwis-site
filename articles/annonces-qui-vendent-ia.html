@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/annonces-qui-vendent-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Annonces Leboncoin, Vinted, Airbnb : rédige et vends plus vite avec l'IA</title>
+<meta name="description" content="Textes percutants, photos sublimées : je partage mes méthodes et outils IA pour vendre plus vite sur Leboncoin, Vinted et Airbnb.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Annonces Leboncoin, Vinted, Airbnb : rédige et vends plus vite avec l'IA">
+<meta property="og:description" content="Textes percutants, photos sublimées : je partage mes méthodes et outils IA pour vendre plus vite sur Leboncoin, Vinted et Airbnb.">
+<meta property="og:url" content="https://jerwis.fr/articles/annonces-qui-vendent-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/annonces-qui-vendent-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-08">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Annonces Leboncoin, Vinted, Airbnb : rédige et vends plus vite avec l'IA">
+<meta name="twitter:description" content="Textes percutants, photos sublimées : je partage mes méthodes et outils IA pour vendre plus vite sur Leboncoin, Vinted et Airbnb.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/annonces-qui-vendent-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/annonces-qui-vendent-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/annonces-qui-vendent-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/annonces-qui-vendent-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/annonces-qui-vendent-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Annonces Leboncoin, Vinted, Airbnb : rédige et vends plus vite avec l'IA",
+  "description": "Textes percutants, photos sublimées : je partage mes méthodes et outils IA pour vendre plus vite sur Leboncoin, Vinted et Airbnb.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/annonces-qui-vendent-ia",
+  "datePublished": "2026-09-08",
+  "dateModified": "2026-09-08",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/annonces-qui-vendent-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+
+<link rel="stylesheet" href="../assets/article.css?v=20260706">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="../index" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="../index#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Retour à Apprendre
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 66</div>
+    <h1>Vendre plus vite<br>avec une annonce<br><em>rédigée par l'IA</em></h1>
+    <p class="hero-lead">
+      Tu passes une demi-heure sur une annonce Leboncoin, tu peines à décrire ton canapé, tu prends trois photos floues et tu espères que ça suffira. Je suis passé par là. Depuis que j'utilise l'IA pour rédiger et améliorer mes annonces, le processus prend dix minutes au lieu d'une heure, et les résultats sont nettement meilleurs. Dans cet article, je te montre exactement comment faire, quels outils utiliser, et où ne pas se laisser piéger.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT, Gemini, outils retouche IA</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>L'IA génère un texte d'annonce <strong>en quelques secondes</strong>, toi tu le relis et tu le valides.</li>
+      <li>Les outils d'amélioration photo IA corrigent l'éclairage, suppriment les fonds et retouchent <strong>sans shooting pro</strong>.</li>
+      <li>Pour l'immobilier, des IA comme InterieurAI analysent tes photos et proposent la <strong>séquence optimale</strong>.</li>
+      <li>L'IA ne remplace pas ton jugement : relis toujours avant de publier, et ne cache jamais un défaut.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Pourquoi l&#39;IA change vraiment la donne ici</h2>
+    <p>Vendre un objet ou louer un bien, c&#39;est avant tout un problème de communication. Tu as quelque chose à proposer, quelqu&#39;un cherche exactement ça, et entre vous deux il y a une annonce qui doit faire le lien. Le problème, c&#39;est que la plupart des annonces sont paresseuses. Titre vague, description en trois lignes, photo prise à la va-vite avec le téléphone posé de travers.</p>
+    <p>L&#39;IA règle précisément ce problème. Elle peut générer une description structurée, cohérente et bien écrite en quelques secondes, à partir de quelques informations que tu lui fournis [F6]. Elle peut aussi corriger l&#39;éclairage d&#39;une photo, supprimer un fond encombrant ou mettre un produit en valeur, sans que tu aies besoin d&#39;un studio ni d&#39;un logiciel complexe [F7].</p>
+    <p>Ce n&#39;est pas de la magie. C&#39;est une question de méthode.</p>
+    <p>Pour que l&#39;IA produise quelque chose d&#39;utile, il faut lui donner les bons éléments. Si tu lui dis juste &quot;rédige une annonce pour un canapé&quot;, tu obtiendras quelque chose de générique. Si tu lui précises la marque, l&#39;état, la couleur, les dimensions, le prix et la plateforme visée, le résultat sera exploitable directement. C&#39;est exactement ce que j&#39;explique dans mon article sur <a href="/articles/ecrire-bon-prompt-non-dev">comment formuler des requêtes efficaces pour les IA</a> : la qualité du texte produit dépend presque entièrement de la qualité de ce que tu lui demandes.</p>
+    <p>Les modèles disponibles à la date de cet article sont particulièrement à l&#39;aise avec ce type de tâche. GPT-6 Astra (lancé le 3 septembre 2026) [F1], Gemini 3.8 Flash (déployé le 2 septembre 2026) [F2] et Claude Fable 5.1 (sorti le 1er septembre 2026) [F3] gèrent tous très bien la rédaction de textes courts et orientés conversion. Si tu hésites entre eux, mon article pour <a href="/articles/choisir-ia-ecrire-coder-images">choisir l&#39;IA adaptée à tes besoins de rédaction et d&#39;image</a> peut t&#39;aider à trancher.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Écrire le texte de ton annonce</h2>
+    <p>La structure d&#39;une bonne annonce, c&#39;est toujours la même chose : un titre qui accroche, une description qui répond aux questions que l&#39;acheteur se pose, et un appel à l&#39;action clair. L&#39;IA maîtrise cette structure. Ce que toi tu apportes, c&#39;est la connaissance de ton objet ou de ton bien.</p>
+    <p><strong>Pour Leboncoin</strong>, les acheteurs cherchent des informations précises et veulent éviter les mauvaises surprises. Donne à l&#39;IA : le nom exact de l&#39;objet, l&#39;état (neuf, très bon état, bon état avec défauts), les dimensions ou caractéristiques techniques, l&#39;année d&#39;achat si tu t&#39;en souviens, et le prix que tu vises. Demande-lui d&#39;écrire pour un acheteur qui compare plusieurs annonces et qui a besoin d&#39;être rassuré.</p>
+    <p><strong>Pour Vinted</strong>, le ton est un peu différent. Les acheteurs sont habitués à un langage direct, souvent plus proche d&#39;une conversation. Tu peux demander à l&#39;IA d&#39;adopter ce registre, tout en restant précis sur la taille, la marque, l&#39;état et les éventuels défauts. Un défaut signalé clairement dans l&#39;annonce, c&#39;est moins de litiges après la vente.</p>
+    <p><strong>Pour Airbnb</strong>, l&#39;enjeu est différent. Tu ne vends pas un objet, tu vends une expérience. Là, l&#39;IA peut t&#39;aider à mettre en valeur l&#39;atmosphère, la localisation, les petits détails qui font la différence (la vue depuis le salon, la proximité d&#39;un marché, la terrasse). Donne-lui les points forts de ton logement, le type de voyageurs que tu cibles, et demande-lui d&#39;écrire une description qui donne envie de réserver.</p>
+    <p>Dans tous les cas, la règle reste la même : l&#39;IA rédige, toi tu relis et tu valides [F11]. Elle peut produire des formulations approximatives ou des informations légèrement incorrectes (c&#39;est ce qu&#39;on appelle une <a href="/lexique/hallucination">hallucination</a>). Rien de dramatique si tu gardes les yeux ouverts avant de publier.</p>
+    <div class="callout tip"><h4>Mon conseil</h4><p>Demande à l'IA de rédiger deux versions de ta description : une version courte (5-6 lignes) et une version longue (12-15 lignes). Tu choisis selon la plateforme et tu peux combiner les meilleures formulations de chacune. Ça prend trente secondes de plus et le résultat est souvent bien meilleur.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Sublimer tes photos sans studio</h2>
+    <p>Le texte, c&#39;est une moitié du travail. Les photos, c&#39;est l&#39;autre. Et souvent la plus négligée.</p>
+    <p>Les outils d&#39;amélioration d&#39;images par IA font aujourd&#39;hui des choses qui auraient demandé un photographe professionnel il y a quelques années. Correction de l&#39;éclairage, suppression d&#39;arrière-plan, retouche automatique, accentuation des détails [F7] : tout ça est accessible depuis ton navigateur, parfois gratuitement. Mon article sur <a href="/articles/modifier-photo-avec-ia">modifier une photo avec l&#39;IA</a> fait le tour des options disponibles.</p>
+    <p>Pour un objet à vendre sur Leboncoin ou Vinted, l&#39;amélioration la plus utile est souvent la plus simple : supprimer le fond encombrant (le carrelage de ta cuisine, la moquette du couloir) et le remplacer par un fond blanc ou neutre. Le produit devient immédiatement plus lisible. Les marques qui utilisent ce type d&#39;outil pour leurs photos produits observent en moyenne une réduction de 20 % de leurs taux de retour, grâce à des représentations plus précises [S1].</p>
+    <p>Pour un logement Airbnb, les enjeux sont différents. Des outils comme InterieurAI peuvent analyser tes photos de pièces, identifier les caractéristiques du bien et même proposer un ordre optimal pour les photos dans ton annonce [F9]. C&#39;est particulièrement utile si tu gères plusieurs biens ou si tu remets à jour une annonce existante.</p>
+    <p>L&#39;IA peut aussi générer des images dites &quot;de style de vie&quot; : un produit mis en situation dans un contexte réaliste, ce qui crée une connexion plus forte avec l&#39;acheteur potentiel [F8]. Pour la génération d&#39;images à partir de zéro, Midjourney V8.2 (version par défaut depuis le 24 juillet 2026) est réputé fort sur la qualité esthétique et la personnalisation [F4]. ChatGPT Images 2.0, lancé le 21 avril 2026, est une autre option solide directement intégrée à l&#39;interface ChatGPT [F5]. Mon article sur <a href="/articles/creer-images-ia-gratuit">créer des images avec l&#39;IA gratuitement</a> te donnera les options selon ton budget.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Pour les annonces immobilières, les visuels de home staging générés par IA doivent être clairement signalés s'ils risquent d'être confondus avec une représentation réelle du logement [F10]. Ne jamais utiliser l'IA pour masquer un défaut visible : une fissure, une tache, un équipement manquant. C'est à la fois une question d'honnêteté et une façon d'éviter des litiges coûteux après la transaction.</p></div>
+    
+    <h2>Par où commencer selon ta plateforme</h2>
+    <p>Voici comment j&#39;aborderais chaque cas concrètement.</p>
+    <p><strong>Leboncoin, objet d&#39;occasion.</strong> Prends deux ou trois photos avec ton téléphone, éclairage naturel de préférence. Passe-les dans un outil de retouche IA pour corriger l&#39;exposition et supprimer le fond si nécessaire. Ouvre ChatGPT ou Gemini, donne les caractéristiques de l&#39;objet et demande une annonce pour Leboncoin, ton état exact et ton prix. Relis, ajuste les détails que l&#39;IA ne pouvait pas connaître (l&#39;égratignure sur le côté gauche, le fait que la télécommande soit incluse), puis publie.</p>
+    <p><strong>Vinted, vêtement ou accessoire.</strong> La photo à plat sur un fond uni est souvent plus efficace qu&#39;une photo sur cintre. L&#39;IA peut améliorer la luminosité et le contraste. Pour le texte, précise la taille, la marque, l&#39;état et les mesures réelles si c&#39;est une pièce dont la coupe peut varier. Demande à l&#39;IA d&#39;inclure les défauts éventuels dans la description, formulés clairement mais sans dramatiser.</p>
+    <p><strong>Airbnb, location courte durée.</strong> C&#39;est là que l&#39;IA apporte le plus de valeur sur le texte. Elle peut transformer une liste de caractéristiques (&quot;2 chambres, cuisine équipée, proche métro&quot;) en une description qui donne envie. Donne-lui aussi le profil de tes voyageurs idéaux (familles, voyageurs d&#39;affaires, couples) pour qu&#39;elle adapte le ton. Pour les photos, l&#39;ordre des visuels compte autant que leur qualité : commence par la pièce la plus lumineuse et la plus représentative de l&#39;ambiance.</p>
+    <p>Si tu te demandes si les outils payants valent vraiment l&#39;investissement pour ce type d&#39;usage, mon article sur <a href="/articles/ia-gratuite-ou-payante">IA gratuite ou payante</a> répond à cette question de façon directe.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>Quels sont les meilleurs outils IA gratuits pour rédiger des annonces ?</h3>
+    <p>À la date de cet article, ChatGPT (version gratuite avec GPT-6 Astra disponible en accès limité), Gemini 3.8 Flash et Claude sont tous utilisables gratuitement pour rédiger des textes d&#39;annonces. La version gratuite suffit largement pour ce type de tâche. Le plus important n&#39;est pas l&#39;outil choisi mais la façon dont tu lui expliques ce que tu veux.</p>
+    <h3>L&#39;IA peut-elle vraiment comprendre le ton spécifique de Leboncoin ou Vinted ?</h3>
+    <p>Oui, si tu le lui précises. L&#39;IA s&#39;adapte au registre que tu lui demandes. Dis-lui explicitement &quot;rédige pour Leboncoin, ton direct et factuel&quot; ou &quot;rédige pour Vinted, ton décontracté mais précis&quot;. Elle ajustera le vocabulaire et la structure en conséquence. Tu peux aussi lui coller en exemple une annonce que tu trouves bien écrite sur la plateforme, pour qu&#39;elle s&#39;en inspire.</p>
+    <h3>Comment m&#39;assurer que les photos améliorées par IA restent réalistes ?</h3>
+    <p>Compare toujours la photo retouchée à l&#39;originale avant de publier. L&#39;IA peut parfois surexposer, saturer les couleurs ou lisser des textures de façon peu naturelle. L&#39;objectif est une photo plus claire et plus lisible, pas une photo qui fait rêver mais qui déçoit à la livraison. Pour l&#39;immobilier, cette règle est encore plus stricte : ne publie jamais un visuel IA qui pourrait être confondu avec l&#39;état réel du bien [F10].</p>
+    <h3>Dois-je mentionner que mon annonce a été rédigée ou modifiée par une IA ?</h3>
+    <p>Les plateformes comme Leboncoin, Vinted ou Airbnb n&#39;imposent pas de mention spécifique à ce jour. Ce qui compte, c&#39;est que le contenu soit exact et honnête. L&#39;IA est un outil de rédaction, comme un correcteur orthographique ou un ami qui t&#39;aide à formuler. Tant que les informations sont vraies et que tu as relu le texte, il n&#39;y a pas d&#39;obligation de le signaler.</p>
+    <h3>Combien de temps l&#39;IA me fera-t-elle gagner concrètement ?</h3>
+    <p>C&#39;est difficile à chiffrer précisément car ça dépend de combien de temps tu passes habituellement sur une annonce. Ce que je peux dire, c&#39;est que la rédaction du texte passe de plusieurs dizaines de minutes à quelques minutes, le temps de formuler ta demande et de relire le résultat. Pour les photos, la retouche manuelle d&#39;une image peut prendre entre 10 et 30 minutes selon l&#39;outil et ton niveau. Un outil IA automatise la majorité de ce travail en moins d&#39;une minute.</p>
+    <h3>L&#39;IA peut-elle m&#39;aider à fixer le prix de vente de mon article ou bien ?</h3>
+    <p>Pas directement, et je déconseille de lui faire confiance là-dessus. L&#39;IA peut te donner des fourchettes générales basées sur ce qu&#39;elle connaît, mais elle n&#39;a pas accès aux prix pratiqués en temps réel sur Leboncoin ou Vinted. Pour fixer un prix juste, cherche toi-même des annonces similaires sur la plateforme, filtre par &quot;vendus&quot; si la fonctionnalité existe, et positionne-toi en conséquence. L&#39;IA peut ensuite t&#39;aider à formuler le prix de façon convaincante dans le texte.</p>
+    <h2>Ce que je retiens</h2>
+    <p>L&#39;IA ne remplace pas la connaissance que tu as de ce que tu vends. Elle ne sait pas que ton canapé a une petite égratignure sur l&#39;accoudoir gauche, ni que ton appartement Airbnb sent le café le matin grâce à la boulangerie en bas de l&#39;immeuble. Ces détails, c&#39;est toi qui les apportes.</p>
+    <p>Ce qu&#39;elle fait, c&#39;est transformer ces détails en texte bien structuré, en description qui répond aux questions de l&#39;acheteur avant qu&#39;il les pose, et en photos qui mettent ton bien en valeur sans mensonge. Je fais tout ça d&#39;abord pour moi, pour vendre plus vite et avec moins d&#39;énergie dépensée sur des tâches de mise en forme.</p>
+    <p>La règle que je ne transgresse jamais : relire avant de publier, ne jamais cacher un défaut, et garder le contrôle final sur ce qui sort sous mon nom.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>1 mail par semaine.<br>Ce que je teste <em>vraiment.</em></h3>
+        <p>Mes vrais usages IA, les outils que j'achète/garde/jette, mes articles dès qu'ils sortent. Pas de récap d'actu, pas de blabla.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="ton@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Adresse email">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">M'inscrire</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          Une question, un doute, une critique ? <strong>Écris-moi — je lis tout, je réponds à tout.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Lire</h5>
+        <ul>
+          <li><a href="../apprendre">Parcours débutant</a></li>
+          <li><a href="../claude-code">Guide Claude Code</a></li>
+          <li><a href="../articles">Tous les articles</a></li>
+          <li><a href="../lexique">Lexique IA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Outils</h5>
+        <ul>
+          <li><a href="../precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Générateur photos · 39 €</a></li>
+          <li><a href="../outils">Ma stack outils</a></li>
+          <li><a href="../modeles-ia">Guide des modèles IA</a></li>
+          <li><a href="../podcast">Podcast Guerres d'IA</a></li>
+          <li><a href="../github">Mon GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Suis-moi</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Légal</h5>
+        <ul>
+          <li><a href="../mentions-legales">Mentions légales</a></li>
+          <li><a href="../politique-confidentialite">Confidentialité</a></li>
+          <li><a href="../cgv">CGV</a></li>
+          <li><a href="../suppression-donnees">Supprimer mes données</a></li>
+          <li><a href="../preferences">Préférences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Fait avec du café</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

@@ -390,8 +390,9 @@
       "topic": "rédiger des annonces qui vendent avec l IA : Leboncoin, Vinted, Airbnb — texte et photos améliorés pour vendre plus vite",
       "type": "A",
       "priority": 3,
-      "status": "pending",
-      "added": "2026-07-20"
+      "status": "done",
+      "added": "2026-07-20",
+      "published_at": "2026-09-08"
     },
     {
       "id": "ia-dans-word-et-docs",

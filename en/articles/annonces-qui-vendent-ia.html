@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/annonces-qui-vendent-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Leboncoin, Vinted, Airbnb: write listings faster with AI · Jerwis</title>
+<meta name="description" content="Sharper copy, better photos: I share my AI methods and tools to sell faster on Leboncoin, Vinted, and Airbnb. No jargon, just what actually works.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Leboncoin, Vinted, Airbnb: write listings faster with AI">
+<meta property="og:description" content="Sharper copy, better photos: my AI methods to sell faster on Leboncoin, Vinted, and Airbnb.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/annonces-qui-vendent-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/annonces-qui-vendent-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-08">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Leboncoin, Vinted, Airbnb: write listings faster with AI">
+<meta name="twitter:description" content="Sharper copy, better photos: my AI methods to sell faster on Leboncoin, Vinted, and Airbnb.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/annonces-qui-vendent-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/annonces-qui-vendent-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/annonces-qui-vendent-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/annonces-qui-vendent-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/annonces-qui-vendent-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Leboncoin, Vinted, Airbnb: write listings faster with AI",
+  "description": "Sharper copy, better photos: I share my AI methods and tools to sell faster on Leboncoin, Vinted, and Airbnb. No jargon, just what actually works.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/annonces-qui-vendent-ia",
+  "datePublished": "2026-09-08",
+  "dateModified": "2026-09-08",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/annonces-qui-vendent-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 66</div>
+    <h1>Sell faster<br>with a listing<br><em>written by AI</em></h1>
+    <p class="hero-lead">
+      You spend half an hour on a Leboncoin listing, struggle to describe your couch, snap three blurry photos, and hope for the best. I've been there. Since I started using AI to write and polish my listings, the whole thing takes ten minutes instead of an hour, and the results are noticeably better. In this article, I show you exactly how to do it, which tools to use, and where not to get tripped up.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, Gemini, AI photo editing tools</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>AI generates listing copy <strong>in seconds</strong>, you review and approve it.</li>
+      <li>AI photo tools fix lighting, remove backgrounds, and retouch images <strong>without a pro shoot</strong>.</li>
+      <li>For real estate, tools like InterieurAI analyze your photos and suggest the <strong>optimal sequence</strong>.</li>
+      <li>AI doesn't replace your judgment: always proofread before publishing, and never hide a flaw.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>I test it myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+  <span>Zero jargon</span><span>I test it myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Why AI actually changes the game here</h2>
+    <p>Selling an item or renting out a place is, at its core, a communication problem. You have something to offer, someone out there is looking for exactly that, and between the two of you sits a listing that needs to make the connection. The problem is that most listings are lazy. Vague title, three-line description, photo taken at an angle with the phone half-falling off the table.</p>
+    <p>AI fixes exactly that. It can generate a structured, coherent, well-written description in seconds, from a handful of details you give it [F6]. It can also correct the lighting in a photo, remove a cluttered background, or make a product look its best, without a studio or complicated software [F7].</p>
+    <p>It's not magic. It's a matter of method.</p>
+    <p>For AI to produce something useful, you need to give it the right inputs. If you just say "write a listing for a couch," you'll get something generic. If you specify the brand, condition, color, dimensions, year of purchase, asking price, and target platform, the result is something you can use right away. That's exactly what I cover in my article on <a href="/en/articles/ecrire-bon-prompt-non-dev">how to write effective AI prompts</a>: the quality of the output depends almost entirely on the quality of what you ask.</p>
+    <p>The models available at the time of this article are particularly good at this kind of task. GPT-6 Astra (launched September 3, 2026) [F1], Gemini 3.8 Flash (deployed September 2, 2026) [F2], and Claude Fable 5.1 (released September 1, 2026) [F3] all handle short, conversion-focused writing very well. If you're not sure which one to pick, my article on <a href="/en/articles/choisir-ia-ecrire-coder-images">choosing the right AI for writing and images</a> can help you decide.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Writing your listing copy</h2>
+    <p>A good listing always follows the same structure: a title that grabs attention, a description that answers the questions buyers are already asking, and a clear call to action. AI has that structure down. What you bring is the knowledge of what you're actually selling.</p>
+    <p><strong>For Leboncoin</strong>, buyers want precise information and want to avoid bad surprises. Give the AI: the exact name of the item, its condition (new, like new, good condition with flaws), dimensions or technical specs, year of purchase if you remember it, and your asking price. Ask it to write for a buyer who's comparing multiple listings and needs reassurance.</p>
+    <p><strong>For Vinted</strong>, the tone is a bit different. Buyers there are used to direct, conversational language. You can ask the AI to match that register, while staying specific about size, brand, condition, and any flaws. A flaw mentioned clearly in the listing means fewer disputes after the sale.</p>
+    <p><strong>For Airbnb</strong>, the stakes are different. You're not selling an object, you're selling an experience. Here, AI can help you highlight the atmosphere, the location, the small details that make a difference (the view from the living room, the market around the corner, the terrace). Give it your place's best features, the type of travelers you're targeting, and ask it to write a description that makes people want to book.</p>
+    <p>In every case, the rule stays the same: AI writes, you review and approve [F11]. It can produce slightly off phrasing or subtly incorrect details (that's what's called a <a href="/en/lexique/hallucination">hallucination</a>). Nothing dramatic, as long as you keep your eyes open before hitting publish.</p>
+    <div class="callout tip"><h4>My tip</h4><p>Ask the AI to write two versions of your description: a short one (5-6 lines) and a long one (12-15 lines). You pick based on the platform, and you can mix the best phrasing from each. It takes thirty extra seconds and the result is usually much better.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Better photos without a studio</h2>
+    <p>Copy is half the job. Photos are the other half. And usually the more neglected one.</p>
+    <p>AI image tools can now do things that would have required a professional photographer just a few years ago. Lighting correction, background removal, automatic retouching, detail sharpening [F7]: all of it is accessible from your browser, sometimes for free. My article on <a href="/en/articles/modifier-photo-avec-ia">editing photos with AI</a> covers the available options.</p>
+    <p>For an item you're selling on Leboncoin or Vinted, the most useful improvement is often the simplest: remove the cluttered background (your kitchen tiles, the hallway carpet) and replace it with a white or neutral one. The product immediately becomes easier to read. Brands using this kind of tool for their product photos see an average 20% reduction in return rates, thanks to more accurate visual representation [S1].</p>
+    <p>For an Airbnb listing, the stakes are different. Tools like InterieurAI can analyze your room photos, identify the property's characteristics, and even suggest an optimal photo order for your listing [F9]. That's especially useful if you manage multiple properties or are refreshing an existing listing.</p>
+    <p>AI can also generate what are called "lifestyle images": a product shown in a realistic context, which creates a stronger connection with potential buyers [F8]. For generating images from scratch, Midjourney V8.2 (the default version since July 24, 2026) is known for its aesthetic quality and customization [F4]. ChatGPT Images 2.0, launched April 21, 2026, is another solid option built directly into the ChatGPT interface [F5]. My article on <a href="/en/articles/creer-images-ia-gratuit">creating images with AI for free</a> will walk you through the options based on your budget.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>For real estate listings, AI-generated home staging visuals must be clearly labeled if there's any risk they could be mistaken for the actual state of the property [F10]. Never use AI to hide a visible flaw: a crack, a stain, missing equipment. It's both a matter of honesty and a way to avoid costly disputes after the transaction.</p></div>
+    
+    <h2>Where to start, depending on your platform</h2>
+    <p>Here's how I'd approach each situation concretely.</p>
+    <p><strong>Leboncoin, secondhand item.</strong> Take two or three photos with your phone, natural light if possible. Run them through an AI editing tool to fix the exposure and remove the background if needed. Open ChatGPT or Gemini, give it the item's details, and ask for a Leboncoin listing with your exact condition and price. Proofread, adjust the details AI couldn't know (the scratch on the left side, the fact that the remote is included), then publish.</p>
+    <p><strong>Vinted, clothing or accessory.</strong> A flat lay on a plain background often works better than a hanger shot. AI can improve brightness and contrast. For the copy, include the size, brand, condition, and actual measurements if the fit might vary. Ask the AI to include any flaws in the description, stated clearly but without overdramatizing.</p>
+    <p><strong>Airbnb, short-term rental.</strong> This is where AI adds the most value on the copy side. It can turn a list of features ("2 bedrooms, fully equipped kitchen, close to the metro") into a description that makes people want to stay. Give it your ideal guest profile too (families, business travelers, couples) so it can adjust the tone. For photos, the order of your visuals matters as much as their quality: start with the brightest, most atmosphere-defining room.</p>
+    <p>If you're wondering whether paid tools are really worth it for this kind of use, my article on <a href="/en/articles/ia-gratuite-ou-payante">free vs. paid AI</a> answers that question directly.</p>
+    <h2>FAQ</h2>
+    <h3>What are the best free AI tools for writing listings?</h3>
+    <p>At the time of this article, ChatGPT (free version with limited access to GPT-6 Astra), Gemini 3.8 Flash, and Claude are all usable for free to write listing copy. The free tier is more than enough for this kind of task. What matters most isn't the tool you pick but how clearly you explain what you want.</p>
+    <h3>Can AI really understand the specific tone of Leboncoin or Vinted?</h3>
+    <p>Yes, if you tell it to. AI adapts to whatever register you ask for. Be explicit: "write for Leboncoin, direct and factual tone" or "write for Vinted, casual but precise." It will adjust the vocabulary and structure accordingly. You can also paste in an example listing you think is well written on that platform, so it can take inspiration from it.</p>
+    <h3>How do I make sure AI-enhanced photos still look realistic?</h3>
+    <p>Always compare the retouched photo to the original before publishing. AI can sometimes overexpose, oversaturate colors, or smooth textures in an unnatural way. The goal is a clearer, more readable photo, not one that looks amazing but disappoints at delivery. For real estate, this rule is even stricter: never publish an AI visual that could be mistaken for the actual state of the property [F10].</p>
+    <h3>Do I need to disclose that my listing was written or edited by AI?</h3>
+    <p>Platforms like Leboncoin, Vinted, and Airbnb don't require any specific disclosure as of today. What matters is that the content is accurate and honest. AI is a writing tool, like a spell checker or a friend helping you find the right words. As long as the information is true and you've proofread the text, there's no obligation to flag it.</p>
+    <h3>How much time will AI actually save me?</h3>
+    <p>It's hard to put an exact number on it since it depends on how long you normally spend on a listing. What I can say is that writing the copy goes from several dozen minutes down to a few minutes, the time it takes to phrase your request and review the result. For photos, manual retouching can take anywhere from 10 to 30 minutes depending on the tool and your skill level. An AI tool automates most of that in under a minute.</p>
+    <h3>Can AI help me set the right selling price for my item or property?</h3>
+    <p>Not really, and I wouldn't trust it for that. AI can give you general price ranges based on what it knows, but it doesn't have access to real-time prices on Leboncoin or Vinted. To set a fair price, search for similar listings on the platform yourself, filter by "sold" if that feature exists, and position yourself accordingly. AI can then help you frame the price convincingly in the copy.</p>
+    <h2>My takeaways</h2>
+    <p>AI doesn't replace the knowledge you have of what you're selling. It doesn't know your couch has a small scratch on the left armrest, or that your Airbnb apartment smells like fresh coffee in the morning thanks to the bakery downstairs. Those details are yours to bring.</p>
+    <p>What it does is turn those details into well-structured copy, into a description that answers the buyer's questions before they even ask them, and into photos that show your item at its best without any dishonesty. I do all of this for myself first, to sell faster and spend less energy on formatting tasks.</p>
+    <p>The rule I never break: proofread before publishing, never hide a flaw, and keep final control over everything that goes out under my name.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, no jargon, no hype. If this article was useful, the easiest way to stay in the loop is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>One email a week.<br>What I actually <em>test.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me — I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>
