@@ -1,66 +1,78 @@
 {
-  "generated_at": "2026-09-07T09:54:47.204Z",
-  "day_label": "Lundi 7 septembre",
+  "generated_at": "2026-09-08T09:19:07.718Z",
+  "day_label": "Mardi 8 septembre",
   "items": [
     {
-      "title": "Revolut et Visa testent le premier paiement déclenché par une IA en France",
-      "why_it_matters": "Je retiens que l'IA peut désormais acheter sans validation humaine. Cela change la donne pour les flux de trésorerie et le contrôle des dépenses.",
-      "sources": [
-        {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/3236163_que-pourrait-il-mal-se-passer-revolut-et-visa-realisent-le-premier-paiement-declenche-par-une-ia-en-france"
-        },
-        {
-          "name": "Maddyness",
-          "url": "https://www.maddyness.com/2026/09/07/revolut-realise-le-premier-paiement-par-ia-en-france-avec-visa/"
-        },
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/bons-plans/banque-en-ligne/trouve-moi-le-meilleur-produit-et-achete-le-revolut-teste-pour-la-premiere-fois-en-france-le-paiement-delegue-a-une-ia_AD-202609070336.html"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic force la déconnexion de ses utilisateurs après une attaque malware",
-      "why_it_matters": "Je note que même les leaders de l'IA subissent des attaques. Si vous utilisez Claude en production, prévoyez un plan B pour éviter les coupures.",
+      "title": "Mistral AI lève 3 milliards et vise 21 milliards de valorisation",
+      "why_it_matters": "Je retiens : la plus grosse levée tech européenne. Samsung investit. Mistral veut devenir l'infra IA souveraine face aux US. Un signal fort pour les IA françaises.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/anthropic-deconnecte-ses-utilisateurs-et-efface-leurs-informations-de-paiement-pour-se-proteger-contre-une-attaque-de-malware-502905.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/mistral-ai-leve-3-milliards-deuros-et-atteint-une-valorisation-de-21-milliards-503013.htm#xtor=RSS-1"
+        },
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/mistral-ai-leve-3-milliards-deuros-derriere-les-modeles-la-bataille-pour-devenir-linfrastructure-souveraine-de-lia.ZAZODQZW4FDP5PN34WVNFJV4LI.html"
+        },
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/tech/2327337-mistral-leve-3-milliards-deuros-pour-imposer-lia-souveraine-comme-nouvelle-frontiere-technologique.html"
+        },
+        {
+          "name": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/mistral-ai-levee-fonds-3-milliards-euros/"
+        },
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/mistral-plan-ia-francaise-contourne-geants-americains-international/"
         }
       ]
     },
     {
-      "title": "Free et BNP Paribas condamnés pour SIM swapping : 17 000 € volés",
-      "why_it_matters": "Je retiens que la justice impose aux opérateurs et banques de mieux protéger leurs clients. Cela réduit le risque pour les entrepreneurs victimes de fraude.",
+      "title": "L'ANSSI prend les pleins pouvoirs sur les systèmes de l'État",
+      "why_it_matters": "Je note : face aux cyberattaques en série, l'agence impose des mesures d'urgence aux ministères. La sécurité devient prioritaire, même pour les PME qui travaillent avec le public.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-vol-de-17-000-euros-par-sim-swapping-la-justice-tranche-enfin-et-sanctionne-free-avec-la-bnp-paribas-500400.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/lanssi-prend-les-pleins-pouvoirs-pour-stopper-lhemorragie-cyber-de-letat-503007.htm#xtor=RSS-1"
+        },
+        {
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/cybersecurite-1371/anssi-reactiv-229004"
         }
       ]
     },
     {
-      "title": "Budget 2027 : taxe sur l'épargne salariale et indemnités de rupture en vue",
-      "why_it_matters": "Je note que l'État cible l'épargne salariale et les indemnités de licenciement. Cela peut affecter votre masse salariale et vos outils de rétention.",
+      "title": "Les professions réglementées ne peuvent plus externaliser leur IA aux US",
+      "why_it_matters": "Je retiens : secret professionnel oblige, avocats, médecins, experts-comptables doivent héberger leurs IA en Europe. Le RAG souverain devient un enjeu juridique, pas juste marketing.",
       "sources": [
         {
           "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1554453-le-gouvernement-pret-a-taxer-les-indemnites-de-rupture-de-cdi-pour-les-hauts-revenus-dans-le-budget-2027/"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/le-gouvernement-etudie-la-piste-l-instauration-de-prelevements-sur-l-epargne-salariale-pour-financer-le-budget-2027-selon-le-ministre-de-l-economie_8180675.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1554493-rag-souverain-pourquoi-les-professions-reglementees-ne-peuvent-plus-externaliser-leur-ia-aux-etats-unis/"
         }
       ]
     },
     {
-      "title": "AMD lance une station de travail pour faire tourner des IA à 1 000 milliards de paramètres",
-      "why_it_matters": "Je retiens qu'on peut désormais faire tourner des modèles géants en local. Cela ouvre la voie à l'IA sur site pour les entrepreneurs qui veulent garder leurs données.",
+      "title": "Cyber Resilience Act : obligation de signaler les failles dès le 11 septembre",
+      "why_it_matters": "Je note : les fabricants de produits tech doivent déclarer toute vulnérabilité sous 24h. Si vous vendez du logiciel ou du matériel en Europe, vous êtes concerné dès jeudi.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/amd-presente-une-station-de-travail-capable-de-faire-tourner-des-ia-a-mille-milliards-de-parametres-502877.htm#xtor=RSS-1"
+          "name": "Next",
+          "url": "https://next.ink/255197/cyber-resilience-act-les-obligations-de-signalement-entrent-en-vigueur-le-11-septembre/"
+        }
+      ]
+    },
+    {
+      "title": "L'IA crée une dette de complexité invisible dans les entreprises",
+      "why_it_matters": "Je retiens : les outils IA accélèrent le code, mais empilent de la dette technique cachée. Gains de productivité à court terme, risque de maintenance ingérable à moyen terme.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1554463-l-ia-cree-une-dette-de-complexite-que-les-entreprises-ne-peuvent-plus-ignorer/"
+        },
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/developpeur/1554473-les-developpeurs-et-l-ia-pas-la-fin-mais-le-debut-d-un-nouveau-role-de-catalyseurs-d-innovation/"
         }
       ]
     }
