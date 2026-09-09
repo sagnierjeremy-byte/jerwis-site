@@ -1,78 +1,70 @@
 {
-  "generated_at": "2026-09-08T09:19:07.718Z",
-  "day_label": "Mardi 8 septembre",
+  "generated_at": "2026-09-09T09:22:01.063Z",
+  "day_label": "Mercredi 9 septembre",
   "items": [
     {
-      "title": "Mistral AI lève 3 milliards et vise 21 milliards de valorisation",
-      "why_it_matters": "Je retiens : la plus grosse levée tech européenne. Samsung investit. Mistral veut devenir l'infra IA souveraine face aux US. Un signal fort pour les IA françaises.",
+      "title": "Un chercheur quitte OpenAI et Anthropic : l'IA pourrait tuer tout le monde",
+      "why_it_matters": "Jacob Coxon accuse les deux géants de l'IA d'irresponsabilité. Si les créateurs d'IA partent en claquant la porte, je m'interroge sur les risques réels.",
       "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/mistral-ai-leve-3-milliards-deuros-et-atteint-une-valorisation-de-21-milliards-503013.htm#xtor=RSS-1"
-        },
-        {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/mistral-ai-leve-3-milliards-deuros-derriere-les-modeles-la-bataille-pour-devenir-linfrastructure-souveraine-de-lia.ZAZODQZW4FDP5PN34WVNFJV4LI.html"
-        },
         {
           "name": "Numerama",
-          "url": "https://www.numerama.com/tech/2327337-mistral-leve-3-milliards-deuros-pour-imposer-lia-souveraine-comme-nouvelle-frontiere-technologique.html"
+          "url": "https://www.numerama.com/tech/2328729-ancien-chercheur-dopenai-et-anthropic-il-demissionne-et-accuse-les-geants-de-lia-de-jouer-avec-nos-vies-decryptage-du-temoignage-de-jacob-coxon.html"
         },
         {
-          "name": "Blog du Modérateur",
-          "url": "https://www.blogdumoderateur.com/mistral-ai-levee-fonds-3-milliards-euros/"
-        },
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/mistral-plan-ia-francaise-contourne-geants-americains-international/"
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-gens-qui-construisent-l-ia-croient-qu-elle-pourrait-tous-nous-tuer-d-ici-a-la-fin-de-la-decennie-le-chercheur-jacob-coxon-qui-a-travaille-pour-anthropic-et-openai-quitte-l-industrie_6768853_3234.html"
         }
       ]
     },
     {
-      "title": "L'ANSSI prend les pleins pouvoirs sur les systèmes de l'État",
-      "why_it_matters": "Je note : face aux cyberattaques en série, l'agence impose des mesures d'urgence aux ministères. La sécurité devient prioritaire, même pour les PME qui travaillent avec le public.",
+      "title": "Loft Orbital lève 1 milliard $ avec Mistral : IA + satellites d'observation",
+      "why_it_matters": "Une start-up française décroche un milliard des Émirats pour une constellation satellite dopée à l'IA. Preuve que la deeptech française peut lever gros.",
+      "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://air-cosmos.latribune.fr/article/espace/19794223548526/sommet-spatial-avec-mistral-loft-orbital-investit-un-milliard-de-dollars-aux-emirats"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-emirats-engagent-un-milliard-de-dollars-dans-un-projet-francais-d-ia-dans-l-espace_6768866_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "Meta lance Muse : un agent IA qui achète et remplit des formulaires à ta place",
+      "why_it_matters": "Muse agit directement sur ton ordi : il peut faire des achats, prendre des RDV, remplir des formulaires. Je note l'arrivée concrète des agents IA autonomes.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/lanssi-prend-les-pleins-pouvoirs-pour-stopper-lhemorragie-cyber-de-letat-503007.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/muse-meta-devoile-son-agent-ia-personnel-pour-les-taches-du-quotidien-503111.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Le pétrole repasse au-dessus de 100 dollars : inflation et tensions au Moyen-Orient",
+      "why_it_matters": "Le Brent dépasse 100 $ après des attaques contre l'Iran. Je retiens l'impact direct sur les coûts : carburant, matières premières, marges.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/petrole-le-prix-du-baril-de-brent-frole-les-100-dollars-apres-des-attaques-contre-larabie-saoudite-1529972"
         },
         {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/anssi-reactiv-229004"
-        }
-      ]
-    },
-    {
-      "title": "Les professions réglementées ne peuvent plus externaliser leur IA aux US",
-      "why_it_matters": "Je retiens : secret professionnel oblige, avocats, médecins, experts-comptables doivent héberger leurs IA en Europe. Le RAG souverain devient un enjeu juridique, pas juste marketing.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1554493-rag-souverain-pourquoi-les-professions-reglementees-ne-peuvent-plus-externaliser-leur-ia-aux-etats-unis/"
-        }
-      ]
-    },
-    {
-      "title": "Cyber Resilience Act : obligation de signaler les failles dès le 11 septembre",
-      "why_it_matters": "Je note : les fabricants de produits tech doivent déclarer toute vulnérabilité sous 24h. Si vous vendez du logiciel ou du matériel en Europe, vous êtes concerné dès jeudi.",
-      "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/255197/cyber-resilience-act-les-obligations-de-signalement-entrent-en-vigueur-le-11-septembre/"
-        }
-      ]
-    },
-    {
-      "title": "L'IA crée une dette de complexité invisible dans les entreprises",
-      "why_it_matters": "Je retiens : les outils IA accélèrent le code, mais empilent de la dette technique cachée. Gains de productivité à court terme, risque de maintenance ingérable à moyen terme.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1554463-l-ia-cree-une-dette-de-complexite-que-les-entreprises-ne-peuvent-plus-ignorer/"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-baril-de-brent-franchit-a-nouveau-la-barre-symbolique-des-100-dollars-20260909"
         },
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/developpeur/1554473-les-developpeurs-et-l-ia-pas-la-fin-mais-le-debut-d-un-nouveau-role-de-catalyseurs-d-innovation/"
+          "name": "Capital (CAC 40)",
+          "url": "https://www.capital.fr/entreprises-marches/cac-40-la-bourse-chute-un-petrole-a-trois-chiffres-accroit-les-risques-et-la-pression-sur-la-fed-et-la-bce-1529977"
+        }
+      ]
+    },
+    {
+      "title": "Data centers : 31 600 milliards $ investis d'ici 2050 selon PwC",
+      "why_it_matters": "Les dépenses mondiales en data centers vont doubler d'ici 2050. Je retiens l'explosion des besoins en infra liés à l'IA et les opportunités à capter.",
+      "sources": [
+        {
+          "name": "La Revue du Digital",
+          "url": "https://www.larevuedudigital.com/data-centers-un-total-de-31-600-milliards-investis-dans-le-monde-jusquen-2050-selon-pwc/"
         }
       ]
     }
