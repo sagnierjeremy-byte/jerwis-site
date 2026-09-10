@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/ia-dans-word-et-docs.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>AI in Word and Google Docs: write and edit with ease · Jerwis</title>
+<meta name="description" content="Copilot in Word, Gemini in Google Docs: what these AI assistants actually do, what they cost, and how to use them every day without any technical training.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI in Word and Google Docs: write and edit with ease">
+<meta property="og:description" content="Copilot in Word, Gemini in Google Docs: what they actually do, what they cost, and how to use them every day.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/ia-dans-word-et-docs">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/ia-dans-word-et-docs.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-10">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="AI in Word and Google Docs: write and edit with ease">
+<meta name="twitter:description" content="Copilot in Word, Gemini in Google Docs: what they actually do, what they cost, and how to use them every day.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/ia-dans-word-et-docs.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/ia-dans-word-et-docs">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/ia-dans-word-et-docs">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/ia-dans-word-et-docs">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/ia-dans-word-et-docs">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AI in Word and Google Docs: write and edit with ease",
+  "description": "Copilot in Word, Gemini in Google Docs: what these AI assistants actually do, what they cost, and how to use them every day without any technical training.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/ia-dans-word-et-docs",
+  "datePublished": "2026-09-10",
+  "dateModified": "2026-09-10",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/ia-dans-word-et-docs.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Breakdown · 78</div>
+    <h1>The AI assistant<br>you already have<br><em>inside your documents</em></h1>
+    <p class="hero-lead">
+      You use Word or Google Docs every day, and you're wondering if the built-in AI is actually worth anything. Copilot in Word, Gemini in Google Docs: these assistants are already there, inside tools you know inside and out. I tested them. Here's what they concretely do, what they don't do all that well yet, and how to get real value out of them without any technical training.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> Microsoft Copilot, Google Gemini</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>Copilot in Word and Gemini in Google Docs let you <strong>draft, rewrite, summarize, and format</strong> documents right inside the interface.</li>
+      <li>Gemini is <strong>included in most Google Workspace plans</strong> since March 2026; Copilot costs an extra $30/user/month.</li>
+      <li>Gemini can <strong>replicate the formatting of an existing document</strong> and edit images with a simple text instruction.</li>
+      <li>These tools are assistants, not replacements: <strong>human review is a must</strong>, especially for sensitive or contractual documents.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>I test it on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+  <span>Zero jargon</span><span>I test it on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What these tools actually do</h2>
+    <p>You've probably noticed the Copilot button pop up in Word, or spotted the Gemini icon in Google Docs. And you wondered: is this another gimmick, or something genuinely useful?</p>
+    <p>Short answer: it's useful. But not for everything, and not in the same way depending on the tool.</p>
+    <p>Microsoft Copilot is built into Word to help you draft, rewrite, summarize, and format content directly inside the document. No extra tab to open. No copy-pasting into ChatGPT. You work in Word, and you call on Copilot when you need it. Since July 2026, Microsoft 365 Copilot runs on OpenAI's GPT-5.6 model family, optimized for business use. And since May 2026, Anthropic's Claude Opus 4.8 is also available inside Microsoft 365 Copilot for more advanced scenarios. Two engines to choose from, in the same tool.</p>
+    <p>On the Google side, the Gemini experience in Google Docs was redesigned in April 2026. The assistant can now generate, write, and refine documents in a centralized way, drawing on your organization's context: Drive, Gmail, Chat, and even the web. That contextual awareness is what sets it apart.</p>
+    <p>91% of companies reported using AI in at least one of their activities in 2026, up from 78% in 2024. And workers who use these tools save an average of 5.4% of their weekly hours. Those numbers come from a study published in July 2026. Not marketing promises. Actual usage measurements.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Copilot in Word: my takeaways</h2>
+    <p>Copilot activates via a side panel or directly in the document with a <code>/</code> command. You ask it to draft a first version from a few notes, rewrite a dense paragraph, or summarize a long document in a few lines.</p>
+    <p>What struck me most: the quality of the rewriting. Copilot doesn't just paraphrase. It restructures. Give it a messy draft and it turns it into something readable. That's especially useful when you're writing a report or a business proposal where you know the substance but haven't figured out the shape yet.</p>
+    <p>The summary feature is also very handy for long documents. If you receive a 40-page contract or a sprawling spec sheet, Copilot can pull out the key points. I actually wrote a dedicated article on <a href="/en/articles/resumer-pdf-video-avec-ia">summarizing PDFs and videos with AI</a> if you want to go deeper on that.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Copilot generates smooth, convincing text. Sometimes too smooth. It can invent details, nudge a number up or down, or produce a phrasing that sounds right but doesn't say what you meant. That's called a <a href="/en/lexique/hallucination">hallucination</a>: the AI fills in the gaps with plausibility, not truth. Always read what it produces before you hit send.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Gemini in Google Docs: formatting included</h2>
+    <p>Gemini has an advantage Copilot hasn't quite matched yet: it understands your organization's context. Since April 2026, it can draw on your Drive files, Gmail messages, or Chat conversations to generate a document that's consistent with what you've already produced.</p>
+    <p>But the feature that caught my attention most is "Match doc format." Launched in April 2026, it lets Gemini replicate the formatting of a source document: fonts, colors, structure. You show it a report or proposal template you normally use, and it generates the new content in the same visual style. For anyone who spends time reformatting documents, that's a real time-saver.</p>
+    <p>Since July 2026, Gemini also handles comment workflows in Google Docs. In practice: you can ask it to review your document and leave suggestions as comments, the way a human reviewer would. Handy for a quick pass before you send something out.</p>
+    <p>And since August 2026, Gemini can edit images directly inside a Google Docs document using a text instruction. You describe the change you want on an infographic or illustration, and it applies it without you having to open another tool.</p>
+    <p>Finally, since September 2026, custom instructions are available in Google Docs. You can tell it your preferred tone, your writing style, the terms you use in your field. Those instructions carry over to Drive, Chat, Slides, Sheets, and Gmail too.</p>
+    <p>To get the most out of these assistants, the quality of your instructions makes all the difference. If you're not sure how to phrase a request effectively, I wrote an article on <a href="/en/articles/ecrire-bon-prompt-non-dev">how to write a good prompt when you're not a developer</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What it actually costs</h2>
+    <p>That's usually the first question. And the answer depends on the tool.</p>
+    <p><strong>On the Google Workspace side</strong>, Gemini has been included by default in most Business plans since March 2026. Business Standard is $14/user/month, Business Plus is $22/user/month. The AI costs nothing extra. If you're already subscribed to one of those plans, Gemini is right there, no added charge.</p>
+    <p><strong>On the Microsoft side</strong>, it's a different story. Microsoft 365 Copilot costs $30 per user per month (annual commitment), on top of your existing Microsoft 365 license. That's not nothing for a small business or a solo entrepreneur. Before subscribing, it's worth testing the features available in your current version: some basic capabilities are accessible without the full Copilot subscription.</p>
+    <p>I wrote a more complete article on <a href="/en/articles/ia-gratuite-ou-payante">choosing between free and paid AI</a> if you want to weigh the pros and cons before pulling out your card.</p>
+    <div class="callout tip"><h4>My advice</h4><p>If you're already on Google Workspace Business Standard or Plus, start with Gemini. It's there, it's free within your subscription, and it covers the vast majority of everyday needs. Copilot is worth the investment if you work primarily in the Microsoft ecosystem and write a lot of long documents.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>How to get the most out of them day to day</h2>
+    <p>These assistants don't work like a search engine. You don't ask a vague question and wait for a miracle. You give them context, an objective, and a constraint.</p>
+    <p>A few uses that work well in practice:</p>
+    <ul>
+    <li><strong>Draft a first version</strong> from your raw notes. Paste your ideas in any order, ask the AI to turn them into a structured first draft. Then you rework it. Much faster than starting from a blank page.</li>
+    <li><strong>Rewrite a passage that's too technical</strong> for a non-specialist reader. Useful for business proposals or client emails.</li>
+    <li><strong>Summarize a long document</strong> before a meeting. You save reading time and keep the key points.</li>
+    <li><strong>Check the tone</strong> of a document before sending. You can ask the AI whether the text sounds too formal, too casual, or too vague.</li>
+    </ul>
+    <p>Third-party tools like Grammarly or LanguageTool also integrate with Word and Google Docs for real-time grammar and style checks. They complement the native assistants well, especially if you write in English.</p>
+    <p>One rule I stick to: I never let the AI have the final say on a document I'm sending to a client or a partner. It prepares, I decide. That takes five minutes of review, and it catches the errors the AI slips in without warning.</p>
+    <p>The privacy question is also worth pausing on. If you work with sensitive documents (contracts, client data, financial information), it's worth understanding what the platforms do with your data. I covered this in my article on <a href="/en/articles/donnees-perso-ia-confidentialite">data privacy with AI</a>.</p>
+    <p>And if you want to compare these tools with other AI assistants focused on writing, I also have an article on <a href="/en/articles/choisir-ia-ecrire-coder-images">how to choose your AI based on what you need it for</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>FAQ</h2>
+    <h3>Is the AI built into Word or Google Docs free for you?</h3>
+    <p>It depends on your plan. Gemini is included at no extra cost in Google Workspace Business Standard ($14/user/month) and Business Plus ($22/user/month) plans since March 2026. Copilot in Word requires a Microsoft 365 Copilot subscription at $30/user/month on top of your base license.</p>
+    <h3>How can AI help you fix the grammar and style of your documents?</h3>
+    <p>Copilot and Gemini can rewrite passages, improve sentence clarity, or adjust the register of a text. Third-party tools like Grammarly or LanguageTool, which integrate with both platforms, add a layer of real-time grammar and style checking on top of that.</p>
+    <h3>Can you use AI to generate entire documents, or only parts of them?</h3>
+    <p>Both. You can ask Copilot or Gemini to generate a complete document from a few notes, or to write just one specific paragraph. Full document generation works best when you provide detailed context and an example of the format you're expecting.</p>
+    <h3>Does AI respect the privacy of your sensitive professional documents?</h3>
+    <p>It's a fair question. Microsoft and Google have privacy policies for their enterprise offerings, but the details vary by plan and configuration. Before using these tools with sensitive data, I'd recommend reading my article on <a href="/en/articles/donnees-perso-ia-confidentialite">data privacy with AI</a> and checking the terms of your subscription.</p>
+    <h3>What are the current limits of these assistants for writing and formatting?</h3>
+    <p>The main limit is <a href="/en/lexique/hallucination">hallucination</a>: the AI can produce incorrect phrasing, invent details, or restate a number inaccurately. It doesn't understand the meaning of what it writes, it predicts plausible words. Human review remains essential, especially for contractual or technical documents.</p>
+    <h3>Do you need any technical skills to use these assistants?</h3>
+    <p>No. These tools are designed to work inside interfaces you already use. The only skill worth developing is how you phrase your requests. A clear prompt gives you something useful. A vague prompt gives you something generic. My article on <a href="/en/articles/ecrire-bon-prompt-non-dev">how to write a good prompt</a> can help you get started.</p>
+    <hr>
+    <h2>My takeaways</h2>
+    <p>Word and Google Docs are no longer just word processors. They come with assistants that can draft, restructure, summarize, and format on your behalf, or rather alongside you.</p>
+    <p>What I take away from my testing: Gemini has a real contextual advantage if you work in the Google ecosystem, and its inclusion in existing Workspace plans makes it the most accessible option. Copilot is powerful, especially for long documents and rewrites, but the added cost means you need to think through the investment.</p>
+    <p>In both cases, these tools don't replace your judgment. They speed up the formatting and first-draft work. The meaning, the accuracy, the responsibility for the content: that stays on your side.</p>
+    <p>And that's exactly how it should be.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, no jargon, no hype. If this article was useful, the easiest way to stay in the loop is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>One email a week.<br>What I actually <em>test.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me — I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

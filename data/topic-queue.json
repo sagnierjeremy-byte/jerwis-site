@@ -399,8 +399,9 @@
       "topic": "l IA dans Word et Google Docs : rédiger, corriger et mettre en forme ses documents avec l assistant intégré que tu as déjà",
       "type": "A",
       "priority": 3,
-      "status": "pending",
-      "added": "2026-07-20"
+      "status": "done",
+      "added": "2026-07-20",
+      "published_at": "2026-09-10"
     },
     {
       "id": "navigateurs-ia",

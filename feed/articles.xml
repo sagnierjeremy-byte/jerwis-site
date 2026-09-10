@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 08 Sep 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>IA dans Word et Google Docs : rédiger et corriger facilement</title>
+      <link>https://jerwis.fr/articles/ia-dans-word-et-docs</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/ia-dans-word-et-docs</guid>
+      <description>Copilot dans Word, Gemini dans Google Docs : ce que ces assistants font vraiment, ce qu&apos;ils coûtent, et comment en tirer parti au quotidien.</description>
+      <pubDate>Thu, 10 Sep 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Annonces Leboncoin, Vinted, Airbnb : rédige et vends plus vite avec l&apos;IA</title>
       <link>https://jerwis.fr/articles/annonces-qui-vendent-ia</link>

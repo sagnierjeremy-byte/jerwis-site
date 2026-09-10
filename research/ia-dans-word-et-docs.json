@@ -1,0 +1,162 @@
+{
+  "topic": "l IA dans Word et Google Docs : rédiger, corriger et mettre en forme ses documents avec l assistant intégré que tu as déjà",
+  "slug": "ia-dans-word-et-docs",
+  "type": "A",
+  "generated_at": "2026-09-10",
+  "angle": "Cet article démystifie l'utilisation des assistants IA intégrés dans Word et Google Docs, montrant aux entrepreneurs non-développeurs comment exploiter ces outils familiers pour rédiger, corriger et mettre en forme leurs documents plus efficacement, sans nécessiter de compétences techniques avancées.",
+  "intent": "Le lecteur souhaite comprendre les capacités concrètes des IA intégrées (Copilot, Gemini) dans Word et Google Docs pour la rédaction, la correction et la mise en forme de documents, connaître leur coût, et savoir comment les utiliser au quotidien pour gagner en productivité.",
+  "keywords": [
+    "IA Word",
+    "IA Google Docs",
+    "assistant rédaction IA",
+    "corriger document IA",
+    "mise en forme IA",
+    "Copilot Word",
+    "Gemini Google Docs",
+    "productivité IA documents"
+  ],
+  "facts": [
+    {
+      "claim": "Microsoft Copilot est intégré à Word pour aider à rédiger, réécrire, résumer et formater du contenu directement dans le document.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0auv9QMDll8_oo19wYkFg2JJ5Lf3EedK962HPRSgl1yVaVt_GYGa1GMapiLDz_1m_pNtcv_FaT_2OWsmJf9cJ-YxKGEA7k39KhgfS_OGN8SB2NL9TC3Osu8vGD1Iim04HUsMBB8nYZQRJ2bty",
+      "date": "2026-08-25"
+    },
+    {
+      "claim": "Microsoft 365 Copilot utilise la famille de modèles GPT-5.6 d'OpenAI, optimisée pour le travail de connaissance dans Microsoft 365, depuis juillet 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHLWtQ2A45XmfOSs3yTYj00z6U5f0ikcZzQWNQm3ElkzLOwyIUu4ZNVeM5NDw5E44TpsbVOUEjkvt24HEMoZItLX8Dm6zD_suV5g91NbXg48rWT7EUymi-q1Y_jfGtT0S2x-b_x0iuTlJUO2g0Ex04ZqyyDdV9l5VU7298cNcdijRaPuqRt34v4R6ZM2VlVuEY_gzBin8n_8MI3ME92RBDQv4zBGJR_l1XXLuA_Bcx8nFEF4IWgRE4oA==",
+      "date": "2026-07-31"
+    },
+    {
+      "claim": "Anthropic's Claude Opus 4.8 est également disponible dans Microsoft 365 Copilot depuis mai 2026, offrant un choix de modèle pour des scénarios de travail avancés.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfX6MFZvDJaGrX6MfAk50TVAQfcK-A_kJdp_wof3SWYBFl2yMAtHQv4iNUpUNZT5x_giyDniv_bgrJTuk6iFecwKqdhKZ6cfKC05X2yzIWV321dokNYrcnEpH0Wn5eJ-WWRGqK47AWnK9B897NYkydR19tSVYacwNYBbn-N83-eYTG0uTpEtS1LsV4kwt8r7JuAqubvUu8RZ9BCx0rKlwyUBBaQpmQXp_BIty-h-q0K_gxguv8Suz",
+      "date": "2026-05-29"
+    },
+    {
+      "claim": "Microsoft 365 Copilot coûte 30 $ par utilisateur et par mois pour les entreprises (engagement annuel), en plus d'une licence de base requise, en août 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtPBb72Gg4YVHJNuwGzTmvMMlze1dpWntSAt5vVtEUU5ACZmHAPkufhnRcNtHRjYR0nJbZQ8IAqJROVleEaaYwFNjXBcUqcFbZo9uWwIU58oSqkidJhYPM82SoQblZNiiF0_CoET2PcCL1jiKLTFVH8pHCOMcclyhnQLyhFOLK",
+      "date": "2026-08-21"
+    },
+    {
+      "claim": "Google Docs offre une expérience Gemini repensée, permettant de générer, écrire et affiner des documents de manière centralisée, en s'appuyant sur le contexte de l'organisation (Drive, Gmail, Chat, web) depuis avril 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVLrW_oDxLOARRJ14RBN6q7lu4PohcXC7C1uDYnWf8Ams95RNsLfrWTjwtrviFCGvPYBHibsAZEDed9kKnytyOnXYmXUn-zTv2_loKpjgwGcDrTZoCX52-huv5zXrUN00wg9715T-Sgb4uEcbXK4Hsfs6taJmn_r40Fy8eQmbWulVmJ7u-Mxbqvvs8ndPRQ2iBSJ9ZPzMnKTThLNg9Wv9aO4wkvUBIYFf0DqwzZG38yUaleHhqTEsnI-tbhbxHNQ0=",
+      "date": "2026-04-22"
+    },
+    {
+      "claim": "La fonctionnalité 'Match doc format' de Gemini peut reproduire le formatage (polices, couleurs) et les éléments structurels d'un document source pour générer du contenu cohérent, lancée en avril 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVLrW_oDxLOARRJ14RBN6q7lu4PohcXC7C1uDYnWf8Ams95RNsLfrWTjwtrviFCGvPYBHibsAZEDed9kKnytyOnXYmXUn-zTv2_loKpjgwGcDrTZoCX52-huv5zXrUN00wg9715T-Sgb4uEcbXK4Hsfs6taJmn_r40Fy8eQmbWulVmJ7u-Mxbqvvs8ndPRQ2iBSJ9ZPzMnKTThLNg9Wv9aO4wkvUBIYFf0DqwzZG38yUaleHhqTEsnI-tbhbxHNQ0=",
+      "date": "2026-04-22"
+    },
+    {
+      "claim": "Gemini 3.8 Flash a été lancé le 2 septembre 2026, avec des tarifs d'introduction, et Gemini 3 Pro est déployé pour tous les utilisateurs de l'application Gemini.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMFBiZQN-7TlhG_JkZ5QqT89NjW08JWstTC-741t2eBH0hLqZaXZuaR2eAjKL_M7PZOSGeuHO-AhVUydT-dNLLyJBSOynuHoLdUbh3l8Yv6RK2W6JedotOxd7DAF0=",
+      "date": "2026-09-07"
+    },
+    {
+      "claim": "Depuis mars 2026, Gemini est inclus par défaut dans la plupart des plans Google Workspace Business (Standard à 14 $/utilisateur/mois, Plus à 22 $/utilisateur/mois), sans coût additionnel pour l'IA.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER7REB0c0t6HAwDBgn1onKGkEKVb-gItztnadA-NoyUeCd3fP7jEiCKrD81qh7gUNFINXaiVxXFe3YWUTusMtYgZhYTFrxpAIDiAL_md1jVhVuAL6K-bSPT_tjW6KVQPLjbiKkRPbRPeqzDNyCyhmrv1DrLqfNH5giEXYaTCGz27wEZXSvuMClT2XtJcZD0uOOGfoVO-c15UPT3scnRb3HkqZfVgvqhbljjjaOCTP2AkKEzYtxrKh4pHxRNmoUCrXx5Q==",
+      "date": "2026-03-17"
+    },
+    {
+      "claim": "Les workflows de commentaires alimentés par Gemini ont été déployés dans Google Docs le 28 juillet 2026, pour les utilisateurs ayant un accès en édition.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpYDf8ngMNzMcSlpt2M9V5h4v9j5felPZN1-4MLt0JSmH6JavIyqj9vM9XCRk3-riyy_rScdZ73gBZVDvIfuiDIOH_P1dpilnGtC2E73hLXW1FsupxclMHAJ_oyYje6-ov_927DH_kqdzCLcaGUQ9YXGjj1aFBRWb9NfwZ4xa1_JcThWs73N3V5_odcDgwR0H6stp8Ys-tSQW1st2fwF06rn01WFILDa4896KpyPQ1S2b0kLy8HBhzGt8x24=",
+      "date": "2026-07-28"
+    },
+    {
+      "claim": "Les instructions personnalisées pour Gemini dans Workspace sont désormais disponibles dans Google Docs et s'étendent à d'autres applications comme Drive, Chat, Slides, Sheets et Gmail, depuis septembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkYh8X7Jm4KAlXrLPoDyf5ebXvAzxi0E3su3-BTnP1H_WAJyeSQgc58cbJupSxEy7kgpuDS9AYcobZmWJz3YuX9p9l7C0q7no--yTqvwTdgv1QEx1vD69Fr1BReAY940CKs38uSnQd",
+      "date": "2026-09-09"
+    },
+    {
+      "claim": "Des outils tiers comme Grammarly et LanguageTool s'intègrent à Word et Google Docs pour des vérifications grammaticales, de style et de ton en temps réel.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQxwrrpfg_eMB9I7gPgZnVhMZiC2s9F3VxY5lY8tX4RCl7VjA7Xzp2zrDD0IYpDRLmkvXpIieBftuFhvD8CweUna9fjdSXEzjZFjIwwLiA0bjKwQ2gE_3O4zQXDqAk6mhzVmiaquprv_pdnzRjNF8UQQajhkX0YCq",
+      "date": "2026-07-27"
+    },
+    {
+      "claim": "L'IA peut désormais éditer des images directement dans Google Docs à l'aide de prompts textuels, permettant de modifier des images ou des infographies sans outil externe, depuis août 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAfaNjd2J5sobOCcmOr1AglbuLsCfW7QstzZoPZSd9bZzMUt52_royAEY6JmBQY2HmB0Y5hnW9pRY8DfeghYaFtuP_F5kOiZ7rfxfcXXj1IpPPexU7tO9Yl9LsK8mTrO",
+      "date": "2026-07-30"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "91% des entreprises déclarent utiliser l'IA dans au moins une de leurs capacités en 2026, contre 78% en 2024.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4n-fTJe6YjG07uH2zWk0kus7BSvweZat9ImDgSngKHxuN1_Hw6dpe-QoEq20CdRPbJoWxEFsSC1_cs_BZNPpuI05_b8Ht6kl1L4cCAo5mOm5B5t0YIIdFTE0s9Nftjpl6gHTmlkb8s-93i4gD1Y6UwBeM",
+      "date": "2026-07-02"
+    },
+    {
+      "stat": "Les travailleurs utilisant des outils d'IA économisent en moyenne 5,4% de leurs heures de travail hebdomadaires.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4n-fTJe6YjG07uH2zWk0kus7BSvweZat9ImDgSngKHxuN1_Hw6dpe-QoEq20CdRPbJoWxEFsSC1_cs_BZNPpuI05_b8Ht6kl1L4cCAo5mOm5B5t0YIIdFTE0s9Nftjpl6gHTmlkb8s-93i4gD1Y6UwBeM",
+      "date": "2026-07-02"
+    },
+    {
+      "stat": "Le pourcentage de spécialistes du marketing de contenu utilisant l'IA pour l'édition a doublé au cours de la dernière année : 38% en 2026 contre 19% en 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLBcn0UiOjPwAV_ThmbJzd7O9YoVyCaOoXXeQVisGu6UwYpFCDs0BSiYnpEHYcBfhEmkWlnkMrp59HCD6aGTIHIfgpMB2SVpigEApHKCNTZ_CyS6e8LgK0VGsfzbkv-m7fDlRZtiSdZBuZnf75iPLtWM_Q",
+      "date": "2026-07-15"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour apprendre aux lecteurs à formuler des requêtes efficaces pour les assistants IA."
+    },
+    {
+      "url": "/articles/ia-gratuite-ou-payante",
+      "why": "Pour aborder les modèles économiques et les coûts associés à l'utilisation de l'IA dans les outils bureautiques."
+    },
+    {
+      "url": "/articles/resumer-pdf-video-avec-ia",
+      "why": "La fonction de résumé est une capacité clé des IA intégrées, utile pour les documents longs."
+    },
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Pour sensibiliser les entrepreneurs aux enjeux de confidentialité des données lors de l'utilisation d'IA avec des documents professionnels."
+    },
+    {
+      "url": "/lexique/hallucination",
+      "why": "Expliquer le concept d'hallucination de l'IA est crucial pour comprendre la nécessité d'une relecture humaine."
+    },
+    {
+      "url": "/articles/choisir-ia-ecrire-coder-images",
+      "why": "Offrir une perspective plus large sur le choix des outils IA, même si l'article se concentre sur Word et Google Docs."
+    }
+  ],
+  "outline": [
+    "Introduction : L'IA, votre nouvel assistant de rédaction intégré",
+    "Microsoft Copilot dans Word : Rédiger, réviser et formater avec l'IA",
+    "Gemini dans Google Docs : L'intelligence contextuelle au service de vos documents",
+    "Fonctionnalités clés partagées : Rédaction, correction et mise en forme assistées par l'IA",
+    "Coût et accessibilité : Comprendre les modèles d'abonnement et d'intégration",
+    "Bonnes pratiques pour maximiser l'efficacité de l'IA dans vos documents",
+    "Conclusion : L'IA, un levier de productivité indispensable pour les entrepreneurs non-développeurs"
+  ],
+  "faq": [
+    "L'IA intégrée dans Word ou Google Docs est-elle gratuite pour les entrepreneurs ?",
+    "Comment l'IA peut-elle m'aider à corriger la grammaire et le style de mes documents ?",
+    "Puis-je utiliser l'IA pour générer des documents entiers ou seulement des parties spécifiques ?",
+    "L'IA respecte-t-elle la confidentialité de mes documents professionnels sensibles ?",
+    "Quelles sont les limites actuelles des assistants IA pour la rédaction et la mise en forme de documents ?",
+    "Faut-il des compétences techniques particulières pour utiliser efficacement ces assistants IA ?"
+  ],
+  "pitfalls": [
+    "Les 'hallucinations' de l'IA : l'IA peut générer des informations incorrectes ou inventées, nécessitant toujours une vérification humaine.",
+    "La confidentialité des données : les documents traités par l'IA peuvent être utilisés pour l'entraînement des modèles, soulevant des questions pour les informations sensibles, bien que Microsoft et Google offrent des protections pour les entreprises.",
+    "Le coût caché : l'IA est souvent intégrée aux abonnements existants (Microsoft 365, Google Workspace) avec des augmentations de prix, rendant l'option 'sans IA' indisponible.",
+    "La perte de la 'voix' ou du style personnel : une dépendance excessive à l'IA peut uniformiser le ton et le style des documents.",
+    "Les fonctionnalités peuvent varier considérablement selon la version de l'outil, le niveau d'abonnement et la région géographique."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0auv9QMDll8_oo19wYkFg2JJ5Lf3EedK962HPRSgl1yVaVt_GYGa1GMapiLDz_1m_pNtcv_FaT_2OWsmJf9cJ-YxKGEA7k39KhgfS_OGN8SB2NL9TC3Osu8vGD1Iim04HUsMBB8nYZQRJ2bty",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHLWtQ2A45XmfOSs3yTYj00z6U5f0ikcZzQWNQm3ElkzLOwyIUu4ZNVeM5NDw5E44TpsbVOUEjkvt24HEMoZItLX8Dm6zD_suV5g91NbXg48rWT7EUymi-q1Y_jfGtT0S2x-b_x0iuTlJUO2g0Ex04ZqyyDdV9l5VU7298cNcdijRaPuqRt34v4R6ZM2VlVuEY_gzBin8n_8MI3ME92RBDQv4zBGJR_l1XXLuA_Bcx8nFEF4IWgRE4oA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfX6MFZvDJaGrX6MfAk50TVAQfcK-A_kJdp_wof3SWYBFl2yMAtHQv4iNUpUNZT5x_giyDniv_bgrJTuk6iFecwKqdhKZ6cfKC05X2yzIWV321dokNYrcnEpH0Wn5eJ-WWRGqK47AWnK9B897NYkydR19tSVYacwNYBbn-N83-eYTG0uTpEtS1LsV4kwt8r7JuAqubvUu8RZ9BCx0rKlwyUBBaQpmQXp_BIty-h-q0K_gxguv8Suz",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtPBb72Gg4YVHJNuwGzTmvMMlze1dpWntSAt5vVtEUU5ACZmHAPkufhnRcNtHRjYR0nJbZQ8IAqJROVleEaaYwFNjXBcUqcFbZo9uWwIU58oSqkidJhYPM82SoQblZNiiF0_CoET2PcCL1jiKLTFVH8pHCOMcclyhnQLyhFOLK",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVLrW_oDxLOARRJ14RBN6q7lu4PohcXC7C1uDYnWf8Ams95RNsLfrWTjwtrviFCGvPYBHibsAZEDed9kKnytyOnXYmXUn-zTv2_loKpjgwGcDrTZoCX52-huv5zXrUN00wg9715T-Sgb4uEcbXK4Hsfs6taJmn_r40Fy8eQmbWulVmJ7u-Mxbqvvs8ndPRQ2iBSJ9ZPzMnKTThLNg9Wv9aO4wkvUBIYFf0DqwzZG38yUaleHhqTEsnI-tbhbxHNQ0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMFBiZQN-7TlhG_JkZ5QqT89NjW08JWstTC-741t2eBH0hLqZaXZuaR2eAjKL_M7PZOSGeuHO-AhVUydT-dNLLyJBSOynuHoLdUbh3l8Yv6RK2W6JedotOxd7DAF0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER7REB0c0t6HAwDBgn1onKGkEKVb-gItztnadA-NoyUeCd3fP7jEiCKrD81qh7gUNFINXaiVxXFe3YWUTusMtYgZhYTFrxpAIDiAL_md1jVhVuAL6K-bSPT_tjW6KVQPLjbiKkRPbRPeqzDNyCyhmrv1DrLqfNH5giEXYaTCGz27wEZXSvuMClT2XtJcZD0uOOGfoVO-c15UPT3scnRb3HkqZfVgvqhbljjjaOCTP2AkKEzYtxrKh4pHxRNmoUCrXx5Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpYDf8ngMNzMcSlpt2M9V5h4v9j5felPZN1-4MLt0JSmH6JavIyqj9vM9XCRk3-riyy_rScdZ73gBZVDvIfuiDIOH_P1dpilnGtC2E73hLXW1FsupxclMHAJ_oyYje6-ov_927DH_kqdzCLcaGUQ9YXGjj1aFBRWb9NfwZ4xa1_JcThWs73N3V5_odcDgwR0H6stp8Ys-tSQW1st2fwF06rn01WFILDa4896KpyPQ1S2b0kLy8HBhzGt8x24=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkYh8X7Jm4KAlXrLPoDyf5ebXvAzxi0E3su3-BTnP1H_WAJyeSQgc58cbJupSxEy7kgpuDS9AYcobZmWJz3YuX9p9l7C0q7no--yTqvwTdgv1QEx1vD69Fr1BReAY940CKs38uSnQd",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQxwrrpfg_eMB9I7gPgZnVhMZiC2s9F3VxY5lY8tX4RCl7VjA7Xzp2zrDD0IYpDRLmkvXpIieBftuFhvD8CweUna9fjdSXEzjZFjIwwLiA0bjKwQ2gE_3O4zQXDqAk6mhzVmiaquprv_pdnzRjNF8UQQajhkX0YCq",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAfaNjd2J5sobOCcmOr1AglbuLsCfW7QstzZoPZSd9bZzMUt52_royAEY6JmBQY2HmB0Y5hnW9pRY8DfeghYaFtuP_F5kOiZ7rfxfcXXj1IpPPexU7tO9Yl9LsK8mTrO",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4n-fTJe6YjG07uH2zWk0kus7BSvweZat9ImDgSngKHxuN1_Hw6dpe-QoEq20CdRPbJoWxEFsSC1_cs_BZNPpuI05_b8Ht6kl1L4cCAo5mOm5B5t0YIIdFTE0s9Nftjpl6gHTmlkb8s-93i4gD1Y6UwBeM",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLBcn0UiOjPwAV_ThmbJzd7O9YoVyCaOoXXeQVisGu6UwYpFCDs0BSiYnpEHYcBfhEmkWlnkMrp59HCD6aGTIHIfgpMB2SVpigEApHKCNTZ_CyS6e8LgK0VGsfzbkv-m7fDlRZtiSdZBuZnf75iPLtWM_Q"
+  ]
+}
