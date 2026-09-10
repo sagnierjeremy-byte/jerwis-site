@@ -1,70 +1,58 @@
 {
-  "generated_at": "2026-09-09T09:22:01.063Z",
-  "day_label": "Mercredi 9 septembre",
+  "generated_at": "2026-09-10T09:21:19.541Z",
+  "day_label": "Jeudi 10 septembre",
   "items": [
     {
-      "title": "Un chercheur quitte OpenAI et Anthropic : l'IA pourrait tuer tout le monde",
-      "why_it_matters": "Jacob Coxon accuse les deux géants de l'IA d'irresponsabilité. Si les créateurs d'IA partent en claquant la porte, je m'interroge sur les risques réels.",
-      "sources": [
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/tech/2328729-ancien-chercheur-dopenai-et-anthropic-il-demissionne-et-accuse-les-geants-de-lia-de-jouer-avec-nos-vies-decryptage-du-temoignage-de-jacob-coxon.html"
-        },
-        {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-gens-qui-construisent-l-ia-croient-qu-elle-pourrait-tous-nous-tuer-d-ici-a-la-fin-de-la-decennie-le-chercheur-jacob-coxon-qui-a-travaille-pour-anthropic-et-openai-quitte-l-industrie_6768853_3234.html"
-        }
-      ]
-    },
-    {
-      "title": "Loft Orbital lève 1 milliard $ avec Mistral : IA + satellites d'observation",
-      "why_it_matters": "Une start-up française décroche un milliard des Émirats pour une constellation satellite dopée à l'IA. Preuve que la deeptech française peut lever gros.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://air-cosmos.latribune.fr/article/espace/19794223548526/sommet-spatial-avec-mistral-loft-orbital-investit-un-milliard-de-dollars-aux-emirats"
-        },
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/09/les-emirats-engagent-un-milliard-de-dollars-dans-un-projet-francais-d-ia-dans-l-espace_6768866_3234.html"
-        }
-      ]
-    },
-    {
-      "title": "Meta lance Muse : un agent IA qui achète et remplit des formulaires à ta place",
-      "why_it_matters": "Muse agit directement sur ton ordi : il peut faire des achats, prendre des RDV, remplir des formulaires. Je note l'arrivée concrète des agents IA autonomes.",
+      "title": "Microsoft retire Copilot des cellules Excel un an après son lancement",
+      "why_it_matters": "Je retiens qu'un géant peut se planter sur l'IA : intégration mal pensée = retrait. Utile pour mes choix d'outils avant de m'engager.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/muse-meta-devoile-son-agent-ia-personnel-pour-les-taches-du-quotidien-503111.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/zd-tech-voici-les-raisons-pour-lesquelles-microsoft-retire-la-fonction-copilot-dexcel-un-an-apres-son-lancement-500403.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Le pétrole repasse au-dessus de 100 dollars : inflation et tensions au Moyen-Orient",
-      "why_it_matters": "Le Brent dépasse 100 $ après des attaques contre l'Iran. Je retiens l'impact direct sur les coûts : carburant, matières premières, marges.",
+      "title": "Apple hausse tous ses prix iPhone de 50 à 350 € sans nouvelle fonction",
+      "why_it_matters": "Je note la stratégie : composants plus chers = hausse assumée. Ça change la donne pour budgets équipements et renouvellement parcs mobiles.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/petrole-le-prix-du-baril-de-brent-frole-les-100-dollars-apres-des-attaques-contre-larabie-saoudite-1529972"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/1554659-apple-augmente-discretement-de-50-a-350-euros-tous-les-prix-de-ses-iphone-lors-de-la-keynote-de-l-iphone-duo/"
         },
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-baril-de-brent-franchit-a-nouveau-la-barre-symbolique-des-100-dollars-20260909"
-        },
-        {
-          "name": "Capital (CAC 40)",
-          "url": "https://www.capital.fr/entreprises-marches/cac-40-la-bourse-chute-un-petrole-a-trois-chiffres-accroit-les-risques-et-la-pression-sur-la-fed-et-la-bce-1529977"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/premier-iphone-pliable-iphone-18-pro-et-hausses-de-prix-voici-tout-ce-quil-faut-savoir-sur-les-annonces-dapple-503201.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Data centers : 31 600 milliards $ investis d'ici 2050 selon PwC",
-      "why_it_matters": "Les dépenses mondiales en data centers vont doubler d'ici 2050. Je retiens l'explosion des besoins en infra liés à l'IA et les opportunités à capter.",
+      "title": "Arlequin AI lève 28 M€ pour construire une alternative européenne à Palantir",
+      "why_it_matters": "Je retiens : alternative souveraine crédible en IA défense/data. Utile si je veux éviter dépendance US sur mes données sensibles.",
       "sources": [
         {
-          "name": "La Revue du Digital",
-          "url": "https://www.larevuedudigital.com/data-centers-un-total-de-31-600-milliards-investis-dans-le-monde-jusquen-2050-selon-pwc/"
+          "name": "Frenchweb",
+          "url": "https://www.frenchweb.fr/arlequin-ai-leve-28-millions-deuros-pour-construire-une-alternative-europeenne-a-palantir/463365"
+        }
+      ]
+    },
+    {
+      "title": "Le taux d'emprunt français à 10 ans dépasse 4,3 %, inédit depuis 2008",
+      "why_it_matters": "Je note : dette publique plus chère = risque de hausses fiscales et crédit entreprise plus cher. Ça va peser sur mes investissements 2027.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/action-publique/1554667-le-taux-d-interet-de-la-dette-francaise-a-dix-ans-depasse-4-3-un-niveau-inedit-depuis-2008/"
+        }
+      ]
+    },
+    {
+      "title": "NordVPN : 4,4 M tentatives phishing bloquées, cybercriminalité dopée à l'IA",
+      "why_it_matters": "Je retiens : industrialisation du phishing par IA = menace concrète. Formation équipes et outils de protection deviennent prioritaires.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/nordvpn-alerte-sur-lindustrialisation-de-la-cybercriminalite-assistee-par-ia-503207.htm#xtor=RSS-1"
         }
       ]
     }
