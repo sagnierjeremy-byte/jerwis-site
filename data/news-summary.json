@@ -1,58 +1,74 @@
 {
-  "generated_at": "2026-09-10T09:21:19.541Z",
-  "day_label": "Jeudi 10 septembre",
+  "generated_at": "2026-09-11T09:19:59.009Z",
+  "day_label": "Vendredi 11 septembre",
   "items": [
     {
-      "title": "Microsoft retire Copilot des cellules Excel un an après son lancement",
-      "why_it_matters": "Je retiens qu'un géant peut se planter sur l'IA : intégration mal pensée = retrait. Utile pour mes choix d'outils avant de m'engager.",
+      "title": "OpenAI lance ChatGPT pour la finance avec GPT-6 Astra",
+      "why_it_matters": "Je note qu'OpenAI s'attaque aux opérations financières automatisées. Si vous pilotez de la trésorerie ou faites de l'analyse, ça change la donne.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-voici-les-raisons-pour-lesquelles-microsoft-retire-la-fonction-copilot-dexcel-un-an-apres-son-lancement-500403.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Apple hausse tous ses prix iPhone de 50 à 350 € sans nouvelle fonction",
-      "why_it_matters": "Je note la stratégie : composants plus chers = hausse assumée. Ça change la donne pour budgets équipements et renouvellement parcs mobiles.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/1554659-apple-augmente-discretement-de-50-a-350-euros-tous-les-prix-de-ses-iphone-lors-de-la-keynote-de-l-iphone-duo/"
+          "url": "https://www.zdnet.fr/actualites/openai-sattaque-aux-operations-financieres-automatisees-avec-son-nouveau-gpt-6-astra-503325.htm#xtor=RSS-1"
         },
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/premier-iphone-pliable-iphone-18-pro-et-hausses-de-prix-voici-tout-ce-quil-faut-savoir-sur-les-annonces-dapple-503201.htm#xtor=RSS-1"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/chatgpt-metiers-finance-analyste-wall-street/"
         }
       ]
     },
     {
-      "title": "Arlequin AI lève 28 M€ pour construire une alternative européenne à Palantir",
-      "why_it_matters": "Je retiens : alternative souveraine crédible en IA défense/data. Utile si je veux éviter dépendance US sur mes données sensibles.",
+      "title": "Anthropic bloque des tentatives de créer des armes biologiques via Claude",
+      "why_it_matters": "Je retiens qu'Anthropic publie son rapport de menace : usages détournés réels, pas de la théorie. Utile si vous déployez de l'IA en interne.",
       "sources": [
         {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/arlequin-ai-leve-28-millions-deuros-pour-construire-une-alternative-europeenne-a-palantir/463365"
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3243935_anthropic-a-bloque-des-tentatives-dutiliser-claude-pour-creer-des-armes-biologiques"
+        },
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2330955-distillation-illicite-trafic-detourne-missile-yemenite-ce-quil-faut-retenir-du-rapport-de-menace-danthropic.html"
         }
       ]
     },
     {
-      "title": "Le taux d'emprunt français à 10 ans dépasse 4,3 %, inédit depuis 2008",
-      "why_it_matters": "Je note : dette publique plus chère = risque de hausses fiscales et crédit entreprise plus cher. Ça va peser sur mes investissements 2027.",
+      "title": "La CNIL contrôle le fisc après le vol de données de 700 000 personnes",
+      "why_it_matters": "Je note qu'un piratage massif des impôts déclenche un contrôle CNIL. Si vous stockez des données clients, c'est un rappel brutal des risques.",
       "sources": [
         {
           "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1554667-le-taux-d-interet-de-la-dette-francaise-a-dix-ans-depasse-4-3-un-niveau-inedit-depuis-2008/"
+          "url": "https://www.journaldunet.com/business/action-publique/1554747-la-cnil-annonce-un-controle-de-la-direction-generale-des-finances-publiques-apres-le-vol-de-donnees-personnelles-de-pres-de-700-000-personnes-durant-l-ete-2026/"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/suite-piratage-impots-la-cnil-controle-fisc-tirer-consequences.html"
         }
       ]
     },
     {
-      "title": "NordVPN : 4,4 M tentatives phishing bloquées, cybercriminalité dopée à l'IA",
-      "why_it_matters": "Je retiens : industrialisation du phishing par IA = menace concrète. Formation équipes et outils de protection deviennent prioritaires.",
+      "title": "Bercy abaisse la croissance 2026 à 0,5 %, déficit hors de contrôle",
+      "why_it_matters": "Je retiens que la croissance est divisée par deux et le déficit dérape. Anticipez une fiscalité plus dure et une demande intérieure atone.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/nordvpn-alerte-sur-lindustrialisation-de-la-cybercriminalite-assistee-par-ia-503207.htm#xtor=RSS-1"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/budget-le-gouvernement-revise-sa-prevision-de-croissance-a-0-5-en-2026-et-1-en-2027-20260911"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/le-gouvernement-table-sur-un-rebond-de-la-croissance-a-1-en-2027-et-sur-une-baisse-de-l-inflation-a-1-8_8187977.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/44540838726436/budget-2027-nous-n-avons-plus-de-gras-previent-roland-lescure"
+        }
+      ]
+    },
+    {
+      "title": "Mistral AI s'allie à Cloudera pour déployer l'IA souveraine en entreprise",
+      "why_it_matters": "Je note que Mistral signe avec Cloudera pour proposer de l'IA européenne on-premise. Une alternative crédible si vous refusez AWS ou Azure.",
+      "sources": [
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/mistral-ai-sallie-a-cloudera-au-nom-de-lia-souveraine-les-dessous-dun-contrat-de-taille.ZSHPB5OXGZCWNBIV6R2RIKKHM4.html"
         }
       ]
     }
