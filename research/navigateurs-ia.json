@@ -1,0 +1,142 @@
+{
+  "topic": "les navigateurs avec IA intégrée (Comet de Perplexity, Atlas d OpenAI) : c est quoi, qu est-ce que ça change, faut-il abandonner Chrome",
+  "slug": "navigateurs-ia",
+  "type": "A",
+  "generated_at": "2026-09-11",
+  "angle": "Cet article explore comment les navigateurs intégrant l'IA, tels que Perplexity Comet et l'ancien OpenAI Atlas, redéfinissent la navigation web pour les entrepreneurs non-développeurs, en analysant leurs fonctionnalités, leurs impacts sur la productivité et la pertinence de délaisser Chrome.",
+  "intent": "Le lecteur, un entrepreneur non-développeur, cherche à comprendre ce que sont les navigateurs avec IA intégrée, quels avantages concrets ils offrent pour son activité, les différences majeures avec les navigateurs traditionnels comme Chrome, et s'il doit envisager d'adopter ces nouvelles solutions ou si Chrome reste suffisant.",
+  "keywords": [
+    "navigateurs avec IA intégrée",
+    "Perplexity Comet",
+    "OpenAI Atlas",
+    "navigateur IA entrepreneur",
+    "faut-il abandonner Chrome IA",
+    "avantages navigateurs IA"
+  ],
+  "facts": [
+    {
+      "claim": "Perplexity a lancé Comet, un navigateur IA basé sur Chromium, pour Windows et macOS en juillet 2025, puis pour Android en novembre 2025 et iOS en mars 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_7rMLpIM_e9478igUwVlffk0a4XabDr3HiDOPjPIZphUL3crwn6htoGrSU8hCRLpSZnL4yjUSzB2F2GgCL1CO0dDF4O8QHFCDkRQcVqwCWJUNnfxS_ihEKcPXf7AL8xQSxFZ",
+      "date": "2025-07"
+    },
+    {
+      "claim": "Comet intègre le moteur de recherche Perplexity pour des tâches comme la génération de résumés d'articles, la description d'images, la recherche thématique et la composition d'e-mails, en utilisant plusieurs modèles de langage, dont GPT-4o et Claude 3.5.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt8ZdkYuaKAN9RRjvcjMk3uTLKsLG1A2QPPwOWvg5mu0J6IRb1Udnimt3lhTHp9xdWmG0e9BFIU8psVS1LVGudsNWtVv6a6kCudvUo1nwbTKThfm3uDQQFW6WnLdr86YgOTvmIsqiIKv_ylcyUfCeKVNTxyJY0dqh02lfWepMQNFGCfyvHTztDg7tffHMm31lsa5CX79ow8WhhFA",
+      "date": "2025-07"
+    },
+    {
+      "claim": "OpenAI a dévoilé ChatGPT Atlas, un navigateur web bâti autour de l'interface ChatGPT, le 21 octobre 2025 pour macOS, avec des versions Windows, iOS et Android prévues.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5QPiEVQNE3VBcSXW9vOIR7l5HFAHc7S22UChuxPVEnZPmOITzJQK9zVEUYuyuAUf-oFI_zoyArMZjG89ywqL2O1J927xxdxsp_5lYpT8N-rbZ-2LmWPWJcdglRz6dYkY9ARDEFlClxqSzNDNeNQ0J8uiWLs3XDyIRc8MJUCKX2osGqfaEHY3a6uy9W11YNTG3tjG5ht5CY4XtNKGaWo2bgOeC5OxKNnEINI",
+      "date": "2025-10-21"
+    },
+    {
+      "claim": "ChatGPT Atlas a été officiellement arrêté le 9 août 2026, ses fonctionnalités agentiques basées sur le navigateur ayant été intégrées à ChatGPT et Codex.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe5ZY0YAUpx26s4rHnRSVloFycj6LScdwnz_IDqQm8bDJw-B7bSJw3UEow4yzWzgm9fcrQ7kV3RZz4z-GY4LIBh3pXZGEg9RyZk_y95R0yx9_ZKr6-rraLLz5QIJli09L1rEdwO5Q",
+      "date": "2026-08-09"
+    },
+    {
+      "claim": "Les navigateurs IA peuvent automatiser des tâches multi-étapes, résumer du contenu, répondre à des questions et interagir avec des sites web pour accomplir des objectifs définis par l'utilisateur.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm29PcwiaAJGXViWmDODW5V8x7vZmahcOc7XyfMs7pa9BA670lKMTks6H-sPCGReIx2qHuqbN7IeRDY_R0sJQesC5noAuk-roEh4kVWc_2815lHYhCtWVfWaNTuYhQBMc=",
+      "date": "2026-03-20"
+    },
+    {
+      "claim": "La dernière version de ChatGPT, GPT-6 Astra, a été lancée début septembre 2026 pour un nombre limité d'organisations, avec une disponibilité plus large à venir pour les utilisateurs Plus, Pro, Business et Enterprise.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyhrENl4J97_ySjGL_PxtaI2BuZOCLKkI5ptreBX_Jq9vHPBsqUwn2XzUKkDJFtV9H7fV9RgJD_NV_cMNRbnXf0qsRhx-K4BefCPyKM0DQ9bsmuJH8QixFxEc-VlccfmvISwUUNgFEwZwYaw==",
+      "date": "2026-09"
+    },
+    {
+      "claim": "Google a publié Gemini 3.8 Flash et 3.8 Flash Cyber le 2 septembre 2026, et Gemini Agent, un outil expérimental pour des tâches multi-étapes, est disponible sur le web pour les abonnés Ultra depuis le 10 septembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtKb1JnorwLM4rqElqqsQRBe3j2Fr7nar5A9se1rsxEKMgOEVe06G0G65SUF4G_TITEplPuEhYPbRwT0HpICZZhC2lQyLod_i_5x9Fu3lKGiJvAbYCZv4DgRrHSh7nIGG3AoOm03c=",
+      "date": "2026-09-02"
+    },
+    {
+      "claim": "Anthropic a sorti Claude Fable 5.1 et Mythos 5.1 le 1er septembre 2026, Fable 5.1 étant son modèle le plus performant généralement disponible pour le raisonnement exigeant, les agents de longue durée, le codage et la recherche.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG3eJ8X721qLzZxIg_q2w35VmdyrRb0M-9oNJQ05XCStYJNwyxiCTch4PlG0cVU6dxqvkqk2-rI6xluB-_80iHgNhvowXBmN4qwnoTW71tDsIdxMb_ZYM_5lP1Xb5ahr9IsdK8lSFdIRDaoO0zXZLQ5u05CQ==",
+      "date": "2026-09-01"
+    },
+    {
+      "claim": "Perplexity Computer, un agent IA généraliste capable d'effectuer des tâches multi-étapes de manière autonome, a été lancé en février 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_7rMLpIM_e9478igUwVlffk0a4XabDr3HiDOPjPIZphUL3crwn6htoGrSU8hCRLpSZnL4yjUSzB2F2GgCL1CO0dDF4O8QHFCDkRQcVqwCWJUNnfxS_ihEKcPXf7AL8xQSxFZ",
+      "date": "2026-02"
+    },
+    {
+      "claim": "Les navigateurs IA posent des problèmes de confidentialité, car ils nécessitent l'accès aux données de navigation de l'utilisateur et peuvent envoyer ces données à des services cloud tiers.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSKrDUtC0zVV5V2-CpkABCkzvlbvYL97fL1dKQ9uM4POodWijt-G9QffwKevXUPHyrGN9jdpZqmtVaUuXXG-Tjo-9q7AMAMKKbiDZWN75I6XKL-jTrii-b7mClGJtTCBYsVtZyCsE57HhXsffY5V7aGtmL1vMG_cwCWXWajMnuP2XvNMaZdu3YnLwcR8z24GgVR-I6x89e",
+      "date": "2026-02-18"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "En août 2026, Chrome détenait 69,39% de la part de marché mondiale des navigateurs, loin devant Safari (15,83%) et Edge (5,36%).",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZoLGxFJ5dT81Owh_5xfkrB6WQXHOZrrGnKhLw1V1pY9Lxj9e6WsGyoK5mWmnULqKdIC_rtZ4TeZaWqqs4cHnvKLW42q3shT9bWB_Gyf88L_dN_ClGWr0AQ2-D_ICU1RZ5kxyAKkUmAvYLk8ifFNiL-4nAP_VeaCERrr3DBkgAXI42HTCeAF90YkYHHmd2i_o=",
+      "date": "2026-08"
+    },
+    {
+      "stat": "Les navigateurs web basés sur l'IA représentaient 45,7% de la part de marché en 2024, avec une part de 65,2% pour les navigateurs IA basés sur le cloud.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaNy5EliIkVPn48Wiz2SsENQq00W-gZjYovGljgLc8dZaDW9QgZQChCYn7DBO5XjgajfdGaWv729mSEALiwUosdNCioZLkljSwFSwttTYmrNqezcNdSNtsN9nA7cFAGgTZk3lPUXHqw6brULlUcUVzvQ6U3nYbUwZbtU6giaPv9-gwU0Kn3c_8d_ZMNUAB4Cn0Hu05VjD6BeKNEQ==",
+      "date": "2024"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/perplexity-c-est-quoi",
+      "why": "Pour approfondir la compréhension du moteur de recherche Perplexity, au cœur de Comet."
+    },
+    {
+      "url": "/lexique/chatgpt-atlas",
+      "why": "Pour fournir un contexte détaillé sur le navigateur d'OpenAI, même s'il est discontinué."
+    },
+    {
+      "url": "/articles/automatiser-taches-ia-sans-coder",
+      "why": "Pour expliquer comment les fonctionnalités agentiques des navigateurs IA peuvent être utilisées par des non-développeurs."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Essentiel pour maximiser l'efficacité des assistants IA intégrés aux navigateurs."
+    },
+    {
+      "url": "/lexique/agentic-workflow",
+      "why": "Pour définir et contextualiser le concept clé de workflow agentique, central aux navigateurs IA."
+    },
+    {
+      "url": "/articles/ai-overviews-google-france",
+      "why": "Pour aborder la réponse de Google à l'intégration de l'IA dans la recherche et les navigateurs, en lien avec la question d'abandonner Chrome."
+    }
+  ],
+  "outline": [
+    "Introduction : L'Ère des Navigateurs avec IA Intégrée",
+    "Perplexity Comet : Le Pionnier de la Navigation Augmentée",
+    "OpenAI Atlas : Une Tentative Brève mais Révélatrice",
+    "Qu'est-ce que ça Change ? Les Promesses et Réalités des Navigateurs IA",
+    "Faut-il Abandonner Chrome ? Analyse des Avantages et Inconvénients",
+    "Les Modèles d'IA au Cœur des Navigateurs : Dernières Versions et Capacités",
+    "Conclusion : Vers une Navigation Hybride pour l'Entrepreneur ?"
+  ],
+  "faq": [
+    "Un navigateur avec IA intégrée, c'est quoi exactement pour un entrepreneur ?",
+    "Quels sont les gains de productivité réels que je peux attendre d'un navigateur IA ?",
+    "Les navigateurs IA sont-ils sécurisés et respectent-ils la confidentialité de mes données professionnelles ?",
+    "Chrome va-t-il intégrer suffisamment d'IA pour ne pas avoir besoin de changer de navigateur ?",
+    "Comment choisir le bon navigateur IA adapté à mes besoins d'entrepreneur non-développeur ?",
+    "Puis-je utiliser un navigateur IA pour des tâches spécifiques et garder Chrome pour le reste ?"
+  ],
+  "pitfalls": [
+    "Ne pas omettre la discontinuation de ChatGPT Atlas (OpenAI) en août 2026, car cela montre la volatilité du marché et la nécessité de se concentrer sur les solutions pérennes ou les intégrations directes d'IA dans les outils existants.",
+    "Souligner que les fonctionnalités 'agentiques' des navigateurs IA, bien que prometteuses, ont encore des limitations (ex: ne peuvent pas exécuter de code navigateur, télécharger des fichiers, installer des extensions) et peuvent être sous-performantes face à des CAPTCHA ou publicités.",
+    "Mettre en garde contre les risques de confidentialité et de sécurité liés à l'envoi de données de navigation et de prompts à des services cloud tiers, et la possibilité d'attaques par injection de prompt.",
+    "Nuancer l'idée d'un abandon total de Chrome, car sa part de marché reste dominante et Google intègre également l'IA dans son écosystème (ex: Gemini Nano dans Chrome, AI Overviews dans la recherche)."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_7rMLpIM_e9478igUwVlffk0a4XabDr3HiDOPjPIZphUL3crwn6htoGrSU8hCRLpSZnL4yjUSzB2F2GgCL1CO0dDF4O8QHFCDkRQcVqwCWJUNnfxS_ihEKcPXf7AL8xQSxFZ",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt8ZdkYuaKAN9RRjvcjMk3uTLKsLG1A2QPPwOWvg5mu0J6IRb1Udnimt3lhTHp9xdWmG0e9BFIU8psVS1LVGudsNWtVv6a6kCudvUo1nwbTKThfm3uDQQFW6WnLdr86YgOTvmIsqiIKv_ylcyUfCeKVNTxyJY0dqh02lfWepMQNFGCfyvHTztDg7tffHMm31lsa5CX79ow8WhhFA",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd5QPiEVQNE3VBcSXW9vOIR7l5HFAHc7S22UChuxPVEnZPmOITzJQK9zVEUYuyuAUf-oFI_zoyArMZjG89ywqL2O1J927xxdxsp_5lYpT8N-rbZ-2LmWPWJcdglRz6dYkY9ARDEFlClxqSzNDNeNQ0J8uiWLs3XDyIRc8MJUCKX2osGqfaEHY3a6uy9W11YNTG3tjG5ht5CY4XtNKGaWo2bgOeC5OxKNnEINI",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe5ZY0YAUpx26s4rHnRSVloFycj6LScdwnz_IDqQm8bDJw-B7bSJw3UEow4yzWzgm9fcrQ7kV3RZz4z-GY4LIBh3pXZGEg9RyZk_y95R0yx9_ZKr6-rraLLz5QIJli09L1rEdwO5Q",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm29PcwiaAJGXViWmDODW5V8x7vZmahcOc7XyfMs7pa9BA670lKMTks6H-sPCGReIx2qHuqbN7IeRDY_R0sJQesC5noAuk-roEh4kVWc_2815lHYhCtWVfWaNTuYhQBMc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyhrENl4J97_ySjGL_PxtaI2BuZOCLKkI5ptreBX_Jq9vHPBsqUwn2XzUKkDJFtV9H7fV9RgJD_NV_cMNRbnXf0qsRhx-K4BefCPyKM0DQ9bsmuJH8QixFxEc-VlccfmvISwUUNgFEwZwYaw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtKb1JnorwLM4rqElqqsQRBe3j2Fr7nar5A9se1rsxEKMgOEVe06G0G65SUF4G_TITEplPuEhYPbRwT0HpICZZhC2lQyLod_i_5x9Fu3lKGiJvAbYCZv4DgRrHSh7nIGG3AoOm03c=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG3eJ8X721qLzZxIg_q2w35VmdyrRb0M-9oNJQ05XCStYJNwyxiCTch4PlG0cVU6dxqvkqk2-rI6xluB-_80iHgNhvowXBmN4qwnoTW71tDsIdxMb_ZYM_5lP1Xb5ahr9IsdK8lSFdIRDaoO0zXZLQ5u05CQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSKrDUtC0zVV5V2-CpkABCkzvlbvYL97fL1dKQ9uM4POodWijt-G9QffwKevXUPHyrGN9jdpZqmtVaUuXXG-Tjo-9q7AMAMKKbiDZWN75I6XKL-jTrii-b7mClGJtTCBYsVtZyCsE57HhXsffY5V7aGtmL1vMG_cwCWXWajMnuP2XvNMaZdu3YnLwcR8z24GgVR-I6x89e",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZoLGxFJ5dT81Owh_5xfkrB6WQXHOZrrGnKhLw1V1pY9Lxj9e6WsGyoK5mWmnULqKdIC_rtZ4TeZaWqqs4cHnvKLW42q3shT9bWB_Gyf88L_dN_ClGWr0AQ2-D_ICU1RZ5kxyAKkUmAvYLk8ifFNiL-4nAP_VeaCERrr3DBkgAXI42HTCeAF90YkYHHmd2i_o=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaNy5EliIkVPn48Wiz2SsENQq00W-gZjYovGljgLc8dZaDW9QgZQChCYn7DBO5XjgajfdGaWv729mSEALiwUosdNCioZLkljSwFSwttTYmrNqezcNdSNtsN9nA7cFAGgTZk3lPUXHqw6brULlUcUVzvQ6U3nYbUwZbtU6giaPv9-gwU0Kn3c_8d_ZMNUAB4Cn0Hu05VjD6BeKNEQ=="
+  ]
+}

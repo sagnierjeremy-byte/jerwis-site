@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/navigateurs-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Navigateurs IA intégrée : Comet, Atlas et Chrome comparés</title>
+<meta name="description" content="Comet de Perplexity, Atlas d'OpenAI : ce que ces navigateurs IA changent vraiment pour un entrepreneur. Et si Chrome reste suffisant.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Navigateurs IA intégrée : Comet, Atlas et Chrome comparés">
+<meta property="og:description" content="Comet de Perplexity, Atlas d'OpenAI : ce que ces navigateurs IA changent vraiment pour un entrepreneur. Et si Chrome reste suffisant.">
+<meta property="og:url" content="https://jerwis.fr/articles/navigateurs-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/navigateurs-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-11">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Navigateurs IA intégrée : Comet, Atlas et Chrome comparés">
+<meta name="twitter:description" content="Comet de Perplexity, Atlas d'OpenAI : ce que ces navigateurs IA changent vraiment pour un entrepreneur. Et si Chrome reste suffisant.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/navigateurs-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/navigateurs-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/navigateurs-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/navigateurs-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/navigateurs-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Navigateurs IA intégrée : Comet, Atlas et Chrome comparés",
+  "description": "Comet de Perplexity, Atlas d'OpenAI : ce que ces navigateurs IA changent vraiment pour un entrepreneur. Et si Chrome reste suffisant.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/navigateurs-ia",
+  "datePublished": "2026-09-11",
+  "dateModified": "2026-09-11",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/navigateurs-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+
+<link rel="stylesheet" href="../assets/article.css?v=20260706">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="../index" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="../index#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Retour à Apprendre
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 65</div>
+    <h1>Naviguer avec<br>l'IA intégrée<br><em>vraiment utile ou gadget ?</em></h1>
+    <p class="hero-lead">
+      Tu as entendu parler de navigateurs qui intègrent l'IA directement dans la barre d'outils. Plus besoin d'ouvrir ChatGPT dans un autre onglet, l'assistant est là, dans la page, pendant que tu travailles. Mais est-ce que ça change quelque chose de concret pour toi, entrepreneur sans bagage technique ? J'ai regardé ce que Perplexity Comet et OpenAI Atlas proposent vraiment, ce qu'ils ont tenu comme promesses et ce qu'ils ont raté. Voilà ce que j'en retiens.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> Perplexity Comet</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Perplexity <strong>Comet</strong> est un navigateur IA disponible depuis juillet 2025, basé sur Chromium, qui résume des pages, compose des e-mails et répond à tes questions sans changer d'onglet.</li>
+      <li>OpenAI <strong>Atlas</strong> a existé d'octobre 2025 à août 2026 avant d'être arrêté : ses fonctions ont été absorbées par ChatGPT.</li>
+      <li>Chrome reste <strong>dominant à 69 %</strong> de part de marché mondiale (août 2026) et intègre de plus en plus d'IA via Google.</li>
+      <li>Les navigateurs IA posent de vraies <strong>questions de confidentialité</strong> : tes données de navigation partent vers des serveurs tiers.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Ce que &quot;navigateur IA&quot; veut dire</h2>
+    <p>Pendant longtemps, le navigateur web était un tuyau. Tu tapais une adresse, une page s&#39;ouvrait. Pour avoir de l&#39;aide, tu ouvrais un autre onglet avec ChatGPT ou Perplexity, tu copiais-collais, tu revenais. C&#39;est fastidieux, mais ça fonctionnait.</p>
+    <p>Les navigateurs avec IA intégrée cassent cette logique. L&#39;assistant est dans le navigateur lui-même. Il voit la page que tu lis, il peut résumer un article pendant que tu le parcours, rédiger un e-mail à partir d&#39;un contenu web, ou exécuter plusieurs actions à ta place sur différents sites, dans l&#39;ordre, sans que tu aies à tout piloter manuellement.</p>
+    <p>C&#39;est ce qu&#39;on appelle un <a href="/lexique/agentic-workflow">workflow agentique</a> : l&#39;IA ne répond plus seulement à une question ponctuelle, elle enchaîne des étapes pour atteindre un objectif que tu lui as fixé.</p>
+    <p>Pour un entrepreneur qui jongle entre la prospection, la veille, la rédaction et les outils métier, c&#39;est une promesse qui mérite qu&#39;on s&#39;y arrête. Mais une promesse reste une promesse jusqu&#39;à ce qu&#39;on regarde ce qui se passe vraiment.</p>
+    <hr>
+    <h2>Comet : le navigateur de Perplexity</h2>
+    <p>Perplexity a lancé Comet en juillet 2025 sur Windows et macOS. Le navigateur est basé sur Chromium, la même base technique que Chrome. Autrement dit, tes extensions habituelles fonctionnent, et la prise en main est immédiate si tu connais déjà Chrome.</p>
+    <p>Ce que Comet ajoute, c&#39;est le moteur de recherche Perplexity directement dans le navigateur. Tu peux lui demander de résumer l&#39;article que tu lis, de décrire une image sur la page, de faire une recherche thématique sans quitter ton contexte, ou de composer un e-mail à partir d&#39;un contenu web. Pour ça, il s&#39;appuie sur plusieurs modèles de langage, dont GPT-4o et Claude 3.5 selon les tâches.</p>
+    <p>Si tu n&#39;as jamais utilisé Perplexity, je t&#39;invite à lire <a href="/articles/perplexity-c-est-quoi">mon article sur ce qu&#39;est Perplexity</a> avant d&#39;aller plus loin. Ça aide à comprendre pourquoi cette intégration a du sens.</p>
+    <p>En février 2026, Perplexity a aussi lancé Perplexity Computer, un agent IA capable d&#39;effectuer des tâches multi-étapes de façon autonome. Comet et Computer forment ensemble un écosystème : le navigateur comme interface, l&#39;agent comme bras exécutant.</p>
+    <p>La version Android est arrivée en novembre 2025, iOS en mars 2026. L&#39;offre est donc aujourd&#39;hui disponible sur tous les supports courants.</p>
+    <div class="callout tip"><h4>Ce que je retiens sur Comet</h4><p>La force de Comet, c'est de rester dans le flux de travail. Tu n'ouvres pas un outil supplémentaire : tu restes sur ta page et tu demandes à l'IA d'agir dessus. Pour de la veille ou de la rédaction rapide, c'est un vrai gain de fluidité. Mais si tu veux aller plus loin, apprendre à formuler tes demandes correctement fait toute la différence, et <a href="/articles/ecrire-bon-prompt-non-dev">cet article sur les prompts pour non-développeurs</a> t'aidera à démarrer du bon pied.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Atlas : une expérience courte, mais instructive</h2>
+    <p>OpenAI a présenté ChatGPT Atlas le 21 octobre 2025 pour macOS, avec des versions Windows, iOS et Android annoncées. L&#39;idée était similaire à Comet : un navigateur construit autour de l&#39;interface ChatGPT, qui intègre l&#39;IA dans chaque action de navigation.</p>
+    <p>Mais Atlas n&#39;a pas duré. Le 9 août 2026, OpenAI a officiellement arrêté le projet. Les fonctionnalités agentiques qu&#39;Atlas proposait ont été absorbées directement dans ChatGPT et Codex.</p>
+    <p>Ce choix est révélateur. OpenAI a visiblement estimé qu&#39;un navigateur séparé n&#39;était pas la bonne architecture. Mieux valait intégrer ces capacités dans l&#39;outil que les gens utilisent déjà, plutôt que de leur demander de changer de navigateur.</p>
+    <p>Tu peux trouver un historique complet de ce que proposait Atlas dans <a href="/lexique/chatgpt-atlas">la fiche du lexique dédiée</a>.</p>
+    <p>Ce que cette trajectoire enseigne, c&#39;est que le marché n&#39;est pas encore stabilisé. Les acteurs testent des formats. Certains tiennent, d&#39;autres non. Pour toi, ça signifie qu&#39;adopter un navigateur IA trop tôt peut vouloir dire recommencer à zéro quelques mois plus tard.</p>
+    <hr>
+    <h2>Ce que ça change vraiment au quotidien</h2>
+    <p>Les navigateurs IA peuvent automatiser des tâches en plusieurs étapes, résumer du contenu, répondre à des questions contextuelles et interagir avec des sites web pour atteindre un objectif que tu leur fixes. C&#39;est ce que la recherche sur ces outils documente depuis début 2026.</p>
+    <p>Concrètement, pour un entrepreneur, ça peut ressembler à ça :</p>
+    <ul>
+    <li>Tu lis un article de fond sur un concurrent. Tu demandes au navigateur d&#39;en extraire les points clés et de rédiger un résumé en trois phrases pour ton équipe.</li>
+    <li>Tu reçois une offre commerciale en PDF sur un site. Tu demandes à l&#39;IA de comparer les points importants avec un autre document que tu as ouvert dans un autre onglet.</li>
+    <li>Tu veux envoyer un e-mail de suivi à un prospect. Tu demandes à l&#39;IA de rédiger ce message à partir du contenu de la page de contact que tu as sous les yeux.</li>
+    </ul>
+    <p>Ce sont des gains réels. Pas spectaculaires, mais cumulés sur une semaine, ils allègent le travail de collecte et de reformulation qui prend beaucoup de temps sans vraiment créer de valeur.</p>
+    <p>La limite, c&#39;est que ces fonctions demandent quand même de savoir quoi demander. L&#39;IA intégrée au navigateur n&#39;est pas magique. Elle est aussi bonne que ta façon de lui parler. Et c&#39;est là que <a href="/articles/automatiser-taches-ia-sans-coder">savoir automatiser sans coder</a> devient un vrai avantage.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Faut-il vraiment quitter Chrome ?</h2>
+    <p>Chrome détenait 69,39 % de part de marché mondiale des navigateurs en août 2026, loin devant Safari à 15,83 % et Edge à 5,36 %. Ces chiffres parlent d&#39;eux-mêmes : Chrome est l&#39;outil que la grande majorité des gens utilisent, et Google ne reste pas immobile face à l&#39;IA.</p>
+    <p>Google a lancé Gemini Agent en septembre 2026, un outil expérimental pour des tâches multi-étapes, disponible sur le web pour les abonnés Ultra. Gemini est déjà intégré à Chrome via Google Search et les AI Overviews. Si tu veux comprendre comment Google intègre l&#39;IA dans sa recherche, <a href="/articles/ai-overviews-google-france">cet article sur les AI Overviews en France</a> donne un bon aperçu.</p>
+    <p>Autrement dit, Chrome ne reste pas statique. Il absorbe progressivement des fonctions IA, même si pour l&#39;instant elles sont moins profondes que ce que propose Comet.</p>
+    <p>La vraie question n&#39;est pas &quot;Chrome ou Comet ?&quot; mais &quot;pour quoi faire ?&quot;.</p>
+    <p>Si tu passes beaucoup de temps à faire de la veille, à résumer des contenus ou à rédiger à partir de pages web, Comet peut t&#39;apporter quelque chose que Chrome ne donne pas encore nativement. Si tu utilises principalement ton navigateur pour accéder à des outils SaaS, gérer ta messagerie et faire des réunions en ligne, le gain sera beaucoup moins perceptible.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Changer de navigateur a un coût invisible : tes favoris, tes extensions, tes mots de passe enregistrés, tes habitudes. Ce coût est réel et sous-estimé. Avant de migrer, teste Comet en parallèle de Chrome pendant deux semaines sur un usage précis. Si tu ne vois pas de différence concrète sur cet usage, reste où tu es.</p></div>
+    
+    <hr>
+    <h2>La confidentialité, le sujet qu&#39;on évite trop vite</h2>
+    <p>Les navigateurs IA ont besoin d&#39;accéder à tes données de navigation pour fonctionner. Et ces données peuvent être envoyées à des services cloud tiers. C&#39;est documenté et c&#39;est le modèle économique de ces outils.</p>
+    <p>Pour un usage personnel et grand public, c&#39;est souvent acceptable. Pour un entrepreneur qui navigue sur des données clients, des offres commerciales confidentielles ou des documents sensibles, c&#39;est une question à poser avant d&#39;adopter l&#39;outil.</p>
+    <p>Ce n&#39;est pas une raison de tout rejeter. C&#39;est une raison de savoir ce que tu fais tourner dans quel navigateur. Utiliser Comet pour ta veille publique et Chrome pour tes outils métier sensibles, c&#39;est une approche raisonnable.</p>
+    <hr>
+    <h2>Les modèles qui font tourner tout ça</h2>
+    <p>Comet s&#39;appuie sur plusieurs modèles selon les tâches, dont GPT-4o et Claude 3.5. Le paysage des modèles évolue vite : Anthropic a sorti Claude Fable 5.1 et Mythos 5.1 le 1er septembre 2026, Fable 5.1 étant son modèle le plus performant disponible pour le raisonnement complexe et les agents de longue durée. OpenAI a lancé GPT-6 Astra début septembre 2026 pour un nombre limité d&#39;organisations, avec une disponibilité plus large prévue pour les abonnés Plus, Pro, Business et Enterprise.</p>
+    <p>Ce que ça signifie pour toi : les navigateurs IA vont continuer à s&#39;améliorer au rythme des modèles qui les alimentent. Ce que Comet fait aujourd&#39;hui sera plus performant dans six mois, sans que tu aies forcément à changer d&#39;outil.</p>
+    <p>C&#39;est une bonne nouvelle. Et c&#39;est aussi une raison de ne pas attendre &quot;la version parfaite&quot; pour commencer à explorer.</p>
+    <hr>
+    <h2>Questions fréquentes</h2>
+    <h3>Un navigateur avec IA intégrée, c&#39;est quoi exactement pour un entrepreneur ?</h3>
+    <p>C&#39;est un navigateur web classique auquel on a ajouté un assistant IA capable d&#39;interagir avec les pages que tu consultes. Il peut résumer un article, rédiger un e-mail à partir d&#39;un contenu web, répondre à des questions sur ce que tu lis, ou enchaîner plusieurs actions sur différents sites à ta place. La différence avec une extension IA ou un onglet ChatGPT, c&#39;est que l&#39;assistant est dans le flux de navigation, pas à côté.</p>
+    <h3>Quels sont les gains de productivité réels que je peux attendre d&#39;un navigateur IA ?</h3>
+    <p>Les gains sont réels mais difficiles à quantifier à l&#39;avance : ils dépendent de tes usages. La veille, la synthèse de contenus et la rédaction rapide sont les cas où le gain est le plus perceptible. Si tu passes beaucoup de temps à copier-coller des informations entre des onglets et à reformuler des contenus, tu verras une différence. Si ton usage du navigateur est surtout l&#39;accès à des outils SaaS, le gain sera plus limité.</p>
+    <h3>Les navigateurs IA sont-ils sécurisés et respectent-ils la confidentialité de mes données professionnelles ?</h3>
+    <p>C&#39;est le point de vigilance principal. Ces navigateurs ont besoin d&#39;accéder à tes données de navigation et peuvent les envoyer vers des serveurs cloud tiers. Pour des données sensibles (clients, offres commerciales, documents confidentiels), il vaut mieux cloisonner les usages : navigateur IA pour la veille publique, navigateur classique pour les outils métier sensibles. Lis les conditions d&#39;utilisation avant d&#39;adopter un outil sur un poste professionnel.</p>
+    <h3>Chrome va-t-il intégrer suffisamment d&#39;IA pour ne pas avoir besoin de changer de navigateur ?</h3>
+    <p>Google intègre déjà l&#39;IA dans Chrome via Gemini et les AI Overviews dans la recherche. En septembre 2026, Google a lancé Gemini Agent, un outil expérimental pour des tâches multi-étapes, pour les abonnés Ultra. Chrome reste largement dominant avec 69,39 % de part de marché mondiale. La trajectoire de Google va vers plus d&#39;IA intégrée, mais le rythme et la profondeur de cette intégration restent à observer.</p>
+    <h3>Comment choisir le bon navigateur IA adapté à mes besoins d&#39;entrepreneur non-développeur ?</h3>
+    <p>Commence par identifier tes tâches les plus répétitives liées à la navigation : veille, synthèse, rédaction, recherche. Teste Comet sur ces tâches précises pendant deux semaines en parallèle de Chrome. Si tu constates un gain de fluidité sur ces usages, l&#39;adoption a du sens. Si tu ne vois pas de différence, reste sur Chrome et surveille son évolution.</p>
+    <h3>Puis-je utiliser un navigateur IA pour des tâches spécifiques et garder Chrome pour le reste ?</h3>
+    <p>Oui, et c&#39;est même l&#39;approche que je recommande. Rien ne t&#39;oblige à migrer entièrement. Comet est basé sur Chromium comme Chrome, donc la prise en main est rapide. Tu peux très bien utiliser Comet pour ta veille et ta rédaction, et garder Chrome pour tes outils métier, ta messagerie et tout ce qui touche à des données sensibles. C&#39;est une façon de bénéficier des avantages sans subir les risques.</p>
+    <hr>
+    <h2>Ce que je retiens</h2>
+    <p>Le navigateur avec IA intégrée n&#39;est pas un gadget, mais ce n&#39;est pas non plus une révolution immédiate pour tout le monde. Comet de Perplexity est l&#39;outil le plus abouti à date. Atlas d&#39;OpenAI a montré qu&#39;on peut tester et arrêter vite dans ce secteur.</p>
+    <p>Pour moi, la vraie question n&#39;est pas &quot;quel navigateur ?&quot; mais &quot;quel usage ?&quot;. Je fais tout ça d&#39;abord pour moi : comprendre ces outils avant qu&#39;ils s&#39;imposent, les tester sur des cas réels, garder ce qui fonctionne. Et ce qui fonctionne, c&#39;est d&#39;utiliser le bon outil pour le bon contexte, pas de tout migrer d&#39;un coup parce que c&#39;est nouveau.</p>
+    <p>Si tu veux commencer quelque part, commence par Comet sur ta veille. Et garde Chrome pour le reste, au moins pour l&#39;instant.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>1 mail par semaine.<br>Ce que je teste <em>vraiment.</em></h3>
+        <p>Mes vrais usages IA, les outils que j'achète/garde/jette, mes articles dès qu'ils sortent. Pas de récap d'actu, pas de blabla.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="ton@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Adresse email">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">M'inscrire</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          Une question, un doute, une critique ? <strong>Écris-moi — je lis tout, je réponds à tout.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Lire</h5>
+        <ul>
+          <li><a href="../apprendre">Parcours débutant</a></li>
+          <li><a href="../claude-code">Guide Claude Code</a></li>
+          <li><a href="../articles">Tous les articles</a></li>
+          <li><a href="../lexique">Lexique IA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Outils</h5>
+        <ul>
+          <li><a href="../precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Générateur photos · 39 €</a></li>
+          <li><a href="../outils">Ma stack outils</a></li>
+          <li><a href="../modeles-ia">Guide des modèles IA</a></li>
+          <li><a href="../podcast">Podcast Guerres d'IA</a></li>
+          <li><a href="../github">Mon GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Suis-moi</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Légal</h5>
+        <ul>
+          <li><a href="../mentions-legales">Mentions légales</a></li>
+          <li><a href="../politique-confidentialite">Confidentialité</a></li>
+          <li><a href="../cgv">CGV</a></li>
+          <li><a href="../suppression-donnees">Supprimer mes données</a></li>
+          <li><a href="../preferences">Préférences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Fait avec du café</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

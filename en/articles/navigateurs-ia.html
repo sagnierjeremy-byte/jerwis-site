@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/navigateurs-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>AI browsers: Comet, Atlas and Chrome compared · Jerwis</title>
+<meta name="description" content="Perplexity Comet, OpenAI Atlas: what AI-native browsers actually change for entrepreneurs, and whether Chrome is still enough. My honest take.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI browsers: Comet, Atlas and Chrome compared">
+<meta property="og:description" content="Perplexity Comet, OpenAI Atlas: what AI-native browsers actually change for entrepreneurs, and whether Chrome is still enough.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/navigateurs-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/navigateurs-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-11">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="AI browsers: Comet, Atlas and Chrome compared">
+<meta name="twitter:description" content="Perplexity Comet, OpenAI Atlas: what AI-native browsers actually change for entrepreneurs, and whether Chrome is still enough.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/navigateurs-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/navigateurs-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/navigateurs-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/navigateurs-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/navigateurs-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AI browsers: Comet, Atlas and Chrome compared",
+  "description": "Perplexity Comet, OpenAI Atlas: what AI-native browsers actually change for entrepreneurs, and whether Chrome is still enough.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/navigateurs-ia",
+  "datePublished": "2026-09-11",
+  "dateModified": "2026-09-11",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/navigateurs-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Breakdown · 65</div>
+    <h1>Browsing with<br>built-in AI<br><em>actually useful or just hype?</em></h1>
+    <p class="hero-lead">
+      You've probably heard about browsers that bake AI right into the toolbar. No more switching to a ChatGPT tab, the assistant is right there, on the page, while you work. But does that actually change anything concrete for you as a non-technical entrepreneur? I dug into what Perplexity Comet and OpenAI Atlas really offer, what they delivered on, and where they fell short. Here's what I took away.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> Perplexity Comet</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>Perplexity <strong>Comet</strong> is an AI browser available since July 2025, built on Chromium, that summarizes pages, drafts emails, and answers your questions without switching tabs.</li>
+      <li>OpenAI <strong>Atlas</strong> existed from October 2025 to August 2026 before being shut down: its features were absorbed into ChatGPT.</li>
+      <li>Chrome remains <strong>dominant at 69%</strong> of global market share (August 2026) and is steadily adding AI features through Google.</li>
+      <li>AI browsers raise real <strong>privacy questions</strong>: your browsing data gets sent to third-party servers.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>I test it on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+  <span>Zero jargon</span><span>I test it on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What "AI browser" actually means</h2>
+    <p>For a long time, a web browser was just a pipe. You typed an address, a page loaded. If you needed help, you opened another tab with ChatGPT or Perplexity, copy-pasted your content, then switched back. Clunky, but it worked.</p>
+    <p>AI-native browsers break that pattern. The assistant lives inside the browser itself. It sees the page you're reading, it can summarize an article while you scroll through it, draft an email based on web content, or run several actions across different sites in sequence, without you having to manage each step manually.</p>
+    <p>That's what's called an <a href="/en/lexique/agentic-workflow">agentic workflow</a>: the AI doesn't just answer a one-off question, it chains steps together to reach a goal you've set for it.</p>
+    <p>For an entrepreneur juggling prospecting, research, writing, and business tools, that's a promise worth taking seriously. But a promise is just a promise until you look at what's actually happening.</p>
+    <hr>
+    <h2>Comet: Perplexity's browser</h2>
+    <p>Perplexity launched Comet in July 2025 for Windows and macOS. The browser is built on Chromium, the same foundation as Chrome. That means your usual extensions work, and the learning curve is basically zero if you already use Chrome.</p>
+    <p>What Comet adds is the Perplexity search engine baked directly into the browser. You can ask it to summarize the article you're reading, describe an image on the page, run a topic search without leaving your current context, or draft an email from web content. To do all that, it draws on several language models, including GPT-4o and Claude 3.5 depending on the task.</p>
+    <p>If you've never used Perplexity, I'd suggest reading <a href="/en/articles/perplexity-c-est-quoi">my article on what Perplexity is</a> before going further. It helps explain why this integration makes sense.</p>
+    <p>In February 2026, Perplexity also launched Perplexity Computer, an AI agent capable of handling multi-step tasks autonomously. Comet and Computer work together as an ecosystem: the browser as the interface, the agent as the hands.</p>
+    <p>The Android version arrived in November 2025, iOS in March 2026. The full offering is now available across all major platforms.</p>
+    <div class="callout tip"><h4>My takeaway on Comet</h4><p>Comet's strength is keeping you in your workflow. You don't open an extra tool: you stay on your page and ask the AI to act on it. For research or quick drafting, that's a genuine gain in fluidity. But if you want to get more out of it, knowing how to phrase your requests makes all the difference, and <a href="/en/articles/ecrire-bon-prompt-non-dev">this article on prompts for non-developers</a> will help you start on the right foot.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Atlas: a short run, but an instructive one</h2>
+    <p>OpenAI unveiled ChatGPT Atlas on October 21, 2025 for macOS, with Windows, iOS, and Android versions announced. The idea was similar to Comet: a browser built around the ChatGPT interface, with AI woven into every browsing action.</p>
+    <p>But Atlas didn't last. On August 9, 2026, OpenAI officially shut the project down. The agentic features Atlas offered were absorbed directly into ChatGPT and Codex.</p>
+    <p>That decision says something. OpenAI apparently concluded that a standalone browser wasn't the right architecture. Better to fold those capabilities into the tool people already use than to ask them to switch browsers.</p>
+    <p>You can find a full history of what Atlas offered in <a href="/en/lexique/chatgpt-atlas">the dedicated glossary entry</a>.</p>
+    <p>What this trajectory teaches us is that the market isn't settled yet. Players are testing formats. Some stick, some don't. For you, that means adopting an AI browser too early could mean starting over from scratch a few months later.</p>
+    <hr>
+    <h2>What this actually changes day to day</h2>
+    <p>AI browsers can automate multi-step tasks, summarize content, answer contextual questions, and interact with websites to reach a goal you've set. That's what research on these tools has documented since early 2026.</p>
+    <p>In practice, for an entrepreneur, it might look like this:</p>
+    <ul>
+    <li>You're reading a deep-dive article on a competitor. You ask the browser to pull out the key points and write a three-sentence summary for your team.</li>
+    <li>You're looking at a commercial offer in PDF form on a website. You ask the AI to compare the important points with another document you have open in another tab.</li>
+    <li>You want to send a follow-up email to a prospect. You ask the AI to draft that message based on the contact page you're looking at.</li>
+    </ul>
+    <p>These are real gains. Not dramatic ones, but stacked up over a week, they lighten the collection and reformulation work that eats time without really creating value.</p>
+    <p>The limit is that these features still require you to know what to ask. The AI built into the browser isn't magic. It's only as good as the way you talk to it. And that's where <a href="/en/articles/automatiser-taches-ia-sans-coder">knowing how to automate without code</a> becomes a real edge.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Do you actually need to leave Chrome?</h2>
+    <p>Chrome held 69.39% of global browser market share in August 2026, well ahead of Safari at 15.83% and Edge at 5.36%. Those numbers speak for themselves: Chrome is what the vast majority of people use, and Google isn't standing still on AI.</p>
+    <p>Google launched Gemini Agent in September 2026, an experimental tool for multi-step tasks, available on the web for Ultra subscribers. Gemini is already integrated into Chrome via Google Search and AI Overviews. If you want to understand how Google is weaving AI into its search, <a href="/en/articles/ai-overviews-google-france">this article on AI Overviews in France</a> gives a solid overview.</p>
+    <p>In other words, Chrome isn't static. It's gradually absorbing AI features, even if for now they're less deep than what Comet offers.</p>
+    <p>The real question isn't "Chrome or Comet?" It's "what for?"</p>
+    <p>If you spend a lot of time doing research, summarizing content, or drafting from web pages, Comet can give you something Chrome doesn't natively offer yet. If you mainly use your browser to access SaaS tools, manage email, and join online meetings, the gain will be much harder to feel.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Switching browsers has an invisible cost: your bookmarks, your extensions, your saved passwords, your habits. That cost is real and easy to underestimate. Before migrating, test Comet alongside Chrome for two weeks on one specific use case. If you don't notice a concrete difference on that use case, stay where you are.</p></div>
+    
+    <hr>
+    <h2>Privacy: the topic people skip too fast</h2>
+    <p>AI browsers need access to your browsing data to function. And that data can be sent to third-party cloud services. This is documented, and it's the business model behind these tools.</p>
+    <p>For personal, general-purpose use, that's often fine. For an entrepreneur browsing client data, confidential commercial offers, or sensitive documents, it's a question worth asking before you adopt the tool.</p>
+    <p>That's not a reason to reject everything. It's a reason to know what you're running in which browser. Using Comet for your public research and Chrome for your sensitive business tools is a reasonable approach.</p>
+    <hr>
+    <h2>The models powering all of this</h2>
+    <p>Comet draws on several models depending on the task, including GPT-4o and Claude 3.5. The model landscape is moving fast: Anthropic released Claude Fable 5.1 and Mythos 5.1 on September 1, 2026, with Fable 5.1 being its most capable model for complex reasoning and long-running agents. OpenAI launched GPT-6 Astra in early September 2026 for a limited number of organizations, with broader availability planned for Plus, Pro, Business, and Enterprise subscribers.</p>
+    <p>What that means for you: AI browsers will keep improving at the pace of the models feeding them. What Comet does today will be more capable in six months, without you necessarily having to switch tools.</p>
+    <p>That's good news. And it's also a reason not to wait for "the perfect version" before you start exploring.</p>
+    <hr>
+    <h2>FAQ</h2>
+    <h3>What exactly is an AI-native browser for an entrepreneur?</h3>
+    <p>It's a standard web browser with an AI assistant added that can interact with the pages you visit. It can summarize an article, draft an email from web content, answer questions about what you're reading, or run several actions across different sites on your behalf. The difference from an AI extension or a ChatGPT tab is that the assistant is inside your browsing flow, not alongside it.</p>
+    <h3>What real productivity gains can I expect from an AI browser?</h3>
+    <p>The gains are real but hard to predict in advance: they depend on how you work. Research, content summarization, and quick drafting are where the gain is most noticeable. If you spend a lot of time copy-pasting information between tabs and reformulating content, you'll feel a difference. If you mainly use your browser to access SaaS tools, the gain will be more limited.</p>
+    <h3>Are AI browsers secure and do they respect the privacy of my professional data?</h3>
+    <p>That's the main thing to watch. These browsers need access to your browsing data and may send it to third-party cloud servers. For sensitive data (clients, commercial offers, confidential documents), it's better to keep uses separate: AI browser for public research, standard browser for sensitive business tools. Read the terms of use before adopting any tool on a professional machine.</p>
+    <h3>Will Chrome integrate enough AI that I won't need to switch browsers?</h3>
+    <p>Google already integrates AI into Chrome via Gemini and AI Overviews in search. In September 2026, Google launched Gemini Agent, an experimental multi-step task tool, for Ultra subscribers. Chrome remains dominant at 69.39% of global market share. Google's trajectory points toward more built-in AI, but the pace and depth of that integration are still worth watching.</p>
+    <h3>How do I choose the right AI browser for my needs as a non-developer entrepreneur?</h3>
+    <p>Start by identifying your most repetitive browsing tasks: research, summarization, drafting, searching. Test Comet on those specific tasks for two weeks alongside Chrome. If you notice a real gain in fluidity on those use cases, adopting it makes sense. If you don't see a difference, stay on Chrome and keep an eye on how it evolves.</p>
+    <h3>Can I use an AI browser for specific tasks and keep Chrome for everything else?</h3>
+    <p>Yes, and that's actually the approach I'd recommend. Nothing forces you to migrate entirely. Comet is built on Chromium just like Chrome, so the learning curve is minimal. You can easily use Comet for your research and drafting, and keep Chrome for your business tools, email, and anything touching sensitive data. That way you get the benefits without taking on the risks.</p>
+    <hr>
+    <h2>My takeaways</h2>
+    <p>An AI-native browser isn't a gimmick, but it's not an immediate revolution for everyone either. Perplexity Comet is the most polished option right now. OpenAI Atlas showed that you can test something and pull the plug fast in this space.</p>
+    <p>For me, the real question isn't "which browser?" but "for what?" I do all of this for myself first: understanding these tools before they become unavoidable, testing them on real use cases, keeping what works. And what works is using the right tool for the right context, not migrating everything at once just because something is new.</p>
+    <p>If you want to start somewhere, start with Comet for your research. And keep Chrome for everything else, at least for now.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what actually works, no jargon, no hype. If this article was useful, the easiest way to stay in the loop is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>One email a week.<br>What I actually <em>test.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me — I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

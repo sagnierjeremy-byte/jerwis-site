@@ -408,8 +408,9 @@
       "topic": "les navigateurs avec IA intégrée (Comet de Perplexity, Atlas d OpenAI) : c est quoi, qu est-ce que ça change, faut-il abandonner Chrome",
       "type": "A",
       "priority": 3,
-      "status": "pending",
-      "added": "2026-07-20"
+      "status": "done",
+      "added": "2026-07-20",
+      "published_at": "2026-09-11"
     },
     {
       "id": "ia-et-ecologie",
