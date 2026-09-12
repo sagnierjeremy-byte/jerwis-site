@@ -1,74 +1,62 @@
 {
-  "generated_at": "2026-09-11T09:19:59.009Z",
-  "day_label": "Vendredi 11 septembre",
+  "generated_at": "2026-09-12T08:59:16.657Z",
+  "day_label": "Samedi 12 septembre",
   "items": [
     {
-      "title": "OpenAI lance ChatGPT pour la finance avec GPT-6 Astra",
-      "why_it_matters": "Je note qu'OpenAI s'attaque aux opérations financières automatisées. Si vous pilotez de la trésorerie ou faites de l'analyse, ça change la donne.",
+      "title": "L'UE valide Claude Mythos 5 après 5 mois de débats",
+      "why_it_matters": "Je peux enfin utiliser légalement le modèle Anthropic en Europe. Cela change mon accès aux IA avancées pour mon entreprise après des mois de flou.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/openai-sattaque-aux-operations-financieres-automatisees-avec-son-nouveau-gpt-6-astra-503325.htm#xtor=RSS-1"
-        },
+          "name": "Intelligence Artificielle",
+          "url": "https://intelligence-artificielle.com/apres-cinq-mois-de-debats-intenses-lue-donne-enfin-son-feu-vert-a-claude-mythos-5/"
+        }
+      ]
+    },
+    {
+      "title": "Agents IA autonomes : une startup française sécurise les paiements",
+      "why_it_matters": "Les agents IA qui paient seuls posent un vrai risque de détournement. Cette solution française répond à un problème urgent avant de déployer ces outils.",
+      "sources": [
         {
           "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/chatgpt-metiers-finance-analyste-wall-street/"
+          "url": "https://www.presse-citron.net/payer-sans-controle-humain-cette-jeune-pousse-francaise-veut-colmater-la-plus-grosse-faille-des-agents-ia/"
         }
       ]
     },
     {
-      "title": "Anthropic bloque des tentatives de créer des armes biologiques via Claude",
-      "why_it_matters": "Je retiens qu'Anthropic publie son rapport de menace : usages détournés réels, pas de la théorie. Utile si vous déployez de l'IA en interne.",
+      "title": "270 000 cyberattaques en une semaine contre une petite ville française",
+      "why_it_matters": "Si Joigny subit autant d'attaques, mon entreprise est aussi une cible. Je dois renforcer ma cybersécurité maintenant, quelle que soit ma taille.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3243935_anthropic-a-bloque-des-tentatives-dutiliser-claude-pour-creer-des-armes-biologiques"
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/video-la-ville-de-joigny-en-bourgogne-visee-par-pres-de-270-000-attaques-informatiques-en-une-semaine_VN-202609120136.html"
         },
         {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2330955-distillation-illicite-trafic-detourne-missile-yemenite-ce-quil-faut-retenir-du-rapport-de-menace-danthropic.html"
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/video-en-bourgogne-une-petite-ville-victime-de-pres-de-270-000-attaques-informatiques-en-une-semaine_VN-202609120055.html"
         }
       ]
     },
     {
-      "title": "La CNIL contrôle le fisc après le vol de données de 700 000 personnes",
-      "why_it_matters": "Je note qu'un piratage massif des impôts déclenche un contrôle CNIL. Si vous stockez des données clients, c'est un rappel brutal des risques.",
+      "title": "Le fisc français peut utiliser vos posts pour vous contrôler",
+      "why_it_matters": "Mes publications Instagram ou LinkedIn peuvent déclencher un redressement fiscal. Je dois aligner ma communication digitale avec ma déclaration.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1554747-la-cnil-annonce-un-controle-de-la-direction-generale-des-finances-publiques-apres-le-vol-de-donnees-personnelles-de-pres-de-700-000-personnes-durant-l-ete-2026/"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/09/12/l-administration-fiscale-peut-elle-utiliser-les-reseaux-sociaux-pour-controler-les-contribuables_6770941_3234.html"
         },
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/economie/article/2026/09/12/l-administration-fiscale-peut-elle-utiliser-les-reseaux-sociaux-pour-controler-les-contribuables_6770941_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "Recherche immobilière par ChatGPT : une startup française lance le service",
+      "why_it_matters": "Je note ce nouveau canal de distribution. Si mes clients cherchent leur logement sur ChatGPT, je dois comprendre comment être visible là-bas.",
+      "sources": [
         {
           "name": "01net",
-          "url": "https://www.01net.com/actualites/suite-piratage-impots-la-cnil-controle-fisc-tirer-consequences.html"
-        }
-      ]
-    },
-    {
-      "title": "Bercy abaisse la croissance 2026 à 0,5 %, déficit hors de contrôle",
-      "why_it_matters": "Je retiens que la croissance est divisée par deux et le déficit dérape. Anticipez une fiscalité plus dure et une demande intérieure atone.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/budget-le-gouvernement-revise-sa-prevision-de-croissance-a-0-5-en-2026-et-1-en-2027-20260911"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/le-gouvernement-table-sur-un-rebond-de-la-croissance-a-1-en-2027-et-sur-une-baisse-de-l-inflation-a-1-8_8187977.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/44540838726436/budget-2027-nous-n-avons-plus-de-gras-previent-roland-lescure"
-        }
-      ]
-    },
-    {
-      "title": "Mistral AI s'allie à Cloudera pour déployer l'IA souveraine en entreprise",
-      "why_it_matters": "Je note que Mistral signe avec Cloudera pour proposer de l'IA européenne on-premise. Une alternative crédible si vous refusez AWS ou Azure.",
-      "sources": [
-        {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/mistral-ai-sallie-a-cloudera-au-nom-de-lia-souveraine-les-dessous-dun-contrat-de-taille.ZSHPB5OXGZCWNBIV6R2RIKKHM4.html"
+          "url": "https://www.01net.com/actualites/cette-start-up-francaise-veut-que-vous-trouviez-votre-logement-en-discutant-simplement-avec-chatgpt.html"
         }
       ]
     }
