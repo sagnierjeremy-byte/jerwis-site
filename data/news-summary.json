@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-12T08:59:16.657Z",
-  "day_label": "Samedi 12 septembre",
+  "generated_at": "2026-09-13T09:56:25.026Z",
+  "day_label": "Dimanche 13 septembre",
   "items": [
     {
-      "title": "L'UE valide Claude Mythos 5 après 5 mois de débats",
-      "why_it_matters": "Je peux enfin utiliser légalement le modèle Anthropic en Europe. Cela change mon accès aux IA avancées pour mon entreprise après des mois de flou.",
+      "title": "OpenAI & Anthropic veulent ralentir l'IA pour des raisons de sécurité",
+      "why_it_matters": "Je retiens que les leaders de l'IA freinent volontairement. Ça change la donne pour les entrepreneurs qui comptaient sur une innovation rapide.",
       "sources": [
         {
-          "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/apres-cinq-mois-de-debats-intenses-lue-donne-enfin-son-feu-vert-a-claude-mythos-5/"
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/pixels/article/2026/09/13/sam-altman-annonce-qu-openai-n-entrera-pas-en-bourse-en-2026-en-raison-des-inquietudes-lies-a-la-securite-de-l-intelligence-artificielle_6772466_4408996.html"
+        },
+        {
+          "name": "Frandroid",
+          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3245817_nous-devons-ralentir-dario-amodei-demande-a-lindustrie-de-ralentir-lia-sam-altman-et-elon-musk-approuvent-dans-la-foulee"
         }
       ]
     },
     {
-      "title": "Agents IA autonomes : une startup française sécurise les paiements",
-      "why_it_matters": "Les agents IA qui paient seuls posent un vrai risque de détournement. Cette solution française répond à un problème urgent avant de déployer ces outils.",
+      "title": "Christine Lagarde alerte : l'IA affame les PME de financement",
+      "why_it_matters": "Je note que les géants tech aspirent les capitaux disponibles. Concrètement, emprunter ou lever des fonds va devenir plus dur et plus cher pour nous.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/payer-sans-controle-humain-cette-jeune-pousse-francaise-veut-colmater-la-plus-grosse-faille-des-agents-ia/"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/1315148499529614/christine-lagarde-alerte-sur-le-cout-financier-du-boom-de-l-ia"
         }
       ]
     },
     {
-      "title": "270 000 cyberattaques en une semaine contre une petite ville française",
-      "why_it_matters": "Si Joigny subit autant d'attaques, mon entreprise est aussi une cible. Je dois renforcer ma cybersécurité maintenant, quelle que soit ma taille.",
+      "title": "Budget 2027 : 30 milliards d'économies vont toucher les entreprises",
+      "why_it_matters": "Je retiens que le gouvernement confirme des coupes massives. À surveiller de près : aides publiques, crédits d'impôt, charges sociales, tout est sur la table.",
+      "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/42128615589709/budget-pour-lescure-un-effort-de-30-milliards-qui-vise-les-depenses"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/57411491858296/budget-2027-la-semaine-des-choix-difficiles"
+        }
+      ]
+    },
+    {
+      "title": "Capgemini vend sa filiale controversée aux USA pour raisons éthiques",
+      "why_it_matters": "Je note qu'un grand groupe français préfère vendre plutôt qu'assumer un contrat polémique. Le risque réputationnel devient un vrai critère de décision.",
       "sources": [
         {
           "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/video-la-ville-de-joigny-en-bourgogne-visee-par-pres-de-270-000-attaques-informatiques-en-une-semaine_VN-202609120136.html"
-        },
+          "url": "https://www.bfmtv.com/tech/elle-a-fourni-un-outil-d-identification-et-de-localisation-des-personnes-etrangeres-capgemini-vend-sa-filiale-critiquee-pour-son-contrat-avec-la-police-americaine-de-l-immigration_AD-202609130153.html"
+        }
+      ]
+    },
+    {
+      "title": "USA-Chine : deux blocs opposés se forment autour de l'IA",
+      "why_it_matters": "Je retiens que le monde de l'IA se fragmente en deux. Pour un entrepreneur français, choisir ses outils devient un choix géopolitique avec des conséquences.",
+      "sources": [
         {
           "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/video-en-bourgogne-une-petite-ville-victime-de-pres-de-270-000-attaques-informatiques-en-une-semaine_VN-202609120055.html"
-        }
-      ]
-    },
-    {
-      "title": "Le fisc français peut utiliser vos posts pour vous contrôler",
-      "why_it_matters": "Mes publications Instagram ou LinkedIn peuvent déclencher un redressement fiscal. Je dois aligner ma communication digitale avec ma déclaration.",
-      "sources": [
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/12/l-administration-fiscale-peut-elle-utiliser-les-reseaux-sociaux-pour-controler-les-contribuables_6770941_3234.html"
-        },
-        {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/12/l-administration-fiscale-peut-elle-utiliser-les-reseaux-sociaux-pour-controler-les-contribuables_6770941_3234.html"
-        }
-      ]
-    },
-    {
-      "title": "Recherche immobilière par ChatGPT : une startup française lance le service",
-      "why_it_matters": "Je note ce nouveau canal de distribution. Si mes clients cherchent leur logement sur ChatGPT, je dois comprendre comment être visible là-bas.",
-      "sources": [
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/cette-start-up-francaise-veut-que-vous-trouviez-votre-logement-en-discutant-simplement-avec-chatgpt.html"
+          "url": "https://www.bfmtv.com/tech/l-ia-sera-la-bombe-atomique-du-xx-ie-siecle-comment-les-etats-unis-et-la-chine-se-livrent-une-nouvelle-guerre-froide-technologique_AN-202609120099.html"
         }
       ]
     }
