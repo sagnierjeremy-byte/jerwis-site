@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-09-13T09:56:25.026Z",
-  "day_label": "Dimanche 13 septembre",
+  "generated_at": "2026-09-14T10:16:42.704Z",
+  "day_label": "Lundi 14 septembre",
   "items": [
     {
-      "title": "OpenAI & Anthropic veulent ralentir l'IA pour des raisons de sécurité",
-      "why_it_matters": "Je retiens que les leaders de l'IA freinent volontairement. Ça change la donne pour les entrepreneurs qui comptaient sur une innovation rapide.",
+      "title": "Anthropic appelle à ralentir l'IA, la Bourse panique",
+      "why_it_matters": "Le PDG d'Anthropic demande à freiner le développement de l'IA. Résultat : le CAC 40 plonge et les valeurs tech dévissent. Attention à la volatilité.",
       "sources": [
         {
-          "name": "Le Monde",
-          "url": "https://www.lemonde.fr/pixels/article/2026/09/13/sam-altman-annonce-qu-openai-n-entrera-pas-en-bourse-en-2026-en-raison-des-inquietudes-lies-a-la-securite-de-l-intelligence-artificielle_6772466_4408996.html"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/securite-de-lia-anthropic-appelle-a-ralentir-le-developpement-des-modeles-de-pointe-elon-musk-et-sam-altman-approuvent-503421.htm#xtor=RSS-1"
         },
         {
-          "name": "Frandroid",
-          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3245817_nous-devons-ralentir-dario-amodei-demande-a-lindustrie-de-ralentir-lia-sam-altman-et-elon-musk-approuvent-dans-la-foulee"
-        }
-      ]
-    },
-    {
-      "title": "Christine Lagarde alerte : l'IA affame les PME de financement",
-      "why_it_matters": "Je note que les géants tech aspirent les capitaux disponibles. Concrètement, emprunter ou lever des fonds va devenir plus dur et plus cher pour nous.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/1315148499529614/christine-lagarde-alerte-sur-le-cout-financier-du-boom-de-l-ia"
-        }
-      ]
-    },
-    {
-      "title": "Budget 2027 : 30 milliards d'économies vont toucher les entreprises",
-      "why_it_matters": "Je retiens que le gouvernement confirme des coupes massives. À surveiller de près : aides publiques, crédits d'impôt, charges sociales, tout est sur la table.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/42128615589709/budget-pour-lescure-un-effort-de-30-milliards-qui-vise-les-depenses"
+          "name": "Capital",
+          "url": "https://www.capital.fr/entreprises-marches/cac-40-la-bourse-plonge-les-declarations-d-anthropic-et-d-openai-sur-lia-tres-mal-accueillies-1530113"
         },
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/57411491858296/budget-2027-la-semaine-des-choix-difficiles"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/prendre-controle-internet-2027-openai-anthropic-elon-musk-veulent-freiner-course-ia-trump-chine-refusent.html"
         }
       ]
     },
     {
-      "title": "Capgemini vend sa filiale controversée aux USA pour raisons éthiques",
-      "why_it_matters": "Je note qu'un grand groupe français préfère vendre plutôt qu'assumer un contrat polémique. Le risque réputationnel devient un vrai critère de décision.",
+      "title": "Les taux français à 10 ans dépassent 4,5%, plus haut depuis 18 ans",
+      "why_it_matters": "Emprunter coûte beaucoup plus cher. Si vous prévoyez un crédit pro ou un investissement financé, le timing devient critique pour votre trésorerie.",
       "sources": [
         {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/elle-a-fourni-un-outil-d-identification-et-de-localisation-des-personnes-etrangeres-capgemini-vend-sa-filiale-critiquee-pour-son-contrat-avec-la-police-americaine-de-l-immigration_AD-202609130153.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/les-taux-francais-a-10-ans-passent-le-seuil-des-4-5-au-plus-haut-depuis-plus-de-18-ans-20260914"
         }
       ]
     },
     {
-      "title": "USA-Chine : deux blocs opposés se forment autour de l'IA",
-      "why_it_matters": "Je retiens que le monde de l'IA se fragmente en deux. Pour un entrepreneur français, choisir ses outils devient un choix géopolitique avec des conséquences.",
+      "title": "Revolut piégée par une usurpation d'identité, données clients volées",
+      "why_it_matters": "Même une néobanque majeure se fait avoir. Je retiens que la fraude par usurpation devient plus sophistiquée : renforcer la vigilance sur vos process.",
       "sources": [
         {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/l-ia-sera-la-bombe-atomique-du-xx-ie-siecle-comment-les-etats-unis-et-la-chine-se-livrent-une-nouvelle-guerre-froide-technologique_AN-202609120099.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/revolut-se-fait-avoir-par-une-usurpation-d-identite-sophistiquee-et-transmet-des-donnees-sensibles-de-clients-20260914"
+        }
+      ]
+    },
+    {
+      "title": "Stripe rachète OpenRouter pour 7,5 milliards de dollars",
+      "why_it_matters": "Stripe veut simplifier la facturation des tokens IA pour les entreprises. Si vous intégrez de l'IA, vos coûts et votre facturation pourraient changer.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/zd-tech-ce-rachat-a-75-milliards-de-dollars-par-stripe-qui-risque-de-metamorphoser-la-facture-dia-de-votre-entreprise-500406.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic vise une IPO record au Nasdaq dès octobre",
+      "why_it_matters": "L'introduction en Bourse d'Anthropic pourrait dépasser les 86 milliards de SpaceX. Un signal fort sur la valorisation de l'IA, malgré les appels au frein.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/ipo-record-en-vue-anthropic-viserait-le-nasdaq-des-octobre-503415.htm#xtor=RSS-1"
+        },
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/zdnet-morning-14-09-2026-iphone-duo-le-fondateur-introduction-en-bourse-anthropic-regle-3-2-1-pour-la-sauvegarde-503434.htm#xtor=RSS-1"
         }
       ]
     }
