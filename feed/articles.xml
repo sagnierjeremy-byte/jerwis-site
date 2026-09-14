@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 11 Sep 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>L&apos;IA pollue-t-elle vraiment ? Ce que consomme ChatGPT</title>
+      <link>https://jerwis.fr/articles/ia-et-ecologie</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/ia-et-ecologie</guid>
+      <description>Électricité, eau, carbone : ce que consomme vraiment une requête ChatGPT. Les vrais chiffres, sans alarmisme ni déni, pour entrepreneurs curieux.</description>
+      <pubDate>Mon, 14 Sep 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Navigateurs IA intégrée : Comet, Atlas et Chrome comparés</title>
       <link>https://jerwis.fr/articles/navigateurs-ia</link>

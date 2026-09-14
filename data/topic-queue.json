@@ -417,8 +417,9 @@
       "topic": "l IA pollue-t-elle vraiment : ce que consomme une question à ChatGPT en électricité et en eau, les vrais chiffres derrière les gros titres",
       "type": "A",
       "priority": 3,
-      "status": "pending",
-      "added": "2026-07-20"
+      "status": "done",
+      "added": "2026-07-20",
+      "published_at": "2026-09-14"
     }
   ]
 }

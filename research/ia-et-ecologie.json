@@ -1,0 +1,160 @@
+{
+  "topic": "l IA pollue-t-elle vraiment : ce que consomme une question à ChatGPT en électricité et en eau, les vrais chiffres derrière les gros titres",
+  "slug": "ia-et-ecologie",
+  "type": "A",
+  "generated_at": "2026-09-14",
+  "angle": "Démystifier l'impact environnemental de l'IA pour les entrepreneurs non-développeurs, en distinguant les chiffres alarmistes des réalités nuancées de la consommation électrique et hydrique des modèles comme ChatGPT, et en proposant des pistes d'action concrètes.",
+  "intent": "Le lecteur, entrepreneur non-développeur, veut comprendre l'empreinte écologique réelle de l'IA (électricité, eau, carbone) pour ses usages professionnels, au-delà des gros titres, et savoir comment adopter des pratiques plus responsables.",
+  "keywords": [
+    "IA pollution",
+    "ChatGPT consommation électricité",
+    "IA consommation eau",
+    "empreinte carbone IA",
+    "impact environnemental IA chiffres",
+    "data center énergie eau"
+  ],
+  "facts": [
+    {
+      "claim": "Une seule requête à une IA générative consomme en moyenne 10 fois plus d'électricité qu'une recherche classique sur Google.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7-Dls2h_lPANC7ok2JippcvRgFeVX_oHn5EZ_gJnq7OfyeNajLLxDDxXnVOVyOoS-CrVFwBYkVDRTAR51V6a_kqNjDk0ScsDhew_-6vehD4_2HBWCYFhBigG1KpAAEPBCzcqA5oDT86-GxsVfZ4BILDZf_B1P56gBhvTODAc=",
+      "date": "2025-11-17"
+    },
+    {
+      "claim": "L'entraînement d'un modèle de pointe comme ChatGPT 5.1 peut générer plusieurs milliers de tonnes de CO₂, et nécessiter des centaines de kilos de ressources minérales et des millions de litres d'eau.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7-Dls2h_lPANC7ok2JippcvRgFeVX_oHn5EZ_gJnq7OfyeNajLLxDDxXnVOVyOoS-CrVFwBYkVDRTAR51V6a_kqNjDk0ScsDhew_-6vehD4_2HBWCYFhBigG1KpAAEPBCzcqA5oDT86-GxsVfZ4BILDZf_B1P56gBhvTODAc=",
+      "date": "2025-11-17"
+    },
+    {
+      "claim": "L'inférence (utilisation quotidienne) devient plus consommatrice que l'entraînement dès qu'un modèle dépasse 200 à 600 millions d'utilisations, un seuil rapidement franchi par les IA génératives populaires.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7-Dls2h_lPANC7ok2JippcvRgFeVX_oHn5EZ_gJnq7OfyeNajLLxDDxXnVOVyOoS-CrVFwBYkVDRTAR51V6a_kqNjDk0ScsDhew_-6vehD4_2HBWCYFhBigG1KpAAEPBCzcqA5oDT86-GxsVfZ4BILDZf_B1P56gBhvTODAc=",
+      "date": "2025-11-17"
+    },
+    {
+      "claim": "Une requête courte sur ChatGPT coûte environ 0,3 Wh, tandis que les requêtes de raisonnement ou les prompts longs peuvent faire exploser ce chiffre jusqu'à plusieurs dizaines de Wh.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHid2aXb3pNTvCxEGrxqAXuKNyRU-i6oAc_Nhe9fo8W6rcTDjvxZbie1ICbxorj4TovQSb5t7WHqR10gnAfSqA_BpbgZFfkqof4PLGhQXM9e-a5Dp72KgZM9jjOm3Wk7i28qq8P6DhFWH0Nt2VSJWb0JvOnxiRlz9ZeBOs=",
+      "date": "2026-07"
+    },
+    {
+      "claim": "Google a mesuré une consommation de 0,26 mL d'eau par requête Gemini, tandis que Sam Altman (OpenAI) a cité environ 0,3 mL pour ChatGPT, ces chiffres ne comptant que le refroidissement sur site.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLo5JadDBkGTkI_h2PSKN-NT4-5q_MPOk3daraJWCFreRkDQciOvfrivhSX1SXM-PrNyd0wFlPeb6vMPt24CVfC8feFxt8trKfuDXGBG8ErpkfiUi2xwzx1IAzLyhH_9rXmms_eO_lG5kxvw==",
+      "date": "2026-07"
+    },
+    {
+      "claim": "La dernière version majeure de ChatGPT est GPT-5.5, lancée le 23 avril 2026, avec des prix doublés par rapport à la version précédente.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj0VLG3irUxeoDx8rbYTLEYJdSAEvRY5-WseFF3z6ICsfPLlYxrJldcautLmbfrFqfRaFmFUcIbdkokEqYazlM8-6OrZDX0574Fo6k0-Faog34ffXLqpimtaMotq-ckDHnPPpcCdTQ5DeFYw==",
+      "date": "2026-04-23"
+    },
+    {
+      "claim": "La dernière version de la famille Gemini est Gemini 3.8 Flash, lancée le 2 septembre 2026, avec Gemini 4 Pro prévue pour octobre 2026 après des retards.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGW_KYaFyN-POn_AeVDrIeNH_sJ9xRRvhUbbzv1e5r0ZKqpZNzjzjOlIftJoQNM-oqpbxCaq3BRKKkWZ1x8IbtPKaL-FyVWDqWpFj59SyxYXpmimZxHfhqbKbRzlypzQHLYN7pMCfnZU38TA=",
+      "date": "2026-09-02"
+    },
+    {
+      "claim": "Anthropic a lancé Claude Opus 4.7 le 16 avril 2026, et sa version Fable 5.2 est en développement, renforçant les capacités agentiques.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj0VLG3irUxeoDx8rbYTLEYJdSAEvRY5-WseFF3z6ICsfPLlYxrJldcautLmbfrFqfRaFmFUcIbdkokEqYazlM8-6OrZDX0574Fo6k0-Faog34ffXLqpimtaMotq-ckDHnPPpcCdTQ5DeFYw=",
+      "date": "2026-04-16"
+    },
+    {
+      "claim": "La dernière version de la famille Llama est Llama 4, sortie en avril 2025, avec Meta Muse Spark lancée en avril 2026 pour alimenter les chatbots Meta.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPQ0gyhO4N1XWu75YEEjFr8rawa6iJWeYTXryxEc8gDEZ1LrvF4BzXAc8_nkd1JKLieQgQr1jlDrJ7MUF8xsaaK9fVvLW7HK916rB0gUGrGBIEg3EI6pn6-6yBYnHkXgL0_TepTq5Q-JTb87x9mYM=",
+      "date": "2025-04"
+    },
+    {
+      "claim": "La fabrication des puces GPU, essentielles à l'IA, est très énergivore et pourrait voir ses émissions de CO2 multipliées par 16 entre 2024 et 2030, atteignant 19,2 millions de tonnes de CO2 équivalent.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDqf0hDtZDaXBF6gvfZ8tRA_tWXFB409VI26g1s2uOsfgUIrW94yxHmzrMa_t5B9QpShBF-DXAfut0fVjm8ikymZHvcgWCfuCi47QUnhiX1Q0YqGxJgJqSD8QVUGm_DE3tXie0tN97--dyj0yX--kbxtfyog6sFuU=",
+      "date": "2025"
+    },
+    {
+      "claim": "Le modèle Mistral Large 2 a généré 20,4 kilotonnes de CO2 équivalent et consommé 281 000 m3 d'eau sur 18 mois pour son entraînement, avec environ 45 mL d'eau par requête.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0Hf03wylMatAho-lUutpOzsfK2n5EMZ3PpKEWJzfElsdDNl_gckaTC1K3O3yEU0r2VZyvajGh_llzbPz8-04K-1TPXRcv3Vb9BPM9LusVLb6iKECaEhGT05XDWl4vCsbx2k-ucKGdTIl-qY_e51861pzMvT1zEZ8E9pTooW4aGCQ=",
+      "date": "2026-07-06"
+    },
+    {
+      "claim": "L'empreinte foncière des centres de données devrait passer de 6 900 kilomètres carrés en 2025 à plus de 14 500 kilomètres carrés d'ici 2030, augmentant la pression sur les ressources terrestres.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgptOZBv817vMmVvGyVN0rt17m9CjdjcpkIZDE8nmv46_9967kYnNgLNggoMcNVYzAFFU2qP2eHM8gXI0wHffquRZty_dEW8DCXSJ8-EwAlTGbS2hYlqKKAtNpRwhQGfkKsfTFlTxB",
+      "date": "2026-06-04"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "La consommation électrique mondiale des centres de données a atteint 787,8 TWh en 2025, soit une hausse de près de 20 % sur un an, et pourrait doubler d'ici 2030, tirée par l'IA.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxugM0i60OIxtCNCoJluHCdm7SXKPvpzmFX5T39MP4XulGER8wqg8xYpifwcIfI8ybDdxiSPj8v85cG3l4RHAnUSo8fTc9TEcv3rXjF9Bwcrf_I6ti3sKxP-JWETwG3TXojJFfFxQuoNPj4UmEI2127EsH-q-hIr4RANjDonpqqcDNamc=",
+      "date": "2026-07-03"
+    },
+    {
+      "stat": "Les systèmes d'IA auraient consommé environ 765 milliards de litres d'eau en 2025, une quantité supérieure à la consommation mondiale totale d'eau en bouteille au cours de la même année.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyTn1ug8ID79lQswYeqwcCILSJz3Ty_mBTMhzL5Kad9DXudsOYYrUFjmWyL56xxfne3OThklMzI49OI464eArLSZfT4x6oj_A8DxFi7VV__GTePgIvUeGTjprhB699TGMCJ6wNmyoJrwRVzgVakmPc9K5eUkVqQkMD5KN73g==",
+      "date": "2026-09-07"
+    },
+    {
+      "stat": "D'ici 2027, l'IA pourrait consommer autant d'eau que la moitié du Royaume-Uni, ou 4 à 6 Danemark, selon les projections.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtEvKnagC1HINvrTFILcWYhWWD4oJui7UNYdb1AlRE4UxPjx7i3HYto5Xk8J2cFP4WEMt7nbIgye2gJzj6USWXJznfVzGEa0zFcomc256S1B28PfKSKSTIS0h-6Wm2q8K8M1dY506E8ISzL9bUwIe7JwGqLYra0ErXW619Kmxvjbj",
+      "date": "2026-08-17"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/ai-act-pour-ton-business",
+      "why": "Pour aborder les pistes de régulation et d'encadrement de l'IA face à son impact environnemental."
+    },
+    {
+      "url": "/articles/choisir-ia-ecrire-coder-images",
+      "why": "Pour illustrer que le choix du modèle et du type de tâche (texte vs. image) a un impact direct sur la consommation d'énergie et d'eau."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour souligner que la longueur et la complexité des prompts influencent la consommation, et encourager des pratiques de 'prompt engineering' plus frugales."
+    },
+    {
+      "url": "/lexique/gemini-3-1-pro",
+      "why": "Pour offrir un lien vers la fiche lexique d'un modèle d'IA majeur dont la consommation est discutée dans l'article."
+    },
+    {
+      "url": "/lexique/gpt-5-5",
+      "why": "Pour offrir un lien vers la fiche lexique d'un modèle d'IA majeur dont la consommation est discutée dans l'article."
+    },
+    {
+      "url": "/lexique/claude-opus-4-7",
+      "why": "Pour offrir un lien vers la fiche lexique d'un modèle d'IA majeur dont la consommation est discutée dans l'article."
+    }
+  ],
+  "outline": [
+    "Introduction : L'IA, une révolution immatérielle aux coûts bien réels ?",
+    "Électricité : Combien consomme vraiment une requête ChatGPT ou Gemini ?",
+    "Eau : La soif cachée des data centers et de l'IA générative",
+    "Au-delà de la requête : l'empreinte carbone globale de l'IA (entraînement, infrastructures, matières premières)",
+    "Les chiffres clés et les projections : une croissance exponentielle",
+    "Nuances et complexités : pourquoi les chiffres varient-ils autant ?",
+    "Vers une IA plus sobre : solutions et bonnes pratiques pour les entrepreneurs"
+  ],
+  "faq": [
+    "Mon utilisation de ChatGPT en tant qu'entrepreneur a-t-elle un impact significatif sur l'environnement ?",
+    "Est-ce que tous les modèles d'IA consomment la même quantité d'énergie et d'eau ?",
+    "Quelles sont les principales différences entre la consommation liée à l'entraînement et celle liée à l'utilisation (inférence) d'une IA ?",
+    "Comment puis-je réduire l'empreinte écologique de mon usage de l'IA au quotidien ?",
+    "Les entreprises tech sont-elles transparentes sur la consommation de leurs IA ?",
+    "L'IA peut-elle aussi être une solution pour la transition écologique ?"
+  ],
+  "pitfalls": [
+    "Ne pas tomber dans le piège des chiffres unitaires (par requête) sans contextualiser le volume global d'utilisation, qui est le véritable enjeu.",
+    "Expliquer les variations importantes dans les estimations de consommation d'eau et d'électricité (selon le périmètre de calcul, le mix énergétique local, la technologie de refroidissement, la complexité du prompt, etc.).",
+    "Éviter de présenter l'IA comme intrinsèquement 'mauvaise' ou 'bonne' pour l'environnement, mais plutôt comme un outil dont l'impact dépend fortement de sa conception, de son usage et de l'infrastructure sous-jacente.",
+    "Souligner l'opacité des données fournies par les grandes entreprises du secteur, rendant difficile une évaluation précise et indépendante.",
+    "Mettre en lumière l'effet rebond : l'efficacité accrue de l'IA peut paradoxalement entraîner une augmentation globale de la consommation si les usages se multiplient sans contrôle."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7-Dls2h_lPANC7ok2JippcvRgFeVX_oHn5EZ_gJnq7OfyeNajLLxDDxXnVOVyOoS-CrVFwBYkVDRTAR51V6a_kqNjDk0ScsDhew_-6vehD4_2HBWCYFhBigG1KpAAEPBCzcqA5oDT86-GxsVfZ4BILDZf_B1P56gBhvTODAc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHid2aXb3pNTvCxEGrxqAXuKNyRU-i6oAc_Nhe9fo8W6rcTDjvxZbie1ICbxorj4TovQSb5t7WHqR10gnAfSqA_BpbgZFfkqof4PLGhQXM9e-a5Dp72KgZM9jjOm3Wk7i28qq8P6DhFWH0Nt2VSJWb0JvOnxiRlz9ZeBOs=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLo5JadDBkGTkI_h2PSKN-NT4-5q_MPOk3daraJWCFreRkDQciOvfrivhSX1SXM-PrNyd0wFlPeb6vMPt24CVfC8feFxt8trKfuDXGBG8ErpkfiUi2xwzx1IAzLyhH_9rXmms_eO_lG5kxvw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj0VLG3irUxeoDx8rbYTLEYJdSAEvRY5-WseFF3z6ICsfPLlYxrJldcautLmbfrFqfRaFmFUcIbdkokEqYazlM8-6OrZDX0574Fo6k0-Faog34ffXLqpimtaMotq-ckDHnPPpcCdTQ5DeFYw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGW_KYaFyN-POn_AeVDrIeNH_sJ9xRRvhUbbzv1e5r0ZKqpZNzjzjOlIftJoQNM-oqpbxCaq3BRKKkWZ1x8IbtPKaL-FyVWDqWpFj59SyxYXpmimZxHfhqbKbRzlypzQHLYN7pMCfnZU38TA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj0VLG3irUxeoDx8rbYTLEYJdSAEvRY5-WseFF3z6ICsfPLlYxrJldcautLmbfrFqfRaFmFUcIbdkokEqYazlM8-6OrZDX0574Fo6k0-Faog34ffXLqpimtaMotq-ckDHnPPpcCdTQ5DeFYw=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPQ0gyhO4N1XWu75YEEjFr8rawa6iJWeYTXryxEc8gDEZ1LrvF4BzXAc8_nkd1JKLieQgQr1jlDrJ7MUF8xsaaK9fVvLW7HK916rB0gUGrGBIEg3EI6pn6-6yBYnHkXgL0_TepTq5Q-JTb87x9mYM=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDqf0hDtZDaXBF6gvfZ8tRA_tWXFB409VI26g1s2uOsfgUIrW94yxHmzrMa_t5B9QpShBF-DXAfut0fVjm8ikymZHvcgWCfuCi47QUnhiX1Q0YqGxJgJqSD8QVUGm_DE3tXie0tN97--dyj0yX--kbxtfyog6sFuU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0Hf03wylMatAho-lUutpOzsfK2n5EMZ3PpKEWJzfElsdDNl_gckaTC1K3O3yEU0r2VZyvajGh_llzbPz8-04K-1TPXRcv3Vb9BPM9LusVLb6iKECaEhGT05XDWl4vCsbx2k-ucKGdTIl-qY_e51861pzMvT1zEZ8E9pTooW4aGCQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgptOZBv817vMmVvGyVN0rt17m9CjdjcpkIZDE8nmv46_9967kYnNgLNggoMcNVYzAFFU2qP2eHM8gXI0wHffquRZty_dEW8DCXSJ8-EwAlTGbS2hYlqKKAtNpRwhQGfkKsfTFlTxB",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxugM0i60OIxtCNCoJluHCdm7SXKPvpzmFX5T39MP4XulGER8wqg8xYpifwcIfI8ybDdxiSPj8v85cG3l4RHAnUSo8fTc9TEcv3rXjF9Bwcrf_I6ti3sKxP-JWETwG3TXojJFfFxQuoNPj4UmEI2127EsH-q-hIr4RANjDonpqqcDNamc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyTn1ug8ID79lQswYeqwcCILSJz3Ty_mBTMhzL5Kad9DXudsOYYrUFjmWyL56xxfne3OThklMzI49OI464eArLSZfT4x6oj_A8DxFi7VV__GTePgIvUeGTjprhB699TGMCJ6wNmyoJrwRVzgVakmPc9K5eUkVqQkMD5KN73g==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtEvKnagC1HINvrTFILcWYhWWD4oJui7UNYdb1AlRE4UxPjx7i3HYto5Xk8J2cFP4WEMt7nbIgye2gJzj6USWXJznfVzGEa0zFcomc256S1B28PfKSKSTIS0h-6Wm2q8K8M1dY506E8ISzL9bUwIe7JwGqLYra0ErXW619Kmxvjbj"
+  ]
+}

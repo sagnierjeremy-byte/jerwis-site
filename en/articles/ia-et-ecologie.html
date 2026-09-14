@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/ia-et-ecologie.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Does AI really pollute? What ChatGPT actually consumes · Jerwis</title>
+<meta name="description" content="Electricity, water, carbon: what a ChatGPT request actually costs the planet. Real numbers, no alarmism, no denial, for curious entrepreneurs.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Does AI really pollute? What ChatGPT actually consumes">
+<meta property="og:description" content="Electricity, water, carbon: what a ChatGPT request actually costs. Real numbers, no alarmism, no denial.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/ia-et-ecologie">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/ia-et-ecologie.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-09-14">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Does AI really pollute? What ChatGPT actually consumes">
+<meta name="twitter:description" content="Electricity, water, carbon: what a ChatGPT request actually costs. Real numbers, no alarmism, no denial.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/ia-et-ecologie.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/ia-et-ecologie">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/ia-et-ecologie">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/ia-et-ecologie">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/ia-et-ecologie">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Does AI really pollute? What ChatGPT actually consumes",
+  "description": "Electricity, water, carbon: what a ChatGPT request actually costs the planet. Real numbers, no alarmism, no denial, for curious entrepreneurs.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/ia-et-ecologie",
+  "datePublished": "2026-09-14",
+  "dateModified": "2026-09-14",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/ia-et-ecologie.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Breakdown · 50</div>
+    <h1>Does AI really<br>pollute?<br><em>The unfiltered numbers</em></h1>
+    <p class="hero-lead">
+      You use ChatGPT every day for your business. And sometimes you wonder what it actually costs the planet. The headlines scream about water crises, power-hungry data centers, an internet that's overheating. But somewhere between the alarmism and the denial, what's the real story? I asked myself the same question. I tracked down sourced numbers, the nuances that mainstream articles skip, and the actions that actually make a difference. Here's what I found.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>A short ChatGPT request uses about <strong>0.3 Wh</strong>, roughly 10 times more than a Google search, but that's still pretty low at the individual level.</li>
+      <li>Water is the number that surprised me most: <strong>0.3 mL per request</strong> according to OpenAI, but some models go much higher.</li>
+      <li>The real issue is <strong>scale</strong>: millions of users, data centers doubling in size, GPU chips whose manufacturing footprint is exploding.</li>
+      <li>You can take concrete action: <strong>pick the right model, write tighter prompts</strong>, and avoid unnecessarily heavy tasks.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>I test it myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+  <span>Zero jargon</span><span>I test it myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Disagree? Tell me</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>AI, weightless? Not quite</h2>
+    <p>We talk about "the cloud," "models," "requests." It all sounds like it floats somewhere in the air, weightless, frictionless. Except behind every ChatGPT response there are physical servers, circuits generating heat, water doing the cooling, and electricity running nonstop.</p>
+    <p>I'm not saying this to make anyone feel guilty. I use it myself every day. But I wanted to know what it actually represents, in numbers, not metaphors.</p>
+    <p>The good news: the numbers at the individual usage level are less catastrophic than the headlines suggest. The bad news: at the collective level, the trajectory is concerning. And holding both of those things at once is exactly what this article tries to do.</p>
+    <hr>
+    <h2>What one ChatGPT question actually costs</h2>
+    <p>Let's start with the most concrete thing. You type a short question into ChatGPT. How much electricity does that use?</p>
+    <p>Based on available data, a short ChatGPT request costs around <strong>0.3 Wh</strong> (watt-hours). That's about 10 times more than a standard Google search [F1][F4]. Sounds alarming. But to put it in perspective: 0.3 Wh is roughly what an LED bulb uses in 2 minutes.</p>
+    <p>Where it gets complicated is with longer requests or advanced reasoning modes. A complex prompt, a conversation that stretches on, a model that "thinks" through multiple steps... and consumption can climb to <strong>several dozen Wh</strong> for a single interaction [F4]. That's a multiplier worth paying attention to.</p>
+    <p>What this means for you in practice: the way you write your prompts has a direct impact on consumption. A precise, short prompt uses less than a vague one that forces the model to iterate. I go into more detail on this in my article on <a href="/en/articles/ecrire-bon-prompt-non-dev">how to write a good prompt when you're not a developer</a>.</p>
+    <div class="callout tip"><h4>My takeaways on electricity</h4><p>The 10x factor compared to Google is real, but it doesn't tell the whole story. What actually matters is the nature of the task. A reasoning request or a long back-and-forth uses far more than a simple question. Before launching an intensive AI work session, it's worth knowing what you're actually looking for.</p></div>
+    
+    <hr>
+    <h2>The hidden thirst of data centers</h2>
+    <p>Water is the number that surprised me most when I started digging into this.</p>
+    <p>The servers running AI models generate enormous heat. To cool them, data centers use water, sometimes in closed loops, sometimes through direct evaporation. The result: every request has a water footprint, even if you never think about it.</p>
+    <p>Google measured a consumption of <strong>0.26 mL of water per Gemini request</strong>. Sam Altman, OpenAI's CEO, cited around <strong>0.3 mL for ChatGPT</strong> [F5]. These figures only count on-site cooling, not the water needed to generate the electricity upstream.</p>
+    <p>For comparison: Mistral, the French company, published data on its Large 2 model. Over 18 months of training, it consumed 281,000 m³ of water. And in use, we're talking about roughly <strong>45 mL per request</strong> [F11], which is 150 times more than ChatGPT. The gap is enormous and shows clearly that not all models are equal.</p>
+    <p>Globally, AI systems reportedly consumed around <strong>765 billion liters of water in 2025</strong>, more than the world's total bottled water consumption over the same period [S2]. And according to projections, by 2027 AI could consume as much water as half of the United Kingdom [S3].</p>
+    <p>These global figures are staggering. But they result from billions of daily interactions, not your personal usage.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Training, chips, and everything else</h2>
+    <p>When we talk about AI's environmental impact, we usually think about everyday usage. But two other dimensions carry serious weight.</p>
+    <p><strong>Training, first.</strong> Building a cutting-edge model like those in the GPT family can generate several thousand tons of CO₂ and require millions of liters of water [F2]. It's a one-time cost, but a massive one. The upside: once the model is trained, that investment gets "amortized" across every request that follows.</p>
+    <p>And at a certain usage volume, inference (meaning everyday use of the model) actually becomes more resource-intensive than training itself. That threshold sits somewhere around 200 to 600 million uses [F3]. Popular models like ChatGPT cross it quickly. Which means our collective usage habits end up weighing more than the model creation phase.</p>
+    <p><strong>GPU chips, second.</strong> The graphics processors that power AI don't appear out of thin air. Manufacturing them is extremely energy-intensive. According to projections published in 2025, CO₂ emissions from chip manufacturing could increase 16-fold between 2024 and 2030, reaching 19.2 million tons of CO₂ equivalent [F10]. This is a part of the footprint that tech companies rarely mention.</p>
+    <p><strong>Physical footprint, finally.</strong> Data centers take up real physical space. A lot of it. The global land footprint is expected to grow from 6,900 km² in 2025 to more than 14,500 km² by 2030 [F12]. That's additional pressure on territories, often in areas already stretched thin on water or energy.</p>
+    <hr>
+    <h2>The numbers that make your head spin</h2>
+    <p>A few orders of magnitude to put all of this in perspective.</p>
+    <p>Global electricity consumption by data centers reached <strong>787.8 TWh in 2025</strong>, a nearly 20% increase in a single year. It could double by 2030, driven largely by AI [S1].</p>
+    <p>To understand what one TWh means: it's roughly the annual electricity consumption of 300,000 French households. Multiplied by 787. And potentially doubled by 2030.</p>
+    <p>These numbers aren't here to discourage you from using AI. They're here to make clear that the impact question isn't individual. It's systemic. And the decisions that actually matter get made at the level of tech companies, governments, and regulators, not just in how you phrase your prompts. I cover this in my article on <a href="/en/articles/ai-act-pour-ton-business">the AI Act and what it changes for your business</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Why the numbers vary so much</h2>
+    <p>You've probably noticed that data on AI's environmental impact varies wildly depending on the source. There are a few reasons for that.</p>
+    <p><strong>The measurement scope changes everything.</strong> Some figures only count on-site cooling (like OpenAI's 0.3 mL). Others include the water needed to generate electricity upstream. Results can differ by a factor of 10 or more.</p>
+    <p><strong>Models are not created equal.</strong> A "flash" or "lite" model, optimized for speed and efficiency, uses far less than an advanced reasoning model. <a href="/en/lexique/gpt-5-5">GPT-5.5</a>, launched on April 23, 2026, doesn't have the same footprint as a lighter model. Neither does <a href="/en/lexique/claude-opus-4-7">Claude Opus 4.7</a>, released on April 16, 2026 with enhanced agentic capabilities. And <a href="/en/lexique/gemini-3-1-pro">Gemini</a> offers several model tiers with very different consumption levels.</p>
+    <p><strong>Transparency is still rare.</strong> Most companies don't publish detailed data on their models' consumption. Mistral is a notable exception with figures published in July 2026 [F11]. OpenAI and Google have shared rough estimates, but without systematic independent audits.</p>
+    <p><strong>The local energy mix matters.</strong> A data center running on renewable energy doesn't have the same carbon footprint as one running on coal. The geographic location of servers radically changes the CO₂ footprint of a single request.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Watch out for spectacular comparisons with no clear scope. "AI consumes as much as such-and-such country" can be true or false depending on what's being measured and how. When you read an alarming figure, always ask: which model? which phase (training or usage)? what water or energy perimeter? It changes everything.</p></div>
+    
+    <hr>
+    <h2>What you can actually do</h2>
+    <p>I'll be honest: at the individual level, the impact of an entrepreneur using ChatGPT a few hours a week stays marginal. That's not a reason to ignore the topic, but it is a reason not to beat yourself up about it.</p>
+    <p>Here's what actually makes a difference.</p>
+    <p><strong>Pick the right model for the right task.</strong> A lightweight model for a simple task, a powerful model for a complex one. Using GPT-5.5 to rephrase an email is overkill. My article on <a href="/en/articles/choisir-ia-ecrire-coder-images">how to choose your AI based on the task</a> can help you calibrate that.</p>
+    <p><strong>Write more precise prompts.</strong> A vague prompt generates back-and-forth. A precise prompt gets the answer in one shot. Less consumption, and more efficient for you too. Double win.</p>
+    <p><strong>Avoid unnecessarily heavy tasks.</strong> Generating high-resolution images, running agents in loops, asking for analysis of entire documents when one section would do... every choice has a cost.</p>
+    <p><strong>Stay informed about what the players are actually committing to.</strong> Big tech companies make pledges about their energy mix and carbon targets. Some are serious, others less so. Tracking those commitments is also a form of market pressure.</p>
+    <p>AI can also contribute to environmental solutions: energy optimization, climate modeling, precision agriculture. The impact isn't one-directional. But that doesn't mean we get to ignore the cost.</p>
+    <hr>
+    <h2>FAQ</h2>
+    <h3>Does my use of ChatGPT as an entrepreneur have a significant environmental impact?</h3>
+    <p>At the individual level, not really. A short request uses about 0.3 Wh and 0.3 mL of water. That's low. Where the impact becomes significant is at the scale of millions of simultaneous users. Your usage counts in the aggregate, but the primary responsibility sits with companies and the energy policies of data centers.</p>
+    <h3>Do all AI models consume the same amount of energy and water?</h3>
+    <p>Not even close. The gaps are huge. Mistral Large 2 uses around 45 mL of water per request, versus 0.3 mL for ChatGPT according to OpenAI. "Flash" or "lite" models use a fraction of what advanced reasoning models consume. Model choice is a real environmental variable.</p>
+    <h3>What's the main difference between training consumption and usage consumption?</h3>
+    <p>Training is a one-time, massive cost: several thousand tons of CO₂ and millions of liters of water for a cutting-edge model. Inference (everyday usage) is a continuous, lower cost per request, but it eventually surpasses training once the model reaches 200 to 600 million uses. For popular models, that threshold gets crossed fast.</p>
+    <h3>How can I reduce the ecological footprint of my daily AI use?</h3>
+    <p>Three concrete levers: pick a model suited to the complexity of your task (not always the most powerful one), write precise prompts to avoid back-and-forth, and skip oversized uses like generating high-resolution images for internal purposes. Small moves, but they add up.</p>
+    <h3>Are tech companies transparent about their AI's consumption?</h3>
+    <p>Not enough. Mistral published detailed data on its Large 2 model in July 2026, which is notable. OpenAI and Google have shared rough water estimates, but without systematic independent audits. Transparency is improving, partly under regulatory pressure, but it's still incomplete.</p>
+    <h3>Can AI also be part of the solution for the ecological transition?</h3>
+    <p>Yes, and that's an important nuance. AI is being used to optimize building energy consumption, improve climate models, reduce waste in agriculture, and optimize power grids. The impact isn't purely negative. But that doesn't mean the consumption of general-purpose models is automatically offset by those use cases.</p>
+    <hr>
+    <h2>My takeaways</h2>
+    <p>I do all of this for myself first. And when I started digging into this topic, I expected either an obvious catastrophe or total reassurance. I found something else: a reality with multiple layers.</p>
+    <p>At the scale of an entrepreneur using ChatGPT for daily work, the direct impact is low. A few milliliters of water, a few fractions of a Wh. Nothing that justifies stopping everything.</p>
+    <p>But at the collective scale, the trajectory is real. Data centers doubling in footprint, electricity consumption growing 20% a year, GPU chips whose manufacturing is about to explode. That's not alarmism, those are published, sourced projections.</p>
+    <p>What I take from all of this: use AI more intentionally. Not less, but better. Pick the right model, write prompts that get to the point, and stay attentive to what the players in this space are actually doing, beyond the press releases.</p>
+    <p>And keep asking questions.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, no jargon, no hype. If this article was useful, the easiest way to stay in the loop is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>One email a week.<br>What I actually <em>test.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me — I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>
