@@ -1,66 +1,54 @@
 {
-  "generated_at": "2026-09-14T10:16:42.704Z",
-  "day_label": "Lundi 14 septembre",
+  "generated_at": "2026-09-15T09:45:13.777Z",
+  "day_label": "Mardi 15 septembre",
   "items": [
     {
-      "title": "Anthropic appelle à ralentir l'IA, la Bourse panique",
-      "why_it_matters": "Le PDG d'Anthropic demande à freiner le développement de l'IA. Résultat : le CAC 40 plonge et les valeurs tech dévissent. Attention à la volatilité.",
+      "title": "Axa vise 700M€ de gains IA d'ici 2029",
+      "why_it_matters": "Je note qu'un géant français mise gros sur l'IA dans toutes ses activités. Ça dit où va l'argent et quels gains concrets viser dans son secteur.",
       "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/securite-de-lia-anthropic-appelle-a-ralentir-le-developpement-des-modeles-de-pointe-elon-musk-et-sam-altman-approuvent-503421.htm#xtor=RSS-1"
-        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/cac-40-la-bourse-plonge-les-declarations-d-anthropic-et-d-openai-sur-lia-tres-mal-accueillies-1530113"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/prendre-controle-internet-2027-openai-anthropic-elon-musk-veulent-freiner-course-ia-trump-chine-refusent.html"
+          "url": "https://www.capital.fr/entreprises-marches/axa-vise-jusqua-700-millions-deuros-de-profits-lies-a-lia-en-2029-1530147"
         }
       ]
     },
     {
-      "title": "Les taux français à 10 ans dépassent 4,5%, plus haut depuis 18 ans",
-      "why_it_matters": "Emprunter coûte beaucoup plus cher. Si vous prévoyez un crédit pro ou un investissement financé, le timing devient critique pour votre trésorerie.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/les-taux-francais-a-10-ans-passent-le-seuil-des-4-5-au-plus-haut-depuis-plus-de-18-ans-20260914"
-        }
-      ]
-    },
-    {
-      "title": "Revolut piégée par une usurpation d'identité, données clients volées",
-      "why_it_matters": "Même une néobanque majeure se fait avoir. Je retiens que la fraude par usurpation devient plus sophistiquée : renforcer la vigilance sur vos process.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/revolut-se-fait-avoir-par-une-usurpation-d-identite-sophistiquee-et-transmet-des-donnees-sensibles-de-clients-20260914"
-        }
-      ]
-    },
-    {
-      "title": "Stripe rachète OpenRouter pour 7,5 milliards de dollars",
-      "why_it_matters": "Stripe veut simplifier la facturation des tokens IA pour les entreprises. Si vous intégrez de l'IA, vos coûts et votre facturation pourraient changer.",
+      "title": "La Suisse remplace Microsoft 365 par de l'open source",
+      "why_it_matters": "Je retiens qu'un gouvernement plaque Microsoft pour openDesk. Ça montre qu'on peut sortir de l'écosystème sans tout casser, question à se poser.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-ce-rachat-a-75-milliards-de-dollars-par-stripe-qui-risque-de-metamorphoser-la-facture-dia-de-votre-entreprise-500406.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/les-helvetes-sortent-leur-couteau-suisse-face-a-microsoft-365-503507.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Anthropic vise une IPO record au Nasdaq dès octobre",
-      "why_it_matters": "L'introduction en Bourse d'Anthropic pourrait dépasser les 86 milliards de SpaceX. Un signal fort sur la valorisation de l'IA, malgré les appels au frein.",
+      "title": "Google AI Overview arrive en France : le SEO payant doit s'adapter",
+      "why_it_matters": "Je note que Google déploie ses résumés IA en France. Si tu paies pour du référencement, tes stratégies vont devoir changer vite.",
+      "sources": [
+        {
+          "name": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/arrivee-google-ai-overview-ai-mode-france-impacts-paid-media/"
+        }
+      ]
+    },
+    {
+      "title": "Les robots chinois de logistique déployés en 6 mois chez Huawei",
+      "why_it_matters": "Je vois que la Chine passe du prototype au déploiement en un temps record. Si tu es dans la supply chain, ça bouge très vite.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/ipo-record-en-vue-anthropic-viserait-le-nasdaq-des-octobre-503415.htm#xtor=RSS-1"
-        },
+          "url": "https://www.zdnet.fr/actualites/zd-tech-developpes-en-seulement-6-mois-les-robots-humanoides-chinois-envahissent-deja-la-chaine-logistique-mondiale-500405.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft publie un code de conduite IA « Humanist AI »",
+      "why_it_matters": "Je retiens que Microsoft pose des garde-fous avant de sortir ses prochaines IA. Utile pour anticiper ce qui sera autorisé ou pas dans tes outils.",
+      "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zdnet-morning-14-09-2026-iphone-duo-le-fondateur-introduction-en-bourse-anthropic-regle-3-2-1-pour-la-sauvegarde-503434.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/microsoft-devoile-un-projet-de-code-de-conduite-pour-ses-futures-ia-503488.htm#xtor=RSS-1"
         }
       ]
     }
