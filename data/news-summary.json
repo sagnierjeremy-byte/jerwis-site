@@ -1,54 +1,70 @@
 {
-  "generated_at": "2026-09-15T09:45:13.777Z",
-  "day_label": "Mardi 15 septembre",
+  "generated_at": "2026-09-16T09:38:59.345Z",
+  "day_label": "Mercredi 16 septembre",
   "items": [
     {
-      "title": "Axa vise 700M€ de gains IA d'ici 2029",
-      "why_it_matters": "Je note qu'un géant français mise gros sur l'IA dans toutes ses activités. Ça dit où va l'argent et quels gains concrets viser dans son secteur.",
+      "title": "Nvidia et Palantir exigent « zéro conservation de données » des IA externes",
+      "why_it_matters": "Je note un virage majeur : les gros clients imposent leurs conditions aux fournisseurs d'IA. Si vous utilisez Claude ou GPT, vérifiez vos contrats.",
       "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/fuite-de-donnees-pourquoi-nvidia-et-palantir-prennent-leurs-distances-avec-les-modeles-dia-externes-503582.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "AWS perd définitivement des données clients après un conflit militaire",
+      "why_it_matters": "Je retiens : le cloud n'est pas infaillible, même avec redondance. Si vos données sont critiques, vos backups hors AWS deviennent obligatoires.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/aws-incapable-de-recuperer-certaines-donnees-endommagees-pendant-la-guerre-iran-usa-503589.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "L'UE prépare l'interdiction des réseaux sociaux avant 13 ans",
+      "why_it_matters": "Je note : si vous vendez aux familles ou aux ados, votre stratégie social media devra changer. Von der Leyen annonce aussi un contrôle parental strict 13-15 ans.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/reseaux-sociaux-ursula-von-der-leyen-propose-une-interdiction-aux-moins-de-13-ans-dans-l-union-europeenne-20260916"
+        },
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/pixels/article/2026/09/16/la-commission-prevoit-une-interdiction-graduee-des-reseaux-sociaux-aux-moins-de-15-ans-a-l-echelle-europeenne_6775185_4408996.html"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI, Anthropic et Google veulent « ralentir la course » à l'IA",
+      "why_it_matters": "Je retiens : pour la première fois, les trois géants s'accordent sur le danger. L'UE veut les réunir pour organiser un ralentissement coordonné.",
+      "sources": [
+        {
+          "name": "Intelligence Artificielle",
+          "url": "https://intelligence-artificielle.com/devenue-incontrolable-lia-va-prendre-le-controle-dinternet-dici-6-mois/"
+        },
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/l-union-europeenne-veut-reunir-les-grands-acteurs-de-l-ia-pour-les-aider-a-ralentir-la-course-un-effort-qui-pourrait-etre-elargi-au-canada-et-a-la-grande-bretagne_AD-202609160371.html"
+        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/axa-vise-jusqua-700-millions-deuros-de-profits-lies-a-lia-en-2029-1530147"
+          "url": "https://www.capital.fr/entreprises-marches/openai-anthropic-et-google-tente-de-limiter-les-risques-de-l-ia-mais-leur-projet-est-deja-menace-1530180"
         }
       ]
     },
     {
-      "title": "La Suisse remplace Microsoft 365 par de l'open source",
-      "why_it_matters": "Je retiens qu'un gouvernement plaque Microsoft pour openDesk. Ça montre qu'on peut sortir de l'écosystème sans tout casser, question à se poser.",
+      "title": "Hackuity lève 19M$ pour bloquer les cyberattaques boostées par l'IA",
+      "why_it_matters": "Je note : une boîte française qui grandit sur un vrai problème. Les attaquants utilisent l'IA pour voler des identités légitimes, plus juste des mots de passe.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/les-helvetes-sortent-leur-couteau-suisse-face-a-microsoft-365-503507.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Google AI Overview arrive en France : le SEO payant doit s'adapter",
-      "why_it_matters": "Je note que Google déploie ses résumés IA en France. Si tu paies pour du référencement, tes stratégies vont devoir changer vite.",
-      "sources": [
+          "name": "Maddyness",
+          "url": "https://www.maddyness.com/2026/09/16/hackuity-leve-19-millions-de-dollars-pour-contrer-les-attaques-ia/"
+        },
         {
-          "name": "Blog du Modérateur",
-          "url": "https://www.blogdumoderateur.com/arrivee-google-ai-overview-ai-mode-france-impacts-paid-media/"
-        }
-      ]
-    },
-    {
-      "title": "Les robots chinois de logistique déployés en 6 mois chez Huawei",
-      "why_it_matters": "Je vois que la Chine passe du prototype au déploiement en un temps record. Si tu es dans la supply chain, ça bouge très vite.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-developpes-en-seulement-6-mois-les-robots-humanoides-chinois-envahissent-deja-la-chaine-logistique-mondiale-500405.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft publie un code de conduite IA « Humanist AI »",
-      "why_it_matters": "Je retiens que Microsoft pose des garde-fous avant de sortir ses prochaines IA. Utile pour anticiper ce qui sera autorisé ou pas dans tes outils.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/microsoft-devoile-un-projet-de-code-de-conduite-pour-ses-futures-ia-503488.htm#xtor=RSS-1"
+          "name": "IT for Business",
+          "url": "https://www.itforbusiness.fr/cybersecurite-du-chateau-fort-a-laeroport-107258"
         }
       ]
     }
