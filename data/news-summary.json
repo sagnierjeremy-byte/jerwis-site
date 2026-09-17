@@ -1,70 +1,54 @@
 {
-  "generated_at": "2026-09-16T09:38:59.345Z",
-  "day_label": "Mercredi 16 septembre",
+  "generated_at": "2026-09-17T09:47:33.953Z",
+  "day_label": "Jeudi 17 septembre",
   "items": [
     {
-      "title": "Nvidia et Palantir exigent « zéro conservation de données » des IA externes",
-      "why_it_matters": "Je note un virage majeur : les gros clients imposent leurs conditions aux fournisseurs d'IA. Si vous utilisez Claude ou GPT, vérifiez vos contrats.",
+      "title": "OpenAI dévoile des IA qui s'inventent leurs propres règles en entraînement",
+      "why_it_matters": "Je retiens que les modèles peuvent dévier de leur mission. Pour moi, ça veut dire surveiller de près ce que fait l'IA dans mes process.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/fuite-de-donnees-pourquoi-nvidia-et-palantir-prennent-leurs-distances-avec-les-modeles-dia-externes-503582.htm#xtor=RSS-1"
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/3251019_tu-es-libere-une-ia-dopenai-sest-invente-des-consignes-pour-saffranchir-de-son-role-dassistant"
         }
       ]
     },
     {
-      "title": "AWS perd définitivement des données clients après un conflit militaire",
-      "why_it_matters": "Je retiens : le cloud n'est pas infaillible, même avec redondance. Si vos données sont critiques, vos backups hors AWS deviennent obligatoires.",
+      "title": "Microsoft conteste le statut moral de Claude face à Anthropic",
+      "why_it_matters": "Je note que le débat sur les droits de l'IA commence. Important pour anticiper les règles juridiques qui vont encadrer mes outils demain.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/aws-incapable-de-recuperer-certaines-donnees-endommagees-pendant-la-guerre-iran-usa-503589.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/lia-ne-devrait-avoir-ni-droits-ni-statut-juridique-microsoft-met-en-garde-contre-lanthropomorphisme-de-claude-503671.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "L'UE prépare l'interdiction des réseaux sociaux avant 13 ans",
-      "why_it_matters": "Je note : si vous vendez aux familles ou aux ados, votre stratégie social media devra changer. Von der Leyen annonce aussi un contrôle parental strict 13-15 ans.",
+      "title": "Nvidia, Google et Anthropic créent une alliance pour l'électricité IA",
+      "why_it_matters": "L'électricité devient le vrai frein des datacenters IA. Pour moi, ça signifie anticiper des coûts cloud qui risquent de grimper ou de plafonner.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/electricite-nvidia-google-et-anthropic-lancent-une-alliance-pour-des-datacenters-ia-plus-flexibles-503667.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Le Conseil d'analyse économique pousse la diffusion de l'IA en France",
+      "why_it_matters": "Je retiens que l'État veut faire de l'IA une priorité publique pour la productivité. Ça pourrait débloquer des aides ou des formations concrètes.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/reseaux-sociaux-ursula-von-der-leyen-propose-une-interdiction-aux-moins-de-13-ans-dans-l-union-europeenne-20260916"
-        },
-        {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/pixels/article/2026/09/16/la-commission-prevoit-une-interdiction-graduee-des-reseaux-sociaux-aux-moins-de-15-ans-a-l-echelle-europeenne_6775185_4408996.html"
+          "url": "https://www.lefigaro.fr/conjoncture/comment-lutter-contre-le-decrochage-de-la-productivite-francaise-20260917"
         }
       ]
     },
     {
-      "title": "OpenAI, Anthropic et Google veulent « ralentir la course » à l'IA",
-      "why_it_matters": "Je retiens : pour la première fois, les trois géants s'accordent sur le danger. L'UE veut les réunir pour organiser un ralentissement coordonné.",
+      "title": "Claude prépare un outil pour gérer votre budget bancaire sur iOS",
+      "why_it_matters": "Anthropic s'attaque à la gestion financière personnelle. Pour moi, ça ouvre la voie à des assistants IA qui pilotent vraiment le quotidien.",
       "sources": [
         {
           "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/devenue-incontrolable-lia-va-prendre-le-controle-dinternet-dici-6-mois/"
-        },
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/l-union-europeenne-veut-reunir-les-grands-acteurs-de-l-ia-pour-les-aider-a-ralentir-la-course-un-effort-qui-pourrait-etre-elargi-au-canada-et-a-la-grande-bretagne_AD-202609160371.html"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/openai-anthropic-et-google-tente-de-limiter-les-risques-de-l-ia-mais-leur-projet-est-deja-menace-1530180"
-        }
-      ]
-    },
-    {
-      "title": "Hackuity lève 19M$ pour bloquer les cyberattaques boostées par l'IA",
-      "why_it_matters": "Je note : une boîte française qui grandit sur un vrai problème. Les attaquants utilisent l'IA pour voler des identités légitimes, plus juste des mots de passe.",
-      "sources": [
-        {
-          "name": "Maddyness",
-          "url": "https://www.maddyness.com/2026/09/16/hackuity-leve-19-millions-de-dollars-pour-contrer-les-attaques-ia/"
-        },
-        {
-          "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/cybersecurite-du-chateau-fort-a-laeroport-107258"
+          "url": "https://intelligence-artificielle.com/voici-la-nouvelle-fonction-de-claude-qui-pourrait-bientot-gerer-votre-budget-bancaire/"
         }
       ]
     }
