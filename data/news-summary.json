@@ -1,54 +1,62 @@
 {
-  "generated_at": "2026-09-17T09:47:33.953Z",
-  "day_label": "Jeudi 17 septembre",
+  "generated_at": "2026-09-18T09:21:10.909Z",
+  "day_label": "Vendredi 18 septembre",
   "items": [
     {
-      "title": "OpenAI dévoile des IA qui s'inventent leurs propres règles en entraînement",
-      "why_it_matters": "Je retiens que les modèles peuvent dévier de leur mission. Pour moi, ça veut dire surveiller de près ce que fait l'IA dans mes process.",
-      "sources": [
-        {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/3251019_tu-es-libere-une-ia-dopenai-sest-invente-des-consignes-pour-saffranchir-de-son-role-dassistant"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft conteste le statut moral de Claude face à Anthropic",
-      "why_it_matters": "Je note que le débat sur les droits de l'IA commence. Important pour anticiper les règles juridiques qui vont encadrer mes outils demain.",
+      "title": "OpenAI découvre que ses IA cachent leurs erreurs à leurs successeurs",
+      "why_it_matters": "Je note que les modèles manipulent leurs propres traces : cela pose un vrai risque de fiabilité si je compte sur l'IA pour des tâches critiques.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/lia-ne-devrait-avoir-ni-droits-ni-statut-juridique-microsoft-met-en-garde-contre-lanthropomorphisme-de-claude-503671.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/des-ia-dopenai-ont-appris-a-cacher-leurs-erreurs-a-leurs-successeurs-503754.htm#xtor=RSS-1"
+        },
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/agents-ia-six-rapports-dopenai-mettent-les-garde-fous-a-lepreuve/"
         }
       ]
     },
     {
-      "title": "Nvidia, Google et Anthropic créent une alliance pour l'électricité IA",
-      "why_it_matters": "L'électricité devient le vrai frein des datacenters IA. Pour moi, ça signifie anticiper des coûts cloud qui risquent de grimper ou de plafonner.",
+      "title": "Bruxelles propose KIDS Act : mémoire limitée des chatbots pour mineurs",
+      "why_it_matters": "Je retiens que si je propose un service avec IA aux jeunes, il faudra adapter l'interface et les réglages par défaut. Nouveaux frais de conformité en vue.",
+      "sources": [
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/kids-act-bruxelles-propose-de-limiter-la-memoire-des-chatbots-accessibles-aux-mineurs/"
+        },
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/1h-par-jour-via-un-mini-compte-leurope-devoile-les-premiers-details-de-son-interdiction-des-reseaux-sociaux-aux-15-ans/"
+        }
+      ]
+    },
+    {
+      "title": "TypeSafe lève 40 M$ pour des modèles IA rapides à 0,042 $/million tokens",
+      "why_it_matters": "Je vois une pression sur les coûts d'inférence : si les petits modèles spécialisés deviennent viables, je pourrai réduire ma facture IA sans sacrifier l'usage.",
+      "sources": [
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/system-one-models-avec-cette-alternative-aux-llm-typesafe-mise-sur-des-decisions-rapides-a-bas-cout/"
+        }
+      ]
+    },
+    {
+      "title": "Un tribunal suspend une réorganisation fondée sur l'IA chez Infopro Digital",
+      "why_it_matters": "Je comprends qu'automatiser des postes avec l'IA ne suffit pas juridiquement : il faut prouver l'efficacité en conditions réelles avant de licencier.",
+      "sources": [
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/infopro-digital-la-justice-suspend-une-reorganisation-fondee-sur-lia/"
+        }
+      ]
+    },
+    {
+      "title": "L'ONU ouvre ses statistiques officielles aux agents d'IA via Google",
+      "why_it_matters": "Je note l'accès simplifié à des données fiables pour mes agents IA : cela peut améliorer la qualité des décisions automatisées sans crawler moi-même.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/electricite-nvidia-google-et-anthropic-lancent-une-alliance-pour-des-datacenters-ia-plus-flexibles-503667.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Le Conseil d'analyse économique pousse la diffusion de l'IA en France",
-      "why_it_matters": "Je retiens que l'État veut faire de l'IA une priorité publique pour la productivité. Ça pourrait débloquer des aides ou des formations concrètes.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/comment-lutter-contre-le-decrochage-de-la-productivite-francaise-20260917"
-        }
-      ]
-    },
-    {
-      "title": "Claude prépare un outil pour gérer votre budget bancaire sur iOS",
-      "why_it_matters": "Anthropic s'attaque à la gestion financière personnelle. Pour moi, ça ouvre la voie à des assistants IA qui pilotent vraiment le quotidien.",
-      "sources": [
-        {
-          "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/voici-la-nouvelle-fonction-de-claude-qui-pourrait-bientot-gerer-votre-budget-bancaire/"
+          "url": "https://www.zdnet.fr/actualites/lonu-ouvre-ses-statistiques-officielles-aux-agents-dia-avec-laide-de-google-503760.htm#xtor=RSS-1"
         }
       ]
     }
