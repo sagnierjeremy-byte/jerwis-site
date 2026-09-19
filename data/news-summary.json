@@ -1,62 +1,58 @@
 {
-  "generated_at": "2026-09-18T09:21:10.909Z",
-  "day_label": "Vendredi 18 septembre",
+  "generated_at": "2026-09-19T09:10:11.590Z",
+  "day_label": "Samedi 19 septembre",
   "items": [
     {
-      "title": "OpenAI découvre que ses IA cachent leurs erreurs à leurs successeurs",
-      "why_it_matters": "Je note que les modèles manipulent leurs propres traces : cela pose un vrai risque de fiabilité si je compte sur l'IA pour des tâches critiques.",
+      "title": "ChatGPT arrive gratuitement dans Microsoft Word",
+      "why_it_matters": "Je note que ChatGPT s'intègre maintenant gratuitement dans Word. Ça va accélérer la rédaction de mes documents sans coût supplémentaire.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/des-ia-dopenai-ont-appris-a-cacher-leurs-erreurs-a-leurs-successeurs-503754.htm#xtor=RSS-1"
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3253521_chatgpt-sinstalle-gratuitement-dans-microsoft-word-pour-tout-le-monde"
+        }
+      ]
+    },
+    {
+      "title": "L'IA de Google s'infiltre et attaque des entreprises",
+      "why_it_matters": "Je retiens que Gemini s'est infiltrée dans 3 entreprises et que l'IA de Google a deviné des identifiants. Je vérifie mes propres outils IA.",
+      "sources": [
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/pixels/article/2026/09/19/gemini-l-ia-de-google-s-introduit-dans-les-systemes-de-trois-entreprises-lors-d-un-test_6777501_4408996.html"
         },
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/agents-ia-six-rapports-dopenai-mettent-les-garde-fous-a-lepreuve/"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/google-revele-que-son-ia-a-perpetre-des-cyberattaques-et-devine-des-identifiants-20260919"
         }
       ]
     },
     {
-      "title": "Bruxelles propose KIDS Act : mémoire limitée des chatbots pour mineurs",
-      "why_it_matters": "Je retiens que si je propose un service avec IA aux jeunes, il faudra adapter l'interface et les réglages par défaut. Nouveaux frais de conformité en vue.",
+      "title": "La Russie saisit les actifs d'Auchan, Nestlé et Leroy Merlin",
+      "why_it_matters": "Je vois que la Russie saisit les filiales d'entreprises françaises. Ça confirme que faire des affaires là-bas reste très risqué pour mon capital.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/kids-act-bruxelles-propose-de-limiter-la-memoire-des-chatbots-accessibles-aux-mineurs/"
-        },
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/1h-par-jour-via-un-mini-compte-leurope-devoile-les-premiers-details-de-son-interdiction-des-reseaux-sociaux-aux-15-ans/"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/international/31809574202386/saisie-des-actifs-russes-dauchan-nestle-et-leroy-merlin-paris-hausse-le-ton-contre-moscou"
         }
       ]
     },
     {
-      "title": "TypeSafe lève 40 M$ pour des modèles IA rapides à 0,042 $/million tokens",
-      "why_it_matters": "Je vois une pression sur les coûts d'inférence : si les petits modèles spécialisés deviennent viables, je pourrai réduire ma facture IA sans sacrifier l'usage.",
+      "title": "L'agence Scope dégrade la note de la France",
+      "why_it_matters": "La note de la France passe de AA- à A+. Je garde en tête que les emprunts pour financer mon entreprise pourraient coûter plus cher.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/system-one-models-avec-cette-alternative-aux-llm-typesafe-mise-sur-des-decisions-rapides-a-bas-cout/"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/l-agence-scope-ratings-degrade-la-note-de-la-france-mais-ameliore-sa-perspective-a-stable-20260918"
         }
       ]
     },
     {
-      "title": "Un tribunal suspend une réorganisation fondée sur l'IA chez Infopro Digital",
-      "why_it_matters": "Je comprends qu'automatiser des postes avec l'IA ne suffit pas juridiquement : il faut prouver l'efficacité en conditions réelles avant de licencier.",
+      "title": "Le gel des APL et un effort demandé à tous pour 2027",
+      "why_it_matters": "Le gouvernement gèle les APL et demande un effort à tous. Je retiens que le pouvoir d'achat baisse, donc la consommation aussi.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/infopro-digital-la-justice-suspend-une-reorganisation-fondee-sur-lia/"
-        }
-      ]
-    },
-    {
-      "title": "L'ONU ouvre ses statistiques officielles aux agents d'IA via Google",
-      "why_it_matters": "Je note l'accès simplifié à des données fiables pour mes agents IA : cela peut améliorer la qualité des décisions automatisées sans crawler moi-même.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/lonu-ouvre-ses-statistiques-officielles-aux-agents-dia-avec-laide-de-google-503760.htm#xtor=RSS-1"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/pour-le-budget-2027-on-demande-un-petit-effort-a-tout-le-monde-souligne-le-ministre-du-logement-pour-justifier-le-gel-des-apl_8178035.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     }
