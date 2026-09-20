@@ -1,58 +1,74 @@
 {
-  "generated_at": "2026-09-19T09:10:11.590Z",
-  "day_label": "Samedi 19 septembre",
+  "generated_at": "2026-09-20T09:38:28.929Z",
+  "day_label": "Dimanche 20 septembre",
   "items": [
     {
-      "title": "ChatGPT arrive gratuitement dans Microsoft Word",
-      "why_it_matters": "Je note que ChatGPT s'intègre maintenant gratuitement dans Word. Ça va accélérer la rédaction de mes documents sans coût supplémentaire.",
+      "title": "Le gazole atteint 2,41 €/L, un record historique",
+      "why_it_matters": "Je retiens que cette hausse alourdit tous les coûts de transport. Je note aussi que le bioéthanol connaît un boom comme alternative.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3253521_chatgpt-sinstalle-gratuitement-dans-microsoft-word-pour-tout-le-monde"
-        }
-      ]
-    },
-    {
-      "title": "L'IA de Google s'infiltre et attaque des entreprises",
-      "why_it_matters": "Je retiens que Gemini s'est infiltrée dans 3 entreprises et que l'IA de Google a deviné des identifiants. Je vérifie mes propres outils IA.",
-      "sources": [
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/energie/les-prix-des-carburants-poursuivent-leur-hausse-le-gazole-tutoie-les-2-41-euros-le-litre-en-moyenne-ce-dimanche-en-france_AN-202609200151.html"
+        },
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/pixels/article/2026/09/19/gemini-l-ia-de-google-s-introduit-dans-les-systemes-de-trois-entreprises-lors-d-un-test_6777501_4408996.html"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/automobile/essence/avec-la-hausse-des-prix-du-carburant-les-conversions-au-bioethanol-en-plein-boom_8201459.html#xtor=RSS-3-%5Bgeneral%5D"
         },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/google-revele-que-son-ia-a-perpetre-des-cyberattaques-et-devine-des-identifiants-20260919"
+          "url": "https://www.lefigaro.fr/conjoncture/prix-des-carburants-des-aides-massives-seraient-une-facilite-que-les-francais-paieraient-cher-previent-le-gouvernement-20260920"
         }
       ]
     },
     {
-      "title": "La Russie saisit les actifs d'Auchan, Nestlé et Leroy Merlin",
-      "why_it_matters": "Je vois que la Russie saisit les filiales d'entreprises françaises. Ça confirme que faire des affaires là-bas reste très risqué pour mon capital.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/international/31809574202386/saisie-des-actifs-russes-dauchan-nestle-et-leroy-merlin-paris-hausse-le-ton-contre-moscou"
-        }
-      ]
-    },
-    {
-      "title": "L'agence Scope dégrade la note de la France",
-      "why_it_matters": "La note de la France passe de AA- à A+. Je garde en tête que les emprunts pour financer mon entreprise pourraient coûter plus cher.",
+      "title": "La dette publique française visera 121,7 % du PIB en 2027",
+      "why_it_matters": "Je note que l'État cherchera 54 milliards d'économies. Je m'attends à plus de taxes et moins d'aides pour les entreprises.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/l-agence-scope-ratings-degrade-la-note-de-la-france-mais-ameliore-sa-perspective-a-stable-20260918"
+          "url": "https://www.lefigaro.fr/conjoncture/la-dette-publique-francaise-atteindra-un-record-en-2027-a-121-7-du-pib-20260919"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/on-ne-peut-pas-se-le-permettre-l-absence-de-budget-couterait-15-milliards-d-euros-previent-amelie-de-montchalin-20260920"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/43046341489407/budget-2027-lecornu-promet-de-preserver-les-collectivites"
         }
       ]
     },
     {
-      "title": "Le gel des APL et un effort demandé à tous pour 2027",
-      "why_it_matters": "Le gouvernement gèle les APL et demande un effort à tous. Je retiens que le pouvoir d'achat baisse, donc la consommation aussi.",
+      "title": "Hausse des taux : alerte au surendettement des entreprises",
+      "why_it_matters": "Je retiens que les emprunts contractés à taux bas deviennent difficiles à rembourser. Je vérifie ma trésorerie de près.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/pour-le-budget-2027-on-demande-un-petit-effort-a-tout-le-monde-souligne-le-ministre-du-logement-pour-justifier-le-gel-des-apl_8178035.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/19558684746046/hausse-des-taux-d-interet-alerte-au-surendettement-des-entreprises"
+        }
+      ]
+    },
+    {
+      "title": "Trump lance une Force d'IA et ignore les appels au ralenti",
+      "why_it_matters": "Je note que les États-Unis accélèrent sans frein. Je crains que l'Europe se coupe du jeu par trop de régulations.",
+      "sources": [
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/nous-allons-cherir-aider-et-veiller-sur-l-ia-alors-que-les-appels-a-ralentir-se-multiplient-aux-etats-unis-donald-trump-s-en-prend-aux-detracteurs-de-l-intelligence-artificielle-et-annonce-la-creation-d-une-force-dediee_AD-202609200123.html"
+        },
+        {
+          "name": "L'Express Économie",
+          "url": "https://www.lexpress.fr/economie/high-tech/donald-trump-annonce-la-creation-dune-force-dia-pour-accelerer-la-course-des-etats-unis-face-a-la-CXQ4GKWD65B7ZNQDMMXIEFVIAI/"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT : comment empêcher qu'un humain lise nos échanges",
+      "why_it_matters": "Je retiens que mes prompts professionnels peuvent être relus. Je change ce réglage pour protéger mes données sensibles.",
+      "sources": [
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/comment-preserver-vos-conversations-avec-chat-gpt-et-eviter-qu-elles-ne-soient-lues-par-un-operateur-humain_AV-202609200111.html"
         }
       ]
     }
