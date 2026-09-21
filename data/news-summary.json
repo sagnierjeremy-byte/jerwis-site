@@ -1,74 +1,58 @@
 {
-  "generated_at": "2026-09-20T09:38:28.929Z",
-  "day_label": "Dimanche 20 septembre",
+  "generated_at": "2026-09-21T10:23:13.641Z",
+  "day_label": "Lundi 21 septembre",
   "items": [
     {
-      "title": "Le gazole atteint 2,41 €/L, un record historique",
-      "why_it_matters": "Je retiens que cette hausse alourdit tous les coûts de transport. Je note aussi que le bioéthanol connaît un boom comme alternative.",
+      "title": "L'AI Act change les règles de formation en PME",
+      "why_it_matters": "Je dois former mes salariés à l'IA mais la règle a changé depuis juillet. L'AI Act réécrit l'article 4, j'ai moins de marge sur les formations.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/les-prix-des-carburants-poursuivent-leur-hausse-le-gazole-tutoie-les-2-41-euros-le-litre-en-moyenne-ce-dimanche-en-france_AN-202609200151.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1554987-article-4-de-l-ai-act-reecrit-ce-qui-change-pour-la-formation-des-salaries-en-pme/"
+        }
+      ]
+    },
+    {
+      "title": "L'IA doit maintenant prouver ce qu'elle rapporte",
+      "why_it_matters": "Mon DAF va me demander du ROI sur chaque outil d'IA. La phase d'expérimentation gratuite est finie, je dois justifier chaque dépense.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1555001-votre-ia-coute-cher-votre-daf-veut-savoir-ce-qu-elle-rapporte/"
+        }
+      ]
+    },
+    {
+      "title": "Des start-up vendent plus grâce à des vendeurs IA",
+      "why_it_matters": "Je note que des outils simples comme des mannequins virtuels ou vendeurs audio boostent les ventes en ligne. C'est concret et accessible.",
+      "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/09/21/du-mannequin-virtuel-au-vendeur-audio-les-nouveautes-a-base-d-ia-des-start-up-pour-faire-depenser-toujours-plus-les-internautes_6778946_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "Une station sur cinq est en rupture de carburant",
+      "why_it_matters": "Je retiens que 21% des stations manquent d'essence ou de gazole. Le gouvernement promet des aides ciblées, pas une baisse générale des taxes.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/carburants-une-station-sur-cinq-en-rupture-d-au-moins-un-carburant-20260921"
         },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/prix-des-carburants-il-y-aura-de-nouvelles-aides-mais-pas-de-baisse-des-taxes-generalisee-previent-le-gouvernement-20260921"
+        }
+      ]
+    },
+    {
+      "title": "Les assurances habitation vont augmenter en 2027",
+      "why_it_matters": "Je dois anticiper une hausse de 5 à 6% de mes primes dès janvier. Le réchauffement climatique pousse les assureurs à segmenter les tarifs.",
+      "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/essence/avec-la-hausse-des-prix-du-carburant-les-conversions-au-bioethanol-en-plein-boom_8201459.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/prix-des-carburants-des-aides-massives-seraient-une-facilite-que-les-francais-paieraient-cher-previent-le-gouvernement-20260920"
-        }
-      ]
-    },
-    {
-      "title": "La dette publique française visera 121,7 % du PIB en 2027",
-      "why_it_matters": "Je note que l'État cherchera 54 milliards d'économies. Je m'attends à plus de taxes et moins d'aides pour les entreprises.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/la-dette-publique-francaise-atteindra-un-record-en-2027-a-121-7-du-pib-20260919"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/on-ne-peut-pas-se-le-permettre-l-absence-de-budget-couterait-15-milliards-d-euros-previent-amelie-de-montchalin-20260920"
-        },
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/43046341489407/budget-2027-lecornu-promet-de-preserver-les-collectivites"
-        }
-      ]
-    },
-    {
-      "title": "Hausse des taux : alerte au surendettement des entreprises",
-      "why_it_matters": "Je retiens que les emprunts contractés à taux bas deviennent difficiles à rembourser. Je vérifie ma trésorerie de près.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/la-tribune-dimanche/dimanche-eco/19558684746046/hausse-des-taux-d-interet-alerte-au-surendettement-des-entreprises"
-        }
-      ]
-    },
-    {
-      "title": "Trump lance une Force d'IA et ignore les appels au ralenti",
-      "why_it_matters": "Je note que les États-Unis accélèrent sans frein. Je crains que l'Europe se coupe du jeu par trop de régulations.",
-      "sources": [
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/nous-allons-cherir-aider-et-veiller-sur-l-ia-alors-que-les-appels-a-ralentir-se-multiplient-aux-etats-unis-donald-trump-s-en-prend-aux-detracteurs-de-l-intelligence-artificielle-et-annonce-la-creation-d-une-force-dediee_AD-202609200123.html"
-        },
-        {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/economie/high-tech/donald-trump-annonce-la-creation-dune-force-dia-pour-accelerer-la-course-des-etats-unis-face-a-la-CXQ4GKWD65B7ZNQDMMXIEFVIAI/"
-        }
-      ]
-    },
-    {
-      "title": "ChatGPT : comment empêcher qu'un humain lise nos échanges",
-      "why_it_matters": "Je retiens que mes prompts professionnels peuvent être relus. Je change ce réglage pour protéger mes données sensibles.",
-      "sources": [
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/comment-preserver-vos-conversations-avec-chat-gpt-et-eviter-qu-elles-ne-soient-lues-par-un-operateur-humain_AV-202609200111.html"
+          "url": "https://www.franceinfo.fr/economie/les-assureurs-vont-faire-de-la-segmentation-le-climat-devrait-faire-flamber-les-tarifs-des-assurances-habitation-en-2027_8202638.html"
         }
       ]
     }
