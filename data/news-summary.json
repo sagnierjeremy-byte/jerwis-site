@@ -1,58 +1,54 @@
 {
-  "generated_at": "2026-09-21T10:23:13.641Z",
-  "day_label": "Lundi 21 septembre",
+  "generated_at": "2026-09-22T09:36:52.958Z",
+  "day_label": "Mardi 22 septembre",
   "items": [
     {
-      "title": "L'AI Act change les règles de formation en PME",
-      "why_it_matters": "Je dois former mes salariés à l'IA mais la règle a changé depuis juillet. L'AI Act réécrit l'article 4, j'ai moins de marge sur les formations.",
+      "title": "Airbus quitte les clouds américains pour le français Scaleway",
+      "why_it_matters": "Je retiens que même Airbus protège ses secrets en choisissant un cloud français, je réfléchis à faire pareil pour mes données.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1554987-article-4-de-l-ai-act-reecrit-ce-qui-change-pour-la-formation-des-salaries-en-pme/"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/zd-tech-voici-pourquoi-airbus-retire-900-applications-majeures-des-clouds-americains-pour-choisir-le-francais-scaleway-502835.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "L'IA doit maintenant prouver ce qu'elle rapporte",
-      "why_it_matters": "Mon DAF va me demander du ROI sur chaque outil d'IA. La phase d'expérimentation gratuite est finie, je dois justifier chaque dépense.",
+      "title": "L'UE triple ses centres de données et protège notre facture d'électricité",
+      "why_it_matters": "Je note que Bruxelles impose des étiquettes énergie aux centres de données, ça va impacter mes coûts si j'héberge en Europe.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1555001-votre-ia-coute-cher-votre-daf-veut-savoir-ce-qu-elle-rapporte/"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/ue-tripler-centres-de-donnees-facture-electricite-francais/"
         }
       ]
     },
     {
-      "title": "Des start-up vendent plus grâce à des vendeurs IA",
-      "why_it_matters": "Je note que des outils simples comme des mannequins virtuels ou vendeurs audio boostent les ventes en ligne. C'est concret et accessible.",
+      "title": "Le gouvernement lance un plan de 80 millions pour l'IA au travail",
+      "why_it_matters": "Je retiens que la moitié de ce budget sert à former les salariés à l'IA, c'est une aide pour que mes équipes s'y mettent.",
       "sources": [
         {
           "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/21/du-mannequin-virtuel-au-vendeur-audio-les-nouveautes-a-base-d-ia-des-start-up-pour-faire-depenser-toujours-plus-les-internautes_6778946_3234.html"
+          "url": "https://www.lemonde.fr/economie/article/2026/09/22/intelligence-artificielle-le-gouvernement-lance-un-plan-de-80-millions-d-euros-pour-accompagner-le-monde-du-travail_6780070_3234.html"
         }
       ]
     },
     {
-      "title": "Une station sur cinq est en rupture de carburant",
-      "why_it_matters": "Je retiens que 21% des stations manquent d'essence ou de gazole. Le gouvernement promet des aides ciblées, pas une baisse générale des taxes.",
+      "title": "Google écope d'une amende de 403 millions sur nos données de localisation",
+      "why_it_matters": "Je note que la protection des données coûte cher, je vérifie comment je traite la localisation de mes clients et employés.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/carburants-une-station-sur-cinq-en-rupture-d-au-moins-un-carburant-20260921"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/prix-des-carburants-il-y-aura-de-nouvelles-aides-mais-pas-de-baisse-des-taxes-generalisee-previent-le-gouvernement-20260921"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/403-millions-euros-amende-google-sanctionne-donnees-geolocalisation.html"
         }
       ]
     },
     {
-      "title": "Les assurances habitation vont augmenter en 2027",
-      "why_it_matters": "Je dois anticiper une hausse de 5 à 6% de mes primes dès janvier. Le réchauffement climatique pousse les assureurs à segmenter les tarifs.",
+      "title": "L'Europe veut renforcer le consentement pour entraîner les IA sur nos données",
+      "why_it_matters": "Je retiens que l'Irlande veut durcir la loi sur les données personnelles, ça peut limiter les outils IA que j'utilise.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/les-assureurs-vont-faire-de-la-segmentation-le-climat-devrait-faire-flamber-les-tarifs-des-assurances-habitation-en-2027_8202638.html"
+          "name": "Next",
+          "url": "https://next.ink/257186/europe-menace-sur-le-consentement-pour-lentrainement-des-ia-sur-des-donnees-personnelles/"
         }
       ]
     }
