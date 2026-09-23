@@ -1,54 +1,62 @@
 {
-  "generated_at": "2026-09-22T09:36:52.958Z",
-  "day_label": "Mardi 22 septembre",
+  "generated_at": "2026-09-23T09:43:51.506Z",
+  "day_label": "Mercredi 23 septembre",
   "items": [
     {
-      "title": "Airbus quitte les clouds américains pour le français Scaleway",
-      "why_it_matters": "Je retiens que même Airbus protège ses secrets en choisissant un cloud français, je réfléchis à faire pareil pour mes données.",
+      "title": "OpenAI et Anthropic cassent les prix de leurs IA",
+      "why_it_matters": "Je retiens que les modèles d'IA coûtent deux fois moins cher qu'il y a trois mois. C'est le moment d'automatiser.",
+      "sources": [
+        {
+          "name": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/openai-lance-gpt-6-sol-luna-tarifs-api-divises-deux/"
+        },
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/gpt-6-sol-dopenai-double-son-taux-de-precision-pour-la-moitie-du-prix-504315.htm#xtor=RSS-1"
+        },
+        {
+          "name": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/claude-opus-5-5-anthropic/"
+        }
+      ]
+    },
+    {
+      "title": "L'Europe prépare un nutriscore pour les datacenters",
+      "why_it_matters": "Je retiens que Bruxelles veut noter la consommation énergétique des serveurs. Nos factures cloud pourraient grimper.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-voici-pourquoi-airbus-retire-900-applications-majeures-des-clouds-americains-pour-choisir-le-francais-scaleway-502835.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/leurope-veut-imposer-un-nutriscore-aux-datacenters-voici-pourquoi-les-geants-du-secteur-craignent-un-piege-504303.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "L'UE triple ses centres de données et protège notre facture d'électricité",
-      "why_it_matters": "Je note que Bruxelles impose des étiquettes énergie aux centres de données, ça va impacter mes coûts si j'héberge en Europe.",
+      "title": "Z.ai envoyait les codes utilisateurs sur Alibaba Cloud",
+      "why_it_matters": "Je retiens qu'un assistant de code expédiait les projets vers la Chine sans prévenir. Je vérifie mes outils.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/ue-tripler-centres-de-donnees-facture-electricite-francais/"
+          "name": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2338255-pris-la-main-dans-le-sac-lassistant-de-code-de-z-ai-envoyait-les-projets-de-ses-utilisateurs-sur-le-cloud-sans-les-prevenir.html"
         }
       ]
     },
     {
-      "title": "Le gouvernement lance un plan de 80 millions pour l'IA au travail",
-      "why_it_matters": "Je retiens que la moitié de ce budget sert à former les salariés à l'IA, c'est une aide pour que mes équipes s'y mettent.",
+      "title": "L'IA fait remonter l'inflation et les taux d'intérêt",
+      "why_it_matters": "Je retiens que la course aux datacenters et puces fait grimper les prix. Lever des fonds coûte plus cher.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/09/22/intelligence-artificielle-le-gouvernement-lance-un-plan-de-80-millions-d-euros-pour-accompagner-le-monde-du-travail_6780070_3234.html"
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/idees/article/2026/09/23/la-folle-course-de-l-ia-vient-briser-la-dimension-desinflationniste-de-la-nouvelle-economie_6780870_3232.html"
         }
       ]
     },
     {
-      "title": "Google écope d'une amende de 403 millions sur nos données de localisation",
-      "why_it_matters": "Je note que la protection des données coûte cher, je vérifie comment je traite la localisation de mes clients et employés.",
+      "title": "L'IA débattue pour la première fois à l'ONU",
+      "why_it_matters": "Je retiens que l'IA est traitée comme un enjeu de sécurité mondiale. La régulation va s'accélérer en France.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/403-millions-euros-amende-google-sanctionne-donnees-geolocalisation.html"
-        }
-      ]
-    },
-    {
-      "title": "L'Europe veut renforcer le consentement pour entraîner les IA sur nos données",
-      "why_it_matters": "Je retiens que l'Irlande veut durcir la loi sur les données personnelles, ça peut limiter les outils IA que j'utilise.",
-      "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/257186/europe-menace-sur-le-consentement-pour-lentrainement-des-ia-sur-des-donnees-personnelles/"
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/international/article/2026/09/23/l-ia-pour-la-premiere-fois-en-debat-au-conseil-de-securite-de-l-onu_6780876_3210.html"
         }
       ]
     }
