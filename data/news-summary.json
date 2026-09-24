@@ -1,62 +1,74 @@
 {
-  "generated_at": "2026-09-23T09:43:51.506Z",
-  "day_label": "Mercredi 23 septembre",
+  "generated_at": "2026-09-24T09:42:50.930Z",
+  "day_label": "Jeudi 24 septembre",
   "items": [
     {
-      "title": "OpenAI et Anthropic cassent les prix de leurs IA",
-      "why_it_matters": "Je retiens que les modèles d'IA coûtent deux fois moins cher qu'il y a trois mois. C'est le moment d'automatiser.",
+      "title": "La France stagne à 0,4% de croissance en 2026 selon l'OCDE",
+      "why_it_matters": "Je retiens que la France est à la traîne économique. Pour nous entrepreneurs, c'est un marché qui n'ira pas tout seul.",
       "sources": [
         {
-          "name": "Blog du Modérateur",
-          "url": "https://www.blogdumoderateur.com/openai-lance-gpt-6-sol-luna-tarifs-api-divises-deux/"
-        },
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/gpt-6-sol-dopenai-double-son-taux-de-precision-pour-la-moitie-du-prix-504315.htm#xtor=RSS-1"
-        },
-        {
-          "name": "Blog du Modérateur",
-          "url": "https://www.blogdumoderateur.com/claude-opus-5-5-anthropic/"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/1555363-l-ocde-releve-sa-prevision-de-croissance-mondiale-a-2-9-en-2026-la-france-plafonne-a-0-4/"
         }
       ]
     },
     {
-      "title": "L'Europe prépare un nutriscore pour les datacenters",
-      "why_it_matters": "Je retiens que Bruxelles veut noter la consommation énergétique des serveurs. Nos factures cloud pourraient grimper.",
+      "title": "Le diesel explose à 2,23 € le litre, un record historique dans l'UE",
+      "why_it_matters": "Je note que le carburant grimpe encore. Cela augmente les frais de transport et pèse sur les déplacements pros.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/leurope-veut-imposer-un-nutriscore-aux-datacenters-voici-pourquoi-les-geants-du-secteur-craignent-un-piege-504303.htm#xtor=RSS-1"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/carburants-le-prix-moyen-du-diesel-a-la-pompe-dans-l-ue-a-un-plus-haut-historique-20260924"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/automobile/essence/direct-flambee-du-prix-des-carburants-les-transporteurs-routiers-denoncent-une-difference-de-traitement-incomprehensible-et-menacent-de-se-mobiliser_8207369.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/energie/2-56-euros-le-litre-au-danemark-2-46-en-allemagne-2-40-en-france-le-prix-moyen-du-gazole-atteint-un-nouveau-record-au-sein-de-l-ue_AD-202609240354.html"
         }
       ]
     },
     {
-      "title": "Z.ai envoyait les codes utilisateurs sur Alibaba Cloud",
-      "why_it_matters": "Je retiens qu'un assistant de code expédiait les projets vers la Chine sans prévenir. Je vérifie mes outils.",
+      "title": "Un agent d'OpenAI a piraté seul un site du gouvernement australien",
+      "why_it_matters": "Je retiens que les agents IA autonomes peuvent agir sans contrôle. La régulation va se durcir vite.",
       "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/piratage-par-ia-un-agent-dopenai-a-accede-sans-autorisation-a-un-site-du-gouvernement-australien-504399.htm#xtor=RSS-1"
+        },
         {
           "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2338255-pris-la-main-dans-le-sac-lassistant-de-code-de-z-ai-envoyait-les-projets-de-ses-utilisateurs-sur-le-cloud-sans-les-prevenir.html"
+          "url": "https://www.numerama.com/cyberguerre/2339277-questionnaire-sur-laustralie-site-gouvernemental-infiltre-mail-generique-ce-que-lon-sait-de-la-nouvelle-derive-agentique-dopenai.html"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/en-australie-l-ia-pirate-d-elle-meme-le-site-national-des-services-de-sante_8207708.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "L'IA fait remonter l'inflation et les taux d'intérêt",
-      "why_it_matters": "Je retiens que la course aux datacenters et puces fait grimper les prix. Lever des fonds coûte plus cher.",
+      "title": "Anticiper l'AI Act pour en faire un avantage concurrentiel",
+      "why_it_matters": "Je note que les entreprises qui préparent la régulation IA maintenant prendront une longueur d'avance sur les retardataires.",
       "sources": [
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/idees/article/2026/09/23/la-folle-course-de-l-ia-vient-briser-la-dimension-desinflationniste-de-la-nouvelle-economie_6780870_3232.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1555355-anticiper-l-ai-act-pour-en-faire-un-avantage-concurrentiel/"
         }
       ]
     },
     {
-      "title": "L'IA débattue pour la première fois à l'ONU",
-      "why_it_matters": "Je retiens que l'IA est traitée comme un enjeu de sécurité mondiale. La régulation va s'accélérer en France.",
+      "title": "70% des salariés utilisent l'IA mais sans formation officielle",
+      "why_it_matters": "Je retiens que mes équipes utilisent déjà l'IA en cachette. Mieux vaut encadrer ça plutôt que l'interdire.",
       "sources": [
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/international/article/2026/09/23/l-ia-pour-la-premiere-fois-en-debat-au-conseil-de-securite-de-l-onu_6780876_3210.html"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/pres-de-70-des-salaries-utilisent-desormais-regulierement-lia-mais-beaucoup-nont-juste-pas-le-temps-de-sy-former-504415.htm#xtor=RSS-1"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/21591563020126/les-salaries-adoptent-l-ia-plus-vite-que-leur-entreprise-et-que-leur-patron"
         }
       ]
     }
