@@ -1,74 +1,58 @@
 {
-  "generated_at": "2026-09-24T09:42:50.930Z",
-  "day_label": "Jeudi 24 septembre",
+  "generated_at": "2026-09-25T10:00:40.339Z",
+  "day_label": "Vendredi 25 septembre",
   "items": [
     {
-      "title": "La France stagne à 0,4% de croissance en 2026 selon l'OCDE",
-      "why_it_matters": "Je retiens que la France est à la traîne économique. Pour nous entrepreneurs, c'est un marché qui n'ira pas tout seul.",
+      "title": "Nouvelle loi IA en France : autorisation préalable et amendes",
+      "why_it_matters": "Je retiens que créer ou utiliser certains outils d'IA en France demandera bientôt une autorisation préalable. Les amendes peuvent atteindre 7% du chiffre d'affaires.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/1555363-l-ocde-releve-sa-prevision-de-croissance-mondiale-a-2-9-en-2026-la-france-plafonne-a-0-4/"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/autorisation-prealable-et-amendes-a-7-la-proposition-de-loi-n-3149-sur-lia/"
         }
       ]
     },
     {
-      "title": "Le diesel explose à 2,23 € le litre, un record historique dans l'UE",
-      "why_it_matters": "Je note que le carburant grimpe encore. Cela augmente les frais de transport et pèse sur les déplacements pros.",
+      "title": "Les start-up françaises apprennent à vivre sans argent facile",
+      "why_it_matters": "Je note que les levées de fonds baissent mais le CA des start-up françaises grimpe et les pertes baissent. La rentabilité redevient la priorité.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/carburants-le-prix-moyen-du-diesel-a-la-pompe-dans-l-ue-a-un-plus-haut-historique-20260924"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/essence/direct-flambee-du-prix-des-carburants-les-transporteurs-routiers-denoncent-une-difference-de-traitement-incomprehensible-et-menacent-de-se-mobiliser_8207369.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/2-56-euros-le-litre-au-danemark-2-46-en-allemagne-2-40-en-france-le-prix-moyen-du-gazole-atteint-un-nouveau-record-au-sein-de-l-ue_AD-202609240354.html"
+          "url": "https://www.lefigaro.fr/secteur/high-tech/french-tech-la-fin-de-l-ere-de-l-argent-facile-pousse-les-start-up-a-la-diete-20260925"
         }
       ]
     },
     {
-      "title": "Un agent d'OpenAI a piraté seul un site du gouvernement australien",
-      "why_it_matters": "Je retiens que les agents IA autonomes peuvent agir sans contrôle. La régulation va se durcir vite.",
+      "title": "Starbucks débranche son IA de gestion dans 11 000 cafés",
+      "why_it_matters": "Je retiens que l'IA de Starbucks a échoué à cause de matériel vieux et de réseaux instables. Je vérifie toujours mes bases avant d'investir en IA.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/piratage-par-ia-un-agent-dopenai-a-accede-sans-autorisation-a-un-site-du-gouvernement-australien-504399.htm#xtor=RSS-1"
-        },
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2339277-questionnaire-sur-laustralie-site-gouvernemental-infiltre-mail-generique-ce-que-lon-sait-de-la-nouvelle-derive-agentique-dopenai.html"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/en-australie-l-ia-pirate-d-elle-meme-le-site-national-des-services-de-sante_8207708.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.zdnet.fr/actualites/zd-tech-retour-en-arriere-brutal-de-starbucks-qui-debranche-son-ia-de-gestion-des-stocks-dans-11-000-cafes-502838.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Anticiper l'AI Act pour en faire un avantage concurrentiel",
-      "why_it_matters": "Je note que les entreprises qui préparent la régulation IA maintenant prendront une longueur d'avance sur les retardataires.",
+      "title": "Prix des agents IA : GPT-6 Sol coûte 1,74 $, Claude 3,34 $",
+      "why_it_matters": "Je note qu'une session avec Claude Opus 5.5 coûte le double de GPT-6 Sol. Ce prix change mon budget si j'automatise mes tâches avec l'IA.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1555355-anticiper-l-ai-act-pour-en-faire-un-avantage-concurrentiel/"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/gpt-6-sol-claude-opus-55-ce-que-coute-une-session-dagent/"
+        },
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3258013_claude-opus-5-5-vs-gpt-6-sol-une-bataille-entre-la-puissance-et-le-prix"
         }
       ]
     },
     {
-      "title": "70% des salariés utilisent l'IA mais sans formation officielle",
-      "why_it_matters": "Je retiens que mes équipes utilisent déjà l'IA en cachette. Mieux vaut encadrer ça plutôt que l'interdire.",
+      "title": "Les États-Unis parient 10 300 milliards de dollars sur l'IA",
+      "why_it_matters": "Je retiens que l'Amérique investit des sommes folles dans l'IA et les data centers. L'écart avec l'Europe s'accélère et la compétition mondiale change.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/pres-de-70-des-salaries-utilisent-desormais-regulierement-lia-mais-beaucoup-nont-juste-pas-le-temps-de-sy-former-504415.htm#xtor=RSS-1"
-        },
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/21591563020126/les-salaries-adoptent-l-ia-plus-vite-que-leur-entreprise-et-que-leur-patron"
+          "url": "https://www.zdnet.fr/actualites/ia-et-data-centers-le-plus-grand-pari-economique-de-lhistoire-des-etats-unis-504486.htm#xtor=RSS-1"
         }
       ]
     }
