@@ -1,58 +1,54 @@
 {
-  "generated_at": "2026-09-25T10:00:40.339Z",
-  "day_label": "Vendredi 25 septembre",
+  "generated_at": "2026-09-26T09:41:40.366Z",
+  "day_label": "Samedi 26 septembre",
   "items": [
     {
-      "title": "Nouvelle loi IA en France : autorisation préalable et amendes",
-      "why_it_matters": "Je retiens que créer ou utiliser certains outils d'IA en France demandera bientôt une autorisation préalable. Les amendes peuvent atteindre 7% du chiffre d'affaires.",
+      "title": "L'Europe prise entre l'IA et les guerres : nos coûts explosent",
+      "why_it_matters": "Je retiens que les conflits et l'IA font flamber les prix en Europe, et je dois sécuriser mes approvisionnements.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/autorisation-prealable-et-amendes-a-7-la-proposition-de-loi-n-3149-sur-lia/"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/idees/article/2026/09/26/le-double-choc-ia-et-conflits-armes-a-des-effets-redistributifs-entre-les-pays-mais-est-devastateur-pour-l-europe_6783109_3232.html"
         }
       ]
     },
     {
-      "title": "Les start-up françaises apprennent à vivre sans argent facile",
-      "why_it_matters": "Je note que les levées de fonds baissent mais le CA des start-up françaises grimpe et les pertes baissent. La rentabilité redevient la priorité.",
+      "title": "Le pacte Papin facilite la transmission aux salariés",
+      "why_it_matters": "Je retiens que le budget 2027 prépare des mesures concrètes pour transmettre mon entreprise à mon équipe sans friction.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/french-tech-la-fin-de-l-ere-de-l-argent-facile-pousse-les-start-up-a-la-diete-20260925"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/1062579104561614/transmission-dentreprise-le-pacte-papin-seduit-les-patrons-du-nord"
         }
       ]
     },
     {
-      "title": "Starbucks débranche son IA de gestion dans 11 000 cafés",
-      "why_it_matters": "Je retiens que l'IA de Starbucks a échoué à cause de matériel vieux et de réseaux instables. Je vérifie toujours mes bases avant d'investir en IA.",
+      "title": "EDF veut changer les règles après 15 réacteurs arrêtés",
+      "why_it_matters": "Je retiens que la canicule a fragilisé notre énergie cet été, et que la régulation va évoluer pour éviter le même blocage.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-retour-en-arriere-brutal-de-starbucks-qui-debranche-son-ia-de-gestion-des-stocks-dans-11-000-cafes-502838.htm#xtor=RSS-1"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/energie/apres-avoir-du-arreter-15-de-ses-reacteurs-nucleaires-cet-ete-a-cause-de-la-canicule-edf-veut-relever-les-normes-de-temperature-des-fleuves-face-au-rechauffement-climatique_AD-202609260139.html"
         }
       ]
     },
     {
-      "title": "Prix des agents IA : GPT-6 Sol coûte 1,74 $, Claude 3,34 $",
-      "why_it_matters": "Je note qu'une session avec Claude Opus 5.5 coûte le double de GPT-6 Sol. Ce prix change mon budget si j'automatise mes tâches avec l'IA.",
+      "title": "Une cyberattaque dopée à l'IA paralyse une compagnie ferroviaire",
+      "why_it_matters": "Je retiens que les attaques automatisées par IA sont maintenant réelles, et je vérifie la sécurité de mes propres systèmes.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/gpt-6-sol-claude-opus-55-ce-que-coute-une-session-dagent/"
-        },
-        {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3258013_claude-opus-5-5-vs-gpt-6-sol-une-bataille-entre-la-puissance-et-le-prix"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/transports/apres-ses-trains-a-grande-vitesse-defectueux-une-cyberattaque-dopee-a-l-ia-frappe-la-compagnie-ferroviaire-publique-espagnole_AD-202609260145.html"
         }
       ]
     },
     {
-      "title": "Les États-Unis parient 10 300 milliards de dollars sur l'IA",
-      "why_it_matters": "Je retiens que l'Amérique investit des sommes folles dans l'IA et les data centers. L'écart avec l'Europe s'accélère et la compétition mondiale change.",
+      "title": "Grève massive dans l'énergie le 6 octobre pour les tarifs agent",
+      "why_it_matters": "Je retiens que la grève menace la stabilité du réseau français, et j'anticipe une éventuelle coupure ou surcoût pour mon activité.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/ia-et-data-centers-le-plus-grand-pari-economique-de-lhistoire-des-etats-unis-504486.htm#xtor=RSS-1"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/les-salaries-de-l-energie-font-tout-pour-garder-leur-tarif-agent-qui-coute-381-millions-d-euros-par-an-a-l-etat-une-greve-massive-a-venir-le-6-octobre-1530498"
         }
       ]
     }
