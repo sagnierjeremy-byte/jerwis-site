@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-09-26T09:41:40.366Z",
-  "day_label": "Samedi 26 septembre",
+  "generated_at": "2026-09-27T10:20:36.024Z",
+  "day_label": "Dimanche 27 septembre",
   "items": [
     {
-      "title": "L'Europe prise entre l'IA et les guerres : nos coûts explosent",
-      "why_it_matters": "Je retiens que les conflits et l'IA font flamber les prix en Europe, et je dois sécuriser mes approvisionnements.",
+      "title": "Un virus IA vise 30 banques en France et en Europe",
+      "why_it_matters": "Je retiens que les cybercriminels utilisent maintenant l'IA pour attaquer nos comptes. Même les PME doivent sécuriser leur mobile pro.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/idees/article/2026/09/26/le-double-choc-ia-et-conflits-armes-a-des-effets-redistributifs-entre-les-pays-mais-est-devastateur-pour-l-europe_6783109_3232.html"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/remcontrol-malware-android-comptes-bancaires-code-avec-ia.html"
         }
       ]
     },
     {
-      "title": "Le pacte Papin facilite la transmission aux salariés",
-      "why_it_matters": "Je retiens que le budget 2027 prépare des mesures concrètes pour transmettre mon entreprise à mon équipe sans friction.",
+      "title": "Havas crée sa propre plateforme d'IA pour maîtriser les coûts",
+      "why_it_matters": "Je note qu'un grand groupe français préfère construire son outil IA plutôt que payer des abonnements chers aux géants américains.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/1062579104561614/transmission-dentreprise-le-pacte-papin-seduit-les-patrons-du-nord"
+          "name": "La Revue du Digital",
+          "url": "https://www.larevuedudigital.com/havas-pilote-sa-plateforme-ia-en-recherchant-le-meilleur-equilibre-benefices-couts/"
         }
       ]
     },
     {
-      "title": "EDF veut changer les règles après 15 réacteurs arrêtés",
-      "why_it_matters": "Je retiens que la canicule a fragilisé notre énergie cet été, et que la régulation va évoluer pour éviter le même blocage.",
+      "title": "Les juniors disparaissent des entreprises à cause de l'IA ?",
+      "why_it_matters": "Je retiens que l'IA remplace débutants. En tant qu'entrepreneur, je dois réfléchir à comment recruter et former sans détruire l'emploi jeune.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/apres-avoir-du-arreter-15-de-ses-reacteurs-nucleaires-cet-ete-a-cause-de-la-canicule-edf-veut-relever-les-normes-de-temperature-des-fleuves-face-au-rechauffement-climatique_AD-202609260139.html"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/une-entreprise-peut-elle-fonctionner-durablement-sans-juniors_8168993.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "Une cyberattaque dopée à l'IA paralyse une compagnie ferroviaire",
-      "why_it_matters": "Je retiens que les attaques automatisées par IA sont maintenant réelles, et je vérifie la sécurité de mes propres systèmes.",
+      "title": "90% des Français veulent acheter local mais les prix freinent",
+      "why_it_matters": "Je note qu'il y a un vrai marché pour le made in France, mais il faut trouver le bon prix. C'est une opportunité pour qui innove sur les coûts.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/transports/apres-ses-trains-a-grande-vitesse-defectueux-une-cyberattaque-dopee-a-l-ia-frappe-la-compagnie-ferroviaire-publique-espagnole_AD-202609260145.html"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/9-francais-sur-10-veulent-acheter-francais-mais-peu-en-ont-les-moyens-letat-des-lieux-du-made-in-france/"
         }
       ]
     },
     {
-      "title": "Grève massive dans l'énergie le 6 octobre pour les tarifs agent",
-      "why_it_matters": "Je retiens que la grève menace la stabilité du réseau français, et j'anticipe une éventuelle coupure ou surcoût pour mon activité.",
+      "title": "Les salaires du privé croissent plus vite que l'inflation",
+      "why_it_matters": "Je retiens que le pouvoir d'achat revient. C'est bon pour la consommation, mais je vais devoir budgéter des augmentations dans ma boîte.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/les-salaries-de-l-energie-font-tout-pour-garder-leur-tarif-agent-qui-coute-381-millions-d-euros-par-an-a-l-etat-une-greve-massive-a-venir-le-6-octobre-1530498"
+          "url": "https://www.capital.fr/votre-carriere/laugmentation-de-salaire-surpasse-linflation-au-deuxieme-trimestre-dans-le-prive-les-employes-davantage-soutenus-1530512"
         }
       ]
     }
