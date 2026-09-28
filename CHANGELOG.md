@@ -1,5 +1,17 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-09-28 · Cache des fichiers statiques : fin du « immutable un an »
+
+### Pourquoi
+`vercel.json` posait `Cache-Control: public, max-age=31536000, immutable` sur `/assets`, `/photos` et `/downloads` (ajouté le 2026-05-13, sprint perf mobile). Deux défauts. Aucun nom de fichier n'est haché : `main.css`, `fonts.css` ou `lang-toggle.js` sont appelés sans `?v=` par des centaines de pages, et 127 photos ont déjà été remplacées sous le même nom, donc un visiteur qui revient gardait l'ancienne version un an. Et Vercel pose cet en-tête aussi sur les 404 : relevé en ligne le 28-09, `curl -sI https://jerwis.fr/assets/inexistant-ZZZZ.css` répondait 404 avec `immutable`, et un navigateur garde alors l'erreur un an sans redemander (seul Cmd+Maj+R répare). C'est le piège qui a laissé l'espace client Eurofiscalis sans style le même jour.
+
+### Livré
+- `vercel.json` : les trois blocs `Cache-Control` retirés, le défaut de Vercel s'applique (`public, max-age=0, must-revalidate`, puis 304 quand le fichier n'a pas changé). En-têtes de sécurité, `.zip` et `.opml` inchangés.
+- `CLAUDE.md` : règle ajoutée dans la section Vercel pour que ces blocs ne reviennent pas.
+
+### Note
+Le correctif empêche de nouveaux 404 figés et de nouvelles copies périmées. Il ne rattrape pas ce qu'un navigateur a déjà gardé avec `immutable` : ces copies partent avec son cache, ou avec Cmd+Maj+R.
+
 ## 2026-08-28 · Règles anti-détection IA : posts LinkedIn, articles, traduction EN
 
 ### Pourquoi

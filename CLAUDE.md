@@ -98,6 +98,7 @@ Admin séparé : **jerwis-admin** (`~/Projets/jerwis-admin/`, `https://admin.jer
 - Syntaxe **moderne** uniquement (`cleanUrls`, `trailingSlash`, `headers`) — **JAMAIS** `builds`/`routes` legacy (ça ne buildait pas `api/*.js` → `/api/subscribe` 404). Détection auto via `package.json "type": "module"` + fichiers dans `api/`.
 - `cleanUrls: true` : `/claude-code` résout `/claude-code.html` → liens internes sans extension.
 - Headers spéciaux : `.zip` → `Content-Disposition: attachment` · `.opml` → `Content-Type: text/xml; charset=utf-8`. Extensions statiques : détection auto.
+- **Aucun `Cache-Control` long ni `immutable`**, retirés le 2026-09-28 de `/assets`, `/photos` et `/downloads`. Aucun nom de fichier n'est haché, donc un fichier modifié sous le même nom n'atteignait pas les visiteurs qui reviennent. Et Vercel pose aussi cet en-tête sur les 404 : un fichier absent au moment de la visite restait en erreur un an dans le navigateur. Le défaut de Vercel (`public, max-age=0, must-revalidate`, puis 304) suffit.
 
 ## TODOs
 - [ ] Configurer la séquence cours 5 jours côté Resend (guide : `downloads/cours-email/sequence-resend.md`)
