@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-09-27T10:20:36.024Z",
-  "day_label": "Dimanche 27 septembre",
+  "generated_at": "2026-09-28T11:27:27.006Z",
+  "day_label": "Lundi 28 septembre",
   "items": [
     {
-      "title": "Un virus IA vise 30 banques en France et en Europe",
-      "why_it_matters": "Je retiens que les cybercriminels utilisent maintenant l'IA pour attaquer nos comptes. Même les PME doivent sécuriser leur mobile pro.",
+      "title": "Microsoft enterre les PC Copilot+, la promesse IA s'évapore",
+      "why_it_matters": "Je retiens que même Microsoft abandonne sa promesse d'IA intégrée aux PC. Pas la peine d'attendre ce miracle pour changer votre matériel.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/remcontrol-malware-android-comptes-bancaires-code-avec-ia.html"
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/workspace-1376/pc-copilot-plus-229397"
         }
       ]
     },
     {
-      "title": "Havas crée sa propre plateforme d'IA pour maîtriser les coûts",
-      "why_it_matters": "Je note qu'un grand groupe français préfère construire son outil IA plutôt que payer des abonnements chers aux géants américains.",
+      "title": "L'IA inonde les recruteurs et ralentit les embauches",
+      "why_it_matters": "Je note que les candidatures générées par IA allongent les délais de recrutement. Les entreprises reviennent à l'entretien physique.",
       "sources": [
         {
-          "name": "La Revue du Digital",
-          "url": "https://www.larevuedudigital.com/havas-pilote-sa-plateforme-ia-en-recherchant-le-meilleur-equilibre-benefices-couts/"
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/emploi-formation-1373/recrutement-lia-fait-exploser-les-candidatures-et-allonge-les-embauches-229404"
         }
       ]
     },
     {
-      "title": "Les juniors disparaissent des entreprises à cause de l'IA ?",
-      "why_it_matters": "Je retiens que l'IA remplace débutants. En tant qu'entrepreneur, je dois réfléchir à comment recruter et former sans détruire l'emploi jeune.",
+      "title": "Des skills IA pour automatiser sa comptabilité française",
+      "why_it_matters": "Je retiens qu'on peut déjà faire catégoriser ses relevés et vérifier ses factures par l'IA. Un gain de temps concret pour les indépendants.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/une-entreprise-peut-elle-fonctionner-durablement-sans-juniors_8168993.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "Korben",
+          "url": "https://korben.info/paperasse-skills-ia-comptabilite-francaise.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal"
         }
       ]
     },
     {
-      "title": "90% des Français veulent acheter local mais les prix freinent",
-      "why_it_matters": "Je note qu'il y a un vrai marché pour le made in France, mais il faut trouver le bon prix. C'est une opportunité pour qui innove sur les coûts.",
+      "title": "Docaposte s'allie à Ionos pour un cloud souverain européen",
+      "why_it_matters": "Je note qu'un nouvel acteur cloud souverain émerge en France. Une alternative à suivre pour héberger vos données sensibles hors des US.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/9-francais-sur-10-veulent-acheter-francais-mais-peu-en-ont-les-moyens-letat-des-lieux-du-made-in-france/"
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/informatique/cloud/docaposte-renforce-son-offre-de-cloud-souverain-avec-lhebergeur-allemand-ionos-en-parallele-de-son-engagement-dans-numspot.6QXIRJDGQVAIPBELLWCYCVNT3I.html"
         }
       ]
     },
     {
-      "title": "Les salaires du privé croissent plus vite que l'inflation",
-      "why_it_matters": "Je retiens que le pouvoir d'achat revient. C'est bon pour la consommation, mais je vais devoir budgéter des augmentations dans ma boîte.",
+      "title": "Anthropic signe un contrat cloud de 11,6 milliards de dollars",
+      "why_it_matters": "Je retiens que l'IA consomme des infrastructures colossales. Cela explique pourquoi les prix des outils IA ne baissent pas de sitôt.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/laugmentation-de-salaire-surpasse-linflation-au-deuxieme-trimestre-dans-le-prive-les-employes-davantage-soutenus-1530512"
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/anthropic/pourquoi-anthropic-sengage-a-acheter-pour-116-milliards-de-dollars-de-services-cloud-a-akamai-sur-sept-ans.PTQGLJVHDBAG7ML6REQ35Q76UU.html"
         }
       ]
     }
