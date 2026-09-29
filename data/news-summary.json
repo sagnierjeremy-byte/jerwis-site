@@ -1,54 +1,62 @@
 {
-  "generated_at": "2026-09-28T11:27:27.006Z",
-  "day_label": "Lundi 28 septembre",
+  "generated_at": "2026-09-29T11:05:07.805Z",
+  "day_label": "Mardi 29 septembre",
   "items": [
     {
-      "title": "Microsoft enterre les PC Copilot+, la promesse IA s'évapore",
-      "why_it_matters": "Je retiens que même Microsoft abandonne sa promesse d'IA intégrée aux PC. Pas la peine d'attendre ce miracle pour changer votre matériel.",
+      "title": "Les petits patrons protestent contre l'e-facturation",
+      "why_it_matters": "Je retiens que les auto-entrepreneurs protestent contre l'e-facturation obligatoire. Cela touche directement la trésorerie et la charge administrative des petits patrons.",
+      "sources": [
+        {
+          "name": "Next",
+          "url": "https://next.ink/258839/face-a-le-facturation-agriculteurs-petits-commercants-et-auto-entrepreneurs-protestent/"
+        }
+      ]
+    },
+    {
+      "title": "Le gouvernement veut tripler la taxe sur autoroutes et aéroports",
+      "why_it_matters": "Je note que le budget 2027 prévoit de passer cette taxe de 4,6% à 12,2%. Pour tout entrepreneur qui voyage ou livre, les coûts de transport vont grimper.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/budget-2027-le-gouvernement-pret-a-tripler-la-taxe-sur-les-autoroutes-et-les-grands-aeroports-1530578"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/budget/le-gouvernement-prevoit-d-augmenter-la-taxe-sur-les-societes-d-autoroutes-et-les-aeroports-pour-recuperer-800-millions-d-euros_8214533.html#xtor=RSS-3-%5Bgeneral%5D"
+        }
+      ]
+    },
+    {
+      "title": "Legrand cartonne grâce à l'IA et relève ses objectifs 2030",
+      "why_it_matters": "Je retiens que cet industriel français s'envole en Bourse grâce aux centres de données et à l'IA. C'est la preuve que l'IA génère de la croissance concrète.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/entreprises-marches/legrand-porte-par-lia-revoit-a-la-hausse-ses-objectifs-2030-l-action-s-envole-1530576"
+        }
+      ]
+    },
+    {
+      "title": "La dette publique française dépasse 52 000 euros par habitant",
+      "why_it_matters": "Je note que nous atteignons 119% du PIB. Pour un chef d'entreprise, cela signifie des taux élevés qui risquent de durer et d'enflammer le coût du crédit.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/la-dette-publique-atteint-119-du-pib-soit-pres-de-52-000-euros-par-francais-1530579"
+        }
+      ]
+    },
+    {
+      "title": "AMD dépense 8,2 milliards de dollars pour s'offrir World Labs",
+      "why_it_matters": "Je retiens ce rachat massif dans l'IA physique et la simulation 3D. La prochaine vague de l'IA ne sera pas dans les textes, mais dans la robotique et l'industrie.",
       "sources": [
         {
           "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/workspace-1376/pc-copilot-plus-229397"
-        }
-      ]
-    },
-    {
-      "title": "L'IA inonde les recruteurs et ralentit les embauches",
-      "why_it_matters": "Je note que les candidatures générées par IA allongent les délais de recrutement. Les entreprises reviennent à l'entretien physique.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/emploi-formation-1373/recrutement-lia-fait-exploser-les-candidatures-et-allonge-les-embauches-229404"
-        }
-      ]
-    },
-    {
-      "title": "Des skills IA pour automatiser sa comptabilité française",
-      "why_it_matters": "Je retiens qu'on peut déjà faire catégoriser ses relevés et vérifier ses factures par l'IA. Un gain de temps concret pour les indépendants.",
-      "sources": [
-        {
-          "name": "Korben",
-          "url": "https://korben.info/paperasse-skills-ia-comptabilite-francaise.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal"
-        }
-      ]
-    },
-    {
-      "title": "Docaposte s'allie à Ionos pour un cloud souverain européen",
-      "why_it_matters": "Je note qu'un nouvel acteur cloud souverain émerge en France. Une alternative à suivre pour héberger vos données sensibles hors des US.",
-      "sources": [
+          "url": "https://www.silicon.fr/business-1367/amd-mise-82-milliards-sur-world-labs-pour-sancrer-dans-lia-physique-229430"
+        },
         {
           "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/informatique/cloud/docaposte-renforce-son-offre-de-cloud-souverain-avec-lhebergeur-allemand-ionos-en-parallele-de-son-engagement-dans-numspot.6QXIRJDGQVAIPBELLWCYCVNT3I.html"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic signe un contrat cloud de 11,6 milliards de dollars",
-      "why_it_matters": "Je retiens que l'IA consomme des infrastructures colossales. Cela explique pourquoi les prix des outils IA ne baissent pas de sitôt.",
-      "sources": [
-        {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/anthropic/pourquoi-anthropic-sengage-a-acheter-pour-116-milliards-de-dollars-de-services-cloud-a-akamai-sur-sept-ans.PTQGLJVHDBAG7ML6REQ35Q76UU.html"
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/world-models-pourquoi-amd-debourse-82-milliards-de-dollars-pour-soffrir-world-labs-la-start-up-de-fei-fei-li.6KSPLKZJCFGHTBEA6IYTHLQRVI.html"
         }
       ]
     }
