@@ -1,62 +1,82 @@
 {
-  "generated_at": "2026-09-29T11:05:07.805Z",
-  "day_label": "Mardi 29 septembre",
+  "generated_at": "2026-09-30T10:55:40.925Z",
+  "day_label": "Mercredi 30 septembre",
   "items": [
     {
-      "title": "Les petits patrons protestent contre l'e-facturation",
-      "why_it_matters": "Je retiens que les auto-entrepreneurs protestent contre l'e-facturation obligatoire. Cela touche directement la trésorerie et la charge administrative des petits patrons.",
+      "title": "Les taux d'intérêt français atteignent un record historique à 4,8%",
+      "why_it_matters": "Je retiens que l'emprunt à 10 ans frôle les 5%. C'est le coût du crédit qui explose pour toutes les entreprises.",
       "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/258839/face-a-le-facturation-agriculteurs-petits-commercants-et-auto-entrepreneurs-protestent/"
-        }
-      ]
-    },
-    {
-      "title": "Le gouvernement veut tripler la taxe sur autoroutes et aéroports",
-      "why_it_matters": "Je note que le budget 2027 prévoit de passer cette taxe de 4,6% à 12,2%. Pour tout entrepreneur qui voyage ou livre, les coûts de transport vont grimper.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/budget-2027-le-gouvernement-pret-a-tripler-la-taxe-sur-les-autoroutes-et-les-grands-aeroports-1530578"
-        },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/le-gouvernement-prevoit-d-augmenter-la-taxe-sur-les-societes-d-autoroutes-et-les-aeroports-pour-recuperer-800-millions-d-euros_8214533.html#xtor=RSS-3-%5Bgeneral%5D"
-        }
-      ]
-    },
-    {
-      "title": "Legrand cartonne grâce à l'IA et relève ses objectifs 2030",
-      "why_it_matters": "Je retiens que cet industriel français s'envole en Bourse grâce aux centres de données et à l'IA. C'est la preuve que l'IA génère de la croissance concrète.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/legrand-porte-par-lia-revoit-a-la-hausse-ses-objectifs-2030-l-action-s-envole-1530576"
-        }
-      ]
-    },
-    {
-      "title": "La dette publique française dépasse 52 000 euros par habitant",
-      "why_it_matters": "Je note que nous atteignons 119% du PIB. Pour un chef d'entreprise, cela signifie des taux élevés qui risquent de durer et d'enflammer le coût du crédit.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/la-dette-publique-atteint-119-du-pib-soit-pres-de-52-000-euros-par-francais-1530579"
-        }
-      ]
-    },
-    {
-      "title": "AMD dépense 8,2 milliards de dollars pour s'offrir World Labs",
-      "why_it_matters": "Je retiens ce rachat massif dans l'IA physique et la simulation 3D. La prochaine vague de l'IA ne sera pas dans les textes, mais dans la robotique et l'industrie.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/business-1367/amd-mise-82-milliards-sur-world-labs-pour-sancrer-dans-lia-physique-229430"
+          "url": "https://www.franceinfo.fr/economie/budget/taux-d-interet-record-en-france-le-reel-nous-rattrape-alerte-sebastien-lecornu-avant-la-presentation-du-budget-2027_8216107.html#xtor=RSS-3-%5Bgeneral%5D"
         },
         {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/taux-d-interet-record-le-reel-nous-rattrape-alerte-sebastien-lecornu-avant-la-presentation-du-budget-20260930"
+        }
+      ]
+    },
+    {
+      "title": "Réforme des retraites : vers 45 ans de cotisation et plus d'âge légal",
+      "why_it_matters": "Je note que le système va changer en profondeur. Ça impacte la masse salariale et la fidélisation des seniors.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-jt/franceinfo/6h30-9h30/7-heures/retraites-il-va-falloir-reflechir-a-pourquoi-entre-le-chef-d-entreprise-et-le-salarie-aux-alentours-de-60-ans-on-prefere-se-dire-au-revoir-estime-l-economiste-eric-heyer_8216078.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-retraite/on-en-est-plus-a-prendre-des-mesures-de-soins-palliatifs-gabriel-attal-ferme-sur-la-question-des-retraites-1530609"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI lance Dots, des agents IA qui travaillent tout seuls",
+      "why_it_matters": "Je retiens que l'IA passe du chat à l'action autonome. C'est un changement concret pour la productivité des PME.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/openai/3267339_dots-gpt-6-1-sol-spaces-et-se-connecter-avec-chatgpt-le-recap-des-grandes-annonces-dopenai-au-devday-2026"
+        },
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/dots-contre-muse-open-ai-lance-a-son-tour-ses-agents-ia-et-entre-dans-une-bataille-contre-meta-qui-ne-fait-que-commencer_AV-202609300425.html"
+        },
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/openai-devoile-dots-un-agent-ia-qui-travaille-sans-quon-le-lui-demande-504731.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "L'IA va émettre 6 fois plus de CO2 d'ici 2030",
+      "why_it_matters": "Je note que la facture énergétique de l'IA va grimper. Régulation et image des entreprises concernées en vue.",
+      "sources": [
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/pixels/article/2026/09/30/l-ia-emettra-six-fois-plus-de-co-en-2030-qu-en-2025-selon-l-etude-d-un-collectif-d-experts_6786040_4408996.html"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/pixels/article/2026/09/30/l-ia-emettra-six-fois-plus-de-co-en-2030-qu-en-2025-selon-l-etude-d-un-collectif-d-experts_6786040_4408996.html"
+        }
+      ]
+    },
+    {
+      "title": "Piratage massif à la DGFiP et explosion des fuites de données",
+      "why_it_matters": "Je retiens que les PC personnels des agents ont tout fait sauter. La cybersécurité n'est plus une option pour les entreprises.",
+      "sources": [
+        {
           "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/world-models-pourquoi-amd-debourse-82-milliards-de-dollars-pour-soffrir-world-labs-la-start-up-de-fei-fei-li.6KSPLKZJCFGHTBEA6IYTHLQRVI.html"
+          "url": "https://www.usine-digitale.fr/cybersecurite/identifiants-voles-protections-defaillantes-comment-les-lacunes-de-la-dgfip-ont-permis-a-un-hacker-de-siphonner-les-donnees-de-ses-usagers.L554QQ4X3NCF3EZCUUQJHR5Y4E.html"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/fuite-donnees-presidentielle-2027-moteur-recherche-pirate-balance-numeros-telephone-candidats.html"
+        },
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/cybersecurite/vol-de-donnees-french-breaches-cyberattaque-org-bonjourlafuite-eu-org-la-quete-effrenee-des-cyber-lanceurs-d-alerte-pour-prevenir-des-fuites-au-quotidien_AD-202609300368.html"
         }
       ]
     }
