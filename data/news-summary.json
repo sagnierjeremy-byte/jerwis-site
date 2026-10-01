@@ -1,82 +1,58 @@
 {
-  "generated_at": "2026-09-30T10:55:40.925Z",
-  "day_label": "Mercredi 30 septembre",
+  "generated_at": "2026-10-01T11:21:03.677Z",
+  "day_label": "Jeudi 1 octobre",
   "items": [
     {
-      "title": "Les taux d'intérêt français atteignent un record historique à 4,8%",
-      "why_it_matters": "Je retiens que l'emprunt à 10 ans frôle les 5%. C'est le coût du crédit qui explose pour toutes les entreprises.",
+      "title": "Budget 2027 : la surtaxe sur les grandes entreprises revient",
+      "why_it_matters": "Je retiens que le gouvernement remet une surtaxe sur les grandes entreprises. C'est une fausse promesse de temporaire qui pèse sur la trésorerie.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/taux-d-interet-record-en-france-le-reel-nous-rattrape-alerte-sebastien-lecornu-avant-la-presentation-du-budget-2027_8216107.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "L'Express Économie",
+          "url": "https://www.lexpress.fr/economie/politique-economique/budget-2027-la-surtaxe-sur-les-grandes-entreprises-cette-fausse-promesse-dun-impot-temporaire-2VEABBMCCFGRBGJNIAQWG54MYY/"
         },
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/taux-d-interet-record-le-reel-nous-rattrape-alerte-sebastien-lecornu-avant-la-presentation-du-budget-20260930"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/budget/direct-budget-2027-le-gouvernement-presente-ses-projets-de-loi-de-finances-et-de-financement-de-la-securite-sociale-en-conseil-des-ministres-a-partir-de-10h30_8216482.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "Réforme des retraites : vers 45 ans de cotisation et plus d'âge légal",
-      "why_it_matters": "Je note que le système va changer en profondeur. Ça impacte la masse salariale et la fidélisation des seniors.",
+      "title": "70 605 défaillances d'entreprises en un an en France",
+      "why_it_matters": "Je note ce chiffre record. La santé économique est préoccupante et je reste vigilant sur mes propres clients et fournisseurs.",
       "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-jt/franceinfo/6h30-9h30/7-heures/retraites-il-va-falloir-reflechir-a-pourquoi-entre-le-chef-d-entreprise-et-le-salarie-aux-alentours-de-60-ans-on-prefere-se-dire-au-revoir-estime-l-economiste-eric-heyer_8216078.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/votre-retraite/on-en-est-plus-a-prendre-des-mesures-de-soins-palliatifs-gabriel-attal-ferme-sur-la-question-des-retraites-1530609"
+          "url": "https://www.capital.fr/entreprises-marches/70-816-defaillances-en-un-an-le-president-des-entrepreneurs-interpelle-les-candidats-a-l-elysee-1530391"
         }
       ]
     },
     {
-      "title": "OpenAI lance Dots, des agents IA qui travaillent tout seuls",
-      "why_it_matters": "Je retiens que l'IA passe du chat à l'action autonome. C'est un changement concret pour la productivité des PME.",
+      "title": "40% des TPE-PME françaises utilisent déjà l'IA",
+      "why_it_matters": "Je retiens que l'IA s'est banalisée. Seulement 19% paient, donc beaucoup utilisent des outils gratuits ou intégrés.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/marques/openai/3267339_dots-gpt-6-1-sol-spaces-et-se-connecter-avec-chatgpt-le-recap-des-grandes-annonces-dopenai-au-devday-2026"
-        },
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/dots-contre-muse-open-ai-lance-a-son-tour-ses-agents-ia-et-entre-dans-une-bataille-contre-meta-qui-ne-fait-que-commencer_AV-202609300425.html"
-        },
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/openai-devoile-dots-un-agent-ia-qui-travaille-sans-quon-le-lui-demande-504731.htm#xtor=RSS-1"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/40-des-tpe-pme-utilisent-lia-mais-19-seulement-la-paient/"
         }
       ]
     },
     {
-      "title": "L'IA va émettre 6 fois plus de CO2 d'ici 2030",
-      "why_it_matters": "Je note que la facture énergétique de l'IA va grimper. Régulation et image des entreprises concernées en vue.",
+      "title": "Réduire ses coûts d'IA en écrivant en anglais",
+      "why_it_matters": "J'ai découvert que poser mes questions en anglais coûte moins cher à l'IA. Ma facture baisse et c'est aussi plus écologique.",
       "sources": [
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/pixels/article/2026/09/30/l-ia-emettra-six-fois-plus-de-co-en-2030-qu-en-2025-selon-l-etude-d-un-collectif-d-experts_6786040_4408996.html"
-        },
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/pixels/article/2026/09/30/l-ia-emettra-six-fois-plus-de-co-en-2030-qu-en-2025-selon-l-etude-d-un-collectif-d-experts_6786040_4408996.html"
+          "name": "Next",
+          "url": "https://next.ink/259212/ia-generative-pour-reduire-vos-couts-et-votre-empreinte-parlez-anglais/"
         }
       ]
     },
     {
-      "title": "Piratage massif à la DGFiP et explosion des fuites de données",
-      "why_it_matters": "Je retiens que les PC personnels des agents ont tout fait sauter. La cybersécurité n'est plus une option pour les entreprises.",
+      "title": "Trump menace la France d'un embargo sur le diesel",
+      "why_it_matters": "Je note cette tension. Si le prix du carburant grimpe encore, mes coûts de transport et mes déplacements vont suivre.",
       "sources": [
         {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/cybersecurite/identifiants-voles-protections-defaillantes-comment-les-lacunes-de-la-dgfip-ont-permis-a-un-hacker-de-siphonner-les-donnees-de-ses-usagers.L554QQ4X3NCF3EZCUUQJHR5Y4E.html"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/fuite-donnees-presidentielle-2027-moteur-recherche-pirate-balance-numeros-telephone-candidats.html"
-        },
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/cybersecurite/vol-de-donnees-french-breaches-cyberattaque-org-bonjourlafuite-eu-org-la-quete-effrenee-des-cyber-lanceurs-d-alerte-pour-prevenir-des-fuites-au-quotidien_AD-202609300368.html"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/energie/donald-trump-menace-la-france-et-l-allemagne-d-un-embargo-sur-le-diesel-americain-si-elles-ne-puisent-pas-dans-leurs-stocks-d-urgence_AV-202610010375.html"
         }
       ]
     }
