@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-10-01T11:21:03.677Z",
-  "day_label": "Jeudi 1 octobre",
+  "generated_at": "2026-10-02T10:52:58.163Z",
+  "day_label": "Vendredi 2 octobre",
   "items": [
     {
-      "title": "Budget 2027 : la surtaxe sur les grandes entreprises revient",
-      "why_it_matters": "Je retiens que le gouvernement remet une surtaxe sur les grandes entreprises. C'est une fausse promesse de temporaire qui pèse sur la trésorerie.",
+      "title": "L'inflation en zone euro grimpe à 3,8%, plus haut depuis 3 ans",
+      "why_it_matters": "Je retiens que les coûts énergie et matières premières vont continuer de peser sur nos marges et le pouvoir d'achat de nos clients.",
       "sources": [
         {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/economie/politique-economique/budget-2027-la-surtaxe-sur-les-grandes-entreprises-cette-fausse-promesse-dun-impot-temporaire-2VEABBMCCFGRBGJNIAQWG54MYY/"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/02/l-inflation-en-zone-euro-au-plus-haut-depuis-trois-ans_6787127_3234.html"
         },
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/direct-budget-2027-le-gouvernement-presente-ses-projets-de-loi-de-finances-et-de-financement-de-la-securite-sociale-en-conseil-des-ministres-a-partir-de-10h30_8216482.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/l-inflation-en-zone-euro-grimpe-a-3-8-en-septembre-son-plus-haut-niveau-depuis-3-ans-20261002"
         }
       ]
     },
     {
-      "title": "70 605 défaillances d'entreprises en un an en France",
-      "why_it_matters": "Je note ce chiffre record. La santé économique est préoccupante et je reste vigilant sur mes propres clients et fournisseurs.",
+      "title": "Moody's place la France sous surveillance avant le 23 octobre",
+      "why_it_matters": "Je note que la note de la France risque de baisser. Cela pourrait rendre nos emprunts d'entreprise plus chers dans les mois qui viennent.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/70-816-defaillances-en-un-an-le-president-des-entrepreneurs-interpelle-les-candidats-a-l-elysee-1530391"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/11247577613040/moody-s-met-la-france-sous-surveillance-politique-avant-sa-revue-du-23-octobre"
         }
       ]
     },
     {
-      "title": "40% des TPE-PME françaises utilisent déjà l'IA",
-      "why_it_matters": "Je retiens que l'IA s'est banalisée. Seulement 19% paient, donc beaucoup utilisent des outils gratuits ou intégrés.",
+      "title": "IBM lance une version on-premise de son agent de code Bob",
+      "why_it_matters": "Je retiens qu'on peut enfin utiliser un agent IA pour coder sans envoyer nos données dans le cloud américain. C'est un vrai plus pour la confidentialité.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/40-des-tpe-pme-utilisent-lia-mais-19-seulement-la-paient/"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/ibm-lance-une-version-auto-hebergee-de-bob-pour-garder-code-et-donnees-chez-le-client-505007.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Réduire ses coûts d'IA en écrivant en anglais",
-      "why_it_matters": "J'ai découvert que poser mes questions en anglais coûte moins cher à l'IA. Ma facture baisse et c'est aussi plus écologique.",
+      "title": "NIS2 : les entreprises françaises mal préparées sur l'inventaire",
+      "why_it_matters": "Je note que beaucoup d'entreprises ne savent même pas ce qu'elles doivent protéger. La réglementation arrive et les sanctions aussi.",
       "sources": [
         {
-          "name": "Next",
-          "url": "https://next.ink/259212/ia-generative-pour-reduire-vos-couts-et-votre-empreinte-parlez-anglais/"
+          "name": "IT for Business",
+          "url": "https://www.itforbusiness.fr/panorama-nis2-un-defaut-dinventaire-plus-quune-incapacite-a-remedier-107749"
         }
       ]
     },
     {
-      "title": "Trump menace la France d'un embargo sur le diesel",
-      "why_it_matters": "Je note cette tension. Si le prix du carburant grimpe encore, mes coûts de transport et mes déplacements vont suivre.",
+      "title": "OpenAI alerte plus de 100 organisations sur ses agents IA compromis",
+      "why_it_matters": "Je retiens que même les outils IA les plus connus peuvent être détournés. Si on utilise des agents IA, il faut surveiller qui fait quoi.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/donald-trump-menace-la-france-et-l-allemagne-d-un-embargo-sur-le-diesel-americain-si-elles-ne-puisent-pas-dans-leurs-stocks-d-urgence_AV-202610010375.html"
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/cybersecurite-1371/openai-alerte-plus-de-100-organisations-sur-les-compromissions-de-ses-agents-ia-229477"
         }
       ]
     }
