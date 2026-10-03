@@ -1,58 +1,62 @@
 {
-  "generated_at": "2026-10-02T10:52:58.163Z",
-  "day_label": "Vendredi 2 octobre",
+  "generated_at": "2026-10-03T10:11:54.564Z",
+  "day_label": "Samedi 3 octobre",
   "items": [
     {
-      "title": "L'inflation en zone euro grimpe à 3,8%, plus haut depuis 3 ans",
-      "why_it_matters": "Je retiens que les coûts énergie et matières premières vont continuer de peser sur nos marges et le pouvoir d'achat de nos clients.",
+      "title": "France Télévisions utilise l'IA pour gagner du temps",
+      "why_it_matters": "Je retiens que même France Télévisions adopte l'IA pour aller plus vite. C'est la preuve que ça devient de la productivité concrète, pas de la hype.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/02/l-inflation-en-zone-euro-au-plus-haut-depuis-trois-ans_6787127_3234.html"
+          "name": "La Revue du Digital",
+          "url": "https://www.larevuedudigital.com/france-televisions-publicite-veut-gagner-du-temps-grace-a-lia/"
+        }
+      ]
+    },
+    {
+      "title": "Apple bloque les agents IA trop curieux sur Mac",
+      "why_it_matters": "Je vérifie mes outils IA sur Mac. Apple oblige désormais à prévenir avant de tout lire. C'est une bonne nouvelle pour la sécurité de mes données clients.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+        }
+      ]
+    },
+    {
+      "title": "Wero veut remplacer Visa et Mastercard",
+      "why_it_matters": "Si cette solution européenne s'impose, je paierai moins de frais bancaires sur mes encaissements. Une vraie bouffée d'air pour ma marge.",
+      "sources": [
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/bye-bye-les-cartes-bancaires-visa-et-mastercard-wero-change-totalement-votre-facon-de-payer/"
+        }
+      ]
+    },
+    {
+      "title": "Nouveaux horaires pour les heures pleines et creuses",
+      "why_it_matters": "Mes factures d'électricité changent dès aujourd'hui. Je dois vérifier mes horaires de consommation pour ne pas prendre un coup de billard.",
+      "sources": [
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/heure-pleine-creuse-les-horaires-evoluent-une-nouvelle-regle-sapplique-des-aujourdhui-en-france/"
+        }
+      ]
+    },
+    {
+      "title": "Budget 2027 : la facture s'alourdit pour les entreprises",
+      "why_it_matters": "Entre le CPF plus cher et les indemnités de rupture fiscalisées, je vois que l'État compte sur les entreprises et les salariés pour financer le trou.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/les-indemnites-de-rupture-davantage-fiscalisees-dans-le-budget-2027-mauvaise-nouvelle-pour-les-salaries-1530705"
         },
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/l-inflation-en-zone-euro-grimpe-a-3-8-en-septembre-son-plus-haut-niveau-depuis-3-ans-20261002"
-        }
-      ]
-    },
-    {
-      "title": "Moody's place la France sous surveillance avant le 23 octobre",
-      "why_it_matters": "Je note que la note de la France risque de baisser. Cela pourrait rendre nos emprunts d'entreprise plus chers dans les mois qui viennent.",
-      "sources": [
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-argent/budget-2027-qui-va-payer-laddition-la-chronique-de-jean-jacques-manceau-1530689"
+        },
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/11247577613040/moody-s-met-la-france-sous-surveillance-politique-avant-sa-revue-du-23-octobre"
-        }
-      ]
-    },
-    {
-      "title": "IBM lance une version on-premise de son agent de code Bob",
-      "why_it_matters": "Je retiens qu'on peut enfin utiliser un agent IA pour coder sans envoyer nos données dans le cloud américain. C'est un vrai plus pour la confidentialité.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/ibm-lance-une-version-auto-hebergee-de-bob-pour-garder-code-et-donnees-chez-le-client-505007.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "NIS2 : les entreprises françaises mal préparées sur l'inventaire",
-      "why_it_matters": "Je note que beaucoup d'entreprises ne savent même pas ce qu'elles doivent protéger. La réglementation arrive et les sanctions aussi.",
-      "sources": [
-        {
-          "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/panorama-nis2-un-defaut-dinventaire-plus-quune-incapacite-a-remedier-107749"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI alerte plus de 100 organisations sur ses agents IA compromis",
-      "why_it_matters": "Je retiens que même les outils IA les plus connus peuvent être détournés. Si on utilise des agents IA, il faut surveiller qui fait quoi.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/openai-alerte-plus-de-100-organisations-sur-les-compromissions-de-ses-agents-ia-229477"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/le-compte-personnel-de-formation-mis-a-contribution-dans-le-budget-2027_8200100.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     }
