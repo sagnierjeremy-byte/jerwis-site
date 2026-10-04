@@ -1,62 +1,66 @@
 {
-  "generated_at": "2026-10-03T10:11:54.564Z",
-  "day_label": "Samedi 3 octobre",
+  "generated_at": "2026-10-04T10:53:21.012Z",
+  "day_label": "Dimanche 4 octobre",
   "items": [
     {
-      "title": "France Télévisions utilise l'IA pour gagner du temps",
-      "why_it_matters": "Je retiens que même France Télévisions adopte l'IA pour aller plus vite. C'est la preuve que ça devient de la productivité concrète, pas de la hype.",
-      "sources": [
-        {
-          "name": "La Revue du Digital",
-          "url": "https://www.larevuedudigital.com/france-televisions-publicite-veut-gagner-du-temps-grace-a-lia/"
-        }
-      ]
-    },
-    {
-      "title": "Apple bloque les agents IA trop curieux sur Mac",
-      "why_it_matters": "Je vérifie mes outils IA sur Mac. Apple oblige désormais à prévenir avant de tout lire. C'est une bonne nouvelle pour la sécurité de mes données clients.",
-      "sources": [
-        {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
-        }
-      ]
-    },
-    {
-      "title": "Wero veut remplacer Visa et Mastercard",
-      "why_it_matters": "Si cette solution européenne s'impose, je paierai moins de frais bancaires sur mes encaissements. Une vraie bouffée d'air pour ma marge.",
-      "sources": [
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/bye-bye-les-cartes-bancaires-visa-et-mastercard-wero-change-totalement-votre-facon-de-payer/"
-        }
-      ]
-    },
-    {
-      "title": "Nouveaux horaires pour les heures pleines et creuses",
-      "why_it_matters": "Mes factures d'électricité changent dès aujourd'hui. Je dois vérifier mes horaires de consommation pour ne pas prendre un coup de billard.",
-      "sources": [
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/heure-pleine-creuse-les-horaires-evoluent-une-nouvelle-regle-sapplique-des-aujourdhui-en-france/"
-        }
-      ]
-    },
-    {
-      "title": "Budget 2027 : la facture s'alourdit pour les entreprises",
-      "why_it_matters": "Entre le CPF plus cher et les indemnités de rupture fiscalisées, je vois que l'État compte sur les entreprises et les salariés pour financer le trou.",
+      "title": "Crise de la dette : la France sous tension budgétaire",
+      "why_it_matters": "Je retiens que la dette française inquiète les marchés et pourrait nous coûter cher en impôts ou en instabilité.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/les-indemnites-de-rupture-davantage-fiscalisees-dans-le-budget-2027-mauvaise-nouvelle-pour-les-salaries-1530705"
+          "url": "https://www.capital.fr/economie-politique/crise-de-la-dette-selon-le-dg-deuronext-il-faut-surtout-travailler-sur-la-croissance-1530718"
+        },
+        {
+          "name": "L'Express Économie",
+          "url": "https://www.lexpress.fr/idees-et-debats/blocage-des-lycees-budget-sous-tension-pourquoi-la-crise-de-la-dette-a-peut-etre-deja-commence-FFA2LE4MRRHFTNMEZUZQFNLGUE/"
         },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/votre-argent/budget-2027-qui-va-payer-laddition-la-chronique-de-jean-jacques-manceau-1530689"
+          "url": "https://www.capital.fr/economie-politique/les-contraindre-a-voter-un-budget-a-lequilibre-philippe-juvin-propose-une-mesure-choc-pour-les-deputes-et-senateurs-1530719"
+        }
+      ]
+    },
+    {
+      "title": "La fin du découvert bancaire facile en France",
+      "why_it_matters": "Je note que ma banque pourra bientôt refuser mon découvert : j'anticipe ma trésorerie dès maintenant.",
+      "sources": [
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/la-regle-du-decouvert-bancaire-change-dans-quelques-jours-en-france-des-millions-de-francais-sont-en-danger/"
         },
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/le-compte-personnel-de-formation-mis-a-contribution-dans-le-budget-2027_8200100.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-argent/decouvert-bancaire-la-fin-du-nimporte-quoi-la-chronique-de-jean-jacques-manceau-1530641"
+        }
+      ]
+    },
+    {
+      "title": "ASML ne vend aucune machine en Europe : alerte puces",
+      "why_it_matters": "Je retiens que l'Europe ne fabrique toujours pas assez de puces : c'est un risque pour nos approvisionnements.",
+      "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/04/l-absence-de-ventes-du-fabricant-asml-en-europe-symbole-du-manque-d-investissements-dans-les-puces-electroniques_6788218_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "Renault conditionne 10 milliards d'investissement électrique",
+      "why_it_matters": "Je note que Renault freine des quatre fers : la filière auto française dépend de la prochaine élection.",
+      "sources": [
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/si-le-contexte-social-et-politique-en-france-le-permet-renault-promet-d-investir-plus-de-dix-milliards-d-euros-sur-cinq-ans-dans-les-vehicules-electriques_AD-202610040137.html"
+        }
+      ]
+    },
+    {
+      "title": "G20 : la Chine bloque toute limite sur les surcapacités",
+      "why_it_matters": "Je retiens que Pékin refuse de limiter sa production : nos industriels français restent sous pression.",
+      "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/international/1918245896393814/g20-comment-la-chine-a-fait-derailler-l-offensive-americaine-sur-les-surcapacites"
         }
       ]
     }
