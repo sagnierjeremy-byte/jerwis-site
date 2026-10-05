@@ -1,66 +1,62 @@
 {
-  "generated_at": "2026-10-04T10:53:21.012Z",
-  "day_label": "Dimanche 4 octobre",
+  "generated_at": "2026-10-05T12:01:02.776Z",
+  "day_label": "Lundi 5 octobre",
   "items": [
     {
-      "title": "Crise de la dette : la France sous tension budgétaire",
-      "why_it_matters": "Je retiens que la dette française inquiète les marchés et pourrait nous coûter cher en impôts ou en instabilité.",
+      "title": "Renault bloque 10 milliards d'investissements à cause de l'instabilité",
+      "why_it_matters": "Je retiens que Renault conditionne dix milliards d'investissements à la stabilité politique. Quand un géant hésite, c'est tout un écosystème qui freine.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/economie/industrie/1555789-renault-conditionne-plus-de-10-milliards-d-euros-d-investissements-en-france-a-la-stabilite-politique-et-sociale/"
+        },
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/voiture-electrique-contexte-social-politique-renault-investira-france/"
+        }
+      ]
+    },
+    {
+      "title": "La France vers un déficit de 6% sans budget en 2027",
+      "why_it_matters": "Je note que l'absence de budget nous mène vers un déficit record. Pour nous, cela veut dire moins d'aides publiques et probablement plus de taxes.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/crise-de-la-dette-selon-le-dg-deuronext-il-faut-surtout-travailler-sur-la-croissance-1530718"
+          "url": "https://www.capital.fr/economie-politique/l-absence-de-budget-c-est-un-deficit-qui-avoisinera-les-6-previent-maud-bregeon-1530743"
         },
         {
           "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/idees-et-debats/blocage-des-lycees-budget-sous-tension-pourquoi-la-crise-de-la-dette-a-peut-etre-deja-commence-FFA2LE4MRRHFTNMEZUZQFNLGUE/"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/les-contraindre-a-voter-un-budget-a-lequilibre-philippe-juvin-propose-une-mesure-choc-pour-les-deputes-et-senateurs-1530719"
+          "url": "https://www.lexpress.fr/economie/deficit-public-un-defi-pour-la-france-O7AOC7ZTXZCMDDJ3MV4UKS36YY/"
         }
       ]
     },
     {
-      "title": "La fin du découvert bancaire facile en France",
-      "why_it_matters": "Je note que ma banque pourra bientôt refuser mon découvert : j'anticipe ma trésorerie dès maintenant.",
+      "title": "Les IA se trompent sur 40% des chiffres du CAC 40",
+      "why_it_matters": "Je retiens que ChatGPT et Gemini inventent des chiffres sur les entreprises du CAC 40. Ne jamais faire confiance à une IA pour des données financières.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/la-regle-du-decouvert-bancaire-change-dans-quelques-jours-en-france-des-millions-de-francais-sont-en-danger/"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-argent/decouvert-bancaire-la-fin-du-nimporte-quoi-la-chronique-de-jean-jacques-manceau-1530641"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/cac-40-chatgpt-et-gemini-restituent-mal-quatre-chiffres-sur-dix/"
         }
       ]
     },
     {
-      "title": "ASML ne vend aucune machine en Europe : alerte puces",
-      "why_it_matters": "Je retiens que l'Europe ne fabrique toujours pas assez de puces : c'est un risque pour nos approvisionnements.",
+      "title": "L'empire du contenu bas de gamme IA s'effondre sur Google",
+      "why_it_matters": "Je note que Google élimine les sites remplis d'articles IA sans valeur. Pour qui fait du marketing, seul le contenu humain de qualité survivra.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/04/l-absence-de-ventes-du-fabricant-asml-en-europe-symbole-du-manque-d-investissements-dans-les-puces-electroniques_6788218_3234.html"
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/des-sites-d-infos-transformes-en-machines-a-contenus-et-boostes-a-l-ia-comment-brown-brothers-media-a-brutalement-cesse-de-publier-et-a-presque-disparu-de-google_AV-202610050472.html"
         }
       ]
     },
     {
-      "title": "Renault conditionne 10 milliards d'investissement électrique",
-      "why_it_matters": "Je note que Renault freine des quatre fers : la filière auto française dépend de la prochaine élection.",
+      "title": "Vous êtes responsable si votre agent IA dérape",
+      "why_it_matters": "Je retiens qu'OpenAI prévient que les entreprises répondent des actes de leurs agents IA. Il faut des garde-fous avant d'automatiser des tâches.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/si-le-contexte-social-et-politique-en-france-le-permet-renault-promet-d-investir-plus-de-dix-milliards-d-euros-sur-cinq-ans-dans-les-vehicules-electriques_AD-202610040137.html"
-        }
-      ]
-    },
-    {
-      "title": "G20 : la Chine bloque toute limite sur les surcapacités",
-      "why_it_matters": "Je retiens que Pékin refuse de limiter sa production : nos industriels français restent sous pression.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/international/1918245896393814/g20-comment-la-chine-a-fait-derailler-l-offensive-americaine-sur-les-surcapacites"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/agents-ia-le-client-repond-de-leurs-actes-chez-openai-comme-ailleurs/"
         }
       ]
     }
