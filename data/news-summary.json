@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-05T12:01:02.776Z",
-  "day_label": "Lundi 5 octobre",
+  "generated_at": "2026-10-06T11:45:36.097Z",
+  "day_label": "Mardi 6 octobre",
   "items": [
     {
-      "title": "Renault bloque 10 milliards d'investissements à cause de l'instabilité",
-      "why_it_matters": "Je retiens que Renault conditionne dix milliards d'investissements à la stabilité politique. Quand un géant hésite, c'est tout un écosystème qui freine.",
+      "title": "Aleph Alpha lance Kolibri : un modèle IA open source pour l'Europe",
+      "why_it_matters": "Je retiens qu'un modèle européen open source existe maintenant. Cela donne une alternative sérieuse aux outils américains pour mes données sensibles.",
+      "sources": [
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/souverainete-numerique-aleph-alpha-devoile-kolibri-un-modele-open-weight-pense-pour-les-entreprises-et-etats-europeens.WAJL2NCZC5HQLJQOEFTWBBIS6I.html"
+        },
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/kolibri-daleph-alpha-ce-que-la-licence-apache-20-garantit/"
+        }
+      ]
+    },
+    {
+      "title": "Le Cyber Resilience Act : fin du logiciel livré puis oublié en Europe",
+      "why_it_matters": "Je note que vendre un logiciel en Europe oblige désormais à le sécuriser pendant toute sa vie. Cela change mes responsabilités si je vends du numérique.",
       "sources": [
         {
           "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/economie/industrie/1555789-renault-conditionne-plus-de-10-milliards-d-euros-d-investissements-en-france-a-la-stabilite-politique-et-sociale/"
+          "url": "https://www.journaldunet.com/cybersecurite/1555827-le-cyber-resilience-act-ou-la-fin-du-logiciel-livre-puis-oublie/"
+        }
+      ]
+    },
+    {
+      "title": "11 milliards de données : un moteur pirate fiche des millions de Français",
+      "why_it_matters": "Je note qu'un site pirate fiche déjà des millions de Français. Je dois vérifier si mes propres systèmes ou ceux de mes clients ne sont pas concernés.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/brixhub-moteur-fuites-donnees-vise-par-la-justice.html"
+        }
+      ]
+    },
+    {
+      "title": "Vates lève 30 millions pour challenger VMware en souveraineté numérique",
+      "why_it_matters": "Je retiens qu'une alternative française à VMware lève des fonds. Cela peut réduire mes factures cloud et me libérer d'un éditeur américain.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/cloud/1555855-vates-leve-30-millions-d-euros-pour-challenger-vmware-sur-la-virtualisation/"
         },
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/informatique/serveurs-et-reseaux/souverainete-numerique-vates-leve-30-millions-deuros-pour-ne-plus-seulement-etre-une-alternative-a-vmware-dans-la-virtualisation.PS6U2F7UU5D2FNUSDYV6P3EETQ.html"
+        }
+      ]
+    },
+    {
+      "title": "France Travail va analyser les relevés téléphoniques pour traquer la fraude",
+      "why_it_matters": "Je note que l'État utilise maintenant nos données téléphoniques pour contrôler la fraude sociale. Cela montre où va la surveillance en France.",
+      "sources": [
         {
           "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/voiture-electrique-contexte-social-politique-renault-investira-france/"
-        }
-      ]
-    },
-    {
-      "title": "La France vers un déficit de 6% sans budget en 2027",
-      "why_it_matters": "Je note que l'absence de budget nous mène vers un déficit record. Pour nous, cela veut dire moins d'aides publiques et probablement plus de taxes.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/l-absence-de-budget-c-est-un-deficit-qui-avoisinera-les-6-previent-maud-bregeon-1530743"
-        },
-        {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/economie/deficit-public-un-defi-pour-la-france-O7AOC7ZTXZCMDDJ3MV4UKS36YY/"
-        }
-      ]
-    },
-    {
-      "title": "Les IA se trompent sur 40% des chiffres du CAC 40",
-      "why_it_matters": "Je retiens que ChatGPT et Gemini inventent des chiffres sur les entreprises du CAC 40. Ne jamais faire confiance à une IA pour des données financières.",
-      "sources": [
-        {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/cac-40-chatgpt-et-gemini-restituent-mal-quatre-chiffres-sur-dix/"
-        }
-      ]
-    },
-    {
-      "title": "L'empire du contenu bas de gamme IA s'effondre sur Google",
-      "why_it_matters": "Je note que Google élimine les sites remplis d'articles IA sans valeur. Pour qui fait du marketing, seul le contenu humain de qualité survivra.",
-      "sources": [
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/des-sites-d-infos-transformes-en-machines-a-contenus-et-boostes-a-l-ia-comment-brown-brothers-media-a-brutalement-cesse-de-publier-et-a-presque-disparu-de-google_AV-202610050472.html"
-        }
-      ]
-    },
-    {
-      "title": "Vous êtes responsable si votre agent IA dérape",
-      "why_it_matters": "Je retiens qu'OpenAI prévient que les entreprises répondent des actes de leurs agents IA. Il faut des garde-fous avant d'automatiser des tâches.",
-      "sources": [
-        {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/agents-ia-le-client-repond-de-leurs-actes-chez-openai-comme-ailleurs/"
+          "url": "https://www.presse-citron.net/tolerance-zero-france-travail-va-maintenant-fouiller-dans-vos-releves-telephoniques-pour-reperer-la-fraude/"
         }
       ]
     }
