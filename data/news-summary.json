@@ -1,62 +1,58 @@
 {
-  "generated_at": "2026-10-06T11:45:36.097Z",
-  "day_label": "Mardi 6 octobre",
+  "generated_at": "2026-10-07T11:34:14.271Z",
+  "day_label": "Mercredi 7 octobre",
   "items": [
     {
-      "title": "Aleph Alpha lance Kolibri : un modèle IA open source pour l'Europe",
-      "why_it_matters": "Je retiens qu'un modèle européen open source existe maintenant. Cela donne une alternative sérieuse aux outils américains pour mes données sensibles.",
+      "title": "La dette de l’IA va peser sur nos taux et nos factures",
+      "why_it_matters": "Je retiens que les géants de l’IA ont emprunté 500 milliards en neuf mois. Cette bulle finira par gonfler nos factures d’outils et peut-être les taux.",
       "sources": [
         {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/souverainete-numerique-aleph-alpha-devoile-kolibri-un-modele-open-weight-pense-pour-les-entreprises-et-etats-europeens.WAJL2NCZC5HQLJQOEFTWBBIS6I.html"
+          "name": "Intelligence Artificielle",
+          "url": "https://intelligence-artificielle.com/la-dette-de-lia-accentue-la-pression-sur-les-taux-obligataires/"
+        }
+      ]
+    },
+    {
+      "title": "L’UE prépare une taxe forfaitaire sur les grandes entreprises",
+      "why_it_matters": "Je note que Bruxelles veut une contribution annuelle sur toutes les grandes firmes en Europe. Cela rogne les marges si notre entreprise grandit.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/action-publique/1555947-la-commission-europeenne-envisage-une-taxe-sur-les-grandes-entreprises-pour-financer-le-budget-de-l-ue/"
+        }
+      ]
+    },
+    {
+      "title": "La Finlande bloque les nouveaux datacenters de Google",
+      "why_it_matters": "Je retiens que la Finlande suspend les chantiers de Google. L’Europe durcit les règles sur le cloud, ce qui peut freiner les services et les prix.",
+      "sources": [
+        {
+          "name": "Next",
+          "url": "https://next.ink/brief-article/finlande-google-accuse-de-raser-illegalement-une-foret-pour-construire-son-data-center/"
         },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/entreprises-marches/la-finlande-somme-google-alphabet-de-suspendre-la-construction-de-ses-nouveaux-centres-de-donnees-1530796"
+        }
+      ]
+    },
+    {
+      "title": "Mistral lance une IA française pour nos données sensibles",
+      "why_it_matters": "Je note que Mistral propose un modèle souverain. Pour nous, c’est une vraie alternative pour ne plus envoyer nos données chez les géants américains.",
+      "sources": [
+        {
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/data-ia-1372/mistral-large-4-mise-sur-la-souverainete-plutot-que-sur-la-course-aux-records-229551"
+        }
+      ]
+    },
+    {
+      "title": "L’IA facturée entre 0,50 et 50 dollars pour le même volume",
+      "why_it_matters": "Je note que le prix des services d’IA varie du simple au centuple selon les modèles. Cet écart oblige à bien choisir son outil pour ne pas flamber.",
+      "sources": [
         {
           "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/kolibri-daleph-alpha-ce-que-la-licence-apache-20-garantit/"
-        }
-      ]
-    },
-    {
-      "title": "Le Cyber Resilience Act : fin du logiciel livré puis oublié en Europe",
-      "why_it_matters": "Je note que vendre un logiciel en Europe oblige désormais à le sécuriser pendant toute sa vie. Cela change mes responsabilités si je vends du numérique.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/cybersecurite/1555827-le-cyber-resilience-act-ou-la-fin-du-logiciel-livre-puis-oublie/"
-        }
-      ]
-    },
-    {
-      "title": "11 milliards de données : un moteur pirate fiche des millions de Français",
-      "why_it_matters": "Je note qu'un site pirate fiche déjà des millions de Français. Je dois vérifier si mes propres systèmes ou ceux de mes clients ne sont pas concernés.",
-      "sources": [
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/brixhub-moteur-fuites-donnees-vise-par-la-justice.html"
-        }
-      ]
-    },
-    {
-      "title": "Vates lève 30 millions pour challenger VMware en souveraineté numérique",
-      "why_it_matters": "Je retiens qu'une alternative française à VMware lève des fonds. Cela peut réduire mes factures cloud et me libérer d'un éditeur américain.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/cloud/1555855-vates-leve-30-millions-d-euros-pour-challenger-vmware-sur-la-virtualisation/"
-        },
-        {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/informatique/serveurs-et-reseaux/souverainete-numerique-vates-leve-30-millions-deuros-pour-ne-plus-seulement-etre-une-alternative-a-vmware-dans-la-virtualisation.PS6U2F7UU5D2FNUSDYV6P3EETQ.html"
-        }
-      ]
-    },
-    {
-      "title": "France Travail va analyser les relevés téléphoniques pour traquer la fraude",
-      "why_it_matters": "Je note que l'État utilise maintenant nos données téléphoniques pour contrôler la fraude sociale. Cela montre où va la surveillance en France.",
-      "sources": [
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/tolerance-zero-france-travail-va-maintenant-fouiller-dans-vos-releves-telephoniques-pour-reperer-la-fraude/"
+          "url": "https://www.actuia.com/actualite/prix-des-api-dia-en-octobre-2026-de-050-a-50-dollars-en-sortie/"
         }
       ]
     }
