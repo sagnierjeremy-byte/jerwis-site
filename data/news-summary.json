@@ -1,58 +1,62 @@
 {
-  "generated_at": "2026-10-07T11:34:14.271Z",
-  "day_label": "Mercredi 7 octobre",
+  "generated_at": "2026-10-08T11:46:18.532Z",
+  "day_label": "Jeudi 8 octobre",
   "items": [
     {
-      "title": "La dette de l’IA va peser sur nos taux et nos factures",
-      "why_it_matters": "Je retiens que les géants de l’IA ont emprunté 500 milliards en neuf mois. Cette bulle finira par gonfler nos factures d’outils et peut-être les taux.",
+      "title": "Gazole et électricité : la facture reste lourde en France",
+      "why_it_matters": "Le gazole baisse en Europe mais reste très haut chez nous. L'électricité hivernale est incertaine. Ça pèse directement sur les coûts des entreprises.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/automobile/essence/le-prix-moyen-du-gazole-a-la-pompe-entame-une-premiere-baisse-dans-l-ue-apres-un-mois-de-records-la-france-toujours-tres-haut_8228257.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/carburants-premiere-baisse-du-prix-moyen-du-gazole-a-la-pompe-dans-l-ue-apres-un-mois-de-records-20261008"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/08/le-prix-de-l-electricite-ne-doit-pas-augmenter-cet-hiver-la-promesse-encore-floue-de-sebastien-lecornu_6790193_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "L'IA de Google fait chuter l'audience des médias de 22,9%",
+      "why_it_matters": "Si vous comptez sur Google pour attirer des clients, ce modèle est en train de mourir. L'IA résume les réponses sans envoyer de clic sur votre site.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/web/3277937_lia-de-google-fait-plonger-laudience-des-medias-francais-229-de-visites-en-un-an"
+        }
+      ]
+    },
+    {
+      "title": "Un député réclame un moratoire sur les data centers étrangers",
+      "why_it_matters": "La souveraineté des données et la consommation énergétique des géants américains deviennent un enjeu politique majeur en France.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/data-centers-etrangers-en-france-les-opposants-se-multiplient-et-exigent-un-moratoire.html"
+        }
+      ]
+    },
+    {
+      "title": "71% des actifs français manquent de compétences en IA",
+      "why_it_matters": "Recruter des profils à l'aise avec l'IA devient difficile. Les entrepreneurs doivent former leurs équipes pour ne pas prendre de retard.",
       "sources": [
         {
           "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/la-dette-de-lia-accentue-la-pression-sur-les-taux-obligataires/"
+          "url": "https://intelligence-artificielle.com/ia-formation-professionnelle-competences-pratiques/"
         }
       ]
     },
     {
-      "title": "L’UE prépare une taxe forfaitaire sur les grandes entreprises",
-      "why_it_matters": "Je note que Bruxelles veut une contribution annuelle sur toutes les grandes firmes en Europe. Cela rogne les marges si notre entreprise grandit.",
+      "title": "TikTok a testé une fausse sécurité sur des milliers de jeunes",
+      "why_it_matters": "Si vous investissez en pub sur TikTok, sachez que la plateforme a menti sur la protection des jeunes. La confiance s'effondre, la régulation menace.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1555947-la-commission-europeenne-envisage-une-taxe-sur-les-grandes-entreprises-pour-financer-le-budget-de-l-ue/"
-        }
-      ]
-    },
-    {
-      "title": "La Finlande bloque les nouveaux datacenters de Google",
-      "why_it_matters": "Je retiens que la Finlande suspend les chantiers de Google. L’Europe durcit les règles sur le cloud, ce qui peut freiner les services et les prix.",
-      "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/brief-article/finlande-google-accuse-de-raser-illegalement-une-foret-pour-construire-son-data-center/"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/la-finlande-somme-google-alphabet-de-suspendre-la-construction-de-ses-nouveaux-centres-de-donnees-1530796"
-        }
-      ]
-    },
-    {
-      "title": "Mistral lance une IA française pour nos données sensibles",
-      "why_it_matters": "Je note que Mistral propose un modèle souverain. Pour nous, c’est une vraie alternative pour ne plus envoyer nos données chez les géants américains.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/data-ia-1372/mistral-large-4-mise-sur-la-souverainete-plutot-que-sur-la-course-aux-records-229551"
-        }
-      ]
-    },
-    {
-      "title": "L’IA facturée entre 0,50 et 50 dollars pour le même volume",
-      "why_it_matters": "Je note que le prix des services d’IA varie du simple au centuple selon les modèles. Cet écart oblige à bien choisir son outil pour ne pas flamber.",
-      "sources": [
-        {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/prix-des-api-dia-en-octobre-2026-de-050-a-50-dollars-en-sortie/"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/tiktok-aurait-teste-sur-des-milliers-de-jeunes-une-fonction-de-securite-factice-505356.htm#xtor=RSS-1"
         }
       ]
     }
