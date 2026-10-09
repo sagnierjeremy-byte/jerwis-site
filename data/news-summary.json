@@ -1,62 +1,54 @@
 {
-  "generated_at": "2026-10-08T11:46:18.532Z",
-  "day_label": "Jeudi 8 octobre",
+  "generated_at": "2026-10-09T11:37:55.635Z",
+  "day_label": "Vendredi 9 octobre",
   "items": [
     {
-      "title": "Gazole et électricité : la facture reste lourde en France",
-      "why_it_matters": "Le gazole baisse en Europe mais reste très haut chez nous. L'électricité hivernale est incertaine. Ça pèse directement sur les coûts des entreprises.",
+      "title": "Budget 2027 : les députés veulent taxer cryptos et IA",
+      "why_it_matters": "Je retiens que la fiscalité sur l'IA et les cryptos va changer. Si vous investissez ou créez dans ces secteurs, ça impacte votre modèle et votre trésorerie.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/essence/le-prix-moyen-du-gazole-a-la-pompe-entame-une-premiere-baisse-dans-l-ue-apres-un-mois-de-records-la-france-toujours-tres-haut_8228257.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/carburants-premiere-baisse-du-prix-moyen-du-gazole-a-la-pompe-dans-l-ue-apres-un-mois-de-records-20261008"
-        },
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/08/le-prix-de-l-electricite-ne-doit-pas-augmenter-cet-hiver-la-promesse-encore-floue-de-sebastien-lecornu_6790193_3234.html"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/budget-2027-cryptos-et-ia-dans-le-viseur-des-deputes-1530853"
         }
       ]
     },
     {
-      "title": "L'IA de Google fait chuter l'audience des médias de 22,9%",
-      "why_it_matters": "Si vous comptez sur Google pour attirer des clients, ce modèle est en train de mourir. L'IA résume les réponses sans envoyer de clic sur votre site.",
-      "sources": [
-        {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/web/3277937_lia-de-google-fait-plonger-laudience-des-medias-francais-229-de-visites-en-un-an"
-        }
-      ]
-    },
-    {
-      "title": "Un député réclame un moratoire sur les data centers étrangers",
-      "why_it_matters": "La souveraineté des données et la consommation énergétique des géants américains deviennent un enjeu politique majeur en France.",
-      "sources": [
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/data-centers-etrangers-en-france-les-opposants-se-multiplient-et-exigent-un-moratoire.html"
-        }
-      ]
-    },
-    {
-      "title": "71% des actifs français manquent de compétences en IA",
-      "why_it_matters": "Recruter des profils à l'aise avec l'IA devient difficile. Les entrepreneurs doivent former leurs équipes pour ne pas prendre de retard.",
-      "sources": [
-        {
-          "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/ia-formation-professionnelle-competences-pratiques/"
-        }
-      ]
-    },
-    {
-      "title": "TikTok a testé une fausse sécurité sur des milliers de jeunes",
-      "why_it_matters": "Si vous investissez en pub sur TikTok, sachez que la plateforme a menti sur la protection des jeunes. La confiance s'effondre, la régulation menace.",
+      "title": "La presse française réclame 1,4 milliard à Meta pour le RGPD",
+      "why_it_matters": "Je note que le RGPD devient une arme économique. Pour nous entrepreneurs, ça montre que les règles sur les données peuvent coûter très cher aux géants.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/tiktok-aurait-teste-sur-des-milliers-de-jeunes-une-fonction-de-securite-factice-505356.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/rgpd-la-presse-francaise-reclame-14-milliard-deuro-a-meta-505406.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Microsoft 365 réduit l'espace de stockage des offres familiales",
+      "why_it_matters": "Je retiens que Microsoft change les règles de stockage. Si vous utilisez ces offres pour votre entreprise, vérifiez vos contrats avant d'être bloqué.",
+      "sources": [
+        {
+          "name": "Next",
+          "url": "https://next.ink/brief-article/microsoft-365-les-offres-grand-public-partageables-vont-perdre-en-espace-de-stockage/"
+        }
+      ]
+    },
+    {
+      "title": "L'ANSSI liste 6 failles après le piratage des impôts",
+      "why_it_matters": "Je retiens que même l'État se fait voler des données. Ça prouve qu'aucune entreprise n'est à l'abri et qu'il faut sérieusement sécuriser ses systèmes.",
+      "sources": [
+        {
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/cybersecurite-1371/dgfip-les-six-failles-que-lanssi-invite-a-corriger-apres-le-scraping-229579"
+        }
+      ]
+    },
+    {
+      "title": "Claude lance des tableaux de bord pour les entreprises",
+      "why_it_matters": "Je note qu'Anthropic s'attaque à l'analyse de données métier. C'est une nouvelle option concrète pour gagner du temps sur vos rapports sans coder.",
+      "sources": [
+        {
+          "name": "Intelligence Artificielle",
+          "url": "https://intelligence-artificielle.com/avec-claude-dashboards-anthropic-attaque-openai-sur-lanalyse-de-donnees-en-entreprise/"
         }
       ]
     }
