@@ -1,54 +1,58 @@
 {
-  "generated_at": "2026-10-09T11:37:55.635Z",
-  "day_label": "Vendredi 9 octobre",
+  "generated_at": "2026-10-10T10:56:20.330Z",
+  "day_label": "Samedi 10 octobre",
   "items": [
     {
-      "title": "Budget 2027 : les députés veulent taxer cryptos et IA",
-      "why_it_matters": "Je retiens que la fiscalité sur l'IA et les cryptos va changer. Si vous investissez ou créez dans ces secteurs, ça impacte votre modèle et votre trésorerie.",
+      "title": "Budget 2027 : les députés rejettent le volet recettes",
+      "why_it_matters": "Je retiens que les entreprises risquent de payer plus si le gouvernement ne trouve pas d'autres recettes.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/budget/livret-a-retraites-geants-du-numerique-comment-les-deputes-ont-modifie-en-commission-le-volet-recettes-du-projet-de-budget-pour-2027_8229916.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/budget-2027-la-commission-des-finances-rejette-largement-la-partie-recettes-20261009"
+        }
+      ]
+    },
+    {
+      "title": "Une voiture électrique coûte 11 000 $ moins chère en Chine",
+      "why_it_matters": "Je note cet écart de coût qui explique pourquoi les constructeurs européens ont du mal à rivaliser.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/20-000-contre-31-000-dollars-l-enorme-ecart-de-cout-de-production-d-une-voiture-electrique-entre-la-chine-et-l-europe-20261009"
+        }
+      ]
+    },
+    {
+      "title": "L'UE va réduire de moitié les importations de voitures chinoises",
+      "why_it_matters": "Je retiens que Bruxelles durcit les règles pour protéger nos industriels de l'automobile.",
+      "sources": [
+        {
+          "name": "L'Express Économie",
+          "url": "https://www.lexpress.fr/monde/asie/voitures-chinoises-lunion-europeenne-obtient-un-accord-qui-pourrait-reduire-de-moitie-les-7DHN3KTVEVGLFCLUFXG5W5ZCHE/"
+        }
+      ]
+    },
+    {
+      "title": "Renault va produire des drones de défense à la chaîne",
+      "why_it_matters": "Je note comment une entreprise automobile réutilise ses usines pour un marché totalement neuf.",
+      "sources": [
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/defense/une-unite-toutes-les-deux-heures-plutot-qu-une-tous-les-quinze-jours-renault-va-aider-a-produire-des-drones-a-la-chaine_AD-202610100174.html"
+        }
+      ]
+    },
+    {
+      "title": "L'IA française détecte plus tôt le cancer et la dépression",
+      "why_it_matters": "Je retiens que des entreprises françaises créent de la valeur réelle en santé avec l'IA.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/budget-2027-cryptos-et-ia-dans-le-viseur-des-deputes-1530853"
-        }
-      ]
-    },
-    {
-      "title": "La presse française réclame 1,4 milliard à Meta pour le RGPD",
-      "why_it_matters": "Je note que le RGPD devient une arme économique. Pour nous entrepreneurs, ça montre que les règles sur les données peuvent coûter très cher aux géants.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/rgpd-la-presse-francaise-reclame-14-milliard-deuro-a-meta-505406.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft 365 réduit l'espace de stockage des offres familiales",
-      "why_it_matters": "Je retiens que Microsoft change les règles de stockage. Si vous utilisez ces offres pour votre entreprise, vérifiez vos contrats avant d'être bloqué.",
-      "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/brief-article/microsoft-365-les-offres-grand-public-partageables-vont-perdre-en-espace-de-stockage/"
-        }
-      ]
-    },
-    {
-      "title": "L'ANSSI liste 6 failles après le piratage des impôts",
-      "why_it_matters": "Je retiens que même l'État se fait voler des données. Ça prouve qu'aucune entreprise n'est à l'abri et qu'il faut sérieusement sécuriser ses systèmes.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/dgfip-les-six-failles-que-lanssi-invite-a-corriger-apres-le-scraping-229579"
-        }
-      ]
-    },
-    {
-      "title": "Claude lance des tableaux de bord pour les entreprises",
-      "why_it_matters": "Je note qu'Anthropic s'attaque à l'analyse de données métier. C'est une nouvelle option concrète pour gagner du temps sur vos rapports sans coder.",
-      "sources": [
-        {
-          "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/avec-claude-dashboards-anthropic-attaque-openai-sur-lanalyse-de-donnees-en-entreprise/"
+          "url": "https://www.capital.fr/entreprises-marches/cancer-melanome-depression-comment-l-ia-francaise-detecte-les-maladies-plus-tot-1530233"
         }
       ]
     }
