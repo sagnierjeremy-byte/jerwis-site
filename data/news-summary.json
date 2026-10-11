@@ -1,58 +1,66 @@
 {
-  "generated_at": "2026-10-10T10:56:20.330Z",
-  "day_label": "Samedi 10 octobre",
+  "generated_at": "2026-10-11T11:10:51.806Z",
+  "day_label": "Dimanche 11 octobre",
   "items": [
     {
-      "title": "Budget 2027 : les députés rejettent le volet recettes",
-      "why_it_matters": "Je retiens que les entreprises risquent de payer plus si le gouvernement ne trouve pas d'autres recettes.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/livret-a-retraites-geants-du-numerique-comment-les-deputes-ont-modifie-en-commission-le-volet-recettes-du-projet-de-budget-pour-2027_8229916.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/budget-2027-la-commission-des-finances-rejette-largement-la-partie-recettes-20261009"
-        }
-      ]
-    },
-    {
-      "title": "Une voiture électrique coûte 11 000 $ moins chère en Chine",
-      "why_it_matters": "Je note cet écart de coût qui explique pourquoi les constructeurs européens ont du mal à rivaliser.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/20-000-contre-31-000-dollars-l-enorme-ecart-de-cout-de-production-d-une-voiture-electrique-entre-la-chine-et-l-europe-20261009"
-        }
-      ]
-    },
-    {
-      "title": "L'UE va réduire de moitié les importations de voitures chinoises",
-      "why_it_matters": "Je retiens que Bruxelles durcit les règles pour protéger nos industriels de l'automobile.",
-      "sources": [
-        {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/monde/asie/voitures-chinoises-lunion-europeenne-obtient-un-accord-qui-pourrait-reduire-de-moitie-les-7DHN3KTVEVGLFCLUFXG5W5ZCHE/"
-        }
-      ]
-    },
-    {
-      "title": "Renault va produire des drones de défense à la chaîne",
-      "why_it_matters": "Je note comment une entreprise automobile réutilise ses usines pour un marché totalement neuf.",
-      "sources": [
-        {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/defense/une-unite-toutes-les-deux-heures-plutot-qu-une-tous-les-quinze-jours-renault-va-aider-a-produire-des-drones-a-la-chaine_AD-202610100174.html"
-        }
-      ]
-    },
-    {
-      "title": "L'IA française détecte plus tôt le cancer et la dépression",
-      "why_it_matters": "Je retiens que des entreprises françaises créent de la valeur réelle en santé avec l'IA.",
+      "title": "La CAF piratée : 1,2 million de dossiers volés, 80% des Français sur le darknet",
+      "why_it_matters": "Je retiens que même la CAF se fait pirater. Si 80% des Français ont des données sur le darknet, mes données client sont une cible facile.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/cancer-melanome-depression-comment-l-ia-francaise-detecte-les-maladies-plus-tot-1530233"
+          "url": "https://www.capital.fr/economie-politique/un-pirate-revendique-le-vol-de-12-million-de-dossiers-d-allocations-familiales-1530886"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/caf-vacaf-pirate-site-coupe-urgence-fuite-donnees.html"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/80-des-francais-ont-des-donnees-en-vente-sur-le-darknet-selon-la-gendarmerie-1530884"
+        }
+      ]
+    },
+    {
+      "title": "La dette française inquiète : les taux d'emprunt vont-ils grimper ?",
+      "why_it_matters": "Je retiens que les marchés surnomment notre dette 'Frogs'. Ma prochaine demande de crédit pourrait coûter plus cher.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/frogs-le-surnom-que-la-presse-financiere-anglo-saxonne-colle-a-la-dette-francaise-1530885"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/deficit-public-pourquoi-la-france-vit-a-credit-depuis-50-ans-1530636"
+        }
+      ]
+    },
+    {
+      "title": "La fibre optique patine en France : malfaçons et zones blanches",
+      "why_it_matters": "Je retiens que le déploiement de la fibre rame. Si je m'installe hors des grandes villes, la connexion de mon entreprise n'est pas sûre.",
+      "sources": [
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/11/la-fin-contrariee-du-grand-chantier-d-installation-de-la-fibre-optique-en-france_6791510_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "L'IA sur le travail en France : entre peur et vrai gain de productivité",
+      "why_it_matters": "Je retiens que l'IA change déjà certains métiers. Je dois voir où elle fait vraiment gagner du temps, sans remplacer mon équipe.",
+      "sources": [
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/vous-avez-peur-pour-votre-emploi-voici-limpact-reel-de-lia-sur-le-travail-en-france/"
+        }
+      ]
+    },
+    {
+      "title": "Meta accusé d'ingérence électorale : la régulation se resserre",
+      "why_it_matters": "Je retiens que Meta est encore accusé de manipulation électorale. La confiance dans la pub en ligne baisse, la régulation va s'intensifier.",
+      "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/25473997153884/au-bresil-meta-accuse-dinterferer-dans-la-presidentielle"
         }
       ]
     }
