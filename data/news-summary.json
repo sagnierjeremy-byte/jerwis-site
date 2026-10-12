@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-10-11T11:10:51.806Z",
-  "day_label": "Dimanche 11 octobre",
+  "generated_at": "2026-10-12T12:42:01.464Z",
+  "day_label": "Lundi 12 octobre",
   "items": [
     {
-      "title": "La CAF piratée : 1,2 million de dossiers volés, 80% des Français sur le darknet",
-      "why_it_matters": "Je retiens que même la CAF se fait pirater. Si 80% des Français ont des données sur le darknet, mes données client sont une cible facile.",
+      "title": "Cyberattaque : les frigos de 150 supermarchés grillés à distance",
+      "why_it_matters": "Je note que nos outils connectés sont fragiles. Un hacker peut faire sauter la chaîne du froid et jeter des stocks entiers en quelques heures.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/un-pirate-revendique-le-vol-de-12-million-de-dossiers-d-allocations-familiales-1530886"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/caf-vacaf-pirate-site-coupe-urgence-fuite-donnees.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/une-cyberattaque-a-touche-les-infrastructures-frigorifiques-de-centaines-de-supermarches-cooperative-u-et-intermarche-20261012"
         },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/80-des-francais-ont-des-donnees-en-vente-sur-le-darknet-selon-la-gendarmerie-1530884"
+          "url": "https://www.capital.fr/economie-politique/rayons-surgeles-vides-chez-intermarche-leclerc-et-super-u-une-cyberattaque-a-fait-chauffer-les-frigos-a-50-degres-1530912"
         }
       ]
     },
     {
-      "title": "La dette française inquiète : les taux d'emprunt vont-ils grimper ?",
-      "why_it_matters": "Je retiens que les marchés surnomment notre dette 'Frogs'. Ma prochaine demande de crédit pourrait coûter plus cher.",
+      "title": "Le régime micro-entrepreneur menacé pour certaines professions",
+      "why_it_matters": "Je note que la santé et le médico-social pourraient perdre ce statut. Si vous êtes concerné, votre coût de structure va exploser.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/frogs-le-surnom-que-la-presse-financiere-anglo-saxonne-colle-a-la-dette-francaise-1530885"
+          "url": "https://www.capital.fr/votre-carriere/un-rapport-officiel-preconise-d-exclure-certaines-professions-du-regime-des-micro-entrepreneurs-1530915"
+        }
+      ]
+    },
+    {
+      "title": "Le gazole baisse enfin : 8 à 20 centimes de moins au litre",
+      "why_it_matters": "Je note que Total et l'État libèrent des stocks. Pour ceux qui roulent beaucoup, la facture de carburant va enfin se calmer un peu.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/destockage-de-gazole-totalenergies-s-engage-a-baisser-les-prix-dans-ses-stations-de-8-a-12-centimes-par-litre-20261012"
         },
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/deficit-public-pourquoi-la-france-vit-a-credit-depuis-50-ans-1530636"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/automobile/essence/carburants-le-gouvernement-prepare-une-aide-pour-pres-de-339-stations-service-independantes_8233891.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "La fibre optique patine en France : malfaçons et zones blanches",
-      "why_it_matters": "Je retiens que le déploiement de la fibre rame. Si je m'installe hors des grandes villes, la connexion de mon entreprise n'est pas sûre.",
+      "title": "Les médias français réclament 1,4 milliard à Meta",
+      "why_it_matters": "Je note que Meta est accusé d'écraser la concurrence sur la pub en ligne. Cette bataille va changer les prix et les règles pour annoncer.",
       "sources": [
         {
-          "name": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/11/la-fin-contrariee-du-grand-chantier-d-installation-de-la-fibre-optique-en-france_6791510_3234.html"
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/facebook/une-coalition-d-une-centaine-de-medias-francais-reclame-une-fortune-a-meta-pour-abus-de-ses-avantages-concurrentiels-sur-le-marche-publicitaire-un-cabinet-d-experts-l-a-estimee-a-1-4-milliard-d-euros_AV-202610120494.html"
         }
       ]
     },
     {
-      "title": "L'IA sur le travail en France : entre peur et vrai gain de productivité",
-      "why_it_matters": "Je retiens que l'IA change déjà certains métiers. Je dois voir où elle fait vraiment gagner du temps, sans remplacer mon équipe.",
-      "sources": [
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/vous-avez-peur-pour-votre-emploi-voici-limpact-reel-de-lia-sur-le-travail-en-france/"
-        }
-      ]
-    },
-    {
-      "title": "Meta accusé d'ingérence électorale : la régulation se resserre",
-      "why_it_matters": "Je retiens que Meta est encore accusé de manipulation électorale. La confiance dans la pub en ligne baisse, la régulation va s'intensifier.",
+      "title": "Accord franco-allemand pour protéger l'industrie européenne",
+      "why_it_matters": "Je note que Paris et Berlin veulent imposer plus de contenu européen dans nos produits. Bonne nouvelle pour les entreprises qui fabriquent en France.",
       "sources": [
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/25473997153884/au-bresil-meta-accuse-dinterferer-dans-la-presidentielle"
+          "url": "https://www.latribune.fr/article/transports/automobile/118795304311814/made-in-europe-un-accord-avec-les-allemands-est-imminent-annonce-emmanuel-macron"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/automobile-macron-annonce-un-accord-imminent-entre-la-france-et-l-allemagne-pour-mieux-proteger-l-industrie-europeenne-20261012"
         }
       ]
     }
