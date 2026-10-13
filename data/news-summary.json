@@ -1,66 +1,74 @@
 {
-  "generated_at": "2026-10-12T12:42:01.464Z",
-  "day_label": "Lundi 12 octobre",
+  "generated_at": "2026-10-13T12:27:16.698Z",
+  "day_label": "Mardi 13 octobre",
   "items": [
     {
-      "title": "Cyberattaque : les frigos de 150 supermarchés grillés à distance",
-      "why_it_matters": "Je note que nos outils connectés sont fragiles. Un hacker peut faire sauter la chaîne du froid et jeter des stocks entiers en quelques heures.",
+      "title": "Scaleway veut devenir le cloud européen anti-GAFAM",
+      "why_it_matters": "Je retiens qu'un hébergeur européen compétitif réduit les coûts et protège nos données.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/une-cyberattaque-a-touche-les-infrastructures-frigorifiques-de-centaines-de-supermarches-cooperative-u-et-intermarche-20261012"
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/informatique/cloud/un-data-center-equipe-par-amd-en-finlande-plus-de-modeles-et-des-services-ia-ajoutes-a-son-catalogue-scaleway-se-reve-en-alternative-europeenne-face-aux-geants-americains.DLSKXCZD2FHG7FZQ3XZ2X2BDU4.html"
         },
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/rayons-surgeles-vides-chez-intermarche-leclerc-et-super-u-une-cyberattaque-a-fait-chauffer-les-frigos-a-50-degres-1530912"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/informatique/2037256280189514/le-francais-scaleway-mise-sur-le-nord-de-l-europe-et-les-puces-amd-pour-entrainer-l-ia"
         }
       ]
     },
     {
-      "title": "Le régime micro-entrepreneur menacé pour certaines professions",
-      "why_it_matters": "Je note que la santé et le médico-social pourraient perdre ce statut. Si vous êtes concerné, votre coût de structure va exploser.",
+      "title": "Budget 2027 : les aides aux entreprises sous surveillance",
+      "why_it_matters": "Je note que l'État a versé 166 milliards d'aides et que la fiscalité va être rediscutée.",
       "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/un-rapport-officiel-preconise-d-exclure-certaines-professions-du-regime-des-micro-entrepreneurs-1530915"
-        }
-      ]
-    },
-    {
-      "title": "Le gazole baisse enfin : 8 à 20 centimes de moins au litre",
-      "why_it_matters": "Je note que Total et l'État libèrent des stocks. Pour ceux qui roulent beaucoup, la facture de carburant va enfin se calmer un peu.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/destockage-de-gazole-totalenergies-s-engage-a-baisser-les-prix-dans-ses-stations-de-8-a-12-centimes-par-litre-20261012"
-        },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/essence/carburants-le-gouvernement-prepare-une-aide-pour-pres-de-339-stations-service-independantes_8233891.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.franceinfo.fr/economie/budget/le-gouvernement-estime-a-166-milliards-d-euros-les-aides-publiques-apportees-aux-entreprises-en-2024_8235373.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/argent/article/2026/10/13/fiscalite-abattement-pour-les-retraites-donations-assurance-vie-ce-que-changerait-la-loi-de-finances-pour-2027_6793096_1657007.html"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/politique/pourquoi-le-deficit-public-pourrait-etre-le-grand-sacrifie-de-la-bataille-budgetaire-20261013"
         }
       ]
     },
     {
-      "title": "Les médias français réclament 1,4 milliard à Meta",
-      "why_it_matters": "Je note que Meta est accusé d'écraser la concurrence sur la pub en ligne. Cette bataille va changer les prix et les règles pour annoncer.",
+      "title": "Piratage massif des frigos dans les supermarchés français",
+      "why_it_matters": "Je retiens qu'une faille logicielle dans des frigos a coûté des millions. La cybersécurité physique compte.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/faille-logicielle-frigos-a-35-0c-des-millions-d-euros-perdus-les-dessous-de-la-cyberattaque-inedite-qui-a-frappe-les-supermarches-francais-20261012"
+        },
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2352099-frigos-pirates-dans-les-supermarches-les-grandes-enseignes-ont-un-coupable-tout-designe.html"
+        }
+      ]
+    },
+    {
+      "title": "Epic Games ne veut plus de code écrit à la main",
+      "why_it_matters": "Je note que l'IA génère tout le code chez Epic. Ça bouleverse les équipes tech et les délais de prod.",
       "sources": [
         {
           "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/facebook/une-coalition-d-une-centaine-de-medias-francais-reclame-une-fortune-a-meta-pour-abus-de-ses-avantages-concurrentiels-sur-le-marche-publicitaire-un-cabinet-d-experts-l-a-estimee-a-1-4-milliard-d-euros_AV-202610120494.html"
+          "url": "https://www.bfmtv.com/tech/gaming/plus-de-code-ecrit-a-la-main-et-des-flux-de-travail-100-ia-le-developpeur-de-fortnite-epic-games-acte-un-virage-massif-vers-l-intelligence-artificielle-et-repousse-le-premier-jeu-concerne-un-titre-disney_AD-202610130515.html"
+        },
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/plus-aucun-code-ecrit-a-la-main-epic-games-veut-lia-coeur-developpement-jeu-marvel-star-wars/"
         }
       ]
     },
     {
-      "title": "Accord franco-allemand pour protéger l'industrie européenne",
-      "why_it_matters": "Je note que Paris et Berlin veulent imposer plus de contenu européen dans nos produits. Bonne nouvelle pour les entreprises qui fabriquent en France.",
+      "title": "Le FMI prévient : 40 % des emplois vont être touchés par l'IA",
+      "why_it_matters": "Je retiens que l'impact sur les jeunes diplômés arrive vite. Il faut anticiper la formation des équipes.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/transports/automobile/118795304311814/made-in-europe-un-accord-avec-les-allemands-est-imminent-annonce-emmanuel-macron"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/automobile-macron-annonce-un-accord-imminent-entre-la-france-et-l-allemagne-pour-mieux-proteger-l-industrie-europeenne-20261012"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/le-tsunami-va-toucher-40-des-emplois-lavertissement-du-fmi-alors-que-lia-devient-plus-intelligente-et-autonome/"
         }
       ]
     }
