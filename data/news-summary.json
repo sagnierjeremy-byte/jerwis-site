@@ -1,74 +1,66 @@
 {
-  "generated_at": "2026-10-13T12:27:16.698Z",
-  "day_label": "Mardi 13 octobre",
+  "generated_at": "2026-10-14T09:55:24.659Z",
+  "day_label": "Mercredi 14 octobre",
   "items": [
     {
-      "title": "Scaleway veut devenir le cloud européen anti-GAFAM",
-      "why_it_matters": "Je retiens qu'un hébergeur européen compétitif réduit les coûts et protège nos données.",
+      "title": "Nvidia injecte des millions dans 4 pépites françaises de l'IA",
+      "why_it_matters": "Je retiens que le géant américain cible nos entreprises et impose sa vision de la souveraineté numérique.",
       "sources": [
         {
           "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/informatique/cloud/un-data-center-equipe-par-amd-en-finlande-plus-de-modeles-et-des-services-ia-ajoutes-a-son-catalogue-scaleway-se-reve-en-alternative-europeenne-face-aux-geants-americains.DLSKXCZD2FHG7FZQ3XZ2X2BDU4.html"
+          "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html"
+        },
+        {
+          "name": "Frenchweb",
+          "url": "https://www.frenchweb.fr/jensen-huang-en-tournee-en-europe-entre-business-lobbying-et-investissements/463934"
         },
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/informatique/2037256280189514/le-francais-scaleway-mise-sur-le-nord-de-l-europe-et-les-puces-amd-pour-entrainer-l-ia"
+          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/37886335151214/nvidia-se-presente-comme-le-premier-financeur-de-l-ia-europeenne-et-vend-sa-definition-de-la-souverainete"
         }
       ]
     },
     {
-      "title": "Budget 2027 : les aides aux entreprises sous surveillance",
-      "why_it_matters": "Je note que l'État a versé 166 milliards d'aides et que la fiscalité va être rediscutée.",
+      "title": "Macron réunit un conseil de défense nationale sur l'IA",
+      "why_it_matters": "Je note que l'État considère l'intelligence artificielle comme un domaine stratégique prioritaire.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/le-gouvernement-estime-a-166-milliards-d-euros-les-aides-publiques-apportees-aux-entreprises-en-2024_8235373.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/domaine-strategique-emmanuel-macron-convoque-conseil-defense-securite-ia.html"
+        }
+      ]
+    },
+    {
+      "title": "L'IA freine déjà l'embauche des jeunes selon la Banque de France",
+      "why_it_matters": "Je retiens que les métiers exposés à l'IA générative recrutent moins depuis fin 2022.",
+      "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/argent/article/2026/10/13/fiscalite-abattement-pour-les-retraites-donations-assurance-vie-ce-que-changerait-la-loi-de-finances-pour-2027_6793096_1657007.html"
-        },
+          "name": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/ia-freine-embauche-jeunes/"
+        }
+      ]
+    },
+    {
+      "title": "Piratage massif des réfrigérateurs connectés chez E.Leclerc",
+      "why_it_matters": "Je note que 300 magasins ont jeté des denrées. La cybersécurité des objets connectés est vitale.",
+      "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/politique/pourquoi-le-deficit-public-pourrait-etre-le-grand-sacrifie-de-la-bataille-budgetaire-20261013"
-        }
-      ]
-    },
-    {
-      "title": "Piratage massif des frigos dans les supermarchés français",
-      "why_it_matters": "Je retiens qu'une faille logicielle dans des frigos a coûté des millions. La cybersécurité physique compte.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/faille-logicielle-frigos-a-35-0c-des-millions-d-euros-perdus-les-dessous-de-la-cyberattaque-inedite-qui-a-frappe-les-supermarches-francais-20261012"
+          "url": "https://www.lefigaro.fr/conjoncture/piratage-des-systemes-frigorifiques-de-supermarches-on-n-avait-pas-cette-culture-de-la-securite-reconnait-michel-edouard-leclerc-20261014"
         },
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2352099-frigos-pirates-dans-les-supermarches-les-grandes-enseignes-ont-un-coupable-tout-designe.html"
-        }
-      ]
-    },
-    {
-      "title": "Epic Games ne veut plus de code écrit à la main",
-      "why_it_matters": "Je note que l'IA génère tout le code chez Epic. Ça bouleverse les équipes tech et les délais de prod.",
-      "sources": [
         {
           "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/gaming/plus-de-code-ecrit-a-la-main-et-des-flux-de-travail-100-ia-le-developpeur-de-fortnite-epic-games-acte-un-virage-massif-vers-l-intelligence-artificielle-et-repousse-le-premier-jeu-concerne-un-titre-disney_AD-202610130515.html"
-        },
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/plus-aucun-code-ecrit-a-la-main-epic-games-veut-lia-coeur-developpement-jeu-marvel-star-wars/"
+          "url": "https://www.bfmtv.com/tech/cybersecurite/cet-incident-n-a-rien-de-surprenant-apres-la-cyberattaque-sur-des-refrigerateurs-de-supermarches-la-cybersecurite-en-question_AN-202610140326.html"
         }
       ]
     },
     {
-      "title": "Le FMI prévient : 40 % des emplois vont être touchés par l'IA",
-      "why_it_matters": "Je retiens que l'impact sur les jeunes diplômés arrive vite. Il faut anticiper la formation des équipes.",
+      "title": "La BCE confirme que l'IA est déjà un moteur de croissance en Europe",
+      "why_it_matters": "Je retiens que l'adoption de l'intelligence artificielle booste réellement l'économie européenne.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/le-tsunami-va-toucher-40-des-emplois-lavertissement-du-fmi-alors-que-lia-devient-plus-intelligente-et-autonome/"
+          "name": "Capital",
+          "url": "https://www.capital.fr/entreprises-marches/l-ia-represente-deja-un-facteur-majeur-de-croissance-pour-l-economie-de-la-zone-euro-assure-la-bce-1530970"
         }
       ]
     }
