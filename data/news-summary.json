@@ -1,66 +1,54 @@
 {
-  "generated_at": "2026-10-14T09:55:24.659Z",
-  "day_label": "Mercredi 14 octobre",
+  "generated_at": "2026-10-15T09:35:03.935Z",
+  "day_label": "Jeudi 15 octobre",
   "items": [
     {
-      "title": "Nvidia injecte des millions dans 4 pépites françaises de l'IA",
-      "why_it_matters": "Je retiens que le géant américain cible nos entreprises et impose sa vision de la souveraineté numérique.",
+      "title": "AI Act : un an de répit pour les entreprises françaises",
+      "why_it_matters": "Je retiens que Bruxelles nous donne un an de plus pour se mettre en règle. Ça laisse du temps pour adapter nos produits sans paniquer.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1556651-ai-act-un-an-de-repit-comment-remettre-les-priorites-dans-l-ordre/"
+        }
+      ]
+    },
+    {
+      "title": "Google réduit les avantages de son abonnement IA",
+      "why_it_matters": "Je note que Google AI Plus retire l'accès aux modèles Pro. Nos outils payants deviennent moins puissants, il faut revoir nos abonnements.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/google/3285869_google-reduit-la-voilure-les-abonnes-google-ai-plus-perdront-bientot-acces-aux-modeles-pro"
+        }
+      ]
+    },
+    {
+      "title": "Ecosia lâche Mistral, le fleuron français trébuche",
+      "why_it_matters": "Je retiens que Mistral perd un gros client après 5 mois à cause des coûts et des serveurs saturés. La concurrence des modèles étrangers est rude.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/zd-tech-couts-et-ecologie-le-divorce-brutal-entre-ecosia-et-mistral-ai-505713.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia rend ses outils GPU gratuits et open source",
+      "why_it_matters": "Je note que Run:ai devient open source. Cela pourrait réduire nos coûts d'infrastructure IA si on utilise des GPU en interne.",
       "sources": [
         {
           "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html"
-        },
-        {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/jensen-huang-en-tournee-en-europe-entre-business-lobbying-et-investissements/463934"
-        },
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/37886335151214/nvidia-se-presente-comme-le-premier-financeur-de-l-ia-europeenne-et-vend-sa-definition-de-la-souverainete"
+          "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-passe-sa-plateforme-runai-en-open-source-pour-mieux-diffuser-ses-outils-dorchestration-des-gpu.6HUD5N5DRVBT7ITEFN4Q6NRJ3M.html"
         }
       ]
     },
     {
-      "title": "Macron réunit un conseil de défense nationale sur l'IA",
-      "why_it_matters": "Je note que l'État considère l'intelligence artificielle comme un domaine stratégique prioritaire.",
+      "title": "Anthropic affiche 16,8 milliards et prépare son IPO",
+      "why_it_matters": "Je retiens qu'Anthropic accélère vers la Bourse avec une croissance de 45%. Le marché IA se consolide et les prix pourraient encore bouger.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/domaine-strategique-emmanuel-macron-convoque-conseil-defense-securite-ia.html"
-        }
-      ]
-    },
-    {
-      "title": "L'IA freine déjà l'embauche des jeunes selon la Banque de France",
-      "why_it_matters": "Je retiens que les métiers exposés à l'IA générative recrutent moins depuis fin 2022.",
-      "sources": [
-        {
-          "name": "Blog du Modérateur",
-          "url": "https://www.blogdumoderateur.com/ia-freine-embauche-jeunes/"
-        }
-      ]
-    },
-    {
-      "title": "Piratage massif des réfrigérateurs connectés chez E.Leclerc",
-      "why_it_matters": "Je note que 300 magasins ont jeté des denrées. La cybersécurité des objets connectés est vitale.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/piratage-des-systemes-frigorifiques-de-supermarches-on-n-avait-pas-cette-culture-de-la-securite-reconnait-michel-edouard-leclerc-20261014"
-        },
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/cybersecurite/cet-incident-n-a-rien-de-surprenant-apres-la-cyberattaque-sur-des-refrigerateurs-de-supermarches-la-cybersecurite-en-question_AN-202610140326.html"
-        }
-      ]
-    },
-    {
-      "title": "La BCE confirme que l'IA est déjà un moteur de croissance en Europe",
-      "why_it_matters": "Je retiens que l'adoption de l'intelligence artificielle booste réellement l'économie européenne.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/l-ia-represente-deja-un-facteur-majeur-de-croissance-pour-l-economie-de-la-zone-euro-assure-la-bce-1530970"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/1556665-anthropic-annonce-une-croissance-de-45-de-ses-revenus-au-troisieme-trimestre/"
         }
       ]
     }
