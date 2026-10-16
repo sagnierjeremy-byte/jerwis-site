@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-10-15T09:35:03.935Z",
-  "day_label": "Jeudi 15 octobre",
+  "generated_at": "2026-10-16T09:31:38.773Z",
+  "day_label": "Vendredi 16 octobre",
   "items": [
     {
-      "title": "AI Act : un an de répit pour les entreprises françaises",
-      "why_it_matters": "Je retiens que Bruxelles nous donne un an de plus pour se mettre en règle. Ça laisse du temps pour adapter nos produits sans paniquer.",
+      "title": "Google lance un panier intelligent pour comparer les prix",
+      "why_it_matters": "Je note que Google s'impose entre les clients et les boutiques en ligne. Si vous vendez sur le web, ce changement touche directement votre chiffre d'affaires.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1556651-ai-act-un-an-de-repit-comment-remettre-les-priorites-dans-l-ordre/"
+          "name": "Siècle Digital",
+          "url": "https://siecledigital.fr/2026/10/16/google-sattaque-au-e-commerce-avec-un-panier-intelligent-capable-de-comparer-les-prix/"
         }
       ]
     },
     {
-      "title": "Google réduit les avantages de son abonnement IA",
-      "why_it_matters": "Je note que Google AI Plus retire l'accès aux modèles Pro. Nos outils payants deviennent moins puissants, il faut revoir nos abonnements.",
+      "title": "Cyberattaque massive dans la grande distribution",
+      "why_it_matters": "Je retiens que même les plus grands réseaux se font pirater. C'est un signal fort pour renforcer la sécurité de vos données clients.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/marques/google/3285869_google-reduit-la-voilure-les-abonnes-google-ai-plus-perdront-bientot-acces-aux-modeles-pro"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/cyberattaque-contre-des-supermarches-apres-le-choc-les-zones-d-ombre-d-une-affaire-hors-norme-20261016"
         }
       ]
     },
     {
-      "title": "Ecosia lâche Mistral, le fleuron français trébuche",
-      "why_it_matters": "Je retiens que Mistral perd un gros client après 5 mois à cause des coûts et des serveurs saturés. La concurrence des modèles étrangers est rude.",
+      "title": "Microsoft prépare une IA plus légère et moins gourmande",
+      "why_it_matters": "Je retiens que MAI-Base-2 réduit les besoins en calcul. Pour moi, c'est l'espoir que les abonnements IA baissent enfin.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/zd-tech-couts-et-ecologie-le-divorce-brutal-entre-ecosia-et-mistral-ai-505713.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/microsoft-termine-le-pre-entrainement-de-mai-base-2-un-modele-geant-de-2-800-milliards-de-parametres-505921.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Nvidia rend ses outils GPU gratuits et open source",
-      "why_it_matters": "Je note que Run:ai devient open source. Cela pourrait réduire nos coûts d'infrastructure IA si on utilise des GPU en interne.",
+      "title": "Nvidia lance un modèle IA ouvert et ultra-rapide pour les pros",
+      "why_it_matters": "Je note que Nemotron 3.5 est cinq fois plus rapide que la concurrence. C'est une piste sérieuse pour automatiser sans se ruiner.",
       "sources": [
         {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-passe-sa-plateforme-runai-en-open-source-pour-mieux-diffuser-ses-outils-dorchestration-des-gpu.6HUD5N5DRVBT7ITEFN4Q6NRJ3M.html"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/nvidia-lance-nemotron-3-5-super-vl-son-modele-ia-ouvert-ultra-rapide-505951.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Anthropic affiche 16,8 milliards et prépare son IPO",
-      "why_it_matters": "Je retiens qu'Anthropic accélère vers la Bourse avec une croissance de 45%. Le marché IA se consolide et les prix pourraient encore bouger.",
+      "title": "Anthropic verrouille Claude et fait grimper les coûts",
+      "why_it_matters": "Je retiens que la protection contre la copie a un prix. Les outils IA professionnels risquent de coûter plus cher demain.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/1556665-anthropic-annonce-une-croissance-de-45-de-ses-revenus-au-troisieme-trimestre/"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/"
         }
       ]
     }
