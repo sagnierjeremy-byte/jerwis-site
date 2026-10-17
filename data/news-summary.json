@@ -1,54 +1,58 @@
 {
-  "generated_at": "2026-10-16T09:31:38.773Z",
-  "day_label": "Vendredi 16 octobre",
+  "generated_at": "2026-10-17T09:01:06.848Z",
+  "day_label": "Samedi 17 octobre",
   "items": [
     {
-      "title": "Google lance un panier intelligent pour comparer les prix",
-      "why_it_matters": "Je note que Google s'impose entre les clients et les boutiques en ligne. Si vous vendez sur le web, ce changement touche directement votre chiffre d'affaires.",
+      "title": "Cyberattaque des frigos : la France en retard sur la loi européenne",
+      "why_it_matters": "Je note : un frigo piraté peut bloquer 700 magasins. La France traîne sur la loi cybersécurité. Je dois vérifier mes propres équipements connectés.",
       "sources": [
         {
-          "name": "Siècle Digital",
-          "url": "https://siecledigital.fr/2026/10/16/google-sattaque-au-e-commerce-avec-un-panier-intelligent-capable-de-comparer-les-prix/"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/17/la-cyberattaque-des-frigos-de-supermarche-un-signal-d-alarme-pour-tous-les-industriels-et-un-rappel-a-la-loi-europeenne-pour-la-france_6795846_3234.html"
         }
       ]
     },
     {
-      "title": "Cyberattaque massive dans la grande distribution",
-      "why_it_matters": "Je retiens que même les plus grands réseaux se font pirater. C'est un signal fort pour renforcer la sécurité de vos données clients.",
+      "title": "Le coût de l'alimentation a grimpé de 35% en dix ans",
+      "why_it_matters": "Je retiens que l'inflation alimentaire pèse sur le pouvoir d'achat de mes clients et de mes salariés. C'est un facteur de tension social.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/cyberattaque-contre-des-supermarches-apres-le-choc-les-zones-d-ombre-d-une-affaire-hors-norme-20261016"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/inflation/avant-la-mobilisation-du-17-octobre-visualisez-comment-le-cout-de-l-alimentation-a-explose-en-dix-ans-en-france_8202725.html"
         }
       ]
     },
     {
-      "title": "Microsoft prépare une IA plus légère et moins gourmande",
-      "why_it_matters": "Je retiens que MAI-Base-2 réduit les besoins en calcul. Pour moi, c'est l'espoir que les abonnements IA baissent enfin.",
+      "title": "Accord France-Allemagne : la fin des moteurs thermiques en 2035",
+      "why_it_matters": "Je note que la fin du thermique est actée avec l'Allemagne. Si j'ai une flotte ou des livraisons, je dois accélérer ma transition électrique.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/microsoft-termine-le-pre-entrainement-de-mai-base-2-un-modele-geant-de-2-800-milliards-de-parametres-505921.htm#xtor=RSS-1"
+          "name": "Capital",
+          "url": "https://www.capital.fr/auto/emmanuel-macron-annonce-un-accord-avec-l-allemagne-sur-la-fin-des-moteurs-thermiques-1531063"
         }
       ]
     },
     {
-      "title": "Nvidia lance un modèle IA ouvert et ultra-rapide pour les pros",
-      "why_it_matters": "Je note que Nemotron 3.5 est cinq fois plus rapide que la concurrence. C'est une piste sérieuse pour automatiser sans se ruiner.",
+      "title": "Mobilisations et colères agricoles : risque d'approvisionnement",
+      "why_it_matters": "Je retiens que les blocages et la colère agricole menacent les transports et l'approvisionnement. Je prévois un plan de continuité pour mon activité.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/nvidia-lance-nemotron-3-5-super-vl-son-modele-ia-ouvert-ultra-rapide-505951.htm#xtor=RSS-1"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/le-brief-politique/deja-confronte-aux-mobilisations-lyceennes-et-contre-la-vie-chere-le-gouvernement-craint-la-saison-des-coleres-agricoles_8220625.html"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/greve/la-mobilisation-du-17-octobre-risque-de-degenerer-alerte-le-secretaire-general-du-syndicat-des-commissaires-de-la-police-nationale_8240980.html"
         }
       ]
     },
     {
-      "title": "Anthropic verrouille Claude et fait grimper les coûts",
-      "why_it_matters": "Je retiens que la protection contre la copie a un prix. Les outils IA professionnels risquent de coûter plus cher demain.",
+      "title": "Duralex repris : un serial repreneur aux commandes",
+      "why_it_matters": "Je retiens qu'un entrepreneur privé reprend Duralex. C'est un bon signe pour l'industrie française, même si le feuilleton a été long et difficile.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/entreprises/duralex-cedric-mestron-un-serial-repreneur-desormais-aux-commandes_8240956.html"
         }
       ]
     }
