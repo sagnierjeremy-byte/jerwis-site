@@ -1,58 +1,62 @@
 {
-  "generated_at": "2026-10-17T09:01:06.848Z",
-  "day_label": "Samedi 17 octobre",
+  "generated_at": "2026-10-18T09:18:18.344Z",
+  "day_label": "Dimanche 18 octobre",
   "items": [
     {
-      "title": "Cyberattaque des frigos : la France en retard sur la loi européenne",
-      "why_it_matters": "Je note : un frigo piraté peut bloquer 700 magasins. La France traîne sur la loi cybersécurité. Je dois vérifier mes propres équipements connectés.",
+      "title": "Commerces pillés le 17 octobre : le coût réel pour les entrepreneurs",
+      "why_it_matters": "Je retiens que des dizaines de magasins ont été dégradés. Les commerçants demandent un soutien financier à l'État.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/17/la-cyberattaque-des-frigos-de-supermarche-un-signal-d-alarme-pour-tous-les-industriels-et-un-rappel-a-la-loi-europeenne-pour-la-france_6795846_3234.html"
-        }
-      ]
-    },
-    {
-      "title": "Le coût de l'alimentation a grimpé de 35% en dix ans",
-      "why_it_matters": "Je retiens que l'inflation alimentaire pèse sur le pouvoir d'achat de mes clients et de mes salariés. C'est un facteur de tension social.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/inflation/avant-la-mobilisation-du-17-octobre-visualisez-comment-le-cout-de-l-alimentation-a-explose-en-dix-ans-en-france_8202725.html"
-        }
-      ]
-    },
-    {
-      "title": "Accord France-Allemagne : la fin des moteurs thermiques en 2035",
-      "why_it_matters": "Je note que la fin du thermique est actée avec l'Allemagne. Si j'ai une flotte ou des livraisons, je dois accélérer ma transition électrique.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/auto/emmanuel-macron-annonce-un-accord-avec-l-allemagne-sur-la-fin-des-moteurs-thermiques-1531063"
-        }
-      ]
-    },
-    {
-      "title": "Mobilisations et colères agricoles : risque d'approvisionnement",
-      "why_it_matters": "Je retiens que les blocages et la colère agricole menacent les transports et l'approvisionnement. Je prévois un plan de continuité pour mon activité.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/le-brief-politique/deja-confronte-aux-mobilisations-lyceennes-et-contre-la-vie-chere-le-gouvernement-craint-la-saison-des-coleres-agricoles_8220625.html"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/ce-que-l-on-a-vecu-est-inacceptable-restaurateurs-et-grande-distribution-s-indignent-de-devoir-payer-la-facture-des-violences-du-17-octobre_AD-202610180131.html"
         },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/greve/la-mobilisation-du-17-octobre-risque-de-degenerer-alerte-le-secretaire-general-du-syndicat-des-commissaires-de-la-police-nationale_8240980.html"
+          "url": "https://www.franceinfo.fr/faits-divers/devant-l-ampleur-des-degats-dans-la-capitale-la-federation-des-associations-de-commercants-parisiens-deplore-une-situation-dramatique-et-demande-un-soutien-financier-au-gouvernement_8242486.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/de-la-fnac-a-louis-vuitton-de-nombreux-magasins-ont-ete-pris-pour-cible-samedi-1531077"
         }
       ]
     },
     {
-      "title": "Duralex repris : un serial repreneur aux commandes",
-      "why_it_matters": "Je retiens qu'un entrepreneur privé reprend Duralex. C'est un bon signe pour l'industrie française, même si le feuilleton a été long et difficile.",
+      "title": "Arnaques en ligne : les banques doivent rembourser, même en cas de négligence",
+      "why_it_matters": "Je note un changement de règle européen. Même si vous faites une erreur, votre banque doit vous rembourser. Ça change la donne.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/entreprises/duralex-cedric-mestron-un-serial-repreneur-desormais-aux-commandes_8240956.html"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/arnaques-banques-devront-desormais-rembourser-victimes-meme-cas-negligence-grave.html"
+        }
+      ]
+    },
+    {
+      "title": "Près de 600 stations-service à sec, le Grand Est touché",
+      "why_it_matters": "Je retiens qu'une station sur six est en rupture. Si vous avez des livraisons ou une flotte, ça pose un vrai problème logistique.",
+      "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/3682903016799114/carburants-pres-de-600-stations-a-sec-le-grand-est-particulierement-touche"
+        }
+      ]
+    },
+    {
+      "title": "Cyberattaque sur les congélateurs : le monde physique est vulnérable",
+      "why_it_matters": "Je note que des hackers ont visé les congélateurs de supermarchés. Internet et le réel sont liés. La cybersécurité concerne tout le monde.",
+      "sources": [
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/idees/article/2026/10/18/la-cyberattaque-visant-les-congelateurs-des-supermarches-montre-a-quel-point-internet-et-le-monde-physique-sont-desormais-imbriques_6796994_3232.html"
+        }
+      ]
+    },
+    {
+      "title": "Arcadia : la France crée son IA de commandement pour l'armée",
+      "why_it_matters": "Je retiens que la France veut son propre logiciel militaire avec IA pour ne plus dépendre de Palantir. La souveraineté tech avance.",
+      "sources": [
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
         }
       ]
     }
