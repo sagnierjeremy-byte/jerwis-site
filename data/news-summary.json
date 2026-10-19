@@ -1,62 +1,54 @@
 {
-  "generated_at": "2026-10-18T09:18:18.344Z",
-  "day_label": "Dimanche 18 octobre",
+  "generated_at": "2026-10-19T10:28:04.145Z",
+  "day_label": "Lundi 19 octobre",
   "items": [
     {
-      "title": "Commerces pillés le 17 octobre : le coût réel pour les entrepreneurs",
-      "why_it_matters": "Je retiens que des dizaines de magasins ont été dégradés. Les commerçants demandent un soutien financier à l'État.",
+      "title": "Meta : votre compte pro sert déjà l'entraînement de l'IA",
+      "why_it_matters": "Si vous avez une page pro sur Meta, vos données servent à entraîner leurs IA et vous ne pouvez pas refuser. Je retiens qu'il faut réévaluer ce qu'on y publie.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/ce-que-l-on-a-vecu-est-inacceptable-restaurateurs-et-grande-distribution-s-indignent-de-devoir-payer-la-facture-des-violences-du-17-octobre_AD-202610180131.html"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/faits-divers/devant-l-ampleur-des-degats-dans-la-capitale-la-federation-des-associations-de-commercants-parisiens-deplore-une-situation-dramatique-et-demande-un-soutien-financier-au-gouvernement_8242486.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/de-la-fnac-a-louis-vuitton-de-nombreux-magasins-ont-ete-pris-pour-cible-samedi-1531077"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/vous-disposez-dun-compte-professionnel-meta-selon-ces-juristes-cela-revient-tout-simplement-a-accepter-le-scraping-par-lia-506049.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Arnaques en ligne : les banques doivent rembourser, même en cas de négligence",
-      "why_it_matters": "Je note un changement de règle européen. Même si vous faites une erreur, votre banque doit vous rembourser. Ça change la donne.",
+      "title": "Le prix réel des IA d'entreprise n'est pas celui affiché",
+      "why_it_matters": "J'ai vu que le tarif annoncé par OpenAI ou Anthropic ne reflète pas la facture finale sur des vraies tâches métier. À vérifier avant d'intégrer.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/arnaques-banques-devront-desormais-rembourser-victimes-meme-cas-negligence-grave.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1556801-anthropic-vs-openai-l-ia-la-plus-chere-n-est-pas-celle-que-l-on-croit/"
         }
       ]
     },
     {
-      "title": "Près de 600 stations-service à sec, le Grand Est touché",
-      "why_it_matters": "Je retiens qu'une station sur six est en rupture. Si vous avez des livraisons ou une flotte, ça pose un vrai problème logistique.",
+      "title": "AI Act : il est temps de gouverner vos agents IA",
+      "why_it_matters": "L'Europe impose désormais l'identité, la traçabilité et la supervision humaine des agents IA. Je note que la conformité devient urgente.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/3682903016799114/carburants-pres-de-600-stations-a-sec-le-grand-est-particulierement-touche"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1556749-ai-act-les-entreprises-ont-elles-encore-le-temps-de-preparer-la-gouvernance-de-leurs-agents-ia/"
         }
       ]
     },
     {
-      "title": "Cyberattaque sur les congélateurs : le monde physique est vulnérable",
-      "why_it_matters": "Je note que des hackers ont visé les congélateurs de supermarchés. Internet et le réel sont liés. La cybersécurité concerne tout le monde.",
+      "title": "En Italie, l'IA seule ne peut plus licencier",
+      "why_it_matters": "Une décision de sanction ou de licenciement prise par l'IA est nulle sans un humain qui valide. Cette règle arrive en Europe et touche tous les chefs d'entreprise.",
       "sources": [
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/idees/article/2026/10/18/la-cyberattaque-visant-les-congelateurs-des-supermarches-montre-a-quel-point-internet-et-le-monde-physique-sont-desormais-imbriques_6796994_3232.html"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/italie-des-le-23-octobre-licencier-ou-sanctionner-avec-lia-exige-un-decideur-humain-sous-peine-de-nullite/"
         }
       ]
     },
     {
-      "title": "Arcadia : la France crée son IA de commandement pour l'armée",
-      "why_it_matters": "Je retiens que la France veut son propre logiciel militaire avec IA pour ne plus dépendre de Palantir. La souveraineté tech avance.",
+      "title": "Les agents IA posent un risque de sécurité",
+      "why_it_matters": "CoreView alerte sur les permissions excessives des agents IA dans Microsoft 365. Je retiens qu'il faut contrôler leurs accès avant de les déployer.",
       "sources": [
         {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+          "name": "Intelligence Artificielle",
+          "url": "https://intelligence-artificielle.com/microsoft-365-controle-agents-ia/"
         }
       ]
     }
