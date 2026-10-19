@@ -9,7 +9,7 @@
 - **Repo** : `git@github.com:sagnierjeremy-byte/Site-perso.git` · branche `main` · Vercel Hobby, projet `site-perso`, auto-deploy sur push main.
 
 ## Stack
-- HTML/CSS/JS vanilla, **ZÉRO framework** · CSS partagé `assets/main.css` (~3 900 lignes, importé par ~21 pages) · analytics Plausible.
+- HTML/CSS/JS vanilla, **ZÉRO framework** · CSS partagé `assets/main.css` (~3 900 lignes, importé par ~21 pages) · plus d'analytics Plausible (retiré le 19-10-2026, abonnement résilié).
 - Serverless `api/*.js` : Resend (subscribe/unsubscribe/preferences) · Stripe (checkout/webhook/download-zip/github-invite) · news (agrégateur RSS) · youtube · episode-feedback.
 - Polices Google Fonts : Archivo Black · Archivo · Bebas Neue · JetBrains Mono.
 

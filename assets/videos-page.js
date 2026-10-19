@@ -156,11 +156,6 @@
     modal.classList.add('is-open');
     modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
-
-    // Plausible event
-    if (typeof window.plausible === 'function') {
-      window.plausible('Video Play', { props: { channel: channelName, title } });
-    }
   }
 
   function closeModal() {
