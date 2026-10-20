@@ -1,54 +1,54 @@
 {
-  "generated_at": "2026-10-19T10:28:04.145Z",
-  "day_label": "Lundi 19 octobre",
+  "generated_at": "2026-10-20T09:48:15.145Z",
+  "day_label": "Mardi 20 octobre",
   "items": [
     {
-      "title": "Meta : votre compte pro sert déjà l'entraînement de l'IA",
-      "why_it_matters": "Si vous avez une page pro sur Meta, vos données servent à entraîner leurs IA et vous ne pouvez pas refuser. Je retiens qu'il faut réévaluer ce qu'on y publie.",
+      "title": "Les néoclouds IA frôlent la crise avec 100 milliards de dette",
+      "why_it_matters": "Si ces acteurs coulent, les prix des services IA exploseront ou disparaîtront. Je garde un œil sur la solidité de mes fournisseurs.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/vous-disposez-dun-compte-professionnel-meta-selon-ces-juristes-cela-revient-tout-simplement-a-accepter-le-scraping-par-lia-506049.htm#xtor=RSS-1"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/une-dette-a-plus-de-100-milliards-de-dollars-et-des-revenus-incertains-pourquoi-les-neoclouds-font-fremir-le-secteur-de-l-ia-20261020"
         }
       ]
     },
     {
-      "title": "Le prix réel des IA d'entreprise n'est pas celui affiché",
-      "why_it_matters": "J'ai vu que le tarif annoncé par OpenAI ou Anthropic ne reflète pas la facture finale sur des vraies tâches métier. À vérifier avant d'intégrer.",
+      "title": "Les États-Unis bannissent DeepSeek pour espionnage",
+      "why_it_matters": "Je me demande si l'Europe suivra. Si j'utilise des outils chinois, je risque de les perdre du jour au lendemain sans préavis.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1556801-anthropic-vs-openai-l-ia-la-plus-chere-n-est-pas-celle-que-l-on-croit/"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
         }
       ]
     },
     {
-      "title": "AI Act : il est temps de gouverner vos agents IA",
-      "why_it_matters": "L'Europe impose désormais l'identité, la traçabilité et la supervision humaine des agents IA. Je note que la conformité devient urgente.",
+      "title": "L'Allemagne s'allie à Nvidia pour l'IA des usines",
+      "why_it_matters": "L'Europe tente de ne pas rater le coche de l'IA industrielle. Pour moi, c'est un signal sur la compétitivité future de nos usines.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1556749-ai-act-les-entreprises-ont-elles-encore-le-temps-de-preparer-la-gouvernance-de-leurs-agents-ia/"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/20/au-sommet-invest-in-germany-berlin-annonce-un-partenariat-avec-nvidia-pour-developper-l-ia-industrielle_6797895_3234.html"
         }
       ]
     },
     {
-      "title": "En Italie, l'IA seule ne peut plus licencier",
-      "why_it_matters": "Une décision de sanction ou de licenciement prise par l'IA est nulle sans un humain qui valide. Cette règle arrive en Europe et touche tous les chefs d'entreprise.",
+      "title": "Microsoft juge ses propres agents IA peu fiables",
+      "why_it_matters": "Même le créateur de Copilot met en garde sur les risques. Je reste prudent avant de confier des tâches critiques à un agent autonome.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/italie-des-le-23-octobre-licencier-ou-sanctionner-avec-lia-exige-un-decideur-humain-sous-peine-de-nullite/"
+          "name": "Next",
+          "url": "https://next.ink/262861/microsoft-considere-les-agents-ia-comme-des-inities-indignes-de-confiance/"
         }
       ]
     },
     {
-      "title": "Les agents IA posent un risque de sécurité",
-      "why_it_matters": "CoreView alerte sur les permissions excessives des agents IA dans Microsoft 365. Je retiens qu'il faut contrôler leurs accès avant de les déployer.",
+      "title": "Saint-Gobain trouve du ciment vert grâce à l'IA",
+      "why_it_matters": "En six semaines, ils ont trouvé de nouvelles molécules. L'IA accélère la R&D industrielle française concrètement, pas juste dans les slides.",
       "sources": [
         {
-          "name": "Intelligence Artificielle",
-          "url": "https://intelligence-artificielle.com/microsoft-365-controle-agents-ia/"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/83758813814661/une-ia-de-microsoft-a-permis-a-saint-gobain-de-trouver-en-six-semaines-de-nouvelles-molecules-pour-rendre-le-ciment-plus-ecologique"
         }
       ]
     }
