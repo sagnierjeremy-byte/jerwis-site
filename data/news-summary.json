@@ -1,54 +1,58 @@
 {
-  "generated_at": "2026-10-20T09:48:15.145Z",
-  "day_label": "Mardi 20 octobre",
+  "generated_at": "2026-10-21T09:48:35.872Z",
+  "day_label": "Mercredi 21 octobre",
   "items": [
     {
-      "title": "Les néoclouds IA frôlent la crise avec 100 milliards de dette",
-      "why_it_matters": "Si ces acteurs coulent, les prix des services IA exploseront ou disparaîtront. Je garde un œil sur la solidité de mes fournisseurs.",
+      "title": "Le taux d'emprunt de la France dépasse les 5 %",
+      "why_it_matters": "Je retiens que l'État emprunte à plus de 5 %. Ça entraîne les taux bancaires des entreprises vers le haut et ça rend le financement des projets plus cher.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/une-dette-a-plus-de-100-milliards-de-dollars-et-des-revenus-incertains-pourquoi-les-neoclouds-font-fremir-le-secteur-de-l-ia-20261020"
-        }
-      ]
-    },
-    {
-      "title": "Les États-Unis bannissent DeepSeek pour espionnage",
-      "why_it_matters": "Je me demande si l'Europe suivra. Si j'utilise des outils chinois, je risque de les perdre du jour au lendemain sans préavis.",
-      "sources": [
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
-        }
-      ]
-    },
-    {
-      "title": "L'Allemagne s'allie à Nvidia pour l'IA des usines",
-      "why_it_matters": "L'Europe tente de ne pas rater le coche de l'IA industrielle. Pour moi, c'est un signal sur la compétitivité future de nos usines.",
-      "sources": [
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/budget/le-taux-d-emprunt-de-la-france-a-dix-ans-sur-les-marches-franchit-les-5-une-premiere-depuis-2002_8246746.html"
+        },
         {
           "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/20/au-sommet-invest-in-germany-berlin-annonce-un-partenariat-avec-nvidia-pour-developper-l-ia-industrielle_6797895_3234.html"
+          "url": "https://www.lemonde.fr/economie/article/2026/10/21/le-taux-d-emprunt-a-dix-ans-de-la-france-franchit-la-barre-des-5-pour-la-premiere-fois-depuis-2002_6798230_3234.html"
         }
       ]
     },
     {
-      "title": "Microsoft juge ses propres agents IA peu fiables",
-      "why_it_matters": "Même le créateur de Copilot met en garde sur les risques. Je reste prudent avant de confier des tâches critiques à un agent autonome.",
+      "title": "Moody's s'apprête à dégrader la note de la France",
+      "why_it_matters": "Je note que cette décision rend la France moins attractive pour les investisseurs étrangers et elle peut alourdir la dette des entreprises.",
       "sources": [
         {
-          "name": "Next",
-          "url": "https://next.ink/262861/microsoft-considere-les-agents-ia-comme-des-inities-indignes-de-confiance/"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/moody-s-prete-a-degrader-la-note-de-la-france-les-marches-retiennent-leur-souffle-1531157"
         }
       ]
     },
     {
-      "title": "Saint-Gobain trouve du ciment vert grâce à l'IA",
-      "why_it_matters": "En six semaines, ils ont trouvé de nouvelles molécules. L'IA accélère la R&D industrielle française concrètement, pas juste dans les slides.",
+      "title": "L'Anssi détaille les erreurs de sécurité des entreprises",
+      "why_it_matters": "Je retiens que la plupart des piratages viennent de négligences simples. C'est un rappel utile pour sécuriser nos données sans dépenser une fortune.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/83758813814661/une-ia-de-microsoft-a-permis-a-saint-gobain-de-trouver-en-six-semaines-de-nouvelles-molecules-pour-rendre-le-ciment-plus-ecologique"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/piratage-de-donnees-le-cert-fr-devoile-les-erreurs-evitables-des-entreprises-506196.htm"
+        }
+      ]
+    },
+    {
+      "title": "Carrefour réduit ses objectifs après les pillages",
+      "why_it_matters": "Je note que les émeutes ont frappé une cinquantaine de magasins. Pour tout commerçant, c'est un signal fort sur le risque d'atteinte à l'activité.",
+      "sources": [
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/pillage-carrefour-reduit-ses-objectifs-ses-investissements-et-son-action-chute-suite-aux-emeutes/"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI nomme une directrice pour la France",
+      "why_it_matters": "Je retiens qu'OpenAI installe une tête en France et en Europe du Sud. Cela confirme que le marché français est stratégique pour les géants de l'IA.",
+      "sources": [
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/openai/openai-nomme-laureline-serieys-a-la-tete-de-ses-operations-en-france-et-en-europe-du-sud.34BXAE3GJFDYNDYRFXOHUHE26U.html"
         }
       ]
     }
