@@ -1,58 +1,62 @@
 {
-  "generated_at": "2026-10-21T09:48:35.872Z",
-  "day_label": "Mercredi 21 octobre",
+  "generated_at": "2026-10-22T09:50:26.017Z",
+  "day_label": "Jeudi 22 octobre",
   "items": [
     {
-      "title": "Le taux d'emprunt de la France dépasse les 5 %",
-      "why_it_matters": "Je retiens que l'État emprunte à plus de 5 %. Ça entraîne les taux bancaires des entreprises vers le haut et ça rend le financement des projets plus cher.",
+      "title": "Les taux français dépassent 5%, un niveau inédit depuis 2002",
+      "why_it_matters": "Je note que les taux français dépassent 5%. Emprunter devient très coûteux pour les entreprises et la croissance risque de ralentir.",
       "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/le-taux-d-emprunt-de-la-france-a-dix-ans-sur-les-marches-franchit-les-5-une-premiere-depuis-2002_8246746.html"
-        },
         {
           "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/21/le-taux-d-emprunt-a-dix-ans-de-la-france-franchit-la-barre-des-5-pour-la-premiere-fois-depuis-2002_6798230_3234.html"
-        }
-      ]
-    },
-    {
-      "title": "Moody's s'apprête à dégrader la note de la France",
-      "why_it_matters": "Je note que cette décision rend la France moins attractive pour les investisseurs étrangers et elle peut alourdir la dette des entreprises.",
-      "sources": [
+          "url": "https://www.lemonde.fr/idees/article/2026/10/22/taux-d-interet-au-dela-des-5-une-hausse-qui-sanctionne-un-debat-budgetaire-enlise_6798598_3232.html"
+        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/moody-s-prete-a-degrader-la-note-de-la-france-les-marches-retiennent-leur-souffle-1531157"
+          "url": "https://www.capital.fr/entreprises-marches/cac-40-la-bourse-recule-face-a-la-flambee-du-petrole-et-des-taux-demprunt-1531179"
+        },
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/1556979-les-taux-d-interet-de-la-dette-francaise-franchissent-5-et-inquietent-les-marches-financiers/"
         }
       ]
     },
     {
-      "title": "L'Anssi détaille les erreurs de sécurité des entreprises",
-      "why_it_matters": "Je retiens que la plupart des piratages viennent de négligences simples. C'est un rappel utile pour sécuriser nos données sans dépenser une fortune.",
+      "title": "Barclays supprime 5 000 postes grâce à l'IA",
+      "why_it_matters": "Je note que Barclays supprime 5 000 postes grâce à l'IA. C'est un signal fort : il faut revoir son organisation avant d'être dépassé.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/piratage-de-donnees-le-cert-fr-devoile-les-erreurs-evitables-des-entreprises-506196.htm"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/avec-l-adoption-de-l-ia-la-banque-britannique-barclays-va-supprimer-environ-5000-emplois-20261022"
         }
       ]
     },
     {
-      "title": "Carrefour réduit ses objectifs après les pillages",
-      "why_it_matters": "Je note que les émeutes ont frappé une cinquantaine de magasins. Pour tout commerçant, c'est un signal fort sur le risque d'atteinte à l'activité.",
+      "title": "Règlement IA : tracer l'origine des données devient obligatoire",
+      "why_it_matters": "Je retiens que le règlement européen oblige à tracer l'origine des données d'entraînement. Si on déploie de l'IA, il faut se préparer dès maintenant.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/pillage-carrefour-reduit-ses-objectifs-ses-investissements-et-son-action-chute-suite-aux-emeutes/"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/iot/1556115-conformite-au-reglement-ia-relier-la-documentation-des-modeles-a-l-origine-des-donnees/"
         }
       ]
     },
     {
-      "title": "OpenAI nomme une directrice pour la France",
-      "why_it_matters": "Je retiens qu'OpenAI installe une tête en France et en Europe du Sud. Cela confirme que le marché français est stratégique pour les géants de l'IA.",
+      "title": "En Europe, l'entreprise paiera les erreurs de son IA",
+      "why_it_matters": "Je note qu'à partir du 9 décembre, l'entreprise sera responsable si son IA se trompe avec un client. À anticiper dans les contrats et les processus.",
       "sources": [
         {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/openai/openai-nomme-laureline-serieys-a-la-tete-de-ses-operations-en-france-et-en-europe-du-sud.34BXAE3GJFDYNDYRFXOHUHE26U.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1556933-casseur-payeur-avec-l-ia-c-est-l-entreprise-qui-paiera-la-casse/"
+        }
+      ]
+    },
+    {
+      "title": "Faux compte de dirigeant : les PME ont des recours",
+      "why_it_matters": "Je retiens que les arnaques par faux profil de dirigeant explosent. Une PME peut exiger des plateformes qu'elles retirent vite ces contenus.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/cybersecurite/1556719-faux-compte-au-nom-du-dirigeant-fausse-publicite-avec-son-visage-ce-qu-une-pme-peut-obtenir-des-plateformes/"
         }
       ]
     }
