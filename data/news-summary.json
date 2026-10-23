@@ -1,62 +1,74 @@
 {
-  "generated_at": "2026-10-22T09:50:26.017Z",
-  "day_label": "Jeudi 22 octobre",
+  "generated_at": "2026-10-23T09:44:59.542Z",
+  "day_label": "Vendredi 23 octobre",
   "items": [
     {
-      "title": "Les taux français dépassent 5%, un niveau inédit depuis 2002",
-      "why_it_matters": "Je note que les taux français dépassent 5%. Emprunter devient très coûteux pour les entreprises et la croissance risque de ralentir.",
+      "title": "Le moral des patrons français s'effondre en octobre",
+      "why_it_matters": "Je retiens que l'activité recule et que les chefs d'entreprise sont au plus bas depuis 2020. Ça veut dire moins de commandes et plus de prudence à prévoir.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/idees/article/2026/10/22/taux-d-interet-au-dela-des-5-une-hausse-qui-sanctionne-un-debat-budgetaire-enlise_6798598_3232.html"
+          "name": "Capital",
+          "url": "https://www.capital.fr/entreprises-marches/le-moral-des-entreprises-francaises-chute-lactivite-recule-en-octobre-1531211"
         },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/cac-40-la-bourse-recule-face-a-la-flambee-du-petrole-et-des-taux-demprunt-1531179"
+          "url": "https://www.capital.fr/entreprises-marches/zone-euro-la-croissance-ralentit-en-octobre-penalisee-par-les-tensions-en-france-1531212"
+        }
+      ]
+    },
+    {
+      "title": "La France peine à garder les capitaux chez elle",
+      "why_it_matters": "Je note que les taux français flambent pendant que les géants américains lèvent des milliards. Pour lever des fonds ou investir, le contexte se tend fortement.",
+      "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/23/la-france-est-le-maillon-faible-de-cette-lutte-mondiale-pour-les-capitaux_6799035_3234.html"
         },
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/1556979-les-taux-d-interet-de-la-dette-francaise-franchissent-5-et-inquietent-les-marches-financiers/"
-        }
-      ]
-    },
-    {
-      "title": "Barclays supprime 5 000 postes grâce à l'IA",
-      "why_it_matters": "Je note que Barclays supprime 5 000 postes grâce à l'IA. C'est un signal fort : il faut revoir son organisation avant d'être dépassé.",
-      "sources": [
-        {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/avec-l-adoption-de-l-ia-la-banque-britannique-barclays-va-supprimer-environ-5000-emplois-20261022"
+          "url": "https://www.lefigaro.fr/conjoncture/oat-spread-effet-boule-de-neige-le-petit-lexique-pour-comprendre-ce-qui-se-joue-autour-de-la-dette-francaise-20261023"
         }
       ]
     },
     {
-      "title": "Règlement IA : tracer l'origine des données devient obligatoire",
-      "why_it_matters": "Je retiens que le règlement européen oblige à tracer l'origine des données d'entraînement. Si on déploie de l'IA, il faut se préparer dès maintenant.",
+      "title": "Le SMIC va grimper plus vite que prévu",
+      "why_it_matters": "Je retiens que le gouvernement veut augmenter le SMIC avant janvier. Pour les entreprises qui embauchent au salaire minimum, la facture va s'alourdir vite.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/iot/1556115-conformite-au-reglement-ia-relier-la-documentation-des-modeles-a-l-origine-des-donnees/"
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/le-smic-pourrait-augmenter-plus-que-prevu-le-gouvernement-en-discute-ce-vendredi-une-premiere-depuis-2012-1531208"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/24912508200340/hausse-du-smic-le-gouvernement-propose-15-euros-la-cfdt-exige-100-euros"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/emploi/video-une-hausse-du-smic-mettra-les-entreprises-dans-la-nasse-alerte-le-medef_8250229.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "En Europe, l'entreprise paiera les erreurs de son IA",
-      "why_it_matters": "Je note qu'à partir du 9 décembre, l'entreprise sera responsable si son IA se trompe avec un client. À anticiper dans les contrats et les processus.",
+      "title": "Schneider veut installer des centres de données IA en 6 mois",
+      "why_it_matters": "Je note que l'infrastructure IA s'accélère. C'est une bonne nouvelle pour qui veut lancer des projets d'IA sans attendre des années.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1556933-casseur-payeur-avec-l-ia-c-est-l-entreprise-qui-paiera-la-casse/"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/schneider-electric-veut-ramener-a-six-mois-le-deploiement-electrique-des-data-centers-ia-506365.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Faux compte de dirigeant : les PME ont des recours",
-      "why_it_matters": "Je retiens que les arnaques par faux profil de dirigeant explosent. Une PME peut exiger des plateformes qu'elles retirent vite ces contenus.",
+      "title": "Un grand service DNS quitte la France",
+      "why_it_matters": "Je retiens que Quad9 part à cause d'une condamnation judiciaire. C'est un mauvais signal sur la régulation du net en France pour les entreprises tech.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/cybersecurite/1556719-faux-compte-au-nom-du-dirigeant-fausse-publicite-avec-son-visage-ce-qu-une-pme-peut-obtenir-des-plateformes/"
+          "name": "Next",
+          "url": "https://next.ink/263502/dns-quad9-quitte-la-france-apres-avoir-ete-condamnee-face-abein-pour-defaut-de-blocage/"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/quad9-le-resolveur-dns-annonce-quitter-la-france.html"
         }
       ]
     }
