@@ -1,74 +1,66 @@
 {
-  "generated_at": "2026-10-23T09:44:59.542Z",
-  "day_label": "Vendredi 23 octobre",
+  "generated_at": "2026-10-24T09:16:19.071Z",
+  "day_label": "Samedi 24 octobre",
   "items": [
     {
-      "title": "Le moral des patrons français s'effondre en octobre",
-      "why_it_matters": "Je retiens que l'activité recule et que les chefs d'entreprise sont au plus bas depuis 2020. Ça veut dire moins de commandes et plus de prudence à prévoir.",
+      "title": "Moody's épargne la France mais reste inquiet",
+      "why_it_matters": "Je retiens que la note maintenue évite un choc, mais la perspective négative rendra le crédit plus cher pour les entreprises.",
       "sources": [
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/le-moral-des-entreprises-francaises-chute-lactivite-recule-en-octobre-1531211"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/zone-euro-la-croissance-ralentit-en-octobre-penalisee-par-les-tensions-en-france-1531212"
-        }
-      ]
-    },
-    {
-      "title": "La France peine à garder les capitaux chez elle",
-      "why_it_matters": "Je note que les taux français flambent pendant que les géants américains lèvent des milliards. Pour lever des fonds ou investir, le contexte se tend fortement.",
-      "sources": [
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/23/la-france-est-le-maillon-faible-de-cette-lutte-mondiale-pour-les-capitaux_6799035_3234.html"
+          "url": "https://www.capital.fr/economie-politique/moody-s-annonce-maintenir-contre-toute-attente-la-note-de-la-france-mais-avec-une-perspective-negative-1531240"
         },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/oat-spread-effet-boule-de-neige-le-petit-lexique-pour-comprendre-ce-qui-se-joue-autour-de-la-dette-francaise-20261023"
-        }
-      ]
-    },
-    {
-      "title": "Le SMIC va grimper plus vite que prévu",
-      "why_it_matters": "Je retiens que le gouvernement veut augmenter le SMIC avant janvier. Pour les entreprises qui embauchent au salaire minimum, la facture va s'alourdir vite.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/le-smic-pourrait-augmenter-plus-que-prevu-le-gouvernement-en-discute-ce-vendredi-une-premiere-depuis-2012-1531208"
-        },
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/24912508200340/hausse-du-smic-le-gouvernement-propose-15-euros-la-cfdt-exige-100-euros"
+          "url": "https://www.lefigaro.fr/conjoncture/dette-a-la-surprise-generale-moody-s-ne-degrade-pas-la-france-20261023"
         },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/emploi/video-une-hausse-du-smic-mettra-les-entreprises-dans-la-nasse-alerte-le-medef_8250229.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.franceinfo.fr/economie/budget/un-avertissement-pour-ceux-qui-jouent-la-pagaille-reagit-le-ministre-de-l-economie-roland-lescure-apres-le-maintien-de-la-note-de-la-france-par-l-agence-moody-s_8251963.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "Schneider veut installer des centres de données IA en 6 mois",
-      "why_it_matters": "Je note que l'infrastructure IA s'accélère. C'est une bonne nouvelle pour qui veut lancer des projets d'IA sans attendre des années.",
+      "title": "OpenAI débranche Internet pour entraîner ses IA",
+      "why_it_matters": "Je note que même les géants de l'IA peinent à sécuriser leurs modèles. Ça change la donne pour les outils qu'on utilise au quotidien.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/schneider-electric-veut-ramener-a-six-mois-le-deploiement-electrique-des-data-centers-ia-506365.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Un grand service DNS quitte la France",
-      "why_it_matters": "Je retiens que Quad9 part à cause d'une condamnation judiciaire. C'est un mauvais signal sur la régulation du net en France pour les entreprises tech.",
-      "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/263502/dns-quad9-quitte-la-france-apres-avoir-ete-condamnee-face-abein-pour-defaut-de-blocage/"
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/openai/3298215_trop-risquees-une-fois-connectees-openai-entraine-ses-ia-les-plus-puissantes-sans-internet"
         },
         {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/tech/2360327-confiner-lia-devient-un-casse-tete-apres-sa-pause-de-11-jours-openai-explique-pourquoi-couper-internet-ne-suffit-plus.html"
+        }
+      ]
+    },
+    {
+      "title": "Le gazole pourrait baisser de 12 à 18 centimes au 1er novembre",
+      "why_it_matters": "Je retiens que moins cher à la pompe, c'est une bouffée d'air pour les artisans et les patrons avec des véhicules utilitaires.",
+      "sources": [
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/energie/12-a-18-centimes-de-moins-par-litre-les-stocks-de-gazole-liberes-pourraient-faire-baisser-les-prix-des-le-1er-novembre_AD-202610240187.html"
+        }
+      ]
+    },
+    {
+      "title": "Les touristes chinois hésitent à venir en France",
+      "why_it_matters": "Je retiens que moins de clients étrangers dans les boutiques et les hôtels, c'est du chiffre d'affaires en moins pour le commerce.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/societe/manifestations/manifestations-scenes-d-emeutes-musees-fermes-les-touristes-chinois-hesitent-a-venir-en-france_8251339.html#xtor=RSS-3-%5Bgeneral%5D"
+        }
+      ]
+    },
+    {
+      "title": "Les pirates utilisent Google Drive pour arnaquer",
+      "why_it_matters": "Je note cette nouvelle arnaque car elle cible les PME qui utilisent Gmail et Drive tous les jours.",
+      "sources": [
+        {
           "name": "01net",
-          "url": "https://www.01net.com/actualites/quad9-le-resolveur-dns-annonce-quitter-la-france.html"
+          "url": "https://www.01net.com/actualites/arnaques-ligne-comment-pirates-detournent-google-drive-vous-pieger.html"
         }
       ]
     }
