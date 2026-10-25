@@ -1,66 +1,58 @@
 {
-  "generated_at": "2026-10-24T09:16:19.071Z",
-  "day_label": "Samedi 24 octobre",
+  "generated_at": "2026-10-25T09:33:01.164Z",
+  "day_label": "Dimanche 25 octobre",
   "items": [
     {
-      "title": "Moody's épargne la France mais reste inquiet",
-      "why_it_matters": "Je retiens que la note maintenue évite un choc, mais la perspective négative rendra le crédit plus cher pour les entreprises.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/moody-s-annonce-maintenir-contre-toute-attente-la-note-de-la-france-mais-avec-une-perspective-negative-1531240"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/dette-a-la-surprise-generale-moody-s-ne-degrade-pas-la-france-20261023"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/un-avertissement-pour-ceux-qui-jouent-la-pagaille-reagit-le-ministre-de-l-economie-roland-lescure-apres-le-maintien-de-la-note-de-la-france-par-l-agence-moody-s_8251963.html#xtor=RSS-3-%5Bgeneral%5D"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI débranche Internet pour entraîner ses IA",
-      "why_it_matters": "Je note que même les géants de l'IA peinent à sécuriser leurs modèles. Ça change la donne pour les outils qu'on utilise au quotidien.",
-      "sources": [
-        {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/marques/openai/3298215_trop-risquees-une-fois-connectees-openai-entraine-ses-ia-les-plus-puissantes-sans-internet"
-        },
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/tech/2360327-confiner-lia-devient-un-casse-tete-apres-sa-pause-de-11-jours-openai-explique-pourquoi-couper-internet-ne-suffit-plus.html"
-        }
-      ]
-    },
-    {
-      "title": "Le gazole pourrait baisser de 12 à 18 centimes au 1er novembre",
-      "why_it_matters": "Je retiens que moins cher à la pompe, c'est une bouffée d'air pour les artisans et les patrons avec des véhicules utilitaires.",
-      "sources": [
-        {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/energie/12-a-18-centimes-de-moins-par-litre-les-stocks-de-gazole-liberes-pourraient-faire-baisser-les-prix-des-le-1er-novembre_AD-202610240187.html"
-        }
-      ]
-    },
-    {
-      "title": "Les touristes chinois hésitent à venir en France",
-      "why_it_matters": "Je retiens que moins de clients étrangers dans les boutiques et les hôtels, c'est du chiffre d'affaires en moins pour le commerce.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/societe/manifestations/manifestations-scenes-d-emeutes-musees-fermes-les-touristes-chinois-hesitent-a-venir-en-france_8251339.html#xtor=RSS-3-%5Bgeneral%5D"
-        }
-      ]
-    },
-    {
-      "title": "Les pirates utilisent Google Drive pour arnaquer",
-      "why_it_matters": "Je note cette nouvelle arnaque car elle cible les PME qui utilisent Gmail et Drive tous les jours.",
+      "title": "Les robots ne remplacent pas l'humain, ils coûtent trop cher",
+      "why_it_matters": "Je retiens qu'un robot ne vaut le coup que sur 3 tâches sur 1000. Pour mon entreprise, l'humain reste moins cher et plus pertinent.",
       "sources": [
         {
           "name": "01net",
-          "url": "https://www.01net.com/actualites/arnaques-ligne-comment-pirates-detournent-google-drive-vous-pieger.html"
+          "url": "https://www.01net.com/actualites/les-robots-se-heurtent-a-la-realite-trop-chers-pour-remplacer-lhumain.html"
+        }
+      ]
+    },
+    {
+      "title": "Les billets d'avion pourraient coûter 20% plus cher en 2027",
+      "why_it_matters": "Je note que le kérosène grimpe et que les contrats de couverture expirent. Mes déplacements pro et ceux de mes équipes vont peser plus lourd.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/la-plus-forte-hausse-de-lhistoire-pourquoi-vos-billets-davion-pourraient-couter-20-plus-cher-en-2027.html"
+        },
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/transports/video-pourquoi-les-prix-des-billets-d-avions-pourraient-augmenter-de-10-a-20_VN-202610250052.html"
+        }
+      ]
+    },
+    {
+      "title": "Piratage au PCF : 190 000 données personnelles dans la nature",
+      "why_it_matters": "Je vois qu'une association a perdu le fichier de ses adhérents. Ça me rappelle de vérifier la sécurité des données de mon entreprise.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/piratage-au-parti-communiste-le-fichier-de-190-000-adherents-et-sympathisants-est-dans-la-nature-1531250"
+        }
+      ]
+    },
+    {
+      "title": "55% des Français se protègent de l'information",
+      "why_it_matters": "Je retiens que la moitié des clients potentiels fuit les infos. Mon marketing doit être plus ciblé et moins agressif pour atteindre les bonnes personnes.",
+      "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/25/la-fatigue-informationnelle-touche-de-plus-en-plus-de-francais_6800054_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "La musique oblige les créateurs d'IA à se dévoiler",
+      "why_it_matters": "Je note que la musique oblige déjà à étiquetter l'IA, contrairement aux livres ou aux films. Pour mon business, ça prépare le terrain sur la transparence.",
+      "sources": [
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/25/pour-identifier-le-recours-a-l-ia-dans-les-uvres-la-musique-affiche-une-serieuse-avance-sur-l-edition-et-le-cinema_6800033_3234.html"
         }
       ]
     }
