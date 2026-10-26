@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-10-25T09:33:01.164Z",
-  "day_label": "Dimanche 25 octobre",
+  "generated_at": "2026-10-26T10:45:19.221Z",
+  "day_label": "Lundi 26 octobre",
   "items": [
     {
-      "title": "Les robots ne remplacent pas l'humain, ils coûtent trop cher",
-      "why_it_matters": "Je retiens qu'un robot ne vaut le coup que sur 3 tâches sur 1000. Pour mon entreprise, l'humain reste moins cher et plus pertinent.",
+      "title": "SpaceX emprunte 40 milliards pour des puces IA et prévient du krach",
+      "why_it_matters": "Je retiens que même les géants s'endettent pour acheter des puces. Si SpaceX parle de faillites à venir, je fais attention à mes investissements IA.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/les-robots-se-heurtent-a-la-realite-trop-chers-pour-remplacer-lhumain.html"
-        }
-      ]
-    },
-    {
-      "title": "Les billets d'avion pourraient coûter 20% plus cher en 2027",
-      "why_it_matters": "Je note que le kérosène grimpe et que les contrats de couverture expirent. Mes déplacements pro et ceux de mes équipes vont peser plus lourd.",
-      "sources": [
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/la-plus-forte-hausse-de-lhistoire-pourquoi-vos-billets-davion-pourraient-couter-20-plus-cher-en-2027.html"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/2931623862999514/spacex-emprunte-40-milliards-pour-acheter-des-puces-ia-et-predit-une-vague-de-faillites-dans-le-secteur"
         },
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/transports/video-pourquoi-les-prix-des-billets-d-avions-pourraient-augmenter-de-10-a-20_VN-202610250052.html"
-        }
-      ]
-    },
-    {
-      "title": "Piratage au PCF : 190 000 données personnelles dans la nature",
-      "why_it_matters": "Je vois qu'une association a perdu le fichier de ses adhérents. Ça me rappelle de vérifier la sécurité des données de mon entreprise.",
-      "sources": [
-        {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/piratage-au-parti-communiste-le-fichier-de-190-000-adherents-et-sympathisants-est-dans-la-nature-1531250"
+          "url": "https://www.capital.fr/entreprises-marches/spacex-mise-sur-l-ia-en-levant-40-milliards-de-dollars-de-dette-1531272"
         }
       ]
     },
     {
-      "title": "55% des Français se protègent de l'information",
-      "why_it_matters": "Je retiens que la moitié des clients potentiels fuit les infos. Mon marketing doit être plus ciblé et moins agressif pour atteindre les bonnes personnes.",
+      "title": "Google utilise vos mails et photos pour de la pub ciblée avec son IA",
+      "why_it_matters": "Je vérifie deux fois avant d'activer Gemini dans Workspace. Je ne veux pas que mes données pro ou celles de mes clients servent à cibler des publicités.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/25/la-fatigue-informationnelle-touche-de-plus-en-plus-de-francais_6800054_3234.html"
+          "name": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2360679-la-regle-sacree-a-desormais-une-exception-google-peut-cibler-ses-publicites-grace-a-vos-mails-et-vos-photos-si-vous-les-confiez-a-son-ia.html"
         }
       ]
     },
     {
-      "title": "La musique oblige les créateurs d'IA à se dévoiler",
-      "why_it_matters": "Je note que la musique oblige déjà à étiquetter l'IA, contrairement aux livres ou aux films. Pour mon business, ça prépare le terrain sur la transparence.",
+      "title": "L'Europe assouplit l'obligation de formation à l'IA pour les entreprises",
+      "why_it_matters": "L'AI Act obligeait moins. Je ne me décharge pas pour autant : former mes équipes reste le meilleur bouclier si un client attaque une décision de mon IA.",
       "sources": [
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/25/pour-identifier-le-recours-a-l-ia-dans-les-uvres-la-musique-affiche-une-serieuse-avance-sur-l-edition-et-le-cinema_6800033_3234.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1557101-l-europe-a-allege-l-obligation-de-former-a-l-ia-ce-n-est-pas-une-raison-pour-s-en-dispenser/"
+        }
+      ]
+    },
+    {
+      "title": "L'IA accélère le code open source mais un quart est inutile",
+      "why_it_matters": "Je note que l'IA aide mes développeurs à aller plus vite, mais il faut toujours quelqu'un pour trier. Le métier change, il ne disparaît pas.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/blogs/l-esprit-libre/lia-reduit-fortement-le-temps-de-developpement-en-open-source-mais-506417.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Les colis chinois coûtent 2 euros plus cher dès le 1er novembre",
+      "why_it_matters": "L'UE instaure des frais sur les petits colis importés. C'est une protection pour les vendeurs français, et un coup de frein si vous importez pour revendre.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/temu-aliexpress-shein-pourquoi-vos-petits-colis-vont-vous-couter-plus-cher-des-1er-novembre.html"
         }
       ]
     }
