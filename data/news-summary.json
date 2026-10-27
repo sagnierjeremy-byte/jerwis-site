@@ -1,58 +1,54 @@
 {
-  "generated_at": "2026-10-26T10:45:19.221Z",
-  "day_label": "Lundi 26 octobre",
+  "generated_at": "2026-10-27T10:10:52.631Z",
+  "day_label": "Mardi 27 octobre",
   "items": [
     {
-      "title": "SpaceX emprunte 40 milliards pour des puces IA et prévient du krach",
-      "why_it_matters": "Je retiens que même les géants s'endettent pour acheter des puces. Si SpaceX parle de faillites à venir, je fais attention à mes investissements IA.",
+      "title": "Microsoft remplace 60 000 salariés par des serveurs",
+      "why_it_matters": "Je retiens que même les géants réduisent leurs effectifs pour investir dans l'IA. L'automatisation n'est plus une promesse, c'est un plan comptable.",
       "sources": [
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/2931623862999514/spacex-emprunte-40-milliards-pour-acheter-des-puces-ia-et-predit-une-vague-de-faillites-dans-le-secteur"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/spacex-mise-sur-l-ia-en-levant-40-milliards-de-dollars-de-dette-1531272"
+          "url": "https://www.latribune.fr/article/tech/23719769253478/des-serveurs-plutot-que-des-cerveaux-la-grande-reallocation-des-couts-chez-microsoft"
         }
       ]
     },
     {
-      "title": "Google utilise vos mails et photos pour de la pub ciblée avec son IA",
-      "why_it_matters": "Je vérifie deux fois avant d'activer Gemini dans Workspace. Je ne veux pas que mes données pro ou celles de mes clients servent à cibler des publicités.",
-      "sources": [
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2360679-la-regle-sacree-a-desormais-une-exception-google-peut-cibler-ses-publicites-grace-a-vos-mails-et-vos-photos-si-vous-les-confiez-a-son-ia.html"
-        }
-      ]
-    },
-    {
-      "title": "L'Europe assouplit l'obligation de formation à l'IA pour les entreprises",
-      "why_it_matters": "L'AI Act obligeait moins. Je ne me décharge pas pour autant : former mes équipes reste le meilleur bouclier si un client attaque une décision de mon IA.",
+      "title": "Agent IA en PME : ne pas tout automatiser",
+      "why_it_matters": "Je note ce conseil : commencer par identifier ce qu'on ne doit PAS confier à une IA. C'est plus sûr et moins cher que de rattraper des erreurs.",
       "sources": [
         {
           "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1557101-l-europe-a-allege-l-obligation-de-former-a-l-ia-ce-n-est-pas-une-raison-pour-s-en-dispenser/"
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1557165-agent-ia-en-pme-commencer-par-ce-qu-il-ne-faut-pas-automatiser/"
         }
       ]
     },
     {
-      "title": "L'IA accélère le code open source mais un quart est inutile",
-      "why_it_matters": "Je note que l'IA aide mes développeurs à aller plus vite, mais il faut toujours quelqu'un pour trier. Le métier change, il ne disparaît pas.",
+      "title": "Anthropic prépare une introduction en Bourse record",
+      "why_it_matters": "Je retiens que l'IA générative devient un marché financier à part entière. Le secteur se structure et il faut regarder où investir.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/blogs/l-esprit-libre/lia-reduit-fortement-le-temps-de-developpement-en-open-source-mais-506417.htm#xtor=RSS-1"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/l-introduction-en-bourse-d-anthropic-promet-d-etre-record_8234677.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "Les colis chinois coûtent 2 euros plus cher dès le 1er novembre",
-      "why_it_matters": "L'UE instaure des frais sur les petits colis importés. C'est une protection pour les vendeurs français, et un coup de frein si vous importez pour revendre.",
+      "title": "Confiance des ménages au plus bas depuis 2013",
+      "why_it_matters": "Je note que les Français n'ont jamais eu aussi peu confiance depuis 2013. Pour mon business, ça veut dire que la consommation va rester frileuse.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/temu-aliexpress-shein-pourquoi-vos-petits-colis-vont-vous-couter-plus-cher-des-1er-novembre.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/la-confiance-des-menages-francais-au-plus-bas-depuis-juin-2013-en-octobre-selon-l-insee-20261027"
+        }
+      ]
+    },
+    {
+      "title": "La consommation de carburant s'effondre de 40%",
+      "why_it_matters": "Je retiens ce chiffre : -40% de carburant vendu. Les gens sacrifient leurs déplacements. C'est un signal très fort sur le pouvoir d'achat et la consommation.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/automobile/essence/jusqu-a-40-de-volume-de-consommation-le-patron-de-cooperative-u-evoque-un-veritable-effondrement-de-la-consommation-de-carburant-en-octobre_8255380.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     }
