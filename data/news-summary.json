@@ -1,54 +1,62 @@
 {
-  "generated_at": "2026-10-27T10:10:52.631Z",
-  "day_label": "Mardi 27 octobre",
+  "generated_at": "2026-10-28T10:57:21.622Z",
+  "day_label": "Mercredi 28 octobre",
   "items": [
     {
-      "title": "Microsoft remplace 60 000 salariés par des serveurs",
-      "why_it_matters": "Je retiens que même les géants réduisent leurs effectifs pour investir dans l'IA. L'automatisation n'est plus une promesse, c'est un plan comptable.",
+      "title": "Taxe de 3 € sur les petits colis : les envois s'effondrent de 48%",
+      "why_it_matters": "Je note que la taxe européenne sur les petits colis fait chuter les importations de près de moitié. C'est un coup dur pour les vendeurs en ligne qui s'approvisionnent à l'étranger.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/23719769253478/des-serveurs-plutot-que-des-cerveaux-la-grande-reallocation-des-couts-chez-microsoft"
+          "name": "Capital",
+          "url": "https://www.capital.fr/entreprises-marches/taxe-sur-les-petits-colis-chute-drastique-des-envois-en-france-entre-juin-et-aout-1531333"
         }
       ]
     },
     {
-      "title": "Agent IA en PME : ne pas tout automatiser",
-      "why_it_matters": "Je note ce conseil : commencer par identifier ce qu'on ne doit PAS confier à une IA. C'est plus sûr et moins cher que de rattraper des erreurs.",
+      "title": "Les avis clients sont désormais lus par l'IA avant les humains",
+      "why_it_matters": "Je retiens que ChatGPT et Perplexity synthétisent nos avis clients pour répondre aux internautes. Notre e-réputation se joue désormais dans ces réponses automatiques.",
       "sources": [
         {
           "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1557165-agent-ia-en-pme-commencer-par-ce-qu-il-ne-faut-pas-automatiser/"
+          "url": "https://www.journaldunet.com/seo/1557231-avis-clients-et-ia-generative-votre-reputation-se-joue-desormais-dans-les-reponses-des-llm/"
         }
       ]
     },
     {
-      "title": "Anthropic prépare une introduction en Bourse record",
-      "why_it_matters": "Je retiens que l'IA générative devient un marché financier à part entière. Le secteur se structure et il faut regarder où investir.",
+      "title": "Les Pays-Bas suppriment 25 000 postes de fonctionnaires grâce à l'IA",
+      "why_it_matters": "Je vois que l'administration néerlandaise va remplacer 25 000 postes par de l'IA d'ici 2035. C'est le signe que l'automatisation administrative s'accélère fortement.",
       "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/10/28/remplacements-de-fonctionnaires-par-l-ia-les-pays-bas-brandissent-a-leur-tour-la-tronconneuse-popularisee-par-le-president-argentin-javier-milei_6801553_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "L'AI Act freine le déploiement de l'IA en production en Europe",
+      "why_it_matters": "Je retiens que la nouvelle réglementation européenne sur l'IA complique l'utilisation du cloud hybride pour les projets en production. Ça change la donne pour nos déploiements.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/cloud/1557259-et-si-le-principal-obstacle-au-cloud-hybride-n-etait-pas-technologique/"
+        }
+      ]
+    },
+    {
+      "title": "Commerces dégradés : l'État débloque une aide jusqu'à 10 000 €",
+      "why_it_matters": "Je note que les manifestations ont causé de lourdes pertes aux commerces. Le gouvernement répond avec une aide et le Sénat durdit la loi contre les casseurs.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/action-publique/1557273-les-manifestations-d-octobre-2026-provoquent-des-pertes-majeures-pour-les-commerces/"
+        },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/l-introduction-en-bourse-d-anthropic-promet-d-etre-record_8234677.html#xtor=RSS-3-%5Bgeneral%5D"
-        }
-      ]
-    },
-    {
-      "title": "Confiance des ménages au plus bas depuis 2013",
-      "why_it_matters": "Je note que les Français n'ont jamais eu aussi peu confiance depuis 2013. Pour mon business, ça veut dire que la consommation va rester frileuse.",
-      "sources": [
+          "url": "https://www.franceinfo.fr/faits-divers/commerces-degrades-le-gouvernement-annonce-une-aide-pouvant-atteindre-10-000-euros_8257126.html"
+        },
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/la-confiance-des-menages-francais-au-plus-bas-depuis-juin-2013-en-octobre-selon-l-insee-20261027"
-        }
-      ]
-    },
-    {
-      "title": "La consommation de carburant s'effondre de 40%",
-      "why_it_matters": "Je retiens ce chiffre : -40% de carburant vendu. Les gens sacrifient leurs déplacements. C'est un signal très fort sur le pouvoir d'achat et la consommation.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/essence/jusqu-a-40-de-volume-de-consommation-le-patron-de-cooperative-u-evoque-un-veritable-effondrement-de-la-consommation-de-carburant-en-octobre_8255380.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/loi-casseurs-payeurs-le-senat-vote-la-saisie-des-allocations-et-jusqua-10-000-euros-a-payer-1531326"
         }
       ]
     }
