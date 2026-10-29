@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-28T10:57:21.622Z",
-  "day_label": "Mercredi 28 octobre",
+  "generated_at": "2026-10-29T11:15:39.152Z",
+  "day_label": "Jeudi 29 octobre",
   "items": [
     {
-      "title": "Taxe de 3 € sur les petits colis : les envois s'effondrent de 48%",
-      "why_it_matters": "Je note que la taxe européenne sur les petits colis fait chuter les importations de près de moitié. C'est un coup dur pour les vendeurs en ligne qui s'approvisionnent à l'étranger.",
+      "title": "Pénurie de mémoire : SK hynix anticipe la crise jusqu’en 2030",
+      "why_it_matters": "Je retiens que la demande IA va faire flamber les prix des composants. Nos budgets tech vont morfler si on n’anticipe pas.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/entreprises-marches/taxe-sur-les-petits-colis-chute-drastique-des-envois-en-france-entre-juin-et-aout-1531333"
+          "name": "IT for Business",
+          "url": "https://www.itforbusiness.fr/memoire-sk-hynix-anticipe-une-penurie-jusquen-2030-109078"
         }
       ]
     },
     {
-      "title": "Les avis clients sont désormais lus par l'IA avant les humains",
-      "why_it_matters": "Je retiens que ChatGPT et Perplexity synthétisent nos avis clients pour répondre aux internautes. Notre e-réputation se joue désormais dans ces réponses automatiques.",
+      "title": "Microsoft : Azure cartonne mais la facture IA pèse lourd",
+      "why_it_matters": "Je note que même un géant peine à rentabiliser ses investissements IA. Ça confirme qu’il faut être prudent avant de tout miser dessus.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/seo/1557231-avis-clients-et-ia-generative-votre-reputation-se-joue-desormais-dans-les-reponses-des-llm/"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/microsoft-azure-explose-les-compteurs-48-mais-la-facture-de-lia-salourdit-506763.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Les Pays-Bas suppriment 25 000 postes de fonctionnaires grâce à l'IA",
-      "why_it_matters": "Je vois que l'administration néerlandaise va remplacer 25 000 postes par de l'IA d'ici 2035. C'est le signe que l'automatisation administrative s'accélère fortement.",
+      "title": "Mistral Large 4 est ouvert et lance Responses API",
+      "why_it_matters": "Je retiens qu’un modèle français accessible reste compétitif. Pour nous, c’est une alternative crédible aux géants américains et chinois.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/10/28/remplacements-de-fonctionnaires-par-l-ia-les-pays-bas-brandissent-a-leur-tour-la-tronconneuse-popularisee-par-le-president-argentin-javier-milei_6801553_3234.html"
-        }
-      ]
-    },
-    {
-      "title": "L'AI Act freine le déploiement de l'IA en production en Europe",
-      "why_it_matters": "Je retiens que la nouvelle réglementation européenne sur l'IA complique l'utilisation du cloud hybride pour les projets en production. Ça change la donne pour nos déploiements.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/cloud/1557259-et-si-le-principal-obstacle-au-cloud-hybride-n-etait-pas-technologique/"
-        }
-      ]
-    },
-    {
-      "title": "Commerces dégradés : l'État débloque une aide jusqu'à 10 000 €",
-      "why_it_matters": "Je note que les manifestations ont causé de lourdes pertes aux commerces. Le gouvernement répond avec une aide et le Sénat durdit la loi contre les casseurs.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1557273-les-manifestations-d-octobre-2026-provoquent-des-pertes-majeures-pour-les-commerces/"
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/desormais-ouvert-mistral-large-4-peut-il-rivaliser-avec-les-modeles-chinois-les-plus-performants.ONUACF5OUZGB7OLBK5O7CEE24Q.html"
         },
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/faits-divers/commerces-degrades-le-gouvernement-annonce-une-aide-pouvant-atteindre-10-000-euros_8257126.html"
+          "name": "Blog du Modérateur",
+          "url": "https://www.blogdumoderateur.com/responses-api-mistral-simplifier-creation-agents-ia/"
+        }
+      ]
+    },
+    {
+      "title": "Droits voisins : les éditeurs français battent Meta",
+      "why_it_matters": "Je note que la justice française oblige Meta à payer pour le contenu. C’est un précédent fort pour qui crée de la valeur en ligne chez nous.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/medias/droits-voisins-les-editeurs-francais-remportent-une-victoire-face-a-meta-20261029"
+        }
+      ]
+    },
+    {
+      "title": "Fnac Darty : 7 millions d’amende pour cookies illégaux",
+      "why_it_matters": "Je retiens que la CNIL frappe fort sur le traçage sans consentement. Pour nous, c’est un rappel brutal : nos outils marketing doivent être clean.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/7-millions-d-euros-d-amendes-pour-fnac-darty-accuse-d-avoir-collecte-illegalement-des-donnees-sur-ses-clients-20261029"
         },
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/loi-casseurs-payeurs-le-senat-vote-la-saisie-des-allocations-et-jusqua-10-000-euros-a-payer-1531326"
+          "name": "Next",
+          "url": "https://next.ink/264650/continuer-sans-accepter-fnac-darty-vous-tracait-quand-meme-7-millions-deuros-damende/"
         }
       ]
     }
