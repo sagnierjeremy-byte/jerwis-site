@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-29T11:15:39.152Z",
-  "day_label": "Jeudi 29 octobre",
+  "generated_at": "2026-10-30T11:09:16.050Z",
+  "day_label": "Vendredi 30 octobre",
   "items": [
     {
-      "title": "Pénurie de mémoire : SK hynix anticipe la crise jusqu’en 2030",
-      "why_it_matters": "Je retiens que la demande IA va faire flamber les prix des composants. Nos budgets tech vont morfler si on n’anticipe pas.",
+      "title": "Inflation à 3,4% et PIB à l'arrêt",
+      "why_it_matters": "Je dois ajuster mes prix et ma trésorerie car le pouvoir d'achat baisse et l'économie française stagne.",
       "sources": [
         {
-          "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/memoire-sk-hynix-anticipe-une-penurie-jusquen-2030-109078"
-        }
-      ]
-    },
-    {
-      "title": "Microsoft : Azure cartonne mais la facture IA pèse lourd",
-      "why_it_matters": "Je note que même un géant peine à rentabiliser ses investissements IA. Ça confirme qu’il faut être prudent avant de tout miser dessus.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/microsoft-azure-explose-les-compteurs-48-mais-la-facture-de-lia-salourdit-506763.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Mistral Large 4 est ouvert et lance Responses API",
-      "why_it_matters": "Je retiens qu’un modèle français accessible reste compétitif. Pour nous, c’est une alternative crédible aux géants américains et chinois.",
-      "sources": [
-        {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/desormais-ouvert-mistral-large-4-peut-il-rivaliser-avec-les-modeles-chinois-les-plus-performants.ONUACF5OUZGB7OLBK5O7CEE24Q.html"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/l-inflation-remonte-a-34-sur-un-an-en-octobre-plus-haut-niveau-depuis-janvier-2024-1531430"
         },
         {
-          "name": "Blog du Modérateur",
-          "url": "https://www.blogdumoderateur.com/responses-api-mistral-simplifier-creation-agents-ia/"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/croissance-nouveau-recul-du-pib-de-01-l-economie-francaise-a-l-arret-1531429"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/38982512175017/la-croissance-recule-de-0-1-au-3e-trimestre-la-france-au-bord-de-la-recession"
         }
       ]
     },
     {
-      "title": "Droits voisins : les éditeurs français battent Meta",
-      "why_it_matters": "Je note que la justice française oblige Meta à payer pour le contenu. C’est un précédent fort pour qui crée de la valeur en ligne chez nous.",
+      "title": "TVA à 23% mais moins de charges sur les salaires",
+      "why_it_matters": "Je recalcule mes coûts de main-d'œuvre et mes marges car la mesure change la fiche de paie et la consommation.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/tva-a-23-mais-moins-de-charges-sur-votre-salaire-bruno-le-maire-promet-jusqua-250-euros-de-plus-par-mois-1531432"
+        }
+      ]
+    },
+    {
+      "title": "Une taxe émeutes va alourdir les contrats d'assurance",
+      "why_it_matters": "Mes assurances auto et habitation vont grimper. Je prévois une charge supplémentaire dès 2027.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/medias/droits-voisins-les-editeurs-francais-remportent-une-victoire-face-a-meta-20261029"
+          "url": "https://www.lefigaro.fr/conjoncture/quelle-est-cette-taxe-emeutes-qui-pourrait-faire-augmenter-les-prix-des-contrats-d-assurance-20261029"
         }
       ]
     },
     {
-      "title": "Fnac Darty : 7 millions d’amende pour cookies illégaux",
-      "why_it_matters": "Je retiens que la CNIL frappe fort sur le traçage sans consentement. Pour nous, c’est un rappel brutal : nos outils marketing doivent être clean.",
+      "title": "Budget 2027 : 48 milliards de dépenses en plus",
+      "why_it_matters": "Le déficit public s'aggrave. Je m'attends à des pressions fiscales ou des réglementations nouvelles.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/7-millions-d-euros-d-amendes-pour-fnac-darty-accuse-d-avoir-collecte-illegalement-des-donnees-sur-ses-clients-20261029"
-        },
+          "url": "https://www.lefigaro.fr/conjoncture/budget-2027-les-deputes-votent-28-milliards-d-euros-de-depenses-supplementaires-20261029"
+        }
+      ]
+    },
+    {
+      "title": "Le Crédit Agricole anticipe moins de prêts et plus de risques",
+      "why_it_matters": "L'accès au crédit se resserre. Si j'ai besoin de trésorerie, je dois m'y prendre plus tôt.",
+      "sources": [
         {
-          "name": "Next",
-          "url": "https://next.ink/264650/continuer-sans-accepter-fnac-darty-vous-tracait-quand-meme-7-millions-deuros-damende/"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/assurance-banque/malgre-un-benefice-proche-des-deux-milliards-d-euros-le-directeur-general-du-credit-agricole-s-attend-a-une-baisse-des-demandes-de-prets-et-peut-etre-une-augmentation-des-risques_AV-202610300406.html"
         }
       ]
     }
