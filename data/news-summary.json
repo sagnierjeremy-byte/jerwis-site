@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-30T11:09:16.050Z",
-  "day_label": "Vendredi 30 octobre",
+  "generated_at": "2026-10-31T10:42:57.130Z",
+  "day_label": "Samedi 31 octobre",
   "items": [
     {
-      "title": "Inflation à 3,4% et PIB à l'arrêt",
-      "why_it_matters": "Je dois ajuster mes prix et ma trésorerie car le pouvoir d'achat baisse et l'économie française stagne.",
+      "title": "Fitch abaisse la perspective de la dette française à négative",
+      "why_it_matters": "Je retiens que la confiance des agences baisse. Nos emprunts bancaires et le coût du crédit pourraient augmenter en 2025.",
       "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/l-inflation-remonte-a-34-sur-un-an-en-octobre-plus-haut-niveau-depuis-janvier-2024-1531430"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/croissance-nouveau-recul-du-pib-de-01-l-economie-francaise-a-l-arret-1531429"
-        },
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/38982512175017/la-croissance-recule-de-0-1-au-3e-trimestre-la-france-au-bord-de-la-recession"
-        }
-      ]
-    },
-    {
-      "title": "TVA à 23% mais moins de charges sur les salaires",
-      "why_it_matters": "Je recalcule mes coûts de main-d'œuvre et mes marges car la mesure change la fiche de paie et la consommation.",
-      "sources": [
+          "url": "https://www.latribune.fr/article/economie/finances-publiques/32240655864940/lagence-de-notation-fitch-ratings-degrade-les-perspectives-de-la-dette-de-la-france"
+        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/tva-a-23-mais-moins-de-charges-sur-votre-salaire-bruno-le-maire-promet-jusqua-250-euros-de-plus-par-mois-1531432"
+          "url": "https://www.capital.fr/economie-politique/la-france-garde-son-a-chez-fitch-mais-frole-la-degradation-la-deterioration-de-la-dette-en-cause-1531448"
         }
       ]
     },
     {
-      "title": "Une taxe émeutes va alourdir les contrats d'assurance",
-      "why_it_matters": "Mes assurances auto et habitation vont grimper. Je prévois une charge supplémentaire dès 2027.",
+      "title": "Sam Altman veut la RAM de nos PC pour ses centres de données",
+      "why_it_matters": "Je note que le prix de la mémoire vive explose. La guerre des ressources IA touche déjà notre matériel et nos budgets informatiques.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/quelle-est-cette-taxe-emeutes-qui-pourrait-faire-augmenter-les-prix-des-contrats-d-assurance-20261029"
+          "name": "Numerama",
+          "url": "https://www.numerama.com/tech/2365133-sam-altman-openai-prefererait-que-la-ram-de-votre-pc-aille-dans-ses-datacenters.html"
+        },
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/3305409_cest-assez-terrible-pour-sam-altman-la-ram-de-votre-pc-serait-mieux-dans-un-data-center"
         }
       ]
     },
     {
-      "title": "Budget 2027 : 48 milliards de dépenses en plus",
-      "why_it_matters": "Le déficit public s'aggrave. Je m'attends à des pressions fiscales ou des réglementations nouvelles.",
+      "title": "Anthropic liste les dangers de l'IA dans son dossier de Bourse",
+      "why_it_matters": "Je retiens que même les créateurs d'IA préviennent sur les risques. La régulation va se durcir et impacter nos outils.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/budget-2027-les-deputes-votent-28-milliards-d-euros-de-depenses-supplementaires-20261029"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/armes-biochimiques-cyberattaques-geantes-perte-de-controle-ce-que-dit-le-dossier-d-entree-en-bourse-d-anthropic-sur-les-dangers-de-l-ia_8258888.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "Le Crédit Agricole anticipe moins de prêts et plus de risques",
-      "why_it_matters": "L'accès au crédit se resserre. Si j'ai besoin de trésorerie, je dois m'y prendre plus tôt.",
+      "title": "Le paiement fractionné s'apprête à sa plus grande mutation",
+      "why_it_matters": "Je note que 69% des Français utilisent ce service. Pour un e-commerçant, c'est un levier de vente à suivre de près.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/assurance-banque/malgre-un-benefice-proche-des-deux-milliards-d-euros-le-directeur-general-du-credit-agricole-s-attend-a-une-baisse-des-demandes-de-prets-et-peut-etre-une-augmentation-des-risques_AV-202610300406.html"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/69-des-francais-lutilisent-deja-pourquoi-le-paiement-fractionne-sapprete-a-vivre-sa-plus-grande-mutation/"
+        }
+      ]
+    },
+    {
+      "title": "Proton s'excuse et revient sur sa stratégie IA open source",
+      "why_it_matters": "Je retiens que la confiance est fragile en ligne. Le choix de nos outils de mail et cloud doit rester transparent et sûr.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/web/3305439_excuses-dementis-ia-et-open-source-proton-change-de-ton-face-a-la-polemique"
         }
       ]
     }
