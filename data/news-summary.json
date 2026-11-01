@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-31T10:42:57.130Z",
-  "day_label": "Samedi 31 octobre",
+  "generated_at": "2026-11-01T11:38:51.898Z",
+  "day_label": "Dimanche 1 novembre",
   "items": [
     {
-      "title": "Fitch abaisse la perspective de la dette française à négative",
-      "why_it_matters": "Je retiens que la confiance des agences baisse. Nos emprunts bancaires et le coût du crédit pourraient augmenter en 2025.",
+      "title": "Nouvelle taxe de 2 € sur les produits importés dans l'UE",
+      "why_it_matters": "Je retiens que cette taxe va toucher tous les produits importés. Si je vends ou achète sur Temu ou AliExpress, mes coûts changent dès maintenant.",
       "sources": [
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/32240655864940/lagence-de-notation-fitch-ratings-degrade-les-perspectives-de-la-dette-de-la-france"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/la-france-garde-son-a-chez-fitch-mais-frole-la-degradation-la-deterioration-de-la-dette-en-cause-1531448"
+          "url": "https://www.latribune.fr/article/economie/54696279961081/temu-shein-aliexpress-une-nouvelle-taxe-de-deux-euros-appliquee-aux-produits-importes-dans-lunion-europeenne"
         }
       ]
     },
     {
-      "title": "Sam Altman veut la RAM de nos PC pour ses centres de données",
-      "why_it_matters": "Je note que le prix de la mémoire vive explose. La guerre des ressources IA touche déjà notre matériel et nos budgets informatiques.",
+      "title": "Commerce : -80% de chiffre d'affaires en marge des manifestations",
+      "why_it_matters": "Je note que même avec moins de dégradations, mes clients ont peur et restent chez eux. Le chiffre d'affaires s'effondre quand même.",
       "sources": [
         {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/tech/2365133-sam-altman-openai-prefererait-que-la-ram-de-votre-pc-aille-dans-ses-datacenters.html"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/20-commerces-vandalises-samedi-contre-2-488-le-17-octobre-cci-france-constate-une-nette-baisse-des-degradations-en-marge-des-manifestations-mais-s-inquiete-d-une-forte-chute-du-chiffre-d-affaires-des-magasins-pouvant-atteindre-80_AD-202611010225.html"
         },
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/marques/3305409_cest-assez-terrible-pour-sam-altman-la-ram-de-votre-pc-serait-mieux-dans-un-data-center"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/manifestations-du-31-octobre-20-commerces-degrades-samedi-20261101"
         }
       ]
     },
     {
-      "title": "Anthropic liste les dangers de l'IA dans son dossier de Bourse",
-      "why_it_matters": "Je retiens que même les créateurs d'IA préviennent sur les risques. La régulation va se durcir et impacter nos outils.",
+      "title": "Le budget 2027 déjà caduc avant d'être voté",
+      "why_it_matters": "Je retiens que le rapporteur général annonce un refus du Parlement. L'instabilité politique freine mes choix d'investissement.",
       "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/armes-biochimiques-cyberattaques-geantes-perte-de-controle-ce-que-dit-le-dossier-d-entree-en-bourse-d-anthropic-sur-les-dangers-de-l-ia_8258888.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.franceinfo.fr/economie/budget/le-budget-pas-encore-adopte-est-il-deja-caduc-oui-affirme-philippe-juvin-rapporteur-general-de-la-commission-des-finances-a-l-assemblee-nationale_8262695.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/budget/le-budget-sera-refuse-par-le-parlement-prevoit-philippe-juvin-rapporteur-general-du-projet-de-loi-de-finances-qui-plaide-pour-un-recours-au-49-3_8262554.html#xtor=RSS-3-%5Bgeneral%5D"
         }
       ]
     },
     {
-      "title": "Le paiement fractionné s'apprête à sa plus grande mutation",
-      "why_it_matters": "Je note que 69% des Français utilisent ce service. Pour un e-commerçant, c'est un levier de vente à suivre de près.",
+      "title": "Des gangs de pirates confient leurs attaques à l'IA",
+      "why_it_matters": "Je note qu'une nouvelle vague attaque les entreprises automatiquement. La sécurité de mes données n'est plus un luxe, c'est une urgence.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/69-des-francais-lutilisent-deja-pourquoi-le-paiement-fractionne-sapprete-a-vivre-sa-plus-grande-mutation/"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/a-la-vitesse-de-la-machine-4-gangs-de-pirates-ont-confie-leurs-cyberattaques-a-lia.html"
         }
       ]
     },
     {
-      "title": "Proton s'excuse et revient sur sa stratégie IA open source",
-      "why_it_matters": "Je retiens que la confiance est fragile en ligne. Le choix de nos outils de mail et cloud doit rester transparent et sûr.",
+      "title": "L'open source manque de financements, alertent les experts",
+      "why_it_matters": "Je retiens que l'EFF et la fondation Linux tirent la sonnette d'alarme. Ma dépendance aux outils libres et aux Gafam est un risque réel.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/web/3305439_excuses-dementis-ia-et-open-source-proton-change-de-ton-face-a-la-polemique"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/blogs/l-esprit-libre/libre-et-open-source-express-apocalypse-de-vulnerabilite-entreprises-europeennes-sortir-des-gafam-boycott-domarchy-507056.htm#xtor=RSS-1"
         }
       ]
     }
