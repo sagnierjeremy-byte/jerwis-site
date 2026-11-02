@@ -20,8 +20,9 @@ Demande de Jérémy : « mets à jour l'onglet Apprendre, revois complètement l
 ### Vérifié
 - Zéro « terminal », « Ghostty », « Claude Code » et tiret cadratin dans le texte visible (FR et EN), JSON-LD valides, tous les liens internes en 200, aucune erreur console, aucun débordement à 390, 820, 1 180 et 1 440 px, clair et sombre. Bandeaux kzumi toujours posés (barre, menu, milieu, pied).
 
-### Reste hors périmètre
-- Une autre section de l'accueil présente encore Claude Code comme « la version terminal de Claude » (`index.html`, bloc Claude Code). Pas touché.
+### Ensuite, le même jour
+- Carte « Claude Code, le setup complet » (terminal, Ghostty) retirée des outils de l'accueil, FR et EN, à la demande de Jérémy. Cinq outils renumérotés 01 à 05, intro et note « Soyons transparents » recomptées (cinq ressources, trois en accès direct). `.freebies-grid` (`assets/main.css`) : à 5 cartes, 3 puis 2 centrées au-dessus de 1 100 px, dernière carte en pleine largeur sur tablette. La page `claude-code` reste en ligne.
+- Reste à voir : la carte « Cheat-sheet A4 » parle encore de commandes Claude, git et plugins.
 
 ## 2026-11-02 · kzumi sur tout le site
 

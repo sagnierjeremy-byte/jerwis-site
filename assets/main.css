@@ -951,7 +951,12 @@
     gap: 24px;
   }
   @media (min-width: 760px)  { .freebies-grid { grid-template-columns: 1fr 1fr } }
-  @media (min-width: 1100px) { .freebies-grid { grid-template-columns: repeat(3, 1fr) } }
+  @media (min-width: 760px) and (max-width: 1099px) { .freebies-grid > :last-child:nth-child(odd) { grid-column: 1 / -1 } }
+  @media (min-width: 1100px) {
+    .freebies-grid { grid-template-columns: repeat(6, 1fr) }
+    .freebies-grid > * { grid-column: span 2 }
+    .freebies-grid > :nth-child(3n+1):nth-last-child(2) { grid-column: 2 / span 2 }
+  }
 
   .freebie-card {
     background: var(--surface);
