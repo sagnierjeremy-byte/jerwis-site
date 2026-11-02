@@ -1,8 +1,10 @@
 /* ============================================================
  * kzumi sur tout jerwis.fr (plans validés les 02-11-2026)
  * ------------------------------------------------------------
+ * Habillage « revue » depuis la refonte de novembre 2026 : barre jaune,
+ * autocollant jaune pour les blocs, image seulement dans la marge.
  * Un seul script pour toutes les pages FR. Selon la page :
- * - partout (P1) : une barre noire en tête de page, posée dans la
+ * - partout (P1) : une barre en tête de page, posée dans la
  *   réserve .bk-barre-place (44 px, rien ne saute au chargement),
  *   masquable 30 jours par le lecteur ;
  * - menu .mini-nav (P2) : un lien « kzumi ↗ » en tête ;
@@ -50,26 +52,34 @@
   const image = (nom) => new URL('pub/' + nom, tag.src).href;
   const srcset = (nom) => image(nom + '.webp') + ' 1x, ' + image(nom + '@2x.webp') + ' 2x';
 
+  // Style « revue » (refonte de novembre 2026) : barre jaune bordée d'encre, autocollant
+  // jaune penché pour les blocs. Couleurs fixes : lisibles aussi sur les pages en sombre.
   const style = document.createElement('style');
   style.textContent = `
-.bk-barre{display:flex;align-items:center;gap:10px;height:44px;box-sizing:border-box;background:#05090B;color:#F1F7FB;padding:0 max(16px,calc((100vw - 1240px) / 2));font:500 14px/1.2 Archivo,system-ui,sans-serif;position:relative;z-index:60}
-.bk-barre a{display:flex;align-items:center;gap:12px;flex:1;min-width:0;color:inherit;text-decoration:none;border:0}
-.bk-barre img{width:24px;height:24px;border-radius:6px;flex:none}
-.bk-barre-t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.bk-barre b{font-weight:800}.bk-barre em{font-style:normal;font-weight:700;color:#FFC800}
-.bk-barre-cta{flex:none;background:#FFC800;color:#4A3800;font-weight:800;font-size:12.5px;padding:6px 12px;border-radius:999px}
-.bk-barre button{flex:none;background:none;border:0;color:#8A9BA4;font-size:22px;line-height:1;padding:4px 6px;cursor:pointer}
-.bk-barre a:focus-visible,.bk-barre button:focus-visible{outline:2px solid #FFC800;outline-offset:2px}
+.bk-barre{display:flex;align-items:center;gap:10px;height:44px;box-sizing:border-box;background:#FFC800;color:#141414;border-bottom:2px solid #141414;padding:0 max(16px,calc((100vw - 1240px) / 2));font:700 12.5px/1.2 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;position:relative;z-index:60}
+.bk-barre a{display:flex;align-items:center;justify-content:center;gap:14px;flex:1;min-width:0;color:inherit;text-decoration:none;border:0}
+.bk-barre-mot{flex:none;font:900 18px/1 Nunito,system-ui,sans-serif;letter-spacing:-.01em;text-transform:none}
+.bk-barre-t{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bk-barre-cta{flex:none;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:2px}
+.bk-barre button{flex:none;background:none;border:0;color:#141414;font-size:22px;line-height:1;padding:4px 6px;cursor:pointer}
+.bk-barre a:focus-visible,.bk-barre button:focus-visible{outline:2px solid #141414;outline-offset:2px}
 .bk-court{display:none}
 @media (max-width:640px){.bk-long{display:none}.bk-court{display:inline}}
-.mini-nav .links a.bk-nav{color:#FFC800;background:#05090B;border-radius:999px;padding:6px 12px}
+.mini-nav .links a.bk-nav{color:#141414;background:#FFC800;border:2px solid #141414;border-radius:999px;padding:5px 12px}
 .bk-etiquette{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;line-height:1.2;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-muted,#6E6E6E);margin:0 0 10px}
-.bk-marge a,.bk-texte a,.bk-bloc a{display:block;border-radius:14px;border:0;text-decoration:none}
-.bk-marge img,.bk-texte img,.bk-bloc img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 0 0 1px color-mix(in srgb,var(--ink,#0A0A0A) 14%,transparent)}
-.bk-marge a:focus-visible,.bk-texte a:focus-visible,.bk-bloc a:focus-visible{outline:3px solid var(--fuchsia,#EF426F);outline-offset:3px}
-.bk-texte{max-width:360px;margin:8px auto 40px}
-.bk-bloc{box-sizing:border-box;max-width:392px;padding:0 16px;margin:56px auto}
-@media (min-width:768px){.bk-texte{max-width:970px}.bk-bloc{max-width:1010px;padding:0 20px}}
+.bk-marge a{display:block;border-radius:14px;border:0;text-decoration:none}
+.bk-marge img{display:block;width:100%;height:auto;border-radius:14px;border:2px solid #141414;box-sizing:border-box}
+.bk-marge a:focus-visible,.bk-sticker:focus-visible{outline:3px solid #EF426F;outline-offset:4px}
+.bk-texte{max-width:640px;margin:24px auto 48px;padding:0 8px}
+.bk-bloc{box-sizing:border-box;max-width:960px;padding:0 20px;margin:64px auto}
+.bk-sticker{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 28px;padding:26px 30px;border:2px solid #141414;border-radius:24px;background:#FFC800;color:#141414;text-decoration:none;box-shadow:8px 8px 0 #141414;transform:rotate(-1.2deg);transition:transform .2s}
+.bk-sticker:hover{transform:rotate(0deg)}
+.bk-sticker-g{flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:6px}
+.bk-sticker-e{font:700 11.5px/1.2 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}
+.bk-sticker-m{font:900 clamp(46px,6vw,76px)/.88 Nunito,system-ui,sans-serif;letter-spacing:-.01em}
+.bk-sticker-t{font:500 19px/1.4 'Instrument Sans',system-ui,sans-serif}
+.bk-sticker-b{flex:none;display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:12px;background:#141414;color:#FFC800;font:700 13px/1 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase}
+@media (prefers-reduced-motion:reduce){.bk-sticker{transition:none}}
 .bk-marge{display:none;position:fixed;top:110px;z-index:40;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .25s,transform .25s,visibility 0s .25s}
 .bk-marge.is-visible{opacity:1;visibility:visible;transform:none;transition:opacity .25s,transform .25s}
 .bk-large .bk-marge{display:block}.bk-large .bk-texte{display:none}
@@ -77,16 +87,16 @@
 @media print{.bk-barre,.bk-barre-place,.bk-nav,.bk-marge,.bk-texte,.bk-bloc{display:none}}`;
   document.head.appendChild(style);
 
-  // Un bandeau dans le flux : carré sous 768px, horizontal au-dessus.
+  // Un autocollant jaune dans le flux, le même à toutes les tailles d'écran.
   function bloc(classe, medium) {
     const aside = document.createElement('aside');
     aside.className = classe;
     aside.setAttribute('aria-label', 'kzumi, mon autre projet');
-    aside.innerHTML = '<p class="bk-etiquette">Mon autre projet</p>' +
-      '<a href="' + lien(medium) + '" target="_blank" rel="noopener">' +
-      '<picture><source media="(min-width: 768px)" srcset="' + srcset('kzumi-horizontal-970x250') + '" width="970" height="250">' +
-      '<img src="' + image('kzumi-carre-300x250.webp') + '" srcset="' + srcset('kzumi-carre-300x250') + '"' +
-      ' width="300" height="250" loading="lazy" decoding="async" alt="' + ALT + '"></picture></a>';
+    aside.innerHTML = '<a class="bk-sticker" href="' + lien(medium) + '" target="_blank" rel="noopener">' +
+      '<span class="bk-sticker-g"><span class="bk-sticker-e">Mon autre projet</span>' +
+      '<span class="bk-sticker-m">kzumi</span>' +
+      '<span class="bk-sticker-t">Une app pour comprendre l’argent en jouant.</span></span>' +
+      '<span class="bk-sticker-b">kzumi.com ↗</span></a>';
     return aside;
   }
 
@@ -105,10 +115,10 @@
     barre.className = 'bk-barre';
     barre.setAttribute('aria-label', 'kzumi, mon autre projet');
     barre.innerHTML = '<a href="' + lien('barre') + '" target="_blank" rel="noopener">' +
-      '<img src="' + image('kzumi-icone.svg') + '" width="24" height="24" alt="">' +
-      '<span class="bk-barre-t"><span class="bk-long">J’ai créé <b>kzumi</b>, une app pour comprendre l’argent <em>en jouant.</em></span>' +
-      '<span class="bk-court"><b>kzumi</b>, l’argent <em>en jouant.</em></span></span>' +
-      '<span class="bk-barre-cta">kzumi.com →</span></a>' +
+      '<span class="bk-barre-mot">kzumi</span>' +
+      '<span class="bk-barre-t"><span class="bk-long">L’app pour comprendre l’argent en jouant</span>' +
+      '<span class="bk-court">L’argent en jouant</span></span>' +
+      '<span class="bk-barre-cta">kzumi.com ↗</span></a>' +
       '<button type="button" aria-label="Masquer la barre kzumi">×</button>';
     barre.querySelector('button').addEventListener('click', () => {
       try { localStorage.setItem('bk-barre-masquee', String(Date.now())); } catch (e) { /* masquée pour cette visite seulement */ }

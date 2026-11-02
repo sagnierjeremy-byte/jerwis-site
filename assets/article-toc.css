@@ -377,3 +377,48 @@ body.article-toc-open .back-to-top {
 [data-theme="dark"] .cross-link {
   text-decoration-color: var(--orange, #FF8200);
 }
+
+/* ============================================================
+ * Style « revue » (refonte de novembre 2026), seulement sur les
+ * pages refaites (html.rv-page) : cadre encre, ombre nette,
+ * intertitres numérotés « § 01 », barre de lecture tricolore.
+ * ============================================================ */
+.article-toc-lu { display: none; }
+html.rv-page .article-toc {
+  font-family: 'Instrument Sans', system-ui, sans-serif;
+  background: #FFFFFF;
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+  border: 2px solid #141414; border-radius: 18px;
+  box-shadow: 5px 5px 0 #141414;
+  padding: 16px 16px 12px;
+  width: 236px;
+  counter-reset: rv-toc;
+}
+html.rv-page .article-toc-label {
+  font-family: 'Instrument Sans', system-ui, sans-serif; font-size: 20px; font-weight: 700;
+  letter-spacing: -.02em; text-transform: none; color: #141414;
+}
+html.rv-page .article-toc-label::before { content: none; }
+html.rv-page .article-toc-lu { display: flex; align-items: center; gap: 10px; margin: 2px 0 12px; padding-bottom: 12px; border-bottom: 2px solid #141414; }
+html.rv-page .article-toc-lu-barre { flex: 1; height: 5px; border-radius: 3px; background: rgba(20,20,20,.1); overflow: hidden; }
+html.rv-page .article-toc-lu-barre span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #00B2A9, #EF426F, #FF8200); }
+html.rv-page .article-toc-lu-pct { font: 700 11px/1 'JetBrains Mono', monospace; letter-spacing: .06em; text-transform: uppercase; color: #5C5752; white-space: nowrap; }
+html.rv-page .article-toc-item:not(.is-h3) { counter-increment: rv-toc; }
+html.rv-page .article-toc-item a {
+  display: flex; gap: 10px; align-items: baseline;
+  border-left: 0; padding: 7px 0; font-size: 14px; line-height: 1.35; color: #3E3A36;
+}
+html.rv-page .article-toc-item:not(.is-h3) a::before {
+  content: "§ " counter(rv-toc, decimal-leading-zero);
+  flex: none; font: 700 10.5px/1.6 'JetBrains Mono', monospace; letter-spacing: .04em; color: #6B665F;
+}
+html.rv-page .article-toc-item a:hover { color: #141414; }
+html.rv-page .article-toc-item.is-active a { color: #141414; font-weight: 600; padding-left: 0; }
+html.rv-page .article-toc-item.is-active:not(.is-h3) a::before { color: #D6305E; }
+html.rv-page .article-toc-item.is-active a { text-decoration: underline; text-decoration-color: #EF426F; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+html.rv-page .article-toc-item.is-h3 a { padding: 5px 0 5px 34px; font-size: 12.5px; opacity: 1; color: #5C5752; }
+html.rv-page .article-toc-fab {
+  font-family: 'JetBrains Mono', monospace; background: #141414; color: #FAF9F6;
+  border: 2px solid #141414; box-shadow: 3px 3px 0 #FF8200;
+}
+html.rv-page .back-to-top { background: #141414; color: #FAF9F6; box-shadow: 3px 3px 0 #EF426F; }

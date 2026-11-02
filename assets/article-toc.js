@@ -142,8 +142,26 @@
 
     const label = document.createElement('div');
     label.className = 'article-toc-label';
-    label.textContent = 'Sommaire';
+    label.textContent = TOC_LABEL;
     aside.appendChild(label);
+
+    // Barre de lecture et pourcentage lu (affichés sur les pages « revue », cachés ailleurs en CSS)
+    const lu = document.createElement('div');
+    lu.className = 'article-toc-lu';
+    lu.innerHTML = '<span class="article-toc-lu-barre"><span></span></span><span class="article-toc-lu-pct">0 %</span>';
+    aside.appendChild(lu);
+    const barre = lu.querySelector('.article-toc-lu-barre span');
+    const pct = lu.querySelector('.article-toc-lu-pct');
+    let attente = false;
+    const majLu = () => {
+      attente = false;
+      const max = document.documentElement.scrollHeight - innerHeight;
+      const p = max > 0 ? Math.round(Math.min(100, Math.max(0, scrollY / max * 100))) : 0;
+      barre.style.width = p + '%';
+      pct.textContent = isEN ? p + '% read' : p + ' % lu';
+    };
+    addEventListener('scroll', () => { if (!attente) { attente = true; requestAnimationFrame(majLu); } }, { passive: true });
+    majLu();
 
     const ol = document.createElement('ol');
     ol.className = 'article-toc-list';

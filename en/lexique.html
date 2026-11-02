@@ -2008,6 +2008,7 @@
 </script>
 
 <link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
 
 <style>
   :root {
@@ -4270,14 +4271,10 @@
 
 <!-- Mini-nav Jerwis v2 -->
 <!-- NAV-UNIFIED-START -->
-<nav class="mini-nav" aria-label="Main navigation">
-  <a class="brand brand-stamp" href="/en" aria-label="Jerwis home">
-    <span class="stamp">
-      <span class="stamp-kicker">BY JEREMY SAGNIER</span>
-      <span class="stamp-word">JERWIS</span>
-      <span class="stamp-bar"><span></span><span></span><span></span></span>
-    </span>
-  </a>
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
   <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
     <span class="burger-icon" aria-hidden="true"></span>
   </button>
@@ -4285,7 +4282,7 @@
     <a href="/en/apprendre">Learn</a>
     <a href="/en/articles">Articles</a>
     <a href="/en/podcast">Podcast</a>
-    <a href="/en#newsletters">Newsletter</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
     <div class="more-wrap">
       <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
         More
@@ -4300,19 +4297,19 @@
         </a>
         <a href="/en/modeles-image-ia" role="menuitem">
           <span class="more-icon">🎨</span>
-          <span class="more-text"><strong>AI image models</strong><span>Image, audio, video generation</span></span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
         </a>
         <a href="/en/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>AI glossary</strong><span>270 definitions explained</span></span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
         </a>
         <a href="/en/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
-          <span class="more-text"><strong>Workflows</strong><span>Claude Code by job</span></span>
+          <span class="more-text"><strong>Workflows</strong><span>Claude Code by profession</span></span>
         </a>
         <a href="/en/outils" role="menuitem">
           <span class="more-icon">🛠</span>
-          <span class="more-text"><strong>My tools</strong><span>My AI and web stack</span></span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
         </a>
         <a href="/en/github" role="menuitem">
           <span class="more-icon">⚡</span>
@@ -4320,7 +4317,7 @@
         </a>
         <a href="/news" role="menuitem">
           <span class="more-icon">📡</span>
-          <span class="more-text"><strong>News</strong><span>AI and business news</span></span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
         </a>
         <a href="/en/videos" role="menuitem">
           <span class="more-icon">▶</span>
@@ -4329,7 +4326,7 @@
         <div class="more-separator"></div>
         <a href="/en/jeremy-sagnier" role="menuitem">
           <span class="more-icon">👤</span>
-          <span class="more-text"><strong>Who I am</strong><span>Bio + background + contact</span></span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
         </a>
         <div class="more-separator"></div>
         <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
@@ -9095,96 +9092,39 @@ document.querySelectorAll('.share-btn-copy').forEach(btn => {
 
 <!-- Footer -->
 </main>
-<footer class="footer" id="contact">
-  <div class="container">
-
-    <!-- Newsletter inline -->
-    <div class="footer-newsletter">
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
       <div>
-        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
-        <h3>One email a week.<br>What I <em>actually</em> test.</h3>
-        <p>My real AI uses, the tools I buy/keep/toss, my articles the moment they're out. No news recaps, no fluff.</p>
+        <h2>The <em>Friday letter.</em></h2>
+        <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
       </div>
-      <form class="newsletter-form" data-source="footer">
-        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+      <form class="newsletter-form" data-source="footer-en">
+        <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-        <button type="submit">Subscribe</button>
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
       </form>
     </div>
-
-    <div class="footer-grid">
-
-      <div class="footer-brand">
-        <h3>Jérémy Sagnier</h3>
-        <p>
-          A question, a doubt, a criticism? <strong>Write to me — I read everything, I answer everything.</strong>
-        </p>
-      </div>
-
-      <div class="footer-col">
-        <h5>Learn</h5>
-        <ul>
-          <li><a href="/en/apprendre">Beginner path</a></li>
-          <li><a href="/en/claude-code">Claude Code guide</a></li>
-          <li><a href="/en/articles">All articles</a></li>
-          <li><a href="/en/lexique">AI glossary</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h5>Products &amp; tools</h5>
-        <ul>
-          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
-          <li><a href="/en/outils">My tool stack</a></li>
-          <li><a href="/en/podcast">AI Wars podcast</a></li>
-          <li><a href="/en/github">My GitHub</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h5>Follow</h5>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Sagnier Brothers</a></li>
-          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
-          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h5>Direct</h5>
-        <ul>
-          <li><a href="mailto:jeremy.sagnier@jerwis.fr">Email</a></li>
-          <li><a href="/en#newsletters">Newsletters</a></li>
-          <li><a href="/en/preferences">Preferences</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
-      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
-        <span style="display:inline-flex; gap:3px">
-          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
-          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
-          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
-        </span>
-        Fiesta · 89
-      </span>
-    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
   </div>
-
-  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
   <script>
-    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+    document.querySelectorAll('.rv-pied .newsletter-form').forEach(function(form) {
       if (form.dataset.attached === '1') return;
       form.dataset.attached = '1';
       form.addEventListener('submit', async function(e) {
         e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
         var emailEl = form.querySelector('input[name="email"]');
         var btn = form.querySelector('button[type="submit"]');
-        var email = (emailEl?.value || '').trim();
+        var email = (emailEl.value || '').trim();
         var originalText = btn.textContent;
         btn.disabled = true;
         btn.textContent = '...';
@@ -9195,10 +9135,10 @@ document.querySelectorAll('.share-btn-copy').forEach(btn => {
             body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
           });
           if (!res.ok) throw new Error('HTTP ' + res.status);
-          btn.textContent = '✓ Thanks';
+          btn.textContent = btn.dataset.ok;
           setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
         } catch (err) {
-          btn.textContent = '× Error';
+          btn.textContent = btn.dataset.ko;
           setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
         }
       });

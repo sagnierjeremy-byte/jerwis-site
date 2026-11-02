@@ -30,15 +30,14 @@ const SKIP_FILES = new Set([
 // On utilise toujours /assets/* pour les CSS (chemin absolu).
 // Les pages racine utilisent assets/*, les articles utilisent ../assets/*.
 
+// Menu « revue » (refonte de novembre 2026) : ligne d'édition, sceau + nom, bouton S'abonner.
+// Version FR seulement : les pages anglaises sont habillées par scripts/revue-entete-pied.mjs,
+// à relancer après ce script (il remet aussi en anglais un menu resté en français).
 const NAV_BLOCK = (relCss) => `<!-- NAV-UNIFIED-START -->
-<nav class="mini-nav" aria-label="Navigation principale">
-  <a class="brand brand-stamp" href="/" aria-label="Accueil Jerwis">
-    <span class="stamp">
-      <span class="stamp-kicker">PAR JEREMY SAGNIER</span>
-      <span class="stamp-word">JERWIS</span>
-      <span class="stamp-bar"><span></span><span></span><span></span></span>
-    </span>
-  </a>
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
   <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
     <span class="burger-icon" aria-hidden="true"></span>
   </button>
@@ -46,7 +45,7 @@ const NAV_BLOCK = (relCss) => `<!-- NAV-UNIFIED-START -->
     <a href="/apprendre">Apprendre</a>
     <a href="/articles">Articles</a>
     <a href="/podcast">Podcast</a>
-    <a href="/#newsletters">Newsletter</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
     <div class="more-wrap">
       <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
         Plus

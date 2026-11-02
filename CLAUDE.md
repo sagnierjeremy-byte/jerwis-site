@@ -11,7 +11,12 @@
 ## Stack
 - HTML/CSS/JS vanilla, **ZÉRO framework** · CSS partagé `assets/main.css` (~3 900 lignes, importé par ~21 pages) · plus d'analytics Plausible (retiré le 19-10-2026, abonnement résilié).
 - Serverless `api/*.js` : Resend (subscribe/unsubscribe/preferences) · Stripe (checkout/webhook/download-zip/github-invite) · news (agrégateur RSS) · youtube · episode-feedback.
-- Polices Google Fonts : Archivo Black · Archivo · Bebas Neue · JetBrains Mono.
+- Polices auto-hébergées (`assets/fonts/`, `fonts.css`) : Instrument Sans (refonte « revue ») · Nunito 900 (mot « kzumi » seulement) · JetBrains Mono · Archivo + Archivo Black (pages pas encore refaites).
+
+## Refonte « la revue » (depuis le 02-11-2026, en cours)
+- Maquettes Claude Design https://claude.ai/artifact/4mGPNv38VJm6icMRHcdDVa (sources `_internal/refonte-design-2026-11/project/`), plan P1-P10 `_internal/refonte-design-2026-11/PLAN.md`. Remplace Fiesta page par page : papier `#FAF9F6`, encre `#141414`, aplats teal/fuchsia/orange avec texte encre, contours 2 px et ombres nettes, sceau (étoile d'éperon), Instrument Sans + JetBrains Mono. Composants : `assets/revue.css` (classes `rv-`, chargée partout).
+- **En-tête et pied** posés par `scripts/revue-entete-pied.mjs` (idempotent, `--dry`, `--detail`) sur toutes les pages FR/EN ; à relancer après tout script qui réécrit un menu ou un pied. Pages anglaises : menu et pied de référence imposés (référence = `en/index.html`).
+- **Pages refaites** : `<html class="rv-page">`, toujours en clair (bouton clair/sombre masqué) jusqu'à la version sombre (P9). Fait : articles générés FR/EN (`article.css` v3). À faire : accueil (temps 2), 18 articles faits main, autres pages par lots.
 
 ## Charte FIESTA / 89 + ton « Leo » — référence intégrale : `docs/charte-fiesta-et-ton.md` (À LIRE avant tout contenu/UI)
 - Palette `--fuchsia #EF426F` · `--teal #00B2A9` · `--orange #FF8200` · noir/cream dominant (50/30/20) · triple-stripe immuable `teal → fuchsia → orange` · 2-3 mini-marquees par page (CSS déjà dans `main.css`, ne pas recopier).

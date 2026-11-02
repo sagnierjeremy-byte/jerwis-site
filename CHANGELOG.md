@@ -1,5 +1,24 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Refonte « la revue », temps 1 (en-tête, pied, polices, kzumi) et temps 3 (articles)
+
+### Pourquoi
+Demande de Jérémy : repenser le design, plus sobre, plus lisible, aéré, puis « plus de caractère et de cachet » et « une police d'écriture simple ». Maquettes Claude Design https://claude.ai/artifact/4mGPNv38VJm6icMRHcdDVa (sources `_internal/refonte-design-2026-11/project/`), dix points validés en bloc sur https://claude.ai/artifact/2bCSFW2dDjfzHBy2TJdmpN, plan `_internal/refonte-design-2026-11/PLAN.md`.
+
+### Livré
+- **P1** : Instrument Sans (romain + italique, variable) et Nunito 900 auto-hébergées (`assets/fonts/`, `fonts.css`).
+- **P2** : `assets/revue.css`, jetons et composants « revue » (papier #FAF9F6, encre #141414, aplats Fiesta, contours 2 px, ombres nettes, sceau, triple bande).
+- **P3** : `scripts/revue-entete-pied.mjs` pose sur 406 pages FR/EN la ligne d'édition (date du jour en JS), le menu habillé (sceau + nom, S'abonner) et le pied unique (lettre du vendredi, plan du site, « jerwis. »). Articles générés et fiches du lexique : leur en-tête court est remplacé par le menu commun (+ nav-v2.css/js). Pages anglaises : menu et pied de référence imposés (la traduction du robot repasse par le script, étape ajoutée à `blog-autopilot.yml`). `seo-unify-nav.js`, `build-lexique.js` et `build-podcast-page.js` produisent le nouveau style.
+- **P4** : `bandeau-kzumi.js` : barre jaune, lien de menu en pastille jaune, blocs « Mon autre projet » en autocollant jaune penché (HTML, plus d'image) ; vertical de la marge inchangé ; mêmes `utm_medium`.
+- **P7** : `article.css` v3 (même HTML) : ouverture claire centrée, fin du titre en italique soulignée, fiche « En 30 secondes », intertitres « § 01 », lettrine, prompts en ticket, notes avec l'étoile d'éperon, lettre de fin ; classe `rv-page` + `?v=20261102` sur 116 pages d'articles (générés FR/EN + `_TEMPLATE.html`). Les 18 articles faits main gardent leur corps (en-tête et pied neufs).
+- **P8** : sommaire numéroté « § 01 » avec barre de lecture tricolore et « x % lu » (`article-toc.js/.css`), pastilles de la barre IA (`ai-summarize.css`), sur les pages `rv-page` seulement.
+
+### Vérifié
+- Script relancé : 0 page modifiée (idempotent). Générateurs : même sortie que les pages posées. Captures 390 / 1 024 / 1 440 px, clair et sombre (en sombre, les pages refaites restent claires, l'en-tête et le pied des autres pages passent en sombre). Liens du menu et du pied en 200.
+
+### Reste
+- Temps 2 (accueil FR/EN), version sombre (P9), autres pages par lots (P10), reprise des 18 articles faits main.
+
 ## 2026-11-02 · Mieux apprendre Claude et les IA (P1 à P10)
 
 ### Pourquoi

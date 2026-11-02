@@ -2,6 +2,7 @@ import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import process from "node:process";
+import { habillerHtml } from "./revue-entete-pied.mjs";
 
 const ROOT = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const SITE_URL = "https://jerwis.fr";
@@ -467,7 +468,7 @@ async function updateHub(data) {
     /<!-- Schema\.org : DefinedTermSet \(glossaire\) -->\n<script type="application\/ld\+json">[\s\S]*?<\/script>/,
     renderDefinedTermSet(data),
   );
-  await writeFile(HUB_PATH, html);
+  await writeFile(HUB_PATH, habillerHtml(html, "lexique.html").t);
 }
 
 async function cleanupGeneratedPages() {
@@ -485,7 +486,7 @@ async function writeTermPages(data) {
   await cleanupGeneratedPages();
   const pageTerms = data.terms.filter((term) => term.page);
   await Promise.all(pageTerms.map((term) => (
-    writeFile(join(OUT_DIR, `${term.slug}.html`), renderTermPage(term, data.terms))
+    writeFile(join(OUT_DIR, `${term.slug}.html`), habillerHtml(renderTermPage(term, data.terms), `lexique/${term.slug}.html`).t)
   )));
   return pageTerms;
 }

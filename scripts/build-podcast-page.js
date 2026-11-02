@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { escapeHtml, formatDurationMMSS } from './test-helpers.js';
+import { habillerHtml } from './revue-entete-pied.mjs';
 
 const ROOT = process.cwd();
 const DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/episodes.json'), 'utf8'));
@@ -621,5 +622,5 @@ const html = `<!DOCTYPE html>
 </html>
 `;
 
-fs.writeFileSync(OUT, html, 'utf8');
+fs.writeFileSync(OUT, habillerHtml(html, 'podcast.html').t, 'utf8');
 console.log(`[page] ✓ ${OUT} (${html.length} chars)`);

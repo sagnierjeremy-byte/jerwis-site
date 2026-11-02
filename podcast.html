@@ -168,6 +168,7 @@
 <link rel="preload" as="image" href="/podcast/covers/serie.webp" type="image/webp">
 
 <link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/revue.css?v=20261102">
 <link rel="stylesheet" href="assets/main.css">
 
 <style>
@@ -727,14 +728,10 @@
 
 <!-- Mini-nav Jerwis v2 -->
 <!-- NAV-UNIFIED-START -->
-<nav class="mini-nav" aria-label="Navigation principale">
-  <a class="brand brand-stamp" href="/" aria-label="Accueil Jerwis">
-    <span class="stamp">
-      <span class="stamp-kicker">PAR JEREMY SAGNIER</span>
-      <span class="stamp-word">JERWIS</span>
-      <span class="stamp-bar"><span></span><span></span><span></span></span>
-    </span>
-  </a>
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
   <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
     <span class="burger-icon" aria-hidden="true"></span>
   </button>
@@ -742,7 +739,7 @@
     <a href="/apprendre">Apprendre</a>
     <a href="/articles">Articles</a>
     <a href="/podcast">Podcast</a>
-    <a href="/#newsletters">Newsletter</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
     <div class="more-wrap">
       <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
         Plus
@@ -1015,96 +1012,39 @@
 </main>
 
 <!-- Footer (structure identique aux autres pages du site) -->
-<footer class="footer" id="contact">
-  <div class="container">
-
-    <!-- Newsletter inline -->
-    <div class="footer-newsletter">
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
       <div>
-        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
-        <h3>1 mail par semaine.<br>Ce que je teste <em>vraiment.</em></h3>
-        <p>Mes vrais usages IA, les outils que j'achète/garde/jette, mes articles dès qu'ils sortent. Pas de récap d'actu, pas de blabla.</p>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
       </div>
       <form class="newsletter-form" data-source="footer">
-        <input type="email" name="email" placeholder="ton@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Adresse email">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-        <button type="submit">M'inscrire</button>
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
       </form>
     </div>
-
-    <div class="footer-grid">
-
-      <div class="footer-brand">
-        <h3>Jérémy Sagnier</h3>
-        <p>
-          Une question, un doute, une critique ? <strong>Écris-moi — je lis tout, je réponds à tout.</strong>
-        </p>
-      </div>
-
-      <div class="footer-col">
-        <h5>Apprendre</h5>
-        <ul>
-          <li><a href="/apprendre">Parcours débutant</a></li>
-          <li><a href="/claude-code">Guide Claude Code</a></li>
-          <li><a href="/articles">Tous les articles</a></li>
-          <li><a href="/lexique">Lexique IA</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h5>Produits &amp; outils</h5>
-        <ul>
-          <li><a href="/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Générateur photos · 39 €</a></li>
-          <li><a href="/outils">Ma stack outils</a></li>
-          <li><a href="/podcast">Podcast Guerres d'IA</a></li>
-          <li><a href="/github">Mon GitHub</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h5>Suivre</h5>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
-          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
-          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h5>Direct</h5>
-        <ul>
-          <li><a href="mailto:jeremy.sagnier@jerwis.fr">Email</a></li>
-          <li><a href="/index#newsletters">Newsletters</a></li>
-          <li><a href="/preferences">Préférences</a></li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2026 · Jérémy Sagnier · Fait avec du café</span>
-      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
-        <span style="display:inline-flex; gap:3px">
-          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
-          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
-          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
-        </span>
-        Fiesta · 89
-      </span>
-    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
   </div>
-
-  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
   <script>
-    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+    document.querySelectorAll('.rv-pied .newsletter-form').forEach(function(form) {
       if (form.dataset.attached === '1') return;
       form.dataset.attached = '1';
       form.addEventListener('submit', async function(e) {
         e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
         var emailEl = form.querySelector('input[name="email"]');
         var btn = form.querySelector('button[type="submit"]');
-        var email = (emailEl?.value || '').trim();
+        var email = (emailEl.value || '').trim();
         var originalText = btn.textContent;
         btn.disabled = true;
         btn.textContent = '...';
@@ -1115,10 +1055,10 @@
             body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
           });
           if (!res.ok) throw new Error('HTTP ' + res.status);
-          btn.textContent = '✓ Merci';
+          btn.textContent = btn.dataset.ok;
           setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
         } catch (err) {
-          btn.textContent = '× Erreur';
+          btn.textContent = btn.dataset.ko;
           setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
         }
       });
