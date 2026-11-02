@@ -52,6 +52,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le plus puissant d'OpenAI pour les travaux les plus exigeants. Cher, garde-le pour les tâches vraiment difficiles. Dans ChatGPT, il est réservé aux offres payantes.",
+      "leo_take_en": "OpenAI's most powerful model for the most demanding work. It's expensive, so keep it for truly hard tasks. In ChatGPT, it's only on paid plans.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-6-astra",
         "https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940",
@@ -61,9 +62,17 @@
         "ta tâche est vraiment difficile",
         "tu construis des agents ou des workflows complexes"
       ],
+      "choose_if_en": [
+        "your task is really hard",
+        "you build agents or complex workflows"
+      ],
       "avoid_if": [
         "ton budget est le critère numéro un",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "budget is your number one criterion",
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "current",
@@ -104,6 +113,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Presque aussi fort qu'Astra pour cinq fois moins cher. Le bon choix par défaut chez OpenAI pour le code et les agents. Dans ChatGPT, tu le trouves dans ChatGPT Work et Codex, dès l'offre Plus.",
+      "leo_take_en": "Almost as strong as Astra for a fifth of the price. The right default at OpenAI for code and agents. In ChatGPT, you'll find it in ChatGPT Work and Codex, from the Plus plan up.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
         "https://developers.openai.com/api/docs/models",
@@ -114,8 +124,15 @@
         "tu codes ou tu construis des agents",
         "tu veux le bon rapport force et prix chez OpenAI"
       ],
+      "choose_if_en": [
+        "you code or build agents",
+        "you want the best power for the price at OpenAI"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "current",
@@ -160,6 +177,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle rapide d'OpenAI pour piloter un ordinateur, lire des images et bien écrire, à petit prix.",
+      "leo_take_en": "OpenAI's fast model for driving a computer, reading images and writing well, at a low price.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
         "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
@@ -169,9 +187,17 @@
         "tu veux un agent rapide qui utilise un ordinateur",
         "tu veux un bon modèle pas cher chez OpenAI"
       ],
+      "choose_if_en": [
+        "you want a fast agent that uses a computer",
+        "you want a good, cheap model at OpenAI"
+      ],
       "avoid_if": [
         "ta tâche demande le maximum de raisonnement",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "your task needs maximum reasoning",
+        "you want to run everything locally"
       ],
       "jerwis_score": 84,
       "freshness_status": "current",
@@ -210,6 +236,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le petit modèle pas cher d'OpenAI, pour les tâches simples et répétées. Tu peux l'essayer gratuitement dans l'appli de bureau ChatGPT.",
+      "leo_take_en": "OpenAI's small, cheap model for simple, repeated tasks. You can try it for free in the ChatGPT desktop app.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-6-luna",
         "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
@@ -219,8 +246,15 @@
         "tu veux essayer OpenAI sans payer",
         "tu traites beaucoup de tâches simples"
       ],
+      "choose_if_en": [
+        "you want to try OpenAI without paying",
+        "you handle lots of simple tasks"
+      ],
       "avoid_if": [
         "ta tâche demande un raisonnement difficile"
+      ],
+      "avoid_if_en": [
+        "your task needs hard reasoning"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -262,6 +296,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Le choix premium quand tu veux un assistant très fort partout, surtout agents et code. Remplacé par GPT-6.1 Sol depuis septembre 2026.",
+      "leo_take_en": "The premium pick when you want a very strong assistant everywhere, especially for agents and code. Replaced by GPT-6.1 Sol since September 2026.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-5.5/",
         "https://platform.openai.com/docs/pricing",
@@ -271,9 +306,17 @@
         "tu veux le maximum de capacité générale",
         "tu construis des agents ou workflows complexes"
       ],
+      "choose_if_en": [
+        "you want maximum general capability",
+        "you build agents or complex workflows"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local",
         "ton budget est le critère numéro un"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally",
+        "budget is your number one criterion"
       ],
       "jerwis_score": 88,
       "freshness_status": "replaced",
@@ -311,6 +354,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Très bon généraliste si tu veux rester dans l'écosystème OpenAI sans prendre le modèle le plus cher. Remplacé par GPT-6.1 Sol depuis septembre 2026, ou par GPT-6 Luna pour les petites tâches.",
+      "leo_take_en": "A very good all-rounder if you want to stay with OpenAI without taking the most expensive model. Replaced by GPT-6.1 Sol since September 2026, or by GPT-6 Luna for small tasks.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-5.4/",
         "https://platform.openai.com/docs/models",
@@ -319,8 +363,14 @@
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 84,
       "freshness_status": "replaced",
@@ -356,6 +406,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "À regarder si ton sujet principal est le code ou un agent qui modifie un repo. Remplacé par GPT-6.1 Sol. Il s'arrête dans l'API le 1er avril 2027.",
+      "leo_take_en": "Worth a look if your main topic is code or an agent that edits a repo. Replaced by GPT-6.1 Sol. It shuts down in the API on April 1, 2027.",
       "sources": [
         "https://platform.openai.com/docs/codex",
         "https://platform.openai.com/docs/models",
@@ -364,8 +415,14 @@
       "choose_if": [
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 82,
       "freshness_status": "replaced",
@@ -404,6 +461,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle que conseille Anthropic pour démarrer. Très fort en code et en agents, et un peu moins cher qu'Opus 4.6. Il est inclus dans Claude Pro, pas dans l'offre gratuite.",
+      "leo_take_en": "The model Anthropic recommends to start with. Very strong at code and agents, and a bit cheaper than Opus 4.6. It's included in Claude Pro, not in the free plan.",
       "sources": [
         "https://platform.claude.com/docs/en/models/overview",
         "https://www.anthropic.com/news/claude-opus-5-5",
@@ -413,9 +471,17 @@
         "tu as une tâche longue, difficile ou du code à écrire",
         "tu veux le meilleur Claude du quotidien sans passer à Fable"
       ],
+      "choose_if_en": [
+        "you have a long, hard task or code to write",
+        "you want the best everyday Claude without moving up to Fable"
+      ],
       "avoid_if": [
         "tu utilises seulement l'offre gratuite de Claude",
         "tu traites beaucoup de petites tâches simples"
+      ],
+      "avoid_if_en": [
+        "you only use Claude's free plan",
+        "you handle lots of small, simple tasks"
       ],
       "jerwis_score": 90,
       "freshness_status": "current",
@@ -458,6 +524,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le plus puissant de Claude pour les gros raisonnements et les longues missions d'agent. Lent et cher, garde-le pour les cas durs. Anthropic conseille de partir d'Opus 5.5 et de passer à Fable seulement si ça ne suffit pas.",
+      "leo_take_en": "Claude's most powerful model for heavy reasoning and long agent missions. Slow and expensive, so keep it for the hard cases. Anthropic advises starting with Opus 5.5 and moving to Fable only if that isn't enough.",
       "sources": [
         "https://platform.claude.com/docs/en/models/fable-5-1/overview",
         "https://claude.com/pricing"
@@ -466,9 +533,17 @@
         "Opus 5.5 ne suffit pas pour ta tâche",
         "tu lances une longue mission d'agent"
       ],
+      "choose_if_en": [
+        "Opus 5.5 isn't enough for your task",
+        "you're running a long agent mission"
+      ],
       "avoid_if": [
         "tu veux un assistant du quotidien",
         "ton budget est le critère numéro un"
+      ],
+      "avoid_if_en": [
+        "you want an everyday assistant",
+        "budget is your number one criterion"
       ],
       "jerwis_score": 88,
       "freshness_status": "current",
@@ -508,6 +583,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Même puissance que Fable 5.1, mais réservé aux organisations vérifiées par Anthropic, en cybersécurité par exemple. Sans ce programme de vérification, tu ne peux pas t'en servir.",
+      "leo_take_en": "Same power as Fable 5.1, but reserved for organizations vetted by Anthropic, in cybersecurity for example. Without that vetting program, you can't use it.",
       "sources": [
         "https://platform.claude.com/docs/en/models/fable-5-1/overview",
         "https://platform.claude.com/docs/en/about-claude/pricing"
@@ -515,9 +591,16 @@
       "choose_if": [
         "ton organisation est acceptée dans le programme de vérification d'Anthropic"
       ],
+      "choose_if_en": [
+        "your organization is accepted into Anthropic's vetting program"
+      ],
       "avoid_if": [
         "tu cherches un assistant pour toi",
         "tu n'as pas d'accès validé par Anthropic"
+      ],
+      "avoid_if_en": [
+        "you're looking for a personal assistant",
+        "you don't have access approved by Anthropic"
       ],
       "jerwis_score": 70,
       "freshness_status": "current",
@@ -558,6 +641,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Le Claude premium pour dossiers longs, décisions difficiles et gros travaux de code. Puissant, mais à réserver aux tâches qui le méritent. Remplacé par Claude Opus 5.5 depuis septembre 2026. Il reste disponible comme ancien modèle.",
+      "leo_take_en": "The premium Claude for long files, hard decisions and big coding jobs. Powerful, but keep it for tasks that deserve it. Replaced by Claude Opus 5.5 since September 2026. It's still available as a legacy model.",
       "sources": [
         "https://claude.com/blog/1m-context-ga",
         "https://platform.claude.com/docs/en/about-claude/models/overview",
@@ -567,9 +651,17 @@
         "tu as une tâche longue, coûteuse ou difficile",
         "tu dois analyser beaucoup de documents ou de code"
       ],
+      "choose_if_en": [
+        "you have a long, costly or hard task",
+        "you need to analyze lots of documents or code"
+      ],
       "avoid_if": [
         "tu veux juste un assistant quotidien",
         "ton budget est le critère numéro un"
+      ],
+      "avoid_if_en": [
+        "you just want an everyday assistant",
+        "budget is your number one criterion"
       ],
       "jerwis_score": 86,
       "freshness_status": "replaced",
@@ -606,6 +698,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le meilleur compromis vitesse et intelligence chez Claude, et tu l'as même dans l'offre gratuite. Le bon choix pour écrire, résumer et travailler au quotidien. En API, il coûte moins cher que Sonnet 4.6.",
+      "leo_take_en": "Claude's best balance of speed and intelligence, and you even get it on the free plan. The right pick for writing, summarizing and everyday work. In the API, it costs less than Sonnet 4.6.",
       "sources": [
         "https://platform.claude.com/docs/en/models/overview",
         "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -615,8 +708,15 @@
         "tu veux un assistant fiable au quotidien",
         "tu veux commencer gratuitement avec Claude"
       ],
+      "choose_if_en": [
+        "you want a reliable everyday assistant",
+        "you want to start with Claude for free"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 92,
       "freshness_status": "current",
@@ -658,6 +758,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Mon choix par défaut pour écrire, structurer une idée, relire un dossier et travailler proprement au quotidien. Remplacé par Claude Sonnet 5.5 depuis septembre 2026. Il reste disponible comme ancien modèle.",
+      "leo_take_en": "My default pick for writing, shaping an idea, reviewing a file and doing clean everyday work. Replaced by Claude Sonnet 5.5 since September 2026. It's still available as a legacy model.",
       "sources": [
         "https://claude.com/blog/1m-context-ga",
         "https://platform.claude.com/docs/en/about-claude/models/overview",
@@ -667,8 +768,15 @@
         "tu veux un assistant fiable au quotidien",
         "tu écris, analyses et codes dans la même semaine"
       ],
+      "choose_if_en": [
+        "you want a reliable everyday assistant",
+        "you write, analyze and code in the same week"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "replaced",
@@ -705,6 +813,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le plus rapide et le moins cher de Claude. Idéal pour trier, extraire ou résumer beaucoup de textes. Sur les prompts courts, il coûte dix fois moins cher que Haiku 4.5.",
+      "leo_take_en": "Claude's fastest and cheapest model. Ideal for sorting, extracting or summarizing lots of text. On short prompts, it costs ten times less than Haiku 4.5.",
       "sources": [
         "https://platform.claude.com/docs/en/models/overview",
         "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -714,9 +823,17 @@
         "tu traites beaucoup de petits textes",
         "tu veux un chatbot rapide et peu cher"
       ],
+      "choose_if_en": [
+        "you process lots of short texts",
+        "you want a fast, inexpensive chatbot"
+      ],
       "avoid_if": [
         "ta tâche demande un raisonnement difficile",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "your task needs hard reasoning",
+        "you want to run everything locally"
       ],
       "jerwis_score": 84,
       "freshness_status": "current",
@@ -757,6 +874,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Bon modèle d'automatisation quand tu veux résumer, classer ou traiter beaucoup de petits contenus. Remplacé par Claude Haiku 5.5 depuis octobre 2026. Il reste disponible comme ancien modèle.",
+      "leo_take_en": "A good automation model when you want to summarize, sort or process lots of small pieces of content. Replaced by Claude Haiku 5.5 since October 2026. It's still available as a legacy model.",
       "sources": [
         "https://platform.claude.com/docs/en/about-claude/models/overview",
         "https://platform.claude.com/docs/en/models/overview"
@@ -764,8 +882,14 @@
       "choose_if": [
         "tu as un cas proche de ses points forts"
       ],
+      "choose_if_en": [
+        "your use case is close to its strengths"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "replaced",
@@ -802,6 +926,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le nouveau modèle phare de Google, très fort en raisonnement. Dans l'appli Gemini, il faut Google AI Pro ou Ultra. En API, le prix de lancement double le 1er décembre 2026.",
+      "leo_take_en": "Google's new flagship model, very strong at reasoning. In the Gemini app, you need Google AI Pro or Ultra. In the API, the launch price doubles on December 1, 2026.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing",
@@ -812,9 +937,17 @@
         "tu as un raisonnement difficile ou un gros dossier",
         "tu travailles déjà avec les outils Google"
       ],
+      "choose_if_en": [
+        "you have hard reasoning or a big file",
+        "you already work with Google tools"
+      ],
       "avoid_if": [
         "tu utilises seulement l'offre gratuite de Gemini",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you only use Gemini's free plan",
+        "you want to run everything locally"
       ],
       "jerwis_score": 88,
       "freshness_status": "current",
@@ -851,6 +984,7 @@
       "maturity": "preview",
       "status": "active",
       "leo_take": "Le plus fort de Google en code et en cybersécurité, mais réservé pour l'instant à des experts en sécurité. Google promet de l'ouvrir aux développeurs et au grand public, sans donner de date.",
+      "leo_take_en": "Google's strongest model for code and cybersecurity, but for now it's reserved for security experts. Google promises to open it to developers and the public, without giving a date.",
       "sources": [
         "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
         "https://deepmind.google/models/"
@@ -858,8 +992,14 @@
       "choose_if": [
         "tu fais partie des experts en sécurité invités par Google"
       ],
+      "choose_if_en": [
+        "you're one of the security experts invited by Google"
+      ],
       "avoid_if": [
         "tu veux t'en servir dès aujourd'hui pour ton travail"
+      ],
+      "avoid_if_en": [
+        "you want to use it for your work today"
       ],
       "jerwis_score": 70,
       "freshness_status": "preview",
@@ -901,6 +1041,7 @@
       "maturity": "preview",
       "status": "replaced",
       "leo_take": "À tester quand ton besoin mélange gros documents, images, audio, vidéo et outils Google. Remplacé par Gemini 4 Argon depuis octobre 2026. Il reste listé dans l'API.",
+      "leo_take_en": "Worth testing when your need mixes big documents, images, audio, video and Google tools. Replaced by Gemini 4 Argon since October 2026. It's still listed in the API.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -909,9 +1050,17 @@
         "tu analyses beaucoup de documents ou fichiers multimodaux",
         "tu travailles déjà avec les outils Google"
       ],
+      "choose_if_en": [
+        "you analyze lots of documents or multimodal files",
+        "you already work with Google tools"
+      ],
       "avoid_if": [
         "tu veux une version ultra stable",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want a rock-solid version",
+        "you want to run everything locally"
       ],
       "jerwis_score": 78,
       "freshness_status": "replaced",
@@ -948,6 +1097,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le Flash le plus malin de Google, pensé pour le code et les agents en gros volume. Son prix de lancement double à partir du 1er janvier 2027.",
+      "leo_take_en": "Google's smartest Flash, built for code and agents at high volume. Its launch price doubles from January 1, 2027.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -956,9 +1106,17 @@
         "tu veux résumer, classer ou automatiser vite",
         "tu codes avec des agents en volume"
       ],
+      "choose_if_en": [
+        "you want to summarize, sort or automate quickly",
+        "you code with agents at volume"
+      ],
       "avoid_if": [
         "tu veux la meilleure qualité sur une décision difficile",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want the best quality on a hard decision",
+        "you want to run everything locally"
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
@@ -998,6 +1156,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le Gemini le plus rapide et le moins cher, pour les gros volumes de tâches simples. Un bon point de départ pour un chatbot sur ton site.",
+      "leo_take_en": "The fastest and cheapest Gemini, for large volumes of simple tasks. A good starting point for a chatbot on your website.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -1006,8 +1165,15 @@
         "tu as beaucoup de tâches simples à traiter",
         "tu veux un chatbot rapide et pas cher"
       ],
+      "choose_if_en": [
+        "you have lots of simple tasks to handle",
+        "you want a fast, cheap chatbot"
+      ],
       "avoid_if": [
         "ta tâche demande un raisonnement difficile"
+      ],
+      "avoid_if_en": [
+        "your task needs hard reasoning"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -1048,6 +1214,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Le bon réflexe Google pour aller vite, traiter du volume et garder un coût raisonnable. Remplacé par Gemini 3.8 Flash. Il n'est plus dans la liste des modèles de l'API.",
+      "leo_take_en": "The go-to Google pick for speed, volume and a reasonable cost. Replaced by Gemini 3.8 Flash. It's no longer in the API's model list.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -1056,9 +1223,17 @@
         "tu veux résumer, classer ou automatiser vite",
         "tu as besoin de comprendre texte, images ou audio"
       ],
+      "choose_if_en": [
+        "you want to summarize, sort or automate quickly",
+        "you need to understand text, images or audio"
+      ],
       "avoid_if": [
         "tu veux la meilleure qualité sur une décision difficile",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want the best quality on a hard decision",
+        "you want to run everything locally"
       ],
       "jerwis_score": 84,
       "freshness_status": "replaced",
@@ -1095,6 +1270,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le meilleur Grok du moment, bon en code. Attention, son contexte est deux fois plus court et son prix plus élevé que Grok 4.3. Je reste prudent pour les usages de marque.",
+      "leo_take_en": "The best Grok right now, good at code. Careful, its context is half as long and its price higher than Grok 4.3. I stay cautious for brand use.",
       "sources": [
         "https://docs.x.ai/developers/grok-4-7",
         "https://docs.x.ai/docs/models"
@@ -1102,9 +1278,16 @@
       "choose_if": [
         "tu veux tester le meilleur Grok du moment sur du code"
       ],
+      "choose_if_en": [
+        "you want to test the best current Grok on code"
+      ],
       "avoid_if": [
         "tu dois protéger une image de marque stricte",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you must protect a strict brand image",
+        "you want to run everything locally"
       ],
       "jerwis_score": 82,
       "freshness_status": "current",
@@ -1144,6 +1327,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le premier modèle de pointe de Meta, fermé et pensé pour les agents. Rien à voir avec les Llama gratuits. Prix à vérifier, Meta ne le donne pas sur sa page.",
+      "leo_take_en": "Meta's first frontier model, closed and built for agents. Nothing to do with the free Llama models. Price to check, Meta doesn't list it on its page.",
       "sources": [
         "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
         "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
@@ -1151,9 +1335,16 @@
       "choose_if": [
         "tu veux comparer un nouveau modèle d'agent aux leaders"
       ],
+      "choose_if_en": [
+        "you want to compare a new agent model with the leaders"
+      ],
       "avoid_if": [
         "tu cherches un modèle ouvert comme Llama",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you're looking for an open model like Llama",
+        "you want to run everything locally"
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
@@ -1194,6 +1385,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Intéressant pour le temps réel et X, mais je serais prudent sur les usages de marque. Remplacé par Grok 4.7. Il reste dans l'API, moins cher et avec un contexte plus long.",
+      "leo_take_en": "Interesting for real-time and X, but I'd be careful with brand use. Replaced by Grok 4.7. It's still in the API, cheaper and with a longer context.",
       "sources": [
         "https://docs.x.ai/developers/models",
         "https://docs.x.ai/docs/models"
@@ -1201,9 +1393,16 @@
       "choose_if": [
         "tu as un cas proche de ses points forts"
       ],
+      "choose_if_en": [
+        "your use case is close to its strengths"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local",
         "tu dois protéger une image de marque stricte"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally",
+        "you must protect a strict brand image"
       ],
       "jerwis_score": 80,
       "freshness_status": "replaced",
@@ -1241,6 +1440,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le grand modèle européen, à poids ouverts et pas cher en API. Trop lourd pour tourner sur ton ordi, mais tu peux l'héberger sur un serveur. Lis sa licence avant de le revendre en service.",
+      "leo_take_en": "The big European model, with open weights and cheap in the API. Too heavy to run on your computer, but you can host it on a server. Read its license before reselling it as a service.",
       "sources": [
         "https://mistral.ai/news/mistral-large-4-oss/",
         "https://docs.mistral.ai/models/mistral-large-4",
@@ -1250,8 +1450,15 @@
         "tu veux un modèle européen sérieux",
         "tu veux des poids ouverts sans payer cher l'API"
       ],
+      "choose_if_en": [
+        "you want a serious European model",
+        "you want open weights without paying a lot for the API"
+      ],
       "avoid_if": [
         "tu veux le faire tourner sur ton ordinateur"
+      ],
+      "avoid_if_en": [
+        "you want to run it on your computer"
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
@@ -1292,6 +1499,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Alternative européenne sérieuse pour code, agents et documents. Remplacé par Mistral Large 4. Mistral l’a déprécié le 31 octobre 2026, il sera retiré le 30 avril 2027.",
+      "leo_take_en": "A serious European alternative for code, agents and documents. Replaced by Mistral Large 4. Mistral deprecated it on October 31, 2026, and it will be removed on April 30, 2027.",
       "sources": [
         "https://docs.mistral.ai/models/overview",
         "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
@@ -1301,8 +1509,15 @@
         "tu travailles sur du code ou des agents",
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you work on code or agents",
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 84,
       "freshness_status": "replaced",
@@ -1341,6 +1556,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle de Cohere pour les entreprises, ouvert, multilingue et léger à héberger. Il lit aussi les images. Prix de l'API à vérifier.",
+      "leo_take_en": "Cohere's model for businesses, open, multilingual and light to host. It also reads images. API price to check.",
       "sources": [
         "https://docs.cohere.com/changelog/command-a-plus-05-2026",
         "https://cohere.com/blog/command-a-plus"
@@ -1349,8 +1565,15 @@
         "tu cherches dans des documents d'entreprise",
         "tu veux un modèle ouvert à héberger toi-même"
       ],
+      "choose_if_en": [
+        "you search through company documents",
+        "you want an open model to host yourself"
+      ],
       "avoid_if": [
         "tu veux un assistant grand public"
+      ],
+      "avoid_if_en": [
+        "you want a consumer assistant"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -1391,6 +1614,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Moins grand public, très pertinent si ton sujet est la recherche dans des documents d'entreprise. Command A+ est maintenant le dernier modèle de la famille Command A.",
+      "leo_take_en": "Less mainstream, very relevant if your topic is search across company documents. Command A+ is now the latest model in the Command A family.",
       "sources": [
         "https://docs.cohere.com/v2/docs/models",
         "https://docs.cohere.com/docs/command-a",
@@ -1399,8 +1623,14 @@
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 78,
       "freshness_status": "replaced",
@@ -1438,6 +1668,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Bon quand la réponse doit citer le web, pas seulement réfléchir dans le vide. Depuis juillet 2026, l'API Sonar s'appelle l'Agent API de Perplexity.",
+      "leo_take_en": "Good when the answer must cite the web, not just think in a vacuum. Since July 2026, the Sonar API is called Perplexity's Agent API.",
       "sources": [
         "https://docs.perplexity.ai/docs/getting-started/pricing",
         "https://docs.perplexity.ai/docs/sonar/models/sonar-pro",
@@ -1447,8 +1678,15 @@
         "tu veux des réponses avec sources web",
         "tu fais de la veille ou de la recherche rapide"
       ],
+      "choose_if_en": [
+        "you want answers with web sources",
+        "you do monitoring or quick research"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -1486,6 +1724,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle très pas cher de DeepSeek, avec 1M de contexte et la lecture d'images. Son prix change selon l'heure, il coûte moins cher hors heures de pointe.",
+      "leo_take_en": "DeepSeek's very cheap model, with a 1M context and image reading. Its price changes with the time of day, it costs less outside peak hours.",
       "sources": [
         "https://api-docs.deepseek.com/quick_start/pricing",
         "https://docs.mistral.ai/getting-started/models/models_overview/"
@@ -1494,8 +1733,15 @@
         "tu dois traiter beaucoup de volume",
         "le coût API est ton critère principal"
       ],
+      "choose_if_en": [
+        "you need to process a lot of volume",
+        "API cost is your main criterion"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "current",
@@ -1535,6 +1781,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le gros modèle de DeepSeek, avec un très bon rapport qualité prix. Il ne lit pas les images.",
+      "leo_take_en": "DeepSeek's big model, with very good value for money. It doesn't read images.",
       "sources": [
         "https://api-docs.deepseek.com/quick_start/pricing"
       ],
@@ -1542,9 +1789,17 @@
         "tu veux un modèle fort sans payer le prix des leaders",
         "tu travailles surtout sur du texte et du code"
       ],
+      "choose_if_en": [
+        "you want a strong model without paying leader prices",
+        "you mostly work on text and code"
+      ],
       "avoid_if": [
         "tu dois lui donner des images",
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you need to give it images",
+        "you want to run everything locally"
       ],
       "jerwis_score": 88,
       "freshness_status": "current",
@@ -1583,6 +1838,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Très agressif sur le coût. Je le testerais pour les traitements en volume. Remplacé par DeepSeek V4.1 Flash. L'ancien nom est retiré de l'API et renvoie vers le nouveau.",
+      "leo_take_en": "Very aggressive on cost. I'd test it for high-volume processing. Replaced by DeepSeek V4.1 Flash. The old name is removed from the API and points to the new one.",
       "sources": [
         "https://api-docs.deepseek.com/quick_start/pricing/",
         "https://api-docs.deepseek.com/quick_start/pricing"
@@ -1591,8 +1847,15 @@
         "tu dois traiter beaucoup de volume",
         "le coût API est ton critère principal"
       ],
+      "choose_if_en": [
+        "you need to process a lot of volume",
+        "API cost is your main criterion"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "replaced",
@@ -1628,6 +1891,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle phare d'Alibaba pour le raisonnement et le code, en API seulement. Son prix reste à vérifier sur la page d'Alibaba.",
+      "leo_take_en": "Alibaba's flagship model for reasoning and code, API only. Its price is still to check on Alibaba's page.",
       "sources": [
         "https://www.alibabacloud.com/help/en/model-studio/models"
       ],
@@ -1635,8 +1899,15 @@
         "tu travailles sur du code ou des agents",
         "l'anglais et le chinois comptent pour toi"
       ],
+      "choose_if_en": [
+        "you work on code or agents",
+        "English and Chinese matter to you"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "current",
@@ -1676,6 +1947,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Très bon rapport prix/performance, surtout si l'anglais et le chinois comptent. Remplacé par Qwen3.8-Max, le nouveau modèle phare d'Alibaba.",
+      "leo_take_en": "Very good value for money, especially if English and Chinese matter. Replaced by Qwen3.8-Max, Alibaba's new flagship model.",
       "sources": [
         "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
         "https://www.alibabacloud.com/help/doc-detail/2840914.html",
@@ -1684,8 +1956,14 @@
       "choose_if": [
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 90,
       "freshness_status": "replaced",
@@ -1724,6 +2002,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "À regarder si toute ta stack tourne déjà sur AWS.",
+      "leo_take_en": "Worth a look if your whole stack already runs on AWS.",
       "sources": [
         "https://docs.aws.amazon.com/nova/latest/nova2-userguide/what-is-nova-2.html",
         "https://aws.amazon.com/bedrock/pricing/"
@@ -1731,8 +2010,14 @@
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -1769,6 +2054,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle d'Apple refait de zéro, qui tourne sur ton iPhone et comprend maintenant les images. Une brique privée pour les apps Apple, pas un concurrent de GPT.",
+      "leo_take_en": "Apple's model rebuilt from scratch, which runs on your iPhone and now understands images. A private building block for Apple apps, not a GPT competitor.",
       "sources": [
         "https://developer.apple.com/videos/play/wwdc2026/241/",
         "https://www.macrumors.com/2026/06/09/apples-new-ai-contains-no-gemini/"
@@ -1776,8 +2062,14 @@
       "choose_if": [
         "tu crées une app Apple et tu veux une IA privée sur l’appareil"
       ],
+      "choose_if_en": [
+        "you're building an Apple app and want private on-device AI"
+      ],
       "avoid_if": [
         "tu veux un assistant généraliste très puissant"
+      ],
+      "avoid_if_en": [
+        "you want a very powerful general assistant"
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
@@ -1818,6 +2110,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Pas un concurrent direct de GPT. Plutôt une brique privée dans les apps Apple. Remplacé par la version 2026, refaite de zéro et présentée à la WWDC 2026.",
+      "leo_take_en": "Not a direct GPT competitor. More of a private building block inside Apple apps. Replaced by the 2026 version, rebuilt from scratch and shown at WWDC 2026.",
       "sources": [
         "https://developer.apple.com/apple-intelligence/",
         "https://developer.apple.com/documentation/FoundationModels",
@@ -1826,8 +2119,14 @@
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 72,
       "freshness_status": "replaced",
@@ -1865,6 +2164,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Poids ouverts et écosystème énorme, mais licence Meta à lire avant usage sérieux. Toujours le dernier Llama en novembre 2026. Meta mise maintenant sur ses modèles fermés Muse.",
+      "leo_take_en": "Open weights and a huge ecosystem, but read Meta's license before any serious use. Still the latest Llama in November 2026. Meta is now betting on its closed Muse models.",
       "sources": [
         "https://ai.meta.com/llama/get-started/",
         "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
@@ -1872,8 +2172,14 @@
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
@@ -1909,14 +2215,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "À surveiller pour les très longs contextes en open-weight. Toujours le dernier Llama en novembre 2026, la gamme ne bouge plus.",
+      "leo_take_en": "One to watch for very long contexts with open weights. Still the latest Llama in November 2026, the range isn't moving anymore.",
       "sources": [
         "https://ai.meta.com/llama/get-started/"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
@@ -1953,6 +2266,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Une des familles open les plus intéressantes si tu veux une licence permissive. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "One of the most interesting open families if you want a permissive license. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://huggingface.co/Qwen/Qwen3-235B-A22B",
         "https://qwen.ai/blog"
@@ -1961,8 +2275,15 @@
         "tu veux une option ouverte sérieuse",
         "la licence permissive compte pour toi"
       ],
+      "choose_if_en": [
+        "you want a serious open option",
+        "a permissive license matters to you"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 84,
       "freshness_status": "to_verify",
@@ -2001,6 +2322,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle ouvert que je mettrais en premier pour tester le local sans sortir l’artillerie lourde. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "The open model I'd try first to test local AI without bringing out the heavy artillery. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://huggingface.co/Qwen/Qwen3-14B",
         "https://qwen.ai/blog"
@@ -2009,9 +2331,17 @@
         "tu veux tester un modèle local crédible",
         "tu veux une licence permissive"
       ],
+      "choose_if_en": [
+        "you want to test a credible local model",
+        "you want a permissive license"
+      ],
       "avoid_if": [
         "tu veux le meilleur modèle du marché",
         "tu refuses toute configuration technique"
+      ],
+      "avoid_if_en": [
+        "you want the best model on the market",
+        "you refuse any technical setup"
       ],
       "jerwis_score": 82,
       "freshness_status": "to_verify",
@@ -2047,6 +2377,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "À comparer avec les modèles Codex/Claude si tu veux garder une option ouverte pour coder. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Compare it with the Codex and Claude models if you want to keep an open option for coding. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       ],
@@ -2054,8 +2385,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 84,
       "freshness_status": "to_verify",
@@ -2092,6 +2430,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle qui a rendu le raisonnement open-weight impossible à ignorer. À vérifier. L'API de DeepSeek ne sert plus que la famille V4, les poids restent téléchargeables.",
+      "leo_take_en": "The model that made open-weight reasoning impossible to ignore. Still to check. DeepSeek's API now only serves the V4 family, the weights can still be downloaded.",
       "sources": [
         "https://huggingface.co/deepseek-ai/DeepSeek-R1"
       ],
@@ -2099,8 +2438,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 84,
       "freshness_status": "to_verify",
@@ -2136,6 +2482,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Très bon candidat pour des workloads économiques avec poids ouverts. À vérifier. L'API de DeepSeek ne sert plus que la famille V4, les poids restent téléchargeables.",
+      "leo_take_en": "A very good candidate for budget workloads with open weights. Still to check. DeepSeek's API now only serves the V4 family, the weights can still be downloaded.",
       "sources": [
         "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
       ],
@@ -2143,8 +2490,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 84,
       "freshness_status": "to_verify",
@@ -2182,6 +2536,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Bon compromis européen si tu veux éviter le tout-propriétaire américain.",
+      "leo_take_en": "A good European middle ground if you want to avoid going all-in on American proprietary models.",
       "sources": [
         "https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03",
         "https://docs.mistral.ai/getting-started/models/weights/"
@@ -2190,8 +2545,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
@@ -2227,6 +2589,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "La piste Mistral pour du raisonnement ouvert. Retiré de l'API Mistral le 31 juillet 2026, Mistral Small 4 prend le relais.",
+      "leo_take_en": "Mistral's option for open reasoning. Removed from Mistral's API on July 31, 2026, Mistral Small 4 takes over.",
       "sources": [
         "https://docs.mistral.ai/getting-started/models/weights/",
         "https://docs.mistral.ai/getting-started/models/models_overview/"
@@ -2234,8 +2597,14 @@
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 80,
       "freshness_status": "replaced",
@@ -2272,14 +2641,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Très bon choix local si tu veux quelque chose de léger et propre côté licence.",
+      "leo_take_en": "A very good local choice if you want something light with a clean license.",
       "sources": [
         "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -2315,14 +2691,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Petit modèle sérieux pour tests locaux, tutos et usages embarqués. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "A serious small model for local tests, tutorials and embedded use. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WEF-2025_Leave-Behind_Phi-4.pdf"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 76,
       "freshness_status": "to_verify",
@@ -2358,6 +2741,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Puissant sur le papier pour longs contextes, mais pas un modèle de laptop. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Powerful on paper for long contexts, but not a laptop model. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://www.minimax.io/news/minimaxm1",
         "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k-hf"
@@ -2365,8 +2749,14 @@
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 80,
       "freshness_status": "to_verify",
@@ -2403,6 +2793,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle ouvert de Z.ai, sous licence MIT, avec 1M de contexte. À regarder pour les agents et le code en open-weight.",
+      "leo_take_en": "Z.ai's open model, under the MIT license, with a 1M context. Worth a look for agents and code with open weights.",
       "sources": [
         "https://docs.mistral.ai/getting-started/models/models_overview/",
         "https://docs.perplexity.ai/docs/resources/changelog"
@@ -2411,8 +2802,15 @@
         "tu veux un modèle ouvert sous licence simple",
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you want an open model with a simple license",
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur ton ordinateur"
+      ],
+      "avoid_if_en": [
+        "you want a light model on your computer"
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
@@ -2455,6 +2853,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Famille chinoise à surveiller pour agents et code open-weight. Remplacé par GLM 5.3.",
+      "leo_take_en": "A Chinese family to watch for agents and open-weight code. Replaced by GLM 5.3.",
       "sources": [
         "https://docs.z.ai/guides/llm/glm-4.6",
         "https://docs.mistral.ai/getting-started/models/models_overview/"
@@ -2463,8 +2862,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu travailles sur du code ou des agents"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you work on code or agents"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 84,
       "freshness_status": "replaced",
@@ -2504,6 +2910,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle ouvert de Nvidia qui lit les images, rapide et pensé pour les agents d'entreprise. À regarder si tu es déjà dans l'écosystème Nvidia.",
+      "leo_take_en": "Nvidia's open model that reads images, fast and built for business agents. Worth a look if you're already in the Nvidia ecosystem.",
       "sources": [
         "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
         "https://www.hpcwire.com/aiwire/2026/10/15/nvidia-expands-nemotron-family-with-highest-efficiency-super-vl-and-bolt-models/"
@@ -2512,8 +2919,15 @@
         "tu es déjà dans l'écosystème Nvidia",
         "tu construis des agents d'entreprise"
       ],
+      "choose_if_en": [
+        "you're already in the Nvidia ecosystem",
+        "you build business agents"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur ton ordinateur"
+      ],
+      "avoid_if_en": [
+        "you want a light model on your computer"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -2553,6 +2967,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Un modèle ouvert allemand, pensé en allemand et en anglais pour les administrations et l'industrie. Licence à vérifier sur sa page Hugging Face avant un usage commercial.",
+      "leo_take_en": "A German open model, designed in German and English for public administrations and industry. Check the license on its Hugging Face page before any commercial use.",
       "sources": [
         "https://aleph-alpha.com/en/news/kolibri-sovereign-ai-made-in-germany/",
         "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/"
@@ -2560,8 +2975,14 @@
       "choose_if": [
         "tu travailles en allemand ou pour une administration européenne"
       ],
+      "choose_if_en": [
+        "you work in German or for a European public body"
+      ],
       "avoid_if": [
         "tu as besoin avant tout du français"
+      ],
+      "avoid_if_en": [
+        "you need French above all"
       ],
       "jerwis_score": 74,
       "freshness_status": "current",
@@ -2602,6 +3023,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "À regarder si tu es déjà dans l'écosystème NVIDIA. Remplacé par Nemotron 3.5 Super VL en octobre 2026.",
+      "leo_take_en": "Worth a look if you're already in the NVIDIA ecosystem. Replaced by Nemotron 3.5 Super VL in October 2026.",
       "sources": [
         "https://developer.nvidia.com/nemotron",
         "https://research.nvidia.com/labs/nemotron/Nemotron-3/",
@@ -2610,8 +3032,14 @@
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu veux un modèle léger sur laptop"
+      ],
+      "avoid_if_en": [
+        "you want a light model on a laptop"
       ],
       "jerwis_score": 76,
       "freshness_status": "replaced",
@@ -2646,6 +3074,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Moins hype, mais précieux si tu veux comprendre et auditer un modèle ouvert. Remplacé par Olmo 3 et Olmo 3.1, sortis fin 2025.",
+      "leo_take_en": "Less hyped, but valuable if you want to understand and audit an open model. Replaced by Olmo 3 and Olmo 3.1, released in late 2025.",
       "sources": [
         "https://allenai.org/language-models",
         "https://arxiv.org/abs/2512.13961"
@@ -2653,8 +3082,14 @@
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 80,
       "freshness_status": "replaced",
@@ -2691,6 +3126,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le générateur d'images rapide de Google, meilleur que Nano Banana 2 et deux fois moins cher par image. Parfait pour tester plein de variantes avant de choisir.",
+      "leo_take_en": "Google's fast image generator, better than Nano Banana 2 and half the price per image. Perfect for testing lots of variations before you choose.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing",
@@ -2700,8 +3136,15 @@
         "tu veux tester beaucoup de variantes vite",
         "tu n'as pas besoin du rendu final premium"
       ],
+      "choose_if_en": [
+        "you want to test lots of variations fast",
+        "you don't need a premium final render"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 88,
       "freshness_status": "current",
@@ -2740,6 +3183,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La nouvelle génération d'images d'OpenAI, dans ChatGPT et en API. Sunburst soigne le détail, Flare va plus vite.",
+      "leo_take_en": "OpenAI's new generation of image models, in ChatGPT and in the API. Sunburst takes care of detail, Flare is faster.",
       "sources": [
         "https://developers.openai.com/api/docs/models",
         "https://developers.openai.com/api/docs/deprecations"
@@ -2748,8 +3192,15 @@
         "tu veux générer des visuels sans quitter ChatGPT",
         "tu veux choisir entre détail et vitesse"
       ],
+      "choose_if_en": [
+        "you want to make visuals without leaving ChatGPT",
+        "you want to choose between detail and speed"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 82,
       "freshness_status": "current",
@@ -2790,14 +3241,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le nouveau modèle de Black Forest Labs fait image, vidéo et son d'un seul coup. La vidéo est encore en accès anticipé et la version ouverte n'est pas encore sortie.",
+      "leo_take_en": "Black Forest Labs' new model makes image, video and sound in one go. Video is still in early access and the open version isn't out yet.",
       "sources": [
         "https://bfl.ai/blog/flux-3"
       ],
       "choose_if": [
         "tu veux une image et sa vidéo avec le même modèle"
       ],
+      "choose_if_en": [
+        "you want an image and its video from the same model"
+      ],
       "avoid_if": [
         "tu veux une version ouverte à faire tourner chez toi"
+      ],
+      "avoid_if_en": [
+        "you want an open version to run at home"
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
@@ -2837,6 +3295,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "À utiliser quand l'image finale compte vraiment : typo, mise en scène, détails.",
+      "leo_take_en": "Use it when the final image really matters, with typography, staging and details.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/image-generation"
       ],
@@ -2844,9 +3303,17 @@
         "tu veux une image finale propre",
         "la typographie et les détails comptent"
       ],
+      "choose_if_en": [
+        "you want a clean final image",
+        "typography and details matter"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local",
         "ton budget est le critère numéro un"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally",
+        "budget is your number one criterion"
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
@@ -2882,6 +3349,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Le modèle image à sortir pour tester 20 variantes avant de choisir. Remplacé par Nano Banana 2.1 en octobre 2026. Nano Banana 2 reste disponible.",
+      "leo_take_en": "The image model to reach for when you want to test 20 variations before choosing. Replaced by Nano Banana 2.1 in October 2026. Nano Banana 2 is still available.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/image-generation",
         "https://ai.google.dev/gemini-api/docs/models"
@@ -2890,8 +3358,15 @@
         "tu veux tester beaucoup de variantes vite",
         "tu n’as pas besoin du rendu final premium"
       ],
+      "choose_if_en": [
+        "you want to test lots of variations fast",
+        "you don't need a premium final render"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 86,
       "freshness_status": "replaced",
@@ -2927,6 +3402,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Pratique quand tu veux rester dans la même stack que tes prompts texte. Remplacé par GPT Image 2.5. gpt-image-1 est arrêté depuis le 23 octobre 2026.",
+      "leo_take_en": "Handy when you want to stay in the same stack as your text prompts. Replaced by GPT Image 2.5. gpt-image-1 has been shut down since October 23, 2026.",
       "sources": [
         "https://platform.openai.com/docs/models/gpt-image-1",
         "https://developers.openai.com/api/docs/deprecations"
@@ -2934,8 +3410,14 @@
       "choose_if": [
         "tu veux générer ou éditer des visuels"
       ],
+      "choose_if_en": [
+        "you want to create or edit visuals"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "replaced",
@@ -2971,14 +3453,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Excellent pour direction artistique, moins naturel si tu veux automatiser par API. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Excellent for art direction, less natural if you want to automate through an API. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version"
       ],
       "choose_if": [
         "tu veux générer ou éditer des visuels"
       ],
+      "choose_if_en": [
+        "you want to create or edit visuals"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 74,
       "freshness_status": "to_verify",
@@ -3013,6 +3502,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "À tester dès qu'il y a du texte dans l'image. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Worth testing as soon as there's text in the image. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://ideogram.ai/features/3.0",
         "https://docs.ideogram.ai/using-ideogram/generation-settings/available-models"
@@ -3020,8 +3510,14 @@
       "choose_if": [
         "tu veux générer ou éditer des visuels"
       ],
+      "choose_if_en": [
+        "you want to create or edit visuals"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 74,
       "freshness_status": "to_verify",
@@ -3055,6 +3551,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Très bon pont entre production sérieuse et écosystème ouvert. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "A very good bridge between serious production and the open ecosystem. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://docs.us.bfl.ai/kontext/kontext_overview",
         "https://bfl.ai/models/flux-kontext"
@@ -3062,8 +3559,14 @@
       "choose_if": [
         "tu veux générer ou éditer des visuels"
       ],
+      "choose_if_en": [
+        "you want to create or edit visuals"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 75,
       "freshness_status": "to_verify",
@@ -3099,6 +3602,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Pour bidouiller localement et personnaliser, mais ce n'est pas le plus simple. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "For tinkering locally and customizing, but it's not the simplest option. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://stability.ai/news-updates/introducing-stable-diffusion-3-5"
       ],
@@ -3106,8 +3610,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu veux générer ou éditer des visuels"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you want to create or edit visuals"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 76,
       "freshness_status": "to_verify",
@@ -3143,6 +3654,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La vidéo de Google la plus récente, avec le son, l'extension de scène et un mode brouillon pas cher. Elle est maintenant stable dans l'API.",
+      "leo_take_en": "Google's most recent video model, with sound, scene extension and a cheap draft mode. It's now stable in the API.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -3151,8 +3663,15 @@
         "tu veux créer une vidéo courte avec le son",
         "tu veux tester des brouillons avant la version finale"
       ],
+      "choose_if_en": [
+        "you want to create a short video with sound",
+        "you want to test drafts before the final version"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -3192,6 +3711,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La vidéo de Kuaishou qui enchaîne plusieurs plans d'un coup, avec le son synchronisé. Sortie en février 2026.",
+      "leo_take_en": "Kuaishou's video model that chains several shots in one go, with synced sound. Released in February 2026.",
       "sources": [
         "https://www.bernama.com/en/news.php/?id=2520897",
         "https://docs.dev.runwayml.com/guides/models/"
@@ -3200,8 +3720,15 @@
         "tu veux une petite scène avec plusieurs plans",
         "tu veux le son calé sur l'image"
       ],
+      "choose_if_en": [
+        "you want a short scene with several shots",
+        "you want sound synced to the picture"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -3241,14 +3768,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La vidéo de xAI en nouvelle version, avec une option lite très bon marché. À manier avec prudence pour une marque.",
+      "leo_take_en": "The new version of xAI's video model, with a very cheap lite option. Handle with care for a brand.",
       "sources": [
         "https://docs.x.ai/docs/models"
       ],
       "choose_if": [
         "tu veux tester des formats sociaux pas chers"
       ],
+      "choose_if_en": [
+        "you want to test cheap social formats"
+      ],
       "avoid_if": [
         "tu dois protéger une image de marque stricte"
+      ],
+      "avoid_if_en": [
+        "you must protect a strict brand image"
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
@@ -3290,13 +3824,18 @@
       "maturity": "stable",
       "status": "discontinued",
       "leo_take": "Le générateur vidéo d'OpenAI pour la narration courte. Arrêté par OpenAI, l'appli le 26 avril 2026 et l'API le 24 septembre 2026.",
+      "leo_take_en": "OpenAI's video generator for short storytelling. Shut down by OpenAI, the app on April 26, 2026 and the API on September 24, 2026.",
       "sources": [
         "https://platform.openai.com/docs/guides/video-generation",
         "https://developers.openai.com/api/docs/deprecations"
       ],
       "choose_if": [],
+      "choose_if_en": [],
       "avoid_if": [
         "tu cherches un outil vidéo disponible aujourd'hui"
+      ],
+      "avoid_if_en": [
+        "you're looking for a video tool available today"
       ],
       "jerwis_score": 78,
       "freshness_status": "discontinued",
@@ -3333,6 +3872,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Le modèle vidéo Google classique : utile pour scènes courtes avec audio.",
+      "leo_take_en": "Google's classic video model, useful for short scenes with audio.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/video",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -3340,8 +3880,14 @@
       "choose_if": [
         "tu veux produire ou transformer des vidéos courtes"
       ],
+      "choose_if_en": [
+        "you want to produce or transform short videos"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
@@ -3380,6 +3926,7 @@
       "maturity": "preview",
       "status": "replaced",
       "leo_take": "Probablement le plus intéressant si tu veux créer ou modifier une vidéo en parlant à l'IA. Remplacé par Gemini Omni 1.1 Flash, maintenant stable dans l'API.",
+      "leo_take_en": "Probably the most interesting option if you want to create or edit a video by talking to the AI. Replaced by Gemini Omni 1.1 Flash, now stable in the API.",
       "sources": [
         "https://deepmind.google/models/gemini-omni/",
         "https://ai.google.dev/gemini-api/docs/models"
@@ -3388,8 +3935,15 @@
         "tu veux créer ou modifier une vidéo à partir de texte, image, audio ou vidéo",
         "tu veux tester le futur des workflows vidéo"
       ],
+      "choose_if_en": [
+        "you want to create or edit a video from text, image, audio or video",
+        "you want to test the future of video workflows"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 73,
       "freshness_status": "replaced",
@@ -3426,14 +3980,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Très orienté production créative, plus outil de studio que simple chatbot. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Very focused on creative production, more a studio tool than a simple chatbot. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video"
       ],
       "choose_if": [
         "tu veux produire ou transformer des vidéos courtes"
       ],
+      "choose_if_en": [
+        "you want to produce or transform short videos"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 74,
       "freshness_status": "to_verify",
@@ -3468,6 +4029,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Concurrent vidéo sérieux, mais je sourcerais toujours avant de recommander en production. Remplacé par Kling 3.0 en février 2026.",
+      "leo_take_en": "A serious video competitor, but I'd always check sources before recommending it for production. Replaced by Kling 3.0 in February 2026.",
       "sources": [
         "https://ir.kuaishou.com/node/10961/pdf",
         "https://www.bernama.com/en/news.php/?id=2520897"
@@ -3475,8 +4037,14 @@
       "choose_if": [
         "tu veux produire ou transformer des vidéos courtes"
       ],
+      "choose_if_en": [
+        "you want to produce or transform short videos"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 74,
       "freshness_status": "replaced",
@@ -3514,6 +4082,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Intéressant pour tester vite des formats sociaux, à manier avec prudence pour une marque. Remplacé par Grok Imagine Video 1.5 pour la vidéo.",
+      "leo_take_en": "Interesting for quickly testing social formats, handle with care for a brand. Replaced by Grok Imagine Video 1.5 for video.",
       "sources": [
         "https://techcrunch.com/2025/08/04/grok-imagine-xais-new-ai-image-and-video-generator-lets-you-make-nsfw-content/",
         "https://docs.x.ai/docs/models"
@@ -3522,8 +4091,15 @@
         "tu veux tester des formats sociaux très vite",
         "tu acceptes un cadre plus risqué pour une marque"
       ],
+      "choose_if_en": [
+        "you want to test social formats very fast",
+        "you accept a riskier setting for a brand"
+      ],
       "avoid_if": [
         "tu dois protéger une image de marque stricte"
+      ],
+      "avoid_if_en": [
+        "you must protect a strict brand image"
       ],
       "jerwis_score": 74,
       "freshness_status": "replaced",
@@ -3560,6 +4136,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La nouvelle voix d'ElevenLabs, plus expressive, en plus de 90 langues. Une version Turbo existe pour le temps réel.",
+      "leo_take_en": "ElevenLabs' new voice, more expressive, in over 90 languages. A Turbo version exists for real time.",
       "sources": [
         "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/",
         "https://x.com/ElevenLabs/status/2104572127617994917"
@@ -3568,8 +4145,15 @@
         "tu produis une narration ou un podcast",
         "tu as besoin de plusieurs langues"
       ],
+      "choose_if_en": [
+        "you produce narration or a podcast",
+        "you need several languages"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -3609,6 +4193,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La transcription d'OpenAI qui remplace Whisper dans l'API, sur un fichier ou en direct. whisper-1 s'arrête dans l'API le 26 février 2027.",
+      "leo_take_en": "OpenAI's transcription model that replaces Whisper in the API, on a file or live. whisper-1 shuts down in the API on February 26, 2027.",
       "sources": [
         "https://developers.openai.com/api/docs/models",
         "https://developers.openai.com/api/docs/deprecations"
@@ -3616,8 +4201,14 @@
       "choose_if": [
         "tu transcris des fichiers ou du direct par API"
       ],
+      "choose_if_en": [
+        "you transcribe files or live audio through an API"
+      ],
       "avoid_if": [
         "tu veux transcrire sans rien envoyer chez un fournisseur"
+      ],
+      "avoid_if_en": [
+        "you want to transcribe without sending anything to a provider"
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
@@ -3657,6 +4248,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Les voix de Google pour parler en direct avec un agent ou lire un texte à voix haute. Google demande de passer des anciennes versions à la 3.8.",
+      "leo_take_en": "Google's voices for talking live with an agent or reading a text aloud. Google asks you to move from older versions to 3.8.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models"
       ],
@@ -3664,8 +4256,15 @@
         "tu construis un assistant vocal",
         "tu veux lire un texte à voix haute par API"
       ],
+      "choose_if_en": [
+        "you're building a voice assistant",
+        "you want to read a text aloud through an API"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 82,
       "freshness_status": "current",
@@ -3705,14 +4304,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "La transcription et la voix de synthèse de Mistral en nouvelle version, en API seulement. Si tu veux un modèle ouvert, Voxtral Small reste au catalogue.",
+      "leo_take_en": "The new version of Mistral's transcription and speech synthesis, API only. If you want an open model, Voxtral Small is still in the catalog.",
       "sources": [
         "https://docs.mistral.ai/getting-started/models/models_overview/"
       ],
       "choose_if": [
         "tu veux transcrire et faire parler un texte chez un fournisseur européen"
       ],
+      "choose_if_en": [
+        "you want transcription and text-to-speech from a European provider"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
@@ -3751,6 +4357,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "Référence voix si tu veux produire une narration propre. Remplacé par Eleven v4 en septembre 2026.",
+      "leo_take_en": "The voice reference if you want to produce clean narration. Replaced by Eleven v4 in September 2026.",
       "sources": [
         "https://elevenlabs.io/docs/models/",
         "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/"
@@ -3758,8 +4365,14 @@
       "choose_if": [
         "tu travailles la voix, transcription ou narration"
       ],
+      "choose_if_en": [
+        "you work on voice, transcription or narration"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 74,
       "freshness_status": "replaced",
@@ -3794,6 +4407,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Toujours utile pour transcrire, même si les modèles audio natifs progressent vite. Dans l'API, OpenAI le remplace par GPT-Transcribe, whisper-1 s'y arrête le 26 février 2027. La version open source reste utilisable chez toi.",
+      "leo_take_en": "Still useful for transcription, even if native audio models are improving fast. In the API, OpenAI is replacing it with GPT-Transcribe, and whisper-1 shuts down there on February 26, 2027. The open-source version still works on your own machine.",
       "sources": [
         "https://platform.openai.com/docs/guides/speech-to-text",
         "https://developers.openai.com/api/docs/deprecations"
@@ -3802,8 +4416,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu travailles la voix, transcription ou narration"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you work on voice, transcription or narration"
+      ],
       "avoid_if": [
         "tu ne sais pas encore pourquoi tu le choisirais"
+      ],
+      "avoid_if_en": [
+        "you don't know yet why you'd pick it"
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
@@ -3838,6 +4459,7 @@
       "maturity": "stable",
       "status": "replaced",
       "leo_take": "À regarder pour des agents vocaux, pas seulement pour lire un texte. Remplacé par Gemini 3.8 Live et Gemini 3.8 Flash TTS.",
+      "leo_take_en": "Worth a look for voice agents, not just for reading a text aloud. Replaced by Gemini 3.8 Live and Gemini 3.8 Flash TTS.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/pricing",
         "https://ai.google.dev/gemini-api/docs/models"
@@ -3845,8 +4467,14 @@
       "choose_if": [
         "tu travailles la voix, transcription ou narration"
       ],
+      "choose_if_en": [
+        "you work on voice, transcription or narration"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally"
       ],
       "jerwis_score": 80,
       "freshness_status": "replaced",
@@ -3888,6 +4516,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Modèle audio open-weight de Mistral, pensé pour transcrire et comprendre l'audio, pas pour générer une voix.",
+      "leo_take_en": "Mistral's open-weight audio model, built to transcribe and understand audio, not to generate a voice.",
       "sources": [
         "https://mistral.ai/news/voxtral",
         "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
@@ -3896,8 +4525,15 @@
         "tu veux transcrire ou interroger un audio sans envoyer chez un fournisseur",
         "tu veux du multilingue solide avec une licence permissive"
       ],
+      "choose_if_en": [
+        "you want to transcribe or query audio without sending it to a provider",
+        "you want solid multilingual support with a permissive license"
+      ],
       "avoid_if": [
         "tu veux produire une voix synthétique (Voxtral ne génère pas de voix)"
+      ],
+      "avoid_if_en": [
+        "you want to produce a synthetic voice (Voxtral doesn't generate voices)"
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
@@ -3933,6 +4569,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Les embeddings de Google qui mélangent texte, image, vidéo, audio et PDF. Prix à vérifier.",
+      "leo_take_en": "Google's embeddings that mix text, image, video, audio and PDF. Price to check.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://deepmind.google/models/"
@@ -3940,9 +4577,16 @@
       "choose_if": [
         "tu cherches dans des documents qui mélangent texte, images et vidéos"
       ],
+      "choose_if_en": [
+        "you search documents that mix text, images and video"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local",
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally",
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 82,
       "freshness_status": "current",
@@ -3980,14 +4624,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Un petit modèle d'embeddings ouvert de Google, à faire tourner chez toi. Licence à vérifier avant un usage commercial.",
+      "leo_take_en": "A small open embeddings model from Google, to run on your own machine. Check the license before any commercial use.",
       "sources": [
         "https://ai.google.dev/gemma/docs/releases"
       ],
       "choose_if": [
         "tu veux un RAG qui tourne sur ta machine"
       ],
+      "choose_if_en": [
+        "you want RAG that runs on your machine"
+      ],
       "avoid_if": [
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
@@ -4024,15 +4675,23 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Brique simple pour retrouver des passages dans une base documentaire.",
+      "leo_take_en": "A simple building block for finding passages in a document base.",
       "sources": [
         "https://platform.openai.com/docs/guides/embeddings"
       ],
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local",
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally",
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
@@ -4065,14 +4724,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Utile quand ton moteur de recherche trouve trop de résultats moyens. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Useful when your search engine finds too many average results. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://docs.cohere.com/docs/rerank"
       ],
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 80,
       "freshness_status": "to_verify",
@@ -4108,14 +4774,21 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "À tester si tu cherches dans des documents, images ou contenus multilingues. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Worth testing if you search across documents, images or multilingual content. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://jina.ai/en-US/embeddings/"
       ],
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 80,
       "freshness_status": "to_verify",
@@ -4149,6 +4822,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Très orienté qualité de recherche documentaire. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "Very focused on document search quality. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://docs.voyageai.com/docs/embeddings",
         "https://blog.voyageai.com/2025/01/07/voyage-3-large/"
@@ -4156,9 +4830,16 @@
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu veux tout faire tourner en local",
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to run everything locally",
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 80,
       "freshness_status": "to_verify",
@@ -4195,6 +4876,7 @@
       "maturity": "stable",
       "status": "active",
       "leo_take": "Bonne piste ouverte pour RAG si tu ne veux pas dépendre d'une API fermée. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
+      "leo_take_en": "A good open option for RAG if you don't want to depend on a closed API. Still to check, I couldn't find a reliable source to re-verify it in November 2026.",
       "sources": [
         "https://qwenlm.github.io/blog/qwen3-embedding/"
       ],
@@ -4202,8 +4884,15 @@
         "tu veux pouvoir tester hors plateforme fermée",
         "tu analyses des documents ou une base de connaissances"
       ],
+      "choose_if_en": [
+        "you want to test outside a closed platform",
+        "you analyze documents or a knowledge base"
+      ],
       "avoid_if": [
         "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "avoid_if_en": [
+        "you want to generate text, images or video"
       ],
       "jerwis_score": 80,
       "freshness_status": "to_verify",

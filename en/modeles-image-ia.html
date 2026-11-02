@@ -1409,9 +1409,9 @@
         <div class="model-meta">${model.provider} · ${labelize(model.license)} · score ${model.jerwis_score || '—'}</div>
         <h3>${model.name}</h3>
         ${tags ? `<div class="tag-row model-status">${tags}</div>` : ''}
-        <p>${model.leo_take}</p>
+        <p>${model.leo_take_en || model.leo_take}</p>
         <div class="tag-row">
-          ${(model.choose_if || []).slice(0, 2).map(item => `<span class="tag">${item}</span>`).join('')}
+          ${(model.choose_if_en || model.choose_if || []).slice(0, 2).map(item => `<span class="tag">${item}</span>`).join('')}
         </div>
         ${date ? `<div class="model-date">Checked on ${date}</div>` : ''}
         <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;">

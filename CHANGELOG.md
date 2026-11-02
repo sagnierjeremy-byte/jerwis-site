@@ -18,6 +18,7 @@ Demande de Jérémy : « mets à jour toutes les autres pages ». Sept points va
 - **P5** : `/mcp` FR + EN commence par les connecteurs des apps, dates et terminal dans une note « Pour les curieux », serveurs de référence archivés signalés.
 - **P6** : `/agents-ia` FR + EN commence par les agents disponibles (app Claude + dossier, ChatGPT Work, navigateurs IA, sans code), Claude Code et Agent SDK en annexe `#annexe-code`.
 - **P7** : `/outils` FR + EN : n°01 « L'app Claude (plan Max) » avec l'app ChatGPT en alternative, Ghostty en fin de niveau avancé (« outil de développeur », Mac et Linux), 6 + 5 outils, prix n8n et Resend revérifiés.
+- Comparatifs anglais (`/en/modeles-ia`, `/en/modeles-image-ia`) : les cartes lisent `leo_take_en`, `choose_if_en`, `avoid_if_en` de `data/models-ai.json` (89 modèles traduits, le français en secours). Un nouveau modèle ajouté sans ces champs s'affiche en français sur la page anglaise.
 - Correction : ChatGPT Atlas a fermé le 9 août 2026 (je l'avais présenté comme actuel le matin) : lexique, guide Agents, Apprendre corrigés.
 
 ### Vérifié

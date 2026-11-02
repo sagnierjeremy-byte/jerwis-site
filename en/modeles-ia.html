@@ -1824,7 +1824,7 @@
   function modelMatchesQuery(model) {
     const q = state.query.toLowerCase().trim();
     if (!q) return true;
-    const haystack = [model.name, model.family, model.provider, model.category, model.license, model.leo_take, ...(model.best_for || []), ...(model.access || [])].join(' ').toLowerCase();
+    const haystack = [model.name, model.family, model.provider, model.category, model.license, model.leo_take_en || model.leo_take, ...(model.best_for || []), ...(model.access || [])].join(' ').toLowerCase();
     return haystack.includes(q);
   }
 
@@ -1894,8 +1894,8 @@
           <dt>Context</dt><dd>${contextLabel(model)}</dd>
           <dt>Access</dt><dd>${accessLabel(model)}</dd>
           <dt>License</dt><dd>${labelize(model.license)}</dd>
-          <dt>Pick it if</dt><dd>${(model.choose_if || []).join(' · ')}</dd>
-          <dt>Avoid it if</dt><dd>${(model.avoid_if || []).join(' · ')}</dd>
+          <dt>Pick it if</dt><dd>${(model.choose_if_en || model.choose_if || []).join(' · ')}</dd>
+          <dt>Avoid it if</dt><dd>${(model.avoid_if_en || model.avoid_if || []).join(' · ')}</dd>
         </dl>
       </article>
     `).join('');
@@ -1917,7 +1917,7 @@
           </div>
           <div class="model-card-score">${model.jerwis_score || '—'}</div>
         </div>
-        <p class="model-card-take">${model.leo_take}</p>
+        <p class="model-card-take">${model.leo_take_en || model.leo_take}</p>
         <div class="model-card-tags">
           ${statusTags(model)}
           <span class="tag">${pricingTag(model)}</span>
