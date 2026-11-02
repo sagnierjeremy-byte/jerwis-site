@@ -3,7 +3,7 @@
  * translate-missing-en.mjs — rattrapage bilingue : traduit en EN tous les articles FR
  * qui n'ont pas encore de version en/articles/, puis fait toute la plomberie de parité :
  *   - carte dans en/articles.html (tableau ALL_ARTICLES, format EN)
- *   - carte "Featured" en tête de .alaune-grid d'en/index.html (max 8, trim auto)
+ *   - article en tête de .rv-une ("Latest") d'en/index.html (max 5, trim auto)
  *   - hreflang sur la page FR (inject-hreflang-fr.mjs, no-op tant que l'EN n'existe pas)
  *   - sitemap-en.xml + sitemap-index.xml (build-sitemaps.mjs)
  *
@@ -71,44 +71,32 @@ async function injectEnCard(slug, fr) {
   console.error(`  ✓ carte EN insérée dans en/articles.html : ${slug}`);
 }
 
-/** Carte "Featured" en tête d'en/index.html (liens absolus /en/, max 8 cartes). */
+/** Article en tête de "Latest" d'en/index.html (liens absolus /en/, 5 au plus : une vedette + quatre en liste). */
 async function injectEnAlaune(slug, fr) {
-  const MAX = 8;
+  const MAX = 5;
   const file = path.join(ROOT, 'en', 'index.html');
   let h = await readFile(file, 'utf8');
-  if (new RegExp(`href="/en/articles/${slug}"[^>]*data-published`).test(h)) { console.error(`  • déjà en Featured EN : ${slug}`); return; }
+  if (new RegExp(`href="/en/articles/${slug}"[^>]*data-published`).test(h)) { console.error(`  • déjà en Latest EN : ${slug}`); return; }
   const { title, desc } = await enMeta(slug);
-  let t = title.replace(/[.!?]+$/, '') + '.';
+  const t = title.trim().replace(/\.+$/, '');
   const [y, m, d] = (fr.date || '').split('-').map(Number);
   const read = (fr.read.match(/\d+/) || ['8'])[0] + ' min';
-  const card = `      <a class="alaune-card type-article" href="/en/articles/${slug}" data-published="${fr.date}">
-        <div class="alaune-cover">
-          <picture><source srcset="/photos/og/${slug}.webp" type="image/webp"><img width="1200" height="630" src="/photos/og/${slug}.jpg" alt="${esc(t)}" loading="lazy"></picture>
-        </div>
-        <div class="alaune-stub">
-          <span class="alaune-stub-type">${STUB_BY_TYPE[fr.type] || 'Breakdown'}</span>
-          <span class="alaune-stub-num">${String(d).padStart(2, '0')}/${String(m).padStart(2, '0')}</span>
-        </div>
-        <div class="alaune-bar"></div>
-        <div class="alaune-body">
-          <h3 class="alaune-title">${esc(t)}</h3>
-          <p class="alaune-punch">${esc(desc)}</p>
-          <div class="alaune-foot">
-            <span class="alaune-date">${MONTHS_EN[m - 1]} ${d} · ${read}</span>
-            <span class="alaune-cta">Read →</span>
-          </div>
-        </div>
+  const item = `      <a class="rv-une-item" href="/en/articles/${slug}" data-published="${fr.date}">
+        <span class="rv-une-meta">${STUB_BY_TYPE[fr.type] || 'Breakdown'} · ${MONTHS_EN[m - 1].slice(0, 3)} ${d}, ${y} · ${read}</span>
+        <span class="rv-une-titre">${esc(t)}</span>
+        <span class="rv-une-resume">${esc(desc)}</span>
+        <span class="rv-une-lire">Read the article <span class="rv-une-rond">→</span></span>
       </a>`;
-  const anchor = '<div class="alaune-grid">\n';
-  if (!h.includes(anchor)) { console.error('  ✗ ancre .alaune-grid introuvable dans en/index.html'); return; }
-  h = h.replace(anchor, anchor + '\n' + card + '\n');
-  const matches = [...h.matchAll(/\n? *<a class="alaune-card[\s\S]*?<\/a>\n?/g)];
+  const anchor = '<div class="rv-une">\n';
+  if (!h.includes(anchor)) { console.error('  ✗ ancre .rv-une introuvable dans en/index.html'); return; }
+  h = h.replace(anchor, anchor + '\n' + item + '\n');
+  const matches = [...h.matchAll(/\n? *<a class="rv-une-item[\s\S]*?<\/a>\n?/g)];
   if (matches.length > MAX) {
     for (let i = matches.length - 1; i >= MAX; i--) h = h.slice(0, matches[i].index) + h.slice(matches[i].index + matches[i][0].length);
-    console.error(`  trim Featured EN : ${matches.length} → ${MAX} cartes`);
+    console.error(`  trim Latest EN : ${matches.length} → ${MAX} articles`);
   }
   await writeFile(file, h, 'utf8');
-  console.error(`  ✓ Featured EN : ${slug} ajouté en tête`);
+  console.error(`  ✓ Latest EN : ${slug} ajouté en tête`);
 }
 
 // ── 2. Traduction + plomberie, slug par slug (du plus ancien au plus récent) ──

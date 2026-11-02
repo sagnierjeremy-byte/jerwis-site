@@ -1,5 +1,22 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Refonte « la revue », temps 2 (accueil FR et EN)
+
+### Pourquoi
+Suite du plan validé (P5 et P6) : l'accueil passe au design de la maquette `Main.dc.html`, plus court et plus lisible.
+
+### Livré
+- **P5** : `index.html` réécrit (176 Ko → 37 Ko). Ouverture avec la lettre du vendredi et la photo en arche, puis § 01 À la une (une vedette + quatre en liste), § 02 Parcours, § 03 Carnet de bord + autocollant kzumi (`utm_medium=accueil` gardé), § 04 Newsletters en tickets, § 05 Outils gratuits en tuiles (mêmes fichiers et formulaires), § 06 Aussi dans la maison, § 07 Le mot de l'auteur (« Ta garantie » une seule fois). Styles dans `assets/accueil.css` ; l'accueil ne charge plus `main.css` ni son `<style>` de 1 900 lignes. Retirés : « Tu te reconnais ? », Actus, Opinions, lecteur podcast, « Ce que je consomme ». Ancres gardées : `#alaune`, `#learn`, `#projects`, `#newsletters`, `#freebies`, `#story`, `#contact`.
+- **P6** : `en/index.html`, même page traduite à la main (liens `/en/`, pas de kzumi, comme avant).
+- Robots : `inject-home-alaune.mjs` (FR, nouvelle option `--dry`) et `translate-missing-en.mjs` (EN) écrivent le nouveau format `.rv-une-item`, 5 articles au plus, espaces insécables avant « ? » et « : » en français. `build-youtube-channels.mjs` lit le panneau YouTube dans l'historique (`6bdc034:index.html`).
+- Formulaires de l'accueil limités à `form[data-acc]` : le formulaire du pied de page n'est plus envoyé deux fois sur l'accueil.
+
+### Vérifié
+- Captures 1 440 et 390 px FR/EN, aucune erreur JS, aucun débordement, aucune ressource en erreur. 24 liens FR et 23 liens EN du corps en 200. Formulaires testés avec l'API simulée (sources `accueil-hero` / `home-hero-en`, `ai-playbook`, `freebie-claude-md`, `freebie-pack`, cas « aucune case cochée »). Robots FR et EN testés sur copie : ajout en tête, le plus ancien sort, pas de doublon. `revue-entete-pied.mjs` : 0 page modifiée.
+
+### Reste
+- Version sombre (P9), autres pages par lots (P10), reprise des 18 articles faits main.
+
 ## 2026-11-02 · Refonte « la revue », temps 1 (en-tête, pied, polices, kzumi) et temps 3 (articles)
 
 ### Pourquoi

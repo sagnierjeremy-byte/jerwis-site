@@ -13,6 +13,7 @@
 //   6. Write JSON.
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { execSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -21,7 +22,9 @@ const __dirname = dirname(__filename);
 const ROOT = join(__dirname, "..");
 
 const OPML_PATH = join(ROOT, "downloads", "jeremy-ai-sources.opml");
-const INDEX_HTML_PATH = join(ROOT, "index.html");
+// Le panneau YouTube a quitté l'accueil avec la refonte « revue » (novembre 2026) :
+// on lit la dernière version de index.html qui le contient.
+const INDEX_HTML_REV = "6bdc034:index.html";
 const OUTPUT_PATH = join(ROOT, "data", "youtube-channels.json");
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
@@ -235,7 +238,7 @@ function buildAvatarMap(opmlSections, indexHTMLMap) {
 async function main() {
   console.log("Reading OPML and index.html…");
   const opmlXML = readFileSync(OPML_PATH, "utf8");
-  const indexHTML = readFileSync(INDEX_HTML_PATH, "utf8");
+  const indexHTML = execSync(`git show ${INDEX_HTML_REV}`, { cwd: ROOT, encoding: "utf8", maxBuffer: 1 << 26 });
 
   const opmlSections = parseOPML(opmlXML);
   const indexHTMLMap = parseIndexHTMLChannels(indexHTML);

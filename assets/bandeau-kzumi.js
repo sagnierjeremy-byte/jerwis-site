@@ -15,7 +15,7 @@
  * - pages principales (P3) : un bloc entre deux sections ;
  * - pages principales et fiches (P6) : un bloc avant le pied de page ;
  * - 404 (P7) : un bloc dans la page.
- * L'accueil a son bandeau statique (.bk-accueil, main.css) : ici,
+ * L'accueil a son autocollant statique (.acc-kzumi, accueil.css) : ici,
  * seulement la barre et le menu. Pages légales et précommande exclues.
  * Chaque emplacement a son utm_medium, lisible dans la console kzumi.
  * Ligne ajoutée par scripts/ajouter-bandeau-kzumi.mjs (et les modèles :

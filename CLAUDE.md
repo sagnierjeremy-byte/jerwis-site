@@ -16,7 +16,7 @@
 ## Refonte « la revue » (depuis le 02-11-2026, en cours)
 - Maquettes Claude Design https://claude.ai/artifact/4mGPNv38VJm6icMRHcdDVa (sources `_internal/refonte-design-2026-11/project/`), plan P1-P10 `_internal/refonte-design-2026-11/PLAN.md`. Remplace Fiesta page par page : papier `#FAF9F6`, encre `#141414`, aplats teal/fuchsia/orange avec texte encre, contours 2 px et ombres nettes, sceau (étoile d'éperon), Instrument Sans + JetBrains Mono. Composants : `assets/revue.css` (classes `rv-`, chargée partout).
 - **En-tête et pied** posés par `scripts/revue-entete-pied.mjs` (idempotent, `--dry`, `--detail`) sur toutes les pages FR/EN ; à relancer après tout script qui réécrit un menu ou un pied. Pages anglaises : menu et pied de référence imposés (référence = `en/index.html`).
-- **Pages refaites** : `<html class="rv-page">`, toujours en clair (bouton clair/sombre masqué) jusqu'à la version sombre (P9). Fait : articles générés FR/EN (`article.css` v3). À faire : accueil (temps 2), 18 articles faits main, autres pages par lots.
+- **Pages refaites** : `<html class="rv-page">`, toujours en clair (bouton clair/sombre masqué) jusqu'à la version sombre (P9). Fait : articles générés FR/EN (`article.css` v3), accueil FR/EN (`accueil.css`). À faire : version sombre (P9), 18 articles faits main, autres pages par lots.
 
 ## Charte FIESTA / 89 + ton « Leo » — référence intégrale : `docs/charte-fiesta-et-ton.md` (À LIRE avant tout contenu/UI)
 - Palette `--fuchsia #EF426F` · `--teal #00B2A9` · `--orange #FF8200` · noir/cream dominant (50/30/20) · triple-stripe immuable `teal → fuchsia → orange` · 2-3 mini-marquees par page (CSS déjà dans `main.css`, ne pas recopier).
@@ -24,11 +24,12 @@
 - **Ton Leo (RÈGLE ABSOLUE)** : 1ʳᵉ personne, chaleureux mais JAMAIS familier/argot, pitch central « je fais tout ça d'abord pour moi » (veilles que Jérémy se produit à lui-même, jamais « contenu créé pour toi »).
 - Interdits : « dev/développeur/codeur » pour Jérémy · **« GMF »** (anonymisé → « en assurance ») · pose commerciale · disclaimers consultant.
 
-## Home (`index.html`)
-- Fil rouge centré lecteur : haut bienveillant, bas « d'abord pour moi » en garantie. H1 : « L'IA, c'est aussi pour nous. » (3 lignes animées, `#heroTitle`).
-- Ordre des sections (ne pas changer sans raison), entrecoupées de mini-marquees : Hero (dark) → Pour qui (`#whoisitfor`) → Apprendre (`#learn`) → Newsletters (`#newsletters`) → Freebies (`#freebies`) → Projets (`#projects`) → Opinions (`#opinions`) → Sources (`#content`) → Mini-bio → Story (`#story`) → CTA Drop → Marquee + Footer.
-- Nav v2 sitewide (`.mini-nav`) : `Apprendre · Articles · Podcast · Newsletter · Plus (dropdown)`.
-- Ton à 3 niveaux : haut 100 % centré lecteur · milieu « je partage ce qui m'a servi » · bas pitch « d'abord pour moi » reformulé en « Ta garantie », dit UNE seule fois, jamais redit ailleurs.
+## Home (`index.html`, miroir `en/index.html`)
+- Refaite le 02-11-2026 en « la revue » (maquette `project/Main.dc.html`), styles dans `assets/accueil.css` (pas de `main.css` ni de `<style>` en ligne). H1 inchangé : « L'IA, c'est aussi pour nous. » / « AI is for the rest of us too. ».
+- Ordre : ouverture (accroche, lettre du vendredi, photo en arche + sceau) → bandeau défilant → § 01 À la une (`#alaune`) → § 02 Parcours (`#learn`) → § 03 Carnet de bord (`#projects`, autocollant kzumi en FR, `utm_medium=accueil`) → § 04 Newsletters (`#newsletters`, cible du bouton « S'abonner » de tout le site) → § 05 Outils gratuits (`#freebies`) → § 06 Aussi dans la maison → § 07 Le mot de l'auteur (`#story`) → pied commun.
+- **À la une** : `.rv-une` > `.rv-une-item`, 5 au plus, le premier en vedette. Écrits par `scripts/blog/inject-home-alaune.mjs` (FR, `--dry` pour tester) et `scripts/i18n/translate-missing-en.mjs` (EN) : ne pas changer ce balisage sans adapter les deux.
+- **Formulaires** : `form[data-acc]` (lettre, lettres, cadeau) → `/api/subscribe`, sources `accueil-hero` / `home-hero-en`, `ai-playbook` / `business-radar`, `freebie-claude-md`, `freebie-pack`. Le script de bas de page ne touche qu'eux (le pied a le sien).
+- Ton à 3 niveaux : haut 100 % centré lecteur · milieu « je partage ce qui m'a servi » · bas « d'abord pour moi » avec « Ta garantie », dit UNE seule fois.
 
 ## PWA « Jerwis News » (`/app`) — outil perso
 `app/index.html` + `app/app.{css,js}` + `app/manifest.webmanifest` + **`app-sw.js` (à la RACINE, pas dans app/)**. Consomme `/api/news` et `data/news-summary.json`. `noindex`, aucun lien public depuis le site. Icônes : `node scripts/make-app-icons.mjs` → `photos/app-icons/`.
