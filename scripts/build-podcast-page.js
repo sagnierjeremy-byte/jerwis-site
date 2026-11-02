@@ -424,6 +424,7 @@ const html = `<!DOCTYPE html>
 </style>
 </head>
 <body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
 
 <!-- Triple-stripe signature Fiesta (top du site) -->
 <div class="triple-stripe" aria-hidden="true">
@@ -614,6 +615,7 @@ const html = `<!DOCTYPE html>
 </footer>
 
 <script src="assets/podcast-player.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
 
 </body>
 </html>

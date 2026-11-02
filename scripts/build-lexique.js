@@ -320,6 +320,7 @@ ${JSON.stringify(definedTerm, null, 2)}
 </head>
 <body>
 ${GENERATED_MARKER}
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
 <div class="triple-stripe" aria-hidden="true"><span style="background:#00B2A9"></span><span style="background:#EF426F"></span><span style="background:#FF8200"></span></div>
 <header class="term-header">
   <a class="term-logo" href="../index.html"><span></span>Jerwis</a>
@@ -435,6 +436,7 @@ ${GENERATED_MARKER}
 <footer class="term-footer">
   <p>© 2026 · Jérémy Sagnier · Jerwis</p>
 </footer>
+<script src="/assets/bandeau-kzumi.js" defer></script>
 </body>
 </html>
 `;

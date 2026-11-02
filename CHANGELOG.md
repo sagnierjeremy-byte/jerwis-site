@@ -1,5 +1,17 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · kzumi sur tout le site
+
+### Pourquoi
+Demande de Jérémy : « mettre plus de bandeaux publicité sur jerwis, en partout, pour pousser vraiment le projet ». Plan en sept emplacements validé en entier le 02-11, page https://claude.ai/artifact/9ya4CbLrVxETAxEJWEHd9o.
+
+### Livré
+- `assets/bandeau-kzumi.js` devient le script de tout le site (type de page reconnu par le chemin et la page) : barre noire en tête (P1), lien « kzumi ↗ » dans le menu (P2), bloc au milieu des 20 pages principales (P3), fiches du lexique comme les articles (P4), bloc avant « On continue ensemble ? » (P5), bloc avant le pied de page (P6), 404 (P7). `utm_medium` : `barre`, `menu`, `page`, `lexique`, `article`, `article-fin`, `pied`, `404`.
+- Règle de marge corrigée : bord gauche réel du texte mesuré, vertical seulement si ≥ 240 px libres (le texte des fiches fait ~1 120 px ; avec l'ancienne règle sur 880 px il aurait recouvert le texte à 1 600 px). Les articles en profitent dès ~1 420 px.
+- `scripts/ajouter-bandeau-kzumi.mjs` étendu aux pages racine et au lexique (réserve de 44 px + script, idempotent) : 189 pages. Exclues : pages légales, précommande, EN. Générateurs mis à jour : `build-lexique.js`, `build-podcast-page.js`.
+- `assets/pub/kzumi-icone.svg` pour la barre.
+- Vérifié en local sur 29 pages à 390, 1 440 et 1 920 px : aucun débordement, aucune erreur, réserve toujours remplie. `_internal/serveur-local.mjs` sert maintenant `x.html` quand un dossier `x/` existe aussi (comme Vercel).
+
 ## 2026-11-02 · Relance du blog automatique
 
 ### Pourquoi
