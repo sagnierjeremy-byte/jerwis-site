@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MCP · Model Context Protocol expliqué en français (2026) · Jérémy Sagnier</title>
-<meta name="description" content="MCP, Model Context Protocol : le standard ouvert d'Anthropic pour connecter les LLMs à tes outils et tes données. Définition, architecture, serveurs populaires, vs function calling, use cases concrets, FAQ. Le guide de référence en français.">
+<title>MCP (Model Context Protocol) et connecteurs IA, expliqués simplement · Jérémy Sagnier</title>
+<meta name="description" content="MCP, c'est ce qui se cache derrière les connecteurs de l'app Claude et de ChatGPT (Gmail, Google Drive, Microsoft 365, Slack). Ce que tu vois, comment t'en servir, puis comment ça marche : architecture, serveurs, function calling, FAQ.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="MCP · Model Context Protocol expliqué en français (2026)">
-<meta property="og:description" content="Le guide complet en français sur MCP, le standard ouvert lancé par Anthropic en novembre 2024 pour connecter les IA à des outils et données externes. Architecture, serveurs populaires, comparaison vs function calling, FAQ.">
+<meta property="og:title" content="MCP et connecteurs IA, expliqués simplement (novembre 2026)">
+<meta property="og:description" content="Le guide en français sur MCP, le standard ouvert qui branche l'IA sur tes outils. D'abord les connecteurs de l'app Claude et de ChatGPT, ensuite l'architecture, les serveurs populaires et la FAQ.">
 <meta property="og:url" content="https://jerwis.fr/mcp">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="fr_FR">
@@ -21,8 +21,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@JeremySagnier">
 <meta name="twitter:creator" content="@JeremySagnier">
-<meta name="twitter:title" content="MCP · Model Context Protocol expliqué en français (2026)">
-<meta name="twitter:description" content="Tout sur MCP : architecture, serveurs populaires, vs function calling, use cases concrets, FAQ exhaustive. Le guide de référence en français.">
+<meta name="twitter:title" content="MCP et connecteurs IA, expliqués simplement (novembre 2026)">
+<meta name="twitter:description" content="Les connecteurs de l'app Claude et de ChatGPT, puis la mécanique de MCP : architecture, serveurs, function calling, FAQ.">
 
 <!-- Favicon -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -53,8 +53,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "MCP · Model Context Protocol expliqué en français",
-  "description": "Le guide complet en français sur MCP, le standard ouvert lancé par Anthropic en novembre 2024 pour connecter les IA à des outils et des données externes.",
+  "headline": "MCP et connecteurs IA, expliqués simplement",
+  "description": "Le guide en français sur MCP, le standard ouvert qui branche l'IA sur tes outils : d'abord les connecteurs de l'app Claude et de ChatGPT, ensuite la mécanique.",
   "image": "https://jerwis.fr/photos/og-jerwis.jpg",
   "author": {
     "@type": "Person",
@@ -68,7 +68,7 @@
     "url": "https://jerwis.fr/"
   },
   "datePublished": "2026-05-22",
-  "dateModified": "2026-05-22",
+  "dateModified": "2026-11-02",
   "inLanguage": "fr-FR",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -82,18 +82,18 @@
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "MCP · Model Context Protocol expliqué en français",
-  "description": "Définition, architecture (clients/serveurs JSON-RPC), serveurs MCP populaires en 2026, comparaison vs function calling, use cases concrets, premiers pas pour construire son serveur MCP.",
+  "headline": "MCP et connecteurs IA, expliqués simplement",
+  "description": "Les connecteurs de l'app Claude et de ChatGPT, puis la définition de MCP, son architecture (clients et serveurs JSON-RPC), les serveurs populaires, la comparaison avec le function calling et les premiers pas pour construire son serveur.",
   "author": {
     "@type": "Person",
     "name": "Jérémy Sagnier",
     "url": "https://jerwis.fr/jeremy-sagnier"
   },
   "datePublished": "2026-05-22",
-  "dateModified": "2026-05-22",
+  "dateModified": "2026-11-02",
   "inLanguage": "fr-FR",
   "proficiencyLevel": "Beginner",
-  "dependencies": "Claude Code, Claude Desktop, Cursor ou tout client compatible MCP",
+  "dependencies": "L'app Claude, ChatGPT, Cursor ou tout client compatible MCP",
   "about": {
     "@type": "Thing",
     "name": "Model Context Protocol"
@@ -112,7 +112,7 @@
       "name": "C'est quoi MCP en une phrase ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MCP, pour Model Context Protocol, est un standard ouvert lancé par Anthropic en novembre 2024 qui permet à n'importe quel modèle de langage de se connecter de manière uniforme à des outils, des bases de données et des services externes. C'est l'équivalent d'un USB-C pour l'IA : une seule prise pour brancher tout."
+        "text": "MCP, pour Model Context Protocol, est un standard ouvert créé par Anthropic qui permet à n'importe quel modèle de langage de se connecter de la même façon à des outils, des bases de données et des services externes. Dans les apps, tu le croises sous le nom de connecteur. C'est l'équivalent d'un USB-C pour l'IA : une seule prise pour tout brancher."
       }
     },
     {
@@ -120,15 +120,15 @@
       "name": "Qui a inventé MCP ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MCP a été conçu et publié par Anthropic, la société qui édite Claude. Le protocole a été annoncé en novembre 2024 et le code est publié en open source sur le dépôt GitHub modelcontextprotocol. Depuis, d'autres acteurs (OpenAI, communauté Cursor, éditeurs d'IDE) ont commencé à l'adopter, ce qui en fait un standard de fait."
+        "text": "MCP a été conçu et publié par Anthropic, la société qui édite Claude, et son code est en open source sur le dépôt GitHub modelcontextprotocol. Depuis fin 2025, il est gouverné par une fondation indépendante, l'Agentic AI Foundation, hébergée par la Linux Foundation. OpenAI, les éditeurs de code comme Cursor et la communauté l'ont adopté, ce qui en fait un standard de fait."
       }
     },
     {
       "@type": "Question",
-      "name": "Pourquoi tout le monde en parle en 2025-2026 ?",
+      "name": "Pourquoi tout le monde en parle ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Parce que c'est la première tentative crédible de standardiser les connexions entre IA et outils. Avant MCP, chaque éditeur d'IA avait son propre format de tools (OpenAI function calling, Anthropic Tools API, Google function declarations). Résultat : les développeurs réécrivaient les mêmes intégrations trois fois. MCP unifie tout, et l'adoption par Cursor, Claude Code et Windsurf en 2025 a accéléré le mouvement."
+        "text": "Parce que c'est la première tentative crédible de standardiser les branchements entre l'IA et les outils. Avant MCP, chaque éditeur d'IA avait son propre format (le function calling d'OpenAI, la Tools API d'Anthropic, les function declarations de Google), et les développeurs réécrivaient les mêmes intégrations trois fois. MCP unifie tout. Et en novembre 2026, tu en profites sans le savoir : quand tu branches Gmail ou Google Drive dans l'app Claude, tu utilises ce genre de connecteur."
       }
     },
     {
@@ -136,7 +136,7 @@
       "name": "MCP est-il open source ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui. La spécification, les SDK officiels (Python et TypeScript) et la majorité des serveurs de référence sont publiés sous licence MIT sur GitHub, dans l'organisation modelcontextprotocol. N'importe qui peut écrire un serveur, le publier, le forker. Anthropic maintient le standard mais n'a pas la main exclusive dessus."
+        "text": "Oui. La spécification, les SDK officiels (Python et TypeScript) et les serveurs de référence sont publiés en open source sur GitHub, dans l'organisation modelcontextprotocol. N'importe qui peut écrire un serveur, le publier, le forker. Et depuis que le protocole est confié à une fondation, aucune entreprise n'a la main exclusive dessus."
       }
     },
     {
@@ -149,18 +149,18 @@
     },
     {
       "@type": "Question",
-      "name": "Comment installer un serveur MCP avec Claude Code ?",
+      "name": "Comment brancher un connecteur dans l'app Claude ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tu ajoutes une entrée dans ton fichier de configuration ~/.claude/settings.json en précisant la commande de lancement du serveur (souvent un npx ou un python -m), les arguments et les variables d'environnement. Tu relances Claude Code, le serveur apparaît dans la liste des outils disponibles. Pour les serveurs officiels, des assistants d'installation existent qui font ça pour toi."
+        "text": "Dans l'app Claude, ouvre le menu Customize, puis Connectors, choisis l'app (Google Drive, Gmail, Microsoft 365, Slack…) et connecte ton compte. Ensuite, Claude s'en sert pendant ses tâches. Chez ChatGPT, passe en mode Work dans l'app de bureau : il peut utiliser tes fichiers et tes applications, avec ton autorisation. Pour installer un serveur MCP à la main, regarde la note « Pour les curieux » en bas de page."
       }
     },
     {
       "@type": "Question",
-      "name": "Quels LLMs supportent MCP en 2026 ?",
+      "name": "Quelles apps utilisent MCP en 2026 ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Côté Anthropic, Claude Desktop et Claude Code supportent MCP nativement. Cursor le supporte aussi. Côté OpenAI, le ChatGPT desktop a annoncé un support en 2025. Côté open source, Continue, Cline et Zed l'intègrent. La liste évolue vite : la majorité des clients IA sérieux ont basculé ou prévoient de basculer."
+        "text": "Côté Anthropic, l'app Claude, avec ses connecteurs. Côté OpenAI, le support a été annoncé dès 2025. Côté éditeurs de code, Cursor, Continue, Cline et Zed l'intègrent. La liste évolue vite : la majorité des clients IA sérieux ont basculé."
       }
     },
     {
@@ -168,7 +168,7 @@
       "name": "MCP est-il sécurisé ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Le protocole en lui-même est sécurisé par conception : chaque serveur tourne dans son propre processus, les capabilities sont explicitement déclarées, et le client peut filtrer les outils exposés. Le vrai risque, c'est ce que tu installes. Un serveur MCP mal écrit ou malveillant peut lire tes fichiers ou exposer tes secrets. Règle d'or : n'installer que des serveurs maintenus par des sources de confiance, et lire le code avant de brancher."
+        "text": "Le protocole en lui-même est sécurisé par conception : chaque serveur tourne dans son propre processus, les capabilities sont explicitement déclarées, et le client peut filtrer les outils exposés. Le vrai risque, c'est ce que tu branches. Un connecteur agit avec les droits de ton compte, et un serveur mal écrit ou malveillant peut lire tes fichiers ou exposer tes secrets. Règle d'or : ne brancher que ce dont la tâche a besoin, et seulement depuis des sources de confiance."
       }
     },
     {
@@ -176,7 +176,7 @@
       "name": "Comment écrire son propre serveur MCP ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tu choisis ton langage (Python ou TypeScript, les SDK officiels couvrent les deux), tu installes le template officiel, tu déclares les capabilities (tools, resources, prompts) que ton serveur expose, tu implémentes leurs handlers, puis tu connectes ton client. La doc modelcontextprotocol.io a un tutoriel complet. Pour un premier serveur simple, compte une à deux heures."
+        "text": "Tu choisis ton langage (Python ou TypeScript, les SDK officiels couvrent les deux), tu pars du modèle officiel, tu déclares les capabilities (tools, resources, prompts) que ton serveur expose, tu implémentes leurs handlers, puis tu connectes ton client. La doc modelcontextprotocol.io a un tutoriel complet. Pour un premier serveur simple, compte une à deux heures."
       }
     },
     {
@@ -192,15 +192,15 @@
       "name": "Quelles sont les limitations connues de MCP ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trois limites que je constate en 2026 : la documentation est encore inégale selon les serveurs (certains sont très bien docs, d'autres pas du tout), la sécurité repose sur ta vigilance (pas de marketplace centralisé qui audite), et l'expérience utilisateur côté installation reste technique (édition manuelle d'un fichier JSON). Anthropic et la communauté travaillent à corriger les trois, mais on n'y est pas encore."
+        "text": "Trois limites que je vois en novembre 2026. La documentation reste inégale selon les serveurs. La sécurité repose en partie sur ta vigilance : un serveur trouvé hors de la liste des connecteurs de ton app, il faut vérifier qui l'a écrit. Et brancher un serveur absent de cette liste reste technique. Les connecteurs prêts à l'emploi des apps règlent une bonne partie de ce dernier point."
       }
     },
     {
       "@type": "Question",
-      "name": "Quelle est la roadmap MCP en 2026 ?",
+      "name": "Comment suivre l'évolution de MCP ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trois axes annoncés par Anthropic et la communauté : un registre officiel des serveurs MCP (équivalent npm pour MCP), une meilleure gestion des permissions (un client peut autoriser un outil mais pas un autre), et l'extension du transport HTTP pour les serveurs distants (au-delà du stdio local). La roadmap publique vit sur le GitHub modelcontextprotocol."
+        "text": "La spécification et sa feuille de route publique vivent sur modelcontextprotocol.io et sur le GitHub modelcontextprotocol. Je préfère t'y renvoyer plutôt que de figer ici des annonces qui changent tous les trimestres. Et je signale les évolutions qui comptent dans ma lettre du vendredi."
       }
     }
   ]
@@ -976,7 +976,7 @@
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
-          <span class="more-text"><strong>Workflows</strong><span>Claude Code par métier</span></span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
         </a>
         <a href="/outils" role="menuitem">
           <span class="more-icon">🛠</span>
@@ -1024,14 +1024,14 @@
 <!-- Hero -->
 <section class="hero">
   <div class="container">
-    <div class="kicker"><span class="pulse"></span>Guide pillar · MCP en 2026</div>
+    <div class="kicker"><span class="pulse"></span>Guide · MCP et connecteurs · novembre 2026</div>
     <h1>MCP · Model<br>Context Protocol<br><em>expliqué.</em></h1>
     <p class="hero-lead">
-      MCP, c'est le standard ouvert lancé par Anthropic en novembre 2024 pour connecter les IA à des outils et des données externes. Une seule prise, partout. Ici, je rassemble tout ce que tu dois savoir : la définition, l'architecture, les serveurs populaires en 2026, les vrais use cases, et comment construire ton premier serveur.
+      Tu as sûrement déjà vu le mot « connecteur » dans l'app Claude ou dans ChatGPT, à côté de Gmail, Google Drive, Microsoft 365 ou Slack. Derrière beaucoup de ces branchements, il y a le même standard, MCP. Je commence par ce que tu vois à l'écran et comment t'en servir. Ensuite, pour ceux qui veulent comprendre la mécanique, j'explique comment ça marche.
     </p>
     <div class="hero-ctas">
-      <a href="#c-est-quoi" class="btn-primary">Découvrir MCP en 5 min →</a>
-      <a href="#serveurs" class="btn-ghost">Voir les serveurs MCP populaires</a>
+      <a href="#connecteurs" class="btn-primary">Voir les connecteurs →</a>
+      <a href="#c-est-quoi" class="btn-ghost">Comprendre MCP en 5 min</a>
     </div>
   </div>
 </section>
@@ -1039,33 +1039,109 @@
 <!-- Mini-marquee 01 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Standard ouvert</span><span>Anthropic 2024</span><span>USB-C pour IA</span><span>Clients et serveurs</span><span>JSON-RPC</span><span>Open source</span>
-    <span>Standard ouvert</span><span>Anthropic 2024</span><span>USB-C pour IA</span><span>Clients et serveurs</span><span>JSON-RPC</span><span>Open source</span>
+    <span>Connecteurs</span><span>Gmail</span><span>Google Drive</span><span>Microsoft 365</span><span>Slack</span><span>Standard ouvert</span>
+    <span>Connecteurs</span><span>Gmail</span><span>Google Drive</span><span>Microsoft 365</span><span>Slack</span><span>Standard ouvert</span>
   </div>
 </div>
+
+<!-- Section : Ce que tu vois dans les apps -->
+<section class="block" id="connecteurs">
+  <div class="container">
+    <span class="section-kicker k-teal">Ce que tu vois</span>
+    <h2>Dans l'app, ça s'appelle<br>un <em class="teal">connecteur.</em></h2>
+
+    <div class="definition-card">
+      <h4>En une phrase</h4>
+      <p><strong>Un connecteur branche l'IA sur une app que tu utilises déjà (ta boîte mail, ton Drive, ton agenda) pour qu'elle y lise et y agisse pendant une tâche.</strong> MCP est la prise standard qui permet de fabriquer ces branchements une bonne fois, au lieu d'en refaire un pour chaque IA.</p>
+    </div>
+
+    <p>
+      Sans connecteur, tu copies un mail ou un tableau dans la conversation. Avec un connecteur, tu écris « va le chercher » et l'IA le retrouve elle-même dans ton compte. <strong>Tu n'installes rien de technique et tu n'écris aucune ligne de code.</strong>
+    </p>
+
+    <div class="profile-grid">
+      <article class="profile-card p-teal">
+        <div class="profile-tag">App Claude</div>
+        <h3>Les connecteurs de Claude</h3>
+        <p><strong>Où</strong> · dans le menu Customize, rubrique Connectors (les noms peuvent être traduits si ton app est en français).</p>
+        <p><strong>Ce que tu branches</strong> · Google Drive, Gmail, Microsoft 365, Slack et d'autres. Les apps connectées servent pendant que Claude fait une tâche, y compris dans un dossier que tu lui as ouvert.</p>
+        <p><strong>À essayer</strong> · « Retrouve dans mon Drive la présentation du dernier comité et résume ce qui a changé depuis. »</p>
+      </article>
+
+      <article class="profile-card p-fuchsia">
+        <div class="profile-tag">ChatGPT · mode Work</div>
+        <h3>ChatGPT en mode Work</h3>
+        <p><strong>Où</strong> · dans l'app ChatGPT de bureau, passe en mode <a href="/lexique/chatgpt-work">Work</a>.</p>
+        <p><strong>Ce qu'il fait</strong> · Work prend une tâche entière et rend un document, un tableau, une présentation, un rapport ou un site. Il peut utiliser tes fichiers et tes applications, avec ton autorisation.</p>
+        <p><strong>À savoir</strong> · les messages et le contexte de la tâche peuvent être enregistrés dans le cloud. Garde-le en tête pour les documents sensibles.</p>
+      </article>
+    </div>
+
+    <h3>Brancher ton premier connecteur</h3>
+
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <h3>Ouvre le menu des connecteurs</h3>
+        <p>Dans l'app Claude, va dans Customize, puis Connectors. Choisis une app que tu ouvres tous les jours, Gmail ou Google Drive par exemple. Une seule pour commencer.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <h3>Connecte ton compte</h3>
+        <p>L'app te demande de te connecter au service et d'accepter ce que Claude pourra y faire. Lis cette liste avant de dire oui : c'est elle qui fixe ce que l'IA a le droit de lire ou de modifier.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <h3>Demande en français</h3>
+        <p>Écris ce que tu veux, comme à un collègue. Par exemple : « Résume les mails de cette semaine qui attendent une réponse de ma part, et propose un brouillon pour chacun. N'envoie rien. »</p>
+      </div>
+    </div>
+
+    <div class="callout tip">
+      <h4>Ce qui va avec les connecteurs, dans l'app Claude</h4>
+      <p><strong>Les skills</strong> · tu montres à Claude comment tu aimes qu'une tâche soit faite, et il suit ces étapes chaque fois qu'elle revient. <strong>Les plugins</strong> · ils regroupent des skills et des connecteurs pour ton métier. <strong>Les tâches planifiées</strong> · un résumé de ta boîte mail chaque lundi matin, par exemple. Elles peuvent tourner dans le cloud, même quand ton ordinateur est éteint.</p>
+      <p>Source : aide Claude, « <a href="https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude" target="_blank" rel="noopener">Claude Cowork and chat are one Claude</a> », consultée le 2 novembre 2026.</p>
+    </div>
+
+    <div class="callout warn">
+      <h4>Ne branche que ce dont tu as besoin</h4>
+      <p>Un connecteur donne à l'IA un vrai accès à ton compte. <strong>Commence par un seul, relis tout ce qui part en ton nom, et ne branche jamais un compte qui contient des mots de passe ou des données médicales.</strong> Tout ce que l'IA lit pour faire la tâche part chez l'éditeur pour être traité, comme dans le chat.</p>
+    </div>
+
+    <p>
+      Le mode où l'IA travaille seule dans un dossier de ton ordinateur s'appelait <a href="/lexique/cowork">Cowork</a> chez Claude. On parle aussi de <a href="/lexique/mode-agent">mode agent</a>. Pour le pas à pas complet de l'app (l'installer, lui ouvrir un dossier, cinq premières tâches à copier), lis mon guide <a href="/articles/ia-qui-travaille-sur-ton-ordinateur">L'IA qui travaille sur ton ordinateur</a>. Et si tu veux la version courte de MCP, elle est ici : <a href="/articles/mcp-explique-simplement">MCP expliqué simplement</a>.
+    </p>
+  </div>
+</section>
 
 <!-- Section : C'est quoi exactement ? -->
 <section class="block" id="c-est-quoi">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Définition</span>
+    <span class="section-kicker k-fuchsia">Définition</span>
     <h2>MCP, c'est quoi<br><em class="fuchsia">exactement ?</em></h2>
 
     <div class="definition-card">
       <h4>En une phrase</h4>
-      <p><strong>MCP, pour Model Context Protocol, est un standard ouvert publié par Anthropic en novembre 2024, qui permet à n'importe quel modèle de langage de se connecter de manière uniforme à des outils, des bases de données et des services externes.</strong> Au lieu d'écrire une intégration sur mesure entre chaque IA et chaque outil, tu écris un serveur MCP une fois, et tous les clients compatibles peuvent l'utiliser.</p>
+      <p><strong>MCP, pour Model Context Protocol, est un standard ouvert créé par Anthropic, qui permet à n'importe quel modèle de langage de se connecter de la même façon à des outils, des bases de données et des services externes.</strong> Au lieu d'écrire une intégration sur mesure entre chaque IA et chaque outil, on écrit un serveur MCP une fois, et tous les clients compatibles peuvent l'utiliser.</p>
     </div>
 
     <p>
-      L'analogie qui revient partout, c'est celle de l'USB-C. <strong>MCP est à l'IA ce que l'USB-C est au matériel : une prise standard universelle.</strong> Avant l'USB-C, chaque marque avait son propre câble propriétaire — un pour Apple, un pour Samsung, un pour Sony, sans compter les vieux jacks ronds. Aujourd'hui tu branches un câble USB-C dans n'importe quel téléphone moderne et ça marche. MCP fait la même chose pour les IA et leurs outils.
+      L'analogie qui revient partout, c'est celle de l'USB-C. <strong>MCP est à l'IA ce que l'USB-C est au matériel : une prise standard universelle.</strong> Avant l'USB-C, chaque marque avait son propre câble, un pour Apple, un pour Samsung, un pour Sony, sans compter les vieux jacks ronds. Aujourd'hui tu branches un câble USB-C dans n'importe quel téléphone récent et ça marche. MCP fait la même chose pour les IA et leurs outils.
     </p>
 
     <h3>Pourquoi MCP a été créé</h3>
     <p>
-      Avant MCP, chaque éditeur d'IA avait son propre format pour brancher des outils. <strong>OpenAI avait son function calling, Anthropic avait son Tools API, Google avait ses function declarations, Cohere ses connectors.</strong> Résultat concret : si tu voulais qu'un assistant puisse lire ta base Postgres et écrire dans ton Notion, tu écrivais l'intégration trois fois — une pour ChatGPT, une pour Claude, une pour Gemini. Trois codebases à maintenir, trois formats différents, trois courbes d'apprentissage.
+      Avant MCP, chaque éditeur d'IA avait son propre format pour brancher des outils. <strong>OpenAI avait son function calling, Anthropic avait sa Tools API, Google avait ses function declarations, Cohere ses connectors.</strong> Résultat concret : si tu voulais qu'un assistant puisse lire ta base de données et écrire dans ton Notion, il fallait écrire l'intégration trois fois, une pour ChatGPT, une pour Claude, une pour Gemini. Trois codes à maintenir, trois formats différents, trois apprentissages.
     </p>
 
     <p>
-      Anthropic a ouvert le code et la spec en open source sur le dépôt GitHub <code>modelcontextprotocol</code>, sous licence MIT. <strong>N'importe qui peut écrire un serveur, le publier, l'utiliser, le forker.</strong> Et le pari a marché : en quelques mois, Cursor, Claude Code, Continue, Cline, Windsurf et d'autres ont adopté le standard. En 2025, OpenAI a annoncé que ChatGPT Desktop le supporte aussi. MCP est devenu un standard de fait pour les agents IA.
+      Anthropic a ouvert le code et la spécification en open source sur le dépôt GitHub <code>modelcontextprotocol</code>. <strong>N'importe qui peut écrire un serveur, le publier, l'utiliser, le forker.</strong> Et le pari a marché : les éditeurs de code comme Cursor, Continue, Cline ou Windsurf l'ont adopté, OpenAI a suivi, et aujourd'hui tu le croises surtout sous le nom de connecteur, dans les apps. MCP est devenu le standard de fait pour brancher une IA à des outils.
     </p>
 
     <h3>Ce que MCP n'est pas</h3>
@@ -1086,19 +1162,19 @@
 <!-- Section : Comment fonctionne MCP techniquement -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-teal">— Architecture</span>
+    <span class="section-kicker k-teal">Architecture</span>
     <h2>Comment fonctionne<br>MCP <em class="teal">techniquement.</em></h2>
 
     <p>
-      MCP repose sur une architecture client-serveur classique, transportée en JSON-RPC. <strong>Côté client, tu as l'application qui héberge le modèle</strong> (Claude Desktop, Claude Code, Cursor, etc.). <strong>Côté serveur, tu as un processus indépendant qui expose des capabilities</strong> au client. Les deux se parlent en JSON-RPC, soit en local via stdio, soit à distance via HTTP.
+      MCP repose sur une architecture client-serveur classique, transportée en JSON-RPC. <strong>Côté client, tu as l'application qui héberge le modèle</strong> (l'app Claude, ChatGPT, Cursor, etc.). <strong>Côté serveur, tu as un processus indépendant qui expose des capabilities</strong> au client. Les deux se parlent en JSON-RPC, soit en local via stdio, soit à distance via HTTP.
     </p>
 
     <h3>Le schéma simplifié</h3>
     <pre class="ascii-schema" aria-label="Schéma de l'architecture MCP">
    ┌────────────────────┐       JSON-RPC        ┌────────────────────┐
    │   CLIENT MCP       │ ◄────────────────────► │   SERVEUR MCP      │
-   │  (Claude Code,     │   stdio  OR  HTTP      │  (filesystem,      │
-   │   Claude Desktop,  │                        │   GitHub, Postgres,│
+   │  (app Claude,      │   stdio  OU  HTTP      │  (filesystem,      │
+   │   ChatGPT,         │                        │   GitHub, Postgres,│
    │   Cursor, Cline)   │                        │   Notion, custom)  │
    └────────┬───────────┘                        └─────────┬──────────┘
             │                                              │
@@ -1118,8 +1194,8 @@
     </p>
     <ul>
       <li><strong>Resources (données)</strong> · des contenus que le serveur expose en lecture : fichiers, lignes de base de données, pages web, contenu d'un CRM. Le client peut les lister et les charger dans le contexte du modèle.</li>
-      <li><strong>Tools (actions)</strong> · des fonctions que le modèle peut appeler pour agir : écrire un fichier, créer un ticket GitHub, envoyer un message Slack, lancer une query SQL. C'est l'équivalent du function calling, mais standardisé.</li>
-      <li><strong>Prompts (templates)</strong> · des modèles de prompts pré-rédigés que l'utilisateur ou le modèle peut invoquer comme un raccourci. Pratique pour des workflows répétitifs.</li>
+      <li><strong>Tools (actions)</strong> · des fonctions que le modèle peut appeler pour agir : écrire un fichier, créer un ticket GitHub, envoyer un message Slack, lancer une requête SQL. C'est l'équivalent du function calling, mais standardisé.</li>
+      <li><strong>Prompts (templates)</strong> · des modèles de prompts pré-rédigés que l'utilisateur ou le modèle peut invoquer comme un raccourci. Pratique pour des tâches répétitives.</li>
     </ul>
 
     <h3>Stdio vs HTTP : deux transports</h3>
@@ -1127,15 +1203,15 @@
       Le protocole supporte deux modes de transport selon le contexte.
     </p>
     <p>
-      <strong>Stdio (entrée/sortie standard)</strong>, c'est le mode local. Le client lance le serveur comme un sous-processus et les deux communiquent par stdin/stdout. C'est le mode par défaut pour les serveurs qui tournent sur ta machine — filesystem, base locale, scripts perso. Avantage : pas de réseau, sécurité maximale, latence nulle.
+      <strong>Stdio (entrée/sortie standard)</strong>, c'est le mode local. Le client lance le serveur comme un sous-processus et les deux communiquent par stdin/stdout. C'est le mode par défaut pour les serveurs qui tournent sur ta machine (fichiers, base locale, scripts perso). Avantage : pas de réseau, sécurité maximale, latence nulle.
     </p>
     <p>
-      <strong>HTTP (avec Server-Sent Events ou WebSocket)</strong>, c'est le mode distant. Le serveur tourne sur une autre machine et le client se connecte par le réseau. C'est ce qu'on utilise pour des services qui doivent rester centralisés — un MCP partagé en équipe, une intégration SaaS, un connecteur cloud.
+      <strong>HTTP (« Streamable HTTP » dans la spécification actuelle)</strong>, c'est le mode distant. Le serveur tourne sur une autre machine et le client s'y connecte par le réseau. C'est ce qu'on utilise pour des services qui doivent rester centralisés : un serveur partagé en équipe, une intégration SaaS, un connecteur cloud. La plupart des connecteurs que tu branches en quelques clics dans les apps fonctionnent ainsi, le serveur tourne chez l'éditeur, pas sur ton ordinateur.
     </p>
 
     <div class="callout tip">
       <h4>Le détail qui change tout : la découverte automatique</h4>
-      <p>Quand un client MCP se connecte à un serveur, il commence par lui demander la liste de ses capabilities. Le modèle reçoit alors une description structurée de chaque tool, resource et prompt disponible. <strong>Pas besoin de coder en dur les outils dans le prompt système</strong> — l'IA découvre dynamiquement ce qu'elle peut faire à chaque démarrage. C'est ce qui rend MCP vraiment portable.</p>
+      <p>Quand un client MCP se connecte à un serveur, il commence par lui demander la liste de ses capabilities. Le modèle reçoit alors une description structurée de chaque tool, resource et prompt disponible. <strong>Pas besoin d'écrire les outils en dur dans le prompt système</strong> : l'IA découvre à chaque connexion ce qu'elle peut faire. C'est ce qui rend MCP vraiment portable.</p>
     </div>
   </div>
 </section>
@@ -1151,21 +1227,21 @@
 <!-- Section : Les serveurs MCP populaires en 2026 -->
 <section class="block" id="serveurs">
   <div class="container">
-    <span class="section-kicker k-orange">— Écosystème</span>
+    <span class="section-kicker k-orange">Écosystème</span>
     <h2>Les serveurs MCP<br>populaires en <em class="orange">2026.</em></h2>
 
     <p>
-      L'écosystème MCP s'est étoffé vite. <strong>L'organisation GitHub <code>modelcontextprotocol</code> maintient une vingtaine de serveurs officiels</strong>, et la communauté en a publié plusieurs centaines d'autres. Voici les serveurs les plus utilisés au quotidien, ceux que je vois revenir dans toutes les conversations sérieuses sur les agents IA.
+      L'écosystème MCP s'est étoffé vite. <strong>L'organisation GitHub <code>modelcontextprotocol</code> garde une poignée de serveurs de référence</strong> (Filesystem, Fetch, Git, Memory, Time…), et de plus en plus d'éditeurs publient leur propre serveur officiel. La communauté en a publié plusieurs centaines d'autres. Voici ceux que je vois revenir dans toutes les conversations sérieuses sur les agents IA.
     </p>
 
-    <h3>Les essentiels que j'installe sur chaque setup</h3>
+    <h3>Les plus utilisés au quotidien</h3>
     <ul>
-      <li><strong>Filesystem</strong> · lire, écrire, lister des fichiers locaux. Le plus utile au quotidien, surtout avec Claude Code et Claude Desktop. Tu donnes accès à un dossier précis, et l'IA peut manipuler tes notes, ton code, tes documents.</li>
-      <li><strong>GitHub</strong> · gérer issues, pull requests, branches, repos. Tu peux demander à Claude de créer une issue, de commenter une PR ou de lire le code d'un repo public. Pratique pour les revues de code automatisées.</li>
-      <li><strong>Google Drive / Notion / Slack</strong> · lire et écrire dans tes outils de travail collaboratif. Notion est particulièrement utile pour les bases de connaissances. Slack pour brancher l'IA aux messages d'équipe.</li>
-      <li><strong>PostgreSQL / SQLite</strong> · exécuter des queries SQL en lecture (et parfois en écriture, selon la config) sur une base de données. Très utilisé en analyse de données et en BI.</li>
-      <li><strong>Puppeteer / Playwright</strong> · piloter un navigateur. L'IA peut ouvrir des pages, cliquer, scraper, prendre des screenshots. C'est le serveur que j'utilise pour automatiser des tests UI ou des recherches web profondes.</li>
-      <li><strong>Brave Search / Tavily / Exa</strong> · faire des recherches web depuis l'agent. Brave Search est gratuit jusqu'à 2 000 requêtes/mois, Tavily et Exa sont payants mais retournent du contenu mieux structuré pour l'IA.</li>
+      <li><strong>Filesystem</strong> · lire, écrire, lister des fichiers locaux. Tu donnes accès à un dossier précis, et l'IA peut manipuler tes notes, tes documents, tes projets. Dans l'app Claude, tu as déjà l'équivalent sans rien installer : tu lui ouvres un dossier.</li>
+      <li><strong>GitHub</strong> · gérer tickets, demandes de fusion, branches, dépôts. GitHub publie lui-même son serveur officiel. Pratique pour les revues de code automatisées.</li>
+      <li><strong>Google Drive / Notion / Slack</strong> · lire et écrire dans tes outils de travail collaboratif. Dans l'app Claude, Google Drive, Gmail, Microsoft 365 et Slack font partie des connecteurs prêts à brancher. Notion est particulièrement utile pour les bases de connaissances.</li>
+      <li><strong>PostgreSQL / SQLite</strong> · exécuter des requêtes SQL en lecture (et parfois en écriture, selon la configuration) sur une base de données. Très utilisé en analyse de données.</li>
+      <li><strong>Playwright</strong> · piloter un navigateur. L'IA peut ouvrir des pages, cliquer, extraire du contenu, prendre des captures. Il a pris le relais de l'ancien serveur Puppeteer, aujourd'hui archivé.</li>
+      <li><strong>Brave Search / Tavily / Exa</strong> · faire des recherches web depuis un agent que tu construis. Brave publie son serveur officiel, Tavily et Exa sont payants mais rendent un contenu mieux structuré pour l'IA. Dans les apps, la recherche web est déjà intégrée.</li>
     </ul>
 
     <h3>Tableau comparatif</h3>
@@ -1175,7 +1251,7 @@
           <tr>
             <th>Serveur</th>
             <th>Langage</th>
-            <th>Maintainer</th>
+            <th>Maintenu par</th>
             <th>Usage typique</th>
             <th>Complexité</th>
           </tr>
@@ -1184,15 +1260,15 @@
           <tr>
             <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Filesystem</td>
             <td>TypeScript</td>
-            <td>Anthropic (officiel)</td>
+            <td>Projet MCP (référence)</td>
             <td>Lire/écrire fichiers locaux</td>
             <td>Facile</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-teal"></span>GitHub</td>
-            <td>TypeScript</td>
-            <td>Anthropic (officiel)</td>
-            <td>Issues, PRs, repos</td>
+            <td>Go</td>
+            <td>GitHub (officiel)</td>
+            <td>Tickets, demandes de fusion, dépôts</td>
             <td>Facile</td>
           </tr>
           <tr>
@@ -1200,35 +1276,35 @@
             <td>TypeScript</td>
             <td>Notion + communauté</td>
             <td>Base de connaissances, notes</td>
-            <td>Moyen (auth OAuth)</td>
+            <td>Moyen (connexion au compte)</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-ink"></span>Slack</td>
             <td>TypeScript</td>
-            <td>Anthropic (officiel)</td>
-            <td>Lecture / envoi messages</td>
-            <td>Moyen (auth workspace)</td>
+            <td>Communauté (ancien serveur de référence archivé)</td>
+            <td>Lecture / envoi de messages</td>
+            <td>Moyen (accès à l'espace)</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>PostgreSQL</td>
             <td>TypeScript</td>
-            <td>Anthropic (officiel)</td>
-            <td>Queries SQL en lecture</td>
+            <td>Communauté (ancien serveur de référence archivé)</td>
+            <td>Requêtes SQL en lecture</td>
             <td>Facile</td>
           </tr>
           <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>Puppeteer</td>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Playwright</td>
             <td>TypeScript</td>
-            <td>Anthropic (officiel)</td>
+            <td>Microsoft (officiel)</td>
             <td>Pilotage navigateur</td>
             <td>Moyen</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-orange"></span>Brave Search</td>
             <td>TypeScript</td>
-            <td>Anthropic (officiel)</td>
+            <td>Brave (officiel)</td>
             <td>Recherche web</td>
-            <td>Facile (clé API gratuite)</td>
+            <td>Facile (clé API)</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-ink"></span>Tavily / Exa</td>
@@ -1250,16 +1326,16 @@
 
     <h3>Les serveurs custom que je vois fleurir</h3>
     <p>
-      Au-delà des serveurs officiels, la communauté publie des serveurs MCP pour à peu près tout. <strong>Linear, Jira, Trello côté gestion de projet. Stripe, PayPal côté paiements. HubSpot, Pipedrive côté CRM.</strong> Si un service a une API publique, il y a de grandes chances qu'il existe déjà un serveur MCP communautaire. Le réflexe avant d'en coder un : chercher sur le dépôt GitHub <code>modelcontextprotocol/servers</code> et sur les listes communautaires de type <code>awesome-mcp-servers</code>.
+      Au-delà des serveurs de référence, la communauté publie des serveurs MCP pour à peu près tout. <strong>Linear, Jira, Trello côté gestion de projet. Stripe, PayPal côté paiements. HubSpot, Pipedrive côté CRM.</strong> Si un service a une API publique, il y a de grandes chances qu'il existe déjà un serveur MCP. Le réflexe avant d'en fabriquer un : regarder d'abord la liste des connecteurs de ton app, puis le dépôt GitHub <code>modelcontextprotocol/servers</code> et les listes communautaires de type <code>awesome-mcp-servers</code>.
     </p>
 
     <p>
-      Et bien sûr, tu peux toujours rédiger les tiens. Pour mes propres workflows — agents qui pilotent mon site, qui interagissent avec ma newsletter, qui surveillent mes builds — j'ai écrit quelques serveurs MCP minimalistes en TypeScript. On voit comment faire un peu plus bas dans la section dédiée.
+      Et bien sûr, tu peux toujours créer les tiens. Pour mes propres besoins (des agents qui pilotent mon site, qui interagissent avec ma newsletter, qui surveillent mes mises en ligne), j'ai monté quelques serveurs MCP minimalistes en TypeScript, avec l'aide de l'IA. On voit comment faire un peu plus bas, dans la section dédiée.
     </p>
 
     <div class="callout warn">
       <h4>Attention au choix des serveurs que tu installes</h4>
-      <p>Un serveur MCP, c'est du code qui tourne sur ta machine avec accès à ce que tu lui donnes. <strong>Un serveur mal écrit ou malveillant peut lire tes fichiers, exfiltrer tes secrets ou poster en ton nom.</strong> Règle d'or : ne jamais installer un serveur dont tu n'as pas vérifié la source. Pour les serveurs officiels d'Anthropic, c'est safe. Pour les communautaires, regarde le repo, le nombre de stars, qui maintient, et la dernière mise à jour.</p>
+      <p>Un serveur MCP, c'est du code qui tourne avec accès à ce que tu lui donnes. <strong>Un serveur mal écrit ou malveillant peut lire tes fichiers, exfiltrer tes secrets ou poster en ton nom.</strong> Règle d'or : ne jamais installer un serveur dont tu n'as pas vérifié la source. Les serveurs de référence du projet MCP et ceux publiés par l'éditeur lui-même (GitHub, Notion, Brave…) sont les plus sûrs. Pour les autres, regarde le dépôt, qui le maintient, et la date de la dernière mise à jour.</p>
     </div>
   </div>
 </section>
@@ -1267,16 +1343,16 @@
 <!-- Section : MCP vs Function Calling vs Tools API -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Comparaison</span>
+    <span class="section-kicker k-fuchsia">Comparaison</span>
     <h2>MCP vs Function Calling<br><em class="fuchsia">vs Tools API.</em></h2>
 
     <p>
-      Quand on découvre MCP, la première question qui se pose, c'est : en quoi c'est différent de function calling ? Et c'est une bonne question, parce que les trois concepts se ressemblent superficiellement. Voici comment je les distingue.
+      Quand on découvre MCP, la première question qui se pose, c'est : en quoi c'est différent de function calling ? Et c'est une bonne question, parce que les trois concepts se ressemblent en surface. Voici comment je les distingue.
     </p>
 
     <h3>Function Calling (OpenAI, 2023)</h3>
     <p>
-      <strong>Function calling, c'est la capacité d'un modèle à choisir d'appeler une fonction</strong> au lieu de générer du texte. OpenAI a popularisé le concept en juin 2023 avec GPT-3.5 puis GPT-4. Tu décris tes fonctions au modèle dans un format JSON spécifique à OpenAI, et le modèle peut décider de les appeler avec des arguments.
+      <strong>Function calling, c'est la capacité d'un modèle à choisir d'appeler une fonction</strong> au lieu de générer du texte. OpenAI a popularisé le concept en juin 2023 avec GPT-3.5 puis GPT-4. Tu décris tes fonctions au modèle dans un format JSON propre à OpenAI, et le modèle peut décider de les appeler avec des arguments.
     </p>
 
     <p>
@@ -1285,7 +1361,7 @@
 
     <h3>Tools API (Anthropic, 2024)</h3>
     <p>
-      <strong>Tools API, c'est l'équivalent de function calling côté Anthropic</strong>, lancé début 2024. Même idée, format légèrement différent, supporté nativement par les modèles Claude. C'est le même paradigme que function calling, mais avec sa propre spécification.
+      <strong>Tools API, c'est l'équivalent de function calling côté Anthropic</strong>, lancé début 2024. Même idée, format légèrement différent, supporté nativement par les modèles Claude. C'est le même principe que function calling, avec sa propre spécification.
     </p>
 
     <p>
@@ -1294,11 +1370,11 @@
 
     <h3>MCP (Anthropic, novembre 2024)</h3>
     <p>
-      <strong>MCP, c'est un standard ouvert au-dessus de tout ça.</strong> Concrètement : ton serveur MCP expose des tools (qui ressemblent fortement à des function calls), des resources et des prompts. Le client MCP s'occupe de traduire ces tools dans le format spécifique du modèle qu'il utilise. Si demain tu changes de modèle, ton serveur ne bouge pas.
+      <strong>MCP, c'est un standard ouvert au-dessus de tout ça.</strong> Concrètement, ton serveur MCP expose des tools (qui ressemblent fortement à des function calls), des resources et des prompts. Le client MCP s'occupe de traduire ces tools dans le format du modèle qu'il utilise. Si demain tu changes de modèle, ton serveur ne bouge pas.
     </p>
 
     <p>
-      Donc concrètement : <strong>function calling et Tools API sont des fonctionnalités de bas niveau, propres à chaque modèle. MCP est un protocole de plus haut niveau qui s'installe par-dessus.</strong> Les deux coexistent, ils ne se remplacent pas. Sous le capot, un client MCP utilise toujours du function calling ou des Tools API pour communiquer avec son modèle.
+      Donc concrètement : <strong>function calling et Tools API sont des fonctionnalités de bas niveau, propres à chaque modèle. MCP est un protocole de plus haut niveau qui s'installe par-dessus.</strong> Les deux coexistent, ils ne se remplacent pas. Sous le capot, un client MCP utilise toujours du function calling ou la Tools API pour parler à son modèle.
     </p>
 
     <h3>Tableau récap'</h3>
@@ -1317,7 +1393,7 @@
             <td class="tool-name">Éditeur</td>
             <td>OpenAI</td>
             <td>Anthropic</td>
-            <td>Anthropic (standard ouvert)</td>
+            <td>Anthropic, puis une fondation (standard ouvert)</td>
           </tr>
           <tr>
             <td class="tool-name">Année</td>
@@ -1335,7 +1411,7 @@
             <td class="tool-name">Écosystème</td>
             <td>Verticalement intégré</td>
             <td>Verticalement intégré</td>
-            <td>Open, communautaire</td>
+            <td>Ouvert, communautaire</td>
           </tr>
           <tr>
             <td class="tool-name">Niveau</td>
@@ -1347,13 +1423,13 @@
             <td class="tool-name">Courbe d'apprentissage</td>
             <td>Facile</td>
             <td>Facile</td>
-            <td>Moyenne (init serveur)</td>
+            <td>Moyenne (créer un serveur)</td>
           </tr>
           <tr>
             <td class="tool-name">À choisir si…</td>
-            <td>Tu codes une intégration verticale OpenAI rapide</td>
-            <td>Tu codes une intégration verticale Claude rapide</td>
-            <td>Tu veux portabilité + écosystème partagé</td>
+            <td>Tu codes une intégration rapide pour OpenAI seul</td>
+            <td>Tu codes une intégration rapide pour Claude seul</td>
+            <td>Tu veux la portabilité et un écosystème partagé</td>
           </tr>
         </tbody>
       </table>
@@ -1373,52 +1449,52 @@
   </div>
 </div>
 
-<!-- Section : Mes use cases MCP concrets -->
+<!-- Section : Mes usages concrets -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-teal">— Use cases</span>
-    <h2>Mes use cases MCP<br><em class="teal">concrets.</em></h2>
+    <span class="section-kicker k-teal">Mes usages</span>
+    <h2>Mes usages MCP<br><em class="teal">concrets.</em></h2>
 
     <p>
-      Je ne suis ni développeur ni codeur. Pourtant, j'utilise plusieurs serveurs MCP au quotidien. Voici les use cases qui me servent vraiment, avec un exemple de prompt pour chacun et ce que j'attends en retour.
+      Je ne suis ni développeur ni codeur. Pourtant, je me sers de connecteurs tous les jours. Voici ceux qui me servent vraiment, avec le message que j'écris et ce que j'attends en retour.
     </p>
 
     <div class="profile-grid">
       <article class="profile-card p-fuchsia">
-        <div class="profile-tag">Filesystem MCP</div>
-        <h3>Brancher Claude Code à mes fichiers projets</h3>
-        <p><strong>Setup</strong> · serveur filesystem officiel, scope limité à <code>~/Projets</code>.</p>
-        <p><strong>Prompt type</strong> · « Ouvre le dossier de mon site, identifie les articles qui parlent de MCP, et propose-moi un plan d'amélioration interne linking. »</p>
-        <p><strong>Résultat attendu</strong> · Claude lit le contenu réel de mes fichiers, ne se base pas sur un copier-coller, et me sort une analyse fondée sur la matière. C'est l'usage le plus naturel et le plus utile.</p>
+        <div class="profile-tag">Dossier ouvert</div>
+        <h3>Ouvrir mon dossier de projet à l'app Claude</h3>
+        <p><strong>Réglage</strong> · je donne à l'app Claude l'accès à un seul dossier, celui du projet. Rien à installer.</p>
+        <p><strong>Message type</strong> · « Lis les articles de ce dossier, repère ceux qui parlent de MCP, et propose-moi un plan pour mieux les relier entre eux. »</p>
+        <p><strong>Résultat attendu</strong> · Claude lit le contenu réel de mes fichiers, sans copier-coller, et me rend une analyse fondée sur la matière. C'est l'usage le plus naturel et le plus utile.</p>
       </article>
 
       <article class="profile-card p-teal">
-        <div class="profile-tag">Notion MCP</div>
+        <div class="profile-tag">Connecteur Notion</div>
         <h3>Brancher Claude à mon Notion</h3>
-        <p><strong>Setup</strong> · serveur Notion communautaire + token d'intégration Notion.</p>
-        <p><strong>Prompt type</strong> · « Lis ma base "Idées d'articles" dans Notion, repère les sujets sur lesquels j'ai déjà publié, et liste les idées à creuser cette semaine. »</p>
-        <p><strong>Résultat attendu</strong> · L'IA croise mon Notion avec mes articles existants et me sort une todo-list priorisée. Pratique pour la veille éditoriale.</p>
+        <p><strong>Réglage</strong> · le connecteur Notion, ajouté depuis Customize &gt; Connectors, avec l'accès limité aux pages utiles.</p>
+        <p><strong>Message type</strong> · « Lis ma base "Idées d'articles" dans Notion, repère les sujets sur lesquels j'ai déjà publié, et liste les idées à creuser cette semaine. »</p>
+        <p><strong>Résultat attendu</strong> · L'IA croise mon Notion avec mes articles existants et me rend une liste de tâches classées par priorité. Pratique pour la veille éditoriale.</p>
       </article>
 
       <article class="profile-card p-orange">
-        <div class="profile-tag">Calendar MCP</div>
+        <div class="profile-tag">Connecteur agenda</div>
         <h3>Connecter Claude à mon calendrier</h3>
-        <p><strong>Setup</strong> · serveur calendrier communautaire (iCloud ou Google Calendar) + OAuth.</p>
-        <p><strong>Prompt type</strong> · « Regarde mon calendrier de la semaine, identifie les créneaux libres de plus de 2h, et propose-moi un planning pour finir le pillar MCP. »</p>
-        <p><strong>Résultat attendu</strong> · L'IA voit mes vrais créneaux et me produit un plan réaliste. Plus besoin de copier-coller mon planning.</p>
+        <p><strong>Réglage</strong> · le connecteur de mon agenda (Google Agenda, ou Microsoft 365 pour Outlook).</p>
+        <p><strong>Message type</strong> · « Regarde mon calendrier de la semaine, trouve les créneaux libres de plus de 2 h, et propose-moi un planning pour finir le guide MCP. »</p>
+        <p><strong>Résultat attendu</strong> · L'IA voit mes vrais créneaux et me propose un plan réaliste. Plus besoin de recopier mon planning.</p>
       </article>
 
       <article class="profile-card p-ink">
-        <div class="profile-tag">Brave Search MCP</div>
+        <div class="profile-tag">Recherche web</div>
         <h3>Agent de recherche web</h3>
-        <p><strong>Setup</strong> · serveur Brave Search officiel + clé API gratuite (2 000 requêtes/mois).</p>
-        <p><strong>Prompt type</strong> · « Fais-moi un état de l'art de MCP en mai 2026. Cherche les annonces récentes, les benchmarks, et les comparaisons sérieuses. »</p>
-        <p><strong>Résultat attendu</strong> · Claude lance plusieurs recherches en parallèle, agrège les résultats, et me sort une synthèse avec sources. Idéal pour ne pas se contenter de la connaissance figée du modèle.</p>
+        <p><strong>Réglage</strong> · la recherche web intégrée à l'app, rien à brancher. Un serveur comme Brave Search ou Tavily ne sert que si tu construis ton propre agent.</p>
+        <p><strong>Message type</strong> · « Fais-moi un état de l'art de MCP en novembre 2026. Cherche les annonces récentes et les comparaisons sérieuses, et cite tes sources. »</p>
+        <p><strong>Résultat attendu</strong> · Claude lance plusieurs recherches, rassemble les résultats et me rend une synthèse avec ses sources. Idéal pour ne pas se contenter de la connaissance figée du modèle.</p>
       </article>
     </div>
 
     <p>
-      Tous ces use cases tournent dans Claude Code ou Claude Desktop. La même logique fonctionne dans Cursor ou Cline pour ceux qui préfèrent un éditeur. Pour aller plus loin sur les workflows agentiques que je monte, lis mon article <a href="/articles/superpowers">Superpowers · les skills Claude Code</a> — où je parle aussi de la complémentarité skills + MCP.
+      Tous ces usages tournent dans l'app Claude de bureau, et la même logique marche dans ChatGPT en mode Work. Pour aller plus loin sur ce que l'app sait faire avec un dossier ouvert, lis <a href="/articles/ia-qui-travaille-sur-ton-ordinateur">L'IA qui travaille sur ton ordinateur</a>.
     </p>
   </div>
 </section>
@@ -1426,19 +1502,19 @@
 <!-- Section : Construire ton premier serveur MCP -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-orange">— Construire</span>
+    <span class="section-kicker k-orange">Construire</span>
     <h2>Pour construire ton<br>premier <em class="orange">serveur MCP.</em></h2>
 
     <p>
-      Je ne vais pas te faire le tutoriel exhaustif ici — la <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">doc officielle modelcontextprotocol.io</a> le fait très bien et la techno évolue trop vite pour qu'un article statique soit fiable sur les détails. <strong>Mais voici la trame générale pour démarrer.</strong>
+      Cette partie s'adresse à ceux qui veulent fabriquer leur propre branchement. Pour te servir des connecteurs existants, tu n'en as pas besoin. Je ne vais pas te faire le tutoriel complet ici : la <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">doc officielle modelcontextprotocol.io</a> le fait très bien, et la technique évolue trop vite pour qu'une page figée reste juste sur les détails. <strong>Voici la trame générale pour démarrer.</strong>
     </p>
 
     <h3>Choisir ton langage : Python ou TypeScript</h3>
     <p>
-      Anthropic maintient deux SDK officiels : <strong>Python et TypeScript</strong>. Les deux sont au même niveau de maturité.
+      Il existe deux SDK officiels : <strong>Python et TypeScript</strong>. Les deux sont au même niveau de maturité.
     </p>
     <p>
-      Tu choisis selon ton stack. Si tu vis dans l'écosystème Node/JavaScript, prends TypeScript. Si tu fais de la data science ou de l'IA en Python, prends Python. Pour un premier serveur, les deux marchent aussi bien, le code est de complexité similaire.
+      Tu choisis selon tes habitudes. Si tu vis dans l'écosystème JavaScript, prends TypeScript. Si tu fais de la data ou de l'IA en Python, prends Python. Pour un premier serveur, les deux marchent aussi bien, le code est de complexité similaire.
     </p>
 
     <h3>Les 4 étapes pour ton premier serveur</h3>
@@ -1447,8 +1523,8 @@
       <div class="step-num">01</div>
       <div class="step-body">
         <h3>Initialiser ton projet</h3>
-        <p>Le SDK officiel fournit un template de démarrage. En TypeScript, tu peux lancer <code>npx @modelcontextprotocol/create-server mon-serveur</code> pour générer une arborescence prête. En Python, tu utilises le package <code>mcp</code> via <code>uvx</code> ou <code>pip</code>.</p>
-        <p>Tu obtiens un dossier avec le squelette du serveur, les dépendances installées, et un script de démarrage prêt à tourner.</p>
+        <p>Chaque SDK officiel fournit un modèle de départ : le paquet <code>@modelcontextprotocol/sdk</code> en TypeScript, le paquet <code>mcp</code> en Python. La doc officielle donne la marche exacte pour chacun.</p>
+        <p>Tu obtiens un dossier avec le squelette du serveur, les dépendances et un point de départ prêt à tourner.</p>
       </div>
     </div>
 
@@ -1456,8 +1532,8 @@
       <div class="step-num">02</div>
       <div class="step-body">
         <h3>Définir tes capabilities</h3>
-        <p>Tu décides ce que ton serveur expose. Les trois catégories : <strong>tools (actions), resources (données), prompts (templates)</strong>. Pour un premier serveur, commence avec un ou deux tools simples — par exemple, un tool qui retourne la météo d'une ville, ou qui liste les fichiers d'un dossier.</p>
-        <p>Pour chaque capability, tu déclares un nom, une description (l'IA s'en sert pour comprendre quand l'appeler), et un schéma d'arguments en JSON.</p>
+        <p>Tu décides ce que ton serveur expose. Les trois catégories : <strong>tools (actions), resources (données), prompts (templates)</strong>. Pour un premier serveur, commence avec un ou deux tools simples, par exemple un tool qui donne la météo d'une ville, ou qui liste les fichiers d'un dossier.</p>
+        <p>Pour chaque capability, tu déclares un nom, une description (l'IA s'en sert pour comprendre quand l'appeler) et un schéma d'arguments en JSON.</p>
       </div>
     </div>
 
@@ -1465,23 +1541,23 @@
       <div class="step-num">03</div>
       <div class="step-body">
         <h3>Tester en local avec MCP Inspector</h3>
-        <p>Anthropic fournit un outil de debug appelé <strong>MCP Inspector</strong> qui te permet de lancer ton serveur et de l'inspecter via une interface web. Tu vois la liste des capabilities, tu peux appeler tes tools manuellement, vérifier les réponses.</p>
-        <p>C'est l'étape la plus rentable. Tester avant de brancher dans un vrai client te fait gagner un temps fou pour identifier les bugs.</p>
+        <p>Le projet fournit un outil de test appelé <strong>MCP Inspector</strong> qui lance ton serveur et te le montre dans une page web. Tu vois la liste des capabilities, tu peux appeler tes tools à la main, vérifier les réponses.</p>
+        <p>C'est l'étape la plus rentable. Tester avant de brancher dans un vrai client te fait gagner un temps fou pour trouver les erreurs.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">04</div>
       <div class="step-body">
-        <h3>Déployer dans ton client</h3>
-        <p>Tu ajoutes une entrée dans la config de ton client. Dans Claude Code, c'est un bloc dans <code>~/.claude/settings.json</code>. Dans Claude Desktop, c'est dans <code>~/Library/Application Support/Claude/claude_desktop_config.json</code> sur Mac. Tu précises la commande de lancement du serveur, les arguments et les variables d'environnement.</p>
-        <p>Tu relances le client. Si tout est bien configuré, ton serveur apparaît dans la liste des outils disponibles et l'IA peut l'appeler. Tu lui demandes en français d'utiliser ton tool, et tu vois si la magie opère.</p>
+        <h3>Le brancher dans ton client</h3>
+        <p>Un serveur distant s'ajoute dans l'app Claude comme connecteur personnalisé, avec son adresse. Un serveur local se déclare dans le fichier de configuration de l'app de bureau (<code>~/Library/Application Support/Claude/claude_desktop_config.json</code> sur Mac), avec la commande de lancement, les arguments et les variables d'environnement.</p>
+        <p>Tu relances l'app. Si tout est bien configuré, ton serveur apparaît dans la liste des outils disponibles et l'IA peut l'appeler. Tu lui demandes en français d'utiliser ton tool, et tu vois si la magie opère.</p>
       </div>
     </div>
 
     <div class="callout ok">
       <h4>Pour aller plus loin sur le code</h4>
-      <p>Le repo <a href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noopener">modelcontextprotocol/servers</a> contient une vingtaine de serveurs de référence en TypeScript. <strong>Le meilleur moyen d'apprendre, c'est de lire le code du serveur filesystem ou du serveur GitHub</strong> — ils sont simples, bien commentés, et tu peux les forker pour ton propre serveur.</p>
+      <p>Le dépôt <a href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noopener">modelcontextprotocol/servers</a> contient les serveurs de référence, en TypeScript et en Python. <strong>Le meilleur moyen d'apprendre, c'est de lire le code du serveur Filesystem ou du serveur Fetch</strong> : ils sont simples, bien commentés, et tu peux t'en inspirer pour ton propre serveur.</p>
     </div>
   </div>
 </section>
@@ -1489,37 +1565,37 @@
 <!-- Section : Pour qui c'est utile -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— À qui c'est destiné</span>
+    <span class="section-kicker k-fuchsia">À qui c'est destiné</span>
     <h2>Pour qui c'est utile<br><em class="fuchsia">(et pas).</em></h2>
 
     <div class="profile-grid">
       <article class="profile-card p-teal">
         <div class="profile-tag">Cas n°1</div>
         <h3>Développeur qui crée des agents</h3>
-        <p><strong>Oui, à fond.</strong> MCP est conçu pour toi. Tu écris tes propres serveurs, tu intègres les serveurs officiels, tu construis des agents portables qui peuvent vivre dans Claude Code, Cursor ou Cline sans réécrire ton intégration. C'est la cible historique du protocole.</p>
+        <p><strong>Oui, à fond.</strong> MCP est conçu pour toi. Tu écris tes propres serveurs, tu intègres les serveurs officiels, tu construis des agents qui marchent dans l'app Claude, dans Cursor ou dans Claude Code, l'outil des développeurs, sans réécrire ton intégration. C'est la cible historique du protocole.</p>
       </article>
 
       <article class="profile-card p-fuchsia">
         <div class="profile-tag">Cas n°2</div>
-        <h3>Entrepreneur qui pilote Claude Code</h3>
-        <p><strong>Oui, mais pas pour coder des serveurs.</strong> Tu utilises les serveurs MCP existants — filesystem, GitHub, Notion, Brave Search — pour donner du contexte à ton IA. Combiné avec les skills Claude Code, ça transforme ton terminal en assistant universel. C'est mon usage actuel.</p>
+        <h3>Entrepreneur ou indépendant</h3>
+        <p><strong>Oui, sans rien coder.</strong> Tu branches les connecteurs dont tu as besoin (Google Drive, Gmail, Microsoft 365, Slack) dans l'app Claude, ou tu passes ChatGPT en mode Work. Avec un dossier ouvert et deux ou trois connecteurs, l'IA travaille sur tes vrais documents. C'est par là que je conseille de commencer.</p>
       </article>
 
       <article class="profile-card p-orange">
         <div class="profile-tag">Cas n°3</div>
-        <h3>Utilisateur lambda de Claude.ai</h3>
-        <p><strong>Pas encore vraiment.</strong> En mai 2026, Claude.ai (l'app web grand public) ne supporte pas encore les serveurs MCP custom. C'est Claude Desktop et Claude Code qui ont la primeur. À surveiller — la fonctionnalité finira par arriver sur Claude.ai, mais on n'y est pas.</p>
+        <h3>Utilisateur de tous les jours</h3>
+        <p><strong>Oui, souvent sans le savoir.</strong> Quand tu branches ta boîte mail ou ton Drive dans l'app Claude, tu utilises déjà ce genre de connecteur. Tu n'as pas besoin d'apprendre le mot MCP, seulement de choisir ce que tu branches et de relire ce que l'IA fait en ton nom.</p>
       </article>
 
       <article class="profile-card p-ink">
         <div class="profile-tag">Cas n°4</div>
         <h3>PME qui pilote un chatbot</h3>
-        <p><strong>À monitorer, pas mature pour 2026.</strong> Si tu cherches à brancher ton chatbot client à ton CRM ou ton catalogue produit via MCP, c'est techniquement possible mais l'écosystème n'est pas encore prêt côté production. Les solutions verticales (Voiceflow, Botpress, plateformes spécialisées) restent plus solides pour l'instant. MCP devient pertinent quand tu dépasses le chatbot grand public et que tu construis un agent custom.</p>
+        <p><strong>À cadrer avant de te lancer.</strong> Brancher ton chatbot client à ton CRM ou à ton catalogue produit via MCP est techniquement possible, mais c'est un vrai projet de développement. Les solutions spécialisées (Voiceflow, Botpress, plateformes du secteur) restent plus simples à mettre en place. MCP devient pertinent quand tu dépasses le chatbot grand public et que tu construis un agent sur mesure.</p>
       </article>
     </div>
 
     <p>
-      Mon avis honnête après plusieurs mois d'usage : <strong>MCP n'est pas une révolution pour le grand public, c'est une révolution pour les builders</strong>. Si tu construis des agents, des intégrations, des automations, c'est un cadeau. Si tu utilises l'IA seulement en mode chat, tu n'as probablement pas besoin d'apprendre MCP — tu en profites indirectement quand les outils que tu utilises (Cursor, Claude Code) l'intègrent.
+      Mon avis honnête : <strong>pour le grand public, MCP se cache derrière les connecteurs, et c'est très bien comme ça</strong>. Tu en profites dès que tu branches une app à l'IA. Le mot lui-même reste surtout utile à ceux qui construisent des agents, des intégrations ou des automatisations. Pour eux, c'est un cadeau.
     </p>
   </div>
 </section>
@@ -1535,7 +1611,7 @@
 <!-- Section : FAQ -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— FAQ</span>
+    <span class="section-kicker k-fuchsia">FAQ</span>
     <h2>FAQ <em class="fuchsia">MCP.</em></h2>
 
     <p>
@@ -1546,28 +1622,28 @@
       <details class="faq-item">
         <summary>C'est quoi MCP en une phrase ?</summary>
         <div class="faq-answer">
-          <p>MCP, pour Model Context Protocol, est un standard ouvert lancé par Anthropic en novembre 2024 qui permet à n'importe quel modèle de langage de se connecter de manière uniforme à des outils, des bases de données et des services externes. C'est l'équivalent d'un USB-C pour l'IA : une seule prise pour brancher tout.</p>
+          <p>MCP, pour Model Context Protocol, est un standard ouvert créé par Anthropic qui permet à n'importe quel modèle de langage de se connecter de la même façon à des outils, des bases de données et des services externes. Dans les apps, tu le croises sous le nom de connecteur. C'est l'équivalent d'un USB-C pour l'IA : une seule prise pour tout brancher.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Qui a inventé MCP ?</summary>
         <div class="faq-answer">
-          <p>MCP a été conçu et publié par Anthropic, la société qui édite Claude. Le protocole a été annoncé en novembre 2024 et le code est publié en open source sur le dépôt GitHub <code>modelcontextprotocol</code>. Depuis, d'autres acteurs (OpenAI, communauté Cursor, éditeurs d'IDE) ont commencé à l'adopter, ce qui en fait un standard de fait.</p>
+          <p>MCP a été conçu et publié par Anthropic, la société qui édite Claude, et son code est en open source sur le dépôt GitHub <code>modelcontextprotocol</code>. Depuis fin 2025, il est gouverné par une fondation indépendante, l'Agentic AI Foundation, hébergée par la Linux Foundation. OpenAI, les éditeurs de code comme Cursor et la communauté l'ont adopté, ce qui en fait un standard de fait.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Pourquoi tout le monde en parle en 2025-2026 ?</summary>
+        <summary>Pourquoi tout le monde en parle ?</summary>
         <div class="faq-answer">
-          <p>Parce que c'est la première tentative crédible de standardiser les connexions entre IA et outils. Avant MCP, chaque éditeur d'IA avait son propre format de tools — OpenAI function calling, Anthropic Tools API, Google function declarations. Résultat : les développeurs réécrivaient les mêmes intégrations trois fois. MCP unifie tout, et l'adoption par Cursor, Claude Code et Windsurf en 2025 a accéléré le mouvement.</p>
+          <p>Parce que c'est la première tentative crédible de standardiser les branchements entre l'IA et les outils. Avant MCP, chaque éditeur d'IA avait son propre format (le function calling d'OpenAI, la Tools API d'Anthropic, les function declarations de Google), et les développeurs réécrivaient les mêmes intégrations trois fois. MCP unifie tout. Et en novembre 2026, tu en profites sans le savoir : quand tu branches Gmail ou Google Drive dans l'app Claude, tu utilises ce genre de connecteur.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>MCP est-il open source ?</summary>
         <div class="faq-answer">
-          <p>Oui. La spécification, les SDK officiels (Python et TypeScript) et la majorité des serveurs de référence sont publiés sous licence MIT sur GitHub, dans l'organisation <code>modelcontextprotocol</code>. N'importe qui peut écrire un serveur, le publier, le forker. Anthropic maintient le standard mais n'a pas la main exclusive dessus.</p>
+          <p>Oui. La spécification, les SDK officiels (Python et TypeScript) et les serveurs de référence sont publiés en open source sur GitHub, dans l'organisation <code>modelcontextprotocol</code>. N'importe qui peut écrire un serveur, le publier, le forker. Et depuis que le protocole est confié à une fondation, aucune entreprise n'a la main exclusive dessus.</p>
         </div>
       </details>
 
@@ -1579,30 +1655,30 @@
       </details>
 
       <details class="faq-item">
-        <summary>Comment installer un serveur MCP avec Claude Code ?</summary>
+        <summary>Comment brancher un connecteur dans l'app Claude ?</summary>
         <div class="faq-answer">
-          <p>Tu ajoutes une entrée dans ton fichier de configuration <code>~/.claude/settings.json</code> en précisant la commande de lancement du serveur (souvent un <code>npx</code> ou un <code>python -m</code>), les arguments et les variables d'environnement. Tu relances Claude Code, le serveur apparaît dans la liste des outils disponibles. Pour les serveurs officiels, des assistants d'installation existent qui font ça pour toi.</p>
+          <p>Dans l'app Claude, ouvre le menu Customize, puis Connectors, choisis l'app (Google Drive, Gmail, Microsoft 365, Slack…) et connecte ton compte. Ensuite, Claude s'en sert pendant ses tâches. Chez ChatGPT, passe en mode Work dans l'app de bureau : il peut utiliser tes fichiers et tes applications, avec ton autorisation. Pour installer un serveur MCP à la main, regarde la note <a href="#pour-les-curieux">« Pour les curieux »</a> en bas de page.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quels LLMs supportent MCP en 2026 ?</summary>
+        <summary>Quelles apps utilisent MCP en 2026 ?</summary>
         <div class="faq-answer">
-          <p>Côté Anthropic, Claude Desktop et Claude Code supportent MCP nativement. Cursor le supporte aussi. Côté OpenAI, le ChatGPT desktop a annoncé un support en 2025. Côté open source, Continue, Cline et Zed l'intègrent. La liste évolue vite — la majorité des clients IA sérieux ont basculé ou prévoient de basculer.</p>
+          <p>Côté Anthropic, l'app Claude, avec ses connecteurs. Côté OpenAI, le support a été annoncé dès 2025. Côté éditeurs de code, Cursor, Continue, Cline et Zed l'intègrent. La liste évolue vite : la majorité des clients IA sérieux ont basculé.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>MCP est-il sécurisé ?</summary>
         <div class="faq-answer">
-          <p>Le protocole en lui-même est sécurisé par conception : chaque serveur tourne dans son propre processus, les capabilities sont explicitement déclarées, et le client peut filtrer les outils exposés. Le vrai risque, c'est ce que tu installes. Un serveur MCP mal écrit ou malveillant peut lire tes fichiers ou exposer tes secrets. Règle d'or : n'installer que des serveurs maintenus par des sources de confiance, et lire le code avant de brancher.</p>
+          <p>Le protocole en lui-même est sécurisé par conception : chaque serveur tourne dans son propre processus, les capabilities sont explicitement déclarées, et le client peut filtrer les outils exposés. Le vrai risque, c'est ce que tu branches. Un connecteur agit avec les droits de ton compte, et un serveur mal écrit ou malveillant peut lire tes fichiers ou exposer tes secrets. Règle d'or : ne brancher que ce dont la tâche a besoin, et seulement depuis des sources de confiance.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Comment écrire son propre serveur MCP ?</summary>
         <div class="faq-answer">
-          <p>Tu choisis ton langage (Python ou TypeScript, les SDK officiels couvrent les deux), tu installes le template officiel, tu déclares les capabilities (tools, resources, prompts) que ton serveur expose, tu implémentes leurs handlers, puis tu connectes ton client. La doc <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a> a un tutoriel complet. Pour un premier serveur simple, compte une à deux heures.</p>
+          <p>Tu choisis ton langage (Python ou TypeScript, les SDK officiels couvrent les deux), tu pars du modèle officiel, tu déclares les capabilities (tools, resources, prompts) que ton serveur expose, tu implémentes leurs handlers, puis tu connectes ton client. La doc <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a> a un tutoriel complet. Pour un premier serveur simple, compte une à deux heures.</p>
         </div>
       </details>
 
@@ -1616,14 +1692,14 @@
       <details class="faq-item">
         <summary>Quelles sont les limitations connues de MCP ?</summary>
         <div class="faq-answer">
-          <p>Trois limites que je constate en 2026 : la documentation est encore inégale selon les serveurs (certains sont très bien documentés, d'autres pas du tout), la sécurité repose sur ta vigilance (pas de marketplace centralisé qui audite), et l'expérience utilisateur côté installation reste technique (édition manuelle d'un fichier JSON). Anthropic et la communauté travaillent à corriger les trois, mais on n'y est pas encore.</p>
+          <p>Trois limites que je vois en novembre 2026. La documentation reste inégale selon les serveurs. La sécurité repose en partie sur ta vigilance : un serveur trouvé hors de la liste des connecteurs de ton app, il faut vérifier qui l'a écrit. Et brancher un serveur absent de cette liste reste technique. Les connecteurs prêts à l'emploi des apps règlent une bonne partie de ce dernier point.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quelle est la roadmap MCP en 2026 ?</summary>
+        <summary>Comment suivre l'évolution de MCP ?</summary>
         <div class="faq-answer">
-          <p>Trois axes annoncés par Anthropic et la communauté : un registre officiel des serveurs MCP (équivalent npm pour MCP), une meilleure gestion des permissions (un client peut autoriser un outil mais pas un autre), et l'extension du transport HTTP pour les serveurs distants (au-delà du stdio local). La roadmap publique vit sur le GitHub <code>modelcontextprotocol</code>.</p>
+          <p>La spécification et sa feuille de route publique vivent sur <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">modelcontextprotocol.io</a> et sur le GitHub <code>modelcontextprotocol</code>. Je préfère t'y renvoyer plutôt que de figer ici des annonces qui changent tous les trimestres. Et je signale les évolutions qui comptent dans ma lettre du vendredi.</p>
         </div>
       </details>
     </div>
@@ -1633,42 +1709,48 @@
 <!-- Section : Ressources externes -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-teal">— Ressources</span>
+    <span class="section-kicker k-teal">Ressources</span>
     <h2>Ressources <em class="teal">externes.</em></h2>
 
     <p>
-      Pour creuser MCP au-delà de ce que je couvre ici, voici les sources que je consulte régulièrement. La spec et l'écosystème évoluent vite, donc je préfère pointer vers les sources de référence plutôt que de tout figer dans un article statique.
+      Pour creuser MCP au-delà de ce que je couvre ici, voici les sources que je consulte régulièrement. La spécification et l'écosystème évoluent vite, donc je préfère pointer vers les sources de référence plutôt que de tout figer dans une page.
     </p>
 
     <div class="resources-grid">
+      <a class="resource-card" href="https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude" target="_blank" rel="noopener">
+        <span class="res-kicker">Aide officielle Claude</span>
+        <h4>Les connecteurs dans l'app Claude</h4>
+        <p>L'article d'aide qui explique comment l'app Claude réunit le chat et le travail sur un dossier, avec les connecteurs, les skills, les plugins et les tâches planifiées. En anglais.</p>
+      </a>
+
       <a class="resource-card" href="https://modelcontextprotocol.io" target="_blank" rel="noopener">
         <span class="res-kicker">Doc officielle</span>
         <h4>modelcontextprotocol.io</h4>
-        <p>Le site officiel d'Anthropic dédié à MCP. Spec complète, tutoriels, exemples, guide de démarrage. La source de vérité, mise à jour à chaque release.</p>
+        <p>Le site officiel de MCP. Spécification complète, tutoriels, exemples, guide de démarrage. La source de vérité, mise à jour à chaque version.</p>
       </a>
 
       <a class="resource-card" href="https://github.com/modelcontextprotocol" target="_blank" rel="noopener">
         <span class="res-kicker">GitHub</span>
         <h4>Org GitHub modelcontextprotocol</h4>
-        <p>L'organisation officielle. Tu y trouves la spec, les SDK Python et TypeScript, le repo des serveurs de référence et le repo des clients. Le meilleur endroit pour voir le code réel.</p>
+        <p>L'organisation officielle. Tu y trouves la spécification, les SDK Python et TypeScript, le dépôt des serveurs de référence. Le meilleur endroit pour voir le code réel.</p>
       </a>
 
       <a class="resource-card" href="https://github.com/modelcontextprotocol/servers" target="_blank" rel="noopener">
         <span class="res-kicker">Serveurs</span>
-        <h4>Repo des serveurs de référence</h4>
-        <p>Une vingtaine de serveurs MCP officiels, prêts à utiliser ou à forker. Filesystem, GitHub, Slack, PostgreSQL, Puppeteer, Brave Search. Le code est lisible et bien commenté.</p>
+        <h4>Dépôt des serveurs de référence</h4>
+        <p>Les serveurs de référence du projet (Filesystem, Fetch, Git, Memory, Time…), prêts à utiliser ou à étudier, et la liste des anciens serveurs archivés. Le code est lisible et bien commenté.</p>
       </a>
 
       <a class="resource-card" href="https://discord.gg/anthropic" target="_blank" rel="noopener">
         <span class="res-kicker">Communauté</span>
         <h4>Discord Anthropic</h4>
-        <p>Le Discord officiel d'Anthropic héberge un canal dédié à MCP. Annonces, support, échanges avec l'équipe MCP. Pratique pour suivre les nouveautés en direct.</p>
+        <p>Le Discord officiel d'Anthropic héberge un canal dédié à MCP. Annonces, entraide, échanges avec l'équipe. Pratique pour suivre les nouveautés en direct.</p>
       </a>
 
       <a class="resource-card" href="https://www.youtube.com/c/AnthropicAI" target="_blank" rel="noopener">
         <span class="res-kicker">Vidéo officielle</span>
         <h4>Chaîne YouTube Anthropic</h4>
-        <p>Talks et tutos MCP par les équipes Anthropic. Pratique pour voir un serveur être construit en live et comprendre la philosophie du protocole.</p>
+        <p>Conférences et tutos MCP par les équipes Anthropic. Pratique pour voir un serveur se construire en direct et comprendre la philosophie du protocole.</p>
       </a>
 
       <a class="resource-card" href="https://www.latent.space" target="_blank" rel="noopener">
@@ -1677,21 +1759,37 @@
         <p>Un des meilleurs podcasts IA en anglais. Ils ont fait plusieurs épisodes dédiés à MCP, avec interviews des fondateurs d'Anthropic et de mainteneurs de serveurs MCP populaires.</p>
       </a>
 
-      <a class="resource-card" href="/claude-code">
+      <a class="resource-card" href="/articles/ia-qui-travaille-sur-ton-ordinateur">
         <span class="res-kicker">Mon guide</span>
-        <h4>Pillar Claude Code</h4>
-        <p>Mon guide complet sur Claude Code, le client MCP qui m'a tout fait découvrir. Installation, workflows, skills, et bien sûr la section dédiée à MCP côté Claude Code.</p>
+        <h4>L'IA qui travaille sur ton ordinateur</h4>
+        <p>Mon guide de l'app Claude et de ChatGPT en mode Work : installer l'app, lui ouvrir un dossier, cinq premières tâches à copier et les réglages de sécurité.</p>
       </a>
 
-      <a class="resource-card" href="/articles/superpowers">
+      <a class="resource-card" href="/articles/mcp-explique-simplement">
         <span class="res-kicker">Mon article</span>
-        <h4>Superpowers · skills Claude Code</h4>
-        <p>L'article où je raconte comment je combine les skills Claude Code et les serveurs MCP pour construire mes propres agents. Concret, avec exemples.</p>
+        <h4>MCP expliqué simplement</h4>
+        <p>La version courte de cette page : ce que MCP change pour toi, en quelques minutes de lecture et sans jargon.</p>
       </a>
     </div>
 
     <p>
-      Et si tu veux que je te tienne au courant des évolutions MCP — nouveaux serveurs intéressants, releases de la spec, intégrations qui marchent vraiment — ma newsletter AI Playbook tombe tous les vendredis matin à 9 h. Inscription dans le footer ci-dessous.
+      Et si tu veux que je te tienne au courant des évolutions de MCP (nouveaux connecteurs intéressants, nouvelles versions de la spécification, intégrations qui marchent vraiment), ma newsletter AI Playbook tombe tous les vendredis matin à 9 h. Inscription dans le pied de page ci-dessous.
+    </p>
+  </div>
+</section>
+
+<!-- Note : pour les curieux -->
+<section class="block" id="pour-les-curieux">
+  <div class="container">
+    <span class="section-kicker k-orange">Note</span>
+    <h2>Pour les <em class="orange">curieux.</em></h2>
+
+    <p>
+      <strong>Les dates, en bref.</strong> Anthropic publie MCP en novembre 2024. En 2025, les éditeurs de code (Cursor, Windsurf, Claude Code) l'adoptent et OpenAI annonce son support. En décembre 2025, le protocole passe sous la garde de l'Agentic AI Foundation, hébergée par la Linux Foundation (<a href="https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/" target="_blank" rel="noopener">l'annonce</a>). En novembre 2026, tu le croises surtout sous le nom de connecteur, dans l'app Claude et dans ChatGPT.
+    </p>
+
+    <p>
+      <strong>MCP dans le terminal.</strong> J'utilise aussi Claude Code, l'outil des développeurs, qui se pilote depuis le terminal. Un serveur MCP s'y ajoute en une commande (<code>claude mcp add</code>) ou dans un fichier <code>.mcp.json</code> à la racine du projet. Combiné avec les skills, ça en fait un assistant très complet. Rien de tout ça n'est nécessaire pour te servir des connecteurs : tout ce qui précède se fait dans l'app. Si tu veux quand même creuser, j'ai écrit <a href="/claude-code">un guide Claude Code</a> et <a href="/articles/superpowers">un article sur ses skills</a>.
     </p>
   </div>
 </section>
@@ -1699,10 +1797,10 @@
 <!-- Final CTA -->
 <section class="final-cta">
   <div class="container">
-    <span class="section-kicker k-teal" style="justify-content:center; display:inline-flex">— Et maintenant ?</span>
+    <span class="section-kicker k-teal" style="justify-content:center; display:inline-flex">Et maintenant ?</span>
     <h2>Reste <em class="fuchsia">en avance.</em></h2>
     <p>
-      MCP évolue vite. Nouveaux serveurs, nouveaux clients qui l'adoptent, nouvelles versions de la spec. Si tu veux suivre ce qui mérite vraiment ton attention — sans lire 80 newsletters tech par semaine — la mienne, AI Playbook, tombe le vendredi matin. Je résume mes tests réels, je donne les commandes qui fonctionnent, et je signale les fausses pistes.
+      MCP évolue vite. Nouveaux connecteurs, nouvelles apps qui l'adoptent, nouvelles versions de la spécification. Si tu veux suivre ce qui mérite vraiment ton attention, sans lire 80 newsletters tech par semaine, la mienne, AI Playbook, tombe le vendredi matin. Je résume mes tests réels, je donne les réglages qui fonctionnent, et je signale les fausses pistes.
     </p>
     <a href="/#newsletters" class="back-btn">
       Voir mes newsletters →

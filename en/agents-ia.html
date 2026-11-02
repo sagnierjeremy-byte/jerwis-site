@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI agents in 2026 — The complete guide by a non-dev · Jérémy Sagnier</title>
-<meta name="description" content="The pillar guide to AI agents in 2026: definition, 3 levels to build one (no-code, low-code, full code), 6 workflows that actually work, pricing, architecture, common mistakes, an exhaustive FAQ, and a glossary.">
+<title>AI agents in 2026 · a guide to the agents we actually use · Jérémy Sagnier</title>
+<meta name="description" content="The AI agents guide, updated for November 2026, by a non-dev. The Claude app with a folder, ChatGPT Work, AI browsers and no-code tools, with an example for each. Then how to choose, pricing, risks and a FAQ.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="AI agents — The complete guide (by a non-dev)">
-<meta property="og:description" content="AI agents in 2026: what they are, how to build one no-code or low-code, which workflows truly work, what it costs. 5,000 words, full FAQ, glossary.">
+<meta property="og:title" content="AI agents · a guide to the agents we actually use (by a non-dev)">
+<meta property="og:description" content="The AI agents you already have at hand in November 2026, without a line of code. A concrete example for each, this month's prices, the traps to avoid and a full FAQ.">
 <meta property="og:url" content="https://jerwis.fr/en/agents-ia">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
@@ -20,8 +20,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@JeremySagnier">
 <meta name="twitter:creator" content="@JeremySagnier">
-<meta name="twitter:title" content="AI agents — The complete guide by a non-dev">
-<meta name="twitter:description" content="Everything on AI agents in 2026: no-code vs low-code vs full code, useful workflows, pricing, architecture, FAQ, glossary.">
+<meta name="twitter:title" content="AI agents · the complete guide by a non-dev">
+<meta name="twitter:description" content="The Claude app with a folder, ChatGPT Work, AI browsers and no-code tools. Examples, November 2026 prices, risks and FAQ.">
 <!-- Canonical -->
 <link rel="canonical" href="https://jerwis.fr/en/agents-ia">
 <link rel="alternate" hreflang="fr" href="https://jerwis.fr/agents-ia">
@@ -52,11 +52,11 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "AI agents in 2026 — The complete guide by a non-dev",
-  "description": "The pillar guide to AI agents: definition, 3 levels to build (no-code, low-code, full code), popular workflows, pricing, architecture, an exhaustive FAQ.",
+  "headline": "AI agents in 2026 · a guide to the agents we actually use",
+  "description": "The AI agents guide, updated for November 2026. The Claude app with a folder, ChatGPT Work, AI browsers and no-code tools, with an example for each, then how to choose, pricing, risks and a FAQ. Claude Code and the Agent SDK in the appendix.",
   "inLanguage": "en-US",
   "datePublished": "2026-05-22",
-  "dateModified": "2026-05-22",
+  "dateModified": "2026-11-02",
   "author": {
     "@id": "https://jerwis.fr/en/#jeremy",
     "@type": "Person",
@@ -81,8 +81,8 @@
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "Build your first AI agent from scratch",
-  "description": "A step-by-step method to go from an idea to a working first AI agent, without being a developer.",
+  "name": "Launch your first AI agent without coding",
+  "description": "A step-by-step method to go from a repetitive task to a first agent that works for you, in the Claude app, ChatGPT Work or a no-code tool.",
   "totalTime": "PT60M",
   "inLanguage": "en-US",
   "author": {
@@ -92,12 +92,28 @@
   },
   "datePublished": "2026-05-22",
   "step": [
-    { "@type": "HowToStep", "name": "Pick a simple, repetitive use case" },
-    { "@type": "HowToStep", "name": "Choose the right tool level (no-code, low-code, full code)" },
-    { "@type": "HowToStep", "name": "Plug in the AI and the tools your agent needs" },
-    { "@type": "HowToStep", "name": "Test with a human in the loop" },
-    { "@type": "HowToStep", "name": "Ship to production with guardrails and monitoring" }
-  ]
+    {
+      "@type": "HowToStep",
+      "name": "Pick a simple, repetitive task"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Pick the agent that fits the task (Claude app with a folder, ChatGPT Work, AI browser or no-code tool)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Give it only what it needs (a test folder, one connected app)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Test while staying in control (Manual setting, approval before each action)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Let it run with guardrails and human approval on anything that can't be undone"
+    }
+  ],
+  "dateModified": "2026-11-02"
 }
 </script>
 
@@ -112,15 +128,23 @@
       "name": "What is an AI agent in one sentence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "An AI agent is a large language model (LLM) you've given tools, an execution loop and a goal. Instead of just answering a question, it acts, checks the result, and starts again until it reaches its goal. Simon Willison sums it up in one formula: LLM + tools + loop + goal."
+        "text": "An AI agent is a large language model (LLM) that's been given tools, an execution loop and a goal. Simon Willison sums it up with the formula LLM + tools + loop + goal. Instead of just answering a question, it acts, checks the result, and goes again until it reaches its goal."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you need to be a developer to build an AI agent?",
+      "name": "Do you need to be a developer to use an AI agent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. I'm not a developer and I've built several. No-code tools (Lindy, Zapier, n8n, Crew AI Studio) let you put together a working agent in an hour without writing any code. To go further, Claude Code and Custom GPTs move you into low-code with a reasonable learning curve."
+        "text": "No. I'm not a developer and agents work for me every day. The Claude app with a folder and ChatGPT Work give you an agent without writing a line of code, with a $20-a-month subscription. To connect your apps to each other, Zapier, Make, n8n or Lindy are set up with menus and blocks. Code only comes in if you want to build your own agent, and that's what the appendix is for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which agent should I try first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Claude app with a test folder, or ChatGPT in Work mode. Put two or three unimportant files in a folder, open it to the AI and ask it for a table or a tidy-up. Switch Claude's setting to Manual to see every action before it happens. It's the exercise in step 3 of the learning path."
       }
     },
     {
@@ -128,103 +152,111 @@
       "name": "How much does an AI agent cost in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three ranges: a no-code agent costs between 15 and 100 euros a month (Lindy at $49, n8n self-hosted free, Zapier from $30). A low-code agent plugged into Claude or GPT runs between 20 and 200 euros a month depending on API usage. A homemade full-code agent costs whatever you pay in tokens, usually between 50 and 500 euros a month for regular personal use."
+        "text": "The entry ticket is $20 a month. Claude Pro costs $20 a month before tax ($17 billed yearly) and ChatGPT Plus $20 a month, which opens up the Claude app with a folder or ChatGPT Work. Claude Max starts at $100 a month for heavy use. No-code tools have their own plans, and n8n can run on your server for the price of hosting. If you code your agent, you pay per token, for example $2 per million input tokens and $10 per million output tokens for Claude Sonnet 5.5. Prices checked on November 2, 2026."
       }
     },
     {
       "@type": "Question",
-      "name": "AI agent vs chatbot: what's the difference?",
+      "name": "AI agent vs chatbot · what's the difference?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A chatbot answers questions in a conversation. An agent acts in the world. The chatbot returns text; the agent reads an email, edits a file, fires off an API call, checks the result. The core difference is the ability to run tools and loop on the result until it reaches a goal."
+        "text": "A chatbot answers questions in a conversation. An agent acts. The chatbot gives you text, the agent reads a file, creates another one, fills in a spreadsheet, checks the result. The core difference is the ability to run tools and loop on the result until it reaches a goal."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the best frameworks for building an AI agent?",
+      "name": "What's the difference between a workflow and an agent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For no-code, Lindy and Crew AI Studio. For low-code, Claude Code (skills + MCP) and OpenAI's Custom GPTs. For full code, LangGraph (LangChain), the Anthropic Agent SDK, Microsoft's AutoGen and CrewAI are still the references. My go-to for getting started is Claude Code, because it's what gives me the most control without forcing me to write Python."
+        "text": "A workflow follows steps you set in advance, like a Zapier automation that, \"when an email arrives, saves the attachment and adds a row to the spreadsheet.\" An agent picks its own steps based on a goal. If you can write the steps down in advance, a workflow is enough and costs less. If the task changes every time, you need an agent."
       }
     },
     {
       "@type": "Question",
-      "name": "Can an AI agent mess up and break something?",
+      "name": "What are the best tools for building an AI agent?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. An agent with access to your inbox, your database or your GitHub can send a message to the wrong person, delete a file or push a broken commit. Protection comes down to three things: guardrails (forbidding certain actions), a human in the loop before sensitive actions, and logs so you can roll back. I never give an agent full autonomy over financial or sensitive customer data."
+        "text": "Without code, the Claude app with a folder, ChatGPT Work, and to connect apps, Zapier, Make, n8n, Lindy or Crew AI Studio. With code, the Claude Agent SDK, LangGraph, the OpenAI Agents SDK and AutoGen remain the references, and I cover them in the appendix. To get started, I recommend the Claude app or ChatGPT Work, which need no technical setup."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you monitor an AI agent in production?",
+      "name": "Can an AI agent mess up?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three basics: detailed logs of every action (prompt, tool called, result, duration), alerts on errors or timeouts, and a daily token-cost dashboard. To go further, LangSmith, Helicone or Langfuse offer step-by-step tracing that's handy for understanding why an agent made a bad decision. For my personal agents, I simply wire Telegram to critical events."
+        "text": "Yes. An agent with access to your inbox or your files can send a message to the wrong person, overwrite the wrong file or confirm a purchase too fast. Protection comes down to three things. Guardrails that forbid certain actions, a human in the loop before sensitive actions, and a record of what it did. The Claude app asks before permanently deleting a file, and ChatGPT Work only uses your files with your permission. I never let an agent run fully on its own on financial data or sensitive client data."
       }
     },
     {
       "@type": "Question",
-      "name": "Which use cases really work for an AI agent in 2026?",
+      "name": "How do you keep an eye on an agent that runs on its own?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The six that work best in my experience and from what I track: email agent (sorting and drafting replies), contract agent (review and risky clauses), research agent (synthesizing several sources), sales agent (lead qualification and call briefs), watch agent (daily digest) and personal agent (calendar, tasks, reminders). The use cases that often fail: fully autonomous customer-support agents, agents that make financial decisions on their own, creative agents with no human review."
+        "text": "Three habits. Ask it for the list of what it did after each task. Check the run history in your automation tool. And watch your usage during the first week. For my personal agents, I simply hook Telegram up to critical events. Tracing tools for coded agents are in the appendix."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the known limits of today's AI agents?",
+      "name": "Which use cases really work in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Four limits I hit regularly: hallucination on data they don't know, drift on very long sessions beyond 500,000 tokens, the inability to learn from their mistakes between runs without an external memory mechanism, and cost that can blow up if you let an agent loop with no budget cap. No agent in 2026 is truly 100% reliable yet, even the most advanced ones."
+        "text": "The six that work best in my experience and in my monitoring of the field. The email agent (sorting and draft replies), the contracts agent (review and risky clauses), the research agent (summary of several sources), the sales agent (prospect qualification and sales brief), the monitoring agent (daily digest) and the personal agent (tasks, reminders, appointments). The cases that often fail are autonomous customer support, financial decisions taken alone and creative content with no human review."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you stop an AI agent from hallucinating?",
+      "name": "What are the known limits of today's agents?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three techniques that work in combination: RAG (Retrieval Augmented Generation) to plug the agent into a reliable knowledge base, a prompt that forces the agent to cite its sources and to say I don't know rather than make things up, and intermediate verification tools (web search, reading up-to-date docs via context7). Hallucination drops to around 5% with a good setup, versus 20 to 30% in purely generative mode."
+        "text": "Four limits I run into regularly. Hallucination on data they don't know, drift on very long sessions, the inability to learn from their mistakes from one task to the next without external memory, and costs that can explode if you let an agent loop with no limit. No agent in 2026 is 100% reliable, not even the most advanced ones."
       }
     },
     {
       "@type": "Question",
-      "name": "Should you keep a human in the loop?",
+      "name": "How do I stop my agent from hallucinating?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For any irreversible or sensitive action: yes, no hesitation. Sending an email to a client, signing a document, deleting data, authorizing a payment. For low-stakes, easily reversible actions: no, the agent can run on its own. The rule I apply at home is human in the loop for anything that touches money, a direct client or legal data."
+        "text": "Three techniques that work together. Give it your own documents as a source, in the folder you open to it, or through RAG for business agents. Ask it to cite its sources and to say \"I don't know\" rather than make things up. And have what matters checked, with a web search or by your own review. None of these techniques replaces your review on what's important."
       }
     },
     {
       "@type": "Question",
-      "name": "AI agents and RAG: how do you combine them?",
+      "name": "Do you need a human in the loop?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "RAG gives the agent a knowledge base to draw from before answering. Concretely, you index your documents as embeddings, store that in a vector database (Pinecone, Supabase pgvector, Weaviate), and give your agent a search_knowledge_base tool. When it needs domain info, it searches your base first before falling back on its general knowledge. It's the most powerful combination in 2026 for enterprise agents."
+        "text": "For any irreversible or sensitive action, yes, no hesitation. Sending an email to a client, signing a document, deleting data, approving a payment. For low-stakes actions that are easy to undo, no, the agent can run on its own. The rule I apply at home is a human in the loop on anything involving money, clients or legal data."
       }
     },
     {
       "@type": "Question",
-      "name": "Data privacy: can an AI agent leak it?",
+      "name": "Agent + RAG · how do you combine them?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, if you're not careful. Three risk zones: the LLM provider's APIs (Anthropic and OpenAI keep conversations for 30 days by default for abuse moderation, except in Zero Data Retention mode on Enterprise accounts), the third-party tools you plug in via MCP, and your own agent's logs. For sensitive data, I prefer a self-hosted model (Llama, Mistral on your server) over an external API."
+        "text": "RAG gives the agent a knowledge base it draws from before answering. In practice, your documents are turned into embeddings, stored in a vector database (Pinecone, Supabase pgvector, Weaviate), and the agent gets a tool to search that base. When it needs business information, it looks in your base first before using its general knowledge. It's the most powerful combination for business agents. For personal use, the folder you open to the Claude app already plays that role."
       }
     },
     {
       "@type": "Question",
-      "name": "Open-source or proprietary agent: which to choose?",
+      "name": "What about the privacy of data an agent handles?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "To get started and learn, proprietary: Claude, GPT, Gemini are simpler to plug in, more reliable, better documented. To scale to heavy usage or for sensitive data, open-source becomes relevant: Llama 4, Mistral, Qwen run on your own infra, marginal cost close to zero, and you keep control of the data. The winning mix in 2026 at a lot of companies is Claude or GPT for reasoning tasks, local Llama for bulk processing."
+        "text": "Yes, it's a serious topic. Everything the agent reads to do the task goes to the vendor to be processed, just like in the chat. With ChatGPT, the work can run on your computer, but the messages and the task context can be stored in the cloud. The apps you connect and the automation tools also see your data pass through. For client documents, check what your contract and your plan allow. For very sensitive data, I prefer an open model hosted on a server I control. I talk about it in your data in AI tools."
       }
     },
     {
       "@type": "Question",
-      "name": "Which Claude or GPT model should you use for an AI agent?",
+      "name": "Open source or proprietary?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "My go-to in 2026: Claude Sonnet 4.x for 80% of agent tasks (fast, cheap, good reasoning), Claude Opus 4.7 when the task is complex or needs long context (up to 1 million tokens), GPT-5 when I want variety or for very creative tasks. For agents doing research in a loop, Sonnet does the job. For critical architecture decisions, Opus."
+        "text": "To start and learn, proprietary. Claude, GPT and Gemini are simpler, more reliable and better documented, and they're what powers the Claude app and ChatGPT Work. For massive use or sensitive data, open source becomes relevant. Mistral Large 4, the big European model, released its weights on October 29, 2026. It's too heavy to run on your computer, but it can run on a server you control, and its API costs $0.70 per million input tokens. The mix I see most is Claude or GPT for the thinking, an open model for bulk processing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which model should I pick for an agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "My go-to in November 2026. Claude Sonnet 5.5 for most agent tasks, fast, good at reasoning, and even included in the free plan. Claude Opus 5.5 when the task is complex or needs a lot of context (up to 1 million tokens), and it's also the one Anthropic recommends to start with. Claude Fable 5.1, in Max, only for the truly hard cases, because it's slow and expensive. At OpenAI, GPT-6.1 Sol is the right default in ChatGPT Work, and GPT-6 Luna is enough for simple, repeated tasks."
       }
     }
   ]
@@ -1048,7 +1080,7 @@
         </a>
         <a href="/en/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
-          <span class="more-text"><strong>Workflows</strong><span>Claude Code by profession</span></span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
         </a>
         <a href="/en/outils" role="menuitem">
           <span class="more-icon">🛠</span>
@@ -1097,14 +1129,14 @@
 <!-- Hero -->
 <section class="hero">
   <div class="container">
-    <div class="kicker"><span class="pulse"></span>Pillar guide · AI agents in 2026</div>
+    <div class="kicker"><span class="pulse"></span>Guide · AI agents · November 2026</div>
     <h1>AI agents ·<br>the complete guide<br>by a <em>non-dev.</em></h1>
     <p class="hero-lead">
-      Hey, I'm Jérémy. I'm not a developer. And yet, in 2026, I've built several AI agents that I use every single day. On this page, I'm pulling together everything I've learned: what an agent really is, the three levels for building one (no-code, low-code, full code), the workflows that work, the cost, the architecture, the common mistakes. All in plain English, no pointless jargon.
+      Hey, I'm Jérémy. I'm not a developer. And yet AI agents work for me every single day. On this page, I start with the ones you already have at hand, without writing a line of code. The Claude app with a folder, ChatGPT Work, AI browsers and automation tools, with a concrete example for each. Then comes what an agent really is, how to pick yours, November 2026 prices and the traps to avoid. The code part I keep for the appendix, at the very bottom.
     </p>
     <div class="hero-ctas">
-      <a class="hero-cta primary" href="/en/articles/agents-ia-guide">Read the deep-dive guide</a>
-      <a class="hero-cta ghost" href="#construire">See how to build one</a>
+      <a class="hero-cta primary" href="#sous-la-main">See the agents to try</a>
+      <a class="hero-cta ghost" href="/en/apprendre#etape-03">The learning path, step 3</a>
     </div>
   </div>
 </section>
@@ -1112,47 +1144,74 @@
 <!-- Mini-marquee 1 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>LLM</span><span>+ Tools</span><span>+ Loop</span><span>+ Goal</span><span>= AI agent</span><span>Simon Willison</span>
-    <span>LLM</span><span>+ Tools</span><span>+ Loop</span><span>+ Goal</span><span>= AI agent</span><span>Simon Willison</span>
+    <span>Claude app + folder</span><span>ChatGPT Work</span><span>AI browsers</span><span>No-code tools</span><span>Zero code</span><span>November 2026</span>
+    <span>Claude app + folder</span><span>ChatGPT Work</span><span>AI browsers</span><span>No-code tools</span><span>Zero code</span><span>November 2026</span>
   </div>
 </div>
 
-<!-- Section A : C'est quoi un agent IA -->
-<section class="block">
+<!-- Section A : The agents at hand -->
+<section class="block" id="sous-la-main">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Definition</span>
-    <h2>What is an<br><em class="fuchsia">AI agent?</em></h2>
+    <span class="section-kicker k-teal">At hand</span>
+    <h2>The agents you<br><em class="teal">already have at hand.</em></h2>
 
-    <div class="definition-card">
-      <h4>In one sentence</h4>
-      <p><strong>An AI agent is a large language model you've given tools, an execution loop and a goal.</strong> Simon Willison, one of the clearest voices on the topic, sums it up with the formula: <em>LLM + tools + loop + goal</em>. That's it. No magic, just four building blocks working together.</p>
+    <p>
+      An AI agent is an AI that doesn't just answer. You give it a goal, it works through the steps on its own and hands you finished work. In November 2026, you don't have to build anything to get one, it already lives in mainstream tools. Here are the four families I recommend, with one example to try for each.
+    </p>
+
+    <div class="profile-grid">
+      <div class="profile-card p-teal">
+        <span class="profile-tag">01 · On your files</span>
+        <h3>The Claude app with a folder</h3>
+        <p>In the Claude desktop app, you give Claude access to a folder on your computer. It reads your files, organizes them and creates new ones. This mode used to be called Cowork. In late 2026, it's merging into the normal conversation, rolling out on the Pro, Max and Ultra plans. You ask, and Claude decides on its own whether to answer or to get to work.</p>
+        <p>During a task, it can use your connected apps (Google Drive, Gmail, Microsoft 365, Slack), browse the web with its built-in browser or with Claude in Chrome, and repeat a task on a schedule, every Monday for example.</p>
+        <p><strong>Try this.</strong> Put this month's invoices in a folder, open it to Claude and write "Read every PDF invoice in this folder and make me a table with the date, the supplier, the amount before tax, the VAT and the total, plus a total row." You get a spreadsheet ready to open.</p>
+        <p><strong>What you need.</strong> A paid plan, Claude Pro at $20 a month before tax or higher.</p>
+        <div class="profile-links">
+          <a href="/en/articles/ia-qui-travaille-sur-ton-ordinateur">The step-by-step</a>
+          <a href="/en/lexique/cowork">The Cowork entry</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-fuchsia">
+        <span class="profile-tag">02 · A finished deliverable</span>
+        <h3>ChatGPT Work</h3>
+        <p>The ChatGPT desktop app, on Mac and Windows, has two modes, Chat and Work. Work is an agent for longer tasks with several steps. It hands you a document, a spreadsheet, a presentation, a report or even a site. In the desktop app, it can use your files and your apps, always with your permission.</p>
+        <p><strong>Try this.</strong> Put three quotes in a folder, switch to Work and write "Compare these three quotes in a table with the prices, lead times, warranties and what's included. Tell me which one you'd pick for [your criterion] and why, in 5 lines." No more reading three PDFs side by side, and the decision stays yours.</p>
+        <p><strong>What you need.</strong> A paid plan, ChatGPT Plus costs $20 a month.</p>
+        <div class="profile-links">
+          <a href="/en/lexique/chatgpt-work">The ChatGPT Work entry</a>
+          <a href="/en/lexique/mode-agent">Agent mode</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-orange">
+        <span class="profile-tag">03 · On the web</span>
+        <h3>AI browsers</h3>
+        <p>An AI browser sees the page you're reading and can act on it when you ask. No more copy-pasting a page into a chat. The best known is Comet, from Perplexity. Atlas, OpenAI's browser, closed on August 9, 2026, and its features moved into the ChatGPT desktop app. The Claude app also has its own built-in browser, and the Claude in Chrome extension puts Claude to work inside your Chrome.</p>
+        <p><strong>Try this.</strong> On a product page, with two other shops open in tabs, you ask "Compare with the two other tabs and tell me which one is cheapest with delivery before Saturday." It reads the three pages and answers.</p>
+        <p><strong>My rule.</strong> It can fill the cart, but you're the one who checks it and pays.</p>
+        <div class="profile-links">
+          <a href="/en/articles/navigateurs-ia">Comet, Atlas and Chrome compared</a>
+          <a href="/en/lexique/navigateur-ia">The AI browser entry</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-ink">
+        <span class="profile-tag">04 · On its own, every day</span>
+        <h3>No-code automation tools</h3>
+        <p>Zapier, Make, n8n or Lindy connect your apps to each other. You pick a trigger, an email received or a form filled in, and the AI handles the steps that need understanding, like reading, summarizing, sorting or writing. Zapier even has its own agents, which make decisions along the way. n8n, for its part, can be installed on your own server.</p>
+        <p><strong>Try this.</strong> A prospect fills in the form on your site. The automation reads the request, rates how urgent it is, adds a row to your tracking sheet and drafts a reply for you. All that's left is to read it and hit send.</p>
+        <p><strong>When to pick it.</strong> When the same task comes back every day between two apps.</p>
+        <div class="profile-links">
+          <a href="/en/articles/automatiser-taches-ia-sans-coder">Automate without coding</a>
+        </div>
+      </div>
     </div>
 
-    <p>
-      In practice, an AI agent starts from an intention you give it in plain English (or French, or any language an <a href="/en/lexique/llm">LLM</a> understands). Instead of just replying with text like a classic chatbot, it decides to call tools: read a file, query a database, send an email, run a web search. It observes the result, thinks, and starts over if needed. The loop stops when the goal is reached, or when a human takes back the wheel.
-    </p>
-
-    <h3>Agent vs chatbot · the core difference</h3>
-    <p>
-      <strong>A chatbot answers. An agent acts.</strong> ChatGPT in classic chat mode is a chatbot: you ask a question, it generates text. An AI agent is different: you tell it "send a brief to my last 10 leads" and it actually reads your CRM, opens Gmail, writes 10 personalized emails, and asks you to approve before sending them. That ability to take real-world actions is what changes everything.
-    </p>
-
-    <p>
-      This distinction is recent. In 2023, we mostly talked about "AI assistants" that suggested text. In 2024, the first real agent frameworks shipped (LangChain, AutoGen). In 2025, LLM reasoning crossed a threshold that made agents reliable on complex tasks. <strong>2026 is the year AI agents became usable in everyday life</strong>, even for non-developers.
-    </p>
-
-    <h3>Why 2026 is the year of agents</h3>
-    <p>
-      Three things changed at the same time. <strong>First, the models got better at reasoning</strong>: Claude Sonnet 4.x, GPT-5 and Gemini 2 reason across several steps without losing the thread. <strong>Second, the MCP standard took off</strong>: since late 2024, any agent can plug into Sanity, Stripe, Telegram or any service through the <a href="/en/lexique/mcp">Model Context Protocol</a>. <strong>Third, no-code agents emerged</strong>: Lindy, Crew AI Studio, Zapier AI Actions let you put together an agent in an hour, no code required.
-    </p>
-
-    <p>
-      The result: what took a team of devs and two months of work in 2023 gets done in an afternoon in 2026. That's why I wrote this page: the barrier to entry has collapsed, and a lot of people don't know it yet.
-    </p>
-
     <div class="callout tip">
-      <h4>The quote to remember</h4>
-      <p>"An agent is an LLM running a tool loop in an environment to reach a goal." — Simon Willison, creator of Datasette, a go-to observer of LLMs since 2022.</p>
+      <h4>Where I'd start</h4>
+      <p>If you only try one, take the Claude app or ChatGPT Work, on a test folder with two or three unimportant files. It's the exercise in <a href="/en/apprendre#etape-03">step 3 of the learning path</a>, and it's the shortest way to watch an agent work for you.</p>
     </div>
   </div>
 </section>
@@ -1160,103 +1219,53 @@
 <!-- Mini-marquee 2 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>No-code</span><span>Low-code</span><span>Full code</span><span>Three levels</span><span>One single logic</span><span>Your call</span>
-    <span>No-code</span><span>Low-code</span><span>Full code</span><span>Three levels</span><span>One single logic</span><span>Your call</span>
+    <span>LLM</span><span>+ Tools</span><span>+ Loop</span><span>+ Goal</span><span>= AI agent</span><span>Simon Willison</span>
+    <span>LLM</span><span>+ Tools</span><span>+ Loop</span><span>+ Goal</span><span>= AI agent</span><span>Simon Willison</span>
   </div>
 </div>
 
-<!-- Section B : Les 3 niveaux pour construire un agent -->
-<section class="block" id="construire">
+<!-- Section B : What is an AI agent -->
+<section class="block" id="definition">
   <div class="container">
-    <span class="section-kicker k-teal">— Method</span>
-    <h2>The 3 levels to<br><em class="teal">build an agent.</em></h2>
+    <span class="section-kicker k-fuchsia">Definition</span>
+    <h2>What is an<br><em class="fuchsia">AI agent?</em></h2>
 
-    <p>
-      Before asking which tool to choose, you need to know which level you want to play at. I've tested all three. Each has its own logic, its limits, its audience. Here's my way of reading it.
-    </p>
-
-    <h3>Level 1 · No-code (the on-ramp)</h3>
-    <p>
-      No-code is the option to start with. You don't write a single line of code. You drag and drop blocks in a visual interface. The agent is built as an assembly of bricks. My four favorite tools at this level:
-    </p>
-    <ul>
-      <li><strong>Lindy</strong> · mainly an email agent, but also calendar, research, automations. Very clean, free plan, paid at $49 a month if you're serious.</li>
-      <li><strong>Zapier AI Actions</strong> · the no-code giant shipped an AI layer. You connect your usual 7,000 apps with an agent on top. Handy if you already live in Zapier.</li>
-      <li><strong>Crew AI Studio</strong> · the no-code version of CrewAI, the open-source framework. You build teams of agents that collaborate. More visual and more complete than Lindy for multi-agent workflows.</li>
-      <li><strong>n8n + AI</strong> · n8n is an open-source automation tool you can self-host for free. Its AI layer is solid, and you keep control of your data.</li>
-    </ul>
-    <p>
-      <strong>My advice:</strong> if you're starting out, begin with Lindy or Crew AI Studio. You'll have a working agent in an hour. It's the best way to understand the logic before leveling up.
-    </p>
-
-    <h3>Level 2 · Low-code (the sweet spot)</h3>
-    <p>
-      Low-code is my favorite level. You write a bit of configuration in YAML, JSON or markdown, but the tool does the heavy technical lifting. You keep control, without the effort of a full-code project. My three options at this level:
-    </p>
-    <ul>
-      <li><strong>Claude Code + skills + MCP</strong> · my daily stack. Claude Code is Anthropic's terminal agent, skills are folders of instructions that trigger automatically, and MCP lets you plug in any external service. <a href="/en/claude-code">The complete guide is here</a>.</li>
-      <li><strong>OpenAI Custom GPTs</strong> · you build an agent in a few minutes through a guided interface inside ChatGPT. Limited to OpenAI tools (search, code interpreter, DALL-E), but very accessible.</li>
-      <li><strong>Anthropic Skills (in Claude Desktop)</strong> · same logic as Claude Code skills but without a terminal. Mac and Windows. The lowest barrier to entry of them all.</li>
-    </ul>
-    <p>
-      <strong>My advice:</strong> if you do writing, marketing, sales, or any knowledge work, Claude Code will give you 10× more leverage than a no-code tool. The learning curve is a few days, not a few months.
-    </p>
-
-    <h3>Level 3 · Full code (for real projects)</h3>
-    <p>
-      Full code is when you want to build an agent that goes to production with hard constraints: performance, optimized cost, deep integration into an existing system, a technical team behind it. The reference frameworks in 2026:
-    </p>
-    <ul>
-      <li><strong>LangGraph</strong> · the evolution of LangChain, the most widely used Python framework for orchestrating complex agents. State graphs, persistence, native human in the loop.</li>
-      <li><strong>Anthropic Agent SDK</strong> · Anthropic's official SDK for Python and TypeScript. Simpler than LangGraph, more opinionated. Ideal if you're building everything around Claude.</li>
-      <li><strong>AutoGen (Microsoft)</strong> · a conversational multi-agent framework, strong for setups where several agents collaborate.</li>
-      <li><strong>OpenAI Agents SDK</strong> · the equivalent on the OpenAI side. Public release in late 2025, maturing fast.</li>
-    </ul>
-    <p>
-      <strong>My advice:</strong> only go full code when low-code no longer cuts it. For 90% of personal and even SMB use cases, Claude Code covers the need. Full code is useful when you want to self-host, scale to thousands of users, or have fine-grained control over token cost.
-    </p>
-
-    <h3>Comparison table</h3>
-    <div class="compare-wrap">
-      <table class="compare-table">
-        <thead>
-          <tr>
-            <th>Level</th>
-            <th>Effort</th>
-            <th>Price</th>
-            <th>Control</th>
-            <th>Scalability</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>No-code</td>
-            <td>1 hr for your first agent</td>
-            <td>€0 to €100/mo</td>
-            <td>Limited (fixed bricks)</td>
-            <td>Low (quick ceiling)</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>1 day to get going properly</td>
-            <td>€20 to €200/mo</td>
-            <td>High (skills + MCP)</td>
-            <td>Good (personal and SMB)</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-orange"></span>Full code</td>
-            <td>Weeks to months by scope</td>
-            <td>Variable (API tokens)</td>
-            <td>Total (custom architecture)</td>
-            <td>Unlimited (production)</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="definition-card">
+      <h4>In one sentence</h4>
+      <p><strong>An AI agent is a large language model that's been given tools, an execution loop and a goal.</strong> Simon Willison, one of the clearest voices on the topic, sums it up with the formula <em>LLM + tools + loop + goal</em>. That's it. No magic, just four building blocks working together.</p>
     </div>
 
-    <div class="callout ok">
-      <h4>My own journey</h4>
-      <p>I started in 2024 with Lindy to understand the basics. In 2025, I switched to Claude Code and never looked back. I dabbled in full code once for a client project. <strong>Bottom line: low-code Claude Code covers 95% of my needs.</strong></p>
+    <p>
+      In practice, an AI agent starts from an intention you give it in plain English (or French, or any language an <a href="/en/lexique/llm">LLM</a> understands). Instead of just replying with text like a classic chatbot, it decides to call tools. Read a file, open a web page, fill in a spreadsheet, draft an email. It looks at the result, thinks, tries again if needed. The loop stops when the goal is reached, or when a human takes back control.
+    </p>
+
+    <h3>Agent vs chatbot · the core difference</h3>
+    <p>
+      <strong>A chatbot answers. An agent acts.</strong> ChatGPT in Chat mode is a chatbot. You ask a question, it generates text, and you're the one who applies it. Switch to Work mode, or open a folder to the Claude app, and you have an agent. You tell it "prepare a brief for each of the 10 prospects in this spreadsheet" and it actually reads the file, writes the 10 briefs, puts them in one document and hands it back. That ability to do the work, not just talk about it, changes everything.
+    </p>
+
+    <h3>Workflow or agent · who decides the steps?</h3>
+    <p>
+      A workflow follows steps you set in advance. "When an email arrives with an invoice, save the attachment in this folder and add a row to the spreadsheet." That's what a classic Zapier or Make automation does. It's reliable, predictable, and it never leaves the planned path. An agent picks its own steps. You give it a goal, "tidy up this folder and give me a summary of unpaid invoices," and it decides what to read, in what order, and when it's done.
+    </p>
+    <p>
+      <strong>My rule is simple.</strong> If you can write the steps down in advance, a workflow is enough and costs less. If the task changes every time, you need an agent. Many tools mix the two, like Zapier's agents or the Claude app's scheduled tasks.
+    </p>
+
+    <h3>Why 2026 is the year of agents</h3>
+    <p>
+      In 2023, people mostly talked about "AI assistants" that suggested text. In 2024, the first real agent frameworks came out (LangChain, AutoGen). In 2025, models' reasoning crossed a threshold that made agents reliable on complex tasks. <strong>2026 is the year AI agents became usable day to day</strong>, even for non-developers.
+    </p>
+    <p>
+      Three things changed at once. <strong>Models got better at reasoning.</strong> Claude Opus 5.5, GPT-6.1 Sol and Gemini 4 Argon, released between late September and mid-October 2026, reason over several steps without losing the thread. <strong>The MCP standard took hold.</strong> Since late 2024, an agent can plug into any service through the <a href="/en/lexique/mcp">Model Context Protocol</a>. <strong>And agents showed up where you already work</strong>, in the Claude app, in ChatGPT, in your browser and in the automation tools you may have used for years.
+    </p>
+    <p>
+      The result is that what took a team of developers and two months of work in 2023 now gets done in an afternoon in 2026. That's why I wrote this page. The barrier to entry has collapsed, and a lot of people don't know it yet.
+    </p>
+
+    <div class="callout tip">
+      <h4>The quote to remember</h4>
+      <p>"An agent is an LLM that runs a loop of tools in an environment to achieve a goal," as Simon Willison puts it. He created Datasette and has been a go-to observer of LLMs since 2022.</p>
     </div>
   </div>
 </section>
@@ -1264,87 +1273,78 @@
 <!-- Mini-marquee 3 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Email agent</span><span>Contract agent</span><span>Research agent</span><span>Sales agent</span><span>Watch agent</span><span>Personal agent</span>
-    <span>Email agent</span><span>Contract agent</span><span>Research agent</span><span>Sales agent</span><span>Watch agent</span><span>Personal agent</span>
+    <span>One task</span><span>One folder</span><span>One test</span><span>Your sign-off</span><span>Then autonomy</span><span>Not before</span>
+    <span>One task</span><span>One folder</span><span>One test</span><span>Your sign-off</span><span>Then autonomy</span><span>Not before</span>
   </div>
 </div>
 
-<!-- Section C : Workflows populaires -->
-<section class="block">
+<!-- Section C : Pick and launch your first agent -->
+<section class="block" id="construire">
   <div class="container">
-    <span class="section-kicker k-orange">— Use cases</span>
-    <h2>Popular AI agent<br><em class="orange">workflows in 2026.</em></h2>
+    <span class="section-kicker k-teal">Method</span>
+    <h2>Pick and launch<br><em class="teal">your first agent.</em></h2>
 
     <p>
-      Here are the six agent workflows I see working best in 2026, both in my own use and from what I track. For each, I give the pitch, the tool I recommend, and a link to a deeper tutorial when one exists.
+      Before you pick a tool, look at where your task lives. In your files, on the web, or between two apps that don't talk to each other. That's what decides, not the trend of the month. Here's how I read it.
     </p>
 
-    <div class="profile-grid">
-      <div class="profile-card p-teal">
-        <span class="profile-tag">01 · The must-have</span>
-        <h3>Email agent</h3>
-        <p>Sort your inbox, reply to the simple emails, draft the complex replies, prioritize. It's the agent that saves the most time on average, because everyone is drowning in email.</p>
-        <p><strong>My stack:</strong> Claude Code + Gmail MCP, or Lindy for no-code. One-hour setup, daily savings of one to two hours.</p>
-        <div class="profile-links">
-          <a href="/en/articles/tuto-agent-gmail">Gmail Agent tutorial</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-fuchsia">
-        <span class="profile-tag">02 · For the pros</span>
-        <h3>Contract agent</h3>
-        <p>Review a supplier contract, spot the risky clauses, compare against a template, generate a list of points to negotiate. Heavily used in legal, finance, procurement. Immediate ROI.</p>
-        <p><strong>My stack:</strong> Claude Code with a custom legal-review skill. You hand it the PDF, it gives you an analysis brief in 3 minutes.</p>
-        <div class="profile-links">
-          <a href="/en/articles/tuto-agent-contrats">Contract Agent tutorial</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-orange">
-        <span class="profile-tag">03 · For the curious</span>
-        <h3>Research agent</h3>
-        <p>Run several web queries in parallel, read the sources, synthesize, deliver a sourced report. More powerful than a simple Perplexity search when the topic is complex or needs precise data.</p>
-        <p><strong>My stack:</strong> the <code>deep-research</code> skill on Claude Code, or OpenAI Deep Research. A sourced 5-10 page output in 10-20 minutes.</p>
-        <div class="profile-links">
-          <a href="/en/articles/autoresearch-karpathy">Karpathy's self-improving agent</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-ink">
-        <span class="profile-tag">04 · For salespeople</span>
-        <h3>Sales agent</h3>
-        <p>Qualify a lead, brief you before a call, write a personalized follow-up, update your CRM. The agent that saves time across the whole sales cycle, without replacing the human who closes.</p>
-        <p><strong>My stack:</strong> Claude Code + Sanity or HubSpot MCP. I built an agent that served me well in my last job before Jerwis.</p>
-        <div class="profile-links">
-          <a href="/en/articles/outil-vente-claude-code">My Claude Code sales tool</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-teal">
-        <span class="profile-tag">05 · For staying informed</span>
-        <h3>Watch agent</h3>
-        <p>Scan 100+ sources (RSS, Reddit, Hacker News, YouTube, X), filter by relevance, cluster the hot topics, deliver a daily or weekly digest. It's what runs behind the scenes for my AI Playbook newsletter.</p>
-        <p><strong>My stack:</strong> Claude Code subagents in parallel + custom scoring. The <a href="/news">Jerwis News</a> digest is generated every day by this agent.</p>
-        <div class="profile-links">
-          <a href="/news">See the live digest</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-fuchsia">
-        <span class="profile-tag">06 · For everyday life</span>
-        <h3>Personal agent</h3>
-        <p>Calendar, tasks, reminders, appointments, a to-do that updates itself. The agent that acts as your personal assistant: you talk to it in plain English in the morning, it organizes your day. The biggest use of Lindy in 2026.</p>
-        <p><strong>My stack:</strong> Lindy for no-code or Claude Code + Google Calendar MCP for low-code. ROI: 30 min to 1 hr saved per day.</p>
-        <div class="profile-links">
-          <a href="/en/articles/agents-ia-guide">The complete guide</a>
-          <a href="/en/articles/hermes-agent">Hermes Agent</a>
-        </div>
-      </div>
+    <h3>A table to choose</h3>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Your task</th>
+            <th>The agent that fits</th>
+            <th>To get started</th>
+            <th>What it touches</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Files, documents, spreadsheets</td>
+            <td>The Claude app with a folder</td>
+            <td>Claude Pro, $20/month before tax</td>
+            <td>The folder you open to it and your connected apps</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>A finished deliverable (report, presentation, site)</td>
+            <td>ChatGPT Work</td>
+            <td>ChatGPT Plus, $20/month</td>
+            <td>Your files and apps, with your permission</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Web pages to read, compare or fill in</td>
+            <td>An AI browser</td>
+            <td>Depends on the tool</td>
+            <td>The sites you visit with it</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>The same task every day between two apps</td>
+            <td>Zapier, Make, n8n or Lindy</td>
+            <td>Depends on the tool and the volume</td>
+            <td>The apps you connect together</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <div class="callout warn">
-      <h4>Workflows that often fail</h4>
-      <p>Three use cases where AI agents disappoint in 2026: <strong>fully autonomous customer support</strong> (humans are still better on complex cases), <strong>agents that make financial decisions on their own</strong> (too risky, keep a human), <strong>creative agents with no review</strong> (the quality is uneven, you have to edit afterward). Don't make these your first attempts.</p>
+    <h3>The five steps I follow every time</h3>
+    <ul>
+      <li><strong>1 · Pick a simple, repetitive task.</strong> Just one. The one that bugs you every week and always follows the same pattern.</li>
+      <li><strong>2 · Pick the agent that fits</strong>, using the table right above.</li>
+      <li><strong>3 · Give it only what it needs.</strong> A test folder rather than your whole drive, one connected app rather than ten.</li>
+      <li><strong>4 · Test while staying in control.</strong> In the Claude app, a setting decides how much it works on its own. Auto, the default on Pro, lets it move ahead with automatic checks. Manual makes it ask for your approval before every action. For your first tasks, switch to Manual. In ChatGPT Work, nothing touches your files without your permission.</li>
+      <li><strong>5 · Let it run, with guardrails.</strong> Once it has got it right several times in a row, let it move ahead on its own, schedule the task if it comes back, and keep your sign-off for anything that can't be undone.</li>
+    </ul>
+
+    <h3>And if you want to go further</h3>
+    <p>
+      No-code tools like Crew AI Studio let you set up teams of agents that work together. Beyond that, you're into code, with Claude Code, the Claude Agent SDK or LangGraph. I cover them in <a href="#annexe-code">the appendix for the curious</a>, at the bottom of the page. For most personal uses, and even in a small business, you don't need them.
+    </p>
+
+    <div class="callout ok">
+      <h4>My own path</h4>
+      <p>I started in 2024 with Lindy to understand the logic. In 2025, I moved to Claude Code, and it's still where I build this site (I tell that story in the appendix). But for an office task, I no longer recommend starting there. <strong>The Claude app with a folder, or ChatGPT Work, gives you a real agent without a single technical screen.</strong></p>
     </div>
   </div>
 </section>
@@ -1352,102 +1352,86 @@
 <!-- Mini-marquee 4 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>€15/mo</span><span>€50/mo</span><span>€200/mo</span><span>Variable</span><span>Hidden costs</span><span>Fake free</span>
-    <span>€15/mo</span><span>€50/mo</span><span>€200/mo</span><span>Variable</span><span>Hidden costs</span><span>Fake free</span>
+    <span>Email agent</span><span>Contracts agent</span><span>Research agent</span><span>Sales agent</span><span>Monitoring agent</span><span>Personal agent</span>
+    <span>Email agent</span><span>Contracts agent</span><span>Research agent</span><span>Sales agent</span><span>Monitoring agent</span><span>Personal agent</span>
   </div>
 </div>
 
-<!-- Section D : Coût d'un agent -->
-<section class="block">
+<!-- Section D : Use cases -->
+<section class="block" id="cas-usage">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Pricing</span>
-    <h2>The cost of an AI agent<br><em class="fuchsia">in 2026.</em></h2>
+    <span class="section-kicker k-orange">Use cases</span>
+    <h2>Six agents that<br><em class="orange">really work.</em></h2>
 
     <p>
-      The cost of an agent depends on three things: the tool you choose (no-code, low-code, full code), the AI model behind it (Claude, GPT, Gemini, Llama), and how intensively you use it. Here are the real ranges I see around me in May 2026.
+      Here are the six uses I see working best, in my own life and in my monitoring of the field. For each one, I give you the no-code agent I'd pick to get started.
     </p>
 
-    <h3>Indicative pricing table</h3>
-    <div class="compare-wrap">
-      <table class="compare-table">
-        <thead>
-          <tr>
-            <th>Level</th>
-            <th>Typical tool</th>
-            <th>Monthly price</th>
-            <th>What it covers</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>No-code</td>
-            <td>Lindy Pro plan</td>
-            <td>$49</td>
-            <td>1 personal agent, 1,000 actions/mo</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>No-code</td>
-            <td>n8n self-hosted</td>
-            <td>€5-15 (server)</td>
-            <td>Unlimited workflows, you just pay for the infra</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>Claude Pro</td>
-            <td>$20</td>
-            <td>Claude Code included, 100+ messages/day</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>Claude Max</td>
-            <td>$100</td>
-            <td>Heavy usage, 1M token context</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>OpenAI Plus + Custom GPTs</td>
-            <td>$20</td>
-            <td>Build and use your Custom GPTs</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-orange"></span>Full code</td>
-            <td>Claude API by the token</td>
-            <td>€50-500 by usage</td>
-            <td>Total freedom, pay for what you use</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-orange"></span>Full code</td>
-            <td>OpenAI API by the token</td>
-            <td>€50-500 by usage</td>
-            <td>Same on the OpenAI side</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="profile-grid">
+      <div class="profile-card p-teal">
+        <span class="profile-tag">01 · The must-have</span>
+        <h3>Email agent</h3>
+        <p>Sorting your inbox, answering simple emails, preparing replies to the tricky ones, ranking by priority. It's the agent that saves the most time on average, because everyone is drowning in email.</p>
+        <p><strong>To get started.</strong> The Claude app with Gmail or Microsoft 365 connected, which you ask to sort and prepare drafts. Or Lindy, no-code. Keep the sending for yourself.</p>
+        <div class="profile-links">
+          <a href="/en/articles/automatiser-taches-ia-sans-coder">Automate without coding</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-fuchsia">
+        <span class="profile-tag">02 · For professionals</span>
+        <h3>Contracts agent</h3>
+        <p>Reviewing a supplier contract, spotting risky clauses, comparing against a template, giving you the list of points to negotiate. Widely used in legal, finance and purchasing.</p>
+        <p><strong>To get started.</strong> Put the PDF in a folder and open it to the Claude app or to ChatGPT Work. Ask for the risky clauses and the points to negotiate. For an important contract, a professional review is still a must.</p>
+        <div class="profile-links">
+          <a href="/en/articles/ia-qui-travaille-sur-ton-ordinateur">Working on your files</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-orange">
+        <span class="profile-tag">03 · For the curious</span>
+        <h3>Research agent</h3>
+        <p>Running several web searches, reading the sources, summarizing, handing you a sourced report. More useful than a simple search when the topic is complex or needs precise data.</p>
+        <p><strong>To get started.</strong> ChatGPT Work, which hands you a report directly, or the Claude app with its built-in browser. Always ask for the sources, and open two or three to check.</p>
+        <div class="profile-links">
+          <a href="/en/articles/navigateurs-ia">AI browsers</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-ink">
+        <span class="profile-tag">04 · For salespeople</span>
+        <h3>Sales agent</h3>
+        <p>Qualifying a prospect, briefing you before a call, writing a personalized follow-up, keeping your tracking sheet up to date. The agent that saves time across the whole sales cycle, without replacing the human who closes.</p>
+        <p><strong>To get started.</strong> Your prospect spreadsheet in a folder, and the Claude app or ChatGPT Work to prepare the brief before each call and the follow-up email right after.</p>
+        <div class="profile-links">
+          <a href="/en/lexique/chatgpt-work">The ChatGPT Work entry</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-teal">
+        <span class="profile-tag">05 · To stay informed</span>
+        <h3>Monitoring agent</h3>
+        <p>Going through your sources, filtering by relevance, grouping the hot topics, delivering a daily or weekly digest. It's what runs behind the scenes for my AI Playbook newsletter.</p>
+        <p><strong>To get started.</strong> A scheduled task in the Claude app, every morning, that goes through your sources and gives you a summary. Or a Zapier or n8n workflow that emails you the digest. My own monitoring goes further, I explain it in the appendix.</p>
+        <div class="profile-links">
+          <a href="/news">See today's digest</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-fuchsia">
+        <span class="profile-tag">06 · For everyday life</span>
+        <h3>Personal agent</h3>
+        <p>Tasks, reminders, appointments, a to-do list that updates itself. The agent that acts as your personal assistant. You talk to it in the morning, it helps you organize your day.</p>
+        <p><strong>To get started.</strong> The Claude app with your email connected and a scheduled task every morning that prepares a rundown of your day. Or Lindy, no-code.</p>
+        <div class="profile-links">
+          <a href="/en/lexique/cowork">The Cowork entry</a>
+        </div>
+      </div>
     </div>
 
-    <h3>The hidden costs people forget</h3>
-    <p>
-      What shows up on the invoice is never the real cost of an agent. Here are the hidden costs I see come up all the time.
-    </p>
-    <ul>
-      <li><strong>Maintenance</strong> · an agent that works today can break tomorrow if a third-party tool's API changes. Budget 2-3 hours a month of maintenance for an agent in production.</li>
-      <li><strong>Debugging</strong> · when an agent goes haywire, you have to figure out why. Tracing tools (LangSmith, Helicone) cost an extra $20-50 a month.</li>
-      <li><strong>Monitoring</strong> · if the agent runs unsupervised, you can wake up one morning to a €500 API bill because it looped on an error all night. Always set a daily cost cap.</li>
-      <li><strong>Learning</strong> · the time you spend learning the tool and iterating on your prompts. The first week, budget 10-15 hours for a clean setup.</li>
-    </ul>
-
-    <h3>When a paid agent is worth it</h3>
-    <p>
-      My simple rule: <strong>an agent is worth its price when it saves you at least 3 hours a month.</strong> At €50 a month, with 3 hours saved at €25 an hour (your baseline personal time), you're already in the black. For a sales or contract agent that saves you 10 hours a month, the ROI is massive.
-    </p>
-
-    <p>
-      <strong>What's not worth it:</strong> paying for an agent you only use to show off. No need to subscribe to a $99 tool just to go "wow, I have an AI agent." Start with Claude Pro at $20 or a free n8n, and upgrade when the real need shows up.
-    </p>
-
-    <div class="callout tip">
-      <h4>My setup and its real cost</h4>
-      <p>For Jerwis, I'm on Claude Max ($100/mo) + Anthropic API on top (~$50/mo by usage) + a few free MCP servers. Total: $150-180 a month for 5-6 agents running all the time. Reckon ~10 hours saved per week. ROI: comfortably positive.</p>
+    <div class="callout warn">
+      <h4>The uses that often fail</h4>
+      <p>Three cases where AI agents disappoint in 2026. <strong>100% autonomous customer support</strong> (humans are still better on complex cases), <strong>agents making financial decisions alone</strong> (too risky, keep a human), <strong>creative agents with no review</strong> (quality is uneven, you need to edit behind them). Don't start with these.</p>
     </div>
   </div>
 </section>
@@ -1455,195 +1439,236 @@
 <!-- Mini-marquee 5 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>LLM</span><span>Tools</span><span>Memory</span><span>Loop</span><span>Guardrails</span><span>Human</span>
-    <span>LLM</span><span>Tools</span><span>Memory</span><span>Loop</span><span>Guardrails</span><span>Human</span>
+    <span>Free plan</span><span>$20/month</span><span>From $100/month</span><span>Per token</span><span>Hidden costs</span><span>Fake free</span>
+    <span>Free plan</span><span>$20/month</span><span>From $100/month</span><span>Per token</span><span>Hidden costs</span><span>Fake free</span>
   </div>
 </div>
 
-<!-- Section E : Architecture -->
-<section class="block">
+<!-- Section E : Cost of an agent -->
+<section class="block" id="prix">
   <div class="container">
-    <span class="section-kicker k-teal">— Under the hood</span>
-    <h2>The architecture of an agent ·<br><em class="teal">the technical building blocks.</em></h2>
+    <span class="section-kicker k-fuchsia">Pricing</span>
+    <h2>What it costs<br><em class="fuchsia">in November 2026.</em></h2>
 
     <p>
-      Whether you're in no-code, low-code or full code, an AI agent is always made of the same building blocks. Understanding these blocks helps you choose your tools better and debug more easily when something breaks. Here are the six fundamental blocks.
+      The price of an agent depends on three things. The tool you choose, the AI model behind it, and how heavily you use it. Here are the prices I checked on November 2, 2026 on the official pages. They change often, so check before you subscribe.
     </p>
 
-    <h3>Block 1 · The LLM (the brain)</h3>
-    <p>
-      This is the language model that reasons, decides which tool to call, interprets the results. In 2026, the leaders are <strong>Claude (Anthropic), GPT (OpenAI), Gemini (Google) and Llama (Meta, open-source)</strong>. The choice of LLM affects reasoning quality, speed and cost. For a personal agent, Claude Sonnet 4.x or GPT-5 mini are solid choices. <a href="/en/lexique/llm">Read the LLM entry</a>.
-    </p>
+    <h3>Price table</h3>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Price</th>
+            <th>What you get</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude and ChatGPT free plans</td>
+            <td>$0</td>
+            <td>For chatting and testing. Free Claude gives you Sonnet 5.5, and the ChatGPT desktop app lets you try GPT-6 Luna. Not agent mode on your files.</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Claude Pro</td>
+            <td>$20/month before tax ($17 billed yearly)</td>
+            <td>The Claude app with a folder, and Claude Opus 5.5</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>ChatGPT Plus</td>
+            <td>$20/month</td>
+            <td>ChatGPT Work, with GPT-6.1 Sol</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Claude Max</td>
+            <td>From $100/month</td>
+            <td>Heavy use, and Claude Fable 5.1, Claude's most powerful model, for the hard cases</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Zapier, Make, Lindy</td>
+            <td>Depends on the tool and the number of tasks</td>
+            <td>Check their pricing page, it changes often</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>n8n installed on your side</td>
+            <td>The price of your server</td>
+            <td>Unlimited workflows, you only pay for hosting</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>API, per token</td>
+            <td>Per million tokens</td>
+            <td>For agents you code, the prices are in <a href="#annexe-code">the appendix</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <h3>Block 2 · Tools (function calling)</h3>
+    <h3>The hidden costs people forget</h3>
     <p>
-      Tools are what the agent can call. Read a file, send an email, run a web search, query an API. Technically, this is what's called <strong>function calling</strong>: you describe a function to the agent (name, parameters, what it does), and it decides when to call it. Without tools, the agent is just a chatbot. <a href="/en/lexique/tool-use">Read the Tool use entry</a>.
-    </p>
-
-    <h3>Block 3 · MCP (Model Context Protocol)</h3>
-    <p>
-      MCP is the open standard launched by Anthropic in late 2024 that lets any agent plug into any external service. Instead of coding a custom integration for each tool (Sanity, Stripe, Telegram, GitHub), you install an MCP server and the agent can use it as if it had been built for it. <strong>This is what made the agent ecosystem explode in 2025-2026</strong>. <a href="/en/lexique/mcp">Read the MCP entry</a>.
-    </p>
-
-    <h3>Block 4 · Memory</h3>
-    <p>
-      Without memory, an agent forgets everything between runs. Memory breaks down into two layers: <strong>short term</strong> (the current conversation context, limited to 200K-1M tokens depending on the model) and <strong>long term</strong> (often implemented via <a href="/en/lexique/embedding">embeddings</a> stored in a vector database like Pinecone, Supabase pgvector or Weaviate). Long-term memory lets the agent remember your preferences, your past interactions, your documents.
-    </p>
-
-    <h3>Block 5 · The execution loop (agentic loop)</h3>
-    <p>
-      This is the heart of what separates an agent from a chatbot. The typical loop: the agent thinks, picks a tool, runs it, observes the result, and starts over if the goal isn't reached. This loop can run once or 100 times depending on the complexity of the task. <strong>It's these iterations that give an agent its autonomy.</strong> <a href="/en/lexique/agentic-workflow">Read the Agentic workflow entry</a>.
-    </p>
-
-    <h3>Block 6 · Guardrails and human in the loop</h3>
-    <p>
-      <a href="/en/lexique/guardrail">Guardrails</a> are the rules that stop the agent from messing up: no touching certain files, no exceeding a budget, no sending an email without approval. <a href="/en/lexique/human-in-the-loop">Human in the loop</a> means asking a human to approve sensitive actions before they're carried out. These two blocks are essential the moment the agent touches real data. Without them, it's only a matter of time before it slips up.
-    </p>
-
-    <h3>A simplified diagram of the architecture</h3>
-    <p>
-      Here's how these blocks fit together in practice:
+      What shows up on the bill is never the real cost of an agent. Here are the ones I see coming back all the time.
     </p>
     <ul>
-      <li><strong>You give an intention</strong> to the agent in plain English.</li>
-      <li><strong>The LLM</strong> breaks it down into sub-tasks.</li>
-      <li><strong>For each sub-task, the agent picks a tool</strong> (read a file, run a search, call an API).</li>
-      <li><strong>The tool runs</strong> via MCP or native function calling.</li>
-      <li><strong>The agent observes the result</strong>, saves it to memory if relevant, and decides the next step.</li>
-      <li><strong>On sensitive actions</strong>, the agent hands off to the human for approval.</li>
-      <li><strong>The loop continues</strong> until the goal is reached, the budget is spent or it's explicitly stopped.</li>
+      <li><strong>Review</strong> · at first, you check everything the agent did. That's normal, and it's what saves you from bad surprises. That time drops as you come to trust it.</li>
+      <li><strong>Usage limits</strong> · subscriptions have limits. A big agent task uses far more than a question in the chat. If you hit them often, it's a sign you need the next plan up.</li>
+      <li><strong>Maintenance</strong> · an automation that works today can break tomorrow if an app changes. Count a few hours a month to keep your automations in shape.</li>
+      <li><strong>Endless loops</strong> · an automation or a scheduled task stuck on an error can burn through your quota or your credit all night. Always set a limit.</li>
+      <li><strong>Learning</strong> · the time you spend discovering the tool and refining your instructions. In the first week, count a few hours to find your settings.</li>
     </ul>
 
+    <h3>When a paid agent is worth it</h3>
     <p>
-      It's this architecture that lets an agent deliver a client-qualification brief in 3 minutes, or generate a complete newsletter in 10 minutes. <strong>It's not magic, it's just orchestration.</strong>
+      My simple rule. <strong>An agent is worth its price when it saves you at least 3 hours a month.</strong> At $20 a month, 3 hours saved at €25 an hour (your baseline personal rate), you're already well ahead. For a sales or contracts agent that saves you 10 hours a month, the return is huge.
+    </p>
+    <p>
+      <strong>What isn't worth it</strong> is paying for an agent you barely use. No need to sign up for a $100-a-month tool just to say "I have an AI agent." Start with Claude Pro or ChatGPT Plus at $20 a month, or a free n8n, and move up when the real need shows up.
     </p>
 
-    <p>
-      To go further on <a href="/en/lexique/context-engineering">context engineering</a> (the art of giving the right context at the right moment to an agent), I'd suggest reading the dedicated entry or following me through the newsletter — it's a topic that deserves several articles all on its own.
-    </p>
+    <div class="callout tip">
+      <h4>My setup and what it really costs</h4>
+      <p>For Jerwis, I'm on Claude Max, the $100-a-month plan, plus a bit of API for the automations that run on their own, like my morning monitoring. I count about ten hours saved a week. The math is quick.</p>
+    </div>
   </div>
 </section>
 
 <!-- Mini-marquee 6 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Mistake 1</span><span>Mistake 2</span><span>Mistake 3</span><span>Mistake 4</span><span>Mistake 5</span><span>Learn from my fails</span>
-    <span>Mistake 1</span><span>Mistake 2</span><span>Mistake 3</span><span>Mistake 4</span><span>Mistake 5</span><span>Learn from my fails</span>
+    <span>LLM</span><span>Tools</span><span>Memory</span><span>Loop</span><span>Guardrails</span><span>Human</span>
+    <span>LLM</span><span>Tools</span><span>Memory</span><span>Loop</span><span>Guardrails</span><span>Human</span>
   </div>
 </div>
 
-<!-- Section F : Erreurs classiques -->
-<section class="block">
+<!-- Section F : Architecture -->
+<section class="block" id="sous-le-capot">
   <div class="container">
-    <span class="section-kicker k-orange">— Pitfalls</span>
-    <h2>Common mistakes when<br><em class="orange">you build your first agent.</em></h2>
+    <span class="section-kicker k-teal">Under the hood</span>
+    <h2>How an agent is built ·<br><em class="teal">the technical building blocks.</em></h2>
 
     <p>
-      I've made every one of these mistakes at least once. If you're starting out, here are the six most frequent pitfalls and how to avoid them. This section will save you weeks.
+      Whether you go through the Claude app, ChatGPT Work or a no-code tool, an AI agent is always made of the same building blocks. Knowing them helps you pick your tools and understand what's stuck when something breaks. Here are the six core blocks.
     </p>
 
-    <h3>Mistake 1 · Over-trusting the agent</h3>
+    <h3>Block 1 · The LLM (the brain)</h3>
     <p>
-      The first time an agent delivers something impressive, you think "great, I can let it run on its own." Bad idea. An agent that works 9 times out of 10 will let you down on the 10th, on the most important action. <strong>Rule: if a mistake by the agent could cost you dearly (email sent to the wrong client, data deleted), keep a human in the loop.</strong>
+      This is the language model that reasons, decides which tool to call and interprets the results. In November 2026, the leaders are <strong>Claude (Anthropic), GPT (OpenAI), Gemini (Google) and, in Europe, Mistral</strong>. The model you pick affects reasoning quality, speed and price. For a personal agent, Claude Sonnet 5.5 is the best trade-off, and you even get it for free. Claude Opus 5.5 is the one Anthropic recommends to start with, very strong on agent tasks. At OpenAI, GPT-6.1 Sol is the right default, and GPT-6 Luna the small, cheap model for simple, repeated tasks. At Google, the new flagship is called Gemini 4 Argon. <a href="/en/modeles-ia">All models compared</a> · <a href="/en/lexique/llm">the LLM entry</a>.
     </p>
 
-    <h3>Mistake 2 · No logs</h3>
+    <h3>Block 2 · Tools (function calling)</h3>
     <p>
-      When the agent goes haywire, you want to understand why. Without detailed logs (which prompt was sent, which tool was called, which result came back), you're flying blind. <strong>Set up minimal logging from day 1.</strong> For Claude Code, it's native. For other tools, wire up LangSmith, Helicone or a basic log file.
+      Tools are what the agent can call. Read a file, send an email, run a web search, query a service. Technically, it's called <strong>function calling</strong>. You describe a function to the agent (its name, its parameters, what it does), and it decides when to call it. Without tools, an agent is just a chatbot. <a href="/en/lexique/tool-use">Read the Tool use entry</a>.
     </p>
 
-    <h3>Mistake 3 · No timeout or budget cap</h3>
+    <h3>Block 3 · MCP (Model Context Protocol)</h3>
     <p>
-      An agent can loop indefinitely on an error, burning tokens with every iteration. I've seen real cases where an agent running on its own generated €200 of tokens in one night because it was stuck in an error loop. <strong>Always set a max number of iterations (say 20) and a daily budget cap.</strong>
+      MCP is the open standard Anthropic launched in late 2024, which lets any agent plug into any external service. Instead of coding a custom integration for each tool, you plug in an MCP server and the agent uses it as if it had been built for it. It's the same idea as the Claude app's connected apps, when you plug Gmail or Slack into it. <strong>That's what made the agent ecosystem take off in 2025 and 2026.</strong> <a href="/en/lexique/mcp">Read the MCP entry</a>.
     </p>
 
-    <h3>Mistake 4 · Plaintext credentials</h3>
+    <h3>Block 4 · Memory</h3>
     <p>
-      Connecting an agent to your Gmail requires OAuth credentials. If you paste those credentials into a prompt or an unprotected file, it's game over the moment they leak. <strong>Always use environment variables (.env) and add them to .gitignore.</strong> For agents that touch sensitive data, I use a secrets vault (1Password CLI, Doppler, Vercel env).
+      Without memory, an agent forgets everything between two tasks. Memory comes in two layers. <strong>Short term</strong> is the context of the current conversation, up to 1 million tokens with Claude Opus 5.5 and Sonnet 5.5. <strong>Long term</strong> often relies on <a href="/en/lexique/embedding">embeddings</a> stored in a vector database like Pinecone, Supabase pgvector or Weaviate. Long-term memory lets the agent remember your preferences, past exchanges and documents.
     </p>
 
-    <h3>Mistake 5 · A prompt that's too vague</h3>
+    <h3>Block 5 · The execution loop (agentic loop)</h3>
     <p>
-      "Sort my emails" is a prompt that will produce a mediocre result. "Sort my emails into 4 categories: Urgent, reply today; Reply this week; Newsletters to archive; Spam to delete. For each email, give your confidence as a %" will produce a result 10× better. <strong>The more precise and structured the prompt, the better the agent.</strong> That's the whole art of <a href="/en/lexique/context-engineering">context engineering</a>.
+      This is the heart of what separates an agent from a chatbot. The typical loop is think, pick a tool, run it, look at the result, and go again if the goal isn't reached. The loop can run once or a hundred times depending on how complex the task is. <strong>Those back-and-forths are what make an agent autonomous.</strong> <a href="/en/lexique/agentic-workflow">Read the Agentic workflow entry</a>.
     </p>
 
-    <h3>Mistake 6 · Trying to do everything at once</h3>
+    <h3>Block 6 · Guardrails and human in the loop</h3>
     <p>
-      The first agent you build should do ONE thing, well. Not sort emails AND plan your day AND generate summaries. Start simple, add capabilities one by one, test at every step. <strong>An agent that does one thing well beats an agent that tries to do everything badly.</strong> That's been true of software engineering for 50 years, and it's just as true for agents.
+      <a href="/en/lexique/guardrail">Guardrails</a> are the rules that stop the agent from doing something dumb, like touching certain files, going over a budget or sending an email without approval. <a href="/en/lexique/human-in-the-loop">Human in the loop</a> means asking a human to approve sensitive actions before they run. The Claude app's Manual setting and ChatGPT Work's permissions are exactly that. These two blocks are essential as soon as the agent touches real data.
     </p>
 
-    <h3>Mistake 7 · Ignoring maintenance cost</h3>
+    <h3>A simplified diagram of the architecture</h3>
     <p>
-      You build an agent in an hour, it works, you move on. Three months later, the Gmail API changes an endpoint, the agent fails silently, you miss important emails for two weeks before you notice. <strong>Set up a simple alert (an email to yourself, a Telegram notification) that warns you if the agent stops running as expected.</strong>
+      Here's how these blocks fit together in practice.
+    </p>
+    <ul>
+      <li><strong>You give the agent an intention</strong> in plain English.</li>
+      <li><strong>The LLM</strong> breaks it into subtasks.</li>
+      <li><strong>For each subtask, the agent picks a tool</strong> (read a file, run a search, use a connected app).</li>
+      <li><strong>The tool runs</strong>, through MCP or native function calling.</li>
+      <li><strong>The agent looks at the result</strong>, keeps it in memory if it's useful, and decides the next step.</li>
+      <li><strong>On sensitive actions</strong>, the agent hands control back to you for approval.</li>
+      <li><strong>The loop goes on</strong> until the goal is reached, the limit is hit or you stop it.</li>
+    </ul>
+
+    <p>
+      This architecture is what lets an agent hand you a clean invoice table or a quote comparison while you do something else. <strong>No magic, just orchestration.</strong>
     </p>
 
-    <div class="callout warn">
-      <h4>The rule that sums it all up</h4>
-      <p><strong>Treat your agent like a smart but inexperienced intern.</strong> You give it clear instructions, you check its work at first, you give it more and more autonomy as you come to trust it. And you ask it to check with you before doing anything irreversible. With that mindset, you avoid 90% of the problems.</p>
-    </div>
+    <p>
+      To go further on <a href="/en/lexique/context-engineering">context engineering</a>, the art of giving an agent the right context at the right moment, I recommend the dedicated entry. It's a topic that deserves several articles on its own.
+    </p>
   </div>
 </section>
 
 <!-- Mini-marquee 7 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Essential articles</span><span>To go further</span><span>Complete tutorials</span><span>Practical cases</span><span>Real failures</span><span>Real wins</span>
-    <span>Essential articles</span><span>To go further</span><span>Complete tutorials</span><span>Practical cases</span><span>Real failures</span><span>Real wins</span>
+    <span>Overconfidence</span><span>Whole drive</span><span>No limit</span><span>Trapped page</span><span>Vague instructions</span><span>Learn from my failures</span>
+    <span>Overconfidence</span><span>Whole drive</span><span>No limit</span><span>Trapped page</span><span>Vague instructions</span><span>Learn from my failures</span>
   </div>
 </div>
 
-<!-- Section G : Articles essentiels -->
-<section class="block">
+<!-- Section G : Risks and classic mistakes -->
+<section class="block" id="pieges">
   <div class="container">
-    <span class="section-kicker k-teal">— Dig deeper</span>
-    <h2>Essential articles<br><em class="teal">on AI agents.</em></h2>
+    <span class="section-kicker k-orange">Pitfalls</span>
+    <h2>The risks and mistakes<br><em class="orange">of a first agent.</em></h2>
 
     <p>
-      On Jerwis, I've published several longer articles on AI agents. Each one rounds out an angle of this guide. Here's the order I'd recommend reading them in, depending on where you're starting from.
+      I've made every one of these mistakes at least once. If you're starting out, here are the most common traps and how to avoid them. This section will save you weeks.
     </p>
 
-    <div class="articles-grid">
-      <a class="article-card c-teal" href="/en/articles/agents-ia-guide">
-        <span class="article-kicker"><span class="dot"></span>15 min · The pillar</span>
-        <h3>The complete guide to building your AI agent</h3>
-        <p>The big guide where I get into the detail: technical building blocks, use cases, how it actually works step by step. Read this first if you're starting from scratch.</p>
-        <span class="article-read">Read the article →</span>
-      </a>
+    <h3>Mistake 1 · Overconfidence in the agent</h3>
+    <p>
+      The first time an agent delivers something impressive, you think "great, I can let it run on its own." Bad idea. An agent that works 9 times out of 10 will let you down the 10th time, often on the most important action. <strong>If a mistake by the agent could cost you dearly (email sent to the wrong client, file overwritten), keep a human in the loop.</strong>
+    </p>
 
-      <a class="article-card c-fuchsia" href="/en/articles/hermes-agent">
-        <span class="article-kicker"><span class="dot"></span>10 min · Step by step</span>
-        <h3>Building a Hermes Agent step by step</h3>
-        <p>The tutorial where I show you how I built my Hermes agent that notifies me on Telegram when my Vercel builds pass or fail. Real setup, real code.</p>
-        <span class="article-read">Read the article →</span>
-      </a>
+    <h3>Mistake 2 · Opening your whole drive to it</h3>
+    <p>
+      An agent with access to everything can make mistakes everywhere. Open one specific folder to it, and work on a copy while you're getting to know the tool. A precise folder means precise work. Good news, the Claude app asks before permanently deleting a file, and only touches your files while the app is open.
+    </p>
 
-      <a class="article-card c-orange" href="/en/articles/tuto-agent-gmail">
-        <span class="article-kicker"><span class="dot"></span>8 min · Practical tutorial</span>
-        <h3>Gmail Agent · the complete tutorial</h3>
-        <p>How to connect an AI agent to your Gmail inbox to sort, draft and reply. The use case that gets going best for a first personal agent.</p>
-        <span class="article-read">Read the article →</span>
-      </a>
+    <h3>Mistake 3 · Not looking at what it did</h3>
+    <p>
+      When the agent goes off the rails, you want to understand why. <strong>Always ask it for the list of what it read, created or moved, and keep it.</strong> In automation tools, check the run history, that's what it's there for.
+    </p>
 
-      <a class="article-card c-teal" href="/en/articles/tuto-agent-contrats">
-        <span class="article-kicker"><span class="dot"></span>10 min · Pro tutorial</span>
-        <h3>Contract Agent · the tutorial</h3>
-        <p>Review a supplier contract, spot the risky clauses, generate a list of points to negotiate. Useful for lawyers, procurement, finance, or any founder who signs contracts.</p>
-        <span class="article-read">Read the article →</span>
-      </a>
+    <h3>Mistake 4 · No limit and no monitoring</h3>
+    <p>
+      An automation or a scheduled task can get stuck looping on an error. I've seen real cases where an agent left alone burned €200 of tokens in one night because it was stuck in an error loop. <strong>Cap the number of runs, and keep an eye on your usage during the first week.</strong>
+    </p>
 
-      <a class="article-card c-fuchsia" href="/en/articles/autoresearch-karpathy">
-        <span class="article-kicker"><span class="dot"></span>12 min · Theory</span>
-        <h3>Self-improving agents</h3>
-        <p>Andrej Karpathy popularized the idea of agents that evaluate and improve themselves. I break down his work and show you how to apply these principles to your own agents.</p>
-        <span class="article-read">Read the article →</span>
-      </a>
+    <h3>Mistake 5 · Passwords within its reach</h3>
+    <p>
+      Never open a folder that contains passwords, access codes or medical data, and never paste a password into a message. <strong>When an app needs to connect, use its official sign-in button</strong>, never a copy-paste.
+    </p>
 
-      <a class="article-card c-orange" href="/en/articles/outil-vente-claude-code">
-        <span class="article-kicker"><span class="dot"></span>12 min · Real case</span>
-        <h3>The sales tool I built in Claude Code</h3>
-        <p>The sales agent use case I put together for my last job. Architecture, tool choices, what worked, what broke. The honest post-mortem.</p>
-        <span class="article-read">Read the article →</span>
-      </a>
+    <h3>Mistake 6 · Believing a web page can't trick it</h3>
+    <p>
+      An AI browser reads pages for you, including whatever a malicious page has hidden there to give it orders. That's called <a href="/en/lexique/prompt-injection">prompt injection</a>. <strong>Don't let it sign in to your accounts unsupervised, and always check the cart before a purchase.</strong>
+    </p>
+
+    <h3>Mistake 7 · Vague instructions</h3>
+    <p>
+      "Sort my emails" will give a mediocre result. "Sort my emails into 4 categories, Urgent to answer today, To answer this week, Newsletters to archive, Spam. For each email, give your confidence level in %" will give a result ten times better. <strong>The more precise and structured the instructions, the better the agent.</strong> That's the whole art of <a href="/en/lexique/context-engineering">context engineering</a>.
+    </p>
+
+    <h3>Mistake 8 · Trying to do everything at once</h3>
+    <p>
+      Your first agent should do ONE thing, well. Not sort emails AND plan your day AND write summaries. Start simple, add abilities one at a time, test at every step. <strong>An agent that does one thing well beats an agent that tries to do everything badly.</strong>
+    </p>
+
+    <h3>Mistake 9 · Forgetting upkeep</h3>
+    <p>
+      You set up an automation in an hour, it works, you move on. Three months later, an app changes, the automation quietly breaks, and you miss important emails for two weeks before you notice. <strong>Set up a simple alert (an email to yourself, a notification) that warns you if the agent stops running as planned.</strong>
+    </p>
+
+    <div class="callout warn">
+      <h4>The rule that sums it all up</h4>
+      <p><strong>Treat your agent like a smart but inexperienced intern.</strong> You give it clear instructions, you check its work at first, you give it more autonomy as you come to trust it. And you ask it to ask you before doing anything irreversible. With that reflex, you avoid most problems.</p>
     </div>
   </div>
 </section>
@@ -1651,19 +1676,83 @@
 <!-- Mini-marquee 8 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Glossary</span><span>10 terms</span><span>Quickly defined</span><span>Links to the detail</span><span>2026 vocabulary</span><span>The essentials</span>
-    <span>Glossary</span><span>10 terms</span><span>Quickly defined</span><span>Links to the detail</span><span>2026 vocabulary</span><span>The essentials</span>
+    <span>Essential reads</span><span>Go further</span><span>Step by step</span><span>Practical cases</span><span>No code</span><span>Dated sources</span>
+    <span>Essential reads</span><span>Go further</span><span>Step by step</span><span>Practical cases</span><span>No code</span><span>Dated sources</span>
   </div>
 </div>
 
-<!-- Section H : Glossaire -->
+<!-- Section H : Essential articles -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Vocabulary</span>
+    <span class="section-kicker k-teal">Go deeper</span>
+    <h2>Essential reads<br><em class="teal">on AI agents.</em></h2>
+
+    <p>
+      On Jerwis, several articles round out this guide, all without a line of code. Here's the order I recommend if you're starting from zero.
+    </p>
+
+    <div class="articles-grid">
+      <a class="article-card c-teal" href="/en/articles/ia-qui-travaille-sur-ton-ordinateur">
+        <span class="article-kicker"><span class="dot"></span>10 min · Step by step</span>
+        <h3>AI working on your computer</h3>
+        <p>Install the Claude or ChatGPT app, open a folder to it, five first tasks to copy and the settings that avoid bad surprises. Read this one first.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/en/apprendre#etape-03">
+        <span class="article-kicker"><span class="dot"></span>Learning path · Step 3</span>
+        <h3>Put it to work for you</h3>
+        <p>The step of the learning path where you get AI to create documents, spreadsheets and pages, in the Claude or ChatGPT app.</p>
+        <span class="article-read">Open the step →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/en/articles/automatiser-taches-ia-sans-coder">
+        <span class="article-kicker"><span class="dot"></span>11 min · No code</span>
+        <h3>Automate your tasks with AI without coding</h3>
+        <p>Zapier, Make and the rest, the method to pick your first automation and five examples to copy.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-teal" href="/en/articles/navigateurs-ia">
+        <span class="article-kicker"><span class="dot"></span>9 min · Explainer</span>
+        <h3>AI browsers · Comet, Atlas and Chrome compared</h3>
+        <p>What an AI browser changes day to day, whether you really need to leave Chrome, and the privacy question.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/en/articles/donnees-perso-ia-confidentialite">
+        <span class="article-kicker"><span class="dot"></span>9 min · Caution</span>
+        <h3>Your data in AI tools</h3>
+        <p>Before you open a folder to an agent, what really happens to what you share with an AI, and the settings to know.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/en/lexique/mode-agent">
+        <span class="article-kicker"><span class="dot"></span>Glossary · Entry</span>
+        <h3>Agent mode, plainly</h3>
+        <p>The glossary entry that sums up agent mode, with its related terms, Cowork, ChatGPT Work and AI browser.</p>
+        <span class="article-read">Read the entry →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Mini-marquee 9 -->
+<div class="mini-marquee" aria-hidden="true">
+  <div class="mini-marquee-track">
+    <span>Glossary</span><span>16 terms</span><span>Defined fast</span><span>Links to details</span><span>2026 vocabulary</span><span>The essentials</span>
+    <span>Glossary</span><span>16 terms</span><span>Defined fast</span><span>Links to details</span><span>2026 vocabulary</span><span>The essentials</span>
+  </div>
+</div>
+
+<!-- Section I : Glossary -->
+<section class="block">
+  <div class="container">
+    <span class="section-kicker k-fuchsia">Vocabulary</span>
     <h2>AI agent<br><em class="fuchsia">glossary.</em></h2>
 
     <p>
-      The 12 terms you'll run into constantly when you build AI agents. A short definition here, a link to the detailed entry to dig deeper.
+      The 16 terms you'll keep running into around AI agents. Short definition here, link to the detailed entry to dig deeper.
     </p>
 
     <ul class="glossary-list">
@@ -1673,13 +1762,33 @@
         <a href="/en/lexique">See the glossary →</a>
       </li>
       <li>
+        <strong>Agent mode</strong>
+        When AI stops just answering and chains several actions on its own to reach a goal.
+        <a href="/en/lexique/mode-agent">Detailed entry →</a>
+      </li>
+      <li>
+        <strong>Cowork</strong>
+        Claude working on your computer, in a folder you open to it. In late 2026, it merges into the normal conversation.
+        <a href="/en/lexique/cowork">Detailed entry →</a>
+      </li>
+      <li>
+        <strong>ChatGPT Work</strong>
+        ChatGPT's mode that carries out a whole task, in several steps, and returns a document, a spreadsheet, a presentation or a site.
+        <a href="/en/lexique/chatgpt-work">Detailed entry →</a>
+      </li>
+      <li>
+        <strong>AI browser</strong>
+        A web browser with built-in AI, which reads the page with you and can act on it when you ask.
+        <a href="/en/lexique/navigateur-ia">Detailed entry →</a>
+      </li>
+      <li>
         <strong>Subagent</strong>
-        An agent that another agent launches to delegate a sub-task, often in parallel.
+        An agent launched by another agent to hand off a subtask, often in parallel.
         <a href="/en/lexique/sous-agent">Detailed entry →</a>
       </li>
       <li>
         <strong>Agentic workflow</strong>
-        A sequence of actions orchestrated by one or more agents to reach a goal.
+        A series of actions orchestrated by one or more agents to reach a goal.
         <a href="/en/lexique/agentic-workflow">Detailed entry →</a>
       </li>
       <li>
@@ -1693,240 +1802,436 @@
         <a href="/en/lexique/mcp">Detailed entry →</a>
       </li>
       <li>
-        <strong>Skill agent</strong>
-        A folder of instructions that triggers automatically when the agent recognizes the domain of your request.
+        <strong>Agent skill</strong>
+        A folder of instructions the agent loads on its own when it recognizes the domain of your request.
         <a href="/en/lexique/skill-agent">Detailed entry →</a>
       </li>
       <li>
         <strong>Human in the loop</strong>
-        Having a human approve the agent's sensitive actions before execution.
+        Having a human approve the agent's sensitive actions before they run.
         <a href="/en/lexique/human-in-the-loop">Detailed entry →</a>
       </li>
       <li>
         <strong>Guardrail</strong>
-        A rule that stops the agent from taking certain risky actions.
+        A rule that prevents the agent from taking certain risky actions.
         <a href="/en/lexique/guardrail">Detailed entry →</a>
       </li>
       <li>
         <strong>Context engineering</strong>
-        The art of giving the right context at the right moment to an agent, so it makes the best decisions.
+        The art of giving an agent the right context at the right moment, so it makes the best decisions.
         <a href="/en/lexique/context-engineering">Detailed entry →</a>
       </li>
       <li>
         <strong>Agentic RAG</strong>
-        An agent that decides for itself when to search its knowledge base, rather than searching every time.
+        An agent that decides on its own when to search its knowledge base, rather than searching every time.
         <a href="/en/lexique/rag-agentique">Detailed entry →</a>
       </li>
       <li>
         <strong>Embedding</strong>
-        A vector representation of a text that lets an agent compare documents by meaning, not by words.
+        A representation of a text as numbers, which lets an agent compare documents by meaning rather than by words.
         <a href="/en/lexique/embedding">Detailed entry →</a>
       </li>
       <li>
         <strong>Hallucination</strong>
-        When an LLM makes up false info and presents it as true. The worst enemy of reliable agents.
+        When an LLM makes up false information and presents it as true. The worst enemy of reliable agents.
         <a href="/en/lexique/hallucination">Detailed entry →</a>
       </li>
     </ul>
   </div>
 </section>
 
-<!-- Mini-marquee 9 -->
+<!-- Mini-marquee 10 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>FAQ</span><span>15 questions</span><span>Real answers</span><span>My experience</span><span>No fluff</span><span>My honest take</span>
-    <span>FAQ</span><span>15 questions</span><span>Real answers</span><span>My experience</span><span>No fluff</span><span>My honest take</span>
+    <span>FAQ</span><span>17 questions</span><span>Real answers</span><span>My experience</span><span>No fluff</span><span>My honest take</span>
+    <span>FAQ</span><span>17 questions</span><span>Real answers</span><span>My experience</span><span>No fluff</span><span>My honest take</span>
   </div>
 </div>
 
-<!-- Section I : FAQ exhaustive -->
-<section class="block">
+<!-- Section J : FAQ -->
+<section class="block" id="faq">
   <div class="container">
-    <span class="section-kicker k-orange">— FAQ</span>
-    <h2>The exhaustive<br><em class="orange">AI agent FAQ.</em></h2>
+    <span class="section-kicker k-orange">Frequently asked questions</span>
+    <h2>The full FAQ<br><em class="orange">on AI agents.</em></h2>
 
     <p>
-      The 15 questions I get most often in May 2026 about AI agents. Short answers, based on my direct experience.
+      The 17 questions I get asked most about AI agents, updated in November 2026. Short answers, based on my direct experience.
     </p>
 
     <div class="faq-list">
       <details class="faq-item">
         <summary>What is an AI agent in one sentence?</summary>
         <div class="faq-answer">
-          <p>An AI agent is a large language model (LLM) you've given tools, an execution loop and a goal. Simon Willison sums it up with the formula <strong>LLM + tools + loop + goal</strong>. Instead of just answering a question, it acts, checks the result, and starts again until it reaches its goal.</p>
+          <p>An AI agent is a large language model (LLM) that's been given tools, an execution loop and a goal. Simon Willison sums it up with the formula <strong>LLM + tools + loop + goal</strong>. Instead of just answering a question, it acts, checks the result, and goes again until it reaches its goal.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Do you need to be a developer to build an AI agent?</summary>
+        <summary>Do you need to be a developer to use an AI agent?</summary>
         <div class="faq-answer">
-          <p>No. I'm not a developer and I've built several. No-code tools (Lindy, Zapier, n8n, Crew AI Studio) let you put together a working agent in an hour without writing any code. To go further, Claude Code and Custom GPTs move you into low-code with a reasonable learning curve. The barrier to entry completely collapsed in 2025-2026.</p>
+          <p>No. I'm not a developer and agents work for me every day. <strong>The Claude app with a folder and ChatGPT Work</strong> give you an agent without writing a line of code, with a $20-a-month subscription. To connect your apps to each other, <strong>Zapier, Make, n8n or Lindy</strong> are set up with menus and blocks. Code only comes in if you want to build your own agent, and that's what <a href="#annexe-code">the appendix</a> is for.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Which agent should I try first?</summary>
+        <div class="faq-answer">
+          <p>The Claude app with a test folder, or ChatGPT in Work mode. Put two or three unimportant files in a folder, open it to the AI and ask it for a table or a tidy-up. Switch Claude's setting to Manual to see every action before it happens. It's the exercise in <a href="/en/apprendre#etape-03">step 3 of the learning path</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>How much does an AI agent cost in 2026?</summary>
         <div class="faq-answer">
-          <p>Three ranges. A no-code agent costs between 15 and 100 euros a month (Lindy at $49, n8n self-hosted free, Zapier from $30). A low-code agent plugged into Claude or GPT runs between 20 and 200 euros a month depending on API usage. A homemade full-code agent costs whatever you pay in tokens, usually between 50 and 500 euros a month for regular personal use.</p>
+          <p>The entry ticket is $20 a month. <strong>Claude Pro</strong> costs $20 a month before tax ($17 billed yearly) and <strong>ChatGPT Plus</strong> $20 a month, which opens up the Claude app with a folder or ChatGPT Work. <strong>Claude Max</strong> starts at $100 a month for heavy use. No-code tools have their own plans, and n8n can run on your server for the price of hosting. If you code your agent, you pay per token, for example $2 per million input tokens and $10 per million output tokens for Claude Sonnet 5.5. Prices checked on November 2, 2026.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>AI agent vs chatbot · what's the difference?</summary>
         <div class="faq-answer">
-          <p>A chatbot answers questions in a conversation. An agent acts in the world. The chatbot returns text; the agent reads an email, edits a file, fires off an API call, checks the result. The core difference is <strong>the ability to run tools and loop on the result until it reaches a goal</strong>.</p>
+          <p>A chatbot answers questions in a conversation. An agent acts. The chatbot gives you text, the agent reads a file, creates another one, fills in a spreadsheet, checks the result. The core difference is <strong>the ability to run tools and loop on the result until it reaches a goal</strong>.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>What are the best frameworks for building an agent?</summary>
+        <summary>What's the difference between a workflow and an agent?</summary>
         <div class="faq-answer">
-          <p>For no-code, <strong>Lindy</strong> and <strong>Crew AI Studio</strong>. For low-code, <strong>Claude Code</strong> (skills + MCP) and OpenAI's <strong>Custom GPTs</strong>. For full code, <strong>LangGraph</strong> (LangChain), the <strong>Anthropic Agent SDK</strong>, Microsoft's <strong>AutoGen</strong> and <strong>CrewAI</strong> are still the references. My go-to for getting started is Claude Code, because it's what gives me the most control without forcing me to write Python.</p>
+          <p>A workflow follows steps you set in advance, like a Zapier automation that, "when an email arrives, saves the attachment and adds a row to the spreadsheet." An agent picks its own steps based on a goal. If you can write the steps down in advance, <strong>a workflow is enough and costs less</strong>. If the task changes every time, you need an agent.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Can an AI agent mess things up?</summary>
+        <summary>What are the best tools for building an AI agent?</summary>
         <div class="faq-answer">
-          <p>Yes. An agent with access to your inbox, your database or your GitHub can send a message to the wrong person, delete a file or push a broken commit. Protection comes down to three things: <a href="/en/lexique/guardrail">guardrails</a> (forbidding certain actions), a <a href="/en/lexique/human-in-the-loop">human in the loop</a> before sensitive actions, and logs so you can roll back. I never give an agent full autonomy over financial or sensitive customer data.</p>
+          <p>Without code, <strong>the Claude app with a folder</strong>, <strong>ChatGPT Work</strong>, and to connect apps, <strong>Zapier</strong>, <strong>Make</strong>, <strong>n8n</strong>, <strong>Lindy</strong> or <strong>Crew AI Studio</strong>. With code, the <strong>Claude Agent SDK</strong>, <strong>LangGraph</strong>, the <strong>OpenAI Agents SDK</strong> and <strong>AutoGen</strong> remain the references, and I cover them in <a href="#annexe-code">the appendix</a>. To get started, I recommend the Claude app or ChatGPT Work, which need no technical setup.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>How do you monitor an agent in production?</summary>
+        <summary>Can an AI agent mess up?</summary>
         <div class="faq-answer">
-          <p>Three basics: <strong>detailed logs</strong> of every action (prompt, tool called, result, duration), <strong>alerts</strong> on errors or timeouts, a <strong>daily cost dashboard</strong> in tokens. To go further, LangSmith, Helicone or Langfuse offer step-by-step tracing that's handy for understanding why an agent made a bad decision. For my personal agents, I simply wire Telegram to critical events.</p>
+          <p>Yes. An agent with access to your inbox or your files can send a message to the wrong person, overwrite the wrong file or confirm a purchase too fast. Protection comes down to three things. <a href="/en/lexique/guardrail">Guardrails</a> that forbid certain actions, a <a href="/en/lexique/human-in-the-loop">human in the loop</a> before sensitive actions, and a record of what it did. The Claude app asks before permanently deleting a file, and ChatGPT Work only uses your files with your permission. I never let an agent run fully on its own on financial data or sensitive client data.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do you keep an eye on an agent that runs on its own?</summary>
+        <div class="faq-answer">
+          <p>Three habits. <strong>Ask it for the list of what it did</strong> after each task. <strong>Check the run history</strong> in your automation tool. And <strong>watch your usage</strong> during the first week. For my personal agents, I simply hook Telegram up to critical events. Tracing tools for coded agents are in <a href="#annexe-code">the appendix</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Which use cases really work in 2026?</summary>
         <div class="faq-answer">
-          <p>The six that work best in my experience and from what I track: <strong>email agent</strong> (sorting and drafting replies), <strong>contract agent</strong> (review and risky clauses), <strong>research agent</strong> (synthesizing several sources), <strong>sales agent</strong> (lead qualification and call briefs), <strong>watch agent</strong> (daily digest) and <strong>personal agent</strong> (calendar, tasks, reminders). The ones that often fail: autonomous customer-support agents, agents that make financial decisions on their own, creative agents with no human review.</p>
+          <p>The six that work best in my experience and in my monitoring of the field. <strong>The email agent</strong> (sorting and draft replies), <strong>the contracts agent</strong> (review and risky clauses), <strong>the research agent</strong> (summary of several sources), <strong>the sales agent</strong> (prospect qualification and sales brief), <strong>the monitoring agent</strong> (daily digest) and <strong>the personal agent</strong> (tasks, reminders, appointments). The cases that often fail are autonomous customer support, financial decisions taken alone and creative content with no human review.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>What are the known limitations of today's agents?</summary>
+        <summary>What are the known limits of today's agents?</summary>
         <div class="faq-answer">
-          <p>Four limits I hit regularly: <strong>hallucination</strong> on data they don't know, <strong>drift</strong> on very long sessions beyond 500,000 tokens, the <strong>inability to learn</strong> from their mistakes between runs without an external memory mechanism, and <strong>cost that can blow up</strong> if you let an agent loop with no budget cap. No agent in 2026 is truly 100% reliable yet, even the most advanced ones.</p>
+          <p>Four limits I run into regularly. <strong>Hallucination</strong> on data they don't know, <strong>drift</strong> on very long sessions, the <strong>inability to learn</strong> from their mistakes from one task to the next without external memory, and <strong>costs that can explode</strong> if you let an agent loop with no limit. No agent in 2026 is 100% reliable, not even the most advanced ones.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>How do I stop my agent from hallucinating?</summary>
         <div class="faq-answer">
-          <p>Three techniques that work in combination: <strong>RAG</strong> (Retrieval Augmented Generation) to plug the agent into a reliable knowledge base, a <strong>prompt that forces the agent to cite its sources</strong> and to say "I don't know" rather than make things up, and <strong>intermediate verification tools</strong> (web search, reading up-to-date docs via context7). Hallucination drops to around 5% with a good setup, versus 20 to 30% in purely generative mode.</p>
+          <p>Three techniques that work together. <strong>Give it your own documents as a source</strong>, in the folder you open to it, or through <a href="/en/lexique/rag-agentique">RAG</a> for business agents. <strong>Ask it to cite its sources</strong> and to say "I don't know" rather than make things up. And <strong>have what matters checked</strong>, with a web search or by your own review. None of these techniques replaces your review on what's important.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Do you need a human in the loop?</summary>
         <div class="faq-answer">
-          <p>For any irreversible or sensitive action: yes, no hesitation. Sending an email to a client, signing a document, deleting data, authorizing a payment. For low-stakes, easily reversible actions: no, the agent can run on its own. The rule I apply at home is <strong>human in the loop for anything that touches money, a direct client or legal data</strong>.</p>
+          <p>For any irreversible or sensitive action, yes, no hesitation. Sending an email to a client, signing a document, deleting data, approving a payment. For low-stakes actions that are easy to undo, no, the agent can run on its own. The rule I apply at home is <strong>a human in the loop on anything involving money, clients or legal data</strong>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Agent + RAG · how do you combine them?</summary>
         <div class="faq-answer">
-          <p>RAG gives the agent a knowledge base to draw from before answering. Concretely, you index your documents as <a href="/en/lexique/embedding">embeddings</a>, store that in a vector database (Pinecone, Supabase pgvector, Weaviate), and give your agent a <code>search_knowledge_base</code> tool. When it needs domain info, it searches your base first before falling back on its general knowledge. <strong>It's the most powerful combination in 2026</strong> for enterprise agents.</p>
+          <p>RAG gives the agent a knowledge base it draws from before answering. In practice, your documents are turned into <a href="/en/lexique/embedding">embeddings</a>, stored in a vector database (Pinecone, Supabase pgvector, Weaviate), and the agent gets a tool to search that base. When it needs business information, it looks in your base first before using its general knowledge. <strong>It's the most powerful combination</strong> for business agents. For personal use, the folder you open to the Claude app already plays that role.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Privacy of the data an agent processes?</summary>
+        <summary>What about the privacy of data an agent handles?</summary>
         <div class="faq-answer">
-          <p>Yes, it's a serious topic. Three risk zones: the LLM provider's APIs (Anthropic and OpenAI keep conversations for 30 days by default for abuse moderation, except in Zero Data Retention mode on Enterprise accounts), the third-party tools you plug in via MCP, and your own agent's logs. For sensitive data, I prefer a self-hosted model (Llama, Mistral on your server) over an external API.</p>
+          <p>Yes, it's a serious topic. Everything the agent reads to do the task goes to the vendor to be processed, just like in the chat. With ChatGPT, the work can run on your computer, but the messages and the task context can be stored in the cloud. The apps you connect and the automation tools also see your data pass through. For client documents, check what your contract and your plan allow. For very sensitive data, I prefer an open model hosted on a server I control. I talk about it in <a href="/en/articles/donnees-perso-ia-confidentialite">your data in AI tools</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Open-source or proprietary?</summary>
+        <summary>Open source or proprietary?</summary>
         <div class="faq-answer">
-          <p>To get started and learn, <strong>proprietary</strong>: Claude, GPT, Gemini are simpler to plug in, more reliable, better documented. To scale to heavy usage or for sensitive data, <strong>open-source</strong> becomes relevant: Llama 4, Mistral, Qwen run on your own infra, marginal cost close to zero, and you keep control of the data. The winning mix in 2026 at a lot of companies is <strong>Claude or GPT for reasoning tasks, local Llama for bulk processing</strong>.</p>
+          <p>To start and learn, <strong>proprietary</strong>. Claude, GPT and Gemini are simpler, more reliable and better documented, and they're what powers the Claude app and ChatGPT Work. For massive use or sensitive data, <strong>open source</strong> becomes relevant. Mistral Large 4, the big European model, released its weights on October 29, 2026. It's too heavy to run on your computer, but it can run on a server you control, and its API costs $0.70 per million input tokens. The mix I see most is <strong>Claude or GPT for the thinking, an open model for bulk processing</strong>.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Which Claude or GPT model for building an agent?</summary>
+        <summary>Which model should I pick for an agent?</summary>
         <div class="faq-answer">
-          <p>My go-to in 2026: <strong>Claude Sonnet 4.x</strong> for 80% of agent tasks (fast, cheap, good reasoning), <strong>Claude Opus 4.7</strong> when the task is complex or needs long context (up to 1 million tokens), <strong>GPT-5</strong> when I want variety or for very creative tasks. For agents doing research in a loop, Sonnet does the job. For critical architecture decisions, Opus.</p>
+          <p>My go-to in November 2026. <strong>Claude Sonnet 5.5</strong> for most agent tasks, fast, good at reasoning, and even included in the free plan. <strong>Claude Opus 5.5</strong> when the task is complex or needs a lot of context (up to 1 million tokens), and it's also the one Anthropic recommends to start with. <strong>Claude Fable 5.1</strong>, in Max, only for the truly hard cases, because it's slow and expensive. At OpenAI, <strong>GPT-6.1 Sol</strong> is the right default in ChatGPT Work, and <strong>GPT-6 Luna</strong> is enough for simple, repeated tasks.</p>
         </div>
       </details>
     </div>
   </div>
 </section>
 
-<!-- Mini-marquee 10 -->
+<!-- Mini-marquee 11 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Resources</span><span>External links</span><span>Internal links</span><span>To dig in</span><span>Anthropic Docs</span><span>OpenAI</span>
-    <span>Resources</span><span>External links</span><span>Internal links</span><span>To dig in</span><span>Anthropic Docs</span><span>OpenAI</span>
+    <span>Resources</span><span>Official help</span><span>Internal links</span><span>Dig deeper</span><span>Anthropic</span><span>OpenAI</span>
+    <span>Resources</span><span>Official help</span><span>Internal links</span><span>Dig deeper</span><span>Anthropic</span><span>OpenAI</span>
   </div>
 </div>
 
-<!-- Section J : Ressources -->
+<!-- Section K : Resources -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-teal">— To go further</span>
+    <span class="section-kicker k-teal">Go further</span>
     <h2>Resources<br><em class="teal">and useful links.</em></h2>
 
     <h3>External resources (the essentials)</h3>
     <div class="resources-grid">
-      <a class="resource-card" href="https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" target="_blank" rel="noopener">
-        <span class="res-kicker">Official docs</span>
-        <h4>Anthropic · Agents and Tools</h4>
-        <p>Anthropic's official docs on building agents with Claude. Tool use, computer use, Agent SDK. Reference number 1.</p>
+      <a class="resource-card" href="https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude" target="_blank" rel="noopener">
+        <span class="res-kicker">Official help</span>
+        <h4>Claude · Cowork and chat are one Claude</h4>
+        <p>Anthropic's help page on the Claude app working on your files. Folder access, connected apps, scheduled tasks, Auto and Manual settings.</p>
       </a>
-      <a class="resource-card" href="https://platform.openai.com/docs/guides/function-calling" target="_blank" rel="noopener">
-        <span class="res-kicker">Official docs</span>
-        <h4>OpenAI · Function Calling</h4>
-        <p>OpenAI's docs on function calling, the basic building block of an agent on the GPT side. Essential if you're building on their stack.</p>
-      </a>
-      <a class="resource-card" href="https://langchain-ai.github.io/langgraph/" target="_blank" rel="noopener">
-        <span class="res-kicker">Framework</span>
-        <h4>LangGraph (LangChain)</h4>
-        <p>The most complete Python framework for orchestrating complex agents. State graphs, persistence, native human in the loop.</p>
+      <a class="resource-card" href="https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex" target="_blank" rel="noopener">
+        <span class="res-kicker">Official help</span>
+        <h4>OpenAI · ChatGPT Work and Codex</h4>
+        <p>OpenAI's help page on ChatGPT's Work mode, what it produces and how it uses your files in the desktop app. Linked in its French version.</p>
       </a>
       <a class="resource-card" href="https://simonwillison.net/tags/llms/" target="_blank" rel="noopener">
         <span class="res-kicker">Blog</span>
         <h4>Simon Willison · LLM tag</h4>
-        <p>Simon Willison's blog, one of the clearest voices on LLMs and agents since 2022. One to add to your RSS feeds.</p>
+        <p>Simon Willison's blog, one of the clearest voices on LLMs and agents since 2022. Add it to your RSS feeds.</p>
       </a>
       <a class="resource-card" href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">
         <span class="res-kicker">Standard</span>
         <h4>Model Context Protocol</h4>
-        <p>The official site for the MCP standard. Spec, SDKs, a list of available MCP servers. Essential the moment you want to plug an agent into external tools.</p>
-      </a>
-      <a class="resource-card" href="https://github.com/topics/agents" target="_blank" rel="noopener">
-        <span class="res-kicker">GitHub</span>
-        <h4>GitHub · agents topic</h4>
-        <p>The list of GitHub repos tagged "agents." A goldmine of open-source templates for kicking off an AI agent project.</p>
+        <p>The official site of the MCP standard. To understand how an agent plugs into external tools.</p>
       </a>
     </div>
 
     <h3>Internal resources (my content on Jerwis)</h3>
     <div class="resources-grid">
       <a class="resource-card" href="/en/apprendre">
-        <span class="res-kicker">Path</span>
-        <h4>Learn AI in order</h4>
-        <p>The complete learning path, from the basics to advanced agents. If you're starting from scratch, begin here.</p>
+        <span class="res-kicker">Learning path</span>
+        <h4>Learn AI in the right order</h4>
+        <p>The three-step path, from your first question to AI working for you. If you're starting from zero, start here.</p>
+      </a>
+      <a class="resource-card" href="/en/modeles-ia">
+        <span class="res-kicker">Comparison</span>
+        <h4>The AI models guide</h4>
+        <p>Claude, GPT, Gemini, Mistral and the rest compared, with their prices, so you know which model runs your agent.</p>
       </a>
       <a class="resource-card" href="/en/lexique">
         <span class="res-kicker">Glossary</span>
-        <h4>AI glossary · 40 terms</h4>
-        <p>All the vocabulary of AI in 2026, explained simply. Agents, LLM, MCP, RAG, hallucination, embeddings and 35 more.</p>
-      </a>
-      <a class="resource-card" href="/en/claude-code">
-        <span class="res-kicker">Pillar</span>
-        <h4>Claude Code · the complete guide</h4>
-        <p>My pillar guide on Claude Code, the tool I use for 95% of my agents. Install, skills, MCP, workflows, FAQ.</p>
+        <h4>AI glossary · 270+ terms</h4>
+        <p>All the AI vocabulary explained simply. Agents, LLM, MCP, RAG, hallucination, embeddings and all the rest.</p>
       </a>
       <a class="resource-card" href="/en/podcast">
         <span class="res-kicker">Audio</span>
         <h4>AI Wars podcast</h4>
-        <p>My weekly podcast where we break down the AI news. Several episodes dedicated to agents and their use cases.</p>
+        <p>My weekly podcast where we break down AI news. Several episodes are about agents and their use cases.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Mini-marquee 12 -->
+<div class="mini-marquee" aria-hidden="true">
+  <div class="mini-marquee-track">
+    <span>For the curious</span><span>Claude Code</span><span>Skills</span><span>MCP</span><span>Agent SDK</span><span>Appendix</span>
+    <span>For the curious</span><span>Claude Code</span><span>Skills</span><span>MCP</span><span>Agent SDK</span><span>Appendix</span>
+  </div>
+</div>
+
+<!-- Appendix : Claude Code and the Agent SDK (for the curious) -->
+<section class="block" id="annexe-code">
+  <div class="container">
+    <span class="section-kicker k-orange">Appendix</span>
+    <h2>For the curious:<br>Claude Code and <em class="orange">the Agent SDK.</em></h2>
+
+    <p>
+      Everything above works without a line of code. This appendix is for those who want to look under the hood or build their own agent. It's also where I spend most of my time, since these are the tools I build this site and my monitoring with.
+    </p>
+
+    <div class="callout warn">
+      <h4>Not needed to get started</h4>
+      <p>If you're a beginner, you can stop before this appendix. The four agents at the top of the page are more than enough.</p>
+    </div>
+
+    <h3>Claude Code, skills and MCP · my daily stack</h3>
+    <p>
+      Claude Code is Anthropic's tool for developers. It runs in the Code tab of the Claude desktop app or in the terminal, and it works directly inside a project folder. <a href="/en/lexique/skill-agent">Skills</a> are folders of instructions it loads on its own when your request touches their domain. <a href="/en/lexique/mcp">MCP</a> lets it plug into any external service. It's included in Claude Pro ($20 a month before tax) and in Claude Max.
+    </p>
+    <p>
+      Everything is explained in <a href="/en/claude-code">my Claude Code guide</a>. The terminal install and its commands are in <a href="/en/claude-code#annexe-terminal">that guide's terminal appendix</a>, so I won't repeat them here.
+    </p>
+
+    <h3>The agents I run with it</h3>
+    <ul>
+      <li><strong>My monitoring</strong> · the one that feeds <a href="/news">Jerwis News</a> and the AI Playbook letter. Subagents go through more than 100 sources in parallel, score each topic and deliver me a digest.</li>
+      <li><strong>My long research</strong> · the <code>deep-research</code> skill, which runs several searches, reads the sources and hands me a sourced report.</li>
+      <li><strong>My tutorials</strong> · a Gmail agent, a contracts agent, a sales tool, an agent that improves itself overnight. They're all just below.</li>
+    </ul>
+
+    <div class="articles-grid">
+      <a class="article-card c-teal" href="/en/articles/agents-ia-guide">
+        <span class="article-kicker"><span class="dot"></span>14 min · The guide</span>
+        <h3>AI agents · what they're for, how they work, the cost</h3>
+        <p>My in-depth guide to agents, on the Claude Code side. Technical building blocks, use cases, and how it works step by step.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/en/articles/tuto-agent-gmail">
+        <span class="article-kicker"><span class="dot"></span>45 min · Tutorial</span>
+        <h3>Build an agent that sorts your Gmail inbox</h3>
+        <p>Connect an agent to Gmail to sort, draft and reply. The use case that gets a first coded agent off the ground best.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/en/articles/tuto-agent-contrats">
+        <span class="article-kicker"><span class="dot"></span>60 min · Tutorial</span>
+        <h3>An agent to analyze your contract PDFs</h3>
+        <p>Review a supplier contract, spot risky clauses, generate the list of points to negotiate, with a custom review skill.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-teal" href="/en/articles/hermes-agent">
+        <span class="article-kicker"><span class="dot"></span>5 min · Real case</span>
+        <h3>The agent that reads my 200 emails every morning</h3>
+        <p>Hermes sorts my email every morning into urgent, read later or soft spam. I now spend 12 minutes on my inbox instead of 60.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/en/articles/outil-vente-claude-code">
+        <span class="article-kicker"><span class="dot"></span>30 min · Real case</span>
+        <h3>The sales tool built with Claude Code</h3>
+        <p>A real sales tool built with Claude Code. The choices, what worked, what broke. The honest debrief.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/en/articles/autoresearch-karpathy">
+        <span class="article-kicker"><span class="dot"></span>30 min · Theory</span>
+        <h3>I let an AI improve itself overnight</h3>
+        <p>The idea of agents that evaluate and improve themselves, popularized by Andrej Karpathy, and how to apply it to your own agents.</p>
+        <span class="article-read">Read the article →</span>
+      </a>
+    </div>
+
+    <h3>The Claude Agent SDK · build your own agent</h3>
+    <p>
+      The Claude Agent SDK is Anthropic's official kit, in Python and TypeScript, for building your own agents on the same foundation as Claude Code. Simpler than LangGraph, more guided. It's the right pick if you're building everything around Claude.
+    </p>
+    <p>If you want to compare, here are the other reference frameworks.</p>
+    <ul>
+      <li><strong>LangGraph</strong> · the evolution of LangChain, the most widely used Python framework for orchestrating complex agents. State graphs, persistence, built-in human approval.</li>
+      <li><strong>OpenAI Agents SDK</strong> · the OpenAI equivalent.</li>
+      <li><strong>AutoGen (Microsoft)</strong> · a framework where several agents converse and collaborate.</li>
+      <li><strong>CrewAI</strong> · the open source framework behind Crew AI Studio, for teams of agents.</li>
+    </ul>
+    <p>
+      <strong>My advice.</strong> Only move to code when the no-code tools aren't enough anymore. Code is useful when you want to host things yourself, serve thousands of users or keep tight control of your token costs.
+    </p>
+
+    <h3>Pay as you go · API prices</h3>
+    <p>
+      A coded agent pays for the model per token, with no subscription. Here are the prices published by the vendors, checked on November 2, 2026, in dollars per million tokens.
+    </p>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Input</th>
+            <th>Output</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude Opus 5.5</td>
+            <td>$4</td>
+            <td>$20</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude Sonnet 5.5</td>
+            <td>$2</td>
+            <td>$10</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude Haiku 5.5</td>
+            <td>$0.10 (prompts up to 100,000 tokens)</td>
+            <td>$0.50</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>GPT-6.1 Sol</td>
+            <td>$2</td>
+            <td>$10</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>GPT-6 Luna</td>
+            <td>$0.10</td>
+            <td>$0.50</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Gemini 4 Argon</td>
+            <td>$2 until November 30, 2026, then $4</td>
+            <td>$10, then $20</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Mistral Large 4</td>
+            <td>$0.70</td>
+            <td>$2.10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      The bill depends on your volume. An agent looping on an error can blow it up in a single night, so always set a spending cap. <a href="/en/modeles-ia">The models guide</a> compares everything else.
+    </p>
+
+    <h3>Good practices on the code side</h3>
+    <ul>
+      <li><strong>Secrets</strong> · never a key in a prompt or a shared file. Environment variables (<code>.env</code>) added to <code>.gitignore</code>, and a secrets vault (1Password CLI, Doppler, Vercel env) as soon as the agent touches sensitive data.</li>
+      <li><strong>Traces</strong> · logs of every step (prompt, tool called, result, duration). Claude Code keeps the history of its sessions, and LangSmith, Helicone or Langfuse handle tracing for the other frameworks.</li>
+      <li><strong>Limits</strong> · a maximum number of loop turns (say 20) and a daily budget cap.</li>
+      <li><strong>Up-to-date docs</strong> · a tool like context7, so the agent works with today's documentation rather than its memories.</li>
+    </ul>
+
+    <h3>Resources for developers</h3>
+    <div class="resources-grid">
+      <a class="resource-card" href="/en/claude-code">
+        <span class="res-kicker">Pillar</span>
+        <h4>Claude Code · the complete guide</h4>
+        <p>My guide to Claude Code, from the app's Code tab to the terminal. Skills, MCP, plugins, workflows, FAQ.</p>
+      </a>
+      <a class="resource-card" href="https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" target="_blank" rel="noopener">
+        <span class="res-kicker">Official docs</span>
+        <h4>Anthropic · Agents and Tools</h4>
+        <p>Anthropic's docs on building agents with Claude. Tool use, computer use, Agent SDK.</p>
+      </a>
+      <a class="resource-card" href="https://platform.openai.com/docs/guides/function-calling" target="_blank" rel="noopener">
+        <span class="res-kicker">Official docs</span>
+        <h4>OpenAI · Function Calling</h4>
+        <p>OpenAI's docs on function calling, the basic building block of an agent on the GPT side.</p>
+      </a>
+      <a class="resource-card" href="https://langchain-ai.github.io/langgraph/" target="_blank" rel="noopener">
+        <span class="res-kicker">Framework</span>
+        <h4>LangGraph (LangChain)</h4>
+        <p>The most complete Python framework for orchestrating complex agents.</p>
+      </a>
+      <a class="resource-card" href="https://github.com/topics/agents" target="_blank" rel="noopener">
+        <span class="res-kicker">GitHub</span>
+        <h4>GitHub · agents topic</h4>
+        <p>GitHub repositories tagged "agents". A goldmine of open source templates to start a project.</p>
       </a>
     </div>
   </div>

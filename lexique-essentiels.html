@@ -2192,7 +2192,7 @@
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
-          <span class="more-text"><strong>Workflows</strong><span>Claude Code par métier</span></span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
         </a>
         <a href="/outils" role="menuitem">
           <span class="more-icon">🛠</span>
@@ -2391,7 +2391,7 @@
       <li>Colle-la dans l'outil cible (le champ API Key de Zapier, Make, n8n, Cursor, etc.).</li>
       <li>Retourne dans <strong>Billing → Limits</strong> et fixe une limite de dépense mensuelle. C'est ton filet de sécurité.</li>
     </ol>
-    <p style="margin-top: 12px;"><strong>Ce que ça coûte (avril 2026, par million de "tokens" — voir l'entrée <a href="#token">#03</a>) :</strong> Haiku 4.5 à 1&nbsp;$ en entrée et 5&nbsp;$ en sortie, Sonnet 4.6 à 3&nbsp;$ / 15&nbsp;$, Opus 4.7 à 5&nbsp;$ / 25&nbsp;$. Pour la plupart des automatisations courantes, Haiku ou Sonnet suffisent largement.</p>
+    <p style="margin-top: 12px;"><strong>Ce que ça coûte (novembre 2026, par million de "tokens", voir l'entrée <a href="#token">#03</a>) :</strong> Haiku 5.5 à 0,10&nbsp;$ en entrée et 0,50&nbsp;$ en sortie (pour un prompt jusqu'à 100&nbsp;000 tokens), Sonnet 5.5 à 2&nbsp;$ / 10&nbsp;$, Opus 5.5 à 4&nbsp;$ / 20&nbsp;$. Pour la plupart des automatisations courantes, Haiku ou Sonnet suffisent largement.</p>
   </div>
 
   <div class="lex-block lex-block-reassure">
@@ -2506,8 +2506,8 @@
     <h3>À quoi ça te sert concrètement</h3>
     <ul>
       <li>Comprendre pourquoi ta facture varie : cent emails courts coûtent bien moins qu'un seul PDF de cinquante pages.</li>
-      <li>Estimer le coût d'une automatisation avant de la lancer. Exemple chiffré : 1&nbsp;000 fiches produit de 300 mots traitées avec Sonnet 4.6, ça fait environ 400&nbsp;000 tokens en entrée, soit à peu près 1,20&nbsp;$.</li>
-      <li>Choisir le bon modèle selon la tâche. Haiku 4.5 à 1&nbsp;$ le million de tokens, c'est trois fois moins cher que Sonnet 4.6 à 3&nbsp;$, et ça suffit amplement pour les tâches simples (classer, résumer court, extraire).</li>
+      <li>Estimer le coût d'une automatisation avant de la lancer. Exemple chiffré : 1&nbsp;000 fiches produit de 300 mots traitées avec Sonnet 5.5, ça fait environ 400&nbsp;000 tokens en entrée, soit à peu près 0,80&nbsp;$.</li>
+      <li>Choisir le bon modèle selon la tâche. Haiku 5.5 à 0,10&nbsp;$ le million de tokens en entrée (sur un prompt court), c'est vingt fois moins cher que Sonnet 5.5 à 2&nbsp;$, et ça suffit amplement pour les tâches simples (classer, résumer court, extraire).</li>
       <li>Éviter les mauvaises surprises. Un contrat PDF de cent pages représente à peu près 125&nbsp;000 tokens en entrée. Si tu le relances en boucle dans un scénario, la facture grimpe vite.</li>
     </ul>
   </div>
@@ -2524,8 +2524,8 @@
       </div>
       <div class="lex-mockup-body">
         <div class="lex-web-header">
-          <span class="lex-web-title">Usage · Apr 2026</span>
-          <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #888; letter-spacing: .08em;">FILTER: Sonnet 4.6 ▾</span>
+          <span class="lex-web-title">Usage · Nov 2026</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: #888; letter-spacing: .08em;">FILTER: Sonnet 5.5 ▾</span>
         </div>
         <div class="lex-web-content">
           <div class="lex-chart">
@@ -2598,7 +2598,7 @@
       <li>Applique le tarif du modèle. Règle simple à mémoriser : la sortie coûte cinq fois plus que l'entrée. Donc un prompt court qui demande un long résumé coûte plus cher qu'un long document avec une question courte à la fin.</li>
       <li>Si tu veux le chiffre exact, passe ton texte dans <a href="https://claude-tokenizer.vercel.app" target="_blank" rel="noopener">claude-tokenizer.vercel.app</a>.</li>
     </ol>
-    <p style="margin-top: 12px;"><strong>Quelques repères visuels :</strong> 1&nbsp;000 tokens ≈ 500 à 650 mots en français, soit à peu près une page A4. La fenêtre de contexte (ce que Claude peut lire d'un coup) est de 1&nbsp;million de tokens sur Sonnet 4.6 et Opus 4.6/4.7, soit environ 1&nbsp;500 pages. Largement de quoi lui faire avaler un livre entier.</p>
+    <p style="margin-top: 12px;"><strong>Quelques repères visuels :</strong> 1&nbsp;000 tokens ≈ 500 à 650 mots en français, soit à peu près une page A4. La fenêtre de contexte (ce que Claude peut lire d'un coup) est de 1&nbsp;million de tokens sur Opus 5.5, Sonnet 5.5 et Haiku 5.5, soit environ 1&nbsp;500 pages. Largement de quoi lui faire avaler un livre entier.</p>
   </div>
 
   <div class="lex-block lex-block-reassure">
@@ -2826,32 +2826,32 @@
         </thead>
         <tbody>
           <tr>
-            <td><strong>Opus 4.7</strong></td>
-            <td><code>claude-opus-4-7</code></td>
-            <td>$5</td>
-            <td>$25</td>
+            <td><strong>Opus 5.5</strong></td>
+            <td><code>claude-opus-5-5</code></td>
+            <td>$4</td>
+            <td>$20</td>
             <td>1 million</td>
             <td>Raisonnement complexe, analyse stratégique</td>
           </tr>
           <tr>
-            <td><strong>Sonnet 4.6</strong></td>
-            <td><code>claude-sonnet-4-6</code></td>
-            <td>$3</td>
-            <td>$15</td>
+            <td><strong>Sonnet 5.5</strong></td>
+            <td><code>claude-sonnet-5-5</code></td>
+            <td>$2</td>
+            <td>$10</td>
             <td>1 million</td>
             <td>Par défaut : rédaction, recherche, quotidien</td>
           </tr>
           <tr>
-            <td><strong>Haiku 4.5</strong></td>
-            <td><code>claude-haiku-4-5</code></td>
-            <td>$1</td>
-            <td>$5</td>
-            <td>200&nbsp;000</td>
+            <td><strong>Haiku 5.5</strong></td>
+            <td><code>claude-haiku-5-5</code></td>
+            <td>$0.10</td>
+            <td>$0.50</td>
+            <td>1 million</td>
             <td>Classification, extraction, gros volume</td>
           </tr>
         </tbody>
       </table>
-      <p class="lex-table-note">Ordres de grandeur : Opus coûte environ 5 fois Haiku, Sonnet environ 3 fois Haiku. Prix officiels Anthropic, avril 2026.</p>
+      <p class="lex-table-note">Ordres de grandeur sur un prompt court : Opus coûte environ 40 fois Haiku, Sonnet environ 20 fois Haiku. Au delà de 100&nbsp;000 tokens, Haiku passe à 0,50&nbsp;$ / 2,50&nbsp;$. Pour les cas les plus durs, Anthropic propose aussi Claude Fable 5.1 (10&nbsp;$ / 50&nbsp;$). Prix officiels Anthropic, novembre 2026.</p>
     </div>
   </div>
 
@@ -2859,7 +2859,7 @@
     <h3>Où tu vas le rencontrer</h3>
     <p>Le mot "modèle" apparaît dans trois endroits différents, et c'est souvent ce qui embrouille.</p>
     <ul>
-      <li><strong>Sur claude.ai (abonnement Pro ou Max) :</strong> un menu déroulant en haut de la conversation, à côté du titre. Tu y lis par exemple <em>"Claude Sonnet 4.6 ▾"</em>. Tu cliques, tu changes.</li>
+      <li><strong>Sur claude.ai (abonnement Pro ou Max) :</strong> un menu déroulant en haut de la conversation, à côté du titre. Tu y lis par exemple <em>"Claude Sonnet 5.5 ▾"</em>. Tu cliques, tu changes.</li>
       <li><strong>Dans Claude Code, l'outil des développeurs :</strong> la commande <code>/model</code> affiche la liste et permet de basculer (<code>/model opus</code>, <code>/model haiku</code>).</li>
       <li><strong>Sur un outil qui branche l'IA à autre chose</strong> (Cursor, n8n, Zapier, une API) : un champ <em>"model"</em> où tu colles l'identifiant exact du tableau au-dessus.</li>
     </ul>
@@ -2872,27 +2872,27 @@
       </div>
       <div class="lex-mockup-body">
         <div class="lex-web-header">
-          <span class="lex-web-dropdown">Claude Sonnet 4.6 <span style="color: #888;">▾</span></span>
+          <span class="lex-web-dropdown">Claude Sonnet 5.5 <span style="color: #888;">▾</span></span>
         </div>
         <div class="lex-web-content">
           <div class="lex-web-menu">
             <div class="lex-web-menu-item">
               <div>
-                <div style="font-weight: 800; color: #1a1a1a;">Claude Opus 4.7</div>
+                <div style="font-weight: 800; color: #1a1a1a;">Claude Opus 5.5</div>
                 <div style="color: #888; font-size: 11.5px; margin-top: 2px;">Raisonnement max, analyse stratégique</div>
               </div>
               <span class="lex-web-menu-badge">+Cher</span>
             </div>
             <div class="lex-web-menu-item active">
               <div>
-                <div style="font-weight: 800; color: #1a1a1a;">Claude Sonnet 4.6</div>
+                <div style="font-weight: 800; color: #1a1a1a;">Claude Sonnet 5.5</div>
                 <div style="color: #888; font-size: 11.5px; margin-top: 2px;">Par défaut · polyvalent</div>
               </div>
               <span class="lex-web-menu-badge" style="background: #d1f2e0; color: #0a8a3e;">✓ Actif</span>
             </div>
             <div class="lex-web-menu-item">
               <div>
-                <div style="font-weight: 800; color: #1a1a1a;">Claude Haiku 4.5</div>
+                <div style="font-weight: 800; color: #1a1a1a;">Claude Haiku 5.5</div>
                 <div style="color: #888; font-size: 11.5px; margin-top: 2px;">Rapide, économique, volume</div>
               </div>
               <span class="lex-web-menu-badge" style="background: #fff3d1; color: #b87900;">Rapide</span>
@@ -2909,14 +2909,14 @@
     <ol>
       <li>Sur <strong>claude.ai</strong> : clique sur le nom du modèle en haut de ta conversation, puis sélectionne celui que tu veux dans la liste qui s'ouvre.</li>
       <li>Dans <strong>Claude Code</strong> : tape <code>/model</code> dans la fenêtre, une liste s'affiche, choisis celui qui t'intéresse.</li>
-      <li>Sur un <strong>outil tiers</strong> (n8n, Zapier, Cursor, une intégration API) : copie l'identifiant exact (par exemple <code>claude-sonnet-4-6</code>) et colle-le dans le champ <em>"model"</em> de la configuration.</li>
+      <li>Sur un <strong>outil tiers</strong> (n8n, Zapier, Cursor, une intégration API) : copie l'identifiant exact (par exemple <code>claude-sonnet-5-5</code>) et colle-le dans le champ <em>"model"</em> de la configuration.</li>
       <li>Teste le même prompt sur deux modèles quand tu hésites : tu verras tout de suite la différence de qualité et de vitesse, tu décideras en connaissance de cause.</li>
     </ol>
   </div>
 
   <div class="lex-block lex-block-reassure">
     <h3>Tu peux l'ignorer si…</h3>
-    <p>…tu démarres. Laisse Sonnet 4.6 par défaut, c'est le réglage équilibré pour l'immense majorité des cas. Tu t'occuperas du choix de modèle quand tu auras un signal clair : soit le coût grimpe parce que tu traites des gros volumes (passe à Haiku), soit la qualité manque sur une tâche précise (bascule sur Opus le temps de la mission).</p>
+    <p>…tu démarres. Laisse Sonnet 5.5 par défaut, c'est le réglage équilibré pour l'immense majorité des cas. Tu t'occuperas du choix de modèle quand tu auras un signal clair : soit le coût grimpe parce que tu traites des gros volumes (passe à Haiku), soit la qualité manque sur une tâche précise (bascule sur Opus le temps de la mission).</p>
   </div>
 </section>
 </div>

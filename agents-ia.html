@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agents IA en 2026 — Le guide complet par un non-dev · Jérémy Sagnier</title>
-<meta name="description" content="Le guide pillar Agents IA 2026 en français : définition, 3 niveaux pour les construire (no-code, low-code, full code), 6 workflows qui marchent, prix, architecture, erreurs classiques, FAQ exhaustive, glossaire.">
+<title>Agents IA en 2026 · le guide des agents qu'on utilise vraiment · Jérémy Sagnier</title>
+<meta name="description" content="Le guide Agents IA à jour de novembre 2026, par un non-dev. L'app Claude avec un dossier, ChatGPT Work, les navigateurs IA et les outils sans code, avec un exemple pour chacun. Puis comment choisir, les prix, les risques et une FAQ.">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Agents IA — Le guide complet en français (par un non-dev)">
-<meta property="og:description" content="Agent IA en 2026 : c'est quoi, comment en construire un en no-code ou low-code, quels workflows marchent vraiment, combien ça coûte. 5000 mots, FAQ exhaustive, glossaire.">
+<meta property="og:title" content="Agents IA · le guide des agents qu'on utilise vraiment (par un non-dev)">
+<meta property="og:description" content="Les agents IA que tu as déjà sous la main en novembre 2026, sans une ligne de code. Un exemple concret pour chacun, les prix du mois, les pièges à éviter et une FAQ complète.">
 <meta property="og:url" content="https://jerwis.fr/agents-ia">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="fr_FR">
@@ -20,8 +20,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@JeremySagnier">
 <meta name="twitter:creator" content="@JeremySagnier">
-<meta name="twitter:title" content="Agents IA — Le guide complet par un non-dev">
-<meta name="twitter:description" content="Tout sur les agents IA en 2026 : no-code vs low-code vs full code, workflows utiles, prix, architecture, FAQ, glossaire.">
+<meta name="twitter:title" content="Agents IA · le guide complet par un non-dev">
+<meta name="twitter:description" content="L'app Claude avec un dossier, ChatGPT Work, les navigateurs IA et les outils sans code. Exemples, prix de novembre 2026, risques et FAQ.">
 <!-- Canonical -->
 <link rel="canonical" href="https://jerwis.fr/agents-ia">
 <link rel="alternate" hreflang="fr" href="https://jerwis.fr/agents-ia">
@@ -52,11 +52,11 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Agents IA en 2026 — Le guide complet par un non-dev",
-  "description": "Le guide pillar Agents IA en français : définition, 3 niveaux pour construire (no-code, low-code, full code), workflows populaires, prix, architecture, FAQ exhaustive.",
+  "headline": "Agents IA en 2026 · le guide des agents qu'on utilise vraiment",
+  "description": "Le guide Agents IA à jour de novembre 2026. L'app Claude avec un dossier, ChatGPT Work, les navigateurs IA et les outils sans code, avec un exemple pour chacun, puis comment choisir, les prix, les risques et une FAQ. Claude Code et l'Agent SDK en annexe.",
   "inLanguage": "fr-FR",
   "datePublished": "2026-05-22",
-  "dateModified": "2026-05-22",
+  "dateModified": "2026-11-02",
   "author": {
     "@id": "https://jerwis.fr/#jeremy",
     "@type": "Person",
@@ -81,8 +81,8 @@
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "Construire ton premier agent IA en partant de zéro",
-  "description": "Méthode pas à pas pour passer d'une idée à un premier agent IA fonctionnel, sans être développeur.",
+  "name": "Lancer ton premier agent IA sans coder",
+  "description": "La méthode pas à pas pour passer d'une tâche répétitive à un premier agent qui travaille pour toi, dans l'app Claude, ChatGPT Work ou un outil sans code.",
   "totalTime": "PT60M",
   "inLanguage": "fr-FR",
   "author": {
@@ -92,12 +92,28 @@
   },
   "datePublished": "2026-05-22",
   "step": [
-    { "@type": "HowToStep", "name": "Choisir un cas d'usage simple et répétitif" },
-    { "@type": "HowToStep", "name": "Choisir le bon niveau d'outil (no-code, low-code, full code)" },
-    { "@type": "HowToStep", "name": "Brancher l'IA et les outils dont l'agent a besoin" },
-    { "@type": "HowToStep", "name": "Tester en mode humain dans la boucle" },
-    { "@type": "HowToStep", "name": "Mettre en prod avec des garde-fous et du monitoring" }
-  ]
+    {
+      "@type": "HowToStep",
+      "name": "Choisir une tâche simple et répétitive"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Choisir l'agent qui colle à la tâche (app Claude avec un dossier, ChatGPT Work, navigateur IA ou outil sans code)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Lui donner le strict nécessaire (un dossier d'essai, une appli connectée)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Tester en gardant la main (réglage Manuel, validation avant chaque action)"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Le laisser tourner avec des garde-fous et une validation humaine sur ce qui ne se défait pas"
+    }
+  ],
+  "dateModified": "2026-11-02"
 }
 </script>
 
@@ -112,15 +128,23 @@
       "name": "C'est quoi un agent IA en une phrase ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un agent IA, c'est un grand modèle de langage (LLM) à qui on a donné des outils, une boucle d'exécution et un objectif. Au lieu de juste répondre à une question, il agit, vérifie le résultat, et recommence jusqu'à atteindre son but. Simon Willison résume ça en une formule : LLM + tools + loop + goal."
+        "text": "Un agent IA, c'est un grand modèle de langage (LLM) à qui on a donné des outils, une boucle d'exécution et un objectif. Simon Willison résume ça par la formule LLM + tools + loop + goal. Au lieu de juste répondre à une question, il agit, vérifie le résultat, et recommence jusqu'à atteindre son but."
       }
     },
     {
       "@type": "Question",
-      "name": "Faut-il être développeur pour faire un agent IA ?",
+      "name": "Faut-il être développeur pour utiliser un agent IA ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Non. Je ne suis pas développeur et j'en ai construit plusieurs. Les outils no-code (Lindy, Zapier, n8n, Crew AI Studio) permettent de monter un agent fonctionnel en une heure sans écrire de code. Pour aller plus loin, Claude Code et les Custom GPTs te font passer en low-code avec une courbe d'apprentissage raisonnable."
+        "text": "Non. Je ne suis pas développeur et des agents travaillent pour moi tous les jours. L'app Claude avec un dossier et ChatGPT Work te donnent un agent sans écrire une ligne de code, avec un abonnement à 20 $ par mois. Pour relier tes applis entre elles, Zapier, Make, n8n ou Lindy se règlent avec des menus et des blocs. Le code n'arrive que si tu veux construire ton propre agent, et c'est l'objet de l'annexe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel agent essayer en premier ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'app Claude avec un dossier d'essai, ou ChatGPT en mode Work. Mets deux ou trois fichiers sans importance dans un dossier, ouvre-le à l'IA et demande-lui un tableau ou un rangement. Passe le réglage de Claude sur Manuel pour voir chaque action avant qu'elle parte. C'est l'exercice de l'étape 3 du parcours Apprendre."
       }
     },
     {
@@ -128,103 +152,111 @@
       "name": "Combien coûte un agent IA en 2026 ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trois fourchettes : un agent no-code coûte entre 15 et 100 euros par mois (Lindy à 49 USD, n8n self-hosted gratuit, Zapier à partir de 30 USD). Un agent low-code branché sur Claude ou GPT tourne entre 20 et 200 euros par mois selon l'usage des API. Un agent full code maison coûte ce que tu paies en tokens, généralement entre 50 et 500 euros par mois pour un usage personnel régulier."
+        "text": "Le ticket d'entrée, c'est 20 $ par mois. Claude Pro coûte 20 $ par mois hors taxes (17 $ en annuel) et ChatGPT Plus 20 $ par mois, ce qui t'ouvre l'app Claude avec un dossier ou ChatGPT Work. Claude Max démarre à 100 $ par mois pour un usage intensif. Les outils sans code ont leurs propres offres, et n8n peut tourner sur ton serveur pour le prix de l'hébergement. Si tu codes ton agent, tu paies au token, par exemple 2 $ par million de tokens en entrée et 10 $ en sortie pour Claude Sonnet 5.5. Prix relevés le 2 novembre 2026."
       }
     },
     {
       "@type": "Question",
-      "name": "Agent IA vs chatbot : quelle différence ?",
+      "name": "Agent IA vs chatbot · quelle différence ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Un chatbot répond à des questions dans une conversation. Un agent agit dans le monde. Le chatbot retourne du texte ; l'agent lit un email, modifie un fichier, lance un appel API, vérifie le résultat. La différence centrale, c'est la capacité d'exécuter des outils et de bouclier sur le résultat jusqu'à atteindre un objectif."
+        "text": "Un chatbot répond à des questions dans une conversation. Un agent agit. Le chatbot te rend du texte, l'agent lit un fichier, en crée un autre, remplit un tableau, vérifie le résultat. La différence centrale, c'est la capacité d'exécuter des outils et de boucler sur le résultat jusqu'à atteindre un objectif."
       }
     },
     {
       "@type": "Question",
-      "name": "Quels sont les meilleurs frameworks pour construire un agent IA ?",
+      "name": "Quelle différence entre un workflow et un agent ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pour le no-code, Lindy et Crew AI Studio. Pour le low-code, Claude Code (skills + MCP) et les Custom GPTs d'OpenAI. Pour le full code, LangGraph (LangChain), l'Anthropic Agent SDK, AutoGen de Microsoft et CrewAI restent les références. Mon réflexe pour démarrer, c'est Claude Code, parce que c'est ce qui me donne le plus de contrôle sans m'obliger à écrire du Python."
+        "text": "Un workflow suit des étapes que tu as fixées d'avance, comme une automatisation Zapier qui, « quand un mail arrive, enregistre la pièce jointe et ajoute une ligne au tableau ». Un agent choisit lui-même ses étapes à partir d'un but. Si tu peux écrire les étapes à l'avance, un workflow suffit et coûte moins cher. Si la tâche change à chaque fois, il te faut un agent."
       }
     },
     {
       "@type": "Question",
-      "name": "Un agent IA peut-il faire des bêtises et casser quelque chose ?",
+      "name": "Quels sont les meilleurs outils pour construire un agent IA ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui. Un agent qui a accès à ta boîte mail, à ta base de données ou à ton GitHub peut envoyer un message à la mauvaise personne, supprimer un fichier ou pusher un commit cassé. La protection passe par trois choses : des garde-fous (interdire certaines actions), un humain dans la boucle avant les actions sensibles, et des logs pour pouvoir revenir en arrière. Je ne mets jamais un agent en autonomie totale sur des données financières ou clients sensibles."
+        "text": "Sans code, l'app Claude avec un dossier, ChatGPT Work, et pour relier des applis Zapier, Make, n8n, Lindy ou Crew AI Studio. En code, le Claude Agent SDK, LangGraph, l'OpenAI Agents SDK et AutoGen restent les références, je les présente en annexe. Pour démarrer, je conseille l'app Claude ou ChatGPT Work, qui ne demandent aucune installation technique."
       }
     },
     {
       "@type": "Question",
-      "name": "Comment monitorer un agent IA en production ?",
+      "name": "Un agent IA peut-il faire des bêtises ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trois briques de base : logs détaillés de chaque action (prompt, outil appelé, résultat, durée), alertes sur les erreurs ou les timeouts, dashboard de coût quotidien en tokens. Pour aller plus loin, LangSmith, Helicone ou Langfuse offrent un traçage par étape utile pour comprendre pourquoi un agent a pris une mauvaise décision. Pour mes agents perso, je branche simplement Telegram sur les événements critiques."
+        "text": "Oui. Un agent qui a accès à ta boîte mail ou à tes fichiers peut envoyer un message à la mauvaise personne, écraser le mauvais fichier ou valider un achat trop vite. La protection passe par trois choses. Des garde-fous qui interdisent certaines actions, un humain dans la boucle avant les actions sensibles, et une trace de ce qu'il a fait. L'app Claude demande avant de supprimer définitivement un fichier, et ChatGPT Work n'utilise tes fichiers qu'avec ton autorisation. Je ne mets jamais un agent en autonomie totale sur des données financières ou clients sensibles."
       }
     },
     {
       "@type": "Question",
-      "name": "Quels cas d'usage marchent vraiment pour un agent IA en 2026 ?",
+      "name": "Comment surveiller un agent qui tourne seul ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Les six qui fonctionnent le mieux dans mon expérience et celle de ma veille : agent email (tri et brouillon de réponse), agent contrats (relecture et clauses à risque), agent recherche (synthèse de plusieurs sources), agent vente (qualif de leads et brief commercial), agent veille (digest quotidien) et agent personnel (calendrier, tâches, rappels). Les cas d'usage qui plantent souvent : agents de support client autonomes, agents qui prennent des décisions financières seuls, agents créatifs sans relecture humaine."
+        "text": "Trois réflexes. Demande-lui la liste de ce qu'il a fait à chaque tâche. Regarde l'historique des exécutions dans ton outil d'automatisation. Et surveille ta consommation la première semaine. Pour mes agents perso, je branche simplement Telegram sur les événements critiques. Les outils de traçage pour les agents codés sont dans l'annexe."
       }
     },
     {
       "@type": "Question",
-      "name": "Quelles sont les limites connues des agents IA actuels ?",
+      "name": "Quels cas d'usage marchent vraiment en 2026 ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Quatre limites que je rencontre régulièrement : l'hallucination sur des données qu'ils ne connaissent pas, la dérive sur les sessions très longues au-delà de 500 000 tokens, l'incapacité à apprendre de leurs erreurs entre deux runs sans mécanisme de mémoire externe, et le coût qui peut exploser si tu laisses un agent boucler sans budget plafond. Aucun agent en 2026 n'est encore vraiment fiable à 100 %, même les plus avancés."
+        "text": "Les six qui fonctionnent le mieux dans mon expérience et celle de ma veille. L'agent email (tri et brouillons de réponse), l'agent contrats (relecture et clauses à risque), l'agent recherche (synthèse de plusieurs sources), l'agent vente (qualification des prospects et brief commercial), l'agent veille (digest quotidien) et l'agent personnel (tâches, rappels, rendez-vous). Les cas qui plantent souvent, ce sont le support client autonome, les décisions financières prises seules et les contenus créatifs sans relecture humaine."
       }
     },
     {
       "@type": "Question",
-      "name": "Comment empêcher un agent IA d'halluciner ?",
+      "name": "Quelles sont les limites connues des agents actuels ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trois techniques qui marchent en combiné : RAG (Retrieval Augmented Generation) pour brancher l'agent sur une base de connaissances fiable, prompt qui force l'agent à citer ses sources et à dire je ne sais pas plutôt que d'inventer, et tools intermédiaires de vérification (recherche web, lecture de doc à jour via context7). L'hallucination tombe à environ 5 % avec un bon setup, contre 20 à 30 % en mode purement génératif."
+        "text": "Quatre limites que je rencontre régulièrement. L'hallucination sur des données qu'ils ne connaissent pas, la dérive sur les sessions très longues, l'incapacité à apprendre de leurs erreurs d'une tâche à l'autre sans mémoire externe, et le coût qui peut exploser si tu laisses un agent boucler sans limite. Aucun agent en 2026 n'est fiable à 100 %, même les plus avancés."
       }
     },
     {
       "@type": "Question",
-      "name": "Faut-il garder un humain dans la boucle ?",
+      "name": "Comment empêcher mon agent d'halluciner ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pour toute action irréversible ou sensible : oui, sans hésitation. Envoyer un email à un client, signer un document, supprimer une donnée, autoriser un paiement. Pour les actions à faible enjeu et facilement réversibles : non, l'agent peut tourner en autonomie. La règle que j'applique chez moi, c'est human in the loop sur tout ce qui touche à de l'argent, du client direct ou de la donnée légale."
+        "text": "Trois techniques qui marchent ensemble. Lui donner tes propres documents comme source, dans le dossier que tu lui ouvres, ou par le RAG pour les agents d'entreprise. Lui demander de citer ses sources et de dire « je ne sais pas » plutôt que d'inventer. Et faire vérifier ce qui compte, par une recherche web ou par ta relecture. Aucune de ces techniques ne remplace ta relecture sur ce qui est important."
       }
     },
     {
       "@type": "Question",
-      "name": "Agent IA et RAG : comment les combiner ?",
+      "name": "Faut-il un humain dans la boucle ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Le RAG donne à l'agent une base de connaissances dans laquelle il va piocher avant de répondre. Concrètement, tu indexes tes documents en embeddings, tu stockes ça dans une base vectorielle (Pinecone, Supabase pgvector, Weaviate), et tu donnes à ton agent un tool search_knowledge_base. Quand il a besoin d'info métier, il cherche d'abord dans ta base avant d'utiliser sa connaissance générale. C'est la combinaison la plus puissante en 2026 pour les agents en entreprise."
+        "text": "Pour toute action irréversible ou sensible, oui, sans hésitation. Envoyer un mail à un client, signer un document, supprimer une donnée, autoriser un paiement. Pour les actions à faible enjeu et faciles à défaire, non, l'agent peut tourner seul. La règle que j'applique chez moi, c'est un humain dans la boucle sur tout ce qui touche à l'argent, aux clients ou aux données légales."
       }
     },
     {
       "@type": "Question",
-      "name": "Vie privée des données : un agent IA peut-il les fuiter ?",
+      "name": "Agent + RAG · comment les combiner ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui si tu n'es pas vigilant. Trois zones à risque : les API du fournisseur de LLM (Anthropic et OpenAI conservent les conversations 30 jours par défaut pour la modération abuse, sauf en mode Zero Data Retention sur les comptes Enterprise), les outils tiers que tu branches via MCP, et les logs de ton propre agent. Pour des données sensibles, je préfère un modèle hébergé (Llama, Mistral sur ton serveur) plutôt qu'une API externe."
+        "text": "Le RAG donne à l'agent une base de connaissances dans laquelle il pioche avant de répondre. Concrètement, on transforme tes documents en embeddings, on les stocke dans une base vectorielle (Pinecone, Supabase pgvector, Weaviate), et on donne à l'agent un outil de recherche dans cette base. Quand il a besoin d'une info métier, il cherche d'abord chez toi avant d'utiliser sa connaissance générale. C'est la combinaison la plus puissante pour les agents en entreprise. Pour un usage perso, le dossier que tu ouvres à l'app Claude joue déjà ce rôle."
       }
     },
     {
       "@type": "Question",
-      "name": "Agent open-source ou propriétaire : que choisir ?",
+      "name": "Vie privée des données traitées par un agent ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pour démarrer et apprendre, propriétaire : Claude, GPT, Gemini sont plus simples à brancher, plus fiables, mieux documentés. Pour scaler à un usage massif ou pour des données sensibles, open-source devient pertinent : Llama 4, Mistral, Qwen tournent sur ton infra, coût marginal proche de zéro, et tu gardes la main sur les données. Le mix gagnant en 2026 chez beaucoup de boîtes, c'est Claude ou GPT pour les tâches de réflexion, Llama local pour le traitement de masse."
+        "text": "Oui, c'est un sujet sérieux. Tout ce que l'agent lit pour faire la tâche part chez l'éditeur pour être traité, comme dans le chat. Chez ChatGPT, le travail peut tourner sur ton ordinateur, mais les messages et le contexte de la tâche peuvent être enregistrés dans le cloud. Les applis que tu connectes et les outils d'automatisation voient aussi passer tes données. Pour des documents clients, vérifie ce que ton contrat et ton abonnement autorisent. Pour des données très sensibles, je préfère un modèle ouvert hébergé sur un serveur que je contrôle. J'en parle dans ce que les IA font de tes données."
       }
     },
     {
       "@type": "Question",
-      "name": "Quel modèle Claude ou GPT utiliser pour un agent IA ?",
+      "name": "Open source ou propriétaire ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mon réflexe en 2026 : Claude Sonnet 4.x pour 80 % des tâches d'agent (rapide, économique, bon raisonnement), Claude Opus 4.7 quand la tâche est complexe ou nécessite du contexte long (jusqu'à 1 million de tokens), GPT-5 quand je veux varier ou pour des tâches très créatives. Pour les agents qui font de la recherche en boucle, Sonnet fait le job. Pour des décisions critiques d'architecture, Opus."
+        "text": "Pour démarrer et apprendre, propriétaire. Claude, GPT et Gemini sont plus simples, plus fiables et mieux documentés, et ce sont eux qui font tourner l'app Claude et ChatGPT Work. Pour un usage massif ou des données sensibles, l'open source devient pertinent. Mistral Large 4, le grand modèle européen, a publié ses poids le 29 octobre 2026. Il est trop lourd pour tourner sur ton ordinateur, mais il peut tourner sur un serveur que tu contrôles, et son API coûte 0,70 $ par million de tokens en entrée. Le mix que je vois le plus, c'est Claude ou GPT pour la réflexion, un modèle ouvert pour le traitement de masse."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel modèle choisir pour un agent ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mon réflexe en novembre 2026. Claude Sonnet 5.5 pour la plupart des tâches d'agent, rapide, bon en raisonnement, et inclus même dans l'offre gratuite. Claude Opus 5.5 quand la tâche est complexe ou demande beaucoup de contexte (jusqu'à 1 million de tokens), c'est d'ailleurs celui qu'Anthropic conseille pour commencer. Claude Fable 5.1, dans Max, seulement pour les cas vraiment durs, parce qu'il est lent et cher. Chez OpenAI, GPT-6.1 Sol est le bon choix par défaut dans ChatGPT Work, et GPT-6 Luna suffit pour les tâches simples et répétées."
       }
     }
   ]
@@ -1050,7 +1082,7 @@
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
-          <span class="more-text"><strong>Workflows</strong><span>Claude Code par métier</span></span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
         </a>
         <a href="/outils" role="menuitem">
           <span class="more-icon">🛠</span>
@@ -1099,14 +1131,14 @@
 <!-- Hero -->
 <section class="hero">
   <div class="container">
-    <div class="kicker"><span class="pulse"></span>Guide pillar · Agents IA en 2026</div>
+    <div class="kicker"><span class="pulse"></span>Guide · Agents IA · novembre 2026</div>
     <h1>Agents IA ·<br>le guide complet<br>par un <em>non-dev.</em></h1>
     <p class="hero-lead">
-      Salut, moi c'est Jérémy. Je ne suis pas développeur. Pourtant, en 2026, j'ai monté plusieurs agents IA qui me servent tous les jours. Sur cette page, je rassemble tout ce que j'ai appris : ce qu'est vraiment un agent, les trois niveaux pour en construire un (no-code, low-code, full code), les workflows qui marchent, le prix, l'architecture, les erreurs classiques. Tout en français, sans jargon inutile.
+      Salut, moi c'est Jérémy. Je ne suis pas développeur. Pourtant, des agents IA travaillent pour moi tous les jours. Sur cette page, je commence par ceux que tu as déjà sous la main, sans une ligne de code. L'app Claude avec un dossier, ChatGPT Work, les navigateurs IA et les outils d'automatisation, avec un exemple concret pour chacun. Viennent ensuite ce qu'est vraiment un agent, comment choisir le tien, les prix de novembre 2026 et les pièges à éviter. Le code, je le garde pour l'annexe, tout en bas.
     </p>
     <div class="hero-ctas">
-      <a class="hero-cta primary" href="/articles/agents-ia-guide">Lire le guide en profondeur</a>
-      <a class="hero-cta ghost" href="#construire">Voir comment construire</a>
+      <a class="hero-cta primary" href="#sous-la-main">Voir les agents à essayer</a>
+      <a class="hero-cta ghost" href="/apprendre#etape-03">Le parcours, étape 3</a>
     </div>
   </div>
 </section>
@@ -1114,47 +1146,74 @@
 <!-- Mini-marquee 1 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>LLM</span><span>+ Outils</span><span>+ Boucle</span><span>+ Objectif</span><span>= Agent IA</span><span>Simon Willison</span>
-    <span>LLM</span><span>+ Outils</span><span>+ Boucle</span><span>+ Objectif</span><span>= Agent IA</span><span>Simon Willison</span>
+    <span>App Claude + dossier</span><span>ChatGPT Work</span><span>Navigateurs IA</span><span>Outils sans code</span><span>Zéro ligne de code</span><span>Novembre 2026</span>
+    <span>App Claude + dossier</span><span>ChatGPT Work</span><span>Navigateurs IA</span><span>Outils sans code</span><span>Zéro ligne de code</span><span>Novembre 2026</span>
   </div>
 </div>
 
-<!-- Section A : C'est quoi un agent IA -->
-<section class="block">
+<!-- Section A : Les agents sous la main -->
+<section class="block" id="sous-la-main">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Définition</span>
-    <h2>Qu'est-ce qu'un<br><em class="fuchsia">agent IA ?</em></h2>
+    <span class="section-kicker k-teal">Sous la main</span>
+    <h2>Les agents que tu as<br><em class="teal">déjà sous la main.</em></h2>
 
-    <div class="definition-card">
-      <h4>En une phrase</h4>
-      <p><strong>Un agent IA, c'est un grand modèle de langage à qui on a donné des outils, une boucle d'exécution et un objectif.</strong> Simon Willison, l'une des voix les plus claires sur le sujet, résume ça par la formule : <em>LLM + tools + loop + goal</em>. C'est tout. Pas de magie, juste quatre briques qui marchent ensemble.</p>
+    <p>
+      Un agent IA, c'est une IA qui ne se contente pas de répondre. Tu lui donnes un but, elle enchaîne seule les étapes et te rend un travail fini. En novembre 2026, tu n'as rien à construire pour en avoir un, il est déjà dans des outils grand public. Voici les quatre familles que je conseille, avec un exemple à essayer pour chacune.
+    </p>
+
+    <div class="profile-grid">
+      <div class="profile-card p-teal">
+        <span class="profile-tag">01 · Sur tes fichiers</span>
+        <h3>L'app Claude avec un dossier</h3>
+        <p>Dans l'app Claude de bureau, tu donnes à Claude l'accès à un dossier de ton ordinateur. Il lit tes fichiers, les range et en crée de nouveaux. Ce mode s'appelait Cowork. Fin 2026, il se fond dans la conversation normale, en cours de déploiement sur les offres Pro, Max et Ultra. Tu demandes, et Claude choisit seul s'il répond ou s'il se met au travail.</p>
+        <p>Pendant une tâche, il peut utiliser tes applis connectées (Google Drive, Gmail, Microsoft 365, Slack), naviguer sur le web avec son navigateur intégré ou avec Claude in Chrome, et refaire une tâche à heure fixe, chaque lundi par exemple.</p>
+        <p><strong>Exemple à essayer.</strong> Mets tes factures du mois dans un dossier, ouvre-le à Claude et écris « Lis toutes les factures PDF de ce dossier et fais-moi un tableau avec la date, le fournisseur, le HT, la TVA et le TTC, plus une ligne de total ». Tu récupères un tableur prêt à ouvrir.</p>
+        <p><strong>Ce qu'il faut.</strong> Un abonnement payant, Claude Pro à 20 $ par mois hors taxes ou au dessus.</p>
+        <div class="profile-links">
+          <a href="/articles/ia-qui-travaille-sur-ton-ordinateur">Le pas à pas</a>
+          <a href="/lexique/cowork">La fiche Cowork</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-fuchsia">
+        <span class="profile-tag">02 · Un livrable complet</span>
+        <h3>ChatGPT Work</h3>
+        <p>L'app ChatGPT de bureau, sur Mac et Windows, a deux modes, Chat et Work. Work est un agent pour les tâches longues en plusieurs étapes. Il te rend un document, un tableau, une présentation, un rapport ou même un site. Dans l'app de bureau, il peut utiliser tes fichiers et tes applis, toujours avec ton autorisation.</p>
+        <p><strong>Exemple à essayer.</strong> Mets trois devis dans un dossier, passe en Work et écris « Compare ces trois devis dans un tableau avec les prix, les délais, les garanties et ce qui est inclus. Dis-moi lequel tu choisirais pour [ton critère] et pourquoi, en 5 lignes ». Tu ne relis plus trois PDF côte à côte, et la décision reste la tienne.</p>
+        <p><strong>Ce qu'il faut.</strong> Une offre payante, ChatGPT Plus coûte 20 $ par mois.</p>
+        <div class="profile-links">
+          <a href="/lexique/chatgpt-work">La fiche ChatGPT Work</a>
+          <a href="/lexique/mode-agent">Le mode agent</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-orange">
+        <span class="profile-tag">03 · Sur le web</span>
+        <h3>Les navigateurs IA</h3>
+        <p>Un navigateur IA voit la page que tu lis et peut agir dessus à ta demande. Plus besoin de copier-coller une page dans un chat. Le plus connu est Comet, de Perplexity. Atlas, celui d'OpenAI, a fermé le 9 août 2026 et ses fonctions sont passées dans l'app ChatGPT de bureau. L'app Claude a aussi son navigateur intégré, et l'extension Claude in Chrome fait travailler Claude dans ton Chrome.</p>
+        <p><strong>Exemple à essayer.</strong> Sur une fiche produit, avec deux autres boutiques ouvertes dans des onglets, tu demandes « Compare avec les deux autres onglets et dis-moi lequel est le moins cher livré avant samedi ». Il lit les trois pages et te répond.</p>
+        <p><strong>Ma règle.</strong> Il peut remplir le panier, mais c'est toi qui le relis et qui paies.</p>
+        <div class="profile-links">
+          <a href="/articles/navigateurs-ia">Comet, Atlas et Chrome comparés</a>
+          <a href="/lexique/navigateur-ia">La fiche Navigateur IA</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-ink">
+        <span class="profile-tag">04 · Tout seul, chaque jour</span>
+        <h3>Les outils d'automatisation sans code</h3>
+        <p>Zapier, Make, n8n ou Lindy relient tes applis entre elles. Tu choisis un déclencheur, un mail reçu ou un formulaire rempli, et l'IA fait les étapes qui demandent de comprendre, comme lire, résumer, classer ou rédiger. Zapier a même ses agents, qui prennent des décisions en cours de route. n8n, lui, peut s'installer sur ton propre serveur.</p>
+        <p><strong>Exemple à essayer.</strong> Un prospect remplit le formulaire de ton site. L'automatisation lit sa demande, note l'urgence, ajoute une ligne dans ton tableau de suivi et te prépare un brouillon de réponse. Tu n'as plus qu'à relire et envoyer.</p>
+        <p><strong>Quand le prendre.</strong> Quand la même tâche revient tous les jours entre deux applis.</p>
+        <div class="profile-links">
+          <a href="/articles/automatiser-taches-ia-sans-coder">Automatiser sans coder</a>
+        </div>
+      </div>
     </div>
 
-    <p>
-      Concrètement, un agent IA part d'une intention que tu lui donnes en français (ou en anglais, ou en n'importe quelle langue qu'un <a href="/lexique/llm">LLM</a> comprend). Au lieu de juste te répondre par du texte comme un chatbot classique, il décide d'appeler des outils : lire un fichier, interroger une base de données, envoyer un email, faire une recherche web. Il observe le résultat, réfléchit, recommence si besoin. La boucle s'arrête quand l'objectif est atteint, ou quand un humain reprend la main.
-    </p>
-
-    <h3>Agent vs chatbot · la différence centrale</h3>
-    <p>
-      <strong>Un chatbot répond. Un agent agit.</strong> ChatGPT en mode chat classique, c'est un chatbot : tu lui poses une question, il génère du texte. Un agent IA, c'est différent : tu lui dis « envoie un brief à mes 10 derniers leads » et il va vraiment lire ton CRM, ouvrir Gmail, rédiger 10 emails personnalisés, te demander validation pour les envoyer. C'est cette capacité d'exécuter des actions dans le monde réel qui change tout.
-    </p>
-
-    <p>
-      Cette distinction est récente. En 2023, on parlait surtout d'« assistants IA » qui te proposaient du texte. En 2024, les premiers vrais frameworks d'agents sont sortis (LangChain, AutoGen). En 2025, les capacités de raisonnement des LLMs ont franchi un seuil qui rendait les agents fiables sur des tâches complexes. <strong>2026, c'est l'année où les agents IA sont devenus une réalité utilisable au quotidien</strong>, même pour des non-développeurs.
-    </p>
-
-    <h3>Pourquoi 2026 c'est l'année des agents</h3>
-    <p>
-      Trois choses ont changé en même temps. <strong>Premièrement, les modèles ont gagné en raisonnement</strong> : Claude Sonnet 4.x, GPT-5 et Gemini 2 raisonnent sur plusieurs étapes sans perdre le fil. <strong>Deuxièmement, le standard MCP a explosé</strong> : depuis fin 2024, n'importe quel agent peut se brancher sur Sanity, Stripe, Telegram ou n'importe quel service via le <a href="/lexique/mcp">Model Context Protocol</a>. <strong>Troisièmement, le no-code agent a émergé</strong> : Lindy, Crew AI Studio, Zapier AI Actions permettent de monter un agent en une heure, sans coder.
-    </p>
-
-    <p>
-      Résultat : ce qui demandait une équipe de devs et deux mois de boulot en 2023 se fait en un après-midi en 2026. C'est pour ça que j'ai écrit cette page : la barrière à l'entrée s'est effondrée, et beaucoup de gens ne le savent pas encore.
-    </p>
-
     <div class="callout tip">
-      <h4>La citation à retenir</h4>
-      <p>« Un agent, c'est un LLM qui exécute une boucle d'outils dans un environnement pour atteindre un objectif. » — Simon Willison, créateur de Datasette, observateur de référence sur les LLMs depuis 2022.</p>
+      <h4>Par où je commencerais</h4>
+      <p>Si tu ne devais en essayer qu'un, prends l'app Claude ou ChatGPT Work, sur un dossier d'essai avec deux ou trois fichiers sans importance. C'est l'exercice de <a href="/apprendre#etape-03">l'étape 3 du parcours</a>, et c'est le chemin le plus court pour voir un agent travailler pour toi.</p>
     </div>
   </div>
 </section>
@@ -1162,103 +1221,53 @@
 <!-- Mini-marquee 2 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>No-code</span><span>Low-code</span><span>Full code</span><span>Trois niveaux</span><span>Une seule logique</span><span>À toi de choisir</span>
-    <span>No-code</span><span>Low-code</span><span>Full code</span><span>Trois niveaux</span><span>Une seule logique</span><span>À toi de choisir</span>
+    <span>LLM</span><span>+ Outils</span><span>+ Boucle</span><span>+ Objectif</span><span>= Agent IA</span><span>Simon Willison</span>
+    <span>LLM</span><span>+ Outils</span><span>+ Boucle</span><span>+ Objectif</span><span>= Agent IA</span><span>Simon Willison</span>
   </div>
 </div>
 
-<!-- Section B : Les 3 niveaux pour construire un agent -->
-<section class="block" id="construire">
+<!-- Section B : C'est quoi un agent IA -->
+<section class="block" id="definition">
   <div class="container">
-    <span class="section-kicker k-teal">— Méthode</span>
-    <h2>Les 3 niveaux pour<br><em class="teal">construire un agent.</em></h2>
+    <span class="section-kicker k-fuchsia">Définition</span>
+    <h2>Qu'est-ce qu'un<br><em class="fuchsia">agent IA ?</em></h2>
 
-    <p>
-      Avant de te demander quel outil choisir, il faut savoir à quel niveau tu veux jouer. J'ai testé les trois. Chacun a sa logique, ses limites, son public. Voici ma grille de lecture.
-    </p>
-
-    <h3>Niveau 1 · No-code (la rampe d'entrée)</h3>
-    <p>
-      Le no-code, c'est l'option pour démarrer. Tu n'écris pas une ligne de code. Tu glisses-déposes des blocs dans une interface visuelle. L'agent est construit comme un assemblage de briques. Mes quatre outils préférés à ce niveau :
-    </p>
-    <ul>
-      <li><strong>Lindy</strong> · agent email principalement, mais aussi calendrier, recherche, automatisations. Très propre, plan gratuit, payant à 49 USD par mois pour le sérieux.</li>
-      <li><strong>Zapier AI Actions</strong> · le géant du no-code a sorti une couche IA. Tu connectes tes 7000 apps habituelles avec un agent en surcouche. Pratique si tu vis déjà dans Zapier.</li>
-      <li><strong>Crew AI Studio</strong> · le no-code de CrewAI, le framework open-source. Tu construis des équipes d'agents qui collaborent. Plus visuel et plus complet que Lindy pour des workflows multi-agents.</li>
-      <li><strong>n8n + IA</strong> · n8n est un outil d'automatisation open-source que tu peux self-hoster gratuitement. Sa couche IA est solide, et tu gardes la main sur tes données.</li>
-    </ul>
-    <p>
-      <strong>Mon conseil :</strong> si tu débutes, commence par Lindy ou Crew AI Studio. Tu auras un agent fonctionnel en une heure. C'est le meilleur moyen de comprendre la logique avant de monter en niveau.
-    </p>
-
-    <h3>Niveau 2 · Low-code (le sweet spot)</h3>
-    <p>
-      Le low-code, c'est mon niveau préféré. Tu écris un peu de configuration en YAML, JSON ou markdown, mais l'outil fait le gros du travail technique. Tu gardes le contrôle, sans l'effort d'un projet full code. Mes trois options à ce niveau :
-    </p>
-    <ul>
-      <li><strong>Claude Code + skills + MCP</strong> · ma stack quotidienne. Claude Code est l'agent terminal d'Anthropic, les skills sont des dossiers d'instructions qui se déclenchent automatiquement, MCP permet de brancher n'importe quel service externe. <a href="/claude-code">Le guide complet est ici</a>.</li>
-      <li><strong>OpenAI Custom GPTs</strong> · tu construis un agent en quelques minutes via une interface guidée dans ChatGPT. Limité aux outils OpenAI (search, code interpreter, DALL-E), mais très accessible.</li>
-      <li><strong>Anthropic Skills (dans Claude Desktop)</strong> · même logique que les skills Claude Code mais sans terminal. Mac et Windows. Le ticket d'entrée le plus bas de tous.</li>
-    </ul>
-    <p>
-      <strong>Mon conseil :</strong> si tu fais de la rédaction, du marketing, du sales, ou tout métier intellectuel, Claude Code te donnera 10× plus de levier qu'un outil no-code. La courbe d'apprentissage est de quelques jours, pas de quelques mois.
-    </p>
-
-    <h3>Niveau 3 · Full code (pour les vrais projets)</h3>
-    <p>
-      Le full code, c'est quand tu veux construire un agent qui va en production avec des contraintes fortes : performance, coût optimisé, intégration profonde dans un système existant, équipe technique derrière. Les frameworks de référence en 2026 :
-    </p>
-    <ul>
-      <li><strong>LangGraph</strong> · l'évolution de LangChain, le framework Python le plus utilisé pour orchestrer des agents complexes. Graphes d'états, persistance, human in the loop natif.</li>
-      <li><strong>Anthropic Agent SDK</strong> · le SDK officiel d'Anthropic pour Python et TypeScript. Plus simple que LangGraph, plus opinionated. Idéal si tu construis tout autour de Claude.</li>
-      <li><strong>AutoGen (Microsoft)</strong> · framework conversationnel multi-agents, fort pour les setups où plusieurs agents collaborent.</li>
-      <li><strong>OpenAI Agents SDK</strong> · l'équivalent du côté OpenAI. Sortie publique fin 2025, monte vite en maturité.</li>
-    </ul>
-    <p>
-      <strong>Mon conseil :</strong> ne va en full code que si le low-code ne suffit plus. Pour 90 % des cas d'usage personnels et même PME, Claude Code couvre le besoin. Le full code est utile quand tu veux héberger toi-même, scaler à des milliers d'utilisateurs, ou avoir un contrôle fin du coût en tokens.
-    </p>
-
-    <h3>Tableau comparatif</h3>
-    <div class="compare-wrap">
-      <table class="compare-table">
-        <thead>
-          <tr>
-            <th>Niveau</th>
-            <th>Effort</th>
-            <th>Prix</th>
-            <th>Contrôle</th>
-            <th>Scalabilité</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>No-code</td>
-            <td>1 h pour le premier agent</td>
-            <td>0 à 100 €/mois</td>
-            <td>Limité (briques figées)</td>
-            <td>Faible (plafond rapide)</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>1 jour pour bien démarrer</td>
-            <td>20 à 200 €/mois</td>
-            <td>Élevé (skills + MCP)</td>
-            <td>Bonne (perso et PME)</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-orange"></span>Full code</td>
-            <td>Semaines à mois selon scope</td>
-            <td>Variable (tokens API)</td>
-            <td>Total (architecture maison)</td>
-            <td>Illimitée (production)</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="definition-card">
+      <h4>En une phrase</h4>
+      <p><strong>Un agent IA, c'est un grand modèle de langage à qui on a donné des outils, une boucle d'exécution et un objectif.</strong> Simon Willison, l'une des voix les plus claires sur le sujet, résume ça par la formule <em>LLM + tools + loop + goal</em>. C'est tout. Pas de magie, juste quatre briques qui marchent ensemble.</p>
     </div>
 
-    <div class="callout ok">
-      <h4>Mon parcours perso</h4>
-      <p>J'ai commencé en 2024 avec Lindy pour comprendre. En 2025, je suis passé sur Claude Code et je n'en suis jamais ressorti. J'ai effleuré le full code une fois pour un projet client. <strong>Conclusion : le low-code Claude Code couvre 95 % de mes besoins.</strong></p>
+    <p>
+      Concrètement, un agent IA part d'une intention que tu lui donnes en français (ou en anglais, ou dans n'importe quelle langue qu'un <a href="/lexique/llm">LLM</a> comprend). Au lieu de juste te répondre par du texte comme un chatbot classique, il décide d'appeler des outils. Lire un fichier, ouvrir une page web, remplir un tableau, préparer un mail. Il observe le résultat, réfléchit, recommence si besoin. La boucle s'arrête quand l'objectif est atteint, ou quand un humain reprend la main.
+    </p>
+
+    <h3>Agent vs chatbot · la différence centrale</h3>
+    <p>
+      <strong>Un chatbot répond. Un agent agit.</strong> ChatGPT en mode Chat, c'est un chatbot. Tu lui poses une question, il génère du texte, et c'est toi qui l'appliques. Passe en mode Work, ou ouvre un dossier à l'app Claude, et tu as un agent. Tu lui dis « prépare un brief pour chacun des 10 prospects de ce tableau » et il lit vraiment le fichier, rédige les 10 brief, les range dans un document et te le rend. C'est cette capacité à faire le travail, et pas seulement à en parler, qui change tout.
+    </p>
+
+    <h3>Workflow ou agent · qui décide des étapes ?</h3>
+    <p>
+      Un workflow suit des étapes que tu as fixées d'avance. « Quand un mail arrive avec une facture, enregistre la pièce jointe dans ce dossier et ajoute une ligne au tableau. » C'est ce que fait une automatisation Zapier ou Make classique. C'est fiable, prévisible, et ça ne sort jamais du chemin prévu. Un agent, lui, choisit ses étapes. Tu lui donnes un but, « range ce dossier et fais-moi le point sur les factures impayées », et il décide quoi lire, dans quel ordre, et quand il a fini.
+    </p>
+    <p>
+      <strong>Ma règle est simple.</strong> Si tu peux écrire les étapes à l'avance, un workflow suffit et coûte moins cher. Si la tâche change à chaque fois, il te faut un agent. Beaucoup d'outils mélangent les deux, comme les agents de Zapier ou les tâches planifiées de l'app Claude.
+    </p>
+
+    <h3>Pourquoi 2026, c'est l'année des agents</h3>
+    <p>
+      En 2023, on parlait surtout d'« assistants IA » qui te proposaient du texte. En 2024, les premiers vrais frameworks d'agents sont sortis (LangChain, AutoGen). En 2025, les capacités de raisonnement des modèles ont franchi un seuil qui rendait les agents fiables sur des tâches complexes. <strong>2026, c'est l'année où les agents IA sont devenus utilisables au quotidien</strong>, même pour des non-développeurs.
+    </p>
+    <p>
+      Trois choses ont changé en même temps. <strong>Les modèles ont gagné en raisonnement.</strong> Claude Opus 5.5, GPT-6.1 Sol et Gemini 4 Argon, sortis entre fin septembre et mi-octobre 2026, raisonnent sur plusieurs étapes sans perdre le fil. <strong>Le standard MCP s'est imposé.</strong> Depuis fin 2024, un agent peut se brancher sur n'importe quel service grâce au <a href="/lexique/mcp">Model Context Protocol</a>. <strong>Et les agents sont arrivés là où tu travailles déjà</strong>, dans l'app Claude, dans ChatGPT, dans ton navigateur et dans les outils d'automatisation que tu utilises peut-être depuis des années.
+    </p>
+    <p>
+      Résultat, ce qui demandait une équipe de développeurs et deux mois de travail en 2023 se fait en un après-midi en 2026. C'est pour ça que j'ai écrit cette page. La barrière à l'entrée s'est effondrée, et beaucoup de gens ne le savent pas encore.
+    </p>
+
+    <div class="callout tip">
+      <h4>La citation à retenir</h4>
+      <p>« Un agent, c'est un LLM qui exécute une boucle d'outils dans un environnement pour atteindre un objectif », résume Simon Willison, créateur de Datasette et observateur de référence sur les LLM depuis 2022.</p>
     </div>
   </div>
 </section>
@@ -1266,87 +1275,78 @@
 <!-- Mini-marquee 3 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Agent email</span><span>Agent contrats</span><span>Agent recherche</span><span>Agent vente</span><span>Agent veille</span><span>Agent perso</span>
-    <span>Agent email</span><span>Agent contrats</span><span>Agent recherche</span><span>Agent vente</span><span>Agent veille</span><span>Agent perso</span>
+    <span>Une tâche</span><span>Un dossier</span><span>Un test</span><span>Ta validation</span><span>Puis l'autonomie</span><span>Pas avant</span>
+    <span>Une tâche</span><span>Un dossier</span><span>Un test</span><span>Ta validation</span><span>Puis l'autonomie</span><span>Pas avant</span>
   </div>
 </div>
 
-<!-- Section C : Workflows populaires -->
-<section class="block">
+<!-- Section C : Choisir et lancer son premier agent -->
+<section class="block" id="construire">
   <div class="container">
-    <span class="section-kicker k-orange">— Cas d'usage</span>
-    <h2>Workflows agent IA<br><em class="orange">populaires en 2026.</em></h2>
+    <span class="section-kicker k-teal">Méthode</span>
+    <h2>Choisir et lancer<br><em class="teal">ton premier agent.</em></h2>
 
     <p>
-      Voici les six workflows agents que je vois marcher le mieux en 2026, à la fois dans mon usage perso et dans ma veille. Pour chacun, je donne le pitch, l'outil que je recommande, et un lien vers un tuto plus poussé quand il existe.
+      Avant de choisir un outil, regarde où vit ta tâche. Sur tes fichiers, sur le web, ou entre deux applis qui ne se parlent pas. C'est ça qui décide, pas la mode du moment. Voici ma grille de lecture.
     </p>
 
-    <div class="profile-grid">
-      <div class="profile-card p-teal">
-        <span class="profile-tag">01 · Le must-have</span>
-        <h3>Agent email</h3>
-        <p>Trier ta boîte mail, répondre aux mails simples, te brouillonner les réponses complexes, classer par priorité. C'est l'agent qui sauve le plus de temps en moyenne, parce que tout le monde croule sous les emails.</p>
-        <p><strong>Mon stack :</strong> Claude Code + MCP Gmail, ou Lindy pour le no-code. Setup en une heure, gain quotidien d'une à deux heures.</p>
-        <div class="profile-links">
-          <a href="/articles/tuto-agent-gmail">Tuto Agent Gmail</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-fuchsia">
-        <span class="profile-tag">02 · Pour les pros</span>
-        <h3>Agent contrats</h3>
-        <p>Relire un contrat fournisseur, identifier les clauses à risque, comparer avec un modèle, te générer une liste de points à négocier. Très utilisé en juridique, finance, achats. ROI immédiat.</p>
-        <p><strong>Mon stack :</strong> Claude Code avec un skill custom de relecture juridique. Tu lui donnes le PDF, il te sort un brief d'analyse en 3 minutes.</p>
-        <div class="profile-links">
-          <a href="/articles/tuto-agent-contrats">Tuto Agent Contrats</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-orange">
-        <span class="profile-tag">03 · Pour les curieux</span>
-        <h3>Agent recherche</h3>
-        <p>Lancer plusieurs requêtes web en parallèle, lire les sources, synthétiser, te livrer un rapport sourcé. Plus puissant qu'une simple recherche Perplexity quand le sujet est complexe ou nécessite des données précises.</p>
-        <p><strong>Mon stack :</strong> le skill <code>deep-research</code> sur Claude Code, ou OpenAI Deep Research. Sortie 5-10 pages sourcées en 10-20 minutes.</p>
-        <div class="profile-links">
-          <a href="/articles/autoresearch-karpathy">L'agent auto-améliorant de Karpathy</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-ink">
-        <span class="profile-tag">04 · Pour les commerciaux</span>
-        <h3>Agent vente</h3>
-        <p>Qualifier un lead, te briefer avant un appel, rédiger un suivi personnalisé, mettre à jour ton CRM. L'agent qui fait gagner du temps sur tout le cycle commercial, sans remplacer l'humain qui ferme.</p>
-        <p><strong>Mon stack :</strong> Claude Code + MCP Sanity ou HubSpot. J'ai construit un agent qui m'a servi pour mon dernier poste d'avant Jerwis.</p>
-        <div class="profile-links">
-          <a href="/articles/outil-vente-claude-code">Mon outil de vente Claude Code</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-teal">
-        <span class="profile-tag">05 · Pour rester informé</span>
-        <h3>Agent veille</h3>
-        <p>Scanner 100+ sources (RSS, Reddit, Hacker News, YouTube, X), filtrer par pertinence, clusterer les sujets chauds, te livrer un digest quotidien ou hebdomadaire. C'est ce qui tourne en coulisses pour ma newsletter AI Playbook.</p>
-        <p><strong>Mon stack :</strong> sous-agents Claude Code en parallèle + scoring custom. Le digest <a href="/news">Jerwis News</a> est généré chaque jour par cet agent.</p>
-        <div class="profile-links">
-          <a href="/news">Voir le digest live</a>
-        </div>
-      </div>
-
-      <div class="profile-card p-fuchsia">
-        <span class="profile-tag">06 · Pour le quotidien</span>
-        <h3>Agent personnel</h3>
-        <p>Calendrier, tâches, rappels, rendez-vous, todo qui se met à jour seule. L'agent qui te sert d'assistant personnel : tu lui parles en français le matin, il organise ta journée. Le plus gros usage de Lindy en 2026.</p>
-        <p><strong>Mon stack :</strong> Lindy pour le no-code ou Claude Code + MCP Google Calendar pour le low-code. ROI : 30 min à 1h gagnée par jour.</p>
-        <div class="profile-links">
-          <a href="/articles/agents-ia-guide">Le guide complet</a>
-          <a href="/articles/hermes-agent">Hermes Agent</a>
-        </div>
-      </div>
+    <h3>Tableau pour choisir</h3>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Ta tâche</th>
+            <th>L'agent qui colle</th>
+            <th>Pour démarrer</th>
+            <th>Ce qu'il touche</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Des fichiers, des documents, des tableaux</td>
+            <td>L'app Claude avec un dossier</td>
+            <td>Claude Pro, 20 $/mois HT</td>
+            <td>Le dossier que tu lui ouvres et tes applis connectées</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Un livrable complet (rapport, présentation, site)</td>
+            <td>ChatGPT Work</td>
+            <td>ChatGPT Plus, 20 $/mois</td>
+            <td>Tes fichiers et tes applis, avec ton autorisation</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Des pages web à lire, comparer ou remplir</td>
+            <td>Un navigateur IA</td>
+            <td>Selon l'outil</td>
+            <td>Les sites que tu visites avec lui</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>La même tâche chaque jour entre deux applis</td>
+            <td>Zapier, Make, n8n ou Lindy</td>
+            <td>Selon l'outil et le volume</td>
+            <td>Les applis que tu relies entre elles</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <div class="callout warn">
-      <h4>Workflows qui plantent souvent</h4>
-      <p>Trois cas d'usage où les agents IA déçoivent en 2026 : <strong>support client autonome 100 %</strong> (les humains restent meilleurs sur les cas complexes), <strong>agents qui prennent des décisions financières seuls</strong> (trop risqué, garde un humain), <strong>agents créatifs sans relecture</strong> (la qualité est inégale, il faut éditer derrière). Ne te lance pas dans ces cas en première intention.</p>
+    <h3>Les cinq étapes que je suis à chaque fois</h3>
+    <ul>
+      <li><strong>1 · Choisis une tâche simple et répétitive.</strong> Une seule. Celle qui t'agace chaque semaine et qui suit toujours le même schéma.</li>
+      <li><strong>2 · Choisis l'agent qui colle</strong>, avec le tableau juste au dessus.</li>
+      <li><strong>3 · Donne-lui le strict nécessaire.</strong> Un dossier d'essai plutôt que tout ton disque, une appli connectée plutôt que dix.</li>
+      <li><strong>4 · Teste en gardant la main.</strong> Dans l'app Claude, un réglage décide à quel point il travaille seul. Auto, le réglage par défaut sur Pro, le laisse avancer avec des vérifications automatiques. Manuel lui fait demander ton accord avant chaque action. Pour tes premières tâches, passe en Manuel. Dans ChatGPT Work, rien ne touche tes fichiers sans ton autorisation.</li>
+      <li><strong>5 · Laisse-le tourner, avec des garde-fous.</strong> Quand il a fait juste plusieurs fois de suite, laisse-le avancer seul, programme la tâche si elle revient, et garde ta validation pour tout ce qui ne se défait pas.</li>
+    </ul>
+
+    <h3>Et si tu veux aller plus loin</h3>
+    <p>
+      Des outils sans code comme Crew AI Studio permettent de monter des équipes d'agents qui collaborent. Au delà, on entre dans le code, avec Claude Code, le Claude Agent SDK ou LangGraph. Je les présente dans <a href="#annexe-code">l'annexe pour les curieux</a>, en bas de page. Pour la plupart des usages perso et même en PME, tu n'en as pas besoin.
+    </p>
+
+    <div class="callout ok">
+      <h4>Mon parcours perso</h4>
+      <p>J'ai commencé en 2024 avec Lindy pour comprendre la logique. En 2025, je suis passé sur Claude Code, et c'est encore là que je fabrique ce site (je le raconte en annexe). Mais pour une tâche de bureau, je ne conseille plus de commencer par là. <strong>L'app Claude avec un dossier, ou ChatGPT Work, te donne un vrai agent sans aucun écran technique.</strong></p>
     </div>
   </div>
 </section>
@@ -1354,102 +1354,86 @@
 <!-- Mini-marquee 4 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>15 €/mois</span><span>50 €/mois</span><span>200 €/mois</span><span>Variable</span><span>Coûts cachés</span><span>Faux gratuit</span>
-    <span>15 €/mois</span><span>50 €/mois</span><span>200 €/mois</span><span>Variable</span><span>Coûts cachés</span><span>Faux gratuit</span>
+    <span>Agent email</span><span>Agent contrats</span><span>Agent recherche</span><span>Agent vente</span><span>Agent veille</span><span>Agent perso</span>
+    <span>Agent email</span><span>Agent contrats</span><span>Agent recherche</span><span>Agent vente</span><span>Agent veille</span><span>Agent perso</span>
   </div>
 </div>
 
-<!-- Section D : Coût d'un agent -->
-<section class="block">
+<!-- Section D : Cas d'usage -->
+<section class="block" id="cas-usage">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Prix</span>
-    <h2>Coût d'un agent IA<br><em class="fuchsia">en 2026.</em></h2>
+    <span class="section-kicker k-orange">Cas d'usage</span>
+    <h2>Six agents qui<br><em class="orange">marchent vraiment.</em></h2>
 
     <p>
-      Le prix d'un agent dépend de trois choses : l'outil que tu choisis (no-code, low-code, full code), le modèle IA derrière (Claude, GPT, Gemini, Llama), et l'intensité d'usage. Voici les fourchettes réelles que je vois autour de moi en mai 2026.
+      Voici les six usages que je vois marcher le mieux, dans mon usage perso et dans ma veille. Pour chacun, je te donne l'agent sans code que je prendrais pour démarrer.
     </p>
 
-    <h3>Tableau des prix indicatifs</h3>
-    <div class="compare-wrap">
-      <table class="compare-table">
-        <thead>
-          <tr>
-            <th>Niveau</th>
-            <th>Outil type</th>
-            <th>Prix mensuel</th>
-            <th>Couvre quoi ?</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>No-code</td>
-            <td>Lindy plan Pro</td>
-            <td>49 USD</td>
-            <td>1 agent personnel, 1000 actions/mois</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-teal"></span>No-code</td>
-            <td>n8n self-host</td>
-            <td>5-15 € (serveur)</td>
-            <td>Workflows illimités, tu paies juste l'infra</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>Claude Pro</td>
-            <td>20 USD</td>
-            <td>Claude Code inclus, 100+ messages/jour</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>Claude Max</td>
-            <td>100 USD</td>
-            <td>Usage intensif, 1M tokens contexte</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Low-code</td>
-            <td>OpenAI Plus + Custom GPTs</td>
-            <td>20 USD</td>
-            <td>Construire et utiliser tes Custom GPTs</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-orange"></span>Full code</td>
-            <td>API Claude au token</td>
-            <td>50-500 € selon usage</td>
-            <td>Liberté totale, paie ce que tu consommes</td>
-          </tr>
-          <tr>
-            <td class="tool-name"><span class="tool-dot dot-orange"></span>Full code</td>
-            <td>API OpenAI au token</td>
-            <td>50-500 € selon usage</td>
-            <td>Idem côté OpenAI</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="profile-grid">
+      <div class="profile-card p-teal">
+        <span class="profile-tag">01 · Le must-have</span>
+        <h3>Agent email</h3>
+        <p>Trier ta boîte mail, répondre aux mails simples, te préparer les réponses complexes, classer par priorité. C'est l'agent qui fait gagner le plus de temps en moyenne, parce que tout le monde croule sous les mails.</p>
+        <p><strong>Pour démarrer.</strong> L'app Claude avec Gmail ou Microsoft 365 connecté, à qui tu demandes de trier et de préparer les brouillons. Ou Lindy, en sans code. L'envoi, garde-le pour toi.</p>
+        <div class="profile-links">
+          <a href="/articles/automatiser-taches-ia-sans-coder">Automatiser sans coder</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-fuchsia">
+        <span class="profile-tag">02 · Pour les pros</span>
+        <h3>Agent contrats</h3>
+        <p>Relire un contrat fournisseur, repérer les clauses à risque, comparer avec un modèle, te sortir la liste des points à négocier. Très utilisé en juridique, en finance et aux achats.</p>
+        <p><strong>Pour démarrer.</strong> Mets le PDF dans un dossier et ouvre-le à l'app Claude ou à ChatGPT Work. Demande les clauses à risque et les points à négocier. Pour un contrat important, la relecture d'un pro reste indispensable.</p>
+        <div class="profile-links">
+          <a href="/articles/ia-qui-travaille-sur-ton-ordinateur">Travailler sur tes fichiers</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-orange">
+        <span class="profile-tag">03 · Pour les curieux</span>
+        <h3>Agent recherche</h3>
+        <p>Lancer plusieurs recherches web, lire les sources, synthétiser, te livrer un rapport sourcé. Plus utile qu'une simple recherche quand le sujet est complexe ou demande des données précises.</p>
+        <p><strong>Pour démarrer.</strong> ChatGPT Work, qui te rend directement un rapport, ou l'app Claude avec son navigateur intégré. Demande toujours les sources, et ouvre-en deux ou trois pour vérifier.</p>
+        <div class="profile-links">
+          <a href="/articles/navigateurs-ia">Les navigateurs IA</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-ink">
+        <span class="profile-tag">04 · Pour les commerciaux</span>
+        <h3>Agent vente</h3>
+        <p>Qualifier un prospect, te briefer avant un appel, rédiger un suivi personnalisé, tenir ton tableau de suivi à jour. L'agent qui fait gagner du temps sur tout le cycle commercial, sans remplacer l'humain qui conclut.</p>
+        <p><strong>Pour démarrer.</strong> Ton tableau de prospects dans un dossier, et l'app Claude ou ChatGPT Work pour préparer le brief avant chaque appel et le mail de suivi juste après.</p>
+        <div class="profile-links">
+          <a href="/lexique/chatgpt-work">La fiche ChatGPT Work</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-teal">
+        <span class="profile-tag">05 · Pour rester informé</span>
+        <h3>Agent veille</h3>
+        <p>Faire le tour de tes sources, filtrer par pertinence, regrouper les sujets chauds, te livrer un digest quotidien ou hebdomadaire. C'est ce qui tourne en coulisses pour ma newsletter AI Playbook.</p>
+        <p><strong>Pour démarrer.</strong> Une tâche planifiée dans l'app Claude, chaque matin, qui fait le tour de tes sources et te rend un résumé. Ou un workflow Zapier ou n8n qui t'envoie la synthèse par mail. Ma propre veille est plus poussée, je l'explique en annexe.</p>
+        <div class="profile-links">
+          <a href="/news">Voir le digest du jour</a>
+        </div>
+      </div>
+
+      <div class="profile-card p-fuchsia">
+        <span class="profile-tag">06 · Pour le quotidien</span>
+        <h3>Agent personnel</h3>
+        <p>Tâches, rappels, rendez-vous, une liste de choses à faire qui se met à jour seule. L'agent qui te sert d'assistant personnel. Tu lui parles le matin, il t'aide à organiser ta journée.</p>
+        <p><strong>Pour démarrer.</strong> L'app Claude avec ta messagerie connectée et une tâche planifiée chaque matin qui te prépare le point de la journée. Ou Lindy, en sans code.</p>
+        <div class="profile-links">
+          <a href="/lexique/cowork">La fiche Cowork</a>
+        </div>
+      </div>
     </div>
 
-    <h3>Les coûts cachés qu'on oublie</h3>
-    <p>
-      Ce qui apparaît sur la facture n'est jamais le coût réel d'un agent. Voici les coûts cachés que je vois revenir tout le temps.
-    </p>
-    <ul>
-      <li><strong>Maintenance</strong> · un agent qui marche aujourd'hui peut casser demain si l'API d'un outil tiers change. Compte 2-3 heures par mois de maintenance pour un agent en prod.</li>
-      <li><strong>Debug</strong> · quand un agent fait n'importe quoi, il faut comprendre pourquoi. Les outils de traçage (LangSmith, Helicone) coûtent 20-50 USD par mois en plus.</li>
-      <li><strong>Monitoring</strong> · si l'agent tourne sans surveillance, tu peux te réveiller un matin avec une facture API de 500 € parce qu'il a bouclé sur une erreur toute la nuit. Toujours mettre un plafond de coût quotidien.</li>
-      <li><strong>Apprentissage</strong> · le temps que tu passes à apprendre l'outil et à itérer sur tes prompts. La première semaine, compte 10-15 heures pour un setup propre.</li>
-    </ul>
-
-    <h3>Quand un agent payant vaut le coup</h3>
-    <p>
-      Ma règle simple : <strong>un agent vaut son prix quand il te fait gagner au moins 3 heures par mois.</strong> À 50 € par mois, 3 heures gagnées au tarif de 25 € de l'heure (ton temps perso de base), tu es déjà rentable. Pour un agent vente ou contrats qui te fait gagner 10 heures par mois, le ROI est massif.
-    </p>
-
-    <p>
-      <strong>Ce qui ne vaut pas le coup :</strong> payer pour un agent que tu n'utilises que pour le frime. Pas la peine de t'abonner à un outil à 99 USD pour faire « waw, j'ai un agent IA ». Démarre avec Claude Pro à 20 USD ou un n8n gratuit, et upgrade quand le besoin réel arrive.
-    </p>
-
-    <div class="callout tip">
-      <h4>Mon setup et son coût réel</h4>
-      <p>Pour Jerwis, je suis sur Claude Max (100 USD/mois) + API Anthropic en complément (~50 USD/mois selon usage) + quelques MCP servers gratuits. Total : 150-180 USD par mois pour 5-6 agents actifs en permanence. Compte ~10 heures gagnées par semaine. ROI : largement positif.</p>
+    <div class="callout warn">
+      <h4>Les usages qui plantent souvent</h4>
+      <p>Trois cas où les agents IA déçoivent en 2026. <strong>Le support client 100 % autonome</strong> (les humains restent meilleurs sur les cas complexes), <strong>les agents qui prennent des décisions financières seuls</strong> (trop risqué, garde un humain), <strong>les agents créatifs sans relecture</strong> (la qualité est inégale, il faut éditer derrière). Ne te lance pas dans ces cas en première intention.</p>
     </div>
   </div>
 </section>
@@ -1457,195 +1441,236 @@
 <!-- Mini-marquee 5 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>LLM</span><span>Tools</span><span>Mémoire</span><span>Boucle</span><span>Garde-fous</span><span>Humain</span>
-    <span>LLM</span><span>Tools</span><span>Mémoire</span><span>Boucle</span><span>Garde-fous</span><span>Humain</span>
+    <span>Offre gratuite</span><span>20 $/mois</span><span>Dès 100 $/mois</span><span>Au token</span><span>Coûts cachés</span><span>Faux gratuit</span>
+    <span>Offre gratuite</span><span>20 $/mois</span><span>Dès 100 $/mois</span><span>Au token</span><span>Coûts cachés</span><span>Faux gratuit</span>
   </div>
 </div>
 
-<!-- Section E : Architecture -->
-<section class="block">
+<!-- Section E : Coût d'un agent -->
+<section class="block" id="prix">
   <div class="container">
-    <span class="section-kicker k-teal">— Sous le capot</span>
-    <h2>Architecture d'un agent ·<br><em class="teal">les briques techniques.</em></h2>
+    <span class="section-kicker k-fuchsia">Prix</span>
+    <h2>Combien ça coûte<br><em class="fuchsia">en novembre 2026.</em></h2>
 
     <p>
-      Que tu sois en no-code, low-code ou full code, un agent IA est toujours composé des mêmes briques. Comprendre ces briques te permet de mieux choisir tes outils et de mieux débugger quand quelque chose plante. Voici les six briques fondamentales.
+      Le prix d'un agent dépend de trois choses. L'outil que tu choisis, le modèle IA derrière, et l'intensité de ton usage. Voici les prix que j'ai relevés le 2 novembre 2026 sur les pages officielles. Ils bougent souvent, vérifie avant de t'abonner.
     </p>
 
-    <h3>Brique 1 · Le LLM (le cerveau)</h3>
-    <p>
-      C'est le modèle de langage qui raisonne, décide quel outil appeler, interprète les résultats. En 2026, les leaders sont <strong>Claude (Anthropic), GPT (OpenAI), Gemini (Google) et Llama (Meta, open-source)</strong>. Le choix du LLM impacte la qualité de raisonnement, la vitesse, le coût. Pour un agent perso, Claude Sonnet 4.x ou GPT-5 mini sont des choix solides. <a href="/lexique/llm">Lire la fiche LLM</a>.
-    </p>
+    <h3>Tableau des prix</h3>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Offre</th>
+            <th>Prix</th>
+            <th>Ce que tu as</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Offres gratuites de Claude et ChatGPT</td>
+            <td>0 $</td>
+            <td>Pour discuter et tester. Claude gratuit te donne Sonnet 5.5, et l'app de bureau ChatGPT te fait essayer GPT-6 Luna. Pas le mode agent sur tes fichiers.</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Claude Pro</td>
+            <td>20 $/mois HT (17 $ en annuel)</td>
+            <td>L'app Claude avec un dossier, et Claude Opus 5.5</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>ChatGPT Plus</td>
+            <td>20 $/mois</td>
+            <td>ChatGPT Work, avec GPT-6.1 Sol</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Claude Max</td>
+            <td>Dès 100 $/mois</td>
+            <td>Un usage intensif, et Claude Fable 5.1, le plus puissant de Claude, pour les cas durs</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Zapier, Make, Lindy</td>
+            <td>Selon l'outil et le nombre de tâches</td>
+            <td>Regarde leur page de prix, elle change souvent</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>n8n installé chez toi</td>
+            <td>Le prix de ton serveur</td>
+            <td>Des workflows illimités, tu paies juste l'hébergement</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>API au token</td>
+            <td>Au million de tokens</td>
+            <td>Pour les agents que tu codes, les prix sont dans <a href="#annexe-code">l'annexe</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-    <h3>Brique 2 · Les tools (function calling)</h3>
+    <h3>Les coûts cachés qu'on oublie</h3>
     <p>
-      Les tools sont les outils que l'agent peut appeler. Lire un fichier, envoyer un email, faire une recherche web, interroger une API. Techniquement, c'est ce qu'on appelle le <strong>function calling</strong> : tu décris à l'agent une fonction (nom, paramètres, ce qu'elle fait), il décide quand l'appeler. Sans tools, l'agent n'est qu'un chatbot. <a href="/lexique/tool-use">Lire la fiche Tool use</a>.
-    </p>
-
-    <h3>Brique 3 · MCP (Model Context Protocol)</h3>
-    <p>
-      MCP est le standard ouvert lancé par Anthropic fin 2024, qui permet à n'importe quel agent de se brancher à n'importe quel service externe. Au lieu de coder une intégration custom pour chaque outil (Sanity, Stripe, Telegram, GitHub), tu installes un MCP server et l'agent peut s'en servir comme s'il avait été conçu pour. <strong>C'est ce qui a fait exploser l'écosystème des agents en 2025-2026</strong>. <a href="/lexique/mcp">Lire la fiche MCP</a>.
-    </p>
-
-    <h3>Brique 4 · La mémoire</h3>
-    <p>
-      Sans mémoire, un agent oublie tout entre deux runs. La mémoire se découpe en deux couches : <strong>court terme</strong> (le contexte de la conversation en cours, limité à 200K-1M tokens selon le modèle) et <strong>long terme</strong> (souvent implémentée via des <a href="/lexique/embedding">embeddings</a> stockés dans une base vectorielle comme Pinecone, Supabase pgvector ou Weaviate). La mémoire long terme permet à l'agent de se rappeler de tes préférences, de tes interactions passées, de tes documents.
-    </p>
-
-    <h3>Brique 5 · La boucle d'exécution (agentic loop)</h3>
-    <p>
-      C'est le cœur de ce qui distingue un agent d'un chatbot. La boucle typique : l'agent pense, choisit un tool, l'exécute, observe le résultat, recommence si l'objectif n'est pas atteint. Cette boucle peut tourner 1 fois ou 100 fois selon la complexité de la tâche. <strong>Ce sont ces itérations qui font l'autonomie d'un agent.</strong> <a href="/lexique/agentic-workflow">Lire la fiche Agentic workflow</a>.
-    </p>
-
-    <h3>Brique 6 · Garde-fous et human in the loop</h3>
-    <p>
-      Les <a href="/lexique/guardrail">garde-fous (guardrails)</a> sont les règles qui empêchent l'agent de faire des bêtises : interdiction de toucher à certains fichiers, de dépasser un budget, d'envoyer un mail sans validation. Le <a href="/lexique/human-in-the-loop">human in the loop</a>, c'est demander à un humain de valider les actions sensibles avant qu'elles ne soient exécutées. Ces deux briques sont indispensables dès que l'agent touche à de la donnée réelle. Sans elles, c'est juste une question de temps avant qu'il fasse une bêtise.
-    </p>
-
-    <h3>Schéma simplifié de l'architecture</h3>
-    <p>
-      Voici comment ces briques s'articulent dans la pratique :
+      Ce qui apparaît sur la facture n'est jamais le coût réel d'un agent. Voici ceux que je vois revenir tout le temps.
     </p>
     <ul>
-      <li><strong>Tu donnes une intention</strong> en français à l'agent.</li>
-      <li><strong>Le LLM</strong> décompose en sous-tâches.</li>
-      <li><strong>Pour chaque sous-tâche, l'agent choisit un tool</strong> (lire un fichier, faire une recherche, appeler une API).</li>
-      <li><strong>Le tool s'exécute</strong> via MCP ou function calling natif.</li>
-      <li><strong>L'agent observe le résultat</strong>, le sauvegarde si pertinent dans la mémoire, et décide de la prochaine étape.</li>
-      <li><strong>Sur les actions sensibles</strong>, l'agent passe la main à l'humain pour validation.</li>
-      <li><strong>La boucle continue</strong> jusqu'à l'objectif atteint, le budget épuisé ou l'arrêt explicite.</li>
+      <li><strong>Relecture</strong> · au début, tu relis tout ce que l'agent a fait. C'est normal, et c'est ce qui t'évite les mauvaises surprises. Ce temps baisse à mesure que tu lui fais confiance.</li>
+      <li><strong>Limites d'usage</strong> · les abonnements ont des limites. Une grosse tâche d'agent en consomme bien plus qu'une question dans le chat. Si tu les atteins souvent, c'est le signe qu'il te faut l'offre au dessus.</li>
+      <li><strong>Maintenance</strong> · une automatisation qui marche aujourd'hui peut casser demain si une appli change. Compte quelques heures par mois pour garder tes automatisations en forme.</li>
+      <li><strong>Boucle sans fin</strong> · une automatisation ou une tâche planifiée qui tourne sur une erreur peut consommer ton quota ou ton crédit toute la nuit. Mets toujours une limite.</li>
+      <li><strong>Apprentissage</strong> · le temps que tu passes à découvrir l'outil et à affiner tes consignes. La première semaine, compte quelques heures pour trouver tes réglages.</li>
     </ul>
 
+    <h3>Quand un agent payant vaut le coup</h3>
     <p>
-      C'est cette architecture qui permet à un agent de te livrer un brief de qualification client en 3 minutes, ou de te générer une newsletter complète en 10 minutes. <strong>Ce n'est pas magique, c'est juste de l'orchestration.</strong>
+      Ma règle simple. <strong>Un agent vaut son prix quand il te fait gagner au moins 3 heures par mois.</strong> À 20 $ par mois, 3 heures gagnées au tarif de 25 € de l'heure (ton temps perso de base), tu es déjà largement rentable. Pour un agent vente ou contrats qui te fait gagner 10 heures par mois, le retour est énorme.
+    </p>
+    <p>
+      <strong>Ce qui ne vaut pas le coup</strong>, c'est payer pour un agent que tu n'utilises presque jamais. Pas la peine de t'abonner à un outil à 100 $ par mois pour dire « j'ai un agent IA ». Démarre avec Claude Pro ou ChatGPT Plus à 20 $ par mois, ou un n8n gratuit, et monte en gamme quand le besoin réel arrive.
     </p>
 
-    <p>
-      Pour aller plus loin sur le <a href="/lexique/context-engineering">context engineering</a> (l'art de donner le bon contexte au bon moment à un agent), je conseille de lire la fiche dédiée ou de me suivre via la newsletter — c'est un sujet qui mérite plusieurs articles à lui tout seul.
-    </p>
+    <div class="callout tip">
+      <h4>Mon setup et son coût réel</h4>
+      <p>Pour Jerwis, je suis sur Claude Max, l'offre à 100 $ par mois, plus un peu d'API pour les automatisations qui tournent seules, comme ma veille du matin. Je compte une dizaine d'heures gagnées par semaine. Le calcul est vite fait.</p>
+    </div>
   </div>
 </section>
 
 <!-- Mini-marquee 6 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Erreur 1</span><span>Erreur 2</span><span>Erreur 3</span><span>Erreur 4</span><span>Erreur 5</span><span>Apprends de mes échecs</span>
-    <span>Erreur 1</span><span>Erreur 2</span><span>Erreur 3</span><span>Erreur 4</span><span>Erreur 5</span><span>Apprends de mes échecs</span>
+    <span>LLM</span><span>Tools</span><span>Mémoire</span><span>Boucle</span><span>Garde-fous</span><span>Humain</span>
+    <span>LLM</span><span>Tools</span><span>Mémoire</span><span>Boucle</span><span>Garde-fous</span><span>Humain</span>
   </div>
 </div>
 
-<!-- Section F : Erreurs classiques -->
-<section class="block">
+<!-- Section F : Architecture -->
+<section class="block" id="sous-le-capot">
   <div class="container">
-    <span class="section-kicker k-orange">— Pièges</span>
-    <h2>Erreurs classiques quand<br><em class="orange">on construit son premier agent.</em></h2>
+    <span class="section-kicker k-teal">Sous le capot</span>
+    <h2>Architecture d'un agent ·<br><em class="teal">les briques techniques.</em></h2>
 
     <p>
-      J'ai fait toutes ces erreurs au moins une fois. Si tu démarres, voici les six pièges les plus fréquents et comment les éviter. Cette section va te faire gagner des semaines.
+      Que tu passes par l'app Claude, ChatGPT Work ou un outil sans code, un agent IA est toujours fait des mêmes briques. Les connaître t'aide à mieux choisir tes outils et à comprendre ce qui coince quand quelque chose plante. Voici les six briques fondamentales.
     </p>
 
-    <h3>Erreur 1 · Sur-confiance dans l'agent</h3>
+    <h3>Brique 1 · Le LLM (le cerveau)</h3>
     <p>
-      La première fois qu'un agent te livre un truc impressionnant, tu te dis « c'est bon, je peux le lâcher en autonomie ». Mauvaise idée. Un agent qui marche 9 fois sur 10 va te lâcher la 10ème fois sur l'action la plus importante. <strong>Règle : si une erreur de l'agent peut te coûter cher (mail envoyé au mauvais client, donnée supprimée), garde un humain dans la boucle.</strong>
+      C'est le modèle de langage qui raisonne, décide quel outil appeler et interprète les résultats. En novembre 2026, les leaders sont <strong>Claude (Anthropic), GPT (OpenAI), Gemini (Google) et, côté européen, Mistral</strong>. Le choix du modèle joue sur la qualité du raisonnement, la vitesse et le prix. Pour un agent perso, Claude Sonnet 5.5 est le meilleur compromis, et tu l'as même en gratuit. Claude Opus 5.5 est celui qu'Anthropic conseille pour commencer, très fort sur les tâches d'agent. Chez OpenAI, GPT-6.1 Sol est le bon choix par défaut, et GPT-6 Luna le petit modèle pas cher pour les tâches simples et répétées. Chez Google, le nouveau modèle phare s'appelle Gemini 4 Argon. <a href="/modeles-ia">Tous les modèles comparés</a> · <a href="/lexique/llm">la fiche LLM</a>.
     </p>
 
-    <h3>Erreur 2 · Pas de logs</h3>
+    <h3>Brique 2 · Les tools (function calling)</h3>
     <p>
-      Quand l'agent fait n'importe quoi, tu veux comprendre pourquoi. Sans logs détaillés (quel prompt envoyé, quel tool appelé, quel résultat reçu), tu es aveugle. <strong>Configure un logging minimal dès le jour 1.</strong> Pour Claude Code, c'est natif. Pour les autres outils, branche LangSmith, Helicone ou un fichier de log basique.
+      Les tools sont les outils que l'agent peut appeler. Lire un fichier, envoyer un mail, faire une recherche web, interroger un service. Techniquement, c'est ce qu'on appelle le <strong>function calling</strong>. On décrit à l'agent une fonction (son nom, ses paramètres, ce qu'elle fait), et il décide quand l'appeler. Sans tools, l'agent n'est qu'un chatbot. <a href="/lexique/tool-use">Lire la fiche Tool use</a>.
     </p>
 
-    <h3>Erreur 3 · Pas de timeout ni de budget plafond</h3>
+    <h3>Brique 3 · MCP (Model Context Protocol)</h3>
     <p>
-      Un agent peut boucler indéfiniment sur une erreur, en consommant des tokens à chaque itération. J'ai vu des cas réels où un agent en autonomie a généré 200 € de tokens en une nuit parce qu'il était coincé sur une boucle d'erreur. <strong>Toujours mettre un nombre max d'itérations (genre 20) et un budget plafond quotidien.</strong>
+      MCP est le standard ouvert lancé par Anthropic fin 2024, qui permet à n'importe quel agent de se brancher sur n'importe quel service externe. Au lieu de coder une intégration sur mesure pour chaque outil, on branche un serveur MCP et l'agent s'en sert comme s'il avait été conçu pour. C'est la même idée que les applis connectées de l'app Claude, quand tu lui branches Gmail ou Slack. <strong>C'est ce qui a fait exploser l'écosystème des agents en 2025 et 2026.</strong> <a href="/lexique/mcp">Lire la fiche MCP</a>.
     </p>
 
-    <h3>Erreur 4 · Credentials en clair</h3>
+    <h3>Brique 4 · La mémoire</h3>
     <p>
-      Brancher un agent à ton Gmail nécessite des credentials OAuth. Si tu colles ces credentials dans un prompt ou dans un fichier non-protégé, c'est game over en cas de fuite. <strong>Toujours utiliser des variables d'environnement (.env) et les ajouter à .gitignore.</strong> Pour les agents qui touchent à des données sensibles, j'utilise un coffre-fort de secrets (1Password CLI, Doppler, Vercel env).
+      Sans mémoire, un agent oublie tout entre deux tâches. La mémoire se découpe en deux couches. <strong>Le court terme</strong>, c'est le contexte de la conversation en cours, jusqu'à 1 million de tokens chez Claude Opus 5.5 et Sonnet 5.5. <strong>Le long terme</strong> passe souvent par des <a href="/lexique/embedding">embeddings</a> stockés dans une base vectorielle comme Pinecone, Supabase pgvector ou Weaviate. La mémoire long terme permet à l'agent de se rappeler tes préférences, tes échanges passés et tes documents.
     </p>
 
-    <h3>Erreur 5 · Prompt trop vague</h3>
+    <h3>Brique 5 · La boucle d'exécution (agentic loop)</h3>
     <p>
-      « Trie mes emails » est un prompt qui produira un résultat médiocre. « Trie mes emails dans 4 catégories : Urgent à répondre aujourd'hui, À répondre cette semaine, Newsletters à archiver, Spam à supprimer. Pour chaque email, donne ta confidence en % » donnera un résultat 10× meilleur. <strong>Plus le prompt est précis et structuré, meilleur est l'agent.</strong> C'est tout l'art du <a href="/lexique/context-engineering">context engineering</a>.
+      C'est le cœur de ce qui distingue un agent d'un chatbot. La boucle typique, c'est penser, choisir un tool, l'exécuter, observer le résultat, et recommencer si l'objectif n'est pas atteint. Cette boucle peut tourner une fois ou cent fois selon la complexité de la tâche. <strong>Ce sont ces allers-retours qui font l'autonomie d'un agent.</strong> <a href="/lexique/agentic-workflow">Lire la fiche Agentic workflow</a>.
     </p>
 
-    <h3>Erreur 6 · Vouloir tout faire d'un coup</h3>
+    <h3>Brique 6 · Garde-fous et human in the loop</h3>
     <p>
-      Le premier agent que tu construis doit faire UNE chose, bien. Pas trier les emails ET planifier la journée ET générer des résumés. Démarre simple, ajoute des capacités une par une, teste à chaque étape. <strong>Un agent qui fait une seule chose bien vaut mieux qu'un agent qui essaie de tout faire mal.</strong> C'est valable pour l'ingénierie logicielle depuis 50 ans, c'est aussi vrai pour les agents.
+      Les <a href="/lexique/guardrail">garde-fous (guardrails)</a> sont les règles qui empêchent l'agent de faire des bêtises, comme toucher à certains fichiers, dépasser un budget ou envoyer un mail sans validation. Le <a href="/lexique/human-in-the-loop">human in the loop</a>, c'est demander à un humain de valider les actions sensibles avant qu'elles ne soient exécutées. Le réglage Manuel de l'app Claude et les autorisations de ChatGPT Work, c'est exactement ça. Ces deux briques sont indispensables dès que l'agent touche à de vraies données.
     </p>
 
-    <h3>Erreur 7 · Ignorer le coût de maintenance</h3>
+    <h3>Schéma simplifié de l'architecture</h3>
     <p>
-      Tu construis un agent en une heure, il marche, tu passes à autre chose. Trois mois plus tard, l'API Gmail change un endpoint, l'agent plante silencieusement, tu rates des emails importants pendant deux semaines avant de t'en rendre compte. <strong>Mets en place une alerte simple (mail à toi-même, notif Telegram) qui te prévient si l'agent ne tourne plus comme prévu.</strong>
+      Voici comment ces briques s'articulent dans la pratique.
+    </p>
+    <ul>
+      <li><strong>Tu donnes une intention</strong> en français à l'agent.</li>
+      <li><strong>Le LLM</strong> la découpe en sous-tâches.</li>
+      <li><strong>Pour chaque sous-tâche, l'agent choisit un tool</strong> (lire un fichier, faire une recherche, utiliser une appli connectée).</li>
+      <li><strong>Le tool s'exécute</strong>, via MCP ou le function calling natif.</li>
+      <li><strong>L'agent observe le résultat</strong>, le garde en mémoire si c'est utile, et décide de l'étape suivante.</li>
+      <li><strong>Sur les actions sensibles</strong>, l'agent te passe la main pour validation.</li>
+      <li><strong>La boucle continue</strong> jusqu'à l'objectif atteint, la limite atteinte ou ton arrêt.</li>
+    </ul>
+
+    <p>
+      C'est cette architecture qui permet à un agent de te rendre un tableau de factures propre ou un comparatif de devis pendant que tu fais autre chose. <strong>Pas de magie, juste de l'orchestration.</strong>
     </p>
 
-    <div class="callout warn">
-      <h4>La règle qui résume tout</h4>
-      <p><strong>Traite ton agent comme un stagiaire malin mais inexpérimenté.</strong> Tu lui donnes des instructions claires, tu valides son travail au début, tu lui laisses de plus en plus d'autonomie au fur et à mesure que tu lui fais confiance. Et tu lui demandes de te demander avant de faire quelque chose d'irréversible. Avec ce mindset, tu évites 90 % des problèmes.</p>
-    </div>
+    <p>
+      Pour aller plus loin sur le <a href="/lexique/context-engineering">context engineering</a>, l'art de donner le bon contexte au bon moment à un agent, je te conseille la fiche dédiée. C'est un sujet qui mérite plusieurs articles à lui tout seul.
+    </p>
   </div>
 </section>
 
 <!-- Mini-marquee 7 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Articles essentiels</span><span>Pour aller plus loin</span><span>Tutos complets</span><span>Cas pratiques</span><span>Vraies erreurs</span><span>Vraies victoires</span>
-    <span>Articles essentiels</span><span>Pour aller plus loin</span><span>Tutos complets</span><span>Cas pratiques</span><span>Vraies erreurs</span><span>Vraies victoires</span>
+    <span>Sur-confiance</span><span>Tout le disque</span><span>Pas de limite</span><span>Page piégée</span><span>Consigne floue</span><span>Apprends de mes échecs</span>
+    <span>Sur-confiance</span><span>Tout le disque</span><span>Pas de limite</span><span>Page piégée</span><span>Consigne floue</span><span>Apprends de mes échecs</span>
   </div>
 </div>
 
-<!-- Section G : Articles essentiels -->
-<section class="block">
+<!-- Section G : Risques et erreurs classiques -->
+<section class="block" id="pieges">
   <div class="container">
-    <span class="section-kicker k-teal">— Approfondir</span>
-    <h2>Articles essentiels<br><em class="teal">Agents IA.</em></h2>
+    <span class="section-kicker k-orange">Pièges</span>
+    <h2>Les risques et les erreurs<br><em class="orange">du premier agent.</em></h2>
 
     <p>
-      Sur Jerwis, j'ai publié plusieurs articles plus longs sur les agents IA. Chacun complète un angle de ce guide. Voici l'ordre dans lequel je te recommande de les lire selon ton point de départ.
+      J'ai fait toutes ces erreurs au moins une fois. Si tu démarres, voici les pièges les plus fréquents et comment les éviter. Cette section va te faire gagner des semaines.
     </p>
 
-    <div class="articles-grid">
-      <a class="article-card c-teal" href="/articles/agents-ia-guide">
-        <span class="article-kicker"><span class="dot"></span>15 min · Le pilier</span>
-        <h3>Le guide complet pour créer ton agent IA</h3>
-        <p>Le grand guide où je rentre dans le détail : briques techniques, cas d'usage, comment ça marche concrètement étape par étape. À lire en premier si tu pars de zéro.</p>
-        <span class="article-read">Lire l'article →</span>
-      </a>
+    <h3>Erreur 1 · Sur-confiance dans l'agent</h3>
+    <p>
+      La première fois qu'un agent te livre un résultat impressionnant, tu te dis « c'est bon, je peux le lâcher en autonomie ». Mauvaise idée. Un agent qui marche 9 fois sur 10 va te lâcher la 10e fois, et souvent sur l'action la plus importante. <strong>Si une erreur de l'agent peut te coûter cher (mail envoyé au mauvais client, fichier écrasé), garde un humain dans la boucle.</strong>
+    </p>
 
-      <a class="article-card c-fuchsia" href="/articles/hermes-agent">
-        <span class="article-kicker"><span class="dot"></span>10 min · Pas à pas</span>
-        <h3>Construire un Hermes Agent pas à pas</h3>
-        <p>Le tuto où je te montre comment j'ai construit mon agent Hermes qui me notifie sur Telegram quand mes builds Vercel passent ou plantent. Setup réel, code réel.</p>
-        <span class="article-read">Lire l'article →</span>
-      </a>
+    <h3>Erreur 2 · Lui ouvrir tout ton disque</h3>
+    <p>
+      Un agent qui a accès à tout peut se tromper partout. Ouvre-lui un seul dossier, précis, et travaille sur une copie tant que tu découvres l'outil. Un dossier précis, c'est un travail précis. Bonne nouvelle, l'app Claude demande avant de supprimer définitivement un fichier, et ne touche à tes fichiers que tant que l'app est ouverte.
+    </p>
 
-      <a class="article-card c-orange" href="/articles/tuto-agent-gmail">
-        <span class="article-kicker"><span class="dot"></span>8 min · Tuto pratique</span>
-        <h3>Agent Gmail · le tuto complet</h3>
-        <p>Comment brancher un agent IA sur ta boîte Gmail pour trier, brouillonner et répondre. Le cas d'usage qui démarre le mieux pour un premier agent perso.</p>
-        <span class="article-read">Lire l'article →</span>
-      </a>
+    <h3>Erreur 3 · Ne pas regarder ce qu'il a fait</h3>
+    <p>
+      Quand l'agent fait n'importe quoi, tu veux comprendre pourquoi. <strong>Demande-lui toujours la liste de ce qu'il a lu, créé ou déplacé, et garde-la.</strong> Dans les outils d'automatisation, regarde l'historique des exécutions, il est fait pour ça.
+    </p>
 
-      <a class="article-card c-teal" href="/articles/tuto-agent-contrats">
-        <span class="article-kicker"><span class="dot"></span>10 min · Tuto pro</span>
-        <h3>Agent Contrats · le tuto</h3>
-        <p>Relire un contrat fournisseur, identifier les clauses à risque, générer une liste de points à négocier. Utile pour avocats, achats, finance, ou tout entrepreneur qui signe des contrats.</p>
-        <span class="article-read">Lire l'article →</span>
-      </a>
+    <h3>Erreur 4 · Pas de limite ni de surveillance</h3>
+    <p>
+      Une automatisation ou une tâche planifiée peut boucler sur une erreur. J'ai vu des cas réels où un agent laissé seul a généré 200 € de tokens en une nuit parce qu'il était coincé dans une boucle d'erreur. <strong>Mets une limite au nombre de passages, et surveille ta consommation la première semaine.</strong>
+    </p>
 
-      <a class="article-card c-fuchsia" href="/articles/autoresearch-karpathy">
-        <span class="article-kicker"><span class="dot"></span>12 min · Théorie</span>
-        <h3>Les agents auto-améliorants</h3>
-        <p>Andrej Karpathy a popularisé l'idée d'agents qui s'auto-évaluent et s'améliorent. Je vulgarise ses travaux et je te montre comment appliquer ces principes à tes propres agents.</p>
-        <span class="article-read">Lire l'article →</span>
-      </a>
+    <h3>Erreur 5 · Des mots de passe à sa portée</h3>
+    <p>
+      Ne lui ouvre jamais un dossier qui contient des mots de passe, des codes d'accès ou des données médicales, et ne colle jamais un mot de passe dans un message. <strong>Quand une appli doit se connecter, passe par son bouton de connexion officiel</strong>, jamais par un copier-coller.
+    </p>
 
-      <a class="article-card c-orange" href="/articles/outil-vente-claude-code">
-        <span class="article-kicker"><span class="dot"></span>12 min · Cas réel</span>
-        <h3>L'outil de vente que j'ai construit en Claude Code</h3>
-        <p>Le cas d'usage agent vente que j'ai monté pour mon dernier job. Architecture, choix d'outils, ce qui a marché, ce qui a planté. Le post-mortem honnête.</p>
-        <span class="article-read">Lire l'article →</span>
-      </a>
+    <h3>Erreur 6 · Croire qu'une page web ne peut pas le piéger</h3>
+    <p>
+      Un navigateur IA lit les pages pour toi, y compris ce qu'une page malveillante y a caché pour lui donner des ordres. C'est ce qu'on appelle l'<a href="/lexique/prompt-injection">injection de prompt</a>. <strong>Ne le laisse pas se connecter à tes comptes sans surveiller, et relis toujours le panier avant un achat.</strong>
+    </p>
+
+    <h3>Erreur 7 · Une consigne trop vague</h3>
+    <p>
+      « Trie mes mails » donnera un résultat médiocre. « Trie mes mails dans 4 catégories, Urgent à répondre aujourd'hui, À répondre cette semaine, Newsletters à archiver, Spam. Pour chaque mail, donne ton niveau de confiance en % » donnera un résultat dix fois meilleur. <strong>Plus la consigne est précise et structurée, meilleur est l'agent.</strong> C'est tout l'art du <a href="/lexique/context-engineering">context engineering</a>.
+    </p>
+
+    <h3>Erreur 8 · Vouloir tout faire d'un coup</h3>
+    <p>
+      Ton premier agent doit faire UNE chose, bien. Pas trier les mails ET planifier la journée ET générer des résumés. Démarre simple, ajoute des capacités une par une, teste à chaque étape. <strong>Un agent qui fait une seule chose bien vaut mieux qu'un agent qui essaie de tout faire mal.</strong>
+    </p>
+
+    <h3>Erreur 9 · Oublier l'entretien</h3>
+    <p>
+      Tu montes une automatisation en une heure, elle marche, tu passes à autre chose. Trois mois plus tard, une appli change, l'automatisation plante sans bruit, et tu rates des mails importants pendant deux semaines avant de t'en rendre compte. <strong>Mets en place une alerte simple (un mail à toi-même, une notification) qui te prévient si l'agent ne tourne plus comme prévu.</strong>
+    </p>
+
+    <div class="callout warn">
+      <h4>La règle qui résume tout</h4>
+      <p><strong>Traite ton agent comme un stagiaire malin mais inexpérimenté.</strong> Tu lui donnes des consignes claires, tu valides son travail au début, tu lui laisses de plus en plus d'autonomie à mesure que tu lui fais confiance. Et tu lui demandes de te demander avant de faire quelque chose d'irréversible. Avec ce réflexe, tu évites la grande majorité des problèmes.</p>
     </div>
   </div>
 </section>
@@ -1653,19 +1678,83 @@
 <!-- Mini-marquee 8 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Glossaire</span><span>10 termes</span><span>Définis vite</span><span>Liens vers le détail</span><span>Vocabulaire 2026</span><span>L'essentiel</span>
-    <span>Glossaire</span><span>10 termes</span><span>Définis vite</span><span>Liens vers le détail</span><span>Vocabulaire 2026</span><span>L'essentiel</span>
+    <span>Articles essentiels</span><span>Pour aller plus loin</span><span>Pas à pas</span><span>Cas pratiques</span><span>Sans code</span><span>Sources datées</span>
+    <span>Articles essentiels</span><span>Pour aller plus loin</span><span>Pas à pas</span><span>Cas pratiques</span><span>Sans code</span><span>Sources datées</span>
   </div>
 </div>
 
-<!-- Section H : Glossaire -->
+<!-- Section H : Articles essentiels -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-fuchsia">— Vocabulaire</span>
+    <span class="section-kicker k-teal">Approfondir</span>
+    <h2>Articles essentiels<br><em class="teal">Agents IA.</em></h2>
+
+    <p>
+      Sur Jerwis, plusieurs articles complètent ce guide, tous sans une ligne de code. Voici l'ordre dans lequel je te les conseille si tu pars de zéro.
+    </p>
+
+    <div class="articles-grid">
+      <a class="article-card c-teal" href="/articles/ia-qui-travaille-sur-ton-ordinateur">
+        <span class="article-kicker"><span class="dot"></span>10 min · Le pas à pas</span>
+        <h3>L'IA qui travaille sur ton ordinateur</h3>
+        <p>Installer l'app Claude ou ChatGPT, lui ouvrir un dossier, cinq premières tâches à copier et les réglages qui évitent les mauvaises surprises. À lire en premier.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/apprendre#etape-03">
+        <span class="article-kicker"><span class="dot"></span>Parcours · Étape 3</span>
+        <h3>La faire travailler pour toi</h3>
+        <p>L'étape du parcours Apprendre où tu fais créer des documents, des tableaux et des pages à l'IA, dans l'app Claude ou ChatGPT.</p>
+        <span class="article-read">Ouvrir l'étape →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/articles/automatiser-taches-ia-sans-coder">
+        <span class="article-kicker"><span class="dot"></span>11 min · Sans code</span>
+        <h3>Automatiser tes tâches avec l'IA sans coder</h3>
+        <p>Zapier, Make et les autres, la méthode pour choisir ta première automatisation et cinq exemples à copier.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-teal" href="/articles/navigateurs-ia">
+        <span class="article-kicker"><span class="dot"></span>9 min · Décryptage</span>
+        <h3>Navigateurs IA · Comet, Atlas et Chrome comparés</h3>
+        <p>Ce qu'un navigateur IA change au quotidien, s'il faut vraiment quitter Chrome, et la question de la confidentialité.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/articles/donnees-perso-ia-confidentialite">
+        <span class="article-kicker"><span class="dot"></span>9 min · Prudence</span>
+        <h3>Ce que les IA font de tes données</h3>
+        <p>Avant d'ouvrir un dossier à un agent, ce qui arrive vraiment à ce que tu confies à une IA, et les réglages à connaître.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/lexique/mode-agent">
+        <span class="article-kicker"><span class="dot"></span>Lexique · Fiche</span>
+        <h3>Le mode agent en clair</h3>
+        <p>La fiche du lexique qui résume le mode agent, avec ses mots liés, Cowork, ChatGPT Work et navigateur IA.</p>
+        <span class="article-read">Lire la fiche →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Mini-marquee 9 -->
+<div class="mini-marquee" aria-hidden="true">
+  <div class="mini-marquee-track">
+    <span>Glossaire</span><span>16 termes</span><span>Définis vite</span><span>Liens vers le détail</span><span>Vocabulaire 2026</span><span>L'essentiel</span>
+    <span>Glossaire</span><span>16 termes</span><span>Définis vite</span><span>Liens vers le détail</span><span>Vocabulaire 2026</span><span>L'essentiel</span>
+  </div>
+</div>
+
+<!-- Section I : Glossaire -->
+<section class="block">
+  <div class="container">
+    <span class="section-kicker k-fuchsia">Vocabulaire</span>
     <h2>Glossaire<br><em class="fuchsia">agent IA.</em></h2>
 
     <p>
-      Les 12 termes que tu vas croiser en permanence quand tu construis des agents IA. Définition courte ici, lien vers la fiche détaillée pour approfondir.
+      Les 16 termes que tu vas croiser en permanence autour des agents IA. Définition courte ici, lien vers la fiche détaillée pour approfondir.
     </p>
 
     <ul class="glossary-list">
@@ -1673,6 +1762,26 @@
         <strong>Agent</strong>
         Un LLM avec des outils, une boucle d'exécution et un objectif. C'est l'unité de base.
         <a href="/lexique">Voir le lexique →</a>
+      </li>
+      <li>
+        <strong>Mode agent</strong>
+        Quand l'IA ne se contente plus de répondre et enchaîne seule plusieurs actions pour atteindre un but.
+        <a href="/lexique/mode-agent">Fiche détaillée →</a>
+      </li>
+      <li>
+        <strong>Cowork</strong>
+        Claude qui travaille sur ton ordinateur, dans un dossier que tu lui ouvres. Fin 2026, il se fond dans la conversation normale.
+        <a href="/lexique/cowork">Fiche détaillée →</a>
+      </li>
+      <li>
+        <strong>ChatGPT Work</strong>
+        Le mode de ChatGPT qui réalise une tâche entière, en plusieurs étapes, et rend un document, un tableau, une présentation ou un site.
+        <a href="/lexique/chatgpt-work">Fiche détaillée →</a>
+      </li>
+      <li>
+        <strong>Navigateur IA</strong>
+        Un navigateur web avec une IA intégrée, qui lit la page avec toi et peut agir dessus à ta demande.
+        <a href="/lexique/navigateur-ia">Fiche détaillée →</a>
       </li>
       <li>
         <strong>Sous-agent</strong>
@@ -1686,22 +1795,22 @@
       </li>
       <li>
         <strong>Tool use</strong>
-        La capacité d'un LLM d'appeler des fonctions externes (lire un fichier, faire une recherche, etc.).
+        La capacité d'un LLM à appeler des fonctions externes (lire un fichier, faire une recherche, etc.).
         <a href="/lexique/tool-use">Fiche détaillée →</a>
       </li>
       <li>
         <strong>MCP</strong>
-        Model Context Protocol, le standard ouvert d'Anthropic pour brancher un agent à n'importe quel service externe.
+        Model Context Protocol, le standard ouvert d'Anthropic pour brancher un agent sur n'importe quel service externe.
         <a href="/lexique/mcp">Fiche détaillée →</a>
       </li>
       <li>
         <strong>Skill agent</strong>
-        Un dossier d'instructions qui se déclenche automatiquement quand l'agent reconnaît le domaine de ta demande.
+        Un dossier d'instructions que l'agent charge tout seul quand il reconnaît le domaine de ta demande.
         <a href="/lexique/skill-agent">Fiche détaillée →</a>
       </li>
       <li>
         <strong>Human in the loop</strong>
-        Faire valider à un humain les actions sensibles de l'agent avant exécution.
+        Faire valider à un humain les actions sensibles de l'agent avant qu'elles ne soient exécutées.
         <a href="/lexique/human-in-the-loop">Fiche détaillée →</a>
       </li>
       <li>
@@ -1721,7 +1830,7 @@
       </li>
       <li>
         <strong>Embedding</strong>
-        Une représentation vectorielle d'un texte qui permet à un agent de comparer des documents par sens, pas par mots.
+        Une représentation d'un texte en nombres, qui permet à un agent de comparer des documents par leur sens, pas par leurs mots.
         <a href="/lexique/embedding">Fiche détaillée →</a>
       </li>
       <li>
@@ -1733,22 +1842,22 @@
   </div>
 </section>
 
-<!-- Mini-marquee 9 -->
+<!-- Mini-marquee 10 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>FAQ</span><span>15 questions</span><span>Vraies réponses</span><span>Mon expérience</span><span>Pas de blabla</span><span>Mon avis honnête</span>
-    <span>FAQ</span><span>15 questions</span><span>Vraies réponses</span><span>Mon expérience</span><span>Pas de blabla</span><span>Mon avis honnête</span>
+    <span>FAQ</span><span>17 questions</span><span>Vraies réponses</span><span>Mon expérience</span><span>Pas de blabla</span><span>Mon avis honnête</span>
+    <span>FAQ</span><span>17 questions</span><span>Vraies réponses</span><span>Mon expérience</span><span>Pas de blabla</span><span>Mon avis honnête</span>
   </div>
 </div>
 
-<!-- Section I : FAQ exhaustive -->
-<section class="block">
+<!-- Section J : FAQ -->
+<section class="block" id="faq">
   <div class="container">
-    <span class="section-kicker k-orange">— Questions fréquentes</span>
+    <span class="section-kicker k-orange">Questions fréquentes</span>
     <h2>FAQ exhaustive<br><em class="orange">agents IA.</em></h2>
 
     <p>
-      Les 15 questions que je reçois le plus en mai 2026 sur les agents IA. Réponses courtes, basées sur mon expérience directe.
+      Les 17 questions qu'on me pose le plus sur les agents IA, mises à jour en novembre 2026. Réponses courtes, basées sur mon expérience directe.
     </p>
 
     <div class="faq-list">
@@ -1760,151 +1869,155 @@
       </details>
 
       <details class="faq-item">
-        <summary>Faut-il être développeur pour faire un agent IA ?</summary>
+        <summary>Faut-il être développeur pour utiliser un agent IA ?</summary>
         <div class="faq-answer">
-          <p>Non. Je ne suis pas développeur et j'en ai construit plusieurs. Les outils no-code (Lindy, Zapier, n8n, Crew AI Studio) permettent de monter un agent fonctionnel en une heure sans écrire de code. Pour aller plus loin, Claude Code et les Custom GPTs te font passer en low-code avec une courbe d'apprentissage raisonnable. Le ticket d'entrée a complètement explosé en 2025-2026.</p>
+          <p>Non. Je ne suis pas développeur et des agents travaillent pour moi tous les jours. <strong>L'app Claude avec un dossier et ChatGPT Work</strong> te donnent un agent sans écrire une ligne de code, avec un abonnement à 20 $ par mois. Pour relier tes applis entre elles, <strong>Zapier, Make, n8n ou Lindy</strong> se règlent avec des menus et des blocs. Le code n'arrive que si tu veux construire ton propre agent, et c'est l'objet de <a href="#annexe-code">l'annexe</a>.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Quel agent essayer en premier ?</summary>
+        <div class="faq-answer">
+          <p>L'app Claude avec un dossier d'essai, ou ChatGPT en mode Work. Mets deux ou trois fichiers sans importance dans un dossier, ouvre-le à l'IA et demande-lui un tableau ou un rangement. Passe le réglage de Claude sur Manuel pour voir chaque action avant qu'elle parte. C'est l'exercice de <a href="/apprendre#etape-03">l'étape 3 du parcours Apprendre</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Combien coûte un agent IA en 2026 ?</summary>
         <div class="faq-answer">
-          <p>Trois fourchettes. Un agent no-code coûte entre 15 et 100 euros par mois (Lindy à 49 USD, n8n self-hosted gratuit, Zapier à partir de 30 USD). Un agent low-code branché sur Claude ou GPT tourne entre 20 et 200 euros par mois selon l'usage des API. Un agent full code maison coûte ce que tu paies en tokens, généralement entre 50 et 500 euros par mois pour un usage personnel régulier.</p>
+          <p>Le ticket d'entrée, c'est 20 $ par mois. <strong>Claude Pro</strong> coûte 20 $ par mois hors taxes (17 $ en annuel) et <strong>ChatGPT Plus</strong> 20 $ par mois, ce qui t'ouvre l'app Claude avec un dossier ou ChatGPT Work. <strong>Claude Max</strong> démarre à 100 $ par mois pour un usage intensif. Les outils sans code ont leurs propres offres, et n8n peut tourner sur ton serveur pour le prix de l'hébergement. Si tu codes ton agent, tu paies au token, par exemple 2 $ par million de tokens en entrée et 10 $ en sortie pour Claude Sonnet 5.5. Prix relevés le 2 novembre 2026.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Agent IA vs chatbot · quelle différence ?</summary>
         <div class="faq-answer">
-          <p>Un chatbot répond à des questions dans une conversation. Un agent agit dans le monde. Le chatbot retourne du texte ; l'agent lit un email, modifie un fichier, lance un appel API, vérifie le résultat. La différence centrale, c'est <strong>la capacité d'exécuter des outils et de boucler sur le résultat jusqu'à atteindre un objectif</strong>.</p>
+          <p>Un chatbot répond à des questions dans une conversation. Un agent agit. Le chatbot te rend du texte, l'agent lit un fichier, en crée un autre, remplit un tableau, vérifie le résultat. La différence centrale, c'est <strong>la capacité d'exécuter des outils et de boucler sur le résultat jusqu'à atteindre un objectif</strong>.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quels sont les meilleurs frameworks pour construire un agent ?</summary>
+        <summary>Quelle différence entre un workflow et un agent ?</summary>
         <div class="faq-answer">
-          <p>Pour le no-code, <strong>Lindy</strong> et <strong>Crew AI Studio</strong>. Pour le low-code, <strong>Claude Code</strong> (skills + MCP) et les <strong>Custom GPTs</strong> d'OpenAI. Pour le full code, <strong>LangGraph</strong> (LangChain), l'<strong>Anthropic Agent SDK</strong>, <strong>AutoGen</strong> de Microsoft et <strong>CrewAI</strong> restent les références. Mon réflexe pour démarrer, c'est Claude Code, parce que c'est ce qui me donne le plus de contrôle sans m'obliger à écrire du Python.</p>
+          <p>Un workflow suit des étapes que tu as fixées d'avance, comme une automatisation Zapier qui, « quand un mail arrive, enregistre la pièce jointe et ajoute une ligne au tableau ». Un agent choisit lui-même ses étapes à partir d'un but. Si tu peux écrire les étapes à l'avance, <strong>un workflow suffit et coûte moins cher</strong>. Si la tâche change à chaque fois, il te faut un agent.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Quels sont les meilleurs outils pour construire un agent IA ?</summary>
+        <div class="faq-answer">
+          <p>Sans code, <strong>l'app Claude avec un dossier</strong>, <strong>ChatGPT Work</strong>, et pour relier des applis <strong>Zapier</strong>, <strong>Make</strong>, <strong>n8n</strong>, <strong>Lindy</strong> ou <strong>Crew AI Studio</strong>. En code, le <strong>Claude Agent SDK</strong>, <strong>LangGraph</strong>, l'<strong>OpenAI Agents SDK</strong> et <strong>AutoGen</strong> restent les références, je les présente en <a href="#annexe-code">annexe</a>. Pour démarrer, je conseille l'app Claude ou ChatGPT Work, qui ne demandent aucune installation technique.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Un agent IA peut-il faire des bêtises ?</summary>
         <div class="faq-answer">
-          <p>Oui. Un agent qui a accès à ta boîte mail, à ta base de données ou à ton GitHub peut envoyer un message à la mauvaise personne, supprimer un fichier ou pusher un commit cassé. La protection passe par trois choses : des <a href="/lexique/guardrail">garde-fous</a> (interdire certaines actions), un <a href="/lexique/human-in-the-loop">humain dans la boucle</a> avant les actions sensibles, et des logs pour pouvoir revenir en arrière. Je ne mets jamais un agent en autonomie totale sur des données financières ou clients sensibles.</p>
+          <p>Oui. Un agent qui a accès à ta boîte mail ou à tes fichiers peut envoyer un message à la mauvaise personne, écraser le mauvais fichier ou valider un achat trop vite. La protection passe par trois choses. Des <a href="/lexique/guardrail">garde-fous</a> qui interdisent certaines actions, un <a href="/lexique/human-in-the-loop">humain dans la boucle</a> avant les actions sensibles, et une trace de ce qu'il a fait. L'app Claude demande avant de supprimer définitivement un fichier, et ChatGPT Work n'utilise tes fichiers qu'avec ton autorisation. Je ne mets jamais un agent en autonomie totale sur des données financières ou clients sensibles.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Comment monitorer un agent en production ?</summary>
+        <summary>Comment surveiller un agent qui tourne seul ?</summary>
         <div class="faq-answer">
-          <p>Trois briques de base : <strong>logs détaillés</strong> de chaque action (prompt, outil appelé, résultat, durée), <strong>alertes</strong> sur les erreurs ou les timeouts, <strong>dashboard de coût quotidien</strong> en tokens. Pour aller plus loin, LangSmith, Helicone ou Langfuse offrent un traçage par étape utile pour comprendre pourquoi un agent a pris une mauvaise décision. Pour mes agents perso, je branche simplement Telegram sur les événements critiques.</p>
+          <p>Trois réflexes. <strong>Demande-lui la liste de ce qu'il a fait</strong> à chaque tâche. <strong>Regarde l'historique des exécutions</strong> dans ton outil d'automatisation. Et <strong>surveille ta consommation</strong> la première semaine. Pour mes agents perso, je branche simplement Telegram sur les événements critiques. Les outils de traçage pour les agents codés sont dans <a href="#annexe-code">l'annexe</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Quels cas d'usage marchent vraiment en 2026 ?</summary>
         <div class="faq-answer">
-          <p>Les six qui fonctionnent le mieux dans mon expérience et celle de ma veille : <strong>agent email</strong> (tri et brouillon de réponse), <strong>agent contrats</strong> (relecture et clauses à risque), <strong>agent recherche</strong> (synthèse de plusieurs sources), <strong>agent vente</strong> (qualif de leads et brief commercial), <strong>agent veille</strong> (digest quotidien) et <strong>agent personnel</strong> (calendrier, tâches, rappels). Les cas qui plantent souvent : agents de support client autonomes, agents qui prennent des décisions financières seuls, agents créatifs sans relecture humaine.</p>
+          <p>Les six qui fonctionnent le mieux dans mon expérience et celle de ma veille. <strong>L'agent email</strong> (tri et brouillons de réponse), <strong>l'agent contrats</strong> (relecture et clauses à risque), <strong>l'agent recherche</strong> (synthèse de plusieurs sources), <strong>l'agent vente</strong> (qualification des prospects et brief commercial), <strong>l'agent veille</strong> (digest quotidien) et <strong>l'agent personnel</strong> (tâches, rappels, rendez-vous). Les cas qui plantent souvent, ce sont le support client autonome, les décisions financières prises seules et les contenus créatifs sans relecture humaine.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quelles sont les limitations connues des agents actuels ?</summary>
+        <summary>Quelles sont les limites connues des agents actuels ?</summary>
         <div class="faq-answer">
-          <p>Quatre limites que je rencontre régulièrement : l'<strong>hallucination</strong> sur des données qu'ils ne connaissent pas, la <strong>dérive</strong> sur les sessions très longues au-delà de 500 000 tokens, l'<strong>incapacité à apprendre</strong> de leurs erreurs entre deux runs sans mécanisme de mémoire externe, et le <strong>coût qui peut exploser</strong> si tu laisses un agent boucler sans budget plafond. Aucun agent en 2026 n'est encore vraiment fiable à 100 %, même les plus avancés.</p>
+          <p>Quatre limites que je rencontre régulièrement. L'<strong>hallucination</strong> sur des données qu'ils ne connaissent pas, la <strong>dérive</strong> sur les sessions très longues, l'<strong>incapacité à apprendre</strong> de leurs erreurs d'une tâche à l'autre sans mémoire externe, et le <strong>coût qui peut exploser</strong> si tu laisses un agent boucler sans limite. Aucun agent en 2026 n'est fiable à 100 %, même les plus avancés.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Comment empêcher mon agent d'halluciner ?</summary>
         <div class="faq-answer">
-          <p>Trois techniques qui marchent en combiné : <strong>RAG</strong> (Retrieval Augmented Generation) pour brancher l'agent sur une base de connaissances fiable, <strong>prompt qui force l'agent à citer ses sources</strong> et à dire « je ne sais pas » plutôt que d'inventer, et <strong>tools intermédiaires de vérification</strong> (recherche web, lecture de doc à jour via context7). L'hallucination tombe à environ 5 % avec un bon setup, contre 20 à 30 % en mode purement génératif.</p>
+          <p>Trois techniques qui marchent ensemble. <strong>Lui donner tes propres documents comme source</strong>, dans le dossier que tu lui ouvres, ou par le <a href="/lexique/rag-agentique">RAG</a> pour les agents d'entreprise. <strong>Lui demander de citer ses sources</strong> et de dire « je ne sais pas » plutôt que d'inventer. Et <strong>faire vérifier ce qui compte</strong>, par une recherche web ou par ta relecture. Aucune de ces techniques ne remplace ta relecture sur ce qui est important.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Faut-il un humain dans la boucle ?</summary>
         <div class="faq-answer">
-          <p>Pour toute action irréversible ou sensible : oui, sans hésitation. Envoyer un email à un client, signer un document, supprimer une donnée, autoriser un paiement. Pour les actions à faible enjeu et facilement réversibles : non, l'agent peut tourner en autonomie. La règle que j'applique chez moi, c'est <strong>human in the loop sur tout ce qui touche à de l'argent, du client direct ou de la donnée légale</strong>.</p>
+          <p>Pour toute action irréversible ou sensible, oui, sans hésitation. Envoyer un mail à un client, signer un document, supprimer une donnée, autoriser un paiement. Pour les actions à faible enjeu et faciles à défaire, non, l'agent peut tourner seul. La règle que j'applique chez moi, c'est <strong>un humain dans la boucle sur tout ce qui touche à l'argent, aux clients ou aux données légales</strong>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Agent + RAG · comment les combiner ?</summary>
         <div class="faq-answer">
-          <p>Le RAG donne à l'agent une base de connaissances dans laquelle il va piocher avant de répondre. Concrètement, tu indexes tes documents en <a href="/lexique/embedding">embeddings</a>, tu stockes ça dans une base vectorielle (Pinecone, Supabase pgvector, Weaviate), et tu donnes à ton agent un tool <code>search_knowledge_base</code>. Quand il a besoin d'info métier, il cherche d'abord dans ta base avant d'utiliser sa connaissance générale. <strong>C'est la combinaison la plus puissante en 2026</strong> pour les agents en entreprise.</p>
+          <p>Le RAG donne à l'agent une base de connaissances dans laquelle il pioche avant de répondre. Concrètement, on transforme tes documents en <a href="/lexique/embedding">embeddings</a>, on les stocke dans une base vectorielle (Pinecone, Supabase pgvector, Weaviate), et on donne à l'agent un outil de recherche dans cette base. Quand il a besoin d'une info métier, il cherche d'abord chez toi avant d'utiliser sa connaissance générale. <strong>C'est la combinaison la plus puissante</strong> pour les agents en entreprise. Pour un usage perso, le dossier que tu ouvres à l'app Claude joue déjà ce rôle.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Vie privée des données traitées par un agent ?</summary>
         <div class="faq-answer">
-          <p>Oui c'est un sujet sérieux. Trois zones à risque : les API du fournisseur de LLM (Anthropic et OpenAI conservent les conversations 30 jours par défaut pour la modération abuse, sauf en mode Zero Data Retention sur les comptes Enterprise), les outils tiers que tu branches via MCP, et les logs de ton propre agent. Pour des données sensibles, je préfère un modèle hébergé (Llama, Mistral sur ton serveur) plutôt qu'une API externe.</p>
+          <p>Oui, c'est un sujet sérieux. Tout ce que l'agent lit pour faire la tâche part chez l'éditeur pour être traité, comme dans le chat. Chez ChatGPT, le travail peut tourner sur ton ordinateur, mais les messages et le contexte de la tâche peuvent être enregistrés dans le cloud. Les applis que tu connectes et les outils d'automatisation voient aussi passer tes données. Pour des documents clients, vérifie ce que ton contrat et ton abonnement autorisent. Pour des données très sensibles, je préfère un modèle ouvert hébergé sur un serveur que je contrôle. J'en parle dans <a href="/articles/donnees-perso-ia-confidentialite">ce que les IA font de tes données</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Open-source ou propriétaire ?</summary>
+        <summary>Open source ou propriétaire ?</summary>
         <div class="faq-answer">
-          <p>Pour démarrer et apprendre, <strong>propriétaire</strong> : Claude, GPT, Gemini sont plus simples à brancher, plus fiables, mieux documentés. Pour scaler à un usage massif ou pour des données sensibles, <strong>open-source</strong> devient pertinent : Llama 4, Mistral, Qwen tournent sur ton infra, coût marginal proche de zéro, et tu gardes la main sur les données. Le mix gagnant en 2026 chez beaucoup de boîtes, c'est <strong>Claude ou GPT pour les tâches de réflexion, Llama local pour le traitement de masse</strong>.</p>
+          <p>Pour démarrer et apprendre, <strong>propriétaire</strong>. Claude, GPT et Gemini sont plus simples, plus fiables et mieux documentés, et ce sont eux qui font tourner l'app Claude et ChatGPT Work. Pour un usage massif ou des données sensibles, <strong>l'open source</strong> devient pertinent. Mistral Large 4, le grand modèle européen, a publié ses poids le 29 octobre 2026. Il est trop lourd pour tourner sur ton ordinateur, mais il peut tourner sur un serveur que tu contrôles, et son API coûte 0,70 $ par million de tokens en entrée. Le mix que je vois le plus, c'est <strong>Claude ou GPT pour la réflexion, un modèle ouvert pour le traitement de masse</strong>.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quel modèle Claude ou GPT pour faire un agent ?</summary>
+        <summary>Quel modèle choisir pour un agent ?</summary>
         <div class="faq-answer">
-          <p>Mon réflexe en 2026 : <strong>Claude Sonnet 4.x</strong> pour 80 % des tâches d'agent (rapide, économique, bon raisonnement), <strong>Claude Opus 4.7</strong> quand la tâche est complexe ou nécessite du contexte long (jusqu'à 1 million de tokens), <strong>GPT-5</strong> quand je veux varier ou pour des tâches très créatives. Pour les agents qui font de la recherche en boucle, Sonnet fait le job. Pour des décisions critiques d'architecture, Opus.</p>
+          <p>Mon réflexe en novembre 2026. <strong>Claude Sonnet 5.5</strong> pour la plupart des tâches d'agent, rapide, bon en raisonnement, et inclus même dans l'offre gratuite. <strong>Claude Opus 5.5</strong> quand la tâche est complexe ou demande beaucoup de contexte (jusqu'à 1 million de tokens), c'est d'ailleurs celui qu'Anthropic conseille pour commencer. <strong>Claude Fable 5.1</strong>, dans Max, seulement pour les cas vraiment durs, parce qu'il est lent et cher. Chez OpenAI, <strong>GPT-6.1 Sol</strong> est le bon choix par défaut dans ChatGPT Work, et <strong>GPT-6 Luna</strong> suffit pour les tâches simples et répétées.</p>
         </div>
       </details>
     </div>
   </div>
 </section>
 
-<!-- Mini-marquee 10 -->
+<!-- Mini-marquee 11 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Ressources</span><span>Liens externes</span><span>Liens internes</span><span>Pour creuser</span><span>Anthropic Docs</span><span>OpenAI</span>
-    <span>Ressources</span><span>Liens externes</span><span>Liens internes</span><span>Pour creuser</span><span>Anthropic Docs</span><span>OpenAI</span>
+    <span>Ressources</span><span>Aides officielles</span><span>Liens internes</span><span>Pour creuser</span><span>Anthropic</span><span>OpenAI</span>
+    <span>Ressources</span><span>Aides officielles</span><span>Liens internes</span><span>Pour creuser</span><span>Anthropic</span><span>OpenAI</span>
   </div>
 </div>
 
-<!-- Section J : Ressources -->
+<!-- Section K : Ressources -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-teal">— Pour aller plus loin</span>
+    <span class="section-kicker k-teal">Pour aller plus loin</span>
     <h2>Ressources<br><em class="teal">et liens utiles.</em></h2>
 
     <h3>Ressources externes (les indispensables)</h3>
     <div class="resources-grid">
-      <a class="resource-card" href="https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" target="_blank" rel="noopener">
-        <span class="res-kicker">Doc officielle</span>
-        <h4>Anthropic · Agents and Tools</h4>
-        <p>La doc officielle d'Anthropic sur la construction d'agents avec Claude. Tool use, computer use, Agent SDK. Référence numéro 1.</p>
+      <a class="resource-card" href="https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude" target="_blank" rel="noopener">
+        <span class="res-kicker">Aide officielle</span>
+        <h4>Claude · Cowork and chat are one Claude</h4>
+        <p>La page d'aide d'Anthropic sur l'app Claude qui travaille sur tes fichiers. Accès au dossier, applis connectées, tâches planifiées, réglages Auto et Manuel. En anglais.</p>
       </a>
-      <a class="resource-card" href="https://platform.openai.com/docs/guides/function-calling" target="_blank" rel="noopener">
-        <span class="res-kicker">Doc officielle</span>
-        <h4>OpenAI · Function Calling</h4>
-        <p>La doc OpenAI sur le function calling, la brique de base d'un agent côté GPT. Indispensable si tu construis sur leur stack.</p>
-      </a>
-      <a class="resource-card" href="https://langchain-ai.github.io/langgraph/" target="_blank" rel="noopener">
-        <span class="res-kicker">Framework</span>
-        <h4>LangGraph (LangChain)</h4>
-        <p>Le framework Python le plus complet pour orchestrer des agents complexes. Graphes d'états, persistance, human in the loop natif.</p>
+      <a class="resource-card" href="https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex" target="_blank" rel="noopener">
+        <span class="res-kicker">Aide officielle</span>
+        <h4>OpenAI · ChatGPT Work et Codex</h4>
+        <p>La page d'aide d'OpenAI sur le mode Work de ChatGPT, ce qu'il produit et comment il utilise tes fichiers dans l'app de bureau.</p>
       </a>
       <a class="resource-card" href="https://simonwillison.net/tags/llms/" target="_blank" rel="noopener">
         <span class="res-kicker">Blog</span>
         <h4>Simon Willison · LLM tag</h4>
-        <p>Le blog de Simon Willison, l'une des voix les plus claires sur les LLMs et les agents depuis 2022. À mettre dans tes flux RSS.</p>
+        <p>Le blog de Simon Willison, l'une des voix les plus claires sur les LLM et les agents depuis 2022. À mettre dans tes flux RSS.</p>
       </a>
       <a class="resource-card" href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">
         <span class="res-kicker">Standard</span>
         <h4>Model Context Protocol</h4>
-        <p>Le site officiel du standard MCP. Spec, SDKs, liste des MCP servers disponibles. Indispensable dès que tu veux brancher un agent à des outils externes.</p>
-      </a>
-      <a class="resource-card" href="https://github.com/topics/agents" target="_blank" rel="noopener">
-        <span class="res-kicker">GitHub</span>
-        <h4>GitHub · topic agents</h4>
-        <p>La liste des repos GitHub taggés « agents ». Une mine de templates open-source pour démarrer un projet d'agent IA.</p>
+        <p>Le site officiel du standard MCP. Pour comprendre comment un agent se branche sur des outils externes.</p>
       </a>
     </div>
 
@@ -1913,17 +2026,17 @@
       <a class="resource-card" href="/apprendre">
         <span class="res-kicker">Parcours</span>
         <h4>Apprendre l'IA dans l'ordre</h4>
-        <p>Le parcours pédagogique complet, des bases aux agents avancés. Si tu pars de zéro, commence ici.</p>
+        <p>Le parcours en trois étapes, de la première question à l'IA qui travaille pour toi. Si tu pars de zéro, commence ici.</p>
+      </a>
+      <a class="resource-card" href="/modeles-ia">
+        <span class="res-kicker">Comparatif</span>
+        <h4>Le guide des modèles IA</h4>
+        <p>Claude, GPT, Gemini, Mistral et les autres comparés, avec leurs prix, pour savoir quel modèle fait tourner ton agent.</p>
       </a>
       <a class="resource-card" href="/lexique">
         <span class="res-kicker">Lexique</span>
-        <h4>Lexique IA · 40 termes</h4>
-        <p>Tout le vocabulaire de l'IA en 2026, expliqué simplement. Agents, LLM, MCP, RAG, hallucination, embeddings et 35 autres.</p>
-      </a>
-      <a class="resource-card" href="/claude-code">
-        <span class="res-kicker">Pillar</span>
-        <h4>Claude Code · le guide complet</h4>
-        <p>Mon guide pillar sur Claude Code, l'outil que j'utilise pour 95 % de mes agents. Install, skills, MCP, workflows, FAQ.</p>
+        <h4>Lexique IA · plus de 270 termes</h4>
+        <p>Tout le vocabulaire de l'IA expliqué simplement. Agents, LLM, MCP, RAG, hallucination, embeddings et tous les autres.</p>
       </a>
       <a class="resource-card" href="/podcast">
         <span class="res-kicker">Audio</span>
@@ -1934,12 +2047,204 @@
   </div>
 </section>
 
+<!-- Mini-marquee 12 -->
+<div class="mini-marquee" aria-hidden="true">
+  <div class="mini-marquee-track">
+    <span>Pour les curieux</span><span>Claude Code</span><span>Skills</span><span>MCP</span><span>Agent SDK</span><span>Annexe</span>
+    <span>Pour les curieux</span><span>Claude Code</span><span>Skills</span><span>MCP</span><span>Agent SDK</span><span>Annexe</span>
+  </div>
+</div>
+
+<!-- Annexe : Claude Code et l'Agent SDK (pour les curieux) -->
+<section class="block" id="annexe-code">
+  <div class="container">
+    <span class="section-kicker k-orange">Annexe</span>
+    <h2>Pour les curieux :<br>Claude Code et <em class="orange">l'Agent SDK.</em></h2>
+
+    <p>
+      Tout ce qui précède se fait sans une ligne de code. Cette annexe, c'est pour ceux qui veulent voir sous le capot ou construire leur propre agent. C'est aussi là que je passe le plus de temps, puisque c'est avec ces outils que je fabrique ce site et mes veilles.
+    </p>
+
+    <div class="callout warn">
+      <h4>Pas besoin pour démarrer</h4>
+      <p>Si tu débutes, tu peux t'arrêter avant cette annexe. Les quatre agents du début de page te suffisent largement.</p>
+    </div>
+
+    <h3>Claude Code, skills et MCP · ma stack quotidienne</h3>
+    <p>
+      Claude Code est l'outil d'Anthropic pour les développeurs. Il tourne dans l'onglet Code de l'app Claude de bureau ou dans le terminal, et il travaille directement dans le dossier d'un projet. Les <a href="/lexique/skill-agent">skills</a> sont des dossiers d'instructions qu'il charge tout seul quand ta demande touche leur domaine. <a href="/lexique/mcp">MCP</a> lui permet de se brancher sur n'importe quel service externe. Il est inclus dans Claude Pro (20 $ par mois hors taxes) et dans Claude Max.
+    </p>
+    <p>
+      Tout est expliqué dans <a href="/claude-code">mon guide Claude Code</a>. L'installation dans le terminal et ses commandes sont dans <a href="/claude-code#annexe-terminal">l'annexe terminal de ce guide</a>, je ne les répète pas ici.
+    </p>
+
+    <h3>Les agents que je fais tourner avec</h3>
+    <ul>
+      <li><strong>Ma veille</strong> · celle qui nourrit <a href="/news">Jerwis News</a> et la lettre AI Playbook. Des sous-agents font le tour de plus de 100 sources en parallèle, notent chaque sujet et me livrent un digest.</li>
+      <li><strong>Mes recherches longues</strong> · le skill <code>deep-research</code>, qui lance plusieurs recherches, lit les sources et me rend un rapport sourcé.</li>
+      <li><strong>Mes tutos</strong> · un agent Gmail, un agent contrats, un outil de vente, un agent qui s'améliore la nuit. Ils sont tous juste en dessous.</li>
+    </ul>
+
+    <div class="articles-grid">
+      <a class="article-card c-teal" href="/articles/agents-ia-guide">
+        <span class="article-kicker"><span class="dot"></span>14 min · Le guide</span>
+        <h3>Agents IA · à quoi ça sert, comment ça marche, le coût</h3>
+        <p>Mon guide de fond sur les agents, côté Claude Code. Briques techniques, cas d'usage, et comment ça marche étape par étape.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/articles/tuto-agent-gmail">
+        <span class="article-kicker"><span class="dot"></span>45 min · Tuto</span>
+        <h3>Créer un agent qui trie ta boîte Gmail</h3>
+        <p>Brancher un agent sur Gmail pour trier, préparer et répondre. Le cas d'usage qui démarre le mieux pour un premier agent codé.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/articles/tuto-agent-contrats">
+        <span class="article-kicker"><span class="dot"></span>60 min · Tuto</span>
+        <h3>Un agent pour analyser tes contrats PDF</h3>
+        <p>Relire un contrat fournisseur, repérer les clauses à risque, générer la liste des points à négocier, avec un skill de relecture sur mesure.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-teal" href="/articles/hermes-agent">
+        <span class="article-kicker"><span class="dot"></span>5 min · Cas réel</span>
+        <h3>L'agent qui lit mes 200 mails chaque matin</h3>
+        <p>Hermes trie mes mails chaque matin en urgent, à lire plus tard ou spam doux. Je passe 12 minutes sur ma boîte au lieu de 60.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-fuchsia" href="/articles/outil-vente-claude-code">
+        <span class="article-kicker"><span class="dot"></span>30 min · Cas réel</span>
+        <h3>L'outil de vente construit avec Claude Code</h3>
+        <p>Un vrai outil de vente monté avec Claude Code. Les choix, ce qui a marché, ce qui a planté. Le retour d'expérience honnête.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+
+      <a class="article-card c-orange" href="/articles/autoresearch-karpathy">
+        <span class="article-kicker"><span class="dot"></span>30 min · Théorie</span>
+        <h3>J'ai laissé une IA s'améliorer toute seule la nuit</h3>
+        <p>L'idée d'agents qui s'évaluent et s'améliorent, popularisée par Andrej Karpathy, et comment l'appliquer à tes propres agents.</p>
+        <span class="article-read">Lire l'article →</span>
+      </a>
+    </div>
+
+    <h3>Le Claude Agent SDK · construire ton propre agent</h3>
+    <p>
+      Le Claude Agent SDK, c'est le kit officiel d'Anthropic, en Python et en TypeScript, pour construire tes propres agents sur la même base que Claude Code. Plus simple que LangGraph, plus guidé. C'est le bon choix si tu construis tout autour de Claude.
+    </p>
+    <p>Si tu veux comparer, voici les autres frameworks de référence.</p>
+    <ul>
+      <li><strong>LangGraph</strong> · l'évolution de LangChain, le framework Python le plus utilisé pour orchestrer des agents complexes. Graphes d'états, persistance, validation humaine native.</li>
+      <li><strong>OpenAI Agents SDK</strong> · l'équivalent côté OpenAI.</li>
+      <li><strong>AutoGen (Microsoft)</strong> · un framework où plusieurs agents conversent et collaborent.</li>
+      <li><strong>CrewAI</strong> · le framework open source derrière Crew AI Studio, pour des équipes d'agents.</li>
+    </ul>
+    <p>
+      <strong>Mon conseil.</strong> Ne passe au code que si les outils sans code ne suffisent plus. Le code est utile quand tu veux héberger toi-même, servir des milliers d'utilisateurs ou contrôler finement le coût en tokens.
+    </p>
+
+    <h3>Payer à l'usage · les prix de l'API</h3>
+    <p>
+      Un agent codé paie le modèle au token, sans abonnement. Voici les prix publiés par les éditeurs, relevés le 2 novembre 2026, en dollars par million de tokens.
+    </p>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Modèle</th>
+            <th>Entrée</th>
+            <th>Sortie</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude Opus 5.5</td>
+            <td>4 $</td>
+            <td>20 $</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude Sonnet 5.5</td>
+            <td>2 $</td>
+            <td>10 $</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-teal"></span>Claude Haiku 5.5</td>
+            <td>0,10 $ (prompt jusqu'à 100 000 tokens)</td>
+            <td>0,50 $</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>GPT-6.1 Sol</td>
+            <td>2 $</td>
+            <td>10 $</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>GPT-6 Luna</td>
+            <td>0,10 $</td>
+            <td>0,50 $</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Gemini 4 Argon</td>
+            <td>2 $ jusqu'au 30 novembre 2026, puis 4 $</td>
+            <td>10 $, puis 20 $</td>
+          </tr>
+          <tr>
+            <td class="tool-name"><span class="tool-dot dot-orange"></span>Mistral Large 4</td>
+            <td>0,70 $</td>
+            <td>2,10 $</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      La facture dépend de ton volume. Un agent qui boucle sur une erreur peut la faire exploser en une nuit, alors mets toujours un plafond de dépense. <a href="/modeles-ia">Le guide des modèles</a> compare tout le reste.
+    </p>
+
+    <h3>Les bonnes pratiques côté code</h3>
+    <ul>
+      <li><strong>Secrets</strong> · jamais une clé dans un prompt ou un fichier partagé. Des variables d'environnement (<code>.env</code>) ajoutées au <code>.gitignore</code>, et un coffre de secrets (1Password CLI, Doppler, Vercel env) dès que l'agent touche des données sensibles.</li>
+      <li><strong>Traces</strong> · des logs de chaque étape (prompt, outil appelé, résultat, durée). Claude Code garde l'historique de ses sessions, et LangSmith, Helicone ou Langfuse font le traçage pour les autres frameworks.</li>
+      <li><strong>Limites</strong> · un nombre maximum de tours de boucle (une vingtaine, par exemple) et un budget plafond quotidien.</li>
+      <li><strong>Doc à jour</strong> · un outil comme context7, pour que l'agent travaille avec la documentation du jour plutôt qu'avec ses souvenirs.</li>
+    </ul>
+
+    <h3>Ressources pour développeurs</h3>
+    <div class="resources-grid">
+      <a class="resource-card" href="/claude-code">
+        <span class="res-kicker">Pillar</span>
+        <h4>Claude Code · le guide complet</h4>
+        <p>Mon guide sur Claude Code, de l'onglet Code de l'app au terminal. Skills, MCP, plugins, workflows, FAQ.</p>
+      </a>
+      <a class="resource-card" href="https://docs.anthropic.com/en/docs/agents-and-tools/computer-use" target="_blank" rel="noopener">
+        <span class="res-kicker">Doc officielle</span>
+        <h4>Anthropic · Agents and Tools</h4>
+        <p>La doc d'Anthropic sur la construction d'agents avec Claude. Tool use, computer use, Agent SDK.</p>
+      </a>
+      <a class="resource-card" href="https://platform.openai.com/docs/guides/function-calling" target="_blank" rel="noopener">
+        <span class="res-kicker">Doc officielle</span>
+        <h4>OpenAI · Function Calling</h4>
+        <p>La doc OpenAI sur le function calling, la brique de base d'un agent côté GPT.</p>
+      </a>
+      <a class="resource-card" href="https://langchain-ai.github.io/langgraph/" target="_blank" rel="noopener">
+        <span class="res-kicker">Framework</span>
+        <h4>LangGraph (LangChain)</h4>
+        <p>Le framework Python le plus complet pour orchestrer des agents complexes.</p>
+      </a>
+      <a class="resource-card" href="https://github.com/topics/agents" target="_blank" rel="noopener">
+        <span class="res-kicker">GitHub</span>
+        <h4>GitHub · topic agents</h4>
+        <p>Les dépôts GitHub classés « agents ». Une mine de modèles open source pour démarrer un projet.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Final CTA -->
 <section class="final-cta">
   <div class="container">
     <h2>Reçois mes prochains <em class="fuchsia">tests agents IA.</em></h2>
     <p>
-      Chaque semaine, ma newsletter AI Playbook te partage les agents que je teste, ce qui marche, ce qui plante. Pas de récap d'actu, pas de blabla. Désinscription en 1 clic.
+      Chaque semaine, ma newsletter AI Playbook partage les agents que je teste, ce qui marche, ce qui plante. Pas de récap d'actu, pas de blabla. Désinscription en 1 clic.
     </p>
     <a class="back-btn" href="/#newsletters">M'inscrire à la newsletter</a>
   </div>

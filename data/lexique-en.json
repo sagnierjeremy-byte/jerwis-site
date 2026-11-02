@@ -5459,7 +5459,7 @@
         "bases"
       ],
       "summary": "Agent mode is when AI stops just answering and chains several actions on its own to reach a goal.",
-      "where": "In Cowork on Claude, Work on ChatGPT, AI browsers like Comet or Atlas, and automation tools.",
+      "where": "In Cowork on Claude, Work on ChatGPT, AI browsers like Comet, and automation tools.",
       "example": "You ask \"find me three trains to Lyon on Friday morning\". In agent mode, the AI opens the site, compares the times and suggests the three, instead of giving you tips on how to search.",
       "why": "It is what saves the most time, and what needs the most attention.",
       "mistakes": [
@@ -5530,7 +5530,7 @@
         "outils"
       ],
       "summary": "An AI browser is a web browser with built-in AI that reads the page with you and can act on it when you ask.",
-      "where": "Perplexity's Comet, OpenAI's Atlas, Chrome's AI features and the browser built into the Claude desktop app.",
+      "where": "Perplexity's Comet, Chrome's AI features, Claude in Chrome, the browser built into the Claude desktop app, and browsing in the ChatGPT desktop app.",
       "example": "On a product page, you ask \"compare with the two other tabs and tell me the cheapest one delivered before Saturday\". It reads the three pages and answers.",
       "why": "The AI sees what you see, so you stop copying and pasting pages.",
       "mistakes": [

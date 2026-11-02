@@ -68,7 +68,7 @@ const NAV_BLOCK = (relCss) => `<!-- NAV-UNIFIED-START -->
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
-          <span class="more-text"><strong>Workflows</strong><span>Claude Code par métier</span></span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
         </a>
         <a href="/outils" role="menuitem">
           <span class="more-icon">🛠</span>

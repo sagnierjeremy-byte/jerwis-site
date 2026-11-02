@@ -5459,7 +5459,7 @@
         "bases"
       ],
       "summary": "Le mode agent, c'est quand l'IA ne se contente plus de répondre et enchaîne seule plusieurs actions pour atteindre un but.",
-      "where": "Dans Cowork chez Claude, Work chez ChatGPT, les navigateurs IA comme Comet ou Atlas, et les outils d'automatisation.",
+      "where": "Dans Cowork chez Claude, Work chez ChatGPT, les navigateurs IA comme Comet, et les outils d'automatisation.",
       "example": "Tu demandes « trouve-moi trois trains pour Lyon vendredi matin ». En mode agent, l'IA ouvre le site, compare les horaires et te propose les trois, au lieu de te donner des conseils pour chercher.",
       "why": "C'est ce qui fait gagner le plus de temps, et ce qui demande le plus d'attention.",
       "mistakes": [
@@ -5530,7 +5530,7 @@
         "outils"
       ],
       "summary": "Un navigateur IA est un navigateur web avec une IA intégrée, qui lit la page avec toi et peut agir dessus à ta demande.",
-      "where": "Comet de Perplexity, Atlas d'OpenAI, les fonctions IA de Chrome et le navigateur intégré à l'app Claude.",
+      "where": "Comet de Perplexity, les fonctions IA de Chrome, Claude dans Chrome, le navigateur intégré à l'app Claude et la navigation de l'app ChatGPT de bureau.",
       "example": "Sur une fiche produit, tu demandes « compare avec les deux autres onglets et dis-moi le moins cher livré avant samedi ». Il lit les trois pages et te répond.",
       "why": "L'IA voit ce que tu vois, tu n'as plus à copier-coller les pages.",
       "mistakes": [

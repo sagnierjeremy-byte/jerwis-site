@@ -1,5 +1,23 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Tout le site à la date du jour (P1 à P7)
+
+### Pourquoi
+Demande de Jérémy : « mets à jour toutes les autres pages ». Sept points validés en bloc, page https://claude.ai/artifact/85nwQKeoqkaP3eR4b1KF2N, plan `_internal/autres-pages/PLAN.md`.
+
+### Livré
+- **P1** : 7 articles du parcours (choisir-ia, ia-gratuite-ou-payante, verifier-info-ia, ecrire-mails, resumer-pdf, navigateurs-ia, claude-c-est-quoi), FR + EN : modèles et prix de novembre (sources vérifiées), ligne « Mis à jour le 2 novembre 2026 », dateModified. ⚠️ Leurs `drafts/*.md` gardent l'ancien texte : ne pas les republier avec `publish.js`.
+- **P2** : lexique FR + EN (62 pages + données) : 18 fiches de modèles remplacés avec encadré « remplacé par… », définitions génériques ou successeurs vérifiés, tableaux de `choisir-modele-2026` et du #06 des 8 mots à jour. Liens cassés anciens réparés (`agent` → `mode-agent`, `prompt`/`lovable` → ancres du hub, `perplexity` → article).
+- **P3** : encadré daté (`.article-date-notice`) sous le TL;DR de 21 articles d'avril à septembre, FR + EN (`_internal/autres-pages/poser-avertissements.mjs`, idempotent).
+- **P4** : `/workflows` FR + EN devient « L'IA au travail, pour ton métier », 12 workflows dans l'app Claude ou ChatGPT Work avec message à copier. Menu « Workflows · L'IA par métier » / « AI by profession » sur 406 pages + `seo-unify-nav.js`, `_TEMPLATE.html`, `termbase.json`, `sitemap-images.xml` (`revue-entete-pied.mjs --dry` : 0 page modifiée).
+- **P5** : `/mcp` FR + EN commence par les connecteurs des apps, dates et terminal dans une note « Pour les curieux », serveurs de référence archivés signalés.
+- **P6** : `/agents-ia` FR + EN commence par les agents disponibles (app Claude + dossier, ChatGPT Work, navigateurs IA, sans code), Claude Code et Agent SDK en annexe `#annexe-code`.
+- **P7** : `/outils` FR + EN : n°01 « L'app Claude (plan Max) » avec l'app ChatGPT en alternative, Ghostty en fin de niveau avancé (« outil de développeur », Mac et Linux), 6 + 5 outils, prix n8n et Resend revérifiés.
+- Correction : ChatGPT Atlas a fermé le 9 août 2026 (je l'avais présenté comme actuel le matin) : lexique, guide Agents, Apprendre corrigés.
+
+### Vérifié
+- 406 fichiers HTML modifiés : JSON-LD valides, aucun tiret cadratin ajouté ; 34 pages en navigateur à 390 et 1 440 px, 353 liens internes, 0 cassé. Reste une erreur console antérieure (formulaire `#newsletterForm` retiré le 30-06) sur 14 articles faits main : prise en charge par la session de refonte du design.
+
 ## 2026-11-02 · Correctif : l'inscription du pied de page partait deux fois
 
 ### Pourquoi
