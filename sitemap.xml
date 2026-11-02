@@ -764,6 +764,41 @@
     <changefreq>monthly</changefreq>
     <priority>0.72</priority>
   </url>
+  <url>
+    <loc>https://jerwis.fr/lexique/cowork</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://jerwis.fr/lexique/chatgpt-work</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://jerwis.fr/lexique/mode-agent</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://jerwis.fr/lexique/projet-ia</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
+  <url>
+    <loc>https://jerwis.fr/lexique/navigateur-ia</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+
   <!-- /Lexique SEO pages -->
 
   <!-- Lexique modeles & outils (pages autonomes, hors build-lexique.js) -->
@@ -1300,6 +1335,13 @@
 
   <url>
     <loc>https://jerwis.fr/articles/arnaques-mails-sms-ia</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

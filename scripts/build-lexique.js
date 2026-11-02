@@ -1,8 +1,9 @@
 import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import process from "node:process";
 
-const ROOT = resolve(new URL("..", import.meta.url).pathname);
+const ROOT = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const SITE_URL = "https://jerwis.fr";
 const TODAY = "2026-05-22";
 const DATA_PATH = join(ROOT, "data", "lexique.json");
@@ -341,7 +342,7 @@ ${GENERATED_MARKER}
       <div class="term-meta">
         <span>${escapeHtml(term.category)}</span>
         <span>Lecture 4 min</span>
-        <span>Mis à jour le ${TODAY}</span>
+        <span>Mis à jour le ${term.lastmod || TODAY}</span>
       </div>
     </div>
   </section>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>L'IA qui travaille sur ton ordinateur : app Claude ou ChatGPT</title>
+<meta name="description" content="Donner un dossier à Claude ou passer ChatGPT en mode Work : installer l'app, cinq premières tâches, les réglages de sécurité. Le guide débutant, sans code.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="L'IA qui travaille sur ton ordinateur : app Claude ou ChatGPT">
+<meta property="og:description" content="Donner un dossier à Claude ou passer ChatGPT en mode Work : installer l'app, cinq premières tâches, les réglages de sécurité. Le guide débutant, sans code.">
+<meta property="og:url" content="https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-02">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="L'IA qui travaille sur ton ordinateur : app Claude ou ChatGPT">
+<meta name="twitter:description" content="Donner un dossier à Claude ou passer ChatGPT en mode Work : installer l'app, cinq premières tâches, les réglages de sécurité. Le guide débutant, sans code.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/ia-qui-travaille-sur-ton-ordinateur">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "L'IA qui travaille sur ton ordinateur : app Claude ou ChatGPT",
+  "description": "Donner un dossier à Claude ou passer ChatGPT en mode Work : installer l'app, cinq premières tâches, les réglages de sécurité. Le guide débutant, sans code.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+
+<link rel="stylesheet" href="../assets/article.css?v=20260706">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="../index" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="../index#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Retour à Apprendre
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Guide · 100</div>
+    <h1>L'IA qui travaille<br>sur ton<br><em>ordinateur.</em></h1>
+    <p class="hero-lead">
+      Tu sais poser une question à ChatGPT ou à Claude. Mais tu recopies encore toi-même la réponse dans un tableau, un document, un dossier. Depuis 2026, leurs apps de bureau peuvent faire ce travail pour toi, directement sur tes fichiers. Tu leur ouvres un dossier, tu écris ce que tu veux, et tu récupères un document fini. Voici comment t'y mettre, avec cinq premières tâches et les réglages qui évitent les mauvaises surprises.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>10 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> App Claude, ChatGPT Work</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Le chat <strong>te répond</strong>. L'app de bureau, avec un dossier ouvert, <strong>fait le travail</strong> et te rend des fichiers finis.</li>
+      <li>Chez Claude, tu ouvres un dossier à l'app. Chez ChatGPT, tu passes en <strong>mode Work</strong>. Il faut un abonnement payant, autour de 20 $ par mois.</li>
+      <li>Commence par un <strong>dossier d'essai</strong>, relis avant tout ce qui ne se défait pas, et ne lui ouvre jamais un dossier qui contient des mots de passe.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Avant de commencer</h2>
+    <p>Pendant des mois, mon usage de l&#39;IA ressemblait à ça : je posais une question, je copiais la réponse, je la collais dans un tableur, je reformatais, je rangeais. L&#39;IA faisait la partie intéressante, et moi la partie pénible.</p>
+    <p>Ce qui a changé en 2026, c&#39;est que les apps de bureau de Claude et de ChatGPT peuvent maintenant faire la partie pénible aussi. Tu leur confies un dossier et une consigne en français, et elles lisent tes fichiers, en créent de nouveaux, et te rendent un résultat que tu n&#39;as plus qu&#39;à relire.</p>
+    <div class="callout tip">
+      <h4>Mon avis en 5 secondes</h4>
+      <p>C'est le plus gros gain de temps que j'ai vu pour un non-développeur depuis ChatGPT. Mais c'est aussi la première fois que l'IA touche à tes vrais fichiers, alors on commence petit, dans un dossier d'essai.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Ce qui change par rapport au chat</h2>
+    <p>Dans le chat, l&#39;IA te donne une réponse. Tu dois ensuite l&#39;appliquer toi-même. Avec l&#39;app de bureau, tu lui donnes un but, elle découpe le travail en étapes et le fait. C&#39;est ce qu&#39;on appelle le <a href="../lexique/mode-agent">mode agent</a>.</p>
+    <p>Les deux grands outils ont chacun leur façon de faire :</p>
+    <ul>
+    <li><strong>Chez Claude</strong>, tout se passe dans l&#39;app Claude de bureau. Tu lui ouvres un dossier de ton ordinateur, et elle travaille dedans. Ce mode s&#39;appelait <a href="../lexique/cowork">Cowork</a>. Fin 2026, il se fond dans la conversation normale : tu demandes, et Claude choisit seul s&#39;il répond ou s&#39;il travaille.</li>
+    <li><strong>Chez ChatGPT</strong>, l&#39;app de bureau a deux modes, Chat et <a href="../lexique/chatgpt-work">Work</a>. Work prend une tâche entière et rend un document, un tableau, une présentation, un rapport ou un site. Dans l&#39;app de bureau, il peut aussi utiliser tes fichiers et tes applications, avec ton autorisation.</li>
+    </ul>
+    <p>Dans les deux cas, tu n&#39;écris pas une ligne de code et tu n&#39;ouvres aucun écran technique.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Installer l&#39;app et l&#39;ouvrir</h2>
+    <p>Il te faut un abonnement payant. Claude Pro coûte 20 $ par mois hors taxes, ChatGPT Plus aussi environ 20 $ par mois, sans engagement dans les deux cas. Les versions gratuites suffisent pour discuter, pas pour ce mode de travail.</p>
+    <ol>
+    <li><strong>Télécharge l&#39;app.</strong> Claude sur <a href="https://claude.com/download">claude.com/download</a>, ChatGPT sur <a href="https://chatgpt.com/download/">chatgpt.com/download</a>. Les deux existent pour Mac et Windows.</li>
+    <li><strong>Installe-la</strong> comme n&#39;importe quelle application, puis connecte-toi avec ton compte.</li>
+    <li><strong>Crée un dossier d&#39;essai</strong> sur ton bureau, par exemple « essai-ia », et mets-y deux ou trois fichiers sans importance.</li>
+    <li><strong>Ouvre ce dossier à l&#39;IA.</strong> Dans Claude, donne-lui accès à ce dossier. Si tu vois encore deux boutons « Chat » et « Cowork », choisis Cowork. Dans ChatGPT, choisis ChatGPT dans le menu, puis Work avec le sélecteur.</li>
+    </ol>
+    <p>Les écrans changent vite chez les deux éditeurs. Si un bouton n&#39;est pas exactement là où je le dis, demande directement à l&#39;IA : « comment je te donne accès à un dossier de mon ordinateur ? ». Elle te guidera.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Cinq premières tâches à essayer</h2>
+    <p>Chaque message se colle tel quel. Remplace seulement ce qui est entre crochets.</p>
+    <div class="usecase">
+      <div class="usecase-label">Tâche 01 · Ranger un dossier</div>
+      <h4>Ton dossier Téléchargements, enfin trié</h4>
+      <p>Ouvre ton dossier Téléchargements à l'IA, ou une copie si tu préfères être prudent.</p>
+      <pre>Range ce dossier par type de fichier : documents, images, tableurs, autres.
+    Mets dans un sous-dossier Archive tout ce qui date de plus de 6 mois.
+    Ne supprime rien. Montre-moi ce que tu as déplacé.</pre>
+      <p>Tu récupères un dossier rangé et la liste de ce qui a bougé.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Tâche 02 · Tableau de dépenses</div>
+      <h4>Des factures PDF à un tableau propre</h4>
+      <p>Mets tes factures du mois dans le dossier.</p>
+      <pre>Lis toutes les factures PDF de ce dossier.
+    Crée un tableau avec la date, le fournisseur, le montant HT, la TVA et le montant TTC.
+    Ajoute une ligne de total. Si une information manque, laisse la case vide et dis-le moi.</pre>
+      <p>Tu obtiens un tableur prêt à ouvrir. Vérifie deux ou trois lignes au hasard avant de t'en servir.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Tâche 03 · Comparer des devis</div>
+      <h4>Trois devis, un choix argumenté</h4>
+      <pre>À partir des devis de ce dossier, fais un tableau comparatif : prix, délais, garanties, ce qui est inclus et ce qui ne l'est pas.
+    Dis-moi lequel tu choisirais pour [ton critère principal] et pourquoi, en 5 lignes.</pre>
+      <p>Le tableau t'évite de relire trois PDF côte à côte. La décision reste la tienne.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Tâche 04 · Une présentation</div>
+      <h4>Tes notes deviennent 10 slides</h4>
+      <pre>À partir de mes notes dans ce dossier, crée une présentation de 10 slides pour [ton public].
+    Une idée par slide, des titres courts, pas plus de 4 lignes de texte par slide.</pre>
+      <p>Tu récupères un fichier que tu ouvres dans PowerPoint, Keynote ou Google Slides pour l'ajuster.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Tâche 05 · Une page web</div>
+      <h4>La page de ton activité</h4>
+      <pre>Dans ce dossier, crée une page web simple qui présente mon activité : [ton métier et ta ville].
+    Explique-moi en mots simples ce que tu fais.
+    Quand c'est prêt, montre-moi le résultat.</pre>
+      <p>C'est l'exercice de l'<a href="../apprendre#etape-03">étape 3 du parcours Apprendre</a>. Tu viens de faire construire quelque chose sans une ligne de code.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Les réglages de sécurité</h2>
+    <p>Ces apps agissent pour de vrai sur tes fichiers. Trois choses à connaître avant de leur confier plus qu&#39;un dossier d&#39;essai.</p>
+    <h3>Chez Claude, le réglage Auto ou Manuel</h3>
+    <p>Dans la zone de message, un réglage décide à quel point Claude travaille seul. <strong>Auto</strong>, le réglage par défaut sur les abonnements Pro, le laisse avancer sans te demander à chaque étape, avec des vérifications automatiques avant d&#39;agir. <strong>Manuel</strong> lui fait demander ton accord avant chaque action. Pour tes premières tâches, passe en Manuel : tu verras exactement ce qu&#39;il fait.</p>
+    <p>Claude ne touche à tes fichiers que tant que l&#39;app est ouverte, et il demande avant de supprimer définitivement un fichier.</p>
+    <h3>Chez ChatGPT, les autorisations</h3>
+    <p>Dans l&#39;app de bureau, Work n&#39;utilise tes fichiers et tes applications qu&#39;avec ton autorisation. Le travail peut tourner sur ton ordinateur, mais les messages et le contexte de la tâche peuvent être enregistrés dans le cloud. Garde-le en tête pour les documents sensibles.</p>
+    <h3>La règle qui vaut pour les deux</h3>
+    <p>Tout ce que l&#39;IA lit pour faire la tâche part chez l&#39;éditeur pour être traité, comme dans le chat. Pour aller plus loin sur ce sujet, lis <a href="donnees-perso-ia-confidentialite">ce que les IA font de tes données</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Ce qu&#39;il ne faut pas lui confier</h2>
+    <ul>
+    <li><strong>Un dossier qui contient des mots de passe</strong>, des codes d&#39;accès ou des données médicales.</li>
+    <li><strong>Tout ton disque</strong> au lieu d&#39;un seul dossier. Un dossier précis, c&#39;est un travail précis.</li>
+    <li><strong>Un envoi ou un paiement sans relecture.</strong> Tout ce qui ne se défait pas, tu le relis avant.</li>
+    <li><strong>Des fichiers importants sans copie.</strong> Travaille sur une copie tant que tu découvres l&#39;outil.</li>
+    <li><strong>Des documents clients confidentiels</strong>, sans avoir vérifié ce que ton contrat et ton abonnement autorisent.</li>
+    </ul>
+    <div class="callout ok">
+      <h4>Ma check-list avant chaque tâche</h4>
+      <p>(1) Un seul dossier ouvert, et j'ai une copie. (2) Ma consigne dit ce qu'il ne doit pas faire, par exemple « ne supprime rien ». (3) Je relis le résultat avant de l'envoyer à qui que ce soit.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Et maintenant ?</h2>
+    <p>Fais la tâche 05 tout de suite, c&#39;est dix minutes. Ensuite, reprends une tâche répétitive de ta semaine et confie-la, dans un dossier d&#39;essai. Si tu veux aller plus loin et enchaîner des actions tout seul, lis <a href="automatiser-taches-ia-sans-coder">comment automatiser tes tâches sans coder</a>.</p>
+    <h2>Sources</h2>
+    <ul>
+    <li>Aide Claude, « Claude Cowork and chat are one Claude », consultée le 2 novembre 2026 : <a href="https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude">support.claude.com</a></li>
+    <li>Aide OpenAI, « ChatGPT Work et Codex », consultée le 2 novembre 2026 : <a href="https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex">help.openai.com</a></li>
+    <li>Aide OpenAI, « Moving to the new ChatGPT desktop app », consultée le 2 novembre 2026 : <a href="https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app">help.openai.com</a></li>
+    </ul>
+    <p>Ces apps évoluent chaque mois. Si un écran a changé, écris-moi, je mets le guide à jour.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>1 mail par semaine.<br>Ce que je teste <em>vraiment.</em></h3>
+        <p>Mes vrais usages IA, les outils que j'achète/garde/jette, mes articles dès qu'ils sortent. Pas de récap d'actu, pas de blabla.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="ton@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Adresse email">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">M'inscrire</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          Une question, un doute, une critique ? <strong>Écris-moi — je lis tout, je réponds à tout.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Lire</h5>
+        <ul>
+          <li><a href="../apprendre">Parcours débutant</a></li>
+          <li><a href="../claude-code">Guide Claude Code</a></li>
+          <li><a href="../articles">Tous les articles</a></li>
+          <li><a href="../lexique">Lexique IA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Outils</h5>
+        <ul>
+          <li><a href="../precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Générateur photos · 39 €</a></li>
+          <li><a href="../outils">Ma stack outils</a></li>
+          <li><a href="../modeles-ia">Guide des modèles IA</a></li>
+          <li><a href="../podcast">Podcast Guerres d'IA</a></li>
+          <li><a href="../github">Mon GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Suis-moi</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Légal</h5>
+        <ul>
+          <li><a href="../mentions-legales">Mentions légales</a></li>
+          <li><a href="../politique-confidentialite">Confidentialité</a></li>
+          <li><a href="../cgv">CGV</a></li>
+          <li><a href="../suppression-donnees">Supprimer mes données</a></li>
+          <li><a href="../preferences">Préférences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Fait avec du café</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

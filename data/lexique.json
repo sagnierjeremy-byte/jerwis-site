@@ -5372,6 +5372,181 @@
       ],
       "summary": "Deployment Protection Vercel contrôle qui peut accéder à un déploiement preview ou production.",
       "where": "Tu la vois quand une app interne, un prototype ou une preview ne doit pas être visible publiquement."
+    },
+    {
+      "slug": "cowork",
+      "title": "Cowork (Claude)",
+      "category": "Produit IA",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "claude cowork",
+        "mode cowork"
+      ],
+      "groups": [
+        "agents",
+        "outils"
+      ],
+      "summary": "Cowork, c'est Claude qui travaille sur ton ordinateur. Tu lui ouvres un dossier, il lit, range et crée des fichiers dedans.",
+      "where": "Dans l'app Claude de bureau, sur Mac et Windows, avec un abonnement payant (Pro ou plus).",
+      "example": "Tu ouvres ton dossier Téléchargements à Claude et tu écris « range tout ça par type et par date ». Il crée les sous-dossiers et y déplace les fichiers.",
+      "why": "C'est la façon la plus simple de faire travailler l'IA sur tes vrais fichiers, sans terminal ni ligne de code.",
+      "mistakes": [
+        "Lui ouvrir tout ton disque au lieu d'un seul dossier.",
+        "Fermer l'app pendant qu'il travaille sur tes fichiers, ce qui arrête la tâche.",
+        "Lui confier des fichiers importants sans copie de sauvegarde."
+      ],
+      "related": [
+        "mode-agent",
+        "chatgpt-work",
+        "computer-use",
+        "sandbox"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
+      ]
+    },
+    {
+      "slug": "chatgpt-work",
+      "title": "ChatGPT Work",
+      "category": "Produit IA",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "mode work",
+        "work chatgpt"
+      ],
+      "groups": [
+        "agents",
+        "outils"
+      ],
+      "summary": "Work est le mode de ChatGPT qui réalise une tâche entière, en plusieurs étapes, et rend un document, un tableau, une présentation ou un site.",
+      "where": "Dans ChatGPT sur le web, le téléphone et l'app de bureau (Mac et Windows), avec un forfait payant.",
+      "example": "Tu passes en Work et tu écris « à partir de ces trois devis, fais-moi un tableau comparatif et dis-moi lequel choisir ». Il rend le tableau, prêt à ouvrir.",
+      "why": "Tu passes de réponses à copier-coller à des documents finis.",
+      "mistakes": [
+        "Utiliser Work pour une simple question, alors que Chat répond plus vite.",
+        "Lui ouvrir tes fichiers sans relire ce qu'il en fait.",
+        "Croire que le résultat est juste parce qu'il est bien présenté."
+      ],
+      "related": [
+        "cowork",
+        "mode-agent",
+        "projet-ia",
+        "navigateur-ia"
+      ],
+      "sources": [
+        "https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex",
+        "https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app"
+      ]
+    },
+    {
+      "slug": "mode-agent",
+      "title": "Mode agent",
+      "category": "Agent",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "agent mode",
+        "agentique"
+      ],
+      "groups": [
+        "agents",
+        "bases"
+      ],
+      "summary": "Le mode agent, c'est quand l'IA ne se contente plus de répondre et enchaîne seule plusieurs actions pour atteindre un but.",
+      "where": "Dans Cowork chez Claude, Work chez ChatGPT, les navigateurs IA comme Comet ou Atlas, et les outils d'automatisation.",
+      "example": "Tu demandes « trouve-moi trois trains pour Lyon vendredi matin ». En mode agent, l'IA ouvre le site, compare les horaires et te propose les trois, au lieu de te donner des conseils pour chercher.",
+      "why": "C'est ce qui fait gagner le plus de temps, et ce qui demande le plus d'attention.",
+      "mistakes": [
+        "La laisser payer ou envoyer un message sans relire.",
+        "Lui donner une consigne floue, elle part alors dans la mauvaise direction.",
+        "Croire qu'un agent ne se trompe jamais parce qu'il a l'air sûr de lui."
+      ],
+      "related": [
+        "cowork",
+        "chatgpt-work",
+        "agentic-workflow",
+        "computer-use",
+        "navigateur-ia"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex"
+      ]
+    },
+    {
+      "slug": "projet-ia",
+      "title": "Projet (Claude, ChatGPT)",
+      "category": "Produit IA",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "projects",
+        "projets chatgpt",
+        "projets claude"
+      ],
+      "groups": [
+        "bases",
+        "outils"
+      ],
+      "summary": "Un projet regroupe des conversations, des fichiers et des consignes sur un même sujet, pour que l'IA garde le contexte d'une fois sur l'autre.",
+      "where": "Dans Claude et dans ChatGPT, sur le web, le téléphone et l'app de bureau.",
+      "example": "Tu crées un projet « Mon activité », tu y déposes ta plaquette et tes tarifs, et tu écris une consigne : « réponds toujours en tutoyant, ton chaleureux ». Chaque nouvelle conversation part de là.",
+      "why": "Des réponses plus justes, sans recopier ton contexte à chaque fois.",
+      "mistakes": [
+        "Tout mettre dans un seul projet fourre-tout.",
+        "Y déposer des documents confidentiels sans vérifier les réglages de confidentialité.",
+        "Oublier de mettre à jour les fichiers quand tes tarifs changent."
+      ],
+      "related": [
+        "chatgpt-work",
+        "cowork",
+        "notebooklm"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex"
+      ]
+    },
+    {
+      "slug": "navigateur-ia",
+      "title": "Navigateur IA",
+      "category": "Browser agents",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "ai browser",
+        "navigateur avec ia"
+      ],
+      "groups": [
+        "agents",
+        "outils"
+      ],
+      "summary": "Un navigateur IA est un navigateur web avec une IA intégrée, qui lit la page avec toi et peut agir dessus à ta demande.",
+      "where": "Comet de Perplexity, Atlas d'OpenAI, les fonctions IA de Chrome et le navigateur intégré à l'app Claude.",
+      "example": "Sur une fiche produit, tu demandes « compare avec les deux autres onglets et dis-moi le moins cher livré avant samedi ». Il lit les trois pages et te répond.",
+      "why": "L'IA voit ce que tu vois, tu n'as plus à copier-coller les pages.",
+      "mistakes": [
+        "Le laisser se connecter à tes comptes sans surveiller.",
+        "Croire qu'il ne peut pas se faire piéger par une page malveillante.",
+        "L'utiliser pour un achat sans relire le panier."
+      ],
+      "related": [
+        "chatgpt-atlas",
+        "perplexity-comet",
+        "mode-agent",
+        "browser-use"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude"
+      ]
     }
   ]
 }

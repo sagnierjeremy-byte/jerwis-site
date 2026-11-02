@@ -1,0 +1,36 @@
+name: Cours par mail (3 étapes)
+
+# Chaque matin, envoie le mail du jour aux inscrits du cours « Apprendre l'IA en 3 étapes ».
+# Coupé tant que la variable de dépôt COURS_MAIL ne vaut pas « on » (posée après validation des 6 mails par Jérémy).
+# Lancement manuel avec test_email : envoie les 6 mails à cette seule adresse.
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      test_email:
+        description: 'Adresse qui reçoit les 6 mails en test (vide = envoi normal du jour)'
+        required: false
+
+jobs:
+  envoyer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Envoie le mail du jour
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_AUDIENCE_ID: ${{ vars.RESEND_AUDIENCE_ID }}
+          COURS_MAIL: ${{ vars.COURS_MAIL }}
+          TEST_EMAIL: ${{ github.event.inputs.test_email }}
+        run: |
+          if [ -n "$TEST_EMAIL" ]; then
+            node scripts/cours/envoyer-cours.mjs --test "$TEST_EMAIL"
+          else
+            node scripts/cours/envoyer-cours.mjs
+          fi

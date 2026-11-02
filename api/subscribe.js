@@ -5,6 +5,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { MAILS as COURS_MAILS, SOURCE as COURS_SOURCE, rendre as rendreCours } from "../scripts/cours/mails.mjs";
 
 const FROM_EMAIL = "Jérémy Sagnier <jeremy@jerwis.fr>";
 const ADMIN_EMAIL = process.env.ADMIN_NOTIFY_EMAIL || "jeremy.sagnier@jerwis.fr";
@@ -111,7 +112,8 @@ export default async function handler(req, res) {
     // On ne re-envoie PAS à un contact déjà inscrit (évite les doublons)
     if (!alreadySubscribed) {
       try {
-        await sendWelcomeEmail(apiKey, email.toLowerCase().trim());
+        if (source === COURS_SOURCE) await sendCoursMail(apiKey, email.toLowerCase().trim());
+        else await sendWelcomeEmail(apiKey, email.toLowerCase().trim());
       } catch (e) {
         console.error("[subscribe] welcome email failed:", e);
       }
@@ -176,6 +178,17 @@ function escapeHtml(s) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+// Cours « Apprendre l'IA en 3 étapes » : le mail 1 tient lieu de bienvenue, les suivants partent chaque matin
+// depuis GitHub Actions (scripts/cours/envoyer-cours.mjs).
+async function sendCoursMail(apiKey, email) {
+  const mail = COURS_MAILS[0];
+  await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ from: FROM_EMAIL, to: [email], subject: mail.sujet, html: rendreCours(mail, email, 1) }),
+  });
 }
 
 async function sendWelcomeEmail(apiKey, email) {

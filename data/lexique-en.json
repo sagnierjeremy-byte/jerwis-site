@@ -5372,6 +5372,181 @@
       ],
       "summary": "Vercel Deployment Protection controls who can access a preview or production deployment.",
       "where": "You see it when an internal app, a prototype, or a preview shouldn't be publicly visible."
+    },
+    {
+      "slug": "cowork",
+      "title": "Cowork (Claude)",
+      "category": "AI product",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "claude cowork",
+        "cowork mode"
+      ],
+      "groups": [
+        "agents",
+        "outils"
+      ],
+      "summary": "Cowork is Claude working on your computer. You give it a folder, and it reads, sorts and creates files inside it.",
+      "where": "In the Claude desktop app, on Mac and Windows, with a paid plan (Pro or higher).",
+      "example": "You give Claude your Downloads folder and write \"sort all of this by type and date\". It creates the subfolders and moves the files into them.",
+      "why": "It is the simplest way to put AI to work on your real files, with no terminal and no code.",
+      "mistakes": [
+        "Giving it your whole drive instead of a single folder.",
+        "Closing the app while it works on your files, which stops the task.",
+        "Handing it important files with no backup copy."
+      ],
+      "related": [
+        "mode-agent",
+        "chatgpt-work",
+        "computer-use",
+        "sandbox"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
+      ]
+    },
+    {
+      "slug": "chatgpt-work",
+      "title": "ChatGPT Work",
+      "category": "AI product",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "work mode",
+        "chatgpt work mode"
+      ],
+      "groups": [
+        "agents",
+        "outils"
+      ],
+      "summary": "Work is the ChatGPT mode that completes a whole task, in several steps, and hands back a document, a spreadsheet, a deck or a site.",
+      "where": "In ChatGPT on the web, on your phone and in the desktop app (Mac and Windows), with a paid plan.",
+      "example": "You switch to Work and write \"from these three quotes, build me a comparison table and tell me which one to pick\". It hands back the table, ready to open.",
+      "why": "You go from answers you copy and paste to finished documents.",
+      "mistakes": [
+        "Using Work for a quick question, when Chat answers faster.",
+        "Giving it your files without checking what it does with them.",
+        "Assuming the result is right because it looks polished."
+      ],
+      "related": [
+        "cowork",
+        "mode-agent",
+        "projet-ia",
+        "navigateur-ia"
+      ],
+      "sources": [
+        "https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex",
+        "https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app"
+      ]
+    },
+    {
+      "slug": "mode-agent",
+      "title": "Agent mode",
+      "category": "Agent",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "agentic mode",
+        "ai agent mode"
+      ],
+      "groups": [
+        "agents",
+        "bases"
+      ],
+      "summary": "Agent mode is when AI stops just answering and chains several actions on its own to reach a goal.",
+      "where": "In Cowork on Claude, Work on ChatGPT, AI browsers like Comet or Atlas, and automation tools.",
+      "example": "You ask \"find me three trains to Lyon on Friday morning\". In agent mode, the AI opens the site, compares the times and suggests the three, instead of giving you tips on how to search.",
+      "why": "It is what saves the most time, and what needs the most attention.",
+      "mistakes": [
+        "Letting it pay or send a message without checking.",
+        "Giving it a vague instruction, so it heads the wrong way.",
+        "Thinking an agent never makes mistakes because it sounds confident."
+      ],
+      "related": [
+        "cowork",
+        "chatgpt-work",
+        "agentic-workflow",
+        "computer-use",
+        "navigateur-ia"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex"
+      ]
+    },
+    {
+      "slug": "projet-ia",
+      "title": "Project (Claude, ChatGPT)",
+      "category": "AI product",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "projects",
+        "chatgpt projects",
+        "claude projects"
+      ],
+      "groups": [
+        "bases",
+        "outils"
+      ],
+      "summary": "A project groups conversations, files and instructions on one topic, so the AI keeps the context from one time to the next.",
+      "where": "In Claude and in ChatGPT, on the web, on your phone and in the desktop app.",
+      "example": "You create a \"My business\" project, add your brochure and price list, and write one instruction: \"always answer in a warm, friendly tone\". Every new conversation starts from there.",
+      "why": "More accurate answers, without pasting your context every time.",
+      "mistakes": [
+        "Putting everything in one catch-all project.",
+        "Uploading confidential documents without checking the privacy settings.",
+        "Forgetting to update the files when your prices change."
+      ],
+      "related": [
+        "chatgpt-work",
+        "cowork",
+        "notebooklm"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+        "https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex"
+      ]
+    },
+    {
+      "slug": "navigateur-ia",
+      "title": "AI browser",
+      "category": "Browser agents",
+      "page": true,
+      "priority": "P1",
+      "lastmod": "2026-11-02",
+      "aliases": [
+        "ai web browser",
+        "browser with ai"
+      ],
+      "groups": [
+        "agents",
+        "outils"
+      ],
+      "summary": "An AI browser is a web browser with built-in AI that reads the page with you and can act on it when you ask.",
+      "where": "Perplexity's Comet, OpenAI's Atlas, Chrome's AI features and the browser built into the Claude desktop app.",
+      "example": "On a product page, you ask \"compare with the two other tabs and tell me the cheapest one delivered before Saturday\". It reads the three pages and answers.",
+      "why": "The AI sees what you see, so you stop copying and pasting pages.",
+      "mistakes": [
+        "Letting it sign in to your accounts without watching.",
+        "Thinking a malicious page cannot trick it.",
+        "Using it to buy something without checking the cart."
+      ],
+      "related": [
+        "chatgpt-atlas",
+        "perplexity-comet",
+        "mode-agent",
+        "browser-use"
+      ],
+      "sources": [
+        "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude"
+      ]
     }
   ]
 }

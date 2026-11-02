@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Global atlas of AI models · USA, Europe, China — Jérémy Sagnier</title>
-<meta name="description" content="156 AI models sorted by country. What each one does, its license, its price. USA, Europe and China in a single table to grasp who does what in 2026.">
+<meta name="description" content="175 AI models sorted by country. What each one does, its license, its price. USA, Europe and China in a single table to grasp who does what in 2026.">
 
 <meta property="og:title" content="Global atlas of AI models · USA, Europe, China">
-<meta property="og:description" content="156 AI models sorted by country. What each one does, its license, its price.">
+<meta property="og:description" content="175 AI models sorted by country. What each one does, its license, its price.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jerwis.fr/en/modeles-ia-monde">
 <meta property="og:locale" content="en_US">
@@ -17,7 +17,7 @@
 <meta name="twitter:site" content="@JeremySagnier">
 <meta name="twitter:creator" content="@JeremySagnier">
 <meta name="twitter:title" content="Global atlas of AI models">
-<meta name="twitter:description" content="156 AI models sorted by country. What each one does, its license, its price.">
+<meta name="twitter:description" content="175 AI models sorted by country. What each one does, its license, its price.">
 <meta name="twitter:image" content="https://jerwis.fr/photos/og-jerwis.jpg">
 
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -53,7 +53,7 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Global atlas of AI models",
-  "description": "156 AI models sorted by country. What each one does, its license, its price.",
+  "description": "175 AI models sorted by country. What each one does, its license, its price.",
   "inLanguage": "fr-FR",
   "url": "https://jerwis.fr/en/modeles-ia-monde",
   "author": {
@@ -346,6 +346,19 @@
     background: rgba(0,178,169,0.15);
     color: var(--teal);
   }
+  .new-badge, .replaced-badge {
+    display: inline-flex; align-items: center;
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .new-badge { background: var(--teal); border: 1px solid var(--teal); color: #0A0A0A; }
+  .replaced-badge { background: transparent; border: 1px solid var(--orange); color: var(--ink); }
 
 </style>
 <link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
@@ -395,7 +408,7 @@
         </a>
         <a href="/en/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>AI glossary</strong><span>40 terms explained</span></span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
         </a>
         <a href="/en/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
@@ -445,13 +458,16 @@
 <main>
   <section class="monde-hero">
     <div class="monde-hero-inner">
-      <div class="monde-kicker">Global atlas · 156 models · verified May 21, 2026</div>
+      <div class="monde-kicker">Global atlas · 175 models · checked in May, completed November 2, 2026</div>
       <h1>Who does what,<br><em>in which country.</em></h1>
       <p class="monde-lead">
         I haven't tested them all. Most of them, I just watched go by to understand the landscape. I'm sharing the recap I wish someone had handed me: <strong>for each model, what it's for, its license and its price</strong>. USA, Europe and China in three tables. Prices are in USD per million tokens (input/output) unless noted otherwise.
       </p>
       <p class="monde-lead" style="margin-top:14px;font-size:14.5px;">
         💡 The <span class="tested-badge" style="font-size:9px;">tested</span> badge marks the <strong>11 models I actually use</strong> in my projects (CRM, podcast, photos, scripts). The rest is just watching the field: worth knowing, not worth putting into production without testing. For the technical acronyms (MoE, RAG, embedding, STT/TTS, open-weight), head over to the <a href="/en/lexique" style="color:var(--fuchsia);font-weight:700;">AI glossary</a>.
+      </p>
+      <p class="monde-lead" style="margin-top:14px;font-size:14.5px;">
+        On November 2, 2026, I added the new verified models at the top of their maker, with the <span class="new-badge" style="margin-left:0;">new</span> badge. The ones they replace stay in the table with the <span class="replaced-badge" style="margin-left:0;">replaced</span> badge. When a reliable source is missing, I write "to check".
       </p>
       <a class="monde-back" href="/en/modeles-ia">← Back to the "which one should I pick?" guide</a>
     </div>
@@ -463,22 +479,22 @@
     <!-- SECTION : Catalogue mondial par pays         -->
     <!-- ============================================ -->
 <section class="country-catalog" id="catalogue-monde">
-      <div class="section-eyebrow">Global catalog · 156 models · verified May 20, 2026</div>
+      <div class="section-eyebrow">Global catalog · 175 models · completed November 2, 2026</div>
       <h2 class="models-section-title">Who does <em>what</em>, in which country.</h2>
       <p class="country-lede">The catalog by country. For each model: what it's really for, its license and its price. Prices in USD per million tokens (input/output) unless noted otherwise.</p>
 
       <div class="country-quick-nav">
-        <a href="#country-us">🇺🇸 USA · 51</a>
-        <a href="#country-eu">🇪🇺 Europe + UK · 48</a>
-        <a href="#country-cn">🇨🇳 China · 57</a>
+        <a href="#country-us">🇺🇸 USA · 65</a>
+        <a href="#country-eu">🇪🇺 Europe + UK · 50</a>
+        <a href="#country-cn">🇨🇳 China · 60</a>
       </div>
 
     <article class="country-block" data-accent="teal" id="country-us">
       <header class="country-head">
         <div class="country-flag" aria-hidden="true">🇺🇸</div>
         <div>
-          <div class="country-eyebrow">USA · 51 models</div>
-          <p class="country-intro">The American giants keep the edge on the proprietary frontier — GPT-5.5, Claude Opus 4.7, Gemini 3.1 Pro — but the open-weight ecosystem is thinner (Llama, Phi, Nemotron). Worth a close look if you want to understand the frontier.</p>
+          <div class="country-eyebrow">USA · 65 models</div>
+          <p class="country-intro">The American giants keep the edge on the proprietary frontier with GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon. Their open-weight ecosystem is thinner (Llama, Phi, Nemotron). Worth a close look if you want to understand the frontier.</p>
         </div>
       </header>
       <div class="country-table-wrap">
@@ -496,15 +512,39 @@
           <tbody>
         <tr>
           <td class="cell-provider">OpenAI</td>
-          <td class="cell-model"><strong>GPT-5.5</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>GPT-6 Astra</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
-          <td class="cell-usage">OpenAI's most powerful model. Reach for it when you want the best possible answer and budget takes a back seat.</td>
+          <td class="cell-usage">OpenAI's most powerful model for the most demanding work. Pricey, keep it for the really hard tasks.</td>
+          <td class="cell-price">$10 / $50 /Mtok</td>
+          <td class="cell-ctx">1.05M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>GPT-6.1 Sol</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Almost as strong as Astra for a fifth of the price. OpenAI's sensible default for code and agents.</td>
+          <td class="cell-price">$2 / $10 /Mtok</td>
+          <td class="cell-ctx">1.05M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>GPT-6 Luna</strong> <span class="new-badge">new</span><span class="cell-type">Fast LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">OpenAI's small, cheap model for simple, repetitive tasks. You can try it for free in the ChatGPT desktop app.</td>
+          <td class="cell-price">$0.10 / $0.50 /Mtok</td>
+          <td class="cell-ctx">1.05M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>GPT-5.5</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">OpenAI's most powerful model before GPT-6 Astra. Reach for it when you want the best possible answer and budget takes a back seat.</td>
           <td class="cell-price">$5 / $30 /Mtok</td>
           <td class="cell-ctx">270k</td>
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>GPT-5.4</strong> <span class="tested-badge" title="Tested for real by Jérémy">tested</span><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>GPT-5.4</strong> <span class="replaced-badge">replaced</span> <span class="tested-badge" title="Tested for real by Jérémy">tested</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">OpenAI's value pick for everyday work: assistant, agent, basic coding.</td>
           <td class="cell-price">$2.50 / $15 /Mtok</td>
@@ -520,7 +560,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>GPT-5.3-Codex</strong><span class="cell-type">Code LLM</span></td>
+          <td class="cell-model"><strong>GPT-5.3-Codex</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Code LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Built for code: it refactors, debugs and writes tests. The right hand of anyone who codes.</td>
           <td class="cell-price">Codex Enterprise pricing</td>
@@ -584,7 +624,39 @@
         </tr>
         <tr>
           <td class="cell-provider">Anthropic</td>
-          <td class="cell-model"><strong>Claude Opus 4.7</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Claude Fable 5.1</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Claude's most powerful model for heavy reasoning and long agent missions. Slow and pricey, keep it for the hard cases.</td>
+          <td class="cell-price">$10 / $50 /Mtok</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Claude Opus 5.5</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">The model Anthropic recommends to start with. Very strong at code and agents, and a bit cheaper than Opus 4.6.</td>
+          <td class="cell-price">$4 / $20 /Mtok</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Claude Sonnet 5.5</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Claude's best balance of speed and intelligence, and it's on the free plan.</td>
+          <td class="cell-price">$2 / $10 /Mtok</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Claude Haiku 5.5</strong> <span class="new-badge">new</span><span class="cell-type">Fast LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Claude's fastest and cheapest model, for sorting, extracting or routing lots of text.</td>
+          <td class="cell-price">$0.10 / $0.50 /Mtok (up to 100k)</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Claude Opus 4.7</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">The most subtle model on the market. For long-form writing, nuanced reasoning, high-end prose.</td>
           <td class="cell-price">$5 / $25 /Mtok</td>
@@ -592,7 +664,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Claude Opus 4.7 Fast</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Claude Opus 4.7 Fast</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Opus 4.7 with latency priority. Pricey, but you get an answer in seconds.</td>
           <td class="cell-price">$30 / $150 /Mtok</td>
@@ -600,7 +672,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Claude Opus 4.6 / 4.5</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Claude Opus 4.6 / 4.5</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Previous Opus versions, still in service. Comparable to 4.7 for 95% of uses.</td>
           <td class="cell-price">$5 / $25 /Mtok</td>
@@ -608,15 +680,15 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Claude Sonnet 4.6</strong> <span class="tested-badge" title="Tested for real by Jérémy">tested</span><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Claude Sonnet 4.6</strong> <span class="replaced-badge">replaced</span> <span class="tested-badge" title="Tested for real by Jérémy">tested</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
-          <td class="cell-usage">The best balance at Anthropic. My default pick for CRM, agents and pro content.</td>
+          <td class="cell-usage">The best balance at Anthropic before Sonnet 5.5. My default pick for CRM, agents and pro content.</td>
           <td class="cell-price">$3 / $15 /Mtok</td>
           <td class="cell-ctx">200k (1M β)</td>
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Claude Sonnet 4.5</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Claude Sonnet 4.5</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">The stable Sonnet before 4.6. If you already have a workflow tested on it, keep it.</td>
           <td class="cell-price">$3 / $15 /Mtok</td>
@@ -624,7 +696,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Claude Haiku 4.5</strong> <span class="tested-badge" title="Tested for real by Jérémy">tested</span><span class="cell-type">Fast LLM</span></td>
+          <td class="cell-model"><strong>Claude Haiku 4.5</strong> <span class="replaced-badge">replaced</span> <span class="tested-badge" title="Tested for real by Jérémy">tested</span><span class="cell-type">Fast LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Little Claude for classification, extraction and simple high-volume tasks.</td>
           <td class="cell-price">$1 / $5 /Mtok</td>
@@ -632,17 +704,57 @@
         </tr>
         <tr>
           <td class="cell-provider">Google</td>
-          <td class="cell-model"><strong>Gemini 3.5 Flash</strong><span class="cell-type">Multimodal LLM</span></td>
+          <td class="cell-model"><strong>Gemini 4 Argon</strong> <span class="new-badge">new</span><span class="cell-type">Multimodal LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
-          <td class="cell-usage">Google's fastest, with 1M of context. For handling long PDFs or entire codebases.</td>
+          <td class="cell-usage">Google's new flagship, very strong at reasoning. In the Gemini app it needs Google AI Pro or Ultra.</td>
+          <td class="cell-price">$2 / $10 /Mtok (then $4 / $20 from Dec 1)</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Gemini 3.8 Flash</strong> <span class="new-badge">new</span><span class="cell-type">Multimodal LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Google's smartest Flash, built for code and agents at scale.</td>
+          <td class="cell-price">$0.75 / $3.75 /Mtok (then $1.50 / $7.50 in 2027)</td>
+          <td class="cell-ctx">to check</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Gemini 3.5 Flash-Lite</strong> <span class="new-badge">new</span><span class="cell-type">Multimodal LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">The fastest and cheapest Gemini, for large volumes of simple tasks.</td>
+          <td class="cell-price">$0.30 / $2.50 /Mtok</td>
+          <td class="cell-ctx">to check</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Gemini 3.8 Live / 3.8 Flash TTS</strong> <span class="new-badge">new</span><span class="cell-type">Audio</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Google's voices for talking live with an agent or reading a text out loud. They replace the 3.1 versions.</td>
+          <td class="cell-price">to check</td>
+          <td class="cell-ctx">n/a</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Nano Banana 2.1</strong> <span class="new-badge">new</span><span class="cell-type">Image</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Google's fast image generator, better than Nano Banana 2 at half the price per image.</td>
+          <td class="cell-price">$1.50 in / 30$/Mimg out</td>
+          <td class="cell-ctx">n/a</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Gemini 3.5 Flash</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Multimodal LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Google's fastest, with 1M of context, before Gemini 3.8 Flash. For handling long PDFs or entire codebases.</td>
           <td class="cell-price">$1.50 / $9 /Mtok</td>
           <td class="cell-ctx">1M</td>
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Gemini 3.1 Pro</strong><span class="cell-type">Multimodal LLM</span></td>
+          <td class="cell-model"><strong>Gemini 3.1 Pro</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Multimodal LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
-          <td class="cell-usage">Google's high end. Excellent at native multimodal: image + audio + video in a single call.</td>
+          <td class="cell-usage">Google's high end before Gemini 4 Argon. Excellent at native multimodal: image + audio + video in a single call.</td>
           <td class="cell-price">$2-4 / $12-18 /Mtok</td>
           <td class="cell-ctx">1M+</td>
         </tr>
@@ -656,7 +768,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Gemini 3.1 Flash Live</strong><span class="cell-type">Audio</span></td>
+          <td class="cell-model"><strong>Gemini 3.1 Flash Live</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Audio</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Real-time audio conversation at Google. A direct rival to GPT-Realtime.</td>
           <td class="cell-price">$0.75-3 / $4.50-12 /Mtok</td>
@@ -664,7 +776,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Gemini 3.1 Flash Image Preview</strong><span class="cell-type">Image</span></td>
+          <td class="cell-model"><strong>Gemini 3.1 Flash Image Preview</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Image</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Image generation built into the text model. Handy for multimodal prompts.</td>
           <td class="cell-price">$0.50 in / 60$/Mimg out</td>
@@ -722,7 +834,7 @@
           <td class="cell-provider"></td>
           <td class="cell-model"><strong>Veo 3.1 Standard / Fast / Lite</strong><span class="cell-type">Video</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
-          <td class="cell-usage">Google's direct answer to Sora. Standard goes up to 4K.</td>
+          <td class="cell-usage">Google's video model, in three versions. Standard goes up to 4K.</td>
           <td class="cell-price">$0.05 → $0.60 / s by res.</td>
           <td class="cell-ctx">—</td>
         </tr>
@@ -752,9 +864,25 @@
         </tr>
         <tr>
           <td class="cell-provider">xAI</td>
-          <td class="cell-model"><strong>Grok 4.3</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Grok 4.7</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
-          <td class="cell-usage">xAI's high-end model (Elon Musk). Strengths: humor, real-time X access, scientific reasoning.</td>
+          <td class="cell-usage">xAI's best Grok right now, good at code. Half the context of Grok 4.3, and pricier.</td>
+          <td class="cell-price">$2 / $6 /Mtok (under 200k)</td>
+          <td class="cell-ctx">500k</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Grok Imagine Video 1.5</strong> <span class="new-badge">new</span><span class="cell-type">Video</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">The new version of xAI's video model, with a very cheap lite option.</td>
+          <td class="cell-price">$0.08 / s (lite $0.02 / s)</td>
+          <td class="cell-ctx">n/a</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Grok 4.3</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">xAI's high-end model (Elon Musk) before Grok 4.7. Strengths: humor, real-time X access, scientific reasoning.</td>
           <td class="cell-price">$1.25 / $2.50 /Mtok</td>
           <td class="cell-ctx">1M</td>
         </tr>
@@ -784,7 +912,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Grok Imagine (video)</strong><span class="cell-type">Video</span></td>
+          <td class="cell-model"><strong>Grok Imagine (video)</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Video</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">AI video at xAI. Aggressive pricing vs Runway/Pika.</td>
           <td class="cell-price">$0.05 / s 720p</td>
@@ -911,7 +1039,7 @@
       <header class="country-head">
         <div class="country-flag" aria-hidden="true">🇪🇺</div>
         <div>
-          <div class="country-eyebrow">Europe + UK · 48 models</div>
+          <div class="country-eyebrow">Europe + UK · 50 models</div>
           <p class="country-intro">Europe is the most <strong>open</strong> region by ratio: Mistral under Apache 2.0, FLUX.2 klein, Kyutai under CC-BY, Apertus, Bielik, Salamandra, Lucie. If you want to self-host free models you can legally use, this is where to look.</p>
         </div>
       </header>
@@ -930,15 +1058,23 @@
           <tbody>
         <tr>
           <td class="cell-provider">🇫🇷 Mistral AI</td>
-          <td class="cell-model"><strong>Mistral Large 3</strong><span class="cell-type">LLM MoE 41B/675B</span></td>
+          <td class="cell-model"><strong>Mistral Large 4</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-ow">open-weight</span></td>
+          <td class="cell-usage">The big European model, open-weight and cheap through the API. Modified MIT license, read it before reselling it as a service.</td>
+          <td class="cell-price">$0.70 / $2.10 /Mtok</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Mistral Large 3</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM MoE 41B/675B</span></td>
           <td><span class="lic-badge lic-os">open-source</span></td>
-          <td class="cell-usage">The European high-end model, under Apache 2.0. You can self-host it, fine-tune it, resell it.</td>
+          <td class="cell-usage">The European high-end model before Mistral Large 4, under Apache 2.0. You can self-host it, fine-tune it, resell it.</td>
           <td class="cell-price">$0.50 / $1.50 /Mtok</td>
           <td class="cell-ctx">262k</td>
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>Mistral Medium 3.5</strong><span class="cell-type">Vision-LLM</span></td>
+          <td class="cell-model"><strong>Mistral Medium 3.5</strong> <span class="replaced-badge">replaced</span><span class="cell-type">Vision-LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Mistral's multimodal. Image reading + native French chat.</td>
           <td class="cell-price">$1.50 / $7.50 /Mtok</td>
@@ -1242,6 +1378,14 @@
         </tr>
         <tr>
           <td class="cell-provider">🇬🇧 ElevenLabs</td>
+          <td class="cell-model"><strong>Eleven v4</strong> <span class="new-badge">new</span><span class="cell-type">TTS</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">ElevenLabs' new voice, more expressive, in more than 90 languages, with a Turbo version for real time.</td>
+          <td class="cell-price">to check</td>
+          <td class="cell-ctx">n/a</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
           <td class="cell-model"><strong>Eleven v3 / Multilingual v2 / Flash v2.5</strong><span class="cell-type">TTS</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">The world TTS benchmark. v3 does multi-character dialogue, Flash optimizes latency.</td>
@@ -1321,7 +1465,7 @@
       <header class="country-head">
         <div class="country-flag" aria-hidden="true">🇨🇳</div>
         <div>
-          <div class="country-eyebrow">China · 57 models</div>
+          <div class="country-eyebrow">China · 60 models</div>
           <p class="country-intro">China is pushing a strategy of rock-bottom prices (DeepSeek, Doubao Flash) and massive open-weight (43 out of 75 models). <strong>Heads up</strong>: "open-weight" on the Chinese side is <em>not</em> Apache 2.0 — read the license before you put it into production. It dominates AI video (Kling, Hailuo, Seedance).</p>
         </div>
       </header>
@@ -1340,7 +1484,15 @@
           <tbody>
         <tr>
           <td class="cell-provider">DeepSeek</td>
-          <td class="cell-model"><strong>DeepSeek-V4-Flash</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>DeepSeek V4.1 Flash</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-ow">open-weight</span></td>
+          <td class="cell-usage">DeepSeek's very cheap model, with 1M context and image reading. The old V4-Flash name now points to it.</td>
+          <td class="cell-price">$0.15 / $0.60 /Mtok (off-peak)</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>DeepSeek-V4-Flash</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-ow">open-weight</span></td>
           <td class="cell-usage">The cheapest on the market if you reuse your prompt (cache hit at $0.0028/Mtok). For high-frequency bots.</td>
           <td class="cell-price">$0.14 / $0.28 /Mtok</td>
@@ -1356,7 +1508,15 @@
         </tr>
         <tr>
           <td class="cell-provider">Alibaba</td>
-          <td class="cell-model"><strong>Qwen3.6-Max-Preview</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>Qwen3.8-Max</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-prop">proprietary</span></td>
+          <td class="cell-usage">Alibaba's flagship for reasoning and code, API only.</td>
+          <td class="cell-price">to check</td>
+          <td class="cell-ctx">to check</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
+          <td class="cell-model"><strong>Qwen3.6-Max-Preview</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-prop">proprietary</span></td>
           <td class="cell-usage">Alibaba's first closed-weight flagship (a historic break). A frontier model comparable to GPT-5.</td>
           <td class="cell-price">$1.30 / $7.80 /Mtok</td>
@@ -1612,9 +1772,17 @@
         </tr>
         <tr>
           <td class="cell-provider">Zhipu</td>
+          <td class="cell-model"><strong>GLM 5.3</strong> <span class="new-badge">new</span><span class="cell-type">LLM</span></td>
+          <td><span class="lic-badge lic-ow">open-weight</span></td>
+          <td class="cell-usage">Z.ai's open model, MIT license and 1M context. Worth a look for agents and code.</td>
+          <td class="cell-price">$1.40 / $4.40 /Mtok via Perplexity</td>
+          <td class="cell-ctx">1M</td>
+        </tr>
+        <tr>
+          <td class="cell-provider"></td>
           <td class="cell-model"><strong>GLM-5</strong><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-ow">open-weight</span></td>
-          <td class="cell-usage">The latest GLM. The serious open-weight challenger to DeepSeek.</td>
+          <td class="cell-usage">The serious open-weight challenger to DeepSeek.</td>
           <td class="cell-price">$0.60 / $1.92 /Mtok</td>
           <td class="cell-ctx">202k</td>
         </tr>
@@ -1628,7 +1796,7 @@
         </tr>
         <tr>
           <td class="cell-provider"></td>
-          <td class="cell-model"><strong>GLM-4.6 / 4.5-Air / 4.7-Flash</strong><span class="cell-type">LLM</span></td>
+          <td class="cell-model"><strong>GLM-4.6 / 4.5-Air / 4.7-Flash</strong> <span class="replaced-badge">replaced</span><span class="cell-type">LLM</span></td>
           <td><span class="lic-badge lic-ow">open-weight</span></td>
           <td class="cell-usage">The GLM 4.x range, still active. 4.7-Flash is free for registered use.</td>
           <td class="cell-price">Free → $0.43 /Mtok</td>
@@ -1810,8 +1978,8 @@
 
   <div class="mini-marquee" aria-hidden="true">
     <div class="mini-marquee-track">
-      <span>USA</span><span>Europe</span><span>China</span><span>Open-weight</span><span>Open-source</span><span>Proprietary</span><span>156 models</span>
-      <span>USA</span><span>Europe</span><span>China</span><span>Open-weight</span><span>Open-source</span><span>Proprietary</span><span>156 models</span>
+      <span>USA</span><span>Europe</span><span>China</span><span>Open-weight</span><span>Open-source</span><span>Proprietary</span><span>175 models</span>
+      <span>USA</span><span>Europe</span><span>China</span><span>Open-weight</span><span>Open-source</span><span>Proprietary</span><span>175 models</span>
     </div>
   </div>
 </main>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Modèles IA : lequel choisir ? — Jérémy Sagnier</title>
-<meta name="description" content="GPT, Claude, Gemini, Mistral, Llama, DeepSeek, Nano Banana, Sora, ElevenLabs : le guide vivant des principaux modèles IA, classés par usage.">
+<meta name="description" content="GPT, Claude, Gemini, Mistral, Llama, DeepSeek, Nano Banana, Veo, ElevenLabs : le guide vivant des principaux modèles IA, classés par usage.">
 
 <meta property="og:title" content="Modèles IA : lequel choisir ?">
 <meta property="og:description" content="Un guide vivant pour trier les principaux modèles IA par usage : texte, code, image, vidéo, audio, local, open-weight.">
@@ -19,7 +19,7 @@
 <meta name="twitter:site" content="@JeremySagnier">
 <meta name="twitter:creator" content="@JeremySagnier">
 <meta name="twitter:title" content="Modèles IA : lequel choisir ?">
-<meta name="twitter:description" content="GPT, Claude, Gemini, Mistral, Llama, DeepSeek, Nano Banana, Sora : je trie les modèles IA par usage concret.">
+<meta name="twitter:description" content="GPT, Claude, Gemini, Mistral, Llama, DeepSeek, Nano Banana, Veo : je trie les modèles IA par usage concret.">
 <!-- Favicon set -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -930,6 +930,37 @@
   .group-grid .model-card {
     padding: 18px;
   }
+  /* Statut des fiches (mise à jour du 2 novembre 2026) */
+  .tag.tag-new { background: var(--teal); border-color: var(--teal); color: #0A0A0A; font-weight: 700; }
+  .tag.tag-replaced { background: transparent; border-color: var(--orange); color: var(--ink); }
+  .tag.tag-verify { background: transparent; border-color: var(--fuchsia); color: var(--fuchsia); font-weight: 700; }
+  .model-card-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+  }
+  .model-card.is-old .model-card-score { background: var(--bg-2); color: var(--ink-muted); }
+  .replaced-details > summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    margin-bottom: 14px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: var(--bg-2);
+    color: var(--ink);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .replaced-details > summary::-webkit-details-marker { display: none; }
+  .replaced-details > summary::before { content: "+"; font-size: 15px; }
+  .replaced-details[open] > summary::before { content: "\2212"; }
   @media (max-width: 980px) {
     .models-hero-inner { grid-template-columns: 1fr; }
     .decision-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1067,7 +1098,7 @@
         </a>
         <a href="/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>Lexique IA</strong><span>40 termes expliqués</span></span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
@@ -1118,10 +1149,10 @@
   <section class="models-hero">
     <div class="models-hero-inner">
       <div>
-        <div class="models-kicker">Catalogue vivant · mis à jour le 20 mai 2026</div>
+        <div class="models-kicker">Catalogue vivant · mis à jour le 2 novembre 2026</div>
         <h1>Modèles IA :<br><em>lequel choisir ?</em></h1>
         <p class="models-lead">
-          GPT, Claude, Gemini, Mistral, Llama, DeepSeek, Nano Banana, Sora, ElevenLabs...
+          GPT, Claude, Gemini, Mistral, Llama, DeepSeek, Nano Banana, Veo, ElevenLabs...
           Tout le monde promet d'être le meilleur. Ici, je trie par <strong>usage réel</strong> :
           écrire, coder, chercher, générer une image, produire une vidéo, garder tes données ou payer moins cher.
         </p>
@@ -1183,7 +1214,7 @@
       </article>
       <article class="choice-card">
         <div class="choice-use">Vidéo</div>
-        <h3>Gemini Omni, Sora, Veo</h3>
+        <h3>Gemini Omni, Veo, Kling</h3>
         <p>La vidéo IA n'est pas un simple LLM avec une caméra. Les critères changent : durée, cohérence, audio, montage.</p>
         <a class="choice-link" href="modeles-image-ia#video">Voir les modèles vidéo →</a>
       </article>
@@ -1236,12 +1267,12 @@
       </article>
       <article class="decision-card">
         <strong>Je veux un assistant vocal</strong>
-        <p><b>ElevenLabs v3 ou GPT-Realtime</b> selon que tu veux une voix studio ou une conversation temps réel. Pour de la transcription, prends Whisper ou Scribe.</p>
+        <p><b>ElevenLabs v4 ou GPT-Realtime</b> selon que tu veux une voix studio ou une conversation temps réel. Pour de la transcription, prends Whisper ou Scribe.</p>
         <p>Si tu veux du local sans envoyer ta voix à un fournisseur : Moshi (Kyutai, CC-BY) est le seul choix sérieux à ce jour.</p>
       </article>
       <article class="decision-card">
         <strong>Je veux un chatbot sur mon site</strong>
-        <p><b>Claude Haiku 4.5 ou Gemini 2.5 Flash-Lite</b> sont le bon point de départ. Petit, rapide, peu cher, suffisant pour répondre aux 80 % des questions clients.</p>
+        <p><b>Claude Haiku 5.5 ou Gemini 3.5 Flash-Lite</b> sont le bon point de départ. Petit, rapide, peu cher, suffisant pour répondre aux 80 % des questions clients.</p>
         <p>Garde un modèle premium en backup pour les cas complexes que le petit n'arrive pas à gérer.</p>
       </article>
     </div>
@@ -1280,12 +1311,12 @@
 
     <div class="section-eyebrow">Étape 02</div>
     <h2 class="models-section-title" id="raccourcis">Mes raccourcis.</h2>
-    <p class="models-lead" style="margin-bottom:20px;">Mon top 6 du moment. Ceux que j'utilise vraiment chaque semaine — pour mes mails, mes photos, mon podcast, mes outils internes.</p>
+    <p class="models-lead" style="margin-bottom:20px;">Mon top 6 du moment, passé aux modèles de novembre 2026. Ce sont les familles que j'utilise chaque semaine pour mes mails, mes photos, mon podcast et mes outils internes.</p>
     <div class="reco-grid" id="recoGrid">
       <article class="reco-card">
         <div class="reco-label">Assistant général</div>
-        <h3>Claude Sonnet 4.6</h3>
-        <p>Mon assistant par défaut pour réfléchir, écrire, organiser. Le meilleur équilibre prix/qualité quand je veux quelque chose de propre du premier coup.</p>
+        <h3>Claude Sonnet 5.5</h3>
+        <p>Claude Sonnet est mon assistant par défaut pour réfléchir, écrire et organiser. La version 5.5 est le meilleur compromis vitesse et intelligence chez Claude, et tu l'as même dans l'offre gratuite.</p>
         <div class="tag-row">
           <span class="tag">llm</span>
           <span class="tag">standard</span>
@@ -1294,18 +1325,18 @@
       </article>
       <article class="reco-card">
         <div class="reco-label">Quand je veux le top</div>
-        <h3>GPT-5.4</h3>
-        <p>Quand la tâche est complexe ou que je sens que je vais y passer du temps. Plus cher, mais souvent ça vaut le prix.</p>
+        <h3>GPT-6.1 Sol</h3>
+        <p>Quand la tâche est complexe ou que je sens que je vais y passer du temps. Il remplace GPT-5.4 et GPT-5.5, et il est presque aussi fort que GPT-6 Astra pour cinq fois moins cher.</p>
         <div class="tag-row">
           <span class="tag">llm</span>
-          <span class="tag">premium</span>
+          <span class="tag">standard</span>
           <span class="tag">fermé</span>
         </div>
       </article>
       <article class="reco-card">
         <div class="reco-label">Photos & images</div>
-        <h3>Nano Banana</h3>
-        <p>Ce que j'utilise pour les photos Airbnb de ma mère et le générateur de photos personal branding. Le meilleur rapport qualité/prix sur l'édition photo.</p>
+        <h3>Nano Banana 2.1</h3>
+        <p>Nano Banana, c'est ce que j'utilise pour les photos Airbnb de ma mère et le générateur de photos personal branding. La version 2.1, sortie en octobre 2026, fait mieux que Nano Banana 2 pour deux fois moins cher par image.</p>
         <div class="tag-row">
           <span class="tag">image</span>
           <span class="tag">low cost</span>
@@ -1314,8 +1345,8 @@
       </article>
       <article class="reco-card">
         <div class="reco-label">Gros documents</div>
-        <h3>Gemini 2.5 Flash</h3>
-        <p>Pour traiter des PDF longs, des bases de code entières ou des transcriptions. Un million de tokens de contexte à moins d'un dollar.</p>
+        <h3>Gemini 3.8 Flash</h3>
+        <p>Pour traiter beaucoup de PDF, de code ou de transcriptions. Le Flash le plus malin de Google coûte 0,75 $ par million de tokens en entrée jusqu'à fin 2026, puis le double.</p>
         <div class="tag-row">
           <span class="tag">llm</span>
           <span class="tag">low cost</span>
@@ -1324,8 +1355,8 @@
       </article>
       <article class="reco-card">
         <div class="reco-label">Voix & podcast</div>
-        <h3>ElevenLabs v3</h3>
-        <p>Ce que j'utilise pour les voix du podcast Jerwis Productions. Multilingue, multi-personnages, qualité studio.</p>
+        <h3>Eleven v4</h3>
+        <p>ElevenLabs, c'est ce que j'utilise pour les voix du podcast Jerwis Productions. La v4, sortie en septembre 2026, est plus expressive et parle plus de 90 langues.</p>
         <div class="tag-row">
           <span class="tag">audio</span>
           <span class="tag">standard</span>
@@ -1355,7 +1386,7 @@
   <section class="models-shell" id="catalogue">
     <div class="section-eyebrow">Étape 03</div>
     <h2 class="models-section-title">Le catalogue, par groupes.</h2>
-    <p class="models-lead" style="margin-bottom:24px;"><span id="catalogCount">52</span> modèles classés par budget et par usage. Si tu hésites, regarde plutôt <a href="#raccourcis" style="color:var(--fuchsia);font-weight:800;text-decoration:none;">Mes raccourcis</a> plus haut — c'est mon top 6.</p>
+    <p class="models-lead" style="margin-bottom:24px;"><span id="catalogCount">44</span> modèles classés par budget et par usage. Si tu hésites, regarde plutôt <a href="#raccourcis" style="color:var(--fuchsia);font-weight:800;text-decoration:none;">Mes raccourcis</a> plus haut, c'est mon top 6.</p>
 
     <div class="catalog-search">
       <input id="searchInput" type="search" placeholder="Chercher GPT, Claude, Mistral, local, open-weight...">
@@ -1426,7 +1457,7 @@
       <div class="multimedia-grid">
         <a class="multimedia-jump" href="modeles-image-ia">
           <div>
-            <div class="mj-label">7 modèles image</div>
+            <div class="mj-label"><span data-mj="image">8</span> modèles image</div>
             <h4>Image</h4>
             <p>Nano Banana, GPT Image, Midjourney, Ideogram, FLUX, Stable Diffusion.</p>
           </div>
@@ -1434,17 +1465,17 @@
         </a>
         <a class="multimedia-jump" href="modeles-image-ia#video">
           <div>
-            <div class="mj-label">6 modèles vidéo</div>
+            <div class="mj-label"><span data-mj="video">5</span> modèles vidéo</div>
             <h4>Vidéo</h4>
-            <p>Sora, Veo 3.1, Gemini Omni, Runway Gen-4, Kling, Grok Imagine.</p>
+            <p>Veo 3.1, Gemini Omni, Kling 3.0, Runway, Grok Imagine.</p>
           </div>
           <div class="mj-cta">Voir la page vidéo →</div>
         </a>
         <a class="multimedia-jump" href="modeles-image-ia#audio">
           <div>
-            <div class="mj-label">4 modèles audio</div>
+            <div class="mj-label"><span data-mj="audio">6</span> modèles audio</div>
             <h4>Audio</h4>
-            <p>Eleven v3, Gemini Native Audio, Whisper, Voxtral. Ma stack podcast.</p>
+            <p>Eleven v4, Gemini 3.8 Live, GPT-Transcribe, Whisper, Voxtral. Ma stack podcast.</p>
           </div>
           <div class="mj-cta">Voir la page audio →</div>
         </a>
@@ -1471,6 +1502,19 @@
       <div class="group-grid" data-group="other"></div>
     </article>
 
+    <!-- GROUPE 8 : Remplacés récemment (gardés dans le JSON) -->
+    <article class="catalog-group" id="group-replaced" data-color="orange">
+      <div class="group-header">
+        <div class="group-eyebrow">Remplacés récemment</div>
+        <h3>Les anciens modèles <span class="group-count" id="count-replaced"></span></h3>
+        <p>Chacun a un successeur plus récent, indiqué sur sa fiche. Je les garde ici pour que tu retrouves un nom que tu connais.</p>
+      </div>
+      <details class="replaced-details" id="replacedDetails">
+        <summary>Voir les anciens modèles</summary>
+        <div class="group-grid" data-group="replaced"></div>
+      </details>
+    </article>
+
     <div class="method-grid">
       <article class="method-card">
         <h3>Pas un classement magique</h3>
@@ -1490,14 +1534,14 @@
     <!-- TEASER : Atlas mondial (lien vers /modeles-ia-monde) -->
     <!-- ============================================ -->
     <section class="atlas-teaser">
-      <div class="section-eyebrow">Atlas mondial · 156 modèles</div>
+      <div class="section-eyebrow">Atlas mondial · 175 modèles</div>
       <h2 class="models-section-title">Tu veux la carte du monde IA ?</h2>
-      <p class="models-lead" style="max-width:760px;margin-bottom:28px;">J'ai mis à part le catalogue complet par pays : USA, Europe, Chine. <strong>156 modèles, ce qu'ils font et combien ils coûtent.</strong> Pas indispensable pour choisir — mais pratique si tu veux comprendre qui fait quoi dans le paysage.</p>
+      <p class="models-lead" style="max-width:760px;margin-bottom:28px;">J'ai mis à part le catalogue complet par pays : USA, Europe, Chine. <strong>175 modèles, ce qu'ils font et combien ils coûtent.</strong> Pas indispensable pour choisir, mais pratique si tu veux comprendre qui fait quoi dans le paysage.</p>
       <div class="atlas-grid">
         <a class="atlas-card" data-accent="teal" href="/modeles-ia-monde#country-us">
           <div class="atlas-flag" aria-hidden="true">🇺🇸</div>
           <div class="atlas-meta">
-            <span class="atlas-count">51 modèles</span>
+            <span class="atlas-count">65 modèles</span>
             <h3>USA</h3>
             <p>OpenAI, Anthropic, Google, xAI, Meta. Le frontier propriétaire et la majorité des assistants que tu utilises.</p>
           </div>
@@ -1506,7 +1550,7 @@
         <a class="atlas-card" data-accent="fuchsia" href="/modeles-ia-monde#country-eu">
           <div class="atlas-flag" aria-hidden="true">🇪🇺</div>
           <div class="atlas-meta">
-            <span class="atlas-count">48 modèles</span>
+            <span class="atlas-count">50 modèles</span>
             <h3>Europe + UK</h3>
             <p>Mistral, Kyutai, Black Forest Labs, ElevenLabs, Stability. La région la plus ouverte (17 modèles vraiment open-source).</p>
           </div>
@@ -1515,7 +1559,7 @@
         <a class="atlas-card" data-accent="orange" href="/modeles-ia-monde#country-cn">
           <div class="atlas-flag" aria-hidden="true">🇨🇳</div>
           <div class="atlas-meta">
-            <span class="atlas-count">57 modèles</span>
+            <span class="atlas-count">60 modèles</span>
             <h3>Chine</h3>
             <p>DeepSeek, Qwen, Doubao, Kling, Hunyuan. Domine la vidéo IA et casse les prix sur les LLM. 43 modèles open-weight.</p>
           </div>
@@ -1665,6 +1709,27 @@
 
   // Liens directs d'accès grand public (pas la doc, l'app)
   const ACCESS_URLS = {
+    // Modèles de novembre 2026
+    'openai-gpt-6-astra': 'https://chatgpt.com',
+    'openai-gpt-6-1-sol': 'https://chatgpt.com',
+    'openai-gpt-6-1-terra': 'https://chatgpt.com',
+    'openai-gpt-6-luna': 'https://chatgpt.com',
+    'anthropic-claude-fable-5-1': 'https://claude.ai',
+    'anthropic-claude-opus-5-5': 'https://claude.ai',
+    'anthropic-claude-sonnet-5-5': 'https://claude.ai',
+    'anthropic-claude-haiku-5-5': 'https://claude.ai',
+    'google-gemini-4-argon': 'https://gemini.google.com',
+    'google-gemini-3-8-flash': 'https://gemini.google.com',
+    'xai-grok-4-7': 'https://grok.com',
+    'cohere-command-a-plus': 'https://cohere.com',
+    'deepseek-v4-1-flash': 'https://chat.deepseek.com',
+    'deepseek-v4-pro': 'https://chat.deepseek.com',
+    'qwen3-8-max': 'https://chat.qwen.ai',
+    'zai-glm-5-3': 'https://chatglm.cn',
+    'nvidia-nemotron-3-5-super-vl': 'https://huggingface.co/nvidia',
+    'apple-foundation-models-2026': 'https://developer.apple.com/apple-intelligence',
+    'google-embeddinggemma-2': 'https://huggingface.co/google',
+    // Anciens modèles (toujours dans le JSON, groupe « remplacés »)
     'openai-gpt-5-5': 'https://chatgpt.com',
     'openai-gpt-5-4': 'https://chatgpt.com',
     'openai-gpt-5-3-codex': 'https://platform.openai.com',
@@ -1705,33 +1770,76 @@
 
   // Mapping ID → groupe du catalogue
   const GROUPS = {
-    frontier: ['openai-gpt-5-5', 'openai-gpt-5-4', 'openai-gpt-5-3-codex',
-               'anthropic-claude-opus-4-6', 'anthropic-claude-sonnet-4-6',
-               'google-gemini-3-1-pro-preview', 'xai-grok-4-3'],
-    cheap: ['anthropic-claude-haiku-4-5', 'google-gemini-3-5-flash',
-            'deepseek-v4-flash', 'qwen3-max', 'mistral-medium-3-5',
-            'cohere-command-a', 'amazon-nova-2-lite'],
-    open: ['qwen3-14b', 'qwen3-235b-a22b', 'qwen3-coder-next',
-           'mistral-small-4', 'mistral-magistral-small',
-           'meta-llama-4-maverick', 'meta-llama-4-scout',
+    frontier: ['openai-gpt-6-astra', 'openai-gpt-6-1-sol',
+               'anthropic-claude-fable-5-1', 'anthropic-claude-opus-5-5', 'anthropic-claude-sonnet-5-5',
+               'google-gemini-4-argon', 'xai-grok-4-7', 'meta-muse-wonder',
+               'anthropic-claude-mythos-5-1', 'google-gemini-4-carbon'],
+    cheap: ['anthropic-claude-haiku-5-5', 'openai-gpt-6-1-terra', 'openai-gpt-6-luna',
+            'google-gemini-3-8-flash', 'google-gemini-3-5-flash-lite',
+            'deepseek-v4-1-flash', 'deepseek-v4-pro', 'qwen3-8-max', 'mistral-large-4',
+            'cohere-command-a-plus', 'amazon-nova-2-lite'],
+    open: ['zai-glm-5-3', 'nvidia-nemotron-3-5-super-vl', 'aleph-alpha-kolibri',
+           'qwen3-14b', 'qwen3-235b-a22b', 'qwen3-coder-next',
+           'mistral-small-4', 'meta-llama-4-maverick', 'meta-llama-4-scout',
            'deepseek-r1', 'deepseek-v3-1', 'google-gemma-4',
-           'microsoft-phi-4', 'minimax-m1', 'zai-glm-4-6',
-           'nvidia-nemotron-3-super', 'ai2-olmo-2-32b'],
+           'microsoft-phi-4', 'minimax-m1'],
     search: ['perplexity-sonar-pro'],
-    rag: ['openai-embedding-3-large', 'cohere-rerank-v4',
+    rag: ['google-gemini-embedding-2', 'google-embeddinggemma-2',
+          'openai-embedding-3-large', 'cohere-rerank-v4',
           'jina-embeddings-v5', 'voyage-3-large',
           'qwen3-embedding-reranker'],
-    other: ['apple-foundation-models']
+    other: ['apple-foundation-models-2026'],
+    // Remplacés récemment : gardés dans le JSON, montrés à part avec leur successeur
+    replaced: ['openai-gpt-5-5', 'openai-gpt-5-4', 'openai-gpt-5-3-codex',
+               'anthropic-claude-opus-4-6', 'anthropic-claude-sonnet-4-6', 'anthropic-claude-haiku-4-5',
+               'google-gemini-3-1-pro-preview', 'google-gemini-3-5-flash', 'xai-grok-4-3',
+               'mistral-medium-3-5', 'mistral-magistral-small', 'cohere-command-a',
+               'deepseek-v4-flash', 'qwen3-max', 'zai-glm-4-6',
+               'nvidia-nemotron-3-super', 'ai2-olmo-2-32b', 'apple-foundation-models']
   };
 
   const recoMap = [
-    { label: 'Choix sûr généraliste', id: 'anthropic-claude-sonnet-4-6' },
-    { label: 'Premium agents et code', id: 'openai-gpt-5-3-codex' },
-    { label: 'Open-weight simple', id: 'qwen3-14b' },
-    { label: 'Image finale', id: 'google-nano-banana-pro' },
-    { label: 'Vidéo à surveiller', id: 'google-gemini-omni' },
-    { label: 'Recherche sourcée', id: 'perplexity-sonar-pro' }
+    { label: 'Assistant général', id: 'anthropic-claude-sonnet-5-5' },
+    { label: 'Quand je veux le top', id: 'openai-gpt-6-1-sol' },
+    { label: 'Photos & images', id: 'google-nano-banana-2-1' },
+    { label: 'Gros documents', id: 'google-gemini-3-8-flash' },
+    { label: 'Voix & podcast', id: 'elevenlabs-v4' },
+    { label: 'Budget serré · ouvert', id: 'mistral-small-4' }
   ];
+
+  const MONTHS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+
+  function formatDate(iso) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    return m ? `${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} ${m[1]}` : '';
+  }
+
+  function modelNameById(id) {
+    const found = state.models.find(m => m.id === id);
+    return found ? found.name : '';
+  }
+
+  // Statut visible sur la carte : nouveau, remplacé, arrêté, à vérifier
+  function statusTags(model) {
+    if (model.status === 'replaced') {
+      const by = modelNameById(model.replaced_by) || model.replaced_by_name || '';
+      return `<span class="tag tag-replaced">${by ? 'Remplacé par ' + by : 'Remplacé'}</span>`;
+    }
+    if (model.status === 'discontinued') return '<span class="tag tag-replaced">Arrêté</span>';
+    let tags = '';
+    if (model.added_at && model.added_at === state.checkedAt) tags += '<span class="tag tag-new">Nouveau</span>';
+    if (model.freshness_status === 'to_verify') tags += '<span class="tag tag-verify">À vérifier</span>';
+    return tags;
+  }
+
+  function pricingTag(model) {
+    return model.pricing_tier === 'to_verify' ? 'prix à vérifier' : labelize(model.pricing_tier);
+  }
+
+  function verifiedLine(model) {
+    const date = formatDate(model.last_verified);
+    return date ? `<div class="model-card-date">Vérifié le ${date}</div>` : '';
+  }
 
   function formatContext(n) {
     if (!n) return '—';
@@ -1759,7 +1867,8 @@
       local_cost: 'local/self-host',
       included: 'inclus',
       subscription: 'abonnement',
-      mixed: 'mixte'
+      mixed: 'mixte',
+      to_verify: 'prix à vérifier'
     };
     return labels[model.pricing_tier] || model.pricing_tier || '—';
   }
@@ -1783,11 +1892,18 @@
     return haystack.includes(q);
   }
 
+  function isCurrent(model) {
+    return model.status === 'active';
+  }
+
   function renderStats() {
-    document.getElementById('statTotal').textContent = state.models.length;
-    document.getElementById('statOpen').textContent = state.models.filter(isOpen).length;
-    const catalogCount = document.getElementById('catalogCount');
-    if (catalogCount) catalogCount.textContent = state.models.length;
+    const current = state.models.filter(isCurrent);
+    document.getElementById('statTotal').textContent = current.length;
+    document.getElementById('statOpen').textContent = current.filter(isOpen).length;
+    ['image', 'video', 'audio'].forEach(cat => {
+      const el = document.querySelector(`[data-mj="${cat}"]`);
+      if (el) el.textContent = current.filter(m => m.category === cat).length;
+    });
   }
 
   function renderCompare() {
@@ -1857,7 +1973,7 @@
   function renderModelCard(model) {
     const accessUrl = ACCESS_URLS[model.id] || model.sources[0];
     return `
-      <article class="model-card" data-model-id="${model.id}">
+      <article class="model-card${model.status === 'active' ? '' : ' is-old'}" data-model-id="${model.id}">
         <div class="model-card-head">
           <div>
             <div class="model-card-name">${model.name}</div>
@@ -1867,10 +1983,12 @@
         </div>
         <p class="model-card-take">${model.leo_take}</p>
         <div class="model-card-tags">
-          <span class="tag">${labelize(model.pricing_tier)}</span>
+          ${statusTags(model)}
+          <span class="tag">${pricingTag(model)}</span>
           <span class="tag">${isOpen(model) ? 'open' : 'fermé'}</span>
           ${(model.best_for || []).slice(0, 2).map(v => `<span class="tag">${labelize(v)}</span>`).join('')}
         </div>
+        ${verifiedLine(model)}
         <div class="model-card-foot">
           <label class="model-card-cmp">
             <input class="compare-box" type="checkbox" data-compare-id="${model.id}" ${state.compare.includes(model.id) ? 'checked' : ''} aria-label="Comparer ${model.name}">
@@ -1897,8 +2015,10 @@
       container.innerHTML = groupModels.map(renderModelCard).join('');
       const countEl = document.getElementById(`count-${groupKey}`);
       if (countEl) countEl.textContent = `· ${groupModels.length}`;
-      total += groupModels.length;
+      if (groupKey !== 'replaced') total += groupModels.length;
     });
+    const catalogCount = document.getElementById('catalogCount');
+    if (catalogCount) catalogCount.textContent = total;
 
     // Attach compare listeners after render
     document.querySelectorAll('[data-compare-id]').forEach(input => {
@@ -1943,6 +2063,11 @@
       group.classList.toggle('is-hidden', visibleCards.length === 0);
     });
 
+    const replacedDetails = document.getElementById('replacedDetails');
+    if (replacedDetails && q && replacedDetails.querySelector('.model-card:not(.is-hidden)')) {
+      replacedDetails.open = true;
+    }
+
     // Show / hide no-results
     const noResults = document.getElementById('noResults');
     if (noResults) {
@@ -1972,6 +2097,7 @@
     })
     .then(data => {
       state.models = data.models || [];
+      state.checkedAt = (data.meta && data.meta.last_checked) || '';
       renderStats();
       renderRecommendations();
       renderGroups();

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>AI working on your computer: Claude app or ChatGPT · Jerwis</title>
+<meta name="description" content="Give Claude a folder or switch ChatGPT to Work mode: install the app, five starter tasks, security settings. The beginner guide, no code required.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI working on your computer: Claude app or ChatGPT · Jerwis">
+<meta property="og:description" content="Give Claude a folder or switch ChatGPT to Work mode: install the app, five tasks, security settings. No code guide.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/ia-qui-travaille-sur-ton-ordinateur">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-02">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="AI working on your computer: Claude app or ChatGPT · Jerwis">
+<meta name="twitter:description" content="Give Claude a folder or switch ChatGPT to Work mode: install the app, five tasks, security settings. No code guide.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/ia-qui-travaille-sur-ton-ordinateur">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/ia-qui-travaille-sur-ton-ordinateur">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/ia-qui-travaille-sur-ton-ordinateur">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AI working on your computer: Claude app or ChatGPT",
+  "description": "Give Claude a folder or switch ChatGPT to Work mode: install the app, five starter tasks, security settings. The beginner guide, no code required.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/ia-qui-travaille-sur-ton-ordinateur",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/ia-qui-travaille-sur-ton-ordinateur.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Guide · 100</div>
+    <h1>AI working<br>on your<br><em>computer.</em></h1>
+    <p class="hero-lead">
+      You know how to ask ChatGPT or Claude a question. But you're still copying the answer yourself into a spreadsheet, a document, a folder. Since 2026, their desktop apps can do that work for you, right on your files. You open a folder for them, write what you want, and get back a finished document. Here's how to get started, with five starter tasks and the settings that prevent nasty surprises.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>10 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> Claude app, ChatGPT Work</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>The chat <strong>answers you</strong>. The desktop app, with a folder open, <strong>does the work</strong> and gives you finished files.</li>
+      <li>With Claude, you open a folder to the app. With ChatGPT, you switch to <strong>Work mode</strong>. You need a paid subscription, around $20 a month.</li>
+      <li>Start with a <strong>test folder</strong>, re-read anything that can't be undone before you send it, and never open a folder that contains passwords.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Before you start</h2>
+    <p>For months, my AI use looked like this: I'd ask a question, copy the answer, paste it into a spreadsheet, reformat it, file it. AI did the interesting part, and I did the painful part.</p>
+    <p>What changed in 2026 is that Claude and ChatGPT's desktop apps can now do the painful part too. You hand them a folder and instructions in English, and they read your files, create new ones, and give you a result you only have to proofread.</p>
+    <div class="callout tip">
+      <h4>My take in 5 seconds</h4>
+      <p>It's the biggest time saver I've seen for a non-developer since ChatGPT. But it's also the first time AI touches your real files, so we start small, in a test folder.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What changes compared to chat</h2>
+    <p>In chat, AI gives you an answer. Then you have to apply it yourself. With the desktop app, you give it a goal, it breaks the work into steps and does it. That's what we call <a href="/en/lexique/mode-agent">agent mode</a>.</p>
+    <p>The two big tools each have their own way:</p>
+    <ul>
+    <li><strong>With Claude</strong>, everything happens in the Claude desktop app. You open a folder from your computer to it, and it works inside. This mode used to be called <a href="/en/lexique/cowork">Cowork</a>. By late 2026, it blends into the normal conversation: you ask, and Claude chooses on its own whether to answer or to work.</li>
+    <li><strong>With ChatGPT</strong>, the desktop app has two modes, Chat and <a href="/en/lexique/chatgpt-work">Work</a>. Work takes a whole task and returns a document, a spreadsheet, a presentation, a report, or a site. In the desktop app, it can also use your files and your applications, with your permission.</li>
+    </ul>
+    <p>In both cases, you don't write a line of code and you don't open any technical screen.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Install the app and open it</h2>
+    <p>You need a paid subscription. Claude Pro costs $20 per month before tax, ChatGPT Plus also around $20 per month, both with no commitment. The free versions are enough for chatting, not for this work mode.</p>
+    <ol>
+    <li><strong>Download the app.</strong> Claude at <a href="https://claude.com/download">claude.com/download</a>, ChatGPT at <a href="https://chatgpt.com/download/">chatgpt.com/download</a>. Both exist for Mac and Windows.</li>
+    <li><strong>Install it</strong> like any application, then log in with your account.</li>
+    <li><strong>Create a test folder</strong> on your desktop, for example "ai-test", and put two or three unimportant files in it.</li>
+    <li><strong>Open this folder to the AI.</strong> In Claude, give it access to this folder. If you still see two buttons, "Chat" and "Cowork", choose Cowork. In ChatGPT, choose ChatGPT in the menu, then Work with the selector.</li>
+    </ol>
+    <p>The screens change fast at both companies. If a button isn't exactly where I say it is, ask the AI directly: "how do I give you access to a folder on my computer?" It will guide you.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Five starter tasks to try</h2>
+    <p>Copy each message exactly as is. Only replace what's in brackets.</p>
+    <div class="usecase">
+      <div class="usecase-label">Task 01 · Tidy a folder</div>
+      <h4>Your Downloads folder, finally sorted</h4>
+      <p>Open your Downloads folder to the AI, or a copy if you'd rather be safe.</p>
+      <pre>Sort this folder by file type: documents, images, spreadsheets, others.
+Put anything older than 6 months into an Archive subfolder.
+Don't delete anything. Show me what you moved.</pre>
+      <p>You get a tidy folder and the list of what moved.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Task 02 · Expense spreadsheet</div>
+      <h4>From PDF invoices to a clean spreadsheet</h4>
+      <p>Put your invoices for the month in the folder.</p>
+      <pre>Read all the PDF invoices in this folder.
+Create a spreadsheet with date, vendor, pre-tax amount, tax, and total amount.
+Add a total row. If any information is missing, leave the cell empty and tell me.</pre>
+      <p>You get a spreadsheet ready to open. Check two or three random rows before using it.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Task 03 · Compare quotes</div>
+      <h4>Three quotes, a reasoned choice</h4>
+      <pre>From the quotes in this folder, make a comparison table: price, timelines, warranties, what's included and what isn't.
+Tell me which one you'd choose for [your main criterion] and why, in 5 lines.</pre>
+      <p>The table saves you from rereading three PDFs side by side. The decision stays yours.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Task 04 · A presentation</div>
+      <h4>Your notes become 10 slides</h4>
+      <pre>From my notes in this folder, create a 10-slide presentation for [your audience].
+One idea per slide, short titles, no more than 4 lines of text per slide.</pre>
+      <p>You get a file you open in PowerPoint, Keynote, or Google Slides to adjust.</p>
+    </div>
+    
+    <div class="usecase">
+      <div class="usecase-label">Task 05 · A web page</div>
+      <h4>Your business page</h4>
+      <pre>In this folder, create a simple web page that presents my business: [your job and city].
+Explain in simple words what you do.
+When it's ready, show me the result.</pre>
+      <p>It's the exercise from step 3 of the <a href="/en/apprendre#etape-03">Learn path</a>. You just had something built without a single line of code.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Security settings</h2>
+    <p>These apps act for real on your files. Three things to know before handing them more than a test folder.</p>
+    <h3>With Claude, the Auto or Manual setting</h3>
+    <p>In the message area, a setting decides how much Claude works on its own. <strong>Auto</strong>, the default on Pro subscriptions, lets it move forward without asking you at each step, with automatic checks before acting. <strong>Manual</strong> makes it ask for your approval before each action. For your first tasks, switch to Manual: you'll see exactly what it does.</p>
+    <p>Claude only touches your files while the app is open, and it asks before permanently deleting a file.</p>
+    <h3>With ChatGPT, permissions</h3>
+    <p>In the desktop app, Work only uses your files and applications with your permission. The work can run on your computer, but the messages and task context may be stored in the cloud. Keep that in mind for sensitive documents.</p>
+    <h3>The rule that applies to both</h3>
+    <p>Everything the AI reads to do the task goes to the publisher to be processed, just like in chat. To go further on this topic, read <a href="/en/articles/donnees-perso-ia-confidentialite">what AIs do with your data</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What not to let it touch</h2>
+    <ul>
+    <li><strong>A folder that contains passwords</strong>, access codes, or medical data.</li>
+    <li><strong>Your whole disk</strong> instead of a single folder. A specific folder means a specific job.</li>
+    <li><strong>A send or a payment without proofreading.</strong> Anything that can't be undone, you proofread first.</li>
+    <li><strong>Important files without a copy.</strong> Work on a copy while you're discovering the tool.</li>
+    <li><strong>Confidential client documents</strong>, without checking what your contract and subscription allow.</li>
+    </ul>
+    <div class="callout ok">
+      <h4>My checklist before every task</h4>
+      <p>(1) Only one folder open, and I have a copy. (2) My instruction says what it must not do, for example "don't delete anything". (3) I proofread the result before sending it to anyone.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What now?</h2>
+    <p>Do task 05 right now, it's ten minutes. Then pick a repetitive task from your week and hand it over, in a test folder. If you want to go further and chain actions on your own, read <a href="/en/articles/automatiser-taches-ia-sans-coder">how to automate your tasks without code</a>.</p>
+    <h2>Sources</h2>
+    <ul>
+    <li>Claude Help, "Claude Cowork and chat are one Claude", consulted November 2, 2026: <a href="https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude">support.claude.com</a></li>
+    <li>OpenAI Help, "ChatGPT Work and Codex", consulted November 2, 2026: <a href="https://help.openai.com/fr-fr/articles/20001275-chatgpt-work-and-codex">help.openai.com</a></li>
+    <li>OpenAI Help, "Moving to the new ChatGPT desktop app", consulted November 2, 2026: <a href="https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app">help.openai.com</a></li>
+    </ul>
+    <p>These apps evolve every month. If a screen has changed, write to me, I update the guide.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with no jargon or hype. If this article helped you, the easiest way to miss nothing is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>- Newsletter</div>
+        <h3>One email a week.<br>What I actually test <em>vraiment.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me, I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

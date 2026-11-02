@@ -199,6 +199,10 @@ RÈGLES ANTI-IA (un texte qui "sent l'IA" est un texte raté ; ces règles sont 
 - Casse le rythme : alterne phrases courtes et longues, paragraphes d'une ligne et paragraphes pleins. Deux phrases voisines ne doivent pas avoir la même construction.
 - Autorisé et bienvenu (ça fait humain) : commencer une phrase par "Et", "Mais", "Sauf que". Une phrase sans verbe. Un aparté entre parenthèses.
 
+LECTEUR DÉBUTANT (règle de Jérémy du 2026-11-02, bloquante comme les autres) :
+- JAMAIS de terminal, de ligne de commande, de commande à taper ni d'outil de développeur (Claude Code en ligne de commande, Ghostty, Homebrew, npm, git, scripts) dans un article pour le grand public.
+- Pour faire agir l'IA sur des fichiers, propose l'app Claude de bureau (on lui ouvre un dossier) ou l'app ChatGPT en mode Work. Pour tout le reste, le navigateur et les versions gratuites suffisent.
+
 LONGUEUR : respecte la cible (corps ${minW} mots minimum${maxW}). Ne gonfle pas l'article pour "faire long" : si tu as fait le tour, conclus.
 
 Écris maintenant l'article complet, en respectant le ton Leo À LA LETTRE. Pas de "dans cet article nous allons voir". Va au vécu, sois utile, sois chaleureux sans être familier. Termine l'article entièrement.`;

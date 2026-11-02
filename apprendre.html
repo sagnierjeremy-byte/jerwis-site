@@ -778,6 +778,10 @@
   .quickwin.qw-app .quickwin-kicker,
   .quickwin.qw-app h3 em,
   .quickwin.qw-app .quickwin-result-label { color: var(--orange) }
+  .quickwin.qw-resume { border-color: var(--fuchsia); background: color-mix(in srgb, var(--fuchsia) 6%, var(--bg-2)) }
+  .quickwin.qw-resume .quickwin-kicker,
+  .quickwin.qw-resume h3 em,
+  .quickwin.qw-resume .quickwin-result-label { color: var(--fuchsia) }
   .qw-gestes { margin: 14px 0 0; padding-left: 1.3em; color: var(--ink-soft); font-size: 15px; line-height: 1.6; display: flex; flex-direction: column; gap: 4px; max-width: 64ch }
   .qw-gestes a { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px }
   .qw-gestes a:hover { color: var(--orange) }
@@ -887,7 +891,7 @@
         </a>
         <a href="/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>Lexique IA</strong><span>40 termes expliqués</span></span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
@@ -1227,6 +1231,27 @@ Donne-moi : 1) une définition en une phrase, 2) un exemple tiré de la vie cour
       </div>
     </header>
 
+    <div class="quickwin qw-resume">
+      <div class="quickwin-head">
+        <span class="quickwin-kicker">⚡ Fais-le maintenant · 3 min</span>
+        <h3>Fais résumer <em>un vrai document.</em></h3>
+        <p class="quickwin-intro">Prends un PDF à toi (un contrat, une facture, un compte rendu), dépose-le dans <strong>ChatGPT</strong>, <strong>Claude</strong>, <strong>Gemini</strong> ou <strong>Le Chat</strong>, et colle ça.</p>
+      </div>
+      <div class="quickwin-box">
+        <div class="quickwin-box-top">
+          <span>Le prompt</span>
+          <button type="button" class="copy-btn" data-copy="qw-prompt-resume">Copier</button>
+        </div>
+        <pre class="quickwin-prompt" id="qw-prompt-resume">Résume ce document en 5 points simples.
+Dis-moi ensuite les 3 choses auxquelles je dois faire attention, avec la page où tu les as trouvées.
+Si une information n'est pas dans le document, dis-le au lieu de l'inventer.</pre>
+      </div>
+      <div class="quickwin-result">
+        <div class="quickwin-result-label">Ce que tu vas voir</div>
+        <p>Un résumé court et les pages citées. <strong>Tu vérifies en 10 secondes</strong>, comme appris à l'étape 1. Ne dépose pas de document confidentiel dans une version gratuite.</p>
+      </div>
+    </div>
+
     <div class="step-cards">
 
       <a class="article-card c-teal-fuchsia" href="articles/resumer-pdf-video-avec-ia">
@@ -1348,7 +1373,7 @@ Donne-moi : 1) une définition en une phrase, 2) un exemple tiré de la vie cour
         </p>
         <div class="step-facts">
           <span><strong>4</strong>lectures</span>
-          <span><strong>~37 min</strong>au total</span>
+          <span><strong>~38 min</strong>au total</span>
           <span><strong>Niveau</strong>Débutant</span>
           <span><strong>Outils</strong>Claude Pro ou ChatGPT Plus</span>
         </div>
@@ -1385,13 +1410,33 @@ Quand c'est prêt, montre-moi le résultat.</pre>
 
     <div class="step-cards">
 
+      <a class="article-card c-orange" href="articles/ia-qui-travaille-sur-ton-ordinateur">
+        <svg class="article-watermark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <rect x="3" y="4" width="18" height="12" rx="1.5"/>
+          <path d="M8 20h8M12 16v4"/>
+          <path d="M7 9h4l1.5 1.5H17v3H7z"/>
+        </svg>
+        <div class="article-top">
+          <span class="article-badge"><span class="pulse"></span>Lecture · 03.1</span>
+          <span class="article-pill">10 min</span>
+        </div>
+        <div class="article-middle">
+          <h3 class="article-title">L'IA qui<br>travaille<br><em>sur ton ordi.</em></h3>
+          <div class="article-subtitle">App Claude · ChatGPT Work</div>
+        </div>
+        <div class="article-preview">
+          <div class="article-preview-label">Ce que tu vas faire</div>
+          <p class="article-preview-text">Installer l'app, lui ouvrir un dossier, cinq premières tâches à copier et les réglages de sécurité. Le guide complet de l'étape 3.</p>
+        </div>
+      </a>
+
       <a class="article-card c-teal" href="articles/automatiser-taches-ia-sans-coder">
         <svg class="article-watermark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
           <circle cx="12" cy="12" r="3"/>
           <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
         </svg>
         <div class="article-top">
-          <span class="article-badge"><span class="pulse"></span>Lecture · 03.1</span>
+          <span class="article-badge"><span class="pulse"></span>Lecture · 03.2</span>
           <span class="article-pill">11 min</span>
         </div>
         <div class="article-middle">
@@ -1411,7 +1456,7 @@ Quand c'est prêt, montre-moi le résultat.</pre>
           <path d="M7 12l3-3 2 2 4-4"/>
         </svg>
         <div class="article-top">
-          <span class="article-badge"><span class="pulse"></span>Lecture · 03.2</span>
+          <span class="article-badge"><span class="pulse"></span>Lecture · 03.3</span>
           <span class="article-pill">9 min</span>
         </div>
         <div class="article-middle">
@@ -1421,26 +1466,6 @@ Quand c'est prêt, montre-moi le résultat.</pre>
         <div class="article-preview">
           <div class="article-preview-label">Ce que tu vas faire</div>
           <p class="article-preview-text">Des slides propres sans toucher à la mise en page. Les étapes, ce que ça coûte et les limites.</p>
-        </div>
-      </a>
-
-      <a class="article-card c-orange" href="articles/navigateurs-ia">
-        <svg class="article-watermark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
-          <circle cx="12" cy="12" r="9"/>
-          <path d="M3 12h18"/>
-          <path d="M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>
-        </svg>
-        <div class="article-top">
-          <span class="article-badge"><span class="pulse"></span>Lecture · 03.3</span>
-          <span class="article-pill">9 min</span>
-        </div>
-        <div class="article-middle">
-          <h3 class="article-title">L'IA qui<br>navigue<br><em>pour toi.</em></h3>
-          <div class="article-subtitle">Comet · Atlas · Chrome</div>
-        </div>
-        <div class="article-preview">
-          <div class="article-preview-label">Ce que tu vas comprendre</div>
-          <p class="article-preview-text">Ce que Comet et Atlas, les navigateurs avec IA intégrée, changent vraiment pour toi. Et quand Chrome suffit.</p>
         </div>
       </a>
 
@@ -1501,7 +1526,7 @@ Quand c'est prêt, montre-moi le résultat.</pre>
   <div class="container">
     <span class="extra-kicker">Pour aller plus loin</span>
     <h2>Quand tu veux <em>creuser.</em></h2>
-    <p class="extra-intro">Dix lectures à piocher, dans l'ordre qui te parle. Toutes se font dans ton navigateur ou dans ton app.</p>
+    <p class="extra-intro">Onze lectures à piocher, dans l'ordre qui te parle. Toutes se font dans ton navigateur ou dans ton app.</p>
     <ul class="extra-list">
       <li><a href="lexique"><span class="extra-t">Le glossaire, 240 mots de l'IA expliqués</span><span class="extra-d">À garder ouvert</span></a></li>
       <li><a href="articles/fonctions-cachees-chatgpt"><span class="extra-t">ChatGPT, bien plus qu'un chatbot</span><span class="extra-d">9 min</span></a></li>
@@ -1512,6 +1537,7 @@ Quand c'est prêt, montre-moi le résultat.</pre>
       <li><a href="articles/ia-dans-word-et-docs"><span class="extra-t">L'IA dans Word et Google Docs</span><span class="extra-d">8 min</span></a></li>
       <li><a href="articles/traduire-avec-ia"><span class="extra-t">Traduire avec l'IA</span><span class="extra-d">8 min</span></a></li>
       <li><a href="articles/ia-sur-telephone"><span class="extra-t">L'IA sur ton téléphone</span><span class="extra-d">9 min</span></a></li>
+      <li><a href="articles/navigateurs-ia"><span class="extra-t">L'IA qui navigue pour toi, Comet et Atlas</span><span class="extra-d">9 min</span></a></li>
       <li><a href="articles/mcp-explique-simplement"><span class="extra-t">Le MCP, expliqué simplement</span><span class="extra-d">6 min</span></a></li>
     </ul>
 

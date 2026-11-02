@@ -2262,8 +2262,8 @@
 
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Les bases d'abord</span><span>Clés et coûts</span><span>Terminal sans panique</span><span>Agents et skills</span><span>Plugins et outils</span>
-    <span>Les bases d'abord</span><span>Clés et coûts</span><span>Terminal sans panique</span><span>Agents et skills</span><span>Plugins et outils</span>
+    <span>Les bases d'abord</span><span>Clés et coûts</span><span>L'IA sur ton ordinateur</span><span>Agents et skills</span><span>Plugins et outils</span>
+    <span>Les bases d'abord</span><span>Clés et coûts</span><span>L'IA sur ton ordinateur</span><span>Agents et skills</span><span>Plugins et outils</span>
   </div>
 </div>
 
@@ -2276,7 +2276,7 @@
         <a href="#cle-api"><span>01</span><strong>Clé API</strong><small>Le badge payant qui autorise un outil IA.</small></a>
         <a href="#fichier-env"><span>02</span><strong>Fichier .env</strong><small>L’endroit où ranger les clés sans les exposer.</small></a>
         <a href="#token"><span>03</span><strong>Token</strong><small>L’unité qui mesure texte, contexte et coût.</small></a>
-        <a href="#cli"><span>04</span><strong>CLI / Terminal</strong><small>La ligne de commande pour piloter les outils.</small></a>
+        <a href="#app-bureau"><span>04</span><strong>L'app sur ton ordinateur</strong><small>Claude ou ChatGPT qui travaille sur tes fichiers.</small></a>
         <a href="#mcp"><span>05</span><strong>MCP</strong><small>Le standard qui connecte agents, outils et données.</small></a>
         <a href="#modele"><span>06</span><strong>Modèle IA</strong><small>Le moteur qui lit la demande et produit la réponse.</small></a>
         <a href="#skill-agent"><span>07</span><strong>Skill & Agent</strong><small>La différence entre méthode réutilisable et mission autonome.</small></a>
@@ -2614,79 +2614,60 @@
 <!-- Mini-marquee intermédiaire -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>Secrets et coûts : vu</span><span>Place aux interfaces</span><span>CLI · MCP</span><span>Sans peur du terminal</span><span>Avec la bonne info</span>
-    <span>Secrets et coûts : vu</span><span>Place aux interfaces</span><span>CLI · MCP</span><span>Sans peur du terminal</span><span>Avec la bonne info</span>
+    <span>Secrets et coûts : vu</span><span>Place aux interfaces</span><span>L'app · MCP</span><span>Sur ton ordinateur</span><span>Avec la bonne info</span>
+    <span>Secrets et coûts : vu</span><span>Place aux interfaces</span><span>L'app · MCP</span><span>Sur ton ordinateur</span><span>Avec la bonne info</span>
   </div>
 </div>
 
-<!-- ENTRÉE 04 · CLI / TERMINAL -->
+<!-- ENTRÉE 04 · L'APP SUR TON ORDINATEUR (remplace CLI / Terminal le 2026-11-02) -->
 <div class="container">
-<section class="lex-entry" id="cli">
+<section class="lex-entry" id="app-bureau">
+  <span id="cli" aria-hidden="true"></span>
   <div class="lex-header">
     <span class="lex-number">04</span>
     <div class="lex-titles">
-      <span class="lex-kicker">— Mot technique · #04</span>
-      <h2>CLI / Terminal</h2>
+      <span class="lex-kicker">Mot du quotidien · #04</span>
+      <h2>L'app sur ton ordinateur</h2>
     </div>
   </div>
 
   <div class="lex-oneline">
-    <strong>En une phrase :</strong> une fenêtre de texte sur ton ordinateur où tu écris des ordres au clavier au lieu de cliquer avec la souris.
+    <strong>En une phrase :</strong> l'application Claude ou ChatGPT installée sur ton Mac ou ton PC, à qui tu ouvres un dossier pour qu'elle travaille sur tes vrais fichiers.
   </div>
 
   <div class="lex-block">
     <h3>L'analogie qui clique</h3>
-    <p>Imagine que tu échanges des SMS avec ton ordinateur. Pas de boutons, pas d'icônes, pas de menus. Tu écris une phrase, il te répond. C'est tout. La première fois que je l'ai ouvert, cette fenêtre noire m'a fait peur. En vrai, c'est juste un cadre de dialogue. Vocabulaire rapide : <strong>CLI</strong> = le principe (interface en ligne de commande), <strong>Terminal</strong> = l'application qui ouvre la fenêtre, <strong>Shell</strong> = le moteur qui tourne dedans (bash ou zsh sur Mac, PowerShell sur Windows). Tu n'as pas besoin de retenir, je te le remets juste au cas où tu le croises.</p>
+    <p>Le chat dans ton navigateur, c'est un conseiller au téléphone. Il te dit quoi faire, et c'est toi qui le fais. L'app sur ton ordinateur, c'est le même conseiller assis à ton bureau, à qui tu tends un dossier. Il lit tes documents, les range, en crée de nouveaux, puis te montre le résultat.</p>
   </div>
 
   <div class="lex-block">
     <h3>À quoi ça te sert concrètement</h3>
     <ul>
-      <li>Installer un outil qu'un tuto te demande de copier-coller (Claude Code, Node.js, Homebrew).</li>
-      <li>Lancer Claude Code dans un dossier de ton ordinateur en écrivant simplement <code>claude</code>.</li>
-      <li>Exécuter un petit programme que ton prestataire t'a envoyé, sans passer par une équipe technique.</li>
+      <li>Ranger un dossier en une phrase, par exemple ton dossier Téléchargements ou tes factures.</li>
+      <li>Transformer des PDF en tableau, des notes en présentation, une idée en page web.</li>
+      <li>Lancer une tâche longue, faire autre chose, et revenir quand le résultat est prêt.</li>
     </ul>
   </div>
 
-  <div class="lex-block lex-block-screenshot">
-    <h3>Où tu vas le rencontrer</h3>
-    <p>Dans les tutoriels vidéo YouTube (la fameuse fenêtre noire). Sur la page officielle <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a>. Dès qu'un article te dit « exécute cette commande » (du style <code>brew install…</code> ou <code>npm install…</code>), c'est lui. Sur Mac, tu l'ouvres avec Cmd+Espace puis tu écris « Terminal ». Sur Windows, c'est « Windows Terminal » dans le menu Démarrer.</p>
-    <div class="lex-mockup lex-mockup-terminal">
-      <div class="lex-mockup-chrome">
-        <span class="lex-mockup-dot red"></span>
-        <span class="lex-mockup-dot yellow"></span>
-        <span class="lex-mockup-dot green"></span>
-        <span class="lex-mockup-url">Terminal — mon-projet — 80 × 24</span>
-      </div>
-      <div class="lex-mockup-body">
-        <div><span class="lex-term-prompt">jeremy@macbook ~ $</span> <span class="lex-term-command">cd Documents/mon-projet</span></div>
-        <div><span class="lex-term-prompt">jeremy@macbook mon-projet $</span> <span class="lex-term-command">ls</span></div>
-        <div class="lex-term-output">README.md&nbsp;&nbsp;&nbsp;index.html&nbsp;&nbsp;&nbsp;package.json&nbsp;&nbsp;&nbsp;.env</div>
-        <div><span class="lex-term-prompt">jeremy@macbook mon-projet $</span> <span class="lex-term-command">claude</span></div>
-        <div class="lex-term-output">Claude Code v3.2 · ready to help</div>
-        <div class="lex-term-output"><span class="lex-term-success">✓</span> Reading CLAUDE.md</div>
-        <div class="lex-term-output"><span class="lex-term-success">✓</span> 3 skills loaded (cold-email, seo-audit, copywriting)</div>
-        <div>&nbsp;</div>
-        <div><span class="lex-term-fuchsia">›</span> <span class="lex-term-cursor"></span></div>
-      </div>
-      <div class="lex-mockup-caption">3 commandes à vie : cd (entrer) · ls (lister) · claude (lancer Claude Code)</div>
-    </div>
+  <div class="lex-block">
+    <h3>Où tu vas la rencontrer</h3>
+    <p>Chez Claude, l'app se télécharge sur <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a>. Tu lui ouvres un dossier et elle travaille dedans. C'était le mode <a href="lexique/cowork">Cowork</a>, qui se fond dans la conversation fin 2026. Chez ChatGPT, l'app se télécharge sur <a href="https://chatgpt.com/download/" target="_blank" rel="noopener">chatgpt.com/download</a> et le mode s'appelle <a href="lexique/chatgpt-work">Work</a>. Les deux marchent sur Mac et Windows, avec un abonnement payant.</p>
   </div>
 
   <div class="lex-block">
-    <h3>Comment l'utiliser — pas à pas</h3>
+    <h3>Comment l'utiliser pas à pas</h3>
     <ol>
-      <li><strong>Sur Mac :</strong> appuie sur Cmd+Espace, écris « Terminal », valide avec Entrée. Si tu veux plus joli plus tard : <a href="https://ghostty.org" target="_blank" rel="noopener">Ghostty</a> (gratuit) ou <a href="https://www.warp.dev" target="_blank" rel="noopener">Warp</a> (payant, avec IA intégrée).</li>
-      <li><strong>Sur Windows :</strong> ouvre « Windows Terminal » depuis le menu Démarrer, il est pré-installé. Par défaut, il lance PowerShell, ça fera l'affaire.</li>
-      <li>Copie la commande donnée par le tuto, colle-la dans la fenêtre, appuie sur Entrée, attends que la machine réponde.</li>
-      <li>Si tu vois une erreur rouge, pas de panique : copie-la, colle-la dans Claude, demande-lui de te la traduire et de te donner la solution.</li>
+      <li>Installe l'app Claude ou l'app ChatGPT, comme n'importe quelle application.</li>
+      <li>Connecte-toi avec ton abonnement (Claude Pro ou ChatGPT Plus).</li>
+      <li>Crée un dossier vide pour tes essais. Dans Claude, ouvre-lui ce dossier. Dans ChatGPT, passe en mode Work.</li>
+      <li>Écris ce que tu veux en français, puis relis le résultat avant de t'en servir.</li>
     </ol>
-    <p>Les 3 commandes qui suffisent pour 90 % des cas : <code>cd nom-du-dossier</code> pour entrer dans un dossier, <code>ls</code> pour voir ce qu'il contient, <code>claude</code> pour lancer Claude Code dedans.</p>
+    <p>Pour un premier essai guidé de 10 minutes, suis l'<a href="apprendre#etape-03">étape 3 du parcours Apprendre</a>.</p>
   </div>
 
   <div class="lex-block lex-block-reassure">
-    <h3>Tu peux l'ignorer si…</h3>
-    <p>Depuis le 14 avril 2026, Anthropic a sorti <strong>l'application desktop Claude Code pour Mac et Windows</strong>. Tu la télécharges sur <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a>, tu double-cliques sur le fichier .dmg (Mac) ou .exe (Windows), et tu utilises Claude Code <strong>sans jamais ouvrir le terminal</strong>. Onglet « Code » dans Claude Desktop, et c'est tout. Voilà la vraie bonne nouvelle de 2026 : tu peux démarrer aujourd'hui sans toucher à la fenêtre noire. Le jour où tu voudras aller plus loin, les 3 commandes au-dessus suffiront. Je peux me tromper sur tes besoins, mais honnêtement, 9 entrepreneurs sur 10 n'auront jamais à l'ouvrir.</p>
+    <h3>Et la fenêtre noire des tutos ?</h3>
+    <p>Tu verras parfois des tutos avec une fenêtre de commandes. C'est l'outil des développeurs. Pour tout ce que ce site propose aux débutants, l'app suffit, tu n'as jamais besoin de l'ouvrir.</p>
   </div>
 </section>
 </div>
@@ -2882,7 +2863,7 @@
     <p>Le mot "modèle" apparaît dans trois endroits différents, et c'est souvent ce qui embrouille.</p>
     <ul>
       <li><strong>Sur claude.ai (abonnement Pro ou Max) :</strong> un menu déroulant en haut de la conversation, à côté du titre. Tu y lis par exemple <em>"Claude Sonnet 4.6 ▾"</em>. Tu cliques, tu changes.</li>
-      <li><strong>Dans Claude Code (l'application dans le terminal) :</strong> la commande <code>/model</code> affiche la liste et permet de basculer (<code>/model opus</code>, <code>/model haiku</code>).</li>
+      <li><strong>Dans Claude Code, l'outil des développeurs :</strong> la commande <code>/model</code> affiche la liste et permet de basculer (<code>/model opus</code>, <code>/model haiku</code>).</li>
       <li><strong>Sur un outil qui branche l'IA à autre chose</strong> (Cursor, n8n, Zapier, une API) : un champ <em>"model"</em> où tu colles l'identifiant exact du tableau au-dessus.</li>
     </ul>
     <div class="lex-mockup lex-mockup-web">
@@ -3188,7 +3169,7 @@
   <div class="lex-block">
     <h3>Comment installer — pas à pas</h3>
     <ol>
-      <li><strong>Ouvre ton terminal</strong> (cf. entrée <a href="#cli">#04 CLI / Terminal</a> si tu n'es pas à l'aise).</li>
+      <li><strong>Ouvre ton terminal.</strong> Les plugins de Claude Code s'installent en ligne de commande, c'est un geste de développeur. Si tu n'en as jamais ouvert, l'app de l'<a href="#app-bureau">entrée #04</a> te suffit.</li>
       <li><strong>Liste les plugins déjà installés</strong> avec <code>claude plugin list</code> pour savoir d'où tu pars.</li>
       <li><strong>Installe un plugin</strong> avec <code>claude plugin install &lt;nom&gt;</code>. Par exemple <code>claude plugin install context7</code>.</li>
       <li><strong>Redémarre Claude Code</strong> (ferme et relance) pour que les nouvelles commandes slash soient reconnues.</li>

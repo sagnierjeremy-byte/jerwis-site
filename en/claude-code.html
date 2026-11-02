@@ -54,7 +54,7 @@
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Install and set up Claude Code step by step",
-  "description": "A complete guide to installing Claude Code, setting up Ghostty, dropping in your CLAUDE.md, and installing 26 skills.",
+  "description": "A complete guide to starting Claude Code in the Claude app (the Code tab, on Mac and Windows), with no terminal, then dropping in your CLAUDE.md and installing 26 skills.",
   "totalTime": "PT15M",
   "inLanguage": "en-US",
   "author": {
@@ -63,13 +63,13 @@
     "url": "https://jerwis.fr/en/"
   },
   "datePublished": "2026-04-20",
-  "dateModified": "2026-05-22",
+  "dateModified": "2026-11-02",
   "step": [
-    { "@type": "HowToStep", "name": "Install Ghostty (recommended terminal)" },
-    { "@type": "HowToStep", "name": "Install Claude Code with the official command" },
-    { "@type": "HowToStep", "name": "Drop your CLAUDE.md into ~/.claude/" },
-    { "@type": "HowToStep", "name": "Install 26 custom skills" },
-    { "@type": "HowToStep", "name": "Start your first session" }
+    { "@type": "HowToStep", "name": "Install the Claude app on Mac or Windows and sign in with a paid plan" },
+    { "@type": "HowToStep", "name": "Open the Code tab and pick a project folder" },
+    { "@type": "HowToStep", "name": "Start your first session with your first messages" },
+    { "@type": "HowToStep", "name": "Drop in your CLAUDE.md" },
+    { "@type": "HowToStep", "name": "Install 26 custom skills" }
   ]
 }
 </script>
@@ -85,7 +85,7 @@
       "name": "What is Claude Code in one sentence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Claude Code is a command-line tool built by Anthropic that turns the Claude AI into an assistant able to write, edit, run, and debug code directly on your computer. Instead of copy-pasting code out of a chat, you talk to it, and it acts inside your files."
+        "text": "Claude Code is Anthropic's coding agent, which turns the Claude AI into an assistant able to write, edit, run, and debug code directly on your computer. You open it in the Code tab of the Claude app, on Mac or Windows. Instead of copy-pasting code out of a chat, you talk to it, and it acts inside your files."
       }
     },
     {
@@ -93,7 +93,7 @@
       "name": "How much does Claude Code cost in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Claude Code is included in the Claude Pro plan at $20 a month, or Claude Max at $100 a month. You can also use it pay-as-you-go through an Anthropic API key, billed per token consumed. For regular daily use, the Pro plan stays the most cost-effective option."
+        "text": "Claude Code is included in the Claude Pro plan at $20 a month before tax ($17 a month billed yearly) and in Claude Max, from $100 a month. The free plan doesn't include it. In the terminal version, you can also pay as you go with an Anthropic API key. For regular daily use, the Pro plan stays the most cost-effective option."
       }
     },
     {
@@ -101,7 +101,7 @@
       "name": "Do you have to be a developer to use Claude Code?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. I'm neither a developer nor a coder, and I use it every day to write newsletters, build landing pages, and automate tasks. Claude Code reads your intent in plain language and does the technical work for you. All you need is to know how to open a terminal and copy-paste a command."
+        "text": "No. I'm neither a developer nor a coder, and I use it every day to write newsletters, build landing pages, and automate tasks. Claude Code reads your intent in plain language and does the technical work for you. All you need is to install the Claude app and describe what you want, like in a message."
       }
     },
     {
@@ -109,7 +109,7 @@
       "name": "Claude Code vs Cursor: which one should you pick?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Cursor is a code editor (a fork of VS Code) with AI autocomplete and a built-in chat. Claude Code is an autonomous agent that runs tasks in your terminal. If you want to replace VS Code and keep control line by line, go with Cursor. If you want to hand off whole tasks to an agent that reads, writes, and tests for you, go with Claude Code."
+        "text": "Cursor is a code editor (a fork of VS Code) with AI autocomplete and a built-in chat. Claude Code is an autonomous agent that runs tasks on your computer, from the Code tab of the Claude app. If you want to replace VS Code and keep control line by line, go with Cursor. If you want to hand off whole tasks to an agent that reads, writes, and tests for you, go with Claude Code."
       }
     },
     {
@@ -117,7 +117,7 @@
       "name": "Claude Code vs Codex (OpenAI): what are the differences?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Codex runs on OpenAI's GPT models (the GPT-5 family). Claude Code runs on Anthropic's Claude Sonnet and Opus. In my experience, Claude is better at understanding an existing codebase and reasoning over long context. Codex is often faster on short, creative tasks. The choice mostly comes down to the ecosystem you already live in."
+        "text": "Codex runs on OpenAI's GPT models (GPT-6.1 Sol today). Claude Code runs on Anthropic's Claude models (Opus 5.5, Sonnet 5.5, Fable 5.1). In my experience, Claude is better at understanding an existing codebase and reasoning over long context. Codex is often faster on short, creative tasks. The choice mostly comes down to the ecosystem you already live in."
       }
     },
     {
@@ -125,7 +125,7 @@
       "name": "How do you install Claude Code?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "One command in your terminal: curl -fsSL https://claude.ai/install.sh | bash. You restart the terminal, type claude, sign in to your Anthropic account, and you're set. The full guide is higher up on this page, with screenshots and troubleshooting."
+        "text": "Download the Claude app from claude.com/download, install it on your Mac or Windows PC, and sign in with a paid plan (Pro or higher). Click the Code tab, pick a folder on your computer, and you're set. Nothing to type in a command line. The step-by-step is higher up on this page, and the terminal version is in the appendix at the very bottom."
       }
     },
     {
@@ -133,7 +133,7 @@
       "name": "Which operating systems does Claude Code run on?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Claude Code runs natively on macOS and Linux. On Windows, you have to go through WSL (Windows Subsystem for Linux). Anthropic has also released a Claude Desktop app for macOS and Windows that includes a Code tab, with no terminal needed."
+        "text": "The Claude app and its Code tab run on macOS (Intel and Apple Silicon) and on Windows, and a Linux version is in beta. That's the simplest route. The terminal version of Claude Code also runs on macOS, Linux, and Windows, natively or through WSL."
       }
     },
     {
@@ -165,7 +165,7 @@
       "name": "What is Claude Code's token context?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sonnet 4.x offers 200,000 tokens of context by default, with a 1 million option for very large projects. Opus 4 and 4.7 go up to 1 million tokens as standard. In practice, that means Claude Code can read an entire codebase of tens of thousands of lines without losing the thread."
+        "text": "The four Claude models of November 2026 (Opus 5.5, Sonnet 5.5, Haiku 5.5, and Fable 5.1) all have 1 million tokens of context. In practice, that means Claude Code can read an entire codebase of tens of thousands of lines without losing the thread."
       }
     },
     {
@@ -173,7 +173,7 @@
       "name": "How do you use MCP with Claude Code?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MCP (Model Context Protocol) is an open standard that lets Claude Code connect to external services (databases, Sanity, Stripe, Telegram, and so on). You install an MCP server, register it in your ~/.claude/settings.json, and Claude Code can call it like any native tool."
+        "text": "MCP (Model Context Protocol) is an open standard that lets Claude Code connect to external services (databases, Sanity, Stripe, Telegram, and so on). In the Claude app, you click the + next to the message box and open the connectors to plug the service in with a few clicks. The ones not in the list go into a settings file, such as .mcp.json at the project root. Claude Code can then call it like any native tool."
       }
     },
     {
@@ -181,7 +181,7 @@
       "name": "Skills vs slash commands: what's the difference?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A skill is a folder of instructions that fires automatically when Claude recognizes the domain of your request (example: the cold-email skill loads when you write \"write me a cold email\"). A slash command is a manual shortcut you type (example: /brainstorm) to launch a specific workflow. Skills are automatic, slash commands are deliberate."
+        "text": "A skill is a folder of instructions that fires automatically when Claude recognizes the domain of your request (example: the cold-email skill loads when you write \"write me a cold email\"). A slash command is a manual shortcut you type in the message box (example: /brainstorm) to launch a specific workflow. Skills are automatic, slash commands are deliberate."
       }
     },
     {
@@ -205,7 +205,7 @@
       "name": "Claude Code's Plan Mode: when should you use it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Plan Mode forces Claude to lay out its plan before acting. You turn it on with Shift+Tab in a session. It's useful the moment a task spans more than three files or touches a database. You approve the plan or fix it before a single file is touched. My reflex: Plan Mode is mandatory the moment there's a risk of breaking something."
+        "text": "Plan Mode forces Claude to lay out its plan before acting. In the app, you pick Plan in the mode selector, under the message box. It's useful the moment a task spans more than three files or touches a database. You approve the plan or fix it before a single file is touched. My reflex: Plan Mode is mandatory the moment there's a risk of breaking something."
       }
     },
     {
@@ -234,10 +234,10 @@
     },
     {
       "@type": "Question",
-      "name": "Which Claude model should you use: Sonnet or Opus?",
+      "name": "Which Claude model should you use: Opus, Sonnet, or Fable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sonnet 4.x is Claude Code's default model: fast, cheap, enough for 90% of tasks. Opus 4 or 4.7 is slower but more precise on complex reasoning, risky refactors, and multi-file architectures. My usage: Sonnet for the everyday, Opus when I tackle a big architecture decision."
+        "text": "In November 2026, Opus 5.5 is the model Anthropic recommends to start with, very strong at code and agents, and included in Pro. Sonnet 5.5 is the best balance of speed and intelligence. Haiku 5.5 is the fastest and cheapest, for sorting or extracting lots of text. Fable 5.1 is the most powerful, best kept for the hard cases. It's included in Max and paid with usage credits on Pro. Anthropic recommends starting with Opus 5.5 and moving to Fable 5.1 only if that isn't enough."
       }
     }
   ]
@@ -1441,7 +1441,7 @@
         </a>
         <a href="/en/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>AI glossary</strong><span>40 terms explained</span></span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
         </a>
         <a href="/en/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
@@ -1497,10 +1497,10 @@
     <div class="kicker"><span class="pulse"></span>Pillar guide · Claude Code in 2026</div>
     <h1>Claude Code,<br>the <em>complete</em> guide.</h1>
     <p class="hero-lead">
-      Hi, I'm Jérémy. I'm neither a developer nor a coder — I'm a founder who uses Claude Code every day. Here, I've pulled together everything you need to know: what it is, why it's a game-changer, how it stacks up against Cursor or Codex, how to install it, and the workflows that actually earned their keep for me.
+      Hi, I'm Jérémy. I'm neither a developer nor a coder, I'm a founder who uses Claude Code every day. Here, I've pulled together everything you need to know: what it is, why it's a game-changer, how it stacks up against Cursor or Codex, how to get started in the Claude app on Mac and Windows, and the workflows that actually earned their keep for me.
     </p>
     <div class="hero-stats">
-      <span class="hero-stat"><strong>20</strong> min to install</span>
+      <span class="hero-stat"><strong>20</strong> min to set it all up</span>
       <span class="hero-stat"><strong>37</strong> skills on tap</span>
       <span class="hero-stat"><strong>140+</strong> official plugins</span>
       <span class="hero-stat"><strong>1 M</strong> tokens of context</span>
@@ -1516,21 +1516,21 @@
 
     <div class="definition-card">
       <h4>In one sentence</h4>
-      <p><strong>Claude Code is a command-line tool built by Anthropic that turns the Claude AI into an agent able to read, write, and run code directly on your computer.</strong> Instead of copy-pasting code out of a chat, you talk to it in plain language, and it acts inside your files, runs scripts, reads your codebase, tests, and fixes.</p>
+      <p><strong>Claude Code is Anthropic's coding agent, which turns the Claude AI into an agent able to read, write, and run code directly on your computer.</strong> You'll find it in the Code tab of the Claude app, on Mac and Windows. Instead of copy-pasting code out of a chat, you talk to it in plain language, and it acts inside your files, runs scripts, reads your codebase, tests, and fixes.</p>
     </div>
 
     <p>
-      In concrete terms, Claude Code is the <a href="/en/lexique/claude-code">terminal version of Claude</a>. You open your terminal, type <code>claude</code>, and you land in an interactive session where the AI can do what a human assistant would do for you: open a file, edit it, run a test, validate, start over. You can tell it "Add a signup form to my page, hook it up to Resend, test that it works," and it chains the steps on its own.
+      In concrete terms, you open the Claude app, click the Code tab, pick a folder on your computer, and you land in a session where <a href="/en/lexique/claude-code">Claude Code</a> can do what a human assistant would do for you: open a file, edit it, run a test, validate, start over. You can tell it "Add a signup form to my page, hook it up to Resend, test that it works," and it chains the steps on its own.
     </p>
 
     <h3>Claude Code vs Claude.ai (the chat)</h3>
     <p>
-      <strong>Claude.ai is the conversation</strong> — you ask questions, Claude replies with text. <strong>Claude Code is the execution</strong> — you give it an intent, Claude reads your project, handles files, runs shell commands, and delivers a result. It's the same AI underneath (Anthropic's Sonnet and Opus models), but the interface changes everything. On Claude.ai you copy-paste code by hand; with Claude Code you never touch a programming keyboard again.
+      <strong>The chat is the conversation.</strong> You ask questions, Claude replies with text. <strong>Claude Code is the execution.</strong> You give it an intent, Claude reads your project, handles files, runs commands, and delivers a result. It's the same AI underneath (Anthropic's Opus, Sonnet, and Fable models), and both live in the same app, but the tab changes everything. In the chat you copy-paste code by hand; with Claude Code you never touch a programming keyboard again.
     </p>
 
     <h3>Claude Code vs Cursor, Aider, Codex, and GitHub Copilot</h3>
     <p>
-      All these tools use an AI to write code. The difference plays out on three axes: <strong>where it lives (terminal vs editor), who acts (you vs the agent), and the model underneath (Claude vs GPT vs others)</strong>. Cursor is a full code editor with a chat; Aider is an open-source CLI that edits files; GitHub Copilot is an autocomplete built into VS Code; Codex is OpenAI's CLI agent. Claude Code combines Aider's simplicity, Codex's agency, and Claude's reasoning quality.
+      All these tools use an AI to write code. The difference plays out on three axes: <strong>where it lives (an app, an editor, or the command line), who acts (you vs the agent), and the model underneath (Claude vs GPT vs others)</strong>. Cursor is a full code editor with a chat; Aider is an open-source command-line tool that edits files; GitHub Copilot is an autocomplete built into VS Code; Codex is OpenAI's coding agent. Claude Code combines Aider's simplicity, Codex's agency, and Claude's reasoning quality.
     </p>
 
     <p>
@@ -1539,12 +1539,12 @@
 
     <h3>Who is it for?</h3>
     <p>
-      Officially, it's a tool for developers. In practice, I use Claude Code every day without being one. <strong>If you can open a terminal and copy-paste a command, you can use it.</strong> I know consultants who use it to generate client reports, marketers who build their landing pages with no dev, lawyers who automate contract review. The barrier to entry is lower than people think.
+      Officially, it's a tool for developers. In practice, I use Claude Code every day without being one. <strong>If you can install an app and write down what you want in plain language, you can use it.</strong> I know consultants who use it to generate client reports, marketers who build their landing pages with no dev, lawyers who automate contract review. The barrier to entry is lower than people think.
     </p>
 
     <div class="callout tip">
-      <h4>Not into the terminal? The Claude Desktop option</h4>
-      <p>In April 2026 Anthropic released a <strong>Claude Desktop app (Mac + Windows)</strong> with a built-in Code tab, zero commands to type. Same power, windowed interface. Download it at <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a> — and come back here for the <a href="/en/lexique/claude-md">CLAUDE.md</a> and the <a href="/en/lexique/skill-agent">skills</a>.</p>
+      <h4>It all starts in the Claude app</h4>
+      <p>In April 2026 Anthropic released a <strong>Claude Desktop app (Mac + Windows)</strong> with a built-in Code tab, zero commands to type. That's where this guide gets you started, in <a href="#demarrer">step 01</a>, before the <a href="/en/lexique/claude-md">CLAUDE.md</a> and the <a href="/en/lexique/skill-agent">skills</a>. The terminal version is still around, and I keep it for the curious in <a href="#annexe-terminal">the appendix at the very bottom</a>.</p>
     </div>
   </div>
 </section>
@@ -1571,7 +1571,7 @@
 
     <h3>Claude Code's real strengths</h3>
     <ul>
-      <li><strong>It reads your whole codebase.</strong> With 1 million tokens of context on Opus 4.7, it can hold an entire project in its head before acting.</li>
+      <li><strong>It reads your whole codebase.</strong> With 1 million tokens of context on Opus 5.5, it can hold an entire project in its head before acting.</li>
       <li><strong>It spins up subagents in parallel.</strong> You ask it to analyze five documents, it launches five at once, then synthesizes. Five times faster than a sequential agent.</li>
       <li><strong>It integrates through MCP.</strong> You can plug in Sanity, Stripe, Telegram, your Postgres database, your Meta Ads account — all through the open <a href="/en/lexique/mcp">MCP</a> standard.</li>
       <li><strong>You can control it finely.</strong> With <a href="/en/lexique/hook">hooks</a> and the <a href="/en/lexique/claude-md">CLAUDE.md</a>, you can stop Claude from touching certain files, impose rules on it, and trigger actions at specific moments.</li>
@@ -1605,7 +1605,7 @@
     <h2>Claude Code<br>vs <em class="teal">the alternatives.</em></h2>
 
     <p>
-      The market for AI coding assistants exploded in 2024-2026. Every six months, a new tool shows up, claims to be the best, and three months later another one takes its place. Here's my comparison table, refreshed in May 2026, based on what I've actually tested (not copy-paste from marketing pages).
+      The market for AI coding assistants exploded in 2024-2026. Every six months, a new tool shows up, claims to be the best, and three months later another one takes its place. Here's my comparison table, refreshed in May 2026, based on what I've actually tested (not copy-paste from marketing pages). Models and prices were updated in November 2026.
     </p>
 
     <div class="compare-wrap">
@@ -1623,10 +1623,10 @@
         <tbody>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>Claude Code</td>
-            <td>Sonnet 4.x / Opus 4.7</td>
+            <td>Opus 5.5 / Sonnet 5.5 / Fable 5.1</td>
             <td>$20/mo Pro</td>
-            <td>Autonomous agent, reads your whole codebase, 1 M token context, native MCP</td>
-            <td>CLI only (except Claude Desktop), learning curve in the 1<sup>st</sup> week</td>
+            <td>Autonomous agent in the Claude app, reads your whole codebase, 1 M token context, native MCP</td>
+            <td>Paid plan required (not in the free plan), learning curve in the 1<sup>st</sup> week</td>
             <td>You want an assistant that executes, not one that suggests</td>
           </tr>
           <tr>
@@ -1641,21 +1641,21 @@
             <td class="tool-name"><span class="tool-dot dot-orange"></span>Aider</td>
             <td>Multi (Claude, GPT, local)</td>
             <td>Free + API cost</td>
-            <td>Open-source, pure terminal, native Git integration, active community</td>
+            <td>Open-source, 100% command line, native Git integration, active community</td>
             <td>No truly autonomous agent, you have to configure your own API key</td>
             <td>You want total control and don't like black boxes</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-ink"></span>GPT Codex CLI</td>
-            <td>GPT-5 family</td>
-            <td>$20/mo ChatGPT Pro</td>
+            <td>GPT-6.1 Sol (GPT-6 family)</td>
+            <td>$20/mo ChatGPT Plus</td>
             <td>OpenAI frontier model, speed, ChatGPT integration</td>
             <td>Closed OpenAI ecosystem, fewer hooks and custom skills, shorter context</td>
-            <td>You already live in ChatGPT Pro and want to stay in the ecosystem</td>
+            <td>You already live in ChatGPT Plus or higher and want to stay in the ecosystem</td>
           </tr>
           <tr>
             <td class="tool-name"><span class="tool-dot dot-fuchsia"></span>GitHub Copilot Workspace</td>
-            <td>GPT-4o / Claude 3.5</td>
+            <td>Multi (GPT, Claude, Gemini)</td>
             <td>$39/mo Enterprise</td>
             <td>Native GitHub integration, scope built around pull requests, enterprise security</td>
             <td>Outsources the logic to the GitHub workflow, little control over the model</td>
@@ -1675,7 +1675,7 @@
             <td>Free + API cost</td>
             <td>VS Code extension, pure Claude model, autonomous agent inside the editor</td>
             <td>Less mature than Claude Code, no plugin/skill marketplace</td>
-            <td>You want Claude in VS Code without going through the terminal</td>
+            <td>You want Claude right inside VS Code</td>
           </tr>
         </tbody>
       </table>
@@ -1697,118 +1697,101 @@
   </div>
 </section>
 
-<!-- Étape 01 : Ghostty -->
-<section class="block">
+<!-- Étape 01 : l'app Claude -->
+<section class="block" id="demarrer">
   <div class="container">
-    <span class="section-kicker k-teal">— Step 01 (optional)</span>
-    <h2>Install <em class="teal">Ghostty.</em><br>The terminal I use.</h2>
-
-    <div class="callout tip">
-      <h4>Not required.</h4>
-      <p>You can skip this step and use the macOS Terminal (already installed on your Mac, search "Terminal" in Spotlight). Ghostty is just prettier and faster. Come back to it in 3 weeks, once you're comfortable.</p>
-    </div>
-
+    <span class="section-kicker k-teal">— Step 01</span>
+    <h2>Install <em class="teal">the Claude app.</em><br>Everything starts there.</h2>
     <p>
-      Ghostty is the terminal I use on Mac. It's free, fast, good-looking, and it supports emoji. You don't have to use Ghostty — the default macOS terminal works too — but I highly recommend it.
+      Claude Code lives in the Claude app, on Mac and on Windows. Nothing to copy-paste, nothing else to install: the app already includes Claude Code. You download it, sign in, and click the Code tab.
     </p>
+
+    <div class="callout warn">
+      <h4>You need a paid plan</h4>
+      <p>Claude Code isn't in Claude's free plan. It's included in <strong>Pro</strong> ($20 a month before tax, or $17 a month billed yearly), in <strong>Max</strong> (from $100 a month), and in the Team and Enterprise plans. If you click Code without a subscription, the app offers to upgrade you to a paid plan.</p>
+    </div>
 
     <div class="step">
       <div class="step-num">01</div>
       <div class="step-body">
-        <h3>Download Ghostty</h3>
-        <p>Go to <a href="https://ghostty.org" target="_blank" rel="noopener">ghostty.org</a> and click "Download". It's free, no email required.</p>
+        <h3>Download the app</h3>
+        <p>Go to <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a> and pick your version. On Mac, it's the same one for Intel and Apple chips. On Windows, there's a standard version and one for PCs with an ARM processor.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">02</div>
       <div class="step-body">
-        <h3>Install the app</h3>
-        <p>Double-click the downloaded <code>.dmg</code> file, drag Ghostty into your Applications folder. Open it. macOS will ask whether you trust it — click "Yes".</p>
+        <h3>Install it and sign in</h3>
+        <p>On Mac, open the downloaded file and move Claude into your Applications folder. On Windows, run the installer. Open the app and sign in with your Claude account, the one with your subscription.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">03</div>
       <div class="step-body">
-        <h3>Check that it works</h3>
-        <p>With Ghostty open, type this command and hit Enter:</p>
-        <pre>echo "Salut Ghostty"</pre>
-        <p>If you see <code>Salut Ghostty</code> print out, you're ready for the next step.</p>
+        <h3>Click the Code tab</h3>
+        <p>It's at the top of the app's sidebar. If the tabs only show icons, hover over them to see their names. If the app asks you to sign in again online, do it, then restart the app.</p>
       </div>
     </div>
 
     <div class="callout ok">
-      <h4>Don't want to switch terminals?</h4>
-      <p>No problem — the macOS <strong>Terminal</strong> app (already installed) does the job perfectly. Skip this step and go to step 02.</p>
+      <h4>You're installed.</h4>
+      <p>The Code tab is Claude Code. Everything else in this guide (your first session, the CLAUDE.md, the skills, the plugins) happens from there.</p>
     </div>
   </div>
 </section>
 
-<!-- Étape 02 : Claude Code -->
+<!-- Étape 02 : première session -->
 <section class="block">
   <div class="container">
     <span class="section-kicker k-fuchsia">— Step 02</span>
-    <h2>Install <em class="fuchsia">Claude Code.</em></h2>
+    <h2>Your first <em class="fuchsia">session.</em></h2>
     <p>
-      Open your terminal (Ghostty or Terminal), and paste this command:
+      A session is a conversation with Claude about a folder on your computer. Claude works in the folder you give it. Start with a small test folder, it's the fastest way to see what it can do.
     </p>
-    <pre>curl -fsSL https://claude.ai/install.sh | bash</pre>
-
-    <h4>Here's what you should see when it works</h4>
-    <p>Once the install is done and you've restarted the terminal, type <code>claude --version</code> then <code>claude</code>. You should see exactly this:</p>
-    <pre>$ claude --version
-claude 1.2.3
-
-$ claude
-Welcome to Claude Code!
-Ready. Type a message.
-></pre>
-    <p>
-      If you see that, <strong>you've nailed it</strong>. If you see <code>command not found</code>, restart your terminal (quit it fully with Cmd+Q, reopen it) and try again. In most cases, that's enough.
-    </p>
-
-    <div class="callout warn">
-      <h4>Why this command?</h4>
-      <p>It downloads Anthropic's official script and runs it. It installs Claude Code on your system. You can read the script before running it if that reassures you — it's the link inside the command.</p>
-    </div>
 
     <div class="step">
       <div class="step-num">01</div>
       <div class="step-body">
-        <h3>Run the command</h3>
-        <p>Paste it into your terminal, hit Enter, and wait for it to finish.</p>
+        <h3>Create a test folder</h3>
+        <p>On your desktop, right-click and create a new empty folder. Name it <code>test-claude</code>.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">02</div>
       <div class="step-body">
-        <h3>Restart your terminal</h3>
-        <p>Quit the terminal fully (Cmd+Q) and reopen it. This is so the new <code>claude</code> command gets picked up.</p>
+        <h3>Open it in the Code tab</h3>
+        <p>Look at the row just under the message box. The first button picks where Claude works, keep your computer (the Local group). The button next to it picks the folder. Click it, choose to open a folder, and select <code>test-claude</code>.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">03</div>
       <div class="step-body">
-        <h3>Connect your Claude account</h3>
-        <p>Type:</p>
-        <pre>claude</pre>
-        <p>The first time, it'll ask you to sign in with your Anthropic account. Follow the on-screen instructions. It takes 30 seconds.</p>
+        <h3>Pick your model and your mode</h3>
+        <p>At the end of the same row is the model picker. Take <strong>Opus 5.5</strong>, the one Anthropic recommends to start with. Just before it, the mode selector sets what Claude can do without asking you. To start, keep the manual mode: Claude shows you every change and waits for your go-ahead.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">04</div>
       <div class="step-body">
-        <h3>Test it</h3>
-        <p>Create an empty folder on your desktop, open it in the terminal, and launch Claude:</p>
-        <pre>mkdir ~/Desktop/test-claude
-cd ~/Desktop/test-claude
-claude</pre>
-        <p>Ask it something like: <em>"Create a hello.txt file with 'Hello world' inside"</em>. You'll see it create the file all by itself.</p>
+        <h3>Write your first message</h3>
+        <p>Type in the message box, then press Enter: <em>"Create a hello.txt file with 'Hello world' inside"</em>. Claude shows you the file it wants to create. Accept, then open your folder, <code>hello.txt</code> is there.</p>
+        <p>Next, try: <em>"Make me a one-page website that presents my business, in an index.html file"</em>. And on a real project: <em>"Explain in three sentences what this folder contains"</em>.</p>
       </div>
+    </div>
+
+    <div class="callout tip">
+      <h4>Review before you accept</h4>
+      <p>When Claude has edited files, a small counter like <code>+12 -1</code> shows up. Click it to see, file by file, what changed. You can comment on a line, and Claude reads your comment and fixes it. You can also redirect it at any time: type your correction and press Enter, even while it's working.</p>
+    </div>
+
+    <div class="callout ok">
+      <h4>The other modes, later</h4>
+      <p>Once you're comfortable, try the mode that accepts file edits on its own, or <strong>Auto</strong> mode, where a safeguard checks every action in the background and blocks the risky ones. <strong>Plan</strong> mode has Claude propose a plan before it touches anything.</p>
     </div>
   </div>
 </section>
@@ -1842,33 +1825,29 @@ claude</pre>
       <div class="step-num">01</div>
       <div class="step-body">
         <h3>Download the file above</h3>
-        <p>It'll land in your <code>~/Downloads</code> folder.</p>
+        <p>It'll land in your Downloads folder.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">02</div>
       <div class="step-body">
-        <h3>Create the <code>~/.claude</code> folder and copy the file into it</h3>
-        <p>In your terminal:</p>
-        <pre>mkdir -p ~/.claude
-cp ~/Downloads/CLAUDE.md ~/.claude/CLAUDE.md</pre>
+        <h3>Ask Claude to put it in the right place</h3>
+        <p>The global CLAUDE.md lives in a hidden folder, <code>.claude</code>, inside your home folder. Rather than hunting for it, open a session in the Code tab and ask: <em>"Copy the CLAUDE.md file from my Downloads folder into the .claude folder in my home folder. Create that folder if it doesn't exist."</em> It asks your permission before copying, accept.</p>
       </div>
     </div>
 
     <div class="step">
       <div class="step-num">03</div>
       <div class="step-body">
-        <h3>Open it and adapt it</h3>
-        <p>Open it with your editor of choice (TextEdit, VS Code, whatever you like):</p>
-        <pre>open ~/.claude/CLAUDE.md</pre>
-        <p>Replace the "Tech stack" and "Next.js architecture" sections with your real stack. If you don't know what to put, leave it. You'll tweak it later.</p>
+        <h3>Adapt it with Claude</h3>
+        <p>Then ask it: <em>"Read my global CLAUDE.md and help me replace the Tech stack and Next.js architecture sections with my real stack"</em>. If you don't know what to put, leave it. You'll tweak it later.</p>
       </div>
     </div>
 
     <div class="callout tip">
       <h4>Tip: 2 levels of CLAUDE.md</h4>
-      <p>You can have a global <code>~/.claude/CLAUDE.md</code> (rules for all your projects) plus a <code>CLAUDE.md</code> at the root of a specific project (local rules). Both get read.</p>
+      <p>You can have a global <code>~/.claude/CLAUDE.md</code> (rules for all your projects) plus a <code>CLAUDE.md</code> at the root of a specific project (local rules). Both get read. Claude can write the second one for you: <em>"Create a CLAUDE.md with instructions for this project"</em>.</p>
     </div>
   </div>
 </section>
@@ -1876,8 +1855,8 @@ cp ~/Downloads/CLAUDE.md ~/.claude/CLAUDE.md</pre>
 <!-- Mini-marquee divider 1 -->
 <div class="mini-marquee" aria-hidden="true">
   <div class="mini-marquee-track">
-    <span>3 steps · 10 minutes</span><span>No jargon</span><span>No fear of the terminal</span><span>You've got this</span><span>Next step: skills</span>
-    <span>3 steps · 10 minutes</span><span>No jargon</span><span>No fear of the terminal</span><span>You've got this</span><span>Next step: skills</span>
+    <span>3 steps · 10 minutes</span><span>No jargon</span><span>All in the app</span><span>You've got this</span><span>Next step: skills</span>
+    <span>3 steps · 10 minutes</span><span>No jargon</span><span>All in the app</span><span>You've got this</span><span>Next step: skills</span>
   </div>
 </div>
 
@@ -1917,10 +1896,8 @@ cp ~/Downloads/CLAUDE.md ~/.claude/CLAUDE.md</pre>
     <div class="step">
       <div class="step-num">02</div>
       <div class="step-body">
-        <h3>Install the skills</h3>
-        <p>In your terminal:</p>
-        <pre>mkdir -p ~/.claude/skills
-cp -R ~/Downloads/jeremy-claude-pack/skills/* ~/.claude/skills/</pre>
+        <h3>Ask Claude to install the skills</h3>
+        <p>Your personal skills go in the <code>.claude/skills</code> folder inside your home folder. In a Code tab session, ask: <em>"Copy all the folders from Downloads/jeremy-claude-pack/skills into the .claude/skills folder in my home folder. Create it if it doesn't exist."</em> Accept the copy when it offers it.</p>
       </div>
     </div>
 
@@ -1928,9 +1905,7 @@ cp -R ~/Downloads/jeremy-claude-pack/skills/* ~/.claude/skills/</pre>
       <div class="step-num">03</div>
       <div class="step-body">
         <h3>Check that it works</h3>
-        <p>Launch Claude Code in a folder:</p>
-        <pre>claude</pre>
-        <p>Ask it: <em>"List the skills you've loaded"</em>. You should see <code>cold-email</code>, <code>copywriting</code>, <code>graphify</code>, and more show up.</p>
+        <p>Open a new session (the + button in the sidebar, or Cmd+N on Mac, Ctrl+N on Windows) and type <code>/</code> in the message box. The list that opens shows your commands and your skills. You should see <code>cold-email</code>, <code>copywriting</code>, <code>graphify</code>, and more. You can also ask: <em>"List the skills you've loaded"</em>.</p>
       </div>
     </div>
 
@@ -1988,7 +1963,7 @@ cp -R ~/Downloads/jeremy-claude-pack/skills/* ~/.claude/skills/</pre>
 
     <div class="callout tip">
       <h4>My advice</h4>
-      <p>Install the whole pack at once (step 04 below), but don't try to use all 37. During your 1st week, stick to 2 or 3 skills that fit your job. You'll explore the others when a need shows up.</p>
+      <p>Install the whole pack at once (step 04 above), but don't try to use all 37. During your 1st week, stick to 2 or 3 skills that fit your job. You'll explore the others when a need shows up.</p>
     </div>
   </div>
 </section>
@@ -2102,7 +2077,7 @@ cp -R ~/Downloads/jeremy-claude-pack/skills/* ~/.claude/skills/</pre>
 
     <h3>Morning — The watch</h3>
     <p>
-      I launch <code>claude</code> in my research folder and ask it: "<em>Use the deep-research skill to summarize the 10 most important AI news items this week</em>". While it works, I grab my coffee. 10 minutes later, I've got a clear brief.
+      I open a Code tab session on my research folder and ask it: "<em>Use the deep-research skill to summarize the 10 most important AI news items this week</em>". While it works, I grab my coffee. 10 minutes later, I've got a clear brief.
     </p>
 
     <h3>Midday — Building</h3>
@@ -2128,22 +2103,15 @@ cp -R ~/Downloads/jeremy-claude-pack/skills/* ~/.claude/skills/</pre>
     <span class="section-kicker k-teal">— Level up</span>
     <h2>The official plugins <em class="teal">worth knowing.</em></h2>
     <p>
-      Anthropic offers more than <strong>140 official plugins</strong> on its marketplace (the official "app store" — <a href="https://claude.com/plugins" target="_blank" rel="noopener">claude.com/plugins</a>). A plugin is a ready-made pack of skills, commands, and agents that installs <strong>in one line</strong>. Nothing to configure, nothing to copy by hand. Once installed, it's available in all your projects.
+      Anthropic offers more than <strong>140 official plugins</strong> on its marketplace (the official "app store", at <a href="https://claude.com/plugins" target="_blank" rel="noopener">claude.com/plugins</a>). A plugin is a ready-made pack of skills, commands, and agents that installs <strong>in a few clicks from the app</strong>. Nothing to configure, nothing to copy by hand. Installed for you, it's available in all your projects.
     </p>
     <p>
       After several weeks of testing, here are <strong>the 6 I use</strong>. Each one adds real value for a non-dev running concrete projects.
     </p>
 
     <div class="callout tip">
-      <h4>Install all 6 at once</h4>
-      <p>Open your terminal and paste these 6 commands. Less than 30 seconds.</p>
-      <pre>claude plugin install superpowers
-claude plugin install context7
-claude plugin install claude-md-management
-claude plugin install frontend-design
-claude plugin install code-review
-claude plugin install code-simplifier</pre>
-      <p>Then restart Claude Code (quit and reopen). The new slash commands are available.</p>
+      <h4>Install the 6 from the app</h4>
+      <p>In a Code tab session, click the <strong>+</strong> next to the message box, then <strong>Plugins</strong>, and open the plugin list. Search for each of the six by name (<code>superpowers</code>, <code>context7</code>, <code>claude-md-management</code>, <code>frontend-design</code>, <code>code-review</code>, <code>code-simplifier</code>) and install it for yourself, so it works across all your projects. Then open a new session, and the new commands show up when you type <code>/</code> in the message box. In the terminal version, it's six commands, and they're in <a href="#annexe-terminal">the appendix</a>.</p>
     </div>
 
     <h3>What they bring</h3>
@@ -2152,7 +2120,7 @@ claude plugin install code-simplifier</pre>
       <div class="step-num">01</div>
       <div class="step-body">
         <h3><code>superpowers</code> — A full dev methodology</h3>
-        <p>14 skills + 3 slash commands (the shortcuts that start with <code>/</code>) — <code>/brainstorm</code>, <code>/write-plan</code>, <code>/execute-plan</code>. It forces Claude to spec before coding, to do TDD (Test-Driven Development · "write the test first, the code second"), and to review. <strong>Type <code>/brainstorm</code></strong> on an article idea or a feature, and you'll see the difference.</p>
+        <p>14 skills + 3 slash commands (the shortcuts that start with <code>/</code>) — <code>/brainstorm</code>, <code>/write-plan</code>, <code>/execute-plan</code>. It forces Claude to spec before coding, to do TDD (Test-Driven Development · "write the test first, the code second"), and to review. <strong>Type <code>/brainstorm</code> in the message box</strong> with an article idea or a feature, and you'll see the difference.</p>
       </div>
     </div>
 
@@ -2221,23 +2189,20 @@ claude plugin install code-simplifier</pre>
     <span class="section-kicker k-fuchsia">— Not working?</span>
     <h2>Quick <em class="fuchsia">troubleshooting.</em></h2>
 
-    <h4>The <code>claude</code> command isn't recognized</h4>
-    <p>Restart your terminal. If that changes nothing, manually add the Claude path to your <code>~/.zshrc</code>:</p>
-    <pre>echo 'export PATH="$HOME/.claude/bin:$PATH"' >> ~/.zshrc
-source ~/.zshrc</pre>
+    <h4>The Code tab offers to upgrade me to a paid plan</h4>
+    <p>Claude Code isn't in the free plan. Get Pro or Max at <a href="https://claude.com/pricing" target="_blank" rel="noopener">claude.com/pricing</a>, then come back to the app.</p>
+
+    <h4>The app asks me to sign in online</h4>
+    <p>Finish signing in on the page that opens, then restart the app. The Code tab then opens normally.</p>
 
     <h4>Claude isn't loading my skills</h4>
-    <p>Check that the folders are actually there:</p>
-    <pre>ls ~/.claude/skills/</pre>
-    <p>You should see the list of skills. If the folder is empty, rerun the install from step 04.</p>
+    <p>Open a new session and type <code>/</code> in the message box, your skills should show up in the list. If not, ask Claude: <em>"List the folders in .claude/skills, in my home folder"</em>. If the folder is empty, redo step 04.</p>
 
     <h4>Claude isn't reading my CLAUDE.md</h4>
-    <p>Check the location:</p>
-    <pre>cat ~/.claude/CLAUDE.md</pre>
-    <p>If it prints content, you're good. Claude reads it automatically at every session.</p>
+    <p>Ask it: <em>"Show me the contents of my global CLAUDE.md, in the .claude folder of my home folder"</em>. If it shows it to you, you're good, it reads it at every session. For a project, the CLAUDE.md has to sit at the root of the folder you opened.</p>
 
     <h4>I'm really stuck</h4>
-    <p>Reply to my newsletter — your email comes straight to me, and I'll unblock you. I read everything.</p>
+    <p>Reply to my newsletter, your email comes straight to me and I'll unblock you. I read everything. Troubleshooting for the terminal version is in <a href="#annexe-terminal">the appendix</a>.</p>
   </div>
 </section>
 
@@ -2268,7 +2233,7 @@ source ~/.zshrc</pre>
           You run a company, you don't want to learn to code, but you want to save time on everything text, web, and automation. <strong>Let Claude Code build your MVP, your landing pages, your internal tool.</strong> You describe it in plain language, it delivers. When you find a bug, you describe what's wrong, it fixes it.
         </p>
         <p>
-          Recommended setup: Claude Pro at $20/mo, the <a href="/en/lexique/claude-md">CLAUDE.md</a> shared above, and 6 skills to install (<code>copywriting</code>, <code>landing-page-generator</code>, <code>seo-audit</code>, <code>deep-research</code>, <code>cold-email</code>, <code>social-content</code>).
+          Recommended setup: the Claude app with Claude Pro at $20/mo, the <a href="/en/lexique/claude-md">CLAUDE.md</a> shared above, and 6 skills to install (<code>copywriting</code>, <code>landing-page-generator</code>, <code>seo-audit</code>, <code>deep-research</code>, <code>cold-email</code>, <code>social-content</code>).
         </p>
         <div class="profile-links">
           <a href="/en/workflows">See my workflows</a>
@@ -2281,10 +2246,10 @@ source ~/.zshrc</pre>
         <span class="profile-tag">Profile 02</span>
         <h3>Seasoned dev</h3>
         <p>
-          You code on a team, you know your stack, you want to maximize your velocity. <strong>Run Claude Code on autopilot across separate Git worktrees with <code>--dangerously-skip-permissions</code>.</strong> You can parallelize three independent tasks by running three sessions on three branches, then merge whatever passes your review.
+          You code on a team, you know your stack, you want to maximize your velocity. <strong>Open several sessions in parallel from the Code tab sidebar, each in its own Git worktree, in Auto mode.</strong> You can parallelize three independent tasks on three branches, then merge whatever passes your review.
         </p>
         <p>
-          Recommended setup: Claude Max at $100/mo for Opus 4.7, the <code>superpowers</code> + <code>context7</code> + <code>code-review</code> plugins, hooks to block access to <code>.env</code> files and trigger a review before every commit. Also read my write-up <a href="/en/articles/claude-code-workflow-tips">Claude Code after 6 months</a>.
+          Recommended setup: Claude Max (from $100/mo) for Fable 5.1 on the big jobs, the <code>superpowers</code> + <code>context7</code> + <code>code-review</code> plugins, hooks to block access to <code>.env</code> files and trigger a review before every commit. Also read my write-up <a href="/en/articles/claude-code-workflow-tips">Claude Code after 6 months</a>.
         </p>
         <div class="profile-links">
           <a href="/en/articles/superpowers">Superpowers</a>
@@ -2415,7 +2380,7 @@ source ~/.zshrc</pre>
 
       <li>
         <strong>Claude Code</strong>
-        Anthropic's CLI agent that runs tasks in your terminal. <a href="/en/lexique/claude-code">See the entry →</a>
+        Anthropic's coding agent, in the Code tab of the Claude app. It acts inside your files for you. <a href="/en/lexique/claude-code">See the entry →</a>
       </li>
 
       <li>
@@ -2440,7 +2405,7 @@ source ~/.zshrc</pre>
 
       <li>
         <strong>Slash command</strong>
-        A manual shortcut starting with <code>/</code>, e.g. <code>/brainstorm</code>, to launch a specific workflow. <a href="/en/lexique/slash-command">See the entry →</a>
+        A manual shortcut starting with <code>/</code>, typed in the message box, e.g. <code>/brainstorm</code>, to launch a specific workflow. <a href="/en/lexique/slash-command">See the entry →</a>
       </li>
 
       <li>
@@ -2465,7 +2430,7 @@ source ~/.zshrc</pre>
 
       <li>
         <strong>Context window</strong>
-        The number of tokens the model can hold in its head at once. Sonnet 4.x: 200k, Opus 4.7: 1 M. <a href="/en/lexique/context-window">See the entry →</a>
+        The number of tokens the model can hold in its head at once. Opus 5.5, Sonnet 5.5, Haiku 5.5, and Fable 5.1 each hold 1 M. <a href="/en/lexique/context-window">See the entry →</a>
       </li>
 
       <li>
@@ -2519,15 +2484,15 @@ source ~/.zshrc</pre>
       <details class="faq-item">
         <summary>What is Claude Code in one sentence?</summary>
         <div class="faq-answer">
-          <p>Claude Code is a command-line tool built by Anthropic that turns the Claude AI into an assistant able to write, edit, run, and debug code directly on your computer. Instead of copy-pasting code out of a chat, you talk to it, and it acts inside your files.</p>
+          <p>Claude Code is Anthropic's coding agent, which turns the Claude AI into an assistant able to write, edit, run, and debug code directly on your computer. You open it in the Code tab of the Claude app, on Mac or Windows. Instead of copy-pasting code out of a chat, you talk to it, and it acts inside your files.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>How much does Claude Code cost in 2026?</summary>
         <div class="faq-answer">
-          <p>Claude Code is included in the Claude Pro plan at $20 a month, or Claude Max at $100 a month (recommended if you use Opus 4.7 daily). You can also use it pay-as-you-go through an Anthropic API key, billed per token consumed.</p>
-          <p>For regular daily use, the Pro plan stays the most cost-effective option. Max becomes worth it the moment you run three or four Opus sessions a day.</p>
+          <p>Claude Code is included in the Claude Pro plan at $20 a month before tax ($17 a month billed yearly) and in Claude Max, from $100 a month. The free plan doesn't include it. In the terminal version (see <a href="#annexe-terminal">the appendix</a>), you can also pay as you go with an Anthropic API key. Opus 5.5 then costs $4 per million input tokens and $20 per million output tokens.</p>
+          <p>For regular daily use, the Pro plan stays the most cost-effective option. Max becomes worth it when you hit Pro's limits every week, or if you want Fable 5.1, the most powerful model, included in Max.</p>
         </div>
       </details>
 
@@ -2535,14 +2500,14 @@ source ~/.zshrc</pre>
         <summary>Do you have to be a developer to use Claude Code?</summary>
         <div class="faq-answer">
           <p>No. I'm neither a developer nor a coder, and I use it every day to write newsletters, build landing pages, and automate tasks. Claude Code reads your intent in plain language and does the technical work for you.</p>
-          <p>All you need is to know how to open a terminal and copy-paste a command. Once you unlock those two moves, you unlock the whole tool.</p>
+          <p>All you need is to install the Claude app and describe what you want, like in a message. Nothing to type in a command line, it all happens in the Code tab.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Claude Code vs Cursor: which one should you pick?</summary>
         <div class="faq-answer">
-          <p>Cursor is a code editor (a fork of VS Code) with AI autocomplete and a built-in chat. Claude Code is an autonomous agent that runs tasks in your terminal. If you want to replace VS Code and keep control line by line, go with Cursor. If you want to hand off whole tasks to an agent that reads, writes, and tests for you, go with Claude Code.</p>
+          <p>Cursor is a code editor (a fork of VS Code) with AI autocomplete and a built-in chat. Claude Code is an autonomous agent that runs tasks on your computer, from the Code tab of the Claude app. If you want to replace VS Code and keep control line by line, go with Cursor. If you want to hand off whole tasks to an agent that reads, writes, and tests for you, go with Claude Code.</p>
           <p>My usage: Claude Code as the main tool for heavy tasks, Cursor on the side when I want to see the diff live. Both cost $20/mo, you can try both.</p>
         </div>
       </details>
@@ -2550,24 +2515,24 @@ source ~/.zshrc</pre>
       <details class="faq-item">
         <summary>Claude Code vs Codex (OpenAI): what are the differences?</summary>
         <div class="faq-answer">
-          <p>Codex runs on OpenAI's GPT models (the GPT-5 family). Claude Code runs on Anthropic's Claude Sonnet and Opus. In my experience, Claude is better at understanding an existing codebase and reasoning over long context. Codex is often faster on short, creative tasks.</p>
-          <p>The choice mostly comes down to the ecosystem you already live in. If you're on ChatGPT Pro, Codex CLI is included and you have nothing to add. If you want maximum reasoning quality, Claude Code stays my pick.</p>
+          <p>Codex runs on OpenAI's GPT models (GPT-6.1 Sol today). Claude Code runs on Anthropic's Claude models (Opus 5.5, Sonnet 5.5, Fable 5.1). In my experience, Claude is better at understanding an existing codebase and reasoning over long context. Codex is often faster on short, creative tasks.</p>
+          <p>The choice mostly comes down to the ecosystem you already live in. If you have ChatGPT Plus ($20/mo) or a higher plan, Codex is included and you have nothing to add. If you want maximum reasoning quality, Claude Code stays my pick.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>How do you install Claude Code?</summary>
         <div class="faq-answer">
-          <p>One command in your terminal: <code>curl -fsSL https://claude.ai/install.sh | bash</code>. You restart the terminal, type <code>claude</code>, sign in to your Anthropic account, and you're set.</p>
-          <p>The full guide is higher up on this page, with screenshots, troubleshooting, and CLAUDE.md setup. Allow 20 minutes the first time.</p>
+          <p>Download the Claude app from <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a>, install it on your Mac or Windows PC, and sign in with a paid plan (Pro or higher). Click the Code tab, pick a folder on your computer, and you're set. Nothing to type in a command line.</p>
+          <p>The step-by-step is <a href="#demarrer">higher up on this page</a>, with troubleshooting and CLAUDE.md setup. Allow 20 minutes the first time. If you'd rather use the terminal version, it's in <a href="#annexe-terminal">the appendix at the very bottom</a>.</p>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>Which operating systems does Claude Code run on?</summary>
         <div class="faq-answer">
-          <p>Claude Code runs natively on macOS and Linux. On Windows, you have to go through WSL (Windows Subsystem for Linux) — Anthropic doesn't offer a native Windows executable for the CLI yet.</p>
-          <p>Anthropic has released a Claude Desktop app for macOS and Windows that includes a Code tab, with no terminal needed. It's the simplest route if you're on Windows and don't want to touch WSL.</p>
+          <p>The Claude app and its Code tab run on macOS (Intel and Apple Silicon) and on Windows, and a Linux version is in beta. That's the simplest route, and the one this guide follows.</p>
+          <p>The terminal version also runs on macOS, Linux, and Windows, natively or through WSL. It's covered in <a href="#annexe-terminal">the appendix at the bottom of the page</a>.</p>
         </div>
       </details>
 
@@ -2598,7 +2563,7 @@ source ~/.zshrc</pre>
       <details class="faq-item">
         <summary>What is Claude Code's token context?</summary>
         <div class="faq-answer">
-          <p>Sonnet 4.x offers 200,000 tokens of context by default, with a 1 million option for very large projects. Opus 4 and 4.7 go up to 1 million tokens as standard.</p>
+          <p>The four Claude models of November 2026 (Opus 5.5, Sonnet 5.5, Haiku 5.5, and Fable 5.1) all have 1 million tokens of context.</p>
           <p>In practice, that means Claude Code can read an entire codebase of tens of thousands of lines without losing the thread. For comparison: this site is about 50,000 tokens if you take all the HTML files, so it fits entirely within the context of a single session.</p>
         </div>
       </details>
@@ -2607,7 +2572,7 @@ source ~/.zshrc</pre>
         <summary>How do you use MCP with Claude Code?</summary>
         <div class="faq-answer">
           <p><a href="/en/lexique/mcp">MCP</a> (Model Context Protocol) is an open standard that lets Claude Code connect to external services: databases, Sanity, Stripe, Telegram, any CRM.</p>
-          <p>You install an MCP server (often an npm or Python package), register it in your <code>~/.claude/settings.json</code> with its credentials, and Claude Code can call it like any native tool. Many providers now offer an official MCP server.</p>
+          <p>In the Claude app, you click the <strong>+</strong> next to the message box and open the connectors to plug the service in with a few clicks. The ones not in the list go into a settings file (for example <code>.mcp.json</code> at the project root), which Claude can write for you. Claude Code can then call it like any native tool. Many providers now offer an official MCP server.</p>
         </div>
       </details>
 
@@ -2615,65 +2580,65 @@ source ~/.zshrc</pre>
         <summary>Skills vs slash commands: what's the difference?</summary>
         <div class="faq-answer">
           <p>A <a href="/en/lexique/skill-agent">skill</a> is a folder of instructions that fires automatically when Claude recognizes the domain of your request. Example: the <code>cold-email</code> skill loads on its own when you write "write a B2B cold email."</p>
-          <p>A <a href="/en/lexique/slash-command">slash command</a> is a manual shortcut you type (example: <code>/brainstorm</code>) to launch a specific workflow. Skills are automatic, slash commands are deliberate. The two can coexist: a slash command can call a skill.</p>
+          <p>A <a href="/en/lexique/slash-command">slash command</a> is a manual shortcut you type in the message box (example: <code>/brainstorm</code>) to launch a specific workflow. Skills are automatic, slash commands are deliberate. The two can coexist: a slash command can call a skill.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Comment versionner mes commandes Claude Code dans Git ?</summary>
+        <summary>How do you version my Claude Code commands in Git?</summary>
         <div class="faq-answer">
-          <p>Ton dossier <code>~/.claude/</code> contient ton CLAUDE.md global, tes skills, tes hooks et tes settings. Tu peux le suivre dans un dépôt Git privé pour partager ton setup entre plusieurs machines.</p>
-          <p>Pour un projet, le <code>CLAUDE.md</code> local et le dossier <code>.claude/</code> vivent à la racine et sont commités avec le code. C'est ce qui permet à un nouveau collaborateur (humain ou IA) de récupérer le contexte projet sans avoir à reposer toutes les questions.</p>
+          <p>Your <code>~/.claude/</code> folder holds your global CLAUDE.md, your skills, your hooks, and your settings. You can track it in a private Git repo to share your setup across several machines.</p>
+          <p>For a project, the local <code>CLAUDE.md</code> and the <code>.claude/</code> folder live at the root and get committed with the code. That's what lets a new teammate (human or AI) pick up the project context without asking all the questions again.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Les hooks Claude Code : à quoi ça sert ?</summary>
+        <summary>Claude Code hooks: what are they for?</summary>
         <div class="faq-answer">
-          <p>Les <a href="/en/lexique/hook">hooks</a> sont des scripts qui se déclenchent automatiquement sur des événements précis : avant une réponse, après un tool call, à l'arrêt d'une session.</p>
-          <p>Concrètement, tu peux brancher une notification Telegram à la fin d'une tâche longue (pour que ton téléphone sonne quand le build est fini), interdire à Claude de toucher à certains fichiers sensibles, ou déclencher un audit sécurité avant chaque commit. C'est ce qui sépare un Claude Code « out of the box » d'un Claude Code adapté à ton workflow.</p>
+          <p><a href="/en/lexique/hook">Hooks</a> are scripts that fire automatically on specific events: before a response, after a tool call, when a session stops.</p>
+          <p>In practice, you can wire up a Telegram notification at the end of a long task (so your phone buzzes when the build is done), block Claude from touching certain sensitive files, or trigger a security audit before every commit. That's what separates an out-of-the-box Claude Code from one tuned to your workflow.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Claude Code en mode Plan Mode : quand l'utiliser ?</summary>
+        <summary>Claude Code's Plan Mode: when should you use it?</summary>
         <div class="faq-answer">
-          <p>Le Plan Mode force Claude à présenter son plan d'action avant d'agir. Tu l'actives avec Shift+Tab dans une session.</p>
-          <p>C'est utile dès que la tâche dépasse trois fichiers ou touche à de la base de données. Tu valides le plan ou tu le corriges avant qu'un seul fichier ne soit touché. Mon réflexe : Plan Mode obligatoire dès qu'il y a un risque de casser quelque chose, ou que la tâche peut prendre une mauvaise direction si Claude se trompe dans son interprétation.</p>
+          <p>Plan Mode forces Claude to lay out its plan of action before acting. In the app, you pick <strong>Plan</strong> in the mode selector, under the message box.</p>
+          <p>It's useful the moment a task spans more than three files or touches a database. You approve the plan or fix it before a single file is touched. My reflex: Plan Mode is mandatory the moment there's a risk of breaking something, or when the task could go the wrong way if Claude misreads what I mean.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Peut-on lancer Claude Code dans GitHub Actions ou en CI ?</summary>
+        <summary>Can you run Claude Code in GitHub Actions or CI?</summary>
         <div class="faq-answer">
-          <p>Oui. Anthropic propose une intégration GitHub Actions officielle. Tu déclenches Claude Code sur un événement (pull request, push, issue), il fait sa tâche en mode non-interactif et commit le résultat.</p>
-          <p>Pratique pour automatiser des revues de code, des audits, de la documentation, ou de la génération de release notes. Demande une clé API Anthropic stockée en secret GitHub. Pour creuser, va voir la fiche lexique <a href="/en/lexique/github-actions">GitHub Actions</a>.</p>
+          <p>Yes. Anthropic offers an official GitHub Actions integration. You trigger Claude Code on an event (pull request, push, issue), it does its task in non-interactive mode and commits the result.</p>
+          <p>Handy for automating code reviews, audits, documentation, or release notes. It needs an Anthropic API key stored as a GitHub secret. To dig in, see the <a href="/en/lexique/github-actions">GitHub Actions</a> glossary entry.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Vie privée des données : Anthropic garde-t-il mon code ?</summary>
+        <summary>Data privacy: does Anthropic keep my code?</summary>
         <div class="faq-answer">
-          <p>Par défaut, Anthropic ne retient pas tes données pour entraîner ses modèles si tu es sur un compte Pro ou API. Les conversations Claude Code peuvent être stockées 30 jours pour la modération abuse, puis effacées.</p>
-          <p>Pour un usage en entreprise avec données sensibles, l'option Zero Data Retention existe sur les comptes Enterprise. Si tu travailles sur du code client confidentiel, c'est l'option à demander à ton commercial Anthropic.</p>
+          <p>By default, Anthropic doesn't retain your data to train its models if you're on a Pro or API account. Claude Code conversations may be stored for 30 days for abuse moderation, then deleted.</p>
+          <p>For enterprise use with sensitive data, the Zero Data Retention option exists on Enterprise accounts. If you work on confidential client code, that's the option to ask your Anthropic sales contact about.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quelles sont les limites connues de Claude Code en 2026 ?</summary>
+        <summary>What are Claude Code's known limits in 2026?</summary>
         <div class="faq-answer">
-          <p>Trois limites que je rencontre régulièrement :</p>
-          <p>1. Il invente parfois des fonctions d'une librairie qui n'existent pas (utilise le plugin <code>context7</code> pour lui donner la doc à jour, ça règle 80 % du problème).</p>
-          <p>2. Il a tendance à sur-écrire le code en ajoutant trop de commentaires (le skill <code>code-simplifier</code> corrige).</p>
-          <p>3. Il peut perdre le fil sur des sessions très longues (au-delà de 500 000 tokens, j'ouvre une nouvelle session). Plus une limite humaine : Claude Code ne remplace pas un dev senior pour des décisions d'architecture critiques.</p>
+          <p>Three limits I run into regularly:</p>
+          <p>1. It sometimes invents library functions that don't exist (use the <code>context7</code> plugin to feed it up-to-date docs, which fixes 80% of the problem).</p>
+          <p>2. It tends to over-write code by adding too many comments (the <code>code-simplifier</code> skill fixes that).</p>
+          <p>3. It can lose the thread on very long sessions (past 500,000 tokens, I open a new session). And one human limit: Claude Code doesn't replace a senior dev for critical architecture decisions.</p>
         </div>
       </details>
 
       <details class="faq-item">
-        <summary>Quel modèle Claude utiliser : Sonnet ou Opus ?</summary>
+        <summary>Which Claude model should you use: Opus, Sonnet, or Fable?</summary>
         <div class="faq-answer">
-          <p>Sonnet 4.x est le modèle par défaut de Claude Code : rapide, économique, suffisant pour 90 % des tâches quotidiennes. Opus 4 ou 4.7 est plus lent mais plus précis sur le raisonnement complexe, les refactorings risqués et les architectures multi-fichiers.</p>
-          <p>Mon usage : Sonnet pour le quotidien, Opus quand j'attaque une grosse réflexion d'architecture ou un debugging difficile. Tu peux switcher de modèle en cours de session avec <code>/model</code>. Pour comparer en détail, va voir <a href="/en/modeles-ia">la page modèles IA</a>.</p>
+          <p>In November 2026, <strong>Opus 5.5</strong> is the model Anthropic recommends to start with, very strong at code and agents, and included in Pro. <strong>Sonnet 5.5</strong> is the best balance of speed and intelligence. <strong>Haiku 5.5</strong> is the fastest and cheapest, for sorting or extracting lots of text. <strong>Fable 5.1</strong> is the most powerful, best kept for the hard cases. It's included in Max (up to half of the weekly limit) and paid with usage credits on Pro.</p>
+          <p>Anthropic recommends starting with Opus 5.5 and moving to Fable 5.1 only if that isn't enough. You can switch models whenever you like, even mid-session, with the model picker at the end of the row under the message box. To compare in detail, check out <a href="/en/modeles-ia">the AI models page</a>.</p>
         </div>
       </details>
 
@@ -2684,76 +2649,227 @@ source ~/.zshrc</pre>
 <!-- Ressources et liens utiles -->
 <section class="block">
   <div class="container">
-    <span class="section-kicker k-teal">— Ressources</span>
-    <h2>Ressources<br><em class="teal">utiles.</em></h2>
+    <span class="section-kicker k-teal">— Resources</span>
+    <h2>Useful<br><em class="teal">resources.</em></h2>
 
     <p>
-      Quelques liens à mettre en favoris pour aller plus loin sur Claude Code. J'ai mis en priorité les sources officielles et celles que je consulte vraiment.
+      A few links to bookmark to go further with Claude Code. I put the official sources first, along with the ones I actually read.
     </p>
 
     <div class="resources-grid">
 
       <a class="resource-card" href="https://docs.claude.com/en/docs/claude-code" target="_blank" rel="noopener">
-        <span class="res-kicker">Docs officielles</span>
-        <h4>Documentation Anthropic</h4>
-        <p>La doc de référence sur Claude Code : install, configuration, API, intégrations, troubleshooting. Mise à jour en continu par Anthropic.</p>
+        <span class="res-kicker">Official docs</span>
+        <h4>Anthropic documentation</h4>
+        <p>The reference docs for Claude Code: setup, configuration, API, integrations, troubleshooting. Updated continuously by Anthropic.</p>
       </a>
 
       <a class="resource-card" href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener">
         <span class="res-kicker">Open source</span>
-        <h4>Dépôt GitHub Claude Code</h4>
-        <p>Le repo officiel : issues, releases, exemples, contributions communautaires. À suivre pour rester au courant des nouvelles features.</p>
+        <h4>Claude Code GitHub repo</h4>
+        <p>The official repo: issues, releases, examples, community contributions. Worth following to keep up with new features.</p>
       </a>
 
       <a class="resource-card" href="https://claude.com/plugins" target="_blank" rel="noopener">
         <span class="res-kicker">Marketplace</span>
-        <h4>Marketplace des plugins Claude</h4>
-        <p>Plus de 140 plugins officiels et communautaires. Installation en une commande. C'est là que je cherche un skill avant d'écrire le mien.</p>
+        <h4>Claude plugin marketplace</h4>
+        <p>More than 140 official and community plugins. Installed in a few clicks from the app. That's where I look for a skill before writing my own.</p>
       </a>
 
       <a class="resource-card" href="https://www.youtube.com/@Melvynx" target="_blank" rel="noopener">
-        <span class="res-kicker">Vidéo FR</span>
-        <h4>Melvynx sur YouTube</h4>
-        <p>Une des meilleures sources en français pour comprendre Claude Code et les outils IA pour devs. Tuto pratiques, démos en live.</p>
+        <span class="res-kicker">Video (French)</span>
+        <h4>Melvynx on YouTube</h4>
+        <p>One of the best French-language sources for understanding Claude Code and AI tools for devs. Practical tutorials, live demos.</p>
       </a>
 
       <a class="resource-card" href="/en/podcast">
-        <span class="res-kicker">Mon podcast</span>
-        <h4>Guerres d'IA — Jerwis Productions</h4>
-        <p>Le podcast que je produis avec Claude pour décrypter les vraies batailles dans l'IA. Sonnet et Opus, OpenAI et Anthropic, modèles ouverts et fermés.</p>
+        <span class="res-kicker">My podcast</span>
+        <h4>Guerres d'IA, by Jerwis Productions</h4>
+        <p>The podcast I produce with Claude to unpack the real battles in AI. Sonnet and Opus, OpenAI and Anthropic, open and closed models.</p>
       </a>
 
       <a class="resource-card" href="/en/articles">
-        <span class="res-kicker">Mes articles</span>
-        <h4>Tous mes articles Claude Code</h4>
-        <p>Le catalogue complet de ce que j'ai écrit : tutos, retours d'expérience, comparatifs, agents construits maison. Mis à jour régulièrement.</p>
+        <span class="res-kicker">My articles</span>
+        <h4>All my Claude Code articles</h4>
+        <p>The full catalog of what I've written: tutorials, field reports, comparisons, homemade agents. Updated regularly.</p>
       </a>
 
       <a class="resource-card" href="/en/apprendre">
-        <span class="res-kicker">Parcours</span>
-        <h4>Apprendre l'IA dans l'ordre</h4>
-        <p>Mon parcours pédagogique en 4 étapes : poser les bases, passer à Claude Code, construire tes agents, aller plus loin. Pensé pour les non-devs.</p>
+        <span class="res-kicker">Learning path</span>
+        <h4>Learn AI in the right order</h4>
+        <p>My learning path in 3 steps: get started, use it for real, put it to work for you. Built for non-devs, everything happens in the browser and in the app.</p>
       </a>
 
       <a class="resource-card" href="https://discord.gg/anthropic" target="_blank" rel="noopener">
-        <span class="res-kicker">Communauté</span>
-        <h4>Discord Anthropic</h4>
-        <p>Le Discord officiel d'Anthropic où la communauté Claude Code échange. Bon endroit pour poser une question pointue ou suivre les annonces.</p>
+        <span class="res-kicker">Community</span>
+        <h4>Anthropic Discord</h4>
+        <p>Anthropic's official Discord, where the Claude Code community hangs out. A good place to ask a sharp question or follow announcements.</p>
       </a>
 
     </div>
 
     <p>
-      Et si tu veux que je te tienne au courant des sorties Claude Code, des plugins qui valent le coup, et de mes propres trouvailles — la newsletter AI Playbook tombe tous les vendredis matin à 9 h. Lien d'inscription dans le footer.
+      And if you want me to keep you posted on Claude Code releases, the plugins worth it, and my own finds, the AI Playbook newsletter lands every Friday morning at 9 a.m. The signup link is in the footer.
     </p>
   </div>
 </section>
 
 
+<!-- Annexe : la version terminal (pour les curieux) -->
+<section class="block" id="annexe-terminal">
+  <div class="container">
+    <span class="section-kicker k-orange">— Appendix</span>
+    <h2>For the curious:<br>the <em class="orange">terminal</em> version.</h2>
+    <p>
+      Everything above happens in the app. Claude Code also exists as a command-line tool, in the terminal. It's the original version, the one the first edition of this guide used. Same engine, same settings: your CLAUDE.md, your skills, your hooks, and your MCP servers work in both, and you can use both on the same project.
+    </p>
+    <p>
+      It's mostly useful for what the app doesn't do, like script mode (<code>claude -p</code>), agent teams, or pay-as-you-go billing with an Anthropic API key.
+    </p>
+
+    <div class="callout warn">
+      <h4>Not needed to get started</h4>
+      <p>If you're just starting, you can stop before this appendix, the whole guide works in the app. What follows is for people who like to look under the hood.</p>
+    </div>
+
+    <h3>The terminal I use, Ghostty (optional)</h3>
+    <p>
+      Ghostty is the terminal I use on Mac. It's free, fast, good-looking, and it supports emoji. You don't have to install it, the macOS Terminal (already there, search "Terminal" in Spotlight) does the job perfectly.
+    </p>
+
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <h3>Download Ghostty</h3>
+        <p>Go to <a href="https://ghostty.org" target="_blank" rel="noopener">ghostty.org</a> and click "Download". It's free, no email required.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <h3>Install the app</h3>
+        <p>Double-click the downloaded <code>.dmg</code> file, drag Ghostty into your Applications folder. Open it. macOS will ask whether you trust it, click "Yes".</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <h3>Check that it works</h3>
+        <p>With Ghostty open, type this command and hit Enter:</p>
+        <pre>echo "Salut Ghostty"</pre>
+        <p>If you see <code>Salut Ghostty</code> print out, you're ready for the next step.</p>
+      </div>
+    </div>
+
+    <h3>Install Claude Code on the command line</h3>
+    <p>Open your terminal (Ghostty or Terminal) and paste the official command. On Mac or Linux:</p>
+    <pre>curl -fsSL https://claude.ai/install.sh | bash</pre>
+    <p>On Windows, in PowerShell:</p>
+    <pre>irm https://claude.ai/install.ps1 | iex</pre>
+
+    <div class="callout warn">
+      <h4>Why this command?</h4>
+      <p>It downloads Anthropic's official script and runs it. It installs Claude Code on your system. You can read the script before running it if that reassures you, it's the link inside the command.</p>
+    </div>
+
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <h3>Run the command</h3>
+        <p>Paste it into your terminal, hit Enter, and wait for it to finish. It shows no progress while it downloads, that's normal.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <h3>Restart your terminal</h3>
+        <p>Quit the terminal fully (Cmd+Q on Mac) and reopen it, so the new <code>claude</code> command gets picked up. Then check:</p>
+        <pre>claude --version</pre>
+        <p>You should see a version number, for example <code>2.1.211 (Claude Code)</code>.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <h3>Connect your Claude account</h3>
+        <p>Type:</p>
+        <pre>claude</pre>
+        <p>The first time, it opens your browser so you can sign in. You need the same paid plan as for the app, or an Anthropic API account. It takes 30 seconds.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">04</div>
+      <div class="step-body">
+        <h3>Test it</h3>
+        <p>Create an empty folder on your desktop, open it in the terminal, and launch Claude:</p>
+        <pre>mkdir ~/Desktop/test-claude
+cd ~/Desktop/test-claude
+claude</pre>
+        <p>Ask it something like: <em>"Create a hello.txt file with 'Hello world' inside"</em>. You'll see it create the file all by itself.</p>
+      </div>
+    </div>
+
+    <h3>The same setup, as commands</h3>
+    <p>What the app does for you above, here's the typed version.</p>
+
+    <h4>Drop in the global CLAUDE.md</h4>
+    <pre>mkdir -p ~/.claude
+cp ~/Downloads/CLAUDE.md ~/.claude/CLAUDE.md
+open ~/.claude/CLAUDE.md</pre>
+
+    <h4>Install the pack's 26 skills</h4>
+    <pre>mkdir -p ~/.claude/skills
+cp -R ~/Downloads/jeremy-claude-pack/skills/* ~/.claude/skills/</pre>
+
+    <h4>Install the 6 plugins</h4>
+    <pre>claude plugin install superpowers
+claude plugin install context7
+claude plugin install claude-md-management
+claude plugin install frontend-design
+claude plugin install code-review
+claude plugin install code-simplifier</pre>
+    <p>Then restart Claude Code. Inside a session, the <code>/plugin</code> command also opens the plugin manager.</p>
+
+    <h4>Model, Plan Mode, and autopilot</h4>
+    <p><code>/model</code> switches models mid-session. <code>Shift+Tab</code> cycles through the modes, including Plan Mode. And <code>claude --dangerously-skip-permissions</code> starts a session with no permission prompts at all, best kept for separate Git worktrees. It's the equivalent of the app's bypass permissions mode.</p>
+
+    <h3>Troubleshooting the terminal version</h3>
+
+    <h4>The <code>claude</code> command isn't recognized</h4>
+    <p>Open a new terminal window. If that changes nothing on Mac, add Claude Code's folder to your PATH:</p>
+    <pre>echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc</pre>
+    <p>For a full check of your install, run <code>claude doctor</code>.</p>
+
+    <h4>Claude isn't loading my skills</h4>
+    <pre>ls ~/.claude/skills/</pre>
+    <p>You should see the list of skills. If the folder is empty, redo the copy above.</p>
+
+    <h4>Claude isn't reading my CLAUDE.md</h4>
+    <pre>cat ~/.claude/CLAUDE.md</pre>
+    <p>If it prints content, you're good. Claude reads it automatically at every session.</p>
+
+    <h3>Switching between the two</h3>
+    <p>
+      A session started in the terminal can carry on in the app. Type <code>/desktop</code> in the session and it opens in the Code tab (on Mac and Windows, with a Claude subscription). The other way around, close the terminal session, then type <code>/resume</code> in the app's message box.
+    </p>
+
+    <div class="callout ok">
+      <h4>Back to the app</h4>
+      <p>If you just want to move forward, the rest of the guide works without a single command line. <a href="#demarrer">Back to step 01</a>.</p>
+    </div>
+  </div>
+</section>
+
 <!-- Partage sur les réseaux -->
 <div class="share-block">
-  <div class="share-block-label">Partage</div>
-  <h3>Cet article t'a servi ? Dis-le.</h3>
+  <div class="share-block-label">Share</div>
+  <h3>Did this guide help you? Say so.</h3>
   <div class="share-buttons">
     <a class="share-btn share-btn-x" href="https://twitter.com/intent/tweet?text=D%C3%A9marrer%20avec%20Claude%20Code%20%E2%80%94%20Le%20guide%20complet%20%E2%80%94%20par%20%40JeremySagnier&url=https%3A//jerwis.fr/claude-code.html" target="_blank" rel="noopener" aria-label="Partager sur X">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span class="share-label">X</span>
@@ -2771,7 +2887,7 @@ source ~/.zshrc</pre>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span class="share-label">Email</span>
     </a>
     <button class="share-btn share-btn-copy" data-url="https://jerwis.fr/claude-code.html" aria-label="Copier le lien" type="button">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span class="share-label">Copier le lien</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span class="share-label">Copy link</span>
     </button>
   </div>
 </div>
@@ -2801,13 +2917,13 @@ document.querySelectorAll('.share-btn-copy').forEach(btn => {
 <!-- Final CTA -->
 <section class="final-cta">
   <div class="container">
-    <span class="section-kicker k-teal" style="justify-content:center; display:inline-flex">— Et maintenant ?</span>
-    <h2>Reste <em class="fuchsia">en avance.</em></h2>
+    <span class="section-kicker k-teal" style="justify-content:center; display:inline-flex">— What now?</span>
+    <h2>Stay <em class="fuchsia">ahead.</em></h2>
     <p>
-      Claude Code évolue toutes les deux semaines. Nouveaux plugins, nouveaux modèles, nouvelles features qui changent la façon dont je travaille. Si tu veux suivre ce qui mérite vraiment ton attention — sans avoir à lire 80 newsletters tech par semaine — la mienne, AI Playbook, tombe le vendredi matin. Je résume mes tests réels, je donne les commandes qui marchent, et je signale les fausses pistes.
+      Claude Code changes every two weeks. New plugins, new models, new features that change the way I work. If you want to follow what really deserves your attention, without reading 80 tech newsletters a week, mine, AI Playbook, lands on Friday mornings. I sum up my real tests, share the settings that work, and flag the dead ends.
     </p>
     <a href="/en#newsletters" class="back-btn">
-      Voir mes newsletters →
+      See my newsletters →
     </a>
   </div>
 </section>

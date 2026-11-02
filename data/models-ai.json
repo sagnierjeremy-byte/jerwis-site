@@ -1,12 +1,235 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "generated_at": "2026-05-20",
-    "last_checked": "2026-05-20",
+    "generated_at": "2026-11-02",
+    "last_checked": "2026-11-02",
     "source_policy": "docs officielles d'abord, benchmarks et agrégateurs ensuite",
-    "note": "Catalogue éditorial Jerwis. Les capacités, noms de modèles et prix changent vite : sources officielles vérifiées avant publication."
+    "note": "Catalogue éditorial Jerwis. Les capacités, noms de modèles et prix changent vite : sources officielles vérifiées avant publication.",
+    "previous_check": "2026-05-20",
+    "statuses": {
+      "active": "modèle actuel",
+      "replaced": "remplacé par un modèle plus récent (voir replaced_by)",
+      "discontinued": "arrêté par son éditeur"
+    },
+    "freshness": {
+      "current": "revérifié le 2 novembre 2026 avec sa source",
+      "preview": "préversion ou accès restreint",
+      "to_verify": "pas de source sûre trouvée le 2 novembre 2026, fiche à revérifier",
+      "replaced": "remplacé",
+      "discontinued": "arrêté"
+    }
   },
   "models": [
+    {
+      "id": "openai-gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "family": "GPT",
+      "provider": "OpenAI",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api",
+        "agent"
+      ],
+      "modalities": [
+        "text",
+        "tool_use",
+        "reasoning"
+      ],
+      "best_for": [
+        "reasoning",
+        "coding",
+        "agents",
+        "documents"
+      ],
+      "not_for": [
+        "low_cost",
+        "local"
+      ],
+      "context_window": 1050000,
+      "pricing_tier": "premium",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le plus puissant d'OpenAI pour les travaux les plus exigeants. Cher, garde-le pour les tâches vraiment difficiles. Dans ChatGPT, il est réservé aux offres payantes.",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940",
+        "https://en.wikipedia.org/wiki/GPT-6_Astra"
+      ],
+      "choose_if": [
+        "ta tâche est vraiment difficile",
+        "tu construis des agents ou des workflows complexes"
+      ],
+      "avoid_if": [
+        "ton budget est le critère numéro un",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 90,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-09-03",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "openai-gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "family": "GPT",
+      "provider": "OpenAI",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api",
+        "agent"
+      ],
+      "modalities": [
+        "text",
+        "code",
+        "tool_use"
+      ],
+      "best_for": [
+        "coding",
+        "agents",
+        "general",
+        "documents"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": 1050000,
+      "pricing_tier": "mid",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Presque aussi fort qu'Astra pour cinq fois moins cher. Le bon choix par défaut chez OpenAI pour le code et les agents. Dans ChatGPT, tu le trouves dans ChatGPT Work et Codex, dès l'offre Plus.",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+        "https://developers.openai.com/api/docs/models",
+        "https://learn.chatgpt.com/docs/models",
+        "https://www.unite.ai/openai-unveils-gpt-6-1-sol-at-devday-with-new-codex-and-chatgpt-tools/"
+      ],
+      "choose_if": [
+        "tu codes ou tu construis des agents",
+        "tu veux le bon rapport force et prix chez OpenAI"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 90,
+      "freshness_status": "current",
+      "recommended_for_beginner": true,
+      "release_date": "2026-09-29",
+      "replaces": [
+        "openai-gpt-5-5",
+        "openai-gpt-5-4",
+        "openai-gpt-5-3-codex"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "openai-gpt-6-1-terra",
+      "name": "GPT-6.1 Terra",
+      "family": "GPT",
+      "provider": "OpenAI",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api",
+        "agent"
+      ],
+      "modalities": [
+        "text",
+        "image_input",
+        "tool_use"
+      ],
+      "best_for": [
+        "speed",
+        "automation",
+        "agents",
+        "writing"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": 1050000,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle rapide d'OpenAI pour piloter un ordinateur, lire des images et bien écrire, à petit prix.",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+        "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+        "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna-in-the-api-codex-and-chatgpt/1399925"
+      ],
+      "choose_if": [
+        "tu veux un agent rapide qui utilise un ordinateur",
+        "tu veux un bon modèle pas cher chez OpenAI"
+      ],
+      "avoid_if": [
+        "ta tâche demande le maximum de raisonnement",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 84,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-26",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "openai-gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "family": "GPT",
+      "provider": "OpenAI",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text"
+      ],
+      "best_for": [
+        "low_cost",
+        "speed",
+        "classification",
+        "summaries"
+      ],
+      "not_for": [
+        "hard_reasoning",
+        "local"
+      ],
+      "context_window": 1050000,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le petit modèle pas cher d'OpenAI, pour les tâches simples et répétées. Tu peux l'essayer gratuitement dans l'appli de bureau ChatGPT.",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+        "https://developers.openai.com/api/docs/deprecations"
+      ],
+      "choose_if": [
+        "tu veux essayer OpenAI sans payer",
+        "tu traites beaucoup de tâches simples"
+      ],
+      "avoid_if": [
+        "ta tâche demande un raisonnement difficile"
+      ],
+      "jerwis_score": 80,
+      "freshness_status": "current",
+      "recommended_for_beginner": true,
+      "release_date": "2026-09-22",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
     {
       "id": "openai-gpt-5-5",
       "name": "GPT-5.5",
@@ -37,11 +260,12 @@
       "context_window": 1050000,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Le choix premium quand tu veux un assistant très fort partout, surtout agents et code.",
+      "status": "replaced",
+      "leo_take": "Le choix premium quand tu veux un assistant très fort partout, surtout agents et code. Remplacé par GPT-6.1 Sol depuis septembre 2026.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-5.5/",
-        "https://platform.openai.com/docs/pricing"
+        "https://platform.openai.com/docs/pricing",
+        "https://learn.chatgpt.com/docs/models"
       ],
       "choose_if": [
         "tu veux le maximum de capacité générale",
@@ -52,8 +276,10 @@
         "ton budget est le critère numéro un"
       ],
       "jerwis_score": 88,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "openai-gpt-6-1-sol",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "openai-gpt-5-4",
@@ -83,11 +309,12 @@
       "context_window": 1050000,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Très bon généraliste si tu veux rester dans l'écosystème OpenAI sans prendre le modèle le plus cher.",
+      "status": "replaced",
+      "leo_take": "Très bon généraliste si tu veux rester dans l'écosystème OpenAI sans prendre le modèle le plus cher. Remplacé par GPT-6.1 Sol depuis septembre 2026, ou par GPT-6 Luna pour les petites tâches.",
       "sources": [
         "https://developers.openai.com/api/docs/models/gpt-5.4/",
-        "https://platform.openai.com/docs/models"
+        "https://platform.openai.com/docs/models",
+        "https://learn.chatgpt.com/docs/models"
       ],
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
@@ -96,8 +323,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 84,
-      "freshness_status": "current",
-      "recommended_for_beginner": true
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "openai-gpt-6-1-sol",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "openai-gpt-5-3-codex",
@@ -125,11 +354,12 @@
       "context_window": 400000,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "À regarder si ton sujet principal est le code ou un agent qui modifie un repo.",
+      "status": "replaced",
+      "leo_take": "À regarder si ton sujet principal est le code ou un agent qui modifie un repo. Remplacé par GPT-6.1 Sol. Il s'arrête dans l'API le 1er avril 2027.",
       "sources": [
         "https://platform.openai.com/docs/codex",
-        "https://platform.openai.com/docs/models"
+        "https://platform.openai.com/docs/models",
+        "https://developers.openai.com/api/docs/deprecations"
       ],
       "choose_if": [
         "tu travailles sur du code ou des agents"
@@ -138,8 +368,164 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 82,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "openai-gpt-6-1-sol",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "anthropic-claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "family": "Claude",
+      "provider": "Anthropic",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "code",
+        "tool_use"
+      ],
+      "best_for": [
+        "reasoning",
+        "coding",
+        "agents",
+        "documents"
+      ],
+      "not_for": [
+        "low_cost",
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "premium",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle que conseille Anthropic pour démarrer. Très fort en code et en agents, et un peu moins cher qu'Opus 4.6. Il est inclus dans Claude Pro, pas dans l'offre gratuite.",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/overview",
+        "https://www.anthropic.com/news/claude-opus-5-5",
+        "https://claude.com/pricing"
+      ],
+      "choose_if": [
+        "tu as une tâche longue, difficile ou du code à écrire",
+        "tu veux le meilleur Claude du quotidien sans passer à Fable"
+      ],
+      "avoid_if": [
+        "tu utilises seulement l'offre gratuite de Claude",
+        "tu traites beaucoup de petites tâches simples"
+      ],
+      "jerwis_score": 90,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": "2026-09-22",
+      "replaces": [
+        "anthropic-claude-opus-4-6"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "anthropic-claude-fable-5-1",
+      "name": "Claude Fable 5.1",
+      "family": "Claude",
+      "provider": "Anthropic",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use",
+        "reasoning"
+      ],
+      "best_for": [
+        "reasoning",
+        "agents",
+        "coding",
+        "long_context"
+      ],
+      "not_for": [
+        "low_cost",
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "premium",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le plus puissant de Claude pour les gros raisonnements et les longues missions d'agent. Lent et cher, garde-le pour les cas durs. Anthropic conseille de partir d'Opus 5.5 et de passer à Fable seulement si ça ne suffit pas.",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+        "https://claude.com/pricing"
+      ],
+      "choose_if": [
+        "Opus 5.5 ne suffit pas pour ta tâche",
+        "tu lances une longue mission d'agent"
+      ],
+      "avoid_if": [
+        "tu veux un assistant du quotidien",
+        "ton budget est le critère numéro un"
+      ],
+      "jerwis_score": 88,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-09-01",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "anthropic-claude-mythos-5-1",
+      "name": "Claude Mythos 5.1",
+      "family": "Claude",
+      "provider": "Anthropic",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use",
+        "reasoning"
+      ],
+      "best_for": [
+        "reasoning",
+        "agents",
+        "enterprise"
+      ],
+      "not_for": [
+        "consumer_chat",
+        "low_cost",
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "premium",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Même puissance que Fable 5.1, mais réservé aux organisations vérifiées par Anthropic, en cybersécurité par exemple. Sans ce programme de vérification, tu ne peux pas t'en servir.",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+        "https://platform.claude.com/docs/en/about-claude/pricing"
+      ],
+      "choose_if": [
+        "ton organisation est acceptée dans le programme de vérification d'Anthropic"
+      ],
+      "avoid_if": [
+        "tu cherches un assistant pour toi",
+        "tu n'as pas d'accès validé par Anthropic"
+      ],
+      "jerwis_score": 70,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "anthropic-claude-opus-4-6",
@@ -170,11 +556,12 @@
       "context_window": 1000000,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Le Claude premium pour dossiers longs, décisions difficiles et gros travaux de code. Puissant, mais à réserver aux tâches qui le méritent.",
+      "status": "replaced",
+      "leo_take": "Le Claude premium pour dossiers longs, décisions difficiles et gros travaux de code. Puissant, mais à réserver aux tâches qui le méritent. Remplacé par Claude Opus 5.5 depuis septembre 2026. Il reste disponible comme ancien modèle.",
       "sources": [
         "https://claude.com/blog/1m-context-ga",
-        "https://platform.claude.com/docs/en/about-claude/models/overview"
+        "https://platform.claude.com/docs/en/about-claude/models/overview",
+        "https://platform.claude.com/docs/en/models/overview"
       ],
       "choose_if": [
         "tu as une tâche longue, coûteuse ou difficile",
@@ -185,8 +572,61 @@
         "ton budget est le critère numéro un"
       ],
       "jerwis_score": 86,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "anthropic-claude-opus-5-5",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "anthropic-claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "family": "Claude",
+      "provider": "Anthropic",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use"
+      ],
+      "best_for": [
+        "general",
+        "coding",
+        "writing",
+        "documents"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "mid",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le meilleur compromis vitesse et intelligence chez Claude, et tu l'as même dans l'offre gratuite. Le bon choix pour écrire, résumer et travailler au quotidien. En API, il coûte moins cher que Sonnet 4.6.",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/overview",
+        "https://platform.claude.com/docs/en/about-claude/pricing",
+        "https://x.com/claudeai/status/2104633140409192757"
+      ],
+      "choose_if": [
+        "tu veux un assistant fiable au quotidien",
+        "tu veux commencer gratuitement avec Claude"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 92,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": true,
+      "release_date": "2026-09-28",
+      "replaces": [
+        "anthropic-claude-sonnet-4-6"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "anthropic-claude-sonnet-4-6",
@@ -216,11 +656,12 @@
       "context_window": 1000000,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Mon choix par défaut pour écrire, structurer une idée, relire un dossier et travailler proprement au quotidien.",
+      "status": "replaced",
+      "leo_take": "Mon choix par défaut pour écrire, structurer une idée, relire un dossier et travailler proprement au quotidien. Remplacé par Claude Sonnet 5.5 depuis septembre 2026. Il reste disponible comme ancien modèle.",
       "sources": [
         "https://claude.com/blog/1m-context-ga",
-        "https://platform.claude.com/docs/en/about-claude/models/overview"
+        "https://platform.claude.com/docs/en/about-claude/models/overview",
+        "https://platform.claude.com/docs/en/models/overview"
       ],
       "choose_if": [
         "tu veux un assistant fiable au quotidien",
@@ -230,8 +671,62 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 90,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "anthropic-claude-sonnet-5-5",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "anthropic-claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "family": "Claude",
+      "provider": "Anthropic",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text"
+      ],
+      "best_for": [
+        "speed",
+        "low_cost",
+        "classification",
+        "summaries"
+      ],
+      "not_for": [
+        "hard_reasoning",
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le plus rapide et le moins cher de Claude. Idéal pour trier, extraire ou résumer beaucoup de textes. Sur les prompts courts, il coûte dix fois moins cher que Haiku 4.5.",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/overview",
+        "https://platform.claude.com/docs/en/about-claude/pricing",
+        "https://www.anthropic.com/news"
+      ],
+      "choose_if": [
+        "tu traites beaucoup de petits textes",
+        "tu veux un chatbot rapide et peu cher"
+      ],
+      "avoid_if": [
+        "ta tâche demande un raisonnement difficile",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 84,
       "freshness_status": "current",
-      "recommended_for_beginner": true
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-07",
+      "replaces": [
+        "anthropic-claude-haiku-4-5"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "anthropic-claude-haiku-4-5",
@@ -260,10 +755,11 @@
       "context_window": 200000,
       "pricing_tier": "mid",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Bon modèle d'automatisation quand tu veux résumer, classer ou traiter beaucoup de petits contenus.",
+      "status": "replaced",
+      "leo_take": "Bon modèle d'automatisation quand tu veux résumer, classer ou traiter beaucoup de petits contenus. Remplacé par Claude Haiku 5.5 depuis octobre 2026. Il reste disponible comme ancien modèle.",
       "sources": [
-        "https://platform.claude.com/docs/en/about-claude/models/overview"
+        "https://platform.claude.com/docs/en/about-claude/models/overview",
+        "https://platform.claude.com/docs/en/models/overview"
       ],
       "choose_if": [
         "tu as un cas proche de ses points forts"
@@ -272,8 +768,106 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 80,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "anthropic-claude-haiku-5-5",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "family": "Gemini",
+      "provider": "Google",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use",
+        "reasoning"
+      ],
+      "best_for": [
+        "reasoning",
+        "documents",
+        "long_context"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "premium",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le nouveau modèle phare de Google, très fort en raisonnement. Dans l'appli Gemini, il faut Google AI Pro ou Ultra. En API, le prix de lancement double le 1er décembre 2026.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+        "https://deepmind.google/models/"
+      ],
+      "choose_if": [
+        "tu as un raisonnement difficile ou un gros dossier",
+        "tu travailles déjà avec les outils Google"
+      ],
+      "avoid_if": [
+        "tu utilises seulement l'offre gratuite de Gemini",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 88,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-13",
+      "replaces": [
+        "google-gemini-3-1-pro-preview"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "family": "Gemini",
+      "provider": "Google",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [],
+      "modalities": [
+        "text",
+        "code"
+      ],
+      "best_for": [
+        "coding",
+        "enterprise"
+      ],
+      "not_for": [
+        "consumer_chat",
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "premium",
+      "maturity": "preview",
+      "status": "active",
+      "leo_take": "Le plus fort de Google en code et en cybersécurité, mais réservé pour l'instant à des experts en sécurité. Google promet de l'ouvrir aux développeurs et au grand public, sans donner de date.",
+      "sources": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "https://deepmind.google/models/"
+      ],
+      "choose_if": [
+        "tu fais partie des experts en sécurité invités par Google"
+      ],
+      "avoid_if": [
+        "tu veux t'en servir dès aujourd'hui pour ton travail"
+      ],
+      "jerwis_score": 70,
+      "freshness_status": "preview",
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-28",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-gemini-3-1-pro-preview",
@@ -305,8 +899,8 @@
       "context_window": 1000000,
       "pricing_tier": "premium",
       "maturity": "preview",
-      "status": "active",
-      "leo_take": "À tester quand ton besoin mélange gros documents, images, audio, vidéo et outils Google.",
+      "status": "replaced",
+      "leo_take": "À tester quand ton besoin mélange gros documents, images, audio, vidéo et outils Google. Remplacé par Gemini 4 Argon depuis octobre 2026. Il reste listé dans l'API.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -320,8 +914,108 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 78,
-      "freshness_status": "preview",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "google-gemini-4-argon",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "family": "Gemini",
+      "provider": "Google",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use"
+      ],
+      "best_for": [
+        "coding",
+        "agents",
+        "speed",
+        "automation"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le Flash le plus malin de Google, pensé pour le code et les agents en gros volume. Son prix de lancement double à partir du 1er janvier 2027.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "choose_if": [
+        "tu veux résumer, classer ou automatiser vite",
+        "tu codes avec des agents en volume"
+      ],
+      "avoid_if": [
+        "tu veux la meilleure qualité sur une décision difficile",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 86,
+      "freshness_status": "current",
+      "recommended_for_beginner": true,
+      "release_date": null,
+      "replaces": [
+        "google-gemini-3-5-flash"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-gemini-3-5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "family": "Gemini",
+      "provider": "Google",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "text"
+      ],
+      "best_for": [
+        "speed",
+        "low_cost",
+        "automation",
+        "classification"
+      ],
+      "not_for": [
+        "hard_reasoning",
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le Gemini le plus rapide et le moins cher, pour les gros volumes de tâches simples. Un bon point de départ pour un chatbot sur ton site.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "choose_if": [
+        "tu as beaucoup de tâches simples à traiter",
+        "tu veux un chatbot rapide et pas cher"
+      ],
+      "avoid_if": [
+        "ta tâche demande un raisonnement difficile"
+      ],
+      "jerwis_score": 80,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-gemini-3-5-flash",
@@ -352,8 +1046,8 @@
       "context_window": 1000000,
       "pricing_tier": "low_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Le bon réflexe Google pour aller vite, traiter du volume et garder un coût raisonnable.",
+      "status": "replaced",
+      "leo_take": "Le bon réflexe Google pour aller vite, traiter du volume et garder un coût raisonnable. Remplacé par Gemini 3.8 Flash. Il n'est plus dans la liste des modèles de l'API.",
       "sources": [
         "https://ai.google.dev/gemini-api/docs/models",
         "https://ai.google.dev/gemini-api/docs/pricing"
@@ -367,8 +1061,107 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 84,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "google-gemini-3-8-flash",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "xai-grok-4-7",
+      "name": "Grok 4.7",
+      "family": "Grok",
+      "provider": "xAI",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use"
+      ],
+      "best_for": [
+        "coding",
+        "agents",
+        "social"
+      ],
+      "not_for": [
+        "brand_safe",
+        "local"
+      ],
+      "context_window": 500000,
+      "pricing_tier": "mid",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le meilleur Grok du moment, bon en code. Attention, son contexte est deux fois plus court et son prix plus élevé que Grok 4.3. Je reste prudent pour les usages de marque.",
+      "sources": [
+        "https://docs.x.ai/developers/grok-4-7",
+        "https://docs.x.ai/docs/models"
+      ],
+      "choose_if": [
+        "tu veux tester le meilleur Grok du moment sur du code"
+      ],
+      "avoid_if": [
+        "tu dois protéger une image de marque stricte",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 82,
       "freshness_status": "current",
-      "recommended_for_beginner": true
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "xai-grok-4-3"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "meta-muse-wonder",
+      "name": "Muse Wonder",
+      "family": "Muse",
+      "provider": "Meta",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "api",
+        "agent"
+      ],
+      "modalities": [
+        "text",
+        "tool_use"
+      ],
+      "best_for": [
+        "agents",
+        "reasoning"
+      ],
+      "not_for": [
+        "local",
+        "strict_open_source"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le premier modèle de pointe de Meta, fermé et pensé pour les agents. Rien à voir avec les Llama gratuits. Prix à vérifier, Meta ne le donne pas sur sa page.",
+      "sources": [
+        "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+        "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+      ],
+      "choose_if": [
+        "tu veux comparer un nouveau modèle d'agent aux leaders"
+      ],
+      "avoid_if": [
+        "tu cherches un modèle ouvert comme Llama",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 78,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-12",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "xai-grok-4-3",
@@ -399,10 +1192,11 @@
       "context_window": 1000000,
       "pricing_tier": "mid",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Intéressant pour le temps réel et X, mais je serais prudent sur les usages de marque.",
+      "status": "replaced",
+      "leo_take": "Intéressant pour le temps réel et X, mais je serais prudent sur les usages de marque. Remplacé par Grok 4.7. Il reste dans l'API, moins cher et avec un contexte plus long.",
       "sources": [
-        "https://docs.x.ai/developers/models"
+        "https://docs.x.ai/developers/models",
+        "https://docs.x.ai/docs/models"
       ],
       "choose_if": [
         "tu as un cas proche de ses points forts"
@@ -412,8 +1206,62 @@
         "tu dois protéger une image de marque stricte"
       ],
       "jerwis_score": 80,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "xai-grok-4-7",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4",
+      "family": "Mistral",
+      "provider": "Mistral AI",
+      "category": "llm",
+      "license": "open_weight_custom",
+      "access": [
+        "api",
+        "open_weights",
+        "api_via_partners"
+      ],
+      "modalities": [
+        "text"
+      ],
+      "best_for": [
+        "europe",
+        "open_weights",
+        "low_cost",
+        "long_context"
+      ],
+      "not_for": [
+        "small_hardware",
+        "consumer_laptop"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le grand modèle européen, à poids ouverts et pas cher en API. Trop lourd pour tourner sur ton ordi, mais tu peux l'héberger sur un serveur. Lis sa licence avant de le revendre en service.",
+      "sources": [
+        "https://mistral.ai/news/mistral-large-4-oss/",
+        "https://docs.mistral.ai/models/mistral-large-4",
+        "https://docs.mistral.ai/getting-started/models/models_overview/"
+      ],
+      "choose_if": [
+        "tu veux un modèle européen sérieux",
+        "tu veux des poids ouverts sans payer cher l'API"
+      ],
+      "avoid_if": [
+        "tu veux le faire tourner sur ton ordinateur"
+      ],
+      "jerwis_score": 86,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-29",
+      "replaces": [
+        "mistral-medium-3-5"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "mistral-medium-3-5",
@@ -442,11 +1290,12 @@
       "context_window": 256000,
       "pricing_tier": "mid",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Alternative européenne sérieuse pour code, agents et documents.",
+      "status": "replaced",
+      "leo_take": "Alternative européenne sérieuse pour code, agents et documents. Remplacé par Mistral Large 4. Mistral l’a déprécié le 31 octobre 2026, il sera retiré le 30 avril 2027.",
       "sources": [
         "https://docs.mistral.ai/models/overview",
-        "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
+        "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+        "https://docs.mistral.ai/getting-started/models/models_overview/"
       ],
       "choose_if": [
         "tu travailles sur du code ou des agents",
@@ -456,8 +1305,62 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 84,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "mistral-large-4",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "cohere-command-a-plus",
+      "name": "Command A+",
+      "family": "Command",
+      "provider": "Cohere",
+      "category": "llm",
+      "license": "apache_2",
+      "access": [
+        "api",
+        "open_weights"
+      ],
+      "modalities": [
+        "text",
+        "image_input",
+        "reasoning",
+        "multilingual"
+      ],
+      "best_for": [
+        "rag",
+        "enterprise",
+        "multilingual",
+        "documents"
+      ],
+      "not_for": [
+        "consumer_chat"
+      ],
+      "context_window": 128000,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle de Cohere pour les entreprises, ouvert, multilingue et léger à héberger. Il lit aussi les images. Prix de l'API à vérifier.",
+      "sources": [
+        "https://docs.cohere.com/changelog/command-a-plus-05-2026",
+        "https://cohere.com/blog/command-a-plus"
+      ],
+      "choose_if": [
+        "tu cherches dans des documents d'entreprise",
+        "tu veux un modèle ouvert à héberger toi-même"
+      ],
+      "avoid_if": [
+        "tu veux un assistant grand public"
+      ],
+      "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "cohere-command-a"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "cohere-command-a",
@@ -486,11 +1389,12 @@
       "context_window": 256000,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Moins grand public, très pertinent si ton sujet est la recherche dans des documents d'entreprise.",
+      "status": "replaced",
+      "leo_take": "Moins grand public, très pertinent si ton sujet est la recherche dans des documents d'entreprise. Command A+ est maintenant le dernier modèle de la famille Command A.",
       "sources": [
         "https://docs.cohere.com/v2/docs/models",
-        "https://docs.cohere.com/docs/command-a"
+        "https://docs.cohere.com/docs/command-a",
+        "https://docs.cohere.com/changelog/command-a-plus-05-2026"
       ],
       "choose_if": [
         "tu analyses des documents ou une base de connaissances"
@@ -499,8 +1403,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 78,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "cohere-command-a-plus",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "perplexity-sonar-pro",
@@ -531,10 +1437,11 @@
       "pricing_tier": "mid",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Bon quand la réponse doit citer le web, pas seulement réfléchir dans le vide.",
+      "leo_take": "Bon quand la réponse doit citer le web, pas seulement réfléchir dans le vide. Depuis juillet 2026, l'API Sonar s'appelle l'Agent API de Perplexity.",
       "sources": [
         "https://docs.perplexity.ai/docs/getting-started/pricing",
-        "https://docs.perplexity.ai/docs/sonar/models/sonar-pro"
+        "https://docs.perplexity.ai/docs/sonar/models/sonar-pro",
+        "https://docs.perplexity.ai/docs/resources/changelog"
       ],
       "choose_if": [
         "tu veux des réponses avec sources web",
@@ -545,7 +1452,107 @@
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": true
+      "recommended_for_beginner": true,
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "family": "DeepSeek",
+      "provider": "DeepSeek",
+      "category": "llm",
+      "license": "mit",
+      "access": [
+        "api",
+        "api_via_partners"
+      ],
+      "modalities": [
+        "text",
+        "image_input",
+        "tool_use"
+      ],
+      "best_for": [
+        "low_cost",
+        "long_context",
+        "automation",
+        "coding"
+      ],
+      "not_for": [
+        "brand_trust",
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle très pas cher de DeepSeek, avec 1M de contexte et la lecture d'images. Son prix change selon l'heure, il coûte moins cher hors heures de pointe.",
+      "sources": [
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://docs.mistral.ai/getting-started/models/models_overview/"
+      ],
+      "choose_if": [
+        "tu dois traiter beaucoup de volume",
+        "le coût API est ton critère principal"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 90,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "deepseek-v4-flash"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "family": "DeepSeek",
+      "provider": "DeepSeek",
+      "category": "llm",
+      "license": "mit",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "text"
+      ],
+      "best_for": [
+        "reasoning",
+        "coding",
+        "low_cost",
+        "long_context"
+      ],
+      "not_for": [
+        "multimodal",
+        "local"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le gros modèle de DeepSeek, avec un très bon rapport qualité prix. Il ne lit pas les images.",
+      "sources": [
+        "https://api-docs.deepseek.com/quick_start/pricing"
+      ],
+      "choose_if": [
+        "tu veux un modèle fort sans payer le prix des leaders",
+        "tu travailles surtout sur du texte et du code"
+      ],
+      "avoid_if": [
+        "tu dois lui donner des images",
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 88,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "deepseek-v4-flash",
@@ -574,10 +1581,11 @@
       "context_window": 1000000,
       "pricing_tier": "low_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Très agressif sur le coût. Je le testerais pour les traitements en volume.",
+      "status": "replaced",
+      "leo_take": "Très agressif sur le coût. Je le testerais pour les traitements en volume. Remplacé par DeepSeek V4.1 Flash. L'ancien nom est retiré de l'API et renvoie vers le nouveau.",
       "sources": [
-        "https://api-docs.deepseek.com/quick_start/pricing/"
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://api-docs.deepseek.com/quick_start/pricing"
       ],
       "choose_if": [
         "tu dois traiter beaucoup de volume",
@@ -587,8 +1595,58 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 90,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "deepseek-v4-1-flash",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "qwen3-8-max",
+      "name": "Qwen3.8-Max",
+      "family": "Qwen",
+      "provider": "Alibaba",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "text",
+        "tool_use"
+      ],
+      "best_for": [
+        "reasoning",
+        "coding",
+        "multilingual",
+        "agents"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle phare d'Alibaba pour le raisonnement et le code, en API seulement. Son prix reste à vérifier sur la page d'Alibaba.",
+      "sources": [
+        "https://www.alibabacloud.com/help/en/model-studio/models"
+      ],
+      "choose_if": [
+        "tu travailles sur du code ou des agents",
+        "l'anglais et le chinois comptent pour toi"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 90,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "qwen3-max"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "qwen3-max",
@@ -616,11 +1674,12 @@
       "context_window": 252000,
       "pricing_tier": "low_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Très bon rapport prix/performance, surtout si l'anglais et le chinois comptent.",
+      "status": "replaced",
+      "leo_take": "Très bon rapport prix/performance, surtout si l'anglais et le chinois comptent. Remplacé par Qwen3.8-Max, le nouveau modèle phare d'Alibaba.",
       "sources": [
         "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "https://www.alibabacloud.com/help/doc-detail/2840914.html"
+        "https://www.alibabacloud.com/help/doc-detail/2840914.html",
+        "https://www.alibabacloud.com/help/en/model-studio/models"
       ],
       "choose_if": [
         "tu travailles sur du code ou des agents"
@@ -629,8 +1688,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 90,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "qwen3-8-max",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "amazon-nova-2-lite",
@@ -675,7 +1736,58 @@
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "apple-foundation-models-2026",
+      "name": "Apple Foundation Models (version 2026)",
+      "family": "Apple Intelligence",
+      "provider": "Apple",
+      "category": "llm",
+      "license": "proprietary",
+      "access": [
+        "local",
+        "app_sdk"
+      ],
+      "modalities": [
+        "text",
+        "image_input",
+        "structured_output"
+      ],
+      "best_for": [
+        "privacy",
+        "on_device",
+        "apps"
+      ],
+      "not_for": [
+        "frontier_reasoning",
+        "api_cloud"
+      ],
+      "context_window": null,
+      "pricing_tier": "included",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle d'Apple refait de zéro, qui tourne sur ton iPhone et comprend maintenant les images. Une brique privée pour les apps Apple, pas un concurrent de GPT.",
+      "sources": [
+        "https://developer.apple.com/videos/play/wwdc2026/241/",
+        "https://www.macrumors.com/2026/06/09/apples-new-ai-contains-no-gemini/"
+      ],
+      "choose_if": [
+        "tu crées une app Apple et tu veux une IA privée sur l’appareil"
+      ],
+      "avoid_if": [
+        "tu veux un assistant généraliste très puissant"
+      ],
+      "jerwis_score": 76,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "apple-foundation-models"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "apple-foundation-models",
@@ -704,11 +1816,12 @@
       "context_window": null,
       "pricing_tier": "included",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Pas un concurrent direct de GPT. Plutôt une brique privée dans les apps Apple.",
+      "status": "replaced",
+      "leo_take": "Pas un concurrent direct de GPT. Plutôt une brique privée dans les apps Apple. Remplacé par la version 2026, refaite de zéro et présentée à la WWDC 2026.",
       "sources": [
         "https://developer.apple.com/apple-intelligence/",
-        "https://developer.apple.com/documentation/FoundationModels"
+        "https://developer.apple.com/documentation/FoundationModels",
+        "https://developer.apple.com/videos/play/wwdc2026/241/"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
@@ -717,8 +1830,10 @@
         "tu ne sais pas encore pourquoi tu le choisirais"
       ],
       "jerwis_score": 72,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "apple-foundation-models-2026",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "meta-llama-4-maverick",
@@ -749,7 +1864,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Poids ouverts et écosystème énorme, mais licence Meta à lire avant usage sérieux.",
+      "leo_take": "Poids ouverts et écosystème énorme, mais licence Meta à lire avant usage sérieux. Toujours le dernier Llama en novembre 2026. Meta mise maintenant sur ses modèles fermés Muse.",
       "sources": [
         "https://ai.meta.com/llama/get-started/",
         "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
@@ -762,7 +1877,8 @@
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "meta-llama-4-scout",
@@ -792,7 +1908,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "À surveiller pour les très longs contextes en open-weight.",
+      "leo_take": "À surveiller pour les très longs contextes en open-weight. Toujours le dernier Llama en novembre 2026, la gamme ne bouge plus.",
       "sources": [
         "https://ai.meta.com/llama/get-started/"
       ],
@@ -804,7 +1920,8 @@
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "qwen3-235b-a22b",
@@ -835,7 +1952,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Une des familles open les plus intéressantes si tu veux une licence permissive.",
+      "leo_take": "Une des familles open les plus intéressantes si tu veux une licence permissive. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://huggingface.co/Qwen/Qwen3-235B-A22B",
         "https://qwen.ai/blog"
@@ -848,8 +1965,9 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 84,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "qwen3-14b",
@@ -882,7 +2000,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Le modèle ouvert que je mettrais en premier pour tester le local sans sortir l’artillerie lourde.",
+      "leo_take": "Le modèle ouvert que je mettrais en premier pour tester le local sans sortir l’artillerie lourde. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://huggingface.co/Qwen/Qwen3-14B",
         "https://qwen.ai/blog"
@@ -896,8 +2014,9 @@
         "tu refuses toute configuration technique"
       ],
       "jerwis_score": 82,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "qwen3-coder-next",
@@ -927,7 +2046,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "À comparer avec les modèles Codex/Claude si tu veux garder une option ouverte pour coder.",
+      "leo_take": "À comparer avec les modèles Codex/Claude si tu veux garder une option ouverte pour coder. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://huggingface.co/Qwen/Qwen3-Coder-Next"
       ],
@@ -939,8 +2058,9 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 84,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "deepseek-r1",
@@ -971,7 +2091,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Le modèle qui a rendu le raisonnement open-weight impossible à ignorer.",
+      "leo_take": "Le modèle qui a rendu le raisonnement open-weight impossible à ignorer. À vérifier. L'API de DeepSeek ne sert plus que la famille V4, les poids restent téléchargeables.",
       "sources": [
         "https://huggingface.co/deepseek-ai/DeepSeek-R1"
       ],
@@ -983,8 +2103,9 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 84,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "deepseek-v3-1",
@@ -1014,7 +2135,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Très bon candidat pour des workloads économiques avec poids ouverts.",
+      "leo_take": "Très bon candidat pour des workloads économiques avec poids ouverts. À vérifier. L'API de DeepSeek ne sert plus que la famille V4, les poids restent téléchargeables.",
       "sources": [
         "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
       ],
@@ -1026,8 +2147,9 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 84,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "mistral-small-4",
@@ -1035,7 +2157,7 @@
       "family": "Mistral",
       "provider": "Mistral AI",
       "category": "llm",
-      "license": "open_weight",
+      "license": "apache_2",
       "access": [
         "open_weights",
         "local",
@@ -1073,7 +2195,8 @@
       ],
       "jerwis_score": 76,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "mistral-magistral-small",
@@ -1102,10 +2225,11 @@
       "context_window": 128000,
       "pricing_tier": "local_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "La piste Mistral pour du raisonnement ouvert.",
+      "status": "replaced",
+      "leo_take": "La piste Mistral pour du raisonnement ouvert. Retiré de l'API Mistral le 31 juillet 2026, Mistral Small 4 prend le relais.",
       "sources": [
-        "https://docs.mistral.ai/getting-started/models/weights/"
+        "https://docs.mistral.ai/getting-started/models/weights/",
+        "https://docs.mistral.ai/getting-started/models/models_overview/"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
@@ -1114,8 +2238,10 @@
         "tu ne sais pas encore pourquoi tu le choisirais"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "mistral-small-4",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-gemma-4",
@@ -1157,7 +2283,8 @@
       ],
       "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "microsoft-phi-4",
@@ -1187,7 +2314,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Petit modèle sérieux pour tests locaux, tutos et usages embarqués.",
+      "leo_take": "Petit modèle sérieux pour tests locaux, tutos et usages embarqués. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WEF-2025_Leave-Behind_Phi-4.pdf"
       ],
@@ -1198,8 +2325,9 @@
         "tu ne sais pas encore pourquoi tu le choisirais"
       ],
       "jerwis_score": 76,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "minimax-m1",
@@ -1229,7 +2357,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Puissant sur le papier pour longs contextes, mais pas un modèle de laptop.",
+      "leo_take": "Puissant sur le papier pour longs contextes, mais pas un modèle de laptop. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://www.minimax.io/news/minimaxm1",
         "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k-hf"
@@ -1241,8 +2369,60 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 80,
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
+    },
+    {
+      "id": "zai-glm-5-3",
+      "name": "GLM 5.3",
+      "family": "GLM",
+      "provider": "Z.ai",
+      "category": "llm",
+      "license": "mit",
+      "access": [
+        "open_weights",
+        "api",
+        "api_via_partners"
+      ],
+      "modalities": [
+        "text",
+        "tool_use"
+      ],
+      "best_for": [
+        "agents",
+        "coding",
+        "open_source",
+        "long_context"
+      ],
+      "not_for": [
+        "small_hardware"
+      ],
+      "context_window": 1000000,
+      "pricing_tier": "local_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle ouvert de Z.ai, sous licence MIT, avec 1M de contexte. À regarder pour les agents et le code en open-weight.",
+      "sources": [
+        "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "https://docs.perplexity.ai/docs/resources/changelog"
+      ],
+      "choose_if": [
+        "tu veux un modèle ouvert sous licence simple",
+        "tu travailles sur du code ou des agents"
+      ],
+      "avoid_if": [
+        "tu veux un modèle léger sur ton ordinateur"
+      ],
+      "jerwis_score": 86,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "zai-glm-4-6"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "zai-glm-4-6",
@@ -1273,10 +2453,11 @@
       "context_window": 200000,
       "pricing_tier": "local_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Famille chinoise à surveiller pour agents et code open-weight.",
+      "status": "replaced",
+      "leo_take": "Famille chinoise à surveiller pour agents et code open-weight. Remplacé par GLM 5.3.",
       "sources": [
-        "https://docs.z.ai/guides/llm/glm-4.6"
+        "https://docs.z.ai/guides/llm/glm-4.6",
+        "https://docs.mistral.ai/getting-started/models/models_overview/"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée",
@@ -1286,8 +2467,109 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 84,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "zai-glm-5-3",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "nvidia-nemotron-3-5-super-vl",
+      "name": "Nemotron 3.5 Super VL",
+      "family": "Nemotron",
+      "provider": "NVIDIA",
+      "category": "llm",
+      "license": "open_weight_custom",
+      "access": [
+        "open_weights",
+        "local",
+        "nvidia_nim",
+        "api_via_partners"
+      ],
+      "modalities": [
+        "text",
+        "image_input",
+        "tool_use"
+      ],
+      "best_for": [
+        "agents",
+        "enterprise",
+        "nvidia_stack",
+        "multimodal"
+      ],
+      "not_for": [
+        "consumer_laptop"
+      ],
+      "context_window": null,
+      "pricing_tier": "local_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le modèle ouvert de Nvidia qui lit les images, rapide et pensé pour les agents d'entreprise. À regarder si tu es déjà dans l'écosystème Nvidia.",
+      "sources": [
+        "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+        "https://www.hpcwire.com/aiwire/2026/10/15/nvidia-expands-nemotron-family-with-highest-efficiency-super-vl-and-bolt-models/"
+      ],
+      "choose_if": [
+        "tu es déjà dans l'écosystème Nvidia",
+        "tu construis des agents d'entreprise"
+      ],
+      "avoid_if": [
+        "tu veux un modèle léger sur ton ordinateur"
+      ],
+      "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-15",
+      "replaces": [
+        "nvidia-nemotron-3-super"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "aleph-alpha-kolibri",
+      "name": "Kolibri",
+      "family": "Kolibri",
+      "provider": "Aleph Alpha",
+      "category": "llm",
+      "license": "apache_2",
+      "access": [
+        "open_weights",
+        "local"
+      ],
+      "modalities": [
+        "text"
+      ],
+      "best_for": [
+        "europe",
+        "multilingual",
+        "open_weights",
+        "enterprise"
+      ],
+      "not_for": [
+        "frontier_general"
+      ],
+      "context_window": null,
+      "pricing_tier": "local_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Un modèle ouvert allemand, pensé en allemand et en anglais pour les administrations et l'industrie. Licence à vérifier sur sa page Hugging Face avant un usage commercial.",
+      "sources": [
+        "https://aleph-alpha.com/en/news/kolibri-sovereign-ai-made-in-germany/",
+        "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/"
+      ],
+      "choose_if": [
+        "tu travailles en allemand ou pour une administration européenne"
+      ],
+      "avoid_if": [
+        "tu as besoin avant tout du français"
+      ],
+      "jerwis_score": 74,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-03",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "nvidia-nemotron-3-super",
@@ -1318,11 +2600,12 @@
       "context_window": 1000000,
       "pricing_tier": "local_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "À regarder si tu es déjà dans l'écosystème NVIDIA.",
+      "status": "replaced",
+      "leo_take": "À regarder si tu es déjà dans l'écosystème NVIDIA. Remplacé par Nemotron 3.5 Super VL en octobre 2026.",
       "sources": [
         "https://developer.nvidia.com/nemotron",
-        "https://research.nvidia.com/labs/nemotron/Nemotron-3/"
+        "https://research.nvidia.com/labs/nemotron/Nemotron-3/",
+        "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
@@ -1331,8 +2614,10 @@
         "tu veux un modèle léger sur laptop"
       ],
       "jerwis_score": 76,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "nvidia-nemotron-3-5-super-vl",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "ai2-olmo-2-32b",
@@ -1359,10 +2644,11 @@
       "context_window": null,
       "pricing_tier": "local_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Moins hype, mais précieux si tu veux comprendre et auditer un modèle ouvert.",
+      "status": "replaced",
+      "leo_take": "Moins hype, mais précieux si tu veux comprendre et auditer un modèle ouvert. Remplacé par Olmo 3 et Olmo 3.1, sortis fin 2025.",
       "sources": [
-        "https://allenai.org/language-models"
+        "https://allenai.org/language-models",
+        "https://arxiv.org/abs/2512.13961"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée"
@@ -1371,8 +2657,155 @@
         "tu ne sais pas encore pourquoi tu le choisirais"
       ],
       "jerwis_score": 80,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": null,
+      "replaced_by_name": "Olmo 3",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-nano-banana-2-1",
+      "name": "Nano Banana 2.1",
+      "family": "Gemini Image",
+      "provider": "Google",
+      "category": "image",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "image_generation"
+      ],
+      "best_for": [
+        "image",
+        "speed",
+        "iteration",
+        "low_cost"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le générateur d'images rapide de Google, meilleur que Nano Banana 2 et deux fois moins cher par image. Parfait pour tester plein de variantes avant de choisir.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://decrypt.co/380257/google-launches-nano-banana-2-1"
+      ],
+      "choose_if": [
+        "tu veux tester beaucoup de variantes vite",
+        "tu n'as pas besoin du rendu final premium"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 88,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": true,
+      "release_date": "2026-10-06",
+      "replaces": [
+        "google-nano-banana-2"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "openai-gpt-image-2-5",
+      "name": "GPT Image 2.5 (Sunburst et Flare)",
+      "family": "GPT Image",
+      "provider": "OpenAI",
+      "category": "image",
+      "license": "proprietary",
+      "access": [
+        "chat",
+        "api"
+      ],
+      "modalities": [
+        "image_generation"
+      ],
+      "best_for": [
+        "image",
+        "final_visuals",
+        "speed"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "mid",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La nouvelle génération d'images d'OpenAI, dans ChatGPT et en API. Sunburst soigne le détail, Flare va plus vite.",
+      "sources": [
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/deprecations"
+      ],
+      "choose_if": [
+        "tu veux générer des visuels sans quitter ChatGPT",
+        "tu veux choisir entre détail et vitesse"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 82,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "openai-gpt-image"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "black-forest-labs-flux-3",
+      "name": "FLUX 3",
+      "family": "FLUX",
+      "provider": "Black Forest Labs",
+      "category": "image",
+      "license": "proprietary",
+      "access": [
+        "api",
+        "web_app"
+      ],
+      "modalities": [
+        "image_generation",
+        "video_generation",
+        "audio"
+      ],
+      "best_for": [
+        "image",
+        "video",
+        "creative"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Le nouveau modèle de Black Forest Labs fait image, vidéo et son d'un seul coup. La vidéo est encore en accès anticipé et la version ouverte n'est pas encore sortie.",
+      "sources": [
+        "https://bfl.ai/blog/flux-3"
+      ],
+      "choose_if": [
+        "tu veux une image et sa vidéo avec le même modèle"
+      ],
+      "avoid_if": [
+        "tu veux une version ouverte à faire tourner chez toi"
+      ],
+      "jerwis_score": 78,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-07-23",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-nano-banana-pro",
@@ -1417,7 +2850,8 @@
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
-      "recommended_for_beginner": true
+      "recommended_for_beginner": true,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-nano-banana-2",
@@ -1446,10 +2880,11 @@
       "context_window": null,
       "pricing_tier": "low_cost",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Le modèle image à sortir pour tester 20 variantes avant de choisir.",
+      "status": "replaced",
+      "leo_take": "Le modèle image à sortir pour tester 20 variantes avant de choisir. Remplacé par Nano Banana 2.1 en octobre 2026. Nano Banana 2 reste disponible.",
       "sources": [
-        "https://ai.google.dev/gemini-api/docs/image-generation"
+        "https://ai.google.dev/gemini-api/docs/image-generation",
+        "https://ai.google.dev/gemini-api/docs/models"
       ],
       "choose_if": [
         "tu veux tester beaucoup de variantes vite",
@@ -1459,8 +2894,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 86,
-      "freshness_status": "current",
-      "recommended_for_beginner": true
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "google-nano-banana-2-1",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "openai-gpt-image",
@@ -1488,10 +2925,11 @@
       "context_window": null,
       "pricing_tier": "mid",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Pratique quand tu veux rester dans la même stack que tes prompts texte.",
+      "status": "replaced",
+      "leo_take": "Pratique quand tu veux rester dans la même stack que tes prompts texte. Remplacé par GPT Image 2.5. gpt-image-1 est arrêté depuis le 23 octobre 2026.",
       "sources": [
-        "https://platform.openai.com/docs/models/gpt-image-1"
+        "https://platform.openai.com/docs/models/gpt-image-1",
+        "https://developers.openai.com/api/docs/deprecations"
       ],
       "choose_if": [
         "tu veux générer ou éditer des visuels"
@@ -1500,8 +2938,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "openai-gpt-image-2-5",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "midjourney-v7",
@@ -1530,7 +2970,7 @@
       "pricing_tier": "subscription",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Excellent pour direction artistique, moins naturel si tu veux automatiser par API.",
+      "leo_take": "Excellent pour direction artistique, moins naturel si tu veux automatiser par API. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version"
       ],
@@ -1541,8 +2981,9 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 74,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "ideogram-3",
@@ -1571,7 +3012,7 @@
       "pricing_tier": "subscription",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "À tester dès qu'il y a du texte dans l'image.",
+      "leo_take": "À tester dès qu'il y a du texte dans l'image. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://ideogram.ai/features/3.0",
         "https://docs.ideogram.ai/using-ideogram/generation-settings/available-models"
@@ -1583,8 +3024,9 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 74,
-      "freshness_status": "current",
-      "recommended_for_beginner": true
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": true,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "black-forest-labs-flux-2",
@@ -1612,7 +3054,7 @@
       "pricing_tier": "mixed",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Très bon pont entre production sérieuse et écosystème ouvert.",
+      "leo_take": "Très bon pont entre production sérieuse et écosystème ouvert. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://docs.us.bfl.ai/kontext/kontext_overview",
         "https://bfl.ai/models/flux-kontext"
@@ -1624,8 +3066,9 @@
         "tu ne sais pas encore pourquoi tu le choisirais"
       ],
       "jerwis_score": 75,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "stability-sd-3-5",
@@ -1655,7 +3098,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Pour bidouiller localement et personnaliser, mais ce n'est pas le plus simple.",
+      "leo_take": "Pour bidouiller localement et personnaliser, mais ce n'est pas le plus simple. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://stability.ai/news-updates/introducing-stable-diffusion-3-5"
       ],
@@ -1667,8 +3110,155 @@
         "tu ne sais pas encore pourquoi tu le choisirais"
       ],
       "jerwis_score": 76,
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
+    },
+    {
+      "id": "google-gemini-omni-1-1-flash",
+      "name": "Gemini Omni 1.1 Flash",
+      "family": "Gemini Omni",
+      "provider": "Google",
+      "category": "video",
+      "license": "proprietary",
+      "access": [
+        "gemini",
+        "flow",
+        "api"
+      ],
+      "modalities": [
+        "text_to_video",
+        "audio"
+      ],
+      "best_for": [
+        "video",
+        "creative",
+        "iteration"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "mid",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La vidéo de Google la plus récente, avec le son, l'extension de scène et un mode brouillon pas cher. Elle est maintenant stable dans l'API.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "choose_if": [
+        "tu veux créer une vidéo courte avec le son",
+        "tu veux tester des brouillons avant la version finale"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "google-gemini-omni"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "kling-3-0",
+      "name": "Kling 3.0",
+      "family": "Kling",
+      "provider": "Kuaishou",
+      "category": "video",
+      "license": "proprietary",
+      "access": [
+        "web_app",
+        "api"
+      ],
+      "modalities": [
+        "text_to_video",
+        "audio"
+      ],
+      "best_for": [
+        "video",
+        "storytelling",
+        "audio_sync"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "subscription",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La vidéo de Kuaishou qui enchaîne plusieurs plans d'un coup, avec le son synchronisé. Sortie en février 2026.",
+      "sources": [
+        "https://www.bernama.com/en/news.php/?id=2520897",
+        "https://docs.dev.runwayml.com/guides/models/"
+      ],
+      "choose_if": [
+        "tu veux une petite scène avec plusieurs plans",
+        "tu veux le son calé sur l'image"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 80,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-02-05",
+      "replaces": [
+        "kling-2-5-turbo"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "xai-grok-imagine-video-1-5",
+      "name": "Grok Imagine Video 1.5",
+      "family": "Grok",
+      "provider": "xAI",
+      "category": "video",
+      "license": "proprietary",
+      "access": [
+        "api",
+        "grok_app"
+      ],
+      "modalities": [
+        "video_generation"
+      ],
+      "best_for": [
+        "video",
+        "social",
+        "low_cost"
+      ],
+      "not_for": [
+        "brand_safe",
+        "enterprise"
+      ],
+      "context_window": null,
+      "pricing_tier": "low_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La vidéo de xAI en nouvelle version, avec une option lite très bon marché. À manier avec prudence pour une marque.",
+      "sources": [
+        "https://docs.x.ai/docs/models"
+      ],
+      "choose_if": [
+        "tu veux tester des formats sociaux pas chers"
+      ],
+      "avoid_if": [
+        "tu dois protéger une image de marque stricte"
+      ],
+      "jerwis_score": 76,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "xai-grok-imagine"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "openai-sora",
@@ -1698,22 +3288,21 @@
       "context_window": null,
       "pricing_tier": "premium",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "À suivre pour les vidéos de campagne ou de narration courte.",
+      "status": "discontinued",
+      "leo_take": "Le générateur vidéo d'OpenAI pour la narration courte. Arrêté par OpenAI, l'appli le 26 avril 2026 et l'API le 24 septembre 2026.",
       "sources": [
-        "https://platform.openai.com/docs/guides/video-generation"
+        "https://platform.openai.com/docs/guides/video-generation",
+        "https://developers.openai.com/api/docs/deprecations"
       ],
-      "choose_if": [
-        "tu veux produire des séquences vidéo narratives",
-        "tu restes déjà dans l’écosystème OpenAI"
-      ],
+      "choose_if": [],
       "avoid_if": [
-        "tu veux tout faire tourner en local",
-        "ton budget est le critère numéro un"
+        "tu cherches un outil vidéo disponible aujourd'hui"
       ],
       "jerwis_score": 78,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "discontinued",
+      "recommended_for_beginner": false,
+      "replaced_by": null,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-veo-3-1",
@@ -1756,7 +3345,8 @@
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-gemini-omni",
@@ -1788,10 +3378,11 @@
       "context_window": null,
       "pricing_tier": "premium",
       "maturity": "preview",
-      "status": "active",
-      "leo_take": "Probablement le plus intéressant si tu veux créer ou modifier une vidéo en parlant à l'IA.",
+      "status": "replaced",
+      "leo_take": "Probablement le plus intéressant si tu veux créer ou modifier une vidéo en parlant à l'IA. Remplacé par Gemini Omni 1.1 Flash, maintenant stable dans l'API.",
       "sources": [
-        "https://deepmind.google/models/gemini-omni/"
+        "https://deepmind.google/models/gemini-omni/",
+        "https://ai.google.dev/gemini-api/docs/models"
       ],
       "choose_if": [
         "tu veux créer ou modifier une vidéo à partir de texte, image, audio ou vidéo",
@@ -1801,8 +3392,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 73,
-      "freshness_status": "preview",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "google-gemini-omni-1-1-flash",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "runway-gen-4",
@@ -1832,7 +3425,7 @@
       "pricing_tier": "subscription",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Très orienté production créative, plus outil de studio que simple chatbot.",
+      "leo_take": "Très orienté production créative, plus outil de studio que simple chatbot. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4-Video"
       ],
@@ -1843,8 +3436,9 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 74,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "kling-2-5-turbo",
@@ -1872,10 +3466,11 @@
       "context_window": null,
       "pricing_tier": "subscription",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Concurrent vidéo sérieux, mais je sourcerais toujours avant de recommander en production.",
+      "status": "replaced",
+      "leo_take": "Concurrent vidéo sérieux, mais je sourcerais toujours avant de recommander en production. Remplacé par Kling 3.0 en février 2026.",
       "sources": [
-        "https://ir.kuaishou.com/node/10961/pdf"
+        "https://ir.kuaishou.com/node/10961/pdf",
+        "https://www.bernama.com/en/news.php/?id=2520897"
       ],
       "choose_if": [
         "tu veux produire ou transformer des vidéos courtes"
@@ -1884,8 +3479,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 74,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "kling-3-0",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "xai-grok-imagine",
@@ -1915,10 +3512,11 @@
       "context_window": null,
       "pricing_tier": "subscription",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Intéressant pour tester vite des formats sociaux, à manier avec prudence pour une marque.",
+      "status": "replaced",
+      "leo_take": "Intéressant pour tester vite des formats sociaux, à manier avec prudence pour une marque. Remplacé par Grok Imagine Video 1.5 pour la vidéo.",
       "sources": [
-        "https://techcrunch.com/2025/08/04/grok-imagine-xais-new-ai-image-and-video-generator-lets-you-make-nsfw-content/"
+        "https://techcrunch.com/2025/08/04/grok-imagine-xais-new-ai-image-and-video-generator-lets-you-make-nsfw-content/",
+        "https://docs.x.ai/docs/models"
       ],
       "choose_if": [
         "tu veux tester des formats sociaux très vite",
@@ -1928,8 +3526,201 @@
         "tu dois protéger une image de marque stricte"
       ],
       "jerwis_score": 74,
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "xai-grok-imagine-video-1-5",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "elevenlabs-v4",
+      "name": "Eleven v4",
+      "family": "ElevenLabs",
+      "provider": "ElevenLabs",
+      "category": "audio",
+      "license": "proprietary",
+      "access": [
+        "web_app",
+        "api"
+      ],
+      "modalities": [
+        "text_to_speech",
+        "voice"
+      ],
+      "best_for": [
+        "audio",
+        "voice",
+        "podcast",
+        "narration"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "subscription",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La nouvelle voix d'ElevenLabs, plus expressive, en plus de 90 langues. Une version Turbo existe pour le temps réel.",
+      "sources": [
+        "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/",
+        "https://x.com/ElevenLabs/status/2104572127617994917"
+      ],
+      "choose_if": [
+        "tu produis une narration ou un podcast",
+        "tu as besoin de plusieurs langues"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 80,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": true,
+      "release_date": "2026-09-28",
+      "replaces": [
+        "elevenlabs-v3"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "openai-gpt-transcribe",
+      "name": "GPT-Transcribe et GPT-Live-Transcribe",
+      "family": "GPT Transcribe",
+      "provider": "OpenAI",
+      "category": "audio",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "speech_to_text",
+        "realtime"
+      ],
+      "best_for": [
+        "transcription",
+        "realtime",
+        "audio"
+      ],
+      "not_for": [
+        "voice_generation",
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La transcription d'OpenAI qui remplace Whisper dans l'API, sur un fichier ou en direct. whisper-1 s'arrête dans l'API le 26 février 2027.",
+      "sources": [
+        "https://developers.openai.com/api/docs/models",
+        "https://developers.openai.com/api/docs/deprecations"
+      ],
+      "choose_if": [
+        "tu transcris des fichiers ou du direct par API"
+      ],
+      "avoid_if": [
+        "tu veux transcrire sans rien envoyer chez un fournisseur"
+      ],
+      "jerwis_score": 80,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-gemini-3-8-live-tts",
+      "name": "Gemini 3.8 Live et Gemini 3.8 Flash TTS",
+      "family": "Gemini Audio",
+      "provider": "Google",
+      "category": "audio",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "audio_input",
+        "audio_output",
+        "realtime",
+        "text_to_speech"
+      ],
+      "best_for": [
+        "audio",
+        "voice_agents",
+        "realtime",
+        "narration"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Les voix de Google pour parler en direct avec un agent ou lire un texte à voix haute. Google demande de passer des anciennes versions à la 3.8.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models"
+      ],
+      "choose_if": [
+        "tu construis un assistant vocal",
+        "tu veux lire un texte à voix haute par API"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 82,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [
+        "google-gemini-native-audio"
+      ],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "mistral-voxtral-3",
+      "name": "Voxtral 3 (Transcribe 3 et TTS 3)",
+      "family": "Mistral Voxtral",
+      "provider": "Mistral AI",
+      "category": "audio",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "speech_to_text",
+        "text_to_speech"
+      ],
+      "best_for": [
+        "audio",
+        "transcription",
+        "voice",
+        "europe"
+      ],
+      "not_for": [
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "La transcription et la voix de synthèse de Mistral en nouvelle version, en API seulement. Si tu veux un modèle ouvert, Voxtral Small reste au catalogue.",
+      "sources": [
+        "https://docs.mistral.ai/getting-started/models/models_overview/"
+      ],
+      "choose_if": [
+        "tu veux transcrire et faire parler un texte chez un fournisseur européen"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local"
+      ],
+      "jerwis_score": 76,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "elevenlabs-v3",
@@ -1958,10 +3749,11 @@
       "context_window": null,
       "pricing_tier": "subscription",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "Référence voix si tu veux produire une narration propre.",
+      "status": "replaced",
+      "leo_take": "Référence voix si tu veux produire une narration propre. Remplacé par Eleven v4 en septembre 2026.",
       "sources": [
-        "https://elevenlabs.io/docs/models/"
+        "https://elevenlabs.io/docs/models/",
+        "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/"
       ],
       "choose_if": [
         "tu travailles la voix, transcription ou narration"
@@ -1970,8 +3762,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 74,
-      "freshness_status": "current",
-      "recommended_for_beginner": true
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "elevenlabs-v4",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "openai-whisper",
@@ -1999,9 +3793,10 @@
       "pricing_tier": "low_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Toujours utile pour transcrire, même si les modèles audio natifs progressent vite.",
+      "leo_take": "Toujours utile pour transcrire, même si les modèles audio natifs progressent vite. Dans l'API, OpenAI le remplace par GPT-Transcribe, whisper-1 s'y arrête le 26 février 2027. La version open source reste utilisable chez toi.",
       "sources": [
-        "https://platform.openai.com/docs/guides/speech-to-text"
+        "https://platform.openai.com/docs/guides/speech-to-text",
+        "https://developers.openai.com/api/docs/deprecations"
       ],
       "choose_if": [
         "tu veux pouvoir tester hors plateforme fermée",
@@ -2012,7 +3807,8 @@
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "google-gemini-native-audio",
@@ -2040,10 +3836,11 @@
       "context_window": null,
       "pricing_tier": "mid",
       "maturity": "stable",
-      "status": "active",
-      "leo_take": "À regarder pour des agents vocaux, pas seulement pour lire un texte.",
+      "status": "replaced",
+      "leo_take": "À regarder pour des agents vocaux, pas seulement pour lire un texte. Remplacé par Gemini 3.8 Live et Gemini 3.8 Flash TTS.",
       "sources": [
-        "https://ai.google.dev/gemini-api/docs/pricing"
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://ai.google.dev/gemini-api/docs/models"
       ],
       "choose_if": [
         "tu travailles la voix, transcription ou narration"
@@ -2052,8 +3849,10 @@
         "tu veux tout faire tourner en local"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "replaced",
+      "recommended_for_beginner": false,
+      "replaced_by": "google-gemini-3-8-live-tts",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "mistral-voxtral",
@@ -2088,7 +3887,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Modèle audio open-weight de Mistral, pensé pour transcrire et comprendre l'audio — pas pour générer une voix.",
+      "leo_take": "Modèle audio open-weight de Mistral, pensé pour transcrire et comprendre l'audio, pas pour générer une voix.",
       "sources": [
         "https://mistral.ai/news/voxtral",
         "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
@@ -2102,7 +3901,101 @@
       ],
       "jerwis_score": 78,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-gemini-embedding-2",
+      "name": "Gemini Embedding 2",
+      "family": "Gemini Embedding",
+      "provider": "Google",
+      "category": "embedding",
+      "license": "proprietary",
+      "access": [
+        "api"
+      ],
+      "modalities": [
+        "embeddings",
+        "multimodal_retrieval"
+      ],
+      "best_for": [
+        "rag",
+        "multimodal",
+        "search",
+        "documents"
+      ],
+      "not_for": [
+        "generation",
+        "local"
+      ],
+      "context_window": null,
+      "pricing_tier": "to_verify",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Les embeddings de Google qui mélangent texte, image, vidéo, audio et PDF. Prix à vérifier.",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://deepmind.google/models/"
+      ],
+      "choose_if": [
+        "tu cherches dans des documents qui mélangent texte, images et vidéos"
+      ],
+      "avoid_if": [
+        "tu veux tout faire tourner en local",
+        "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "jerwis_score": 82,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": null,
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
+    },
+    {
+      "id": "google-embeddinggemma-2",
+      "name": "EmbeddingGemma 2",
+      "family": "Gemma",
+      "provider": "Google",
+      "category": "embedding",
+      "license": "open_weight",
+      "access": [
+        "open_weights",
+        "local"
+      ],
+      "modalities": [
+        "embeddings"
+      ],
+      "best_for": [
+        "rag",
+        "local",
+        "open_weights",
+        "search"
+      ],
+      "not_for": [
+        "generation"
+      ],
+      "context_window": null,
+      "pricing_tier": "local_cost",
+      "maturity": "stable",
+      "status": "active",
+      "leo_take": "Un petit modèle d'embeddings ouvert de Google, à faire tourner chez toi. Licence à vérifier avant un usage commercial.",
+      "sources": [
+        "https://ai.google.dev/gemma/docs/releases"
+      ],
+      "choose_if": [
+        "tu veux un RAG qui tourne sur ta machine"
+      ],
+      "avoid_if": [
+        "tu cherches à générer du texte, image ou vidéo"
+      ],
+      "jerwis_score": 78,
+      "freshness_status": "current",
+      "recommended_for_beginner": false,
+      "release_date": "2026-10-06",
+      "replaces": [],
+      "added_at": "2026-11-02",
+      "last_verified": "2026-11-02"
     },
     {
       "id": "openai-embedding-3-large",
@@ -2143,7 +4036,8 @@
       ],
       "jerwis_score": 86,
       "freshness_status": "current",
-      "recommended_for_beginner": false
+      "recommended_for_beginner": false,
+      "last_verified": "2026-11-02"
     },
     {
       "id": "cohere-rerank-v4",
@@ -2170,7 +4064,7 @@
       "pricing_tier": "mid",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Utile quand ton moteur de recherche trouve trop de résultats moyens.",
+      "leo_take": "Utile quand ton moteur de recherche trouve trop de résultats moyens. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://docs.cohere.com/docs/rerank"
       ],
@@ -2181,8 +4075,9 @@
         "tu cherches à générer du texte, image ou vidéo"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "jina-embeddings-v5",
@@ -2212,7 +4107,7 @@
       "pricing_tier": "mid",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "À tester si tu cherches dans des documents, images ou contenus multilingues.",
+      "leo_take": "À tester si tu cherches dans des documents, images ou contenus multilingues. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://jina.ai/en-US/embeddings/"
       ],
@@ -2223,8 +4118,9 @@
         "tu cherches à générer du texte, image ou vidéo"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "voyage-3-large",
@@ -2252,7 +4148,7 @@
       "pricing_tier": "mid",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Très orienté qualité de recherche documentaire.",
+      "leo_take": "Très orienté qualité de recherche documentaire. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://docs.voyageai.com/docs/embeddings",
         "https://blog.voyageai.com/2025/01/07/voyage-3-large/"
@@ -2265,8 +4161,9 @@
         "tu cherches à générer du texte, image ou vidéo"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     },
     {
       "id": "qwen3-embedding-reranker",
@@ -2297,7 +4194,7 @@
       "pricing_tier": "local_cost",
       "maturity": "stable",
       "status": "active",
-      "leo_take": "Bonne piste ouverte pour RAG si tu ne veux pas dépendre d'une API fermée.",
+      "leo_take": "Bonne piste ouverte pour RAG si tu ne veux pas dépendre d'une API fermée. À vérifier, je n'ai pas trouvé de source sûre pour la revérifier en novembre 2026.",
       "sources": [
         "https://qwenlm.github.io/blog/qwen3-embedding/"
       ],
@@ -2309,8 +4206,9 @@
         "tu cherches à générer du texte, image ou vidéo"
       ],
       "jerwis_score": 80,
-      "freshness_status": "current",
-      "recommended_for_beginner": false
+      "freshness_status": "to_verify",
+      "recommended_for_beginner": false,
+      "last_verified": "2026-05-20"
     }
   ]
 }

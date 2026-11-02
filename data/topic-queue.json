@@ -582,6 +582,66 @@
       "priority": 3,
       "status": "pending",
       "added": "2026-11-02"
+    },
+    {
+      "id": "personnaliser-chatgpt-claude",
+      "topic": "régler la mémoire et les instructions personnalisées de ChatGPT et de Claude pour qu'ils te connaissent : ce qu'il faut écrire, ce qu'il ne faut pas leur confier, et comment tout effacer",
+      "type": "A",
+      "priority": 0,
+      "status": "pending",
+      "added": "2026-11-02",
+      "added_by": "claude",
+      "parcours_etape": 2
+    },
+    {
+      "id": "projets-ia-ranger-conversations",
+      "topic": "ranger ses conversations par projet dans ChatGPT et Claude : un projet par client ou par sujet, les fichiers et consignes à y mettre, et les erreurs qui font perdre le contexte",
+      "type": "A",
+      "priority": 0,
+      "status": "pending",
+      "added": "2026-11-02",
+      "added_by": "claude",
+      "parcours_etape": 2
+    },
+    {
+      "id": "preparer-rendez-vous-client-ia",
+      "topic": "préparer un rendez-vous client avec l'IA : résumer l'historique, lister les questions à poser, anticiper les objections et faire le compte rendu après, sans confier de données sensibles",
+      "type": "A",
+      "priority": 0,
+      "status": "pending",
+      "added": "2026-11-02",
+      "added_by": "claude",
+      "parcours_etape": 2
+    },
+    {
+      "id": "lire-contrat-ia-sans-se-tromper",
+      "topic": "lire un contrat avec l'IA sans se tromper : faire repérer les clauses importantes avec la page citée, vérifier soi-même, et savoir quand il faut un professionnel",
+      "type": "A",
+      "priority": 0,
+      "status": "pending",
+      "added": "2026-11-02",
+      "added_by": "claude",
+      "parcours_etape": 2
+    },
+    {
+      "id": "comparer-devis-ia",
+      "topic": "comparer des devis avec l'IA : un tableau prix, délais, garanties et exclusions, dans le chat ou dans l'app Claude ou ChatGPT en mode Work, en gardant la décision pour soi",
+      "type": "A",
+      "priority": 0,
+      "status": "pending",
+      "added": "2026-11-02",
+      "added_by": "claude",
+      "parcours_etape": 3
+    },
+    {
+      "id": "repondre-avis-clients-ia",
+      "topic": "répondre aux avis clients avec l'IA : garder son ton, traiter un avis négatif sans s'énerver, préparer des réponses en série dans l'app Claude ou ChatGPT en mode Work, et relire avant de publier",
+      "type": "A",
+      "priority": 0,
+      "status": "pending",
+      "added": "2026-11-02",
+      "added_by": "claude",
+      "parcours_etape": 3
     }
   ]
 }

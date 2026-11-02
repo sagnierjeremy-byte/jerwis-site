@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - DO NOT DELETE THE BLOCKS BELOW
+     · TITLE ≤ 60 characters (without suffix " by Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 characters
+     · OG/TWITTER : titles ≤ 60, descriptions ≤ 110
+     · CANONICAL : absolute URL with exact slug
+     · ONLY ONE JSON-LD (TechArticle for tutorials, OpinionPiece for opinions)
+     · OG:IMAGE : point to photos/og/arnaques-mails-sms-ia.jpg (generated via scripts/og-batch.html)
+-->
+
+<title>AI email & SMS scams 2026: how I spot the fakes</title>
+<meta name="description" content="In 2026, email and SMS scams are absolutely flawless. Here's how I spot fake packages, fake Drive shares, and fake CAF alerts in my inbox every day.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI email & SMS scams 2026: how I spot the fakes">
+<meta property="og:description" content="In 2026, email and SMS scams are flawless. Here's how I spot fake packages, Drive shares, and CAF alerts daily.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/arnaques-mails-sms-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/arnaques-mails-sms-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-02">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="AI email & SMS scams 2026: how I spot the fakes">
+<meta name="twitter:description" content="In 2026, email and SMS scams are flawless. Here's how I spot fake packages, Drive shares, and CAF alerts daily.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/arnaques-mails-sms-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/arnaques-mails-sms-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/arnaques-mails-sms-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/arnaques-mails-sms-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/arnaques-mails-sms-ia">
+
+<!-- Schema.org · ONE JSON-LD ONLY: TechArticle (tutorials) or OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AI email & SMS scams 2026: how I spot the fakes",
+  "description": "In 2026, email and SMS scams are absolutely flawless. Here's how I spot fake packages, fake Drive shares, and fake CAF alerts in my inbox every day.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/arnaques-mails-sms-ia",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/arnaques-mails-sms-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 82</div>
+    <h1>Perfect email,<br>hidden scam:<br><em>how I spot the traps in 2026</em></h1>
+    <p class="hero-lead">
+      You got a perfect SMS about a blocked package, or an email asking you to click a fake Google Drive share? In 2026, cybercriminals use AI to personalize mass attacks and generate deepfakes. They also write emails without a single typo. I'm not a developer. But I refuse to get tricked. Here's what I've learned to spot.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>7 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> None</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>The <strongemail and SMS scams</strong></li>
+      <li>The <strongfake packages, Drive, and CAF</strong></li>
+      <li>The <strongvoice deepfakes</strong></li>
+      <li>The <strongdata leaks</strong></li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>No jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>No jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>The scam doesn't have typos anymore</h2>
+    <p>I still remember the golden rule my mom passed down to me ten years ago. An email full of typos is definitely a scam. It was reassuring and simple. And it doesn't work anymore.</p>
+    <p>Since February 2026, AI-assisted phishing attacks produce emails with zero spelling mistakes. The text flows and the tone is spot on. The layout perfectly mimics your phone carrier or your insurance company. The scam has become indistinguishable at first glance.</p>
+    <p>What hits me most is how fast the tools evolve. In just a few months, the landscape got crowded. OpenAI launched GPT-6 Astra on September 3, 2026. Google made Gemini 4 Argon available on October 13. Anthropic released Claude Haiku 5.5 on October 7. Mistral open-sourced Mistral Large 4 on November 2, the date of this article. xAI unveiled Grok 4.7 on September 21. Even ElevenLabs deployed its Eleven v4 and v4 Turbo voice synthesis models on September 28, capable of very fine emotion across over ninety languages. And on the image side, Midjourney V8.2 has been the default since July 24, when Google dropped Imagen 4 in favor of its new Nano Banana family.</p>
+    <p>All this doesn't mean your scammers specifically use Gemini 4 or Mistral Large 4 to write your fake delivery notice. But it shows a brutal fact: the technical barrier is gone. Anyone can generate credible text or a cloned voice. A fake administrative document image is also within reach. In June 2026, reports already confirmed that cybercriminals use AI to personalize mass attacks. They make voice and video deepfakes. At the same time, they automate vulnerability hunting.</p>
+    <p>For a long time, I told myself the first filter was me. My eyes. My natural suspicion. Today, that's not enough anymore. The scammer has a perfect assistant. So I need to adopt new habits.</p>
+    <p>If you want to understand how voice itself can be spoofed, I broke down this phenomenon in my article on <a href="/en/articles/arnaque-faux-conseiller-voix-clonee">voice and video deepfakes in phone scams</a>.</p>
+    <h2>The new daily traps</h2>
+    <p>The classic scenario hasn't changed. You get an SMS. Your package is blocked. A link lets you pick a new delivery slot. Except it's not La Poste. It's a site that steals your bank details.</p>
+    <p>The fake Google Drive share works the same. An email says a colleague shared an urgent document. The button is blue, the logo is right, the first name matches someone at your company. You click. You enter your password on a fake login page. And your account is compromised.</p>
+    <p>The fake CAF or spoofed administration follows the same mechanics. Your benefits are suspended. Your health card expires. You need to validate your details to avoid an interruption. The email is sober. It doesn't scream. It doesn't threaten. It reassures. That's the scariest part.</p>
+    <p>For a few years, a variant has been gaining ground. QR code phishing, or quishing, jumped four hundred percent between 2023 and 2025 according to February 2026 reports. You get an email or SMS with a QR code to scan to access your refund or package tracking. The code leads to a trapped page. Because the link hides behind a black and white square, your phone doesn't show you the suspicious URL before you click.</p>
+    <p>These attacks feed on precious data: you. Your history, your habits, your real contacts. To understand how your <a href="/en/articles/donnees-perso-ia-confidentialite">personal data</a> fuels these traps, just look at recent leaks.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Where did the typos go?</h2>
+    <p>Before, I looked for two crude clues. A dumb typo in the subject. A foreign phrasing in the body or an obviously fake sender address. Today, these signals have melted away.</p>
+    <p>AI doesn't just write without mistakes. It adapts the style. It mimics the administrative or commercial phrasing of your country. It can generate a misleading image. Learning to <a href="/en/articles/reperer-contenu-ia-deepfake">spot AI-generated content</a> becomes useful then. Midjourney V8.2 has pushed aesthetics and personalization since July 24, 2026. Even though Google pulled Imagen 4 in August, other image engines are picking up the slack. The fake scanned document with an official border is now within any crook's reach.</p>
+    <p>Still, AI sometimes leaves traces. It can <a href="/en/lexique/hallucination">hallucinate</a> an inconsistent case number. It can also generate a summons date that falls on a Sunday. A contact who doesn't exist in your internal directory is another clue.</p>
+    <div class="callout tip"><h4>What I check first</h4><p>Before reading the content, I look at the exact sender. Not the display name, the address behind it. A real email from CAF doesn't come from a gmail.com or ca-fance.fr address. Then I hover over links without clicking. On my phone, I long-press to see the hidden URL. If even a tiny doubt remains, I close the email and open the official site in my browser.</p></div>
+    
+    <h2>When your leaked data is used</h2>
+    <p>When your name and postal address are floating around the dark web, they become fuel for next-generation scams. Your phone number and purchase history amplify the personalization. AI no longer needs to send you a generic message. It knows you're waiting for a package because a delivery database leaked. Your phone carrier is known. Even your recent CAF procedure might have been exposed.</p>
+    <p>In 2026, the global average cost of a data breach climbed again. Reports show a significant increase from the previous year. In France, phishing represented a very large share of reports in 2025, with a marked rise in phishing-related help requests between 2024 and 2025. AI-powered phishing should represent a growing and majority share of intrusions by year-end.</p>
+    <p>What changes everything is contextual credibility. The email doesn't just say "hello dear customer." It quotes your real name. It mentions your postal address. It lands on the day you actually ordered something. This coincidence is no coincidence. It's an automatic <a href="/en/articles/verifier-info-ia">cross-check</a> between several leaks.</p>
+    <div class="callout tip"><h4>The address that changes everything</h4><p>The sender address is my absolute filter. Scammers can spoof the display name in your inbox, but not always the exact domain behind it. I compare letter by letter. Service-publique.fr is not service-publics.fr. Amazon.fr is not amaz0n-support.fr. This check takes three seconds. It saves me hours of regret.</p></div>
+    
+    <h2>My habits when I'm in doubt</h2>
+    <p>I'm not a cybersecurity expert. I'm an entrepreneur. I need to protect my accounts and my access. My team needs protection too. I can't hire a full-time network engineer. So I built a simple protocol that I follow even when I'm lazy.</p>
+    <p>First rule. I never click a link from an email or SMS sent by a third party to access a sensitive service. Never. I close the message. I open my browser. I type the official site address myself. I log in. If the email was true, the info will be there. If it was fake, I just dodged the trap.</p>
+    <p>Second rule. For fake Google Drive shares, I don't click the blue button. I open drive.google.com in a tab. I check the shared with me section. If the document really exists, it's there.</p>
+    <p>Third rule. I watch out for unexpected QR codes. Quishing thrives on laziness. Scanning a code is faster than typing an address. That's precisely why it's dangerous. If an email or SMS asks me to scan a QR code for a refund or tracking, I delete. Period.</p>
+    <p>Fourth rule. I call the service using the official number from the website. Not the one in the SMS. Not the one in the email. Not the one in the attached PDF. The real one, that I find by typing caf.fr or laposte.fr myself.</p>
+    <p>I do all this for myself first. Because losing a business account, getting hit by bank fraud, or having my identity stolen would cost me way more than those few seconds of checking.</p>
+    <p>And if an AI tool sometimes helps me draft or compile info, I stay clear-eyed. AI can also make up details out of thin air, even in a scammer's hands. A made-up case number or a weird signature can betray a poorly controlled auto-generation.</p>
+    <h2>FAQ</h2>
+    <h3>How do I know if an email from my bank or administration is fake, even if it's perfect?</h3>
+    <p>Perfect text is no longer a reliable criterion since 2026. The real test is the sender and the link. On your computer, hover over the button without clicking. The URL shows at the bottom of the browser. If it doesn't match the official domain exactly, it's fake. On phone, long-press the link. Same for the sender phone number of an SMS. If in doubt, close everything and open the official site yourself.</p>
+    <h3>Can AIs clone my voice or my relatives' voices for a phone scam?</h3>
+    <p>Yes. Since June 2026, reports confirm that cybercriminals use AI to generate voice and video deepfakes. ElevenLabs launched its version 4 in late September 2026, capable of very emotional voice synthesis across over ninety languages. A scammer can clone a relative's voice from a few seconds of audio found on social media. He calls you in the middle of the night asking for financial help. The technique exists. It's documented. I explain how I protect myself in the article on <a href="/en/articles/arnaque-faux-conseiller-voix-clonee">voice clone scams</a>.</p>
+    <h3>What are the new types of SMS scams I should watch for in 2026?</h3>
+    <p>Besides fake packages and fake refunds, watch for quishing. That's QR code phishing. Between 2023 and 2025, this attack type jumped four hundred percent. You get an SMS with a QR code to scan to access tracking or a prize. The code hides a fraudulent URL. Delete without scanning.</p>
+    <h3>Is my company more vulnerable to AI scams after a data breach?</h3>
+    <p>Yes, and that's the heart of the problem. 2026 scams are not random shots. They're personalized at scale thanks to stolen data. If your work email addresses, your colleagues' names, or your industry leaked, AI can generate a fake Drive share quoting your real boss or a quote mentioning your real client. It's way harder to spot than generic spam.</p>
+    <h3>Are there AI tools to help me detect scams generated by other AIs?</h3>
+    <p>Some antivirus and email filters now use AI to detect suspicious behavior. But in 2026, no automatic tool is totally reliable. The best detector is still your reflex. Check the sender, don't click directly, go through the official site. It's basic. It's powerful. And it requires zero technical skills.</p>
+    <h3>How do I train my team to recognize these new threats without being paranoid?</h3>
+    <p>I share my protocol. One clear golden rule: no direct clicks on sensitive links from emails or SMS. Every access goes through the official site typed manually. A ten-minute explanation is enough. No technical vocabulary needed. No need to become cynical. Just slow down. The AI scam bets on speed. If you make everyone take five extra seconds, you cut the leverage.</p>
+    <h2>My takeaways</h2>
+    <p>The year 2026 buried the idea that spelling protects you. Email and SMS scams are smooth and personalized. They're sometimes visually stunning. They rely on real data leaks to become credible. But they haven't beaten common sense. Don't click. Always verify the exact address. Go through the official site. These three simple moves remain unbeatable as long as I apply them consciously. I'm not a developer. I won't be the next victim either.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ CRITICAL ANCHOR: publish.js replaces the entire body between the end of the TL;DR and this
+     "Final CTA" comment. DO NOT delete/rename it, otherwise published articles keep the example body
+     from the template (incident from 2026-07-02→06). -->
+<!-- Article end: author signature -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with no jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday letter. And if you have a question or doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unified) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>- Newsletter</div>
+        <h3>One email a week.<br>What I actually <em>test.</em></h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me. I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, keeps anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- "Summarize with AI" bar (auto-inserted after the TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

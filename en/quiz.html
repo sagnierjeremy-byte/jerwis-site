@@ -324,7 +324,7 @@
         </a>
         <a href="/en/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>AI glossary</strong><span>40 terms explained</span></span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
         </a>
         <a href="/en/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
@@ -398,7 +398,7 @@
     </div>
 
     <div class="result-block c-teal">
-      <h3>🔧 The tools to install first</h3>
+      <h3>🔧 The tools to start with</h3>
       <ul id="resultTools"></ul>
     </div>
 
@@ -555,8 +555,8 @@
       { v: 'power', t: 'Every day, I want to scale it up' },
     ]},
     { id: 'tech', title: 'What is your technical level?', answers: [
-      { v: 'zero', t: 'Zero · the terminal scares me' },
-      { v: 'basique', t: 'I can run copy-pasted commands' },
+      { v: 'zero', t: 'Zero · tech stuff scares me' },
+      { v: 'basique', t: 'I get by with apps and their settings' },
       { v: 'medium', t: 'I dabble in no-code (Zapier, Make, n8n)' },
       { v: 'avance', t: 'I have coded before, I can read JS or Python' },
     ]},
@@ -635,95 +635,91 @@
     }
 
     const RECOS = {
-      'decouvreur': {
-        pitch: "You want to understand AI without getting lost in the tech. My reco · start with the web chat (free), read 2-3 short articles on the vocabulary, test ChatGPT or Claude for 2 weeks before investing.",
-        tools: [
-          '<strong>Claude Web</strong> (free) or ChatGPT Plus at $20/month · to learn without installing anything',
-          '<strong>My AI-watch OPML</strong> · <a href="/downloads/jeremy-ai-sources.opml" download>download it</a> to follow my sources',
-          '<strong>A4 cheat sheet</strong> for when you are ready for the terminal · <a href="/downloads/cheatsheet-claude-code" target="_blank">open it</a>',
+      "decouvreur": {
+        "pitch": "You want to understand AI without getting lost. My pick · start with step 1 of the path, using the free version of ChatGPT, Claude, Gemini or Le Chat. Ten minutes a day for two weeks is enough to build the habit.",
+        "tools": [
+          "<strong>ChatGPT, Claude, Gemini or Le Chat</strong> on the free plan · nothing to install",
+          "<strong>The 2-minute exercise</strong> in step 1 · <a href=\"/en/apprendre#etape-01\">do it now</a>",
+          "<strong>The glossary</strong> · <a href=\"/en/lexique\">270+ terms explained</a>, keep it open"
         ],
-        prompts: [
-          'The <a href="/downloads/jeremy-prompts-pack.md" download>Leo ruleset</a> · so Claude answers in plain English, no jargon',
-          'The <code>humanizer</code> skill in my pack · <a href="/downloads/jeremy-claude-pack.zip" download>download</a> · strips out the "generic AI" tone',
+        "prompts": [
+          "The \"patient teacher\" prompt from <a href=\"/en/apprendre#etape-01\">step 1</a> · to get any topic explained simply",
+          "The role, context, format method · in <a href=\"/en/articles/ecrire-bon-prompt-non-dev\">Write a prompt that gets a good result</a>"
         ],
-        reads: [
-          '<a href="/en/debutant">The Beginner page</a> · for those who do not know where to start',
-          '<a href="/en/lexique">The AI glossary</a> · 8 technical words finally explained',
-          '<a href="/en/articles/agents-ia-guide">The AI agents guide</a> · to understand the word "agent" without jargon',
-        ],
+        "reads": [
+          "<a href=\"/en/apprendre#etape-01\">The path, step 1 · Get started</a>",
+          "<a href=\"/en/articles/choisir-ia-ecrire-coder-images\">Which AI to pick, for what</a>",
+          "<a href=\"/en/articles/verifier-info-ia\">Check what AI tells you</a>"
+        ]
       },
-      'builder': {
-        pitch: "You want to build, not just chat. My reco · Claude Code Max + the 6 official plugins + one concrete project (a personal site, a Gmail agent, an automation script). In 1 week you have your first deliverable.",
-        tools: [
-          '<strong>Claude Code Max</strong> ($200/month) · the central tool behind everything else',
-          '<strong>The 6 Anthropic plugins</strong> · <a href="/downloads/install-plugins.sh" download>download the script</a>, install in 30 seconds',
-          '<strong>dev-browser</strong> · so Claude can drive a browser (scraping, testing, screenshots)',
-          '<strong>GitHub + Vercel</strong> · auto backup + free deployment',
+      "builder": {
+        "pitch": "You want AI to do the work, not just answer. My pick · move fast through steps 1 and 2, then go to step 3 with the Claude or ChatGPT app, a folder and a real task. Within a week, you have your first deliverable.",
+        "tools": [
+          "<strong>The Claude app</strong> (Claude Pro, $20/month) or <strong>the ChatGPT app</strong> in Work mode (ChatGPT Plus) · to put AI to work on your files",
+          "<strong>The 10-minute exercise</strong> in step 3 · <a href=\"/en/apprendre#etape-03\">your first web page</a>",
+          "<strong>One project per topic</strong> · <a href=\"/en/lexique/projet-ia\">so you stop re-explaining everything</a>"
         ],
-        prompts: [
-          'The <a href="/downloads/jeremy-prompts-pack.md" download>3 personal prompts</a> · explainer + social-poster + the Leo tone',
-          'My <a href="/downloads/CLAUDE.md" download>CLAUDE.md</a> · drop it into <code>~/.claude/</code> and adapt it',
+        "prompts": [
+          "The message from <a href=\"/en/apprendre#etape-03\">step 3</a> · a real web page created in your folder",
+          "\"From these three quotes, build me a comparison table and tell me which one to pick\" · try it in <a href=\"/en/lexique/chatgpt-work\">Work</a> mode or with <a href=\"/en/lexique/cowork\">Cowork</a>"
         ],
-        reads: [
-          '<a href="/en/articles/claude-code-workflow-tips">Claude Code after 6 months · seen by a non-dev</a>',
-          '<a href="/en/claude-code">My complete Claude Code guide</a>',
-          '<a href="/en/github">GitHub for non-devs</a>',
-          '<a href="/en/articles/superpowers">Superpowers · the plugin that forces Claude to think</a>',
-        ],
+        "reads": [
+          "<a href=\"/en/apprendre#etape-03\">The path, step 3 · Put it to work</a>",
+          "<a href=\"/en/articles/automatiser-taches-ia-sans-coder\">Automate your repetitive tasks without code</a>",
+          "<a href=\"/en/articles/outil-vente-claude-code\">The sales tool built in 3 evenings</a>"
+        ]
       },
-      'creator': {
-        pitch: "You produce content and you want to multiply your output without losing your voice. My reco · an article → social pipeline, your tone rules in a CLAUDE.md, a content-production skill. In 2 weeks you publish 3× more.",
-        tools: [
-          '<strong>Claude Code Max</strong> · to scale up your production',
-          '<strong>Zernio</strong> · LinkedIn/X scheduler from my back-office',
-          '<strong>Remotion + fal.ai</strong> (advanced) · if you want to make AI reels',
+      "creator": {
+        "pitch": "You make content and want to go faster without losing your voice. My pick · step 2 of the path first (summarize, write, make visuals), then step 3 to produce whole documents.",
+        "tools": [
+          "<strong>ChatGPT or Claude</strong> · to write and summarize, on the free plan to start",
+          "<strong>A project</strong> with your texts and your writing style · <a href=\"/en/lexique/projet-ia\">what a project is</a>",
+          "<strong>Gemini, ChatGPT or Canva</strong> · for your visuals, free quotas included"
         ],
-        prompts: [
-          'The <a href="/downloads/jeremy-prompts-pack.md" download>"Turn an article into 2 social drafts"</a> prompt · my exact workflow',
-          'The <code>content-production</code>, <code>copywriting</code>, <code>social-content</code> skills · in <a href="/downloads/jeremy-claude-pack.zip" download>my pack</a>',
+        "prompts": [
+          "The <a href=\"/en/apprendre#etape-02\">step 2</a> exercise · summarize a document with the pages cited",
+          "The before/after prompts in <a href=\"/en/articles/ecrire-mails-avec-ia\">Write your emails without sounding like a robot</a>"
         ],
-        reads: [
-          '<a href="/articles/tuto-cours-skills-tout-comprendre-sur-les-skills-a">Claude Code Skills, explained for a non-dev</a>',
-          '<a href="/en/articles/loops-claude">Claude Code loops, explained</a>',
-          '<a href="/en/articles/better-call-vs-associe">How I turn my articles into social posts</a>',
-        ],
+        "reads": [
+          "<a href=\"/en/apprendre#etape-02\">The path, step 2 · Use it for real</a>",
+          "<a href=\"/en/articles/resumer-pdf-video-avec-ia\">Summarize a PDF, a video, a long document</a>",
+          "<a href=\"/en/articles/creer-images-ia-gratuit\">Make your visuals without a designer</a>"
+        ]
       },
-      'growth': {
-        pitch: "You want more leads, more sales, more conversions. My reco · a Gmail agent that qualifies and replies, a personalized cold-email skill, a CRM + AI workflow. In 1 month you double your reply rate.",
-        tools: [
-          '<strong>Claude Code Max + Agent SDK</strong> · to build your agents',
-          '<strong>n8n or Make</strong> · to automate CRM workflows',
-          '<strong>Resend</strong> · programmable transactional email',
+      "growth": {
+        "pitch": "You want more clients and less wasted time. My pick · step 2 for your emails and meeting notes, then step 3 to prepare your sales documents in minutes.",
+        "tools": [
+          "<strong>ChatGPT or Claude</strong> · for your emails and follow-ups",
+          "<strong>The Claude app or ChatGPT in Work mode</strong> · for complete sales documents",
+          "<strong>A no-code tool</strong> · to automate your follow-ups, <a href=\"/en/articles/automatiser-taches-ia-sans-coder\">the guide</a>"
         ],
-        prompts: [
-          'The <code>cold-email</code> skill · in <a href="/downloads/jeremy-claude-pack.zip" download>my pack</a>, Alireza Rezvani\'s rules',
-          'The <a href="/downloads/jeremy-prompts-pack.md" download>"explainer" prompt, adapted</a> to qualify your leads',
+        "prompts": [
+          "The follow-ups in <a href=\"/en/articles/ecrire-mails-avec-ia\">Write your emails without sounding like a robot</a>",
+          "The message from <a href=\"/en/apprendre#etape-03\">step 3</a> · adapt it for the page of your offer"
         ],
-        reads: [
-          '<a href="/en/articles/tuto-agent-gmail">Build a Gmail agent</a>',
-          '<a href="/en/articles/outil-vente-claude-code">How I built my wife\'s sales tool</a>',
-          '<a href="/en/articles/agents-ia-guide">The complete guide to AI agents</a>',
-        ],
+        "reads": [
+          "<a href=\"/en/apprendre#etape-02\">The path, step 2 · Use it for real</a>",
+          "<a href=\"/en/articles/compte-rendu-reunion-ia\">Meeting notes, written for you</a>",
+          "<a href=\"/en/articles/outil-vente-claude-code\">The sales tool built in 3 evenings</a>"
+        ]
       },
-      'explorer': {
-        pitch: "You want to go beyond recipes, understand the models, test the frontiers. My reco · Superpowers methodology, reading the papers, exploring the architectures. You are in the minority who REALLY get it.",
-        tools: [
-          '<strong>Claude Code Max</strong> with every plugin',
-          '<strong>Superpowers</strong> · TDD + subagent-driven-dev methodology',
-          '<strong>Context7 + Simon Willison tools</strong> · to stay on the cutting edge',
-          '<strong>Supabase</strong> · to store agent memory',
+      "explorer": {
+        "pitch": "You want to understand what's under the hood. My pick · go through the path quickly up to step 3, then dig into \"Go further\": MCP, RAG, agents.",
+        "tools": [
+          "<strong>The Claude or ChatGPT app</strong> · to test what you read yourself",
+          "<strong>NotebookLM</strong> · to query your own documents, <a href=\"/en/articles/notebooklm-explique\">free</a>",
+          "<strong>The model comparison</strong> · <a href=\"/en/modeles-ia\">who does what right now</a>"
         ],
-        prompts: [
-          'The <a href="/downloads/jeremy-prompts-pack.md" download>Leo ruleset</a> + the 3 personal prompts',
-          'My <a href="/downloads/CLAUDE.md" download>global CLAUDE.md</a> + the advanced skills from the <a href="/downloads/jeremy-claude-pack.zip" download>pack</a>',
+        "prompts": [
+          "The message from <a href=\"/en/apprendre#etape-03\">step 3</a>, then change the instruction to see how AI organizes itself",
+          "After each task · \"explain what you just did, step by step\""
         ],
-        reads: [
-          '<a href="/en/articles/superpowers">Superpowers · the plugin that forces Claude to think</a>',
-          '<a href="/en/articles/karpathy">Karpathy\'s work, made simple</a>',
-          '<a href="/en/articles/autoresearch-karpathy">Self-improving agents</a>',
-          '<a href="/en/articles/llm-wiki-karpathy">The LLM Wiki, your second brain</a>',
-        ],
-      },
+        "reads": [
+          "<a href=\"/en/apprendre#plus-loin\">The path · Go further</a>",
+          "<a href=\"/en/articles/mcp-explique-simplement\">MCP, explained simply</a>",
+          "<a href=\"/en/articles/rag-pour-non-dev\">Get AI to answer from your documents</a>"
+        ]
+      }
     };
 
     return { profil: profils[top].label, reco: RECOS[top] };

@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modèles IA image et vidéo — Nano Banana, Sora, Gemini Omni</title>
-<meta name="description" content="Nano Banana Pro vs Nano Banana 2, GPT Image, Midjourney, Ideogram, FLUX, Sora, Veo, Gemini Omni, Runway : quels modèles IA créatifs choisir selon l'usage.">
+<title>Modèles IA image et vidéo — Nano Banana, Veo, Gemini Omni</title>
+<meta name="description" content="Nano Banana Pro vs Nano Banana 2.1, GPT Image, Midjourney, Ideogram, FLUX, Veo, Gemini Omni, Runway : quels modèles IA créatifs choisir selon l'usage.">
 
 <meta property="og:title" content="Modèles IA image et vidéo">
-<meta property="og:description" content="Je trie Nano Banana, GPT Image, Midjourney, FLUX, Sora, Veo, Gemini Omni et Grok Imagine par usage concret.">
+<meta property="og:description" content="Je trie Nano Banana, GPT Image, Midjourney, FLUX, Veo, Gemini Omni et Grok Imagine par usage concret.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://jerwis.fr/modeles-image-ia">
 <meta property="og:locale" content="fr_FR">
@@ -19,7 +19,7 @@
 <meta name="twitter:site" content="@JeremySagnier">
 <meta name="twitter:creator" content="@JeremySagnier">
 <meta name="twitter:title" content="Modèles IA image et vidéo">
-<meta name="twitter:description" content="Nano Banana Pro vs 2, GPT Image, Midjourney, Gemini Omni, Sora, Veo : le guide pratique.">
+<meta name="twitter:description" content="Nano Banana Pro vs 2.1, GPT Image, Midjourney, Gemini Omni, Veo : le guide pratique.">
 <!-- Favicon set -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
@@ -296,6 +296,29 @@
     text-decoration: none;
   }
   .source-link:hover { text-decoration: underline; }
+  /* Statut des fiches (mise à jour du 2 novembre 2026) */
+  .tag.tag-new { background: var(--teal); border-color: var(--teal); color: #0A0A0A; font-weight: 700; }
+  .tag.tag-replaced { background: transparent; border-color: var(--orange); color: var(--ink); }
+  .tag.tag-verify { background: transparent; border-color: var(--fuchsia); color: var(--fuchsia); font-weight: 700; }
+  .model-status { margin: 0 0 10px; }
+  .model-date {
+    margin-top: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+  }
+  .model-card.is-old { opacity: .86; }
+  .audio-detail .replaced-note {
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 4px 10px;
+    border: 1px solid var(--orange);
+    border-radius: 999px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    line-height: 1.4;
+    color: var(--ink);
+  }
   .model-meta {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px;
@@ -762,7 +785,7 @@
         </a>
         <a href="/lexique" role="menuitem">
           <span class="more-icon">📚</span>
-          <span class="more-text"><strong>Lexique IA</strong><span>40 termes expliqués</span></span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
         </a>
         <a href="/workflows" role="menuitem">
           <span class="more-icon">🔁</span>
@@ -813,8 +836,8 @@
   <section class="creative-hero">
     <div class="creative-inner">
       <div>
-        <div class="kicker">Image · vidéo · création IA</div>
-        <h1>Nano Banana, Sora, Gemini Omni : <em>quoi choisir ?</em></h1>
+        <div class="kicker">Image · vidéo · création IA · mis à jour le 2 novembre 2026</div>
+        <h1>Nano Banana, Veo, Gemini Omni : <em>quoi choisir ?</em></h1>
         <p class="lead">
           Les modèles créatifs ne se choisissent pas comme un chatbot. Ici je sépare <strong>brouillon rapide, image finale, texte dans l'image, vidéo courte, audio synchronisé, montage et formats sociaux</strong>.
         </p>
@@ -825,7 +848,7 @@
           <div class="hero-stat"><b id="statImage">--</b><span>modèles image suivis</span></div>
           <div class="hero-stat"><b id="statVideo">--</b><span>modèles vidéo suivis</span></div>
           <div class="hero-stat"><b id="statAudio">--</b><span>modèles audio suivis</span></div>
-          <div class="hero-stat"><b>Mai 26</b><span>dernière vérification</span></div>
+          <div class="hero-stat"><b>Nov. 26</b><span>dernière vérification</span></div>
         </div>
       </aside>
     </div>
@@ -849,7 +872,7 @@
       </article>
       <article class="decision-card">
         <h3>Variantes rapides</h3>
-        <p><strong>Nano Banana 2</strong> pour tester vite des compositions, styles et idées avant de garder la meilleure piste.</p>
+        <p><strong>Nano Banana 2.1</strong> pour tester vite des compositions, styles et idées avant de garder la meilleure piste.</p>
         <a class="card-link" href="https://labs.google" target="_blank" rel="noopener">labs.google →</a>
       </article>
       <article class="decision-card">
@@ -869,7 +892,7 @@
       </article>
       <article class="decision-card">
         <h3>Vidéo IA</h3>
-        <p><strong>Gemini Omni</strong> pour l'édition multimodale, <strong>Sora</strong> pour narration, <strong>Veo</strong> pour scène courte avec audio.</p>
+        <p><strong>Gemini Omni</strong> pour l'édition multimodale, <strong>Kling 3.0</strong> pour enchaîner plusieurs plans, <strong>Veo</strong> pour scène courte avec audio.</p>
         <a class="card-link" href="#video">Voir la section vidéo ↓</a>
       </article>
     </div>
@@ -887,7 +910,7 @@
       </article>
       <article class="banana">
         <div class="label">Itération rapide</div>
-        <h3>Nano Banana 2</h3>
+        <h3>Nano Banana 2.1</h3>
         <ul>
           <li>Meilleur choix pour explorer vite plusieurs directions.</li>
           <li>Plus logique pour brouillons, tests, styles et lots d'images.</li>
@@ -958,8 +981,8 @@
 
   <div class="mini-marquee" aria-hidden="true">
     <div class="mini-marquee-track">
-      <span>Gemini Omni</span><span>Sora</span><span>Veo</span><span>Runway</span><span>Kling</span><span>Grok Imagine</span>
-      <span>Gemini Omni</span><span>Sora</span><span>Veo</span><span>Runway</span><span>Kling</span><span>Grok Imagine</span>
+      <span>Gemini Omni</span><span>Veo</span><span>Runway</span><span>Kling</span><span>Grok Imagine</span>
+      <span>Gemini Omni</span><span>Veo</span><span>Runway</span><span>Kling</span><span>Grok Imagine</span>
     </div>
   </div>
 
@@ -987,8 +1010,8 @@
     <div class="decision-grid-video">
       <article class="decision-card">
         <h3>Narration courte</h3>
-        <p><strong>Sora</strong> est conçu pour produire une séquence avec une intention narrative claire — utile pour un teaser, un spot ou un storytelling de 10 à 20 secondes.</p>
-        <a class="card-link" href="https://openai.com/sora" target="_blank" rel="noopener">openai.com/sora →</a>
+        <p><strong>Kling 3.0</strong> enchaîne plusieurs plans d'un coup, avec le son synchronisé. Utile pour un teaser ou une petite histoire en quelques plans. Sora, que je mettais ici, a été arrêté par OpenAI en 2026.</p>
+        <a class="card-link" href="https://klingai.com" target="_blank" rel="noopener">klingai.com →</a>
       </article>
       <article class="decision-card">
         <h3>Audio synchronisé</h3>
@@ -1007,8 +1030,8 @@
       </article>
       <article class="decision-card">
         <h3>Clip rapide social</h3>
-        <p><strong>Kling 2.5 Turbo</strong> reste un concurrent sérieux pour des clips courts. À garder sous la main, mais à sourcer avant tout usage marque-sensible.</p>
-        <a class="card-link" href="https://klingai.com" target="_blank" rel="noopener">klingai.com →</a>
+        <p><strong>Gemini Omni 1.1 Flash</strong> a un mode brouillon pas cher. Pratique pour tester un clip court avec le son avant de lancer la version finale.</p>
+        <a class="card-link" href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com →</a>
       </article>
       <article class="decision-card">
         <h3>Test format social</h3>
@@ -1019,15 +1042,15 @@
 
     <div class="compare-strip" style="margin-top:32px;">
       <article class="banana">
-        <div class="label">Narration premium</div>
-        <h3>Sora</h3>
+        <div class="label">Plusieurs plans</div>
+        <h3>Kling 3.0</h3>
         <ul>
-          <li>Pensé pour les séquences avec intention de story.</li>
-          <li>Image-to-video et génération audio intégrés.</li>
-          <li>À privilégier quand la qualité narrative compte plus que la rapidité.</li>
-          <li>Reste dans l'écosystème OpenAI : pratique si tu y es déjà.</li>
+          <li>Enchaîne plusieurs plans dans une même vidéo.</li>
+          <li>Le son est synchronisé avec l'image.</li>
+          <li>Sorti en février 2026, il remplace Kling 2.5 Turbo.</li>
+          <li>Il prend la place de Sora, arrêté par OpenAI en 2026.</li>
         </ul>
-        <a class="card-link" href="https://openai.com/sora" target="_blank" rel="noopener" style="color:var(--orange);margin-top:18px;">openai.com/sora →</a>
+        <a class="card-link" href="https://klingai.com" target="_blank" rel="noopener" style="color:var(--orange);margin-top:18px;">klingai.com →</a>
       </article>
       <article class="banana">
         <div class="label">Audio natif sync</div>
@@ -1058,14 +1081,6 @@
         </thead>
         <tbody>
           <tr>
-            <td><a class="source-link" href="https://openai.com/sora" target="_blank" rel="noopener">Sora ↗</a></td>
-            <td>10–20 s</td>
-            <td>Oui (récent)</td>
-            <td>Oui</td>
-            <td>Chat OpenAI · API</td>
-            <td>Narration courte, teaser, storytelling</td>
-          </tr>
-          <tr>
             <td><a class="source-link" href="https://labs.google/fx/fr/tools/flow" target="_blank" rel="noopener">Veo 3.1 ↗</a></td>
             <td>8–10 s</td>
             <td><b>Oui — natif</b></td>
@@ -1074,9 +1089,9 @@
             <td>Scène avec dialogue ou ambiance sonore</td>
           </tr>
           <tr>
-            <td><a class="source-link" href="https://gemini.google.com" target="_blank" rel="noopener">Gemini Omni ↗</a></td>
+            <td><a class="source-link" href="https://gemini.google.com" target="_blank" rel="noopener">Gemini Omni 1.1 Flash ↗</a></td>
             <td>Court</td>
-            <td>Possible (multimodal)</td>
+            <td>Oui</td>
             <td>Oui</td>
             <td>Gemini · Flow · API</td>
             <td>Édition vidéo en conversation</td>
@@ -1090,12 +1105,12 @@
             <td>Production studio, timeline créative</td>
           </tr>
           <tr>
-            <td><a class="source-link" href="https://klingai.com" target="_blank" rel="noopener">Kling 2.5 Turbo ↗</a></td>
+            <td><a class="source-link" href="https://klingai.com" target="_blank" rel="noopener">Kling 3.0 ↗</a></td>
             <td>Court</td>
-            <td>Limité</td>
+            <td>Oui, synchronisé</td>
             <td>Oui</td>
             <td>Web app · API</td>
-            <td>Clip rapide, format social</td>
+            <td>Plusieurs plans d'un coup, format social</td>
           </tr>
           <tr>
             <td><a class="source-link" href="https://grok.com" target="_blank" rel="noopener">Grok Imagine ↗</a></td>
@@ -1104,6 +1119,10 @@
             <td>Limité</td>
             <td>X · Grok app</td>
             <td>Test format social, jetable</td>
+          </tr>
+          <tr>
+            <td>Sora <span class="tag tag-replaced">arrêté</span></td>
+            <td colspan="5">OpenAI l'a arrêté en 2026, l'appli en avril et l'API le 24 septembre.</td>
           </tr>
         </tbody>
       </table>
@@ -1135,7 +1154,7 @@
       </article>
       <article class="reality-card">
         <h4>L'audio reste souvent à faire</h4>
-        <p>Sauf Veo 3.1 et Sora qui essaient l'audio natif, la plupart des sorties sont muettes. ElevenLabs ou un sound designer restent souvent nécessaires.</p>
+        <p>Sauf Veo 3.1, Gemini Omni et Kling 3.0, qui font aussi le son, la plupart des sorties sont muettes. ElevenLabs ou un sound designer restent souvent nécessaires.</p>
       </article>
     </div>
 
@@ -1150,7 +1169,7 @@
         <div class="workflow-step">
           <div class="workflow-step-num">02</div>
           <b>Animation</b>
-          <span>Passe en image-to-video sur Sora, Veo 3.1 ou Runway pour la séquence courte.</span>
+          <span>Passe en image-to-video sur Veo 3.1, Kling ou Runway pour la séquence courte.</span>
         </div>
         <div class="workflow-step">
           <div class="workflow-step-num">03</div>
@@ -1181,17 +1200,17 @@
     <div class="decision-grid">
       <article class="decision-card">
         <h3>Narration propre</h3>
-        <p><strong>Eleven v3</strong> reste la référence quand tu veux une voix qui ne sonne pas synthétique : voiceover de vidéo, podcast, livre audio. C'est ce que j'utilise pour <em>Guerres d'IA</em>.</p>
+        <p><strong>Eleven v4</strong>, sortie en septembre 2026, prend la suite d'Eleven v3, la voix que j'utilise pour <em>Guerres d'IA</em>. La référence quand tu veux une voix qui ne sonne pas synthétique, pour un voiceover, un podcast ou un livre audio.</p>
         <a class="card-link" href="https://elevenlabs.io" target="_blank" rel="noopener">elevenlabs.io →</a>
       </article>
       <article class="decision-card">
         <h3>Agent vocal temps réel</h3>
-        <p><strong>Gemini Native Audio</strong> est pensé pour des agents qui parlent <em>et</em> écoutent — pas juste lire un texte. À regarder si tu construis un assistant vocal interactif.</p>
+        <p><strong>Gemini 3.8 Live</strong> est pensé pour des agents qui parlent <em>et</em> écoutent, pas juste pour lire un texte. Il remplace Gemini Native Audio. À regarder si tu construis un assistant vocal interactif.</p>
         <a class="card-link" href="https://ai.google.dev/gemini-api/docs/live" target="_blank" rel="noopener">ai.google.dev/live →</a>
       </article>
       <article class="decision-card">
         <h3>Transcription</h3>
-        <p><strong>Whisper</strong> reste utile pour transcrire audio → texte. Modèle open-weight d'OpenAI, peut tourner localement, idéal pour du volume sans coût par minute.</p>
+        <p><strong>Whisper</strong> reste utile pour transcrire audio → texte. Modèle open-weight d'OpenAI, peut tourner localement, idéal pour du volume sans coût par minute. Dans l'API, OpenAI le remplace par GPT-Transcribe.</p>
         <a class="card-link" href="https://github.com/openai/whisper" target="_blank" rel="noopener">github.com/openai/whisper →</a>
       </article>
       <article class="decision-card">
@@ -1207,6 +1226,7 @@
     <div class="audio-detail-grid">
       <article class="audio-detail">
         <h4>Eleven v3</h4>
+        <p class="replaced-note">Remplacé par Eleven v4 en septembre 2026</p>
         <div class="audio-detail-sub">ElevenLabs · text-to-speech · propriétaire</div>
         <p>Le modèle voix grand public le plus naturel sur la narration longue. Voix françaises crédibles, contrôle prosodie (pauses, intonation, emphase) via tags, voice cloning à partir de 1 minute d'échantillon.</p>
         <dl>
@@ -1222,6 +1242,7 @@
 
       <article class="audio-detail">
         <h4>Gemini Native Audio</h4>
+        <p class="replaced-note">Remplacé par Gemini 3.8 Live et Gemini 3.8 Flash TTS</p>
         <div class="audio-detail-sub">Google · audio bidirectionnel temps réel · propriétaire</div>
         <p>Capable d'écouter ET de répondre vocalement, en temps réel, avec interruptions naturelles. La brique pour construire un agent qui converse — pas juste un TTS qui lit un script.</p>
         <dl>
@@ -1440,6 +1461,15 @@
 
   // Liens directs d'accès grand public (pas la doc, l'app)
   const ACCESS_URLS = {
+    // Modèles de novembre 2026
+    'google-nano-banana-2-1': 'https://gemini.google.com',
+    'openai-gpt-image-2-5': 'https://chatgpt.com',
+    'black-forest-labs-flux-3': 'https://bfl.ai',
+    'google-gemini-omni-1-1-flash': 'https://gemini.google.com',
+    'kling-3-0': 'https://klingai.com',
+    'xai-grok-imagine-video-1-5': 'https://grok.com',
+    'elevenlabs-v4': 'https://elevenlabs.io',
+    // Anciens modèles (gardés dans le JSON, marqués remplacés)
     'google-nano-banana-pro': 'https://labs.google',
     'google-nano-banana-2': 'https://labs.google',
     'openai-gpt-image': 'https://chatgpt.com',
@@ -1459,18 +1489,53 @@
     'mistral-voxtral': 'https://huggingface.co/mistralai/Voxtral-Small-24B-2507'
   };
 
-  function renderCard(model) {
+  const MONTHS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+
+  function formatDate(iso) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    return m ? `${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} ${m[1]}` : '';
+  }
+
+  // Les nouveaux en tête, puis les actuels, les fiches à vérifier, les remplacés et les arrêtés
+  function statusRank(model, checkedAt) {
+    if (model.status === 'discontinued') return 4;
+    if (model.status === 'replaced') return 3;
+    if (model.freshness_status === 'to_verify') return 2;
+    if (model.added_at && model.added_at === checkedAt) return 0;
+    return 1;
+  }
+
+  function statusTags(model, byId, checkedAt) {
+    if (model.status === 'replaced') {
+      const by = (byId[model.replaced_by] && byId[model.replaced_by].name) || model.replaced_by_name || '';
+      return `<span class="tag tag-replaced">${by ? 'Remplacé par ' + by : 'Remplacé'}</span>`;
+    }
+    if (model.status === 'discontinued') return '<span class="tag tag-replaced">Arrêté</span>';
+    let tags = '';
+    if (model.added_at && model.added_at === checkedAt) tags += '<span class="tag tag-new">Nouveau</span>';
+    if (model.freshness_status === 'to_verify') tags += '<span class="tag tag-verify">À vérifier</span>';
+    return tags;
+  }
+
+  function renderCard(model, byId, checkedAt) {
     const accessUrl = ACCESS_URLS[model.id] || model.sources[0];
+    const tags = statusTags(model, byId, checkedAt);
+    const date = formatDate(model.last_verified);
+    const access = model.status === 'discontinued'
+      ? ''
+      : `<a class="source-link" href="${accessUrl}" target="_blank" rel="noopener">Accéder →</a>`;
     return `
-      <article class="model-card">
+      <article class="model-card${model.status === 'active' ? '' : ' is-old'}">
         <div class="model-meta">${model.provider} · ${labelize(model.license)} · score ${model.jerwis_score || '—'}</div>
         <h3>${model.name}</h3>
+        ${tags ? `<div class="tag-row model-status">${tags}</div>` : ''}
         <p>${model.leo_take}</p>
         <div class="tag-row">
           ${(model.choose_if || []).slice(0, 2).map(item => `<span class="tag">${item}</span>`).join('')}
         </div>
+        ${date ? `<div class="model-date">Vérifié le ${date}</div>` : ''}
         <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;">
-          <a class="source-link" href="${accessUrl}" target="_blank" rel="noopener">Accéder →</a>
+          ${access}
           <a href="${model.sources[0]}" target="_blank" rel="noopener" style="color:var(--ink-muted);text-decoration:none;font-size:12px;font-family:'JetBrains Mono',monospace;">Docs ↗</a>
         </div>
       </article>
@@ -1481,17 +1546,30 @@
     .then(res => res.json())
     .then(data => {
       const models = data.models || [];
-      const imageModels = models.filter(m => m.category === 'image');
-      const videoModels = models.filter(m => m.category === 'video');
-      const audioModels = models.filter(m => m.category === 'audio');
-      document.getElementById('imageGrid').innerHTML = imageModels.map(renderCard).join('');
-      document.getElementById('videoGrid').innerHTML = videoModels.map(renderCard).join('');
+      const checkedAt = (data.meta && data.meta.last_checked) || '';
+      const byId = Object.fromEntries(models.map(m => [m.id, m]));
+      const byCategory = cat => models
+        .map((m, i) => ({ m, i }))
+        .filter(x => x.m.category === cat)
+        .sort((a, b) => statusRank(a.m, checkedAt) - statusRank(b.m, checkedAt) || a.i - b.i)
+        .map(x => x.m);
+      const imageModels = byCategory('image');
+      const videoModels = byCategory('video');
+      const audioModels = byCategory('audio');
+      const fill = (id, list) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = list.map(m => renderCard(m, byId, checkedAt)).join('');
+      };
+      fill('imageGrid', imageModels);
+      fill('videoGrid', videoModels);
+      // Compteurs : modèles actuels seulement (sans les remplacés ni les arrêtés)
+      const current = list => list.filter(m => m.status === 'active').length;
       const si = document.getElementById('statImage');
       const sv = document.getElementById('statVideo');
       const sa = document.getElementById('statAudio');
-      if (si) si.textContent = imageModels.length;
-      if (sv) sv.textContent = videoModels.length;
-      if (sa) sa.textContent = audioModels.length;
+      if (si) si.textContent = current(imageModels);
+      if (sv) sv.textContent = current(videoModels);
+      if (sa) sa.textContent = current(audioModels);
     });
 </script>
 <script src="assets/nav-v2.js" defer></script>

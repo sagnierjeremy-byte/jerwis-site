@@ -1,5 +1,28 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Mieux apprendre Claude et les IA (P1 à P10)
+
+### Pourquoi
+Demande de Jérémy : « regarde encore ce qu'on peut améliorer pour leur apprendre Claude et les IA ». Dix points validés en bloc (« fait de P1 à P10 go »), page https://claude.ai/artifact/RLgpcC1r83YHLY1BzTYjaJ, plan `_internal/ameliorer-apprentissage/PLAN.md`. Règle en vigueur : zéro terminal pour les débutants.
+
+### Livré
+- **P1** : exercice « Fais résumer un vrai document » (3 min) en tête de l'étape 02 d'`apprendre.html` (FR + EN).
+- **P2** : 5 fiches de lexique FR + EN (Cowork, ChatGPT Work, mode agent, projet, navigateur IA) avec sources, hubs, sitemaps et données ; menu « Plus de 270 termes expliqués » sur 114 pages + `seo-unify-nav.js` + `termbase.json` ; compteurs des hubs (271 FR, 277 EN) ; « Les 8 mots » : #04 « CLI / Terminal » remplacé par « L'app sur ton ordinateur » (ancre `#cli` conservée). Générateur du lexique : chemins avec espace corrigés, date par fiche, mais **ne plus le lancer** (sortie divergente, voir CLAUDE.md).
+- **P3** : quiz FR + EN, les 5 profils renvoient à une étape du parcours ; lien 404 et outils de terminal retirés.
+- **P4** : page Débutant FR + EN, « Deux façons d'utiliser Claude » au lieu des « 3 portes », Claude Code présenté comme l'outil des développeurs, FAQ, profils et fin de page réalignés.
+- **P5** : guide `articles/ia-qui-travaille-sur-ton-ordinateur` (écrit à la main, sources officielles datées), carte 03.1 du parcours, cover, carte Articles et « À la une » ; traduction EN par le circuit du blog (rattrape aussi `arnaques-mails-sms-ia`).
+- **P6** : comparatif `data/models-ai.json` au 2 novembre (36 modèles vérifiés ajoutés, 25 « remplacés », Sora « arrêté », 16 « à vérifier ») ; `modeles-ia`, `modeles-image-ia`, `modeles-ia-monde` FR + EN (top 6, groupes, groupe « Remplacés récemment », dates). Les pages EN chargeaient le JSON par un chemin relatif (404) : corrigé. Recherche : `_internal/ameliorer-apprentissage/modeles-novembre-2026.json`.
+- **P7** : `claude-code.html` FR + EN démarre dans l'app Claude (`#demarrer`), modèles Claude 5 et prix revérifiés, terminal et Ghostty en annexe `#annexe-terminal` ; anciens ids conservés.
+- **P8** : 6 sujets en priorité 0 dans `data/topic-queue.json` (avec `parcours_etape`) + règle « lecteur débutant » dans `scripts/blog/generate-draft.mjs`.
+- **P9** : `_internal/ameliorer-apprentissage/integrer-video.mjs` prêt (testé puis annulé), attend l'enregistrement de Jérémy.
+- **P10** : cours par mail en 6 mails (`scripts/cours/`, workflow `cours-par-mail.yml`, mail 1 via `api/subscribe.js`), **coupé** (`COURS_MAIL`), bloc d'inscription prêt hors page, en attente de la validation des mails.
+
+### Vérifié
+- 28 pages FR/EN à 390 et 1 440 px : aucun débordement, aucune erreur console, JSON-LD valides, 391 liens internes en 200 ; les 5 profils du quiz FR/EN ; envoi du cours simulé (jours 2 et 11 seulement, sources et désabonnés ignorés).
+
+### Reste
+- Les pages EN du comparatif affichent les textes de cartes en français (le JSON est unique).
+
 ## 2026-11-02 · Page Apprendre, version novembre 2026
 
 ### Pourquoi
