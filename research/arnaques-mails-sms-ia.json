@@ -1,0 +1,146 @@
+{
+  "topic": "les arnaques par mail et SMS écrites par l'IA (faux colis, faux partage Google Drive, fausse CAF) : comment les repérer en 2026 après les grandes fuites de données",
+  "slug": "arnaques-mails-sms-ia",
+  "type": "A",
+  "generated_at": "2026-11-02",
+  "angle": "Cet article fournit aux entrepreneurs non-développeurs des méthodes concrètes et actualisées pour identifier les arnaques par mail et SMS générées par IA en 2026, en tenant compte des dernières avancées technologiques et des fuites de données.",
+  "intent": "Le lecteur souhaite comprendre comment les IA sont utilisées pour créer des arnaques sophistiquées (faux colis, faux partages, fausse CAF) et acquérir des techniques de détection efficaces et à jour pour se protéger et protéger son entreprise après les récentes fuites de données.",
+  "keywords": [
+    "arnaques IA 2026",
+    "phishing IA fuites de données",
+    "détecter faux mails IA",
+    "cybercriminalité IA entrepreneurs",
+    "sécurité numérique 2026"
+  ],
+  "facts": [
+    {
+      "claim": "Les cybercriminels utilisent l'IA en 2026 pour personnaliser des attaques à grande échelle, générer des deepfakes vocaux et vidéo pour usurper des identités, créer des malwares adaptatifs et automatiser la recherche de vulnérabilités.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4wrKA8uim_Wiy_xlbObEvjjvKW4NHrnoVLSFJ1pJSPwZ_96QDvLzOWyNXMuUEq8aDxr72DlLpJiHWamm9W2oxDSl9AwxIfy1GQ442YsVC0kgL1k3xNnDj-zVogAfPCFgOfuxBIxdqPO8e0v3FEf9XYCtwSEuw-h7wsyqC3A9fXaxbk181pXlARDHlfbcgSSAnQ0",
+      "date": "2026-06"
+    },
+    {
+      "claim": "Les attaques de phishing assistées par IA produisent des emails sans fautes d'orthographe, rendant leur détection humaine plus difficile en 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4dJ20dkRjdRlj5Cb-z8L4B06pX9YwVpQVOoeeg8KLJRjpSH6qM5-SXYMD_xQD5etA7B07lB7SuQr684s3gfnTYm9g4LcSgn00eZf9PdonWX4OboYlr4r9XUGE3vgEwLQQthPT8rKq5gPZhVe3_YYJRPtRVJnfNovi6UnxQp-xGb5q",
+      "date": "2026-02"
+    },
+    {
+      "claim": "Le 'quishing' (phishing par QR code) a augmenté de 400% entre 2023 et 2025, représentant une nouvelle technique d'arnaque en pleine croissance.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4dJ20dkRjdRlj5Cb-z8L4B06pX9YwVpQVOoeeg8KLJRjpSH6qM5-SXYMD_xQD5etA7B07lB7SuQr684s3gfnTYm9g4LcSgn00eZf9PdonWX4OboYlr4r9XUGE3vgEwLQQthPT8rKq5gPZhVe3_YYJRPtRVJnfNovi6UnxQp-xGb5q",
+      "date": "2026-02"
+    },
+    {
+      "claim": "OpenAI a lancé GPT-6 Astra le 3 septembre 2026, un modèle avancé pour l'ingénierie logicielle, la cybersécurité et le travail professionnel.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWfhkMYZc21JdNgaQl2L1r2rQqh7LL4cRJhdj1yVUW0nlXe3IUDfBMmDspYdRMO1qDbka68PBxE9n0Bnut0aDgehkWyzkNZjOLtKV2HLeUPyEvXBroPB1v1HpLR6ibKgMnBJK9E5KrBw0xvA",
+      "date": "2026-09-03"
+    },
+    {
+      "claim": "Google a rendu Gemini 4 Argon généralement disponible le 13 octobre 2026, un modèle de pointe pour les tâches complexes en programmation, finance, droit et cybersécurité.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEi505e5jH-b5JoVb-jBzMJgP8ScgHN5LAlcEG9KQgk7FWlcl7nVSH575ORguvaUPIZhAlM_sn378hGKiMDQbTRV3ZEZU0imcwYnYVHzFk3FMpmLuxGw8kBPCix5jJ7jUibQB6RZcj_tDra6qfHJSpg==",
+      "date": "2026-10-13"
+    },
+    {
+      "claim": "Anthropic a lancé Claude Haiku 5.5 le 7 octobre 2026, un modèle rapide et économique pour les tâches à grand volume avec une fenêtre de contexte d'un million de tokens.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzY7Faf_Ak_A-4-vPRgPltwfb9LKT68NddhbiREgNucuCroK3WDbJiN8TdvGSzlQSFw0OO82quRQA59c7o6Zd2-z0diCCLZ0a9ghBVSk9LwQxv1Uglj3En_vAhwNh4dCfuD7f9pdhO6H6AxusNkAzW3FTNng==",
+      "date": "2026-10-07"
+    },
+    {
+      "claim": "Midjourney V8.2 est la version par défaut depuis le 24 juillet 2026, axée sur l'esthétique, la qualité d'image et la personnalisation.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNj0KrH70k5HOc-GC876euf9w-1EcVEZmyJR-IczbW2-n8h5mXykzsG2GwnN-lVcwLyNlA2vWnB6X-PbaRO67Uc_fTEheE9PSkg9DyZXj-eHNYJAB0N0FFHPA9zaTfKujgV6wL37LAwYIdZLIRYhoBRJ5BaNomq1ygfmS90BAx",
+      "date": "2026-07-24"
+    },
+    {
+      "claim": "Mistral AI a publié la préversion de Mistral Large 4 (Le Chonk) le 6 octobre 2026, avec des poids ouverts le 2 novembre 2026, améliorant le codage et la cybersécurité défensive.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuX_in9vNGEftecXqfz3OFcjsquygSiB3aKqTwEwAfHF-bb8O2W2nsEpbPSlMRpMf3UoUr_p9Fg_AhsyAOr66D6vUVpaWpaZ8a8dgG-AcoIZCMiQGZoD-596N4jy6DoM_qmfle-_vHKEqh",
+      "date": "2026-11-02"
+    },
+    {
+      "claim": "Grok 4.7, le dernier modèle de xAI, a été lancé le 21 septembre 2026, avec une fenêtre de contexte de 500 000 tokens.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjyh4e-AhqgjeC_thqTDwCPFk3cYp9S5anJZjy1C9jsWOonz_qr9sq2VxZfIAQZqX93FxGRyRkwMA-gPbJcRrPEieIapBr2WdtDWjhYQjYkrqxFv2u7QdUI-Gb_IOBbX2qjgTIZb4ntQ==",
+      "date": "2026-09-21"
+    },
+    {
+      "claim": "ElevenLabs a sorti Eleven v4 et Eleven v4 Turbo le 28 septembre 2026, ses modèles de synthèse vocale les plus rapides et émotifs à ce jour, supportant plus de 90 langues.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQForWj5iS7czO_4gJGyxLCDsPlqe7tgd5oonCLdM8eAFxGpC2Wov2sURBnm1LTezDU84euuMa8J0Jpo8u572inlZNpTfRrExGoxDVXdgoMuZ7p85jlLBiWv75-pN_t0Kg1UMhQ=",
+      "date": "2026-09-28"
+    },
+    {
+      "claim": "Google Imagen 4 a été abandonné le 17 août 2026 (API Gemini) et le 30 juin 2026 (Vertex AI), remplacé par les modèles Nano Banana pour la génération d'images.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSPe8zmONC0IJOVMEKUxFsIBv2Bf2_D6bAlDS440cCw0tWfh-6zu5dUU25ngkuFGH5WwxdZXBI31niHscHh7YRiIDR1rMlG-OIfzo0UdkLH81W4PzUkmQHUMTxow==",
+      "date": "2026-08-17"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Le coût moyen mondial d'une violation de données a atteint 4,99 millions de dollars en 2026, soit une augmentation de 12% par rapport à l'année précédente.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvOFITK7KNywkCTA3LvSARmr1T24d7d88tILWE7hMkuKk9be0O2YKuq4aiF--1Eab8C2wFQmPBOhs4YexlKLnYZGj1oNH6ex7YwBnudJpcOeYRjnJ6UXvsl-CGZPYWe9N-4xQSOSU8Pw==",
+      "date": "2026"
+    },
+    {
+      "stat": "Le phishing alimenté par l'IA devrait dépasser 42% de toutes les intrusions mondiales d'ici la fin de 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGejhd9RnRqdt0VOjiFRlmSDFVQrETc8pcJUVpArHGhjN7TRHuTLGnt8kprDYEMovBOwTWLTzYgkBpFNhftOyaHwYE_LQdlqaytxEFmak7uwbVJkriUpGKzNM7nKhplLZU5zR-CR0tHmxwGnnwnAUTSEOGKeenOFTXJ_iOshY3p38TwaYoO_BRqKcRt-V-q9SD",
+      "date": "2026"
+    },
+    {
+      "stat": "En France, 32,9% des demandes d'aide en 2025 concernaient un hameçonnage, avec une augmentation de 71% des demandes liées à l'hameçonnage entre 2024 et 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU65ZmguVty7OnquTVw8s7uCaQtFnpYQBrVCGwOC5NzFlotboXFoasGeOFFl4ZDxG8g-TMpks5u1o2t1zYQT9n6aru31lQJcvD_04xdFIbRrNQV_krQZ0-9x8sxpMq",
+      "date": "2025"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/arnaque-faux-conseiller-voix-clonee",
+      "why": "Pour approfondir la thématique des arnaques vocales et des deepfakes audio, souvent générés par IA."
+    },
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Pour expliquer le lien entre les fuites de données et la personnalisation accrue des arnaques par IA."
+    },
+    {
+      "url": "/articles/reperer-contenu-ia-deepfake",
+      "why": "Pour fournir des méthodes générales de détection de contenu généré par IA, applicables aux arnaques."
+    },
+    {
+      "url": "/articles/verifier-info-ia",
+      "why": "Pour renforcer l'importance de la vérification des informations et des sources, cruciale face aux arnaques sophistiquées."
+    },
+    {
+      "url": "/lexique/hallucination",
+      "why": "Pour expliquer que même les IA peuvent 'halluciner' ou générer des informations incorrectes, ce qui peut être exploité ou être un signe d'alerte dans une arnaque."
+    }
+  ],
+  "outline": [
+    "L'essor des arnaques par IA : pourquoi 2026 est une année charnière",
+    "Anatomie d'une arnaque IA : faux colis, faux Drive, fausse CAF et au-delà",
+    "Les signaux d'alerte invisibles : comment l'IA masque les indices traditionnels",
+    "Fuites de données et personnalisation : le carburant des arnaques de nouvelle génération",
+    "Vos outils de détection en 2026 : techniques et réflexes pour entrepreneurs",
+    "Protéger votre entreprise : stratégies préventives et réactives"
+  ],
+  "faq": [
+    "Comment savoir si un mail de ma banque ou de l'administration est un faux, même s'il est parfait ?",
+    "Les IA peuvent-elles cloner ma voix ou celle de mes proches pour une arnaque téléphonique ?",
+    "Quels sont les nouveaux types d'arnaques par SMS que je dois surveiller en 2026 ?",
+    "Mon entreprise est-elle plus vulnérable aux arnaques par IA après une fuite de données ?",
+    "Existe-t-il des outils IA pour m'aider à détecter les arnaques générées par d'autres IA ?",
+    "Comment former mes équipes à reconnaître ces nouvelles menaces sans être paranoïaque ?"
+  ],
+  "pitfalls": [
+    "Ne pas sous-estimer la capacité des IA à produire des textes et des voix sans aucune faute grammaticale ou de syntaxe, rendant les indices traditionnels obsolètes.",
+    "Éviter de se fier uniquement aux outils de détection d'IA, car ils peuvent être contournés ou générer des faux positifs ; l'éducation humaine reste primordiale."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4wrKA8uim_Wiy_xlbObEvjjvKW4NHrnoVLSFJ1pJSPwZ_96QDvLzOWyNXMuUEq8aDxr72DlLpJiHWamm9W2oxDSl9AwxIfy1GQ442YsVC0kgL1k3xNnDj-zVogAfPCFgOfuxBIxdqPO8e0v3FEf9XYCtwSEuw-h7wsyqC3A9fXaxbk181pXlARDHlfbcgSSAnQ0",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4dJ20dkRjdRlj5Cb-z8L4B06pX9YwVpQVOoeeg8KLJRjpSH6qM5-SXYMD_xQD5etA7B07lB7SuQr684s3gfnTYm9g4LcSgn00eZf9PdonWX4OboYlr4r9XUGE3vgEwLQQthPT8rKq5gPZhVe3_YYJRPtRVJnfNovi6UnxQp-xGb5q",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWfhkMYZc21JdNgaQl2L1r2rQqh7LL4cRJhdj1yVUW0nlXe3IUDfBMmDspYdRMO1qDbka68PBxE9n0Bnut0aDgehkWyzkNZjOLtKV2HLeUPyEvXBroPB1v1HpLR6ibKgMnBJK9E5KrBw0xvA",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEi505e5jH-b5JoVb-jBzMJgP8ScgHN5LAlcEG9KQgk7FWlcl7nVSH575ORguvaUPIZhAlM_sn378hGKiMDQbTRV3ZEZU0imcwYnYVHzFk3FMpmLuxGw8kBPCix5jJ7jUibQB6RZcj_tDra6qfHJSpg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzY7Faf_Ak_A-4-vPRgPltwfb9LKT68NddhbiREgNucuCroK3WDbJiN8TdvGSzlQSFw0OO82quRQA59c7o6Zd2-z0diCCLZ0a9ghBVSk9LwQxv1Uglj3En_vAhwNh4dCfuD7f9pdhO6H6AxusNkAzW3FTNng==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNj0KrH70k5HOc-GC876euf9w-1EcVEZmyJR-IczbW2-n8h5mXykzsG2GwnN-lVcwLyNlA2vWnB6X-PbaRO67Uc_fTEheE9PSkg9DyZXj-eHNYJAB0N0FFHPA9zaTfKujgV6wL37LAwYIdZLIRYhoBRJ5BaNomq1ygfmS90BAx",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuX_in9vNGEftecXqfz3OFcjsquygSiB3aKqTwEwAfHF-bb8O2W2nsEpbPSlMRpMf3UoUr_p9Fg_AhsyAOr66D6vUVpaWpaZ8a8dgG-AcoIZCMiQGZoD-596N4jy6DoM_qmfle-_vHKEqh",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjyh4e-AhqgjeC_thqTDwCPFk3cYp9S5anJZjy1C9jsWOonz_qr9sq2VxZfIAQZqX93FxGRyRkwMA-gPbJcRrPEieIapBr2WdtDWjhYQjYkrqxFv2u7QdUI-Gb_IOBbX2qjgTIZb4ntQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQForWj5iS7czO_4gJGyxLCDsPlqe7tgd5oonCLdM8eAFxGpC2Wov2sURBnm1LTezDU84euuMa8J0Jpo8u572inlZNpTfRrExGoxDVXdgoMuZ7p85jlLBiWv75-pN_t0Kg1UMhQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSPe8zmONC0IJOVMEKUxFsIBv2Bf2_D6bAlDS440cCw0tWfh-6zu5dUU25ngkuFGH5WwxdZXBI31niHscHh7YRiIDR1rMlG-OIfzo0UdkLH81W4PzUkmQHUMTxow==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvOFITK7KNywkCTA3LvSARmr1T24d7d88tILWE7hMkuKk9be0O2YKuq4aiF--1Eab8C2wFQmPBOhs4YexlKLnYZGj1oNH6ex7YwBnudJpcOeYRjnJ6UXvsl-CGZPYWe9N-4xQSOSU8Pw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGejhd9RnRqdt0VOjiFRlmSDFVQrETc8pcJUVpArHGhjN7TRHuTLGnt8kprDYEMovBOwTWLTzYgkBpFNhftOyaHwYE_LQdlqaytxEFmak7uwbVJkriUpGKzNM7nKhplLZU5zR-CR0tHmxwGnnwnAUTSEOGKeenOFTXJ_iOshY3p38TwaYoO_BRqKcRt-V-q9SD",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU65ZmguVty7OnquTVw8s7uCaQtFnpYQBrVCGwOC5NzFlotboXFoasGeOFFl4ZDxG8g-TMpks5u1o2t1zYQT9n6aru31lQJcvD_04xdFIbRrNQV_krQZ0-9x8sxpMq"
+  ]
+}

@@ -435,8 +435,9 @@
       "topic": "les arnaques par mail et SMS écrites par l'IA (faux colis, faux partage Google Drive, fausse CAF) : comment les repérer en 2026 après les grandes fuites de données",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-02"
     },
     {
       "id": "idees-cadeaux-noel-ia",
