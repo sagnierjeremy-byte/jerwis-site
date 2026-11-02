@@ -1,62 +1,54 @@
 {
-  "generated_at": "2026-11-01T11:38:51.898Z",
-  "day_label": "Dimanche 1 novembre",
+  "generated_at": "2026-11-02T13:02:28.572Z",
+  "day_label": "Lundi 2 novembre",
   "items": [
     {
-      "title": "Nouvelle taxe de 2 € sur les produits importés dans l'UE",
-      "why_it_matters": "Je retiens que cette taxe va toucher tous les produits importés. Si je vends ou achète sur Temu ou AliExpress, mes coûts changent dès maintenant.",
+      "title": "L'IA évalue les salariés sans avoir prouvé qu'elle rentabilise quoi que ce soit",
+      "why_it_matters": "Je note que la moitié des patrons n'utilise presque pas l'IA, mais elle note déjà les salariés. C'est rapide comme adoption.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/54696279961081/temu-shein-aliexpress-une-nouvelle-taxe-de-deux-euros-appliquee-aux-produits-importes-dans-lunion-europeenne"
+          "name": "Intelligence Artificielle",
+          "url": "https://intelligence-artificielle.com/lia-entre-dans-les-evaluations-des-salaries-avant-davoir-prouve-sa-rentabilite/"
         }
       ]
     },
     {
-      "title": "Commerce : -80% de chiffre d'affaires en marge des manifestations",
-      "why_it_matters": "Je note que même avec moins de dégradations, mes clients ont peur et restent chez eux. Le chiffre d'affaires s'effondre quand même.",
+      "title": "Taxe sur les produits chinois : ce que paie vraiment une PME",
+      "why_it_matters": "Je retiens qu'importer de Chine coûte plus cher depuis la nouvelle taxe. Si vous êtes une PME industrielle, vérifiez votre code douanier.",
       "sources": [
         {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/20-commerces-vandalises-samedi-contre-2-488-le-17-octobre-cci-france-constate-une-nette-baisse-des-degradations-en-marge-des-manifestations-mais-s-inquiete-d-une-forte-chute-du-chiffre-d-affaires-des-magasins-pouvant-atteindre-80_AD-202611010225.html"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/manifestations-du-31-octobre-20-commerces-degrades-samedi-20261101"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/management/direction-generale/1557385-taxe-produits-chinois-ce-que-paie-vraiment-une-pme-industrielle/"
         }
       ]
     },
     {
-      "title": "Le budget 2027 déjà caduc avant d'être voté",
-      "why_it_matters": "Je retiens que le rapporteur général annonce un refus du Parlement. L'instabilité politique freine mes choix d'investissement.",
+      "title": "100 € de plus pour un Smicard coûtent 473 € au patron",
+      "why_it_matters": "Augmenter un salarié au Smic de 100 € coûte 473 € au patron. Je retiens que le coût du travail français reste un frein.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/le-budget-pas-encore-adopte-est-il-deja-caduc-oui-affirme-philippe-juvin-rapporteur-general-de-la-commission-des-finances-a-l-assemblee-nationale_8262695.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/le-budget-sera-refuse-par-le-parlement-prevoit-philippe-juvin-rapporteur-general-du-projet-de-loi-de-finances-qui-plaide-pour-un-recours-au-49-3_8262554.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/augmenter-de-100-euros-un-salarie-au-smic-coute-473-euros-au-patron-il-faut-revoir-ce-systeme-lance-gabriel-attal-1531486"
         }
       ]
     },
     {
-      "title": "Des gangs de pirates confient leurs attaques à l'IA",
-      "why_it_matters": "Je note qu'une nouvelle vague attaque les entreprises automatiquement. La sécurité de mes données n'est plus un luxe, c'est une urgence.",
-      "sources": [
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/a-la-vitesse-de-la-machine-4-gangs-de-pirates-ont-confie-leurs-cyberattaques-a-lia.html"
-        }
-      ]
-    },
-    {
-      "title": "L'open source manque de financements, alertent les experts",
-      "why_it_matters": "Je retiens que l'EFF et la fondation Linux tirent la sonnette d'alarme. Ma dépendance aux outils libres et aux Gafam est un risque réel.",
+      "title": "Les assureurs coupent l'IA de leurs contrats, ça crée un vide",
+      "why_it_matters": "Je note que les assureurs classiques fuient l'IA. Si vous utilisez des agents IA, vous devrez peut-être changer d'assurance.",
       "sources": [
         {
           "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/blogs/l-esprit-libre/libre-et-open-source-express-apocalypse-de-vulnerabilite-entreprises-europeennes-sortir-des-gafam-boycott-domarchy-507056.htm#xtor=RSS-1"
+          "url": "https://www.zdnet.fr/actualites/avez-vous-besoin-dune-assurance-responsabilite-civile-pour-les-agents-ia-ce-quil-faut-savoir-avant-de-souscrire-507100.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "France 2030 : les outils informatiques bloquent les aides publiques",
+      "why_it_matters": "La Cour des comptes dit que France 2030 est mal piloté à cause des outils informatiques. Je retiens que les aides publiques peinent à arriver.",
+      "sources": [
+        {
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/business-1367/france-2030-pilotage-outil-informatique-230044"
         }
       ]
     }
