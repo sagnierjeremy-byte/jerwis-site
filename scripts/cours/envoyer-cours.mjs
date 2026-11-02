@@ -43,14 +43,23 @@ if (args[0] === '--test') {
 
 if (process.env.COURS_MAIL !== 'on') { console.log('Cours par mail coupé (variable COURS_MAIL ≠ on), rien envoyé.'); process.exit(0); }
 
-// Audience : celle du site (RESEND_AUDIENCE_ID si fournie, sinon la seule audience du compte)
+// Audience : celle du site (RESEND_AUDIENCE_ID si fournie, sinon la seule audience du compte dont les contacts
+// portent l'étiquette « src: » posée par api/subscribe.js ; plusieurs candidates = arrêt sans rien envoyer)
 let audience = process.env.RESEND_AUDIENCE_ID;
+let contacts = null;
 if (!audience) {
   const liste = (await resend('/audiences')).data || [];
-  if (liste.length !== 1) { console.error(`✗ ${liste.length} audiences sur le compte : renseigne RESEND_AUDIENCE_ID.`); process.exit(1); }
-  audience = liste[0].id;
+  const candidates = [];
+  for (const a of liste) {
+    const cs = (await resend(`/audiences/${a.id}/contacts`)).data || [];
+    if (liste.length === 1 || cs.some((c) => String(c.last_name || '').startsWith('src:'))) candidates.push({ ...a, cs });
+  }
+  if (candidates.length !== 1) { console.error(`✗ ${candidates.length} audiences possibles sur ${liste.length} : renseigne RESEND_AUDIENCE_ID.`); process.exit(1); }
+  audience = candidates[0].id;
+  contacts = candidates[0].cs;
+  console.log(`Audience du site : « ${candidates[0].name} » (${audience}).`);
 }
-const contacts = (await resend(`/audiences/${audience}/contacts`)).data || [];
+contacts = contacts || (await resend(`/audiences/${audience}/contacts`)).data || [];
 const aujourdhui = Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate());
 let envoyes = 0;
 for (const c of contacts) {
