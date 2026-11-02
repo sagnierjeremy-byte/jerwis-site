@@ -783,6 +783,20 @@
   .quickwin.qw-resume .quickwin-kicker,
   .quickwin.qw-resume h3 em,
   .quickwin.qw-resume .quickwin-result-label { color: var(--fuchsia) }
+  /* Cours par mail (P10, 2026-11-02) */
+  .cours-mail { border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--teal) 6%, var(--bg)) }
+  .cours-mail-inner { display: flex; gap: 28px; align-items: center; justify-content: space-between; flex-wrap: wrap; padding: 30px 0 }
+  .cours-mail-texte { flex: 1 1 340px }
+  .cours-mail-kicker { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--teal) }
+  .cours-mail h2 { font-size: clamp(20px, 3vw, 27px); line-height: 1.1; margin: 10px 0 6px; letter-spacing: -.02em; color: var(--ink) }
+  .cours-mail h2 em { font-style: normal; color: var(--teal) }
+  .cours-mail p { margin: 0; color: var(--ink-muted); font-size: 15px; max-width: 54ch }
+  .cours-mail form { flex: 1 1 320px; display: flex; flex-direction: column; gap: 8px; max-width: 430px }
+  .cours-mail .rang { display: flex; gap: 10px }
+  .cours-mail input[type=email] { flex: 1; min-width: 0; padding: 13px 16px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--bg-2); color: var(--ink); font: inherit; font-size: 15px }
+  .cours-mail button { padding: 13px 20px; border-radius: 12px; border: 0; cursor: pointer; background: var(--teal); color: #fff; font: 700 12px 'JetBrains Mono', monospace; letter-spacing: .05em; text-transform: uppercase; white-space: nowrap }
+  .cours-mail small { font-size: 12px; color: var(--ink-muted) }
+  @media (max-width: 640px) { .cours-mail .rang { flex-direction: column } }
   .qw-gestes { margin: 14px 0 0; padding-left: 1.3em; color: var(--ink-soft); font-size: 15px; line-height: 1.6; display: flex; flex-direction: column; gap: 4px; max-width: 64ch }
   .qw-gestes a { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 3px }
   .qw-gestes a:hover { color: var(--orange) }
@@ -1057,6 +1071,27 @@
     </div>
   </div>
 </div>
+
+<!-- Cours par mail « Apprendre l'IA en 3 étapes » (source cours-3-etapes) -->
+<section class="cours-mail" aria-labelledby="cours-mail-titre">
+  <div class="container">
+    <div class="cours-mail-inner">
+      <div class="cours-mail-texte">
+        <span class="cours-mail-kicker">Le parcours, par mail</span>
+        <h2 id="cours-mail-titre">Six mails, <em>six exercices.</em></h2>
+        <p>Pendant douze jours, un mail court tous les deux ou trois jours, avec un exercice de quelques minutes, dans l'ordre du parcours. Tu reçois aussi ma veille du vendredi. Désinscription en 1 clic.</p>
+      </div>
+      <form id="cours-mail-form">
+        <div class="rang">
+          <input type="email" name="email" placeholder="ton@email.com" required autocomplete="email" aria-label="Adresse e-mail">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+          <button type="submit">Je commence</button>
+        </div>
+        <small class="cours-mail-note">Le premier mail arrive tout de suite.</small>
+      </form>
+    </div>
+  </div>
+</section>
 
 <!-- ========== ÉTAPE 01 · Commencer ========== -->
 <section class="step s-teal" id="etape-01">
@@ -1750,6 +1785,23 @@ Quand c'est prêt, montre-moi le résultat.</pre>
 })();
 </script>
 <script src="/assets/lang-toggle.js" defer></script>
+<script>
+(function () {
+  var form = document.getElementById('cours-mail-form');
+  if (!form) return;
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    if (form.querySelector('input[name="website"]').value) return;
+    var btn = form.querySelector('button'), note = form.querySelector('.cours-mail-note'), orig = btn.textContent;
+    btn.disabled = true; btn.textContent = '...';
+    try {
+      var r = await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: form.email.value.trim(), source: 'cours-3-etapes' }) });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      btn.textContent = 'C\'est parti'; note.textContent = 'Regarde ta boîte mail, et tes spams au cas où.';
+    } catch (err) { btn.textContent = 'Réessaie'; btn.disabled = false; setTimeout(function () { btn.textContent = orig; }, 2500); }
+  });
+})();
+</script>
 <script src="/assets/bandeau-kzumi.js" defer></script>
 </body>
 </html>

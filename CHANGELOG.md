@@ -35,6 +35,7 @@ Demande de Jérémy : « regarde encore ce qu'on peut améliorer pour leur appre
 - **P8** : 6 sujets en priorité 0 dans `data/topic-queue.json` (avec `parcours_etape`) + règle « lecteur débutant » dans `scripts/blog/generate-draft.mjs`.
 - **P9** : `_internal/ameliorer-apprentissage/integrer-video.mjs` prêt (testé puis annulé), attend l'enregistrement de Jérémy.
 - **P10** : cours par mail en 6 mails (`scripts/cours/`, workflow `cours-par-mail.yml`, mail 1 via `api/subscribe.js`), **coupé** (`COURS_MAIL`), bloc d'inscription prêt hors page, en attente de la validation des mails.
+- **P10, activé le 02-11** : 6 mails validés par Jérémy, envoi test reçu sur son adresse d'alertes, bloc d'inscription posé sur `apprendre.html`, `COURS_MAIL=on`.
 
 ### Vérifié
 - 28 pages FR/EN à 390 et 1 440 px : aucun débordement, aucune erreur console, JSON-LD valides, 391 liens internes en 200 ; les 5 profils du quiz FR/EN ; envoi du cours simulé (jours 2 et 11 seulement, sources et désabonnés ignorés).
