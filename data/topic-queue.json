@@ -420,6 +420,166 @@
       "status": "done",
       "added": "2026-07-20",
       "published_at": "2026-09-14"
+    },
+    {
+      "id": "arnaque-faux-conseiller-voix-clonee",
+      "topic": "l'arnaque au faux conseiller bancaire avec une voix clonée par l'IA : comment la reconnaître, les bons réflexes, et quand ta banque doit te rembourser",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "arnaques-mails-sms-ia",
+      "topic": "les arnaques par mail et SMS écrites par l'IA (faux colis, faux partage Google Drive, fausse CAF) : comment les repérer en 2026 après les grandes fuites de données",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "idees-cadeaux-noel-ia",
+      "topic": "trouver des idées de cadeaux de Noël avec l'IA : selon la personne et le budget, comparer les prix, créer une carte ou un cadeau personnalisé",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "enfants-chatbots-ia",
+      "topic": "ton enfant parle à ChatGPT ou à My AI de Snapchat : ce qu'il faut savoir, les réglages parentaux et comment en parler avec lui",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "donnees-google-meta-entrainement-ia",
+      "topic": "empêcher Google et Meta (Gmail, Google Photos, Instagram, Facebook) d'utiliser tes mails, photos et publications pour leur IA : les réglages à changer",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "budget-perso-avec-ia",
+      "topic": "gérer son budget avec l'IA : analyser ses dépenses, repérer les abonnements oubliés et préparer un plan d'épargne, sans jamais donner ses codes bancaires",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "chatgpt-au-travail-sans-autorisation",
+      "topic": "utiliser ChatGPT au travail quand ton entreprise ne l'a pas prévu : les vrais risques (données clients, secret professionnel) et comment en parler à ton manager",
+      "type": "A",
+      "priority": 1,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "agents-ia-agir-a-ta-place",
+      "topic": "laisser une IA agir à ta place (réserver, acheter, remplir un formulaire) : ce que savent vraiment faire les agents IA en 2026 et les précautions avant de leur confier ta carte bancaire",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "se-former-ia-gratuit-cpf",
+      "topic": "se former à l'IA gratuitement ou avec son CPF : les formations sérieuses en France et comment éviter les arnaques",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "candidature-filtres-ia-recruteurs",
+      "topic": "premier emploi ou stage quand les recruteurs trient les candidatures avec l'IA : comment passer les filtres automatiques sans tricher",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "courses-moins-cher-ia",
+      "topic": "faire ses courses moins cher avec l'IA : planifier ses repas, comparer les prix, faire sa liste, ce qui marche vraiment en France",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "aider-parents-ia",
+      "topic": "aider ses parents ou grands-parents à utiliser l'IA sans se faire arnaquer : par où commencer, quels réglages, quels pièges",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "comprendre-papiers-ia",
+      "topic": "comprendre un document compliqué avec l'IA (fiche de paie, avis d'impôt, relevé de carrière, contrat) sans lui confier de données sensibles",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "chercher-logement-ia",
+      "topic": "chercher un logement avec l'IA : trier les annonces, repérer les arnaques à la location et préparer un dossier solide",
+      "type": "A",
+      "priority": 2,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "creer-app-sans-coder-ia",
+      "topic": "créer un site ou une petite application sans savoir coder grâce à l'IA (Lovable, Claude, ChatGPT) : ce qui est réaliste pour un débutant",
+      "type": "A",
+      "priority": 3,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "trier-photos-ia",
+      "topic": "retrouver n'importe quelle photo et trier des milliers de souvenirs avec l'IA de Google Photos et de Photos sur iPhone",
+      "type": "A",
+      "priority": 3,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "discours-ia",
+      "topic": "écrire un discours de mariage, d'anniversaire ou de pot de départ avec l'IA sans qu'il sonne faux",
+      "type": "A",
+      "priority": 3,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "sous-titres-transcription-ia",
+      "topic": "transcrire un audio et sous-titrer une vidéo gratuitement avec l'IA, pour YouTube, Instagram ou un souvenir de famille",
+      "type": "A",
+      "priority": 3,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "organiser-semaine-ia",
+      "topic": "organiser sa semaine avec l'IA : agenda, priorités, to-do list, les méthodes qui tiennent dans la durée",
+      "type": "A",
+      "priority": 3,
+      "status": "pending",
+      "added": "2026-11-02"
+    },
+    {
+      "id": "musique-ia-spotify",
+      "topic": "la musique générée par l'IA sur Spotify et Deezer : comment la reconnaître et ce que ça change pour les artistes",
+      "type": "A",
+      "priority": 3,
+      "status": "pending",
+      "added": "2026-11-02"
     }
   ]
 }

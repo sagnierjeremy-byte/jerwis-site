@@ -26,7 +26,11 @@ const node = (args) => spawnSync('node', args, { cwd: ROOT, encoding: 'utf8' });
 // 1) Sélection
 const sel = node(['scripts/blog/select-topic.mjs']);
 process.stderr.write(sel.stderr || '');
-if (sel.status === 3) { console.log('STATUS=empty'); process.exit(0); }  // file vide = rien à faire, pas une erreur
+if (sel.status === 3) {  // file vide = rien à faire, pas une erreur (refill-topics.mjs et notify-queue.mjs prennent le relais)
+  console.log('STATUS=empty');
+  await writeFile('/tmp/autopilot-status.txt', 'empty\n\n\n\n\n', 'utf8').catch(() => {});
+  process.exit(0);
+}
 if (sel.status !== 0) { console.error('select-topic a échoué'); process.exit(1); }
 const chosen = JSON.parse(sel.stdout.trim().split('\n').pop());
 const { id: slug, topic, type } = chosen;

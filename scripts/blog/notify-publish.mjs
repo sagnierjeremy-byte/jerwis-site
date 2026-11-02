@@ -53,7 +53,7 @@ function linkedinBlock() {
     return {
       html: `
     <hr style="border:none;border-top:1px solid #eee;margin:26px 0">
-    <p style="font:700 11px/1 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#EF426F;margin:0 0 10px">${process.env.LINKEDIN_SCHEDULED === 'oui' ? '📣 Post LinkedIn — DÉJÀ PROGRAMMÉ demain 8h30 via Zernio (copie ci-dessous)' : '📣 Post LinkedIn prêt à coller (programmation Zernio non faite)'}</p>
+    <p style="font:700 11px/1 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#EF426F;margin:0 0 10px">${process.env.LINKEDIN_SCHEDULED === 'oui' ? '📣 Post LinkedIn — DÉJÀ PROGRAMMÉ demain 8h30 via Zernio (copie ci-dessous)' : process.env.LINKEDIN_SCHEDULED === 'off' ? '📣 Post LinkedIn prêt à coller (programmation automatique coupée)' : '📣 Post LinkedIn prêt à coller (programmation Zernio non faite)'}</p>
     <div style="background:#FBF7F0;border:1px solid #eee;border-radius:10px;padding:16px;font-size:14px;line-height:1.55;white-space:pre-wrap">${escHtml(post)}</div>
     <p style="font-size:12px;color:#888;margin:10px 0 4px">1er commentaire (à poster juste après, c'est lui qui porte le lien) :</p>
     <div style="background:#FBF7F0;border:1px solid #eee;border-radius:10px;padding:12px;font-size:13px;line-height:1.5;white-space:pre-wrap">${escHtml(comment || '')}</div>`,
@@ -72,7 +72,9 @@ function carouselAttachment() {
       attachments: [{ filename: `carrousel-${slug}.pdf`, content: buf.toString('base64') }],
       html: process.env.LINKEDIN_SCHEDULED === 'oui'
         ? `<p style="font-size:13px;color:#555;margin:14px 0 0">🎠 <strong>Carrousel généré et déjà attaché au post programmé</strong> — copie en pièce jointe pour vérification.</p>`
-        : `<p style="font-size:13px;color:#555;margin:14px 0 0">🎠 <strong>Carrousel PDF en pièce jointe</strong> — la programmation Zernio n'a pas abouti : ajoute-le au post à la main.</p>`,
+        : process.env.LINKEDIN_SCHEDULED === 'off'
+          ? `<p style="font-size:13px;color:#555;margin:14px 0 0">🎠 <strong>Carrousel PDF en pièce jointe</strong>, à ajouter au post si tu le publies.</p>`
+          : `<p style="font-size:13px;color:#555;margin:14px 0 0">🎠 <strong>Carrousel PDF en pièce jointe</strong> — la programmation Zernio n'a pas abouti : ajoute-le au post à la main.</p>`,
       text: `\n\n(Carrousel PDF ${process.env.LINKEDIN_SCHEDULED === 'oui' ? 'déjà attaché au post programmé — copie jointe' : 'en pièce jointe — à ajouter au post à la main'}.)`,
     };
   } catch { return { attachments: [], html: '', text: '' }; }

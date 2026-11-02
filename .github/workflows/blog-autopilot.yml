@@ -4,6 +4,10 @@ name: Blog autopilot
 # si score ≥56/70 sans bloquant. Aucune validation, aucune notification sur publication.
 # Si la gate ne passe pas → article jeté en silence (sujet sorti de la file).
 # Alerte GitHub UNIQUEMENT si le système plante (clé API, quota, publication cassée).
+# File de sujets (plan du 02-11-2026) : à 4 sujets ou moins, refill-topics.mjs en ajoute 8
+# tirés de la veille, et notify-queue.mjs prévient par e-mail (ajout, 4 restants, ou file
+# vide le lundi). Posts LinkedIn : programmation Zernio seulement si la variable repo
+# BLOG_LINKEDIN vaut 'on' (coupée par défaut depuis le 02-11, le texte part dans le mail).
 
 on:
   schedule:
@@ -25,13 +29,13 @@ jobs:
       issues: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0   # historique complet → rebase fiable en cas de collision de push
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
           cache: 'npm'
@@ -75,33 +79,55 @@ jobs:
           CLAUDE: ${{ secrets.CLAUDE }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          BLOG_LINKEDIN: ${{ vars.BLOG_LINKEDIN }}
           LI_ACCOUNT: 69c06ed66cb7b8cf4c8f5689   # profil LinkedIn perso de Jérémy dans Zernio
         run: |
           node scripts/blog/linkedin-post.mjs "${{ steps.gen.outputs.slug }}"
           # Carrousel PDF si le post s'y prête (chiffre fort ou méthode) — livré en pièce jointe du mail
           node scripts/blog/linkedin-carousel.mjs "${{ steps.gen.outputs.slug }}" || echo "carrousel : skip ou échec (non bloquant)"
-          # Programme sur LinkedIn demain 8h30 Paris (échec = mail sans mention, à programmer à la main)
-          if [ -n "$ZERNIO_API_KEY" ] && node scripts/blog/zernio-schedule.mjs "${{ steps.gen.outputs.slug }}" tomorrow@08:30 --account="$LI_ACCOUNT"; then
+          # Programme sur LinkedIn demain 8h30 Paris, seulement si BLOG_LINKEDIN=on (coupé le 02-11 :
+          # le post part dans le mail, prêt à coller). Échec = mail sans mention, à programmer à la main.
+          if [ "$BLOG_LINKEDIN" != "on" ]; then
+            echo "Programmation LinkedIn coupée (variable BLOG_LINKEDIN ≠ on)."
+            echo "scheduled=off" >> "$GITHUB_OUTPUT"
+          elif [ -n "$ZERNIO_API_KEY" ] && node scripts/blog/zernio-schedule.mjs "${{ steps.gen.outputs.slug }}" tomorrow@08:30 --account="$LI_ACCOUNT"; then
             echo "scheduled=oui" >> "$GITHUB_OUTPUT"
           else
             echo "scheduled=non" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit + push (si publié)
-        if: steps.gen.outputs.status == 'published'
+      - name: Remplit la file de sujets (si 4 ou moins, non bloquant)
+        continue-on-error: true   # raté = réessai au passage suivant, la file étant toujours sous le seuil
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE: ${{ secrets.CLAUDE }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/blog/refill-topics.mjs
+
+      - name: Commit + push (publication ou file modifiée)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Checkout CI vierge (origin/main) → git add -A ne capture QUE les artefacts de publication
-          # (article HTML, articles.html, sitemap, RSS, OG, draft, topic-queue). research/ est gitignoré.
-          git add -A
+          if [ "${{ steps.gen.outputs.status }}" = "published" ]; then
+            # Checkout CI vierge (origin/main) → git add -A ne capture QUE les artefacts de publication
+            # (article HTML, articles.html, sitemap, RSS, OG, draft, topic-queue). research/ est gitignoré.
+            git add -A
+            message="feat(blog): publie '${{ steps.gen.outputs.slug }}' ($(date -u +%Y-%m-%d)) [auto]"
+          else
+            # Sujet écarté par la gate, ou sujets ajoutés par le remplissage : la file seule
+            # (sinon le sujet écarté reviendrait au passage suivant).
+            git add data/topic-queue.json
+            message="chore(blog): file de sujets mise à jour ($(date -u +%Y-%m-%d)) [auto]"
+          fi
           if git diff --cached --quiet; then echo "Rien à committer."; exit 0; fi
-          git commit -m "feat(blog): publie '${{ steps.gen.outputs.slug }}' ($(date -u +%Y-%m-%d)) [auto]"
+          git commit -m "$message"
           # push robuste : rebase + retry (évite les collisions concurrentes avec daily-news-summary sur main)
           for i in 1 2 3 4 5; do
             git push origin HEAD:main && exit 0
             echo "Push refusé (collision concurrente ?) — rebase puis retry $i/5"
-            git pull --rebase origin main || { echo "Rebase impossible"; exit 1; }
+            # --autostash : sans publication, le brouillon d'un sujet écarté reste hors commit
+            git pull --rebase --autostash origin main || { echo "Rebase impossible"; exit 1; }
             sleep 3
           done
           echo "Push définitivement échoué après 5 tentatives"; exit 1
@@ -119,6 +145,13 @@ jobs:
           NOTIFY_EMAIL: ${{ vars.NOTIFY_EMAIL }}
           LINKEDIN_SCHEDULED: ${{ steps.li.outputs.scheduled }}
         run: node scripts/blog/notify-publish.mjs "${{ steps.gen.outputs.slug }}" "${{ steps.gen.outputs.url }}"
+
+      - name: Prévient si la file baisse (email)
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL: ${{ vars.NOTIFY_EMAIL }}
+        run: node scripts/blog/notify-queue.mjs
 
       - name: Alerte si panne
         if: failure()

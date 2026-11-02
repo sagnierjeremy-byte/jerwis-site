@@ -17,6 +17,10 @@ export const MODELS = {
   judge: 'claude-sonnet-4-6',
 };
 
+// File de sujets (plan du 02-11-2026) : à ce nombre de sujets 'pending' ou moins,
+// refill-topics.mjs remplit la file et notify-queue.mjs prévient Jérémy.
+export const SEUIL_FILE = 4;
+
 // ─────────────────────────────────────────────────────────────
 // TON LEO — règles non négociables (miroir du CLAUDE.md)
 // ─────────────────────────────────────────────────────────────

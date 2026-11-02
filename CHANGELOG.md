@@ -1,5 +1,21 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Relance du blog automatique
+
+### Pourquoi
+Aucun article depuis le 14-09 (`ia-et-ecologie`). L'autopilote passait quatre fois par semaine mais les 46 sujets de `data/topic-queue.json` étaient tous publiés : `select-topic.mjs` sortait en 3, `autopilot.mjs` en 0, run « success » en 20 s, aucune alerte. Plan validé par Jérémy le 02-11 (P1, P2, P3, P5, P6 ; P4 « pas maintenant »), page https://claude.ai/artifact/YUxuYg1AVowA5xiWTJtqbf.
+
+### Livré
+- **P1** : 20 sujets ajoutés en `pending` (7 en priorité 1, 7 en 2, 6 en 3), dont la moitié tirée de la veille quotidienne de septembre-octobre.
+- **P2** : `scripts/blog/notify-queue.mjs`, e-mail Resend quand des sujets sont ajoutés, quand il en reste exactement 4, ou chaque lundi si la file est vide. Sans état.
+- **P3** : `scripts/blog/refill-topics.mjs`, à 4 sujets ou moins, 8 sujets proposés par le modèle à partir des titres de la veille des 30 derniers jours, contrôlés (adresse, doublon, longueur, tiret cadratin) puis ajoutés. `SEUIL_FILE` dans `config.mjs`.
+- **P4 (pas maintenant)** : programmation Zernio coupée sauf variable repo `BLOG_LINKEDIN=on` ; le post et le carrousel partent dans le mail de publication, prêts à coller (`notify-publish.mjs` dit « programmation automatique coupée »).
+- **P5** : `actions/checkout@v7` et `setup-node@v7` (Node 24) ; `downloads/skills/viral-content` (dépôt tiers, gitlink sans `.gitmodules`) retiré du suivi et ignoré, il reste dans le pack zip ; `autopilot.mjs` écrit son statut sur file vide.
+- Workflow : l'étape de commit tourne aussi sans publication et ne committe alors que la file (sujet écarté par la gate, sujets ajoutés).
+
+### Constaté
+- Crédit Anthropic à zéro (clé locale et secret `CLAUDE`) : la veille quotidienne passe sur Kimi K2.6 depuis au moins le 01-11, et l'autopilote ferait de même. Décision demandée à Jérémy (P7 de la page).
+
 ## 2026-11-02 · Bandeaux kzumi sur l'accueil et dans les articles
 
 ### Pourquoi

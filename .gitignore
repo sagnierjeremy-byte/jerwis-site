@@ -41,3 +41,7 @@ audio/
 
 # Carrousels LinkedIn (artefacts régénérables, livrés par email)
 linkedin/carousels/
+
+# Skill tiers (dépôt aaaronmiller/create-viral-content) gardé en local : déjà dans jeremy-claude-pack.zip,
+# suivi comme sous-dépôt sans .gitmodules il cassait le nettoyage des workflows (02-11-2026)
+downloads/skills/viral-content/
