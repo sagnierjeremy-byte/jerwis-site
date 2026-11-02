@@ -39,6 +39,7 @@ Hero dark + progress rail sticky 01→05 (IntersectionObserver) · 5 étapes : 0
 - **TOC + back-to-top OBLIGATOIRES** (depuis 2026-05-13) : `../assets/article-toc.css` dans le `<head>` + `../assets/article-toc.js` defer avant `</body>`. Zéro markup : auto-actif si ≥3 `<h2>` (sinon pas de TOC, volontaire) → sidebar desktop ≥1280px avec scroll spy + drawer mobile FAB « SOMMAIRE » + back-to-top. Touch targets ≥44px, safe-area iPhone, fermeture Escape/backdrop/swipe-down.
 - **Barre « Résumer avec une IA » OBLIGATOIRE** : `../assets/ai-summarize.css` + `.js` defer (juste après les fichiers TOC). S'auto-insère après le `.tldr` : Perplexity (auto-submit `?q=`) + ChatGPT (pré-rempli, `hints=search`) + dropdown « Autres IA » (Claude/Gemini/Le Chat/Copilot → **copy + open**, seul pattern fiable cross-IA, audit 2026-05-13). Prompt généré depuis `<link rel="canonical">`.
 - Après ajout : card dans `#learn` (`index.html`) et/ou l'étape d'`apprendre.html` · test local : TOC mobile OK, barre `.ai-summarize` après le TL;DR, Perplexity ouvre un résumé.
+- **Bandeau kzumi** (depuis 2026-11-02) : `../assets/bandeau-kzumi.js` defer juste après `ai-summarize.js` (présent dans `_TEMPLATE.html`). Vertical fixé dans la marge gauche dès 1 460×760 px, sinon bloc avant l'intertitre du milieu. Lien, images (`assets/pub/`) et étiquette « Mon autre projet » ne vivent que dans ce fichier. Ignoré sur les pages `lang="en"`. Équiper un article fait à la main : `node scripts/ajouter-bandeau-kzumi.mjs`.
 
 ## Publication (drafts → articles)
 - Drafts `drafts/*.md` (templates `_TEMPLATE.md`/`_TEMPLATE_VS.md` ignorés par le batch). Frontmatter requis : `slug`, `titre`, `description`, `hero_ligne_1`, `lead`, `duree`, `niveau`, `published` · optionnels : `titre_seo`, `hero_ligne_2/3`, `tldr[]`, `categorie`, `numero`, `outils`, `parcours_etape`.
@@ -50,7 +51,8 @@ Hero dark + progress rail sticky 01→05 (IntersectionObserver) · 5 étapes : 0
 ## Assets
 - `photos/` : 55 optimisées (1600px, qual 82), 7 utilisées · `photos/channels/` : avatars YouTube 176×176 (`scripts/fetch-youtube-avatars.mjs`).
 - `downloads/` : `CLAUDE.md` (version **anonymisée** du global de Jérémy) · `README.md` (guide install) · `skills/` (26 skills custom, officiels Anthropic exclus) · `jeremy-claude-pack.zip` (~700 Ko) · cheatsheet · prompts pack · OPML · `cours-email/` (cours 5 jours + `sequence-resend.md`).
-- Outils internes (ne pas déployer) : `_internal/contact-sheet.html` (galerie photos) · `_internal/classify-channels.html` (classement chaînes YT).
+- `assets/pub/` : bandeaux kzumi en WebP @1x/@2x (horizontal 970×250, vertical 300×600, carré 300×250). Accueil : `.bk-accueil` sous `#projects` (CSS dans `main.css`). Sources et rendu : `_internal/bandeaux-kzumi/` (`rendre.mjs`).
+- Outils internes (ne pas déployer) : `_internal/contact-sheet.html` (galerie photos) · `_internal/classify-channels.html` (classement chaînes YT) · `_internal/serveur-local.mjs` (aperçu local avec cleanUrls).
 
 ## Data stores (`data/`)
 | Fichier | Rôle | Alimenté par |

@@ -1,5 +1,21 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Bandeaux kzumi sur l'accueil et dans les articles
+
+### Pourquoi
+Demande de Jérémy : faire connaître kzumi (son app d'éducation financière) aux lecteurs de jerwis.fr, qui ne la croisaient nulle part. Plan en six points validé en entier le 02-11 (« je valide tout go »), page https://claude.ai/artifact/Euh6irEyX4MgjTwg4YbkRL.
+
+### Livré
+- **`assets/pub/`** : trois bandeaux en WebP @1x et @2x, aux couleurs de kzumi (noir, jaune #FFC800, mascotte) : horizontal 970×250, vertical 300×600, carré 300×250 pour téléphone. Sources et rendu dans `_internal/bandeaux-kzumi/` (hors git).
+- **Accueil** (`index.html` + `assets/main.css`, classe `.bk-accueil`) : bandeau sous les quatre cartes de `#projects`, carré sous 768 px, horizontal au-dessus. Lien `kzumi.com/?utm_source=jerwis&utm_medium=accueil&utm_campaign=bandeau`.
+- **Articles** (`assets/bandeau-kzumi.js`, qui porte lien, images, étiquette et son CSS) : dès 1 460×760 px, le vertical fixé dans la marge gauche face au sommaire, visible une fois le hero passé, effacé à `.article-end` ; plus petit, un bloc avant l'intertitre du milieu (mêmes intertitres que le sommaire, avant son `.section-kicker` s'il en a un). Lien `utm_medium=article`. Pages `lang="en"` exclues (la traduction EN recopie les scripts FR).
+- Ligne `<script src="../assets/bandeau-kzumi.js" defer>` ajoutée après `ai-summarize.js` dans les 72 articles FR et `_TEMPLATE.html` (donc les articles de l'autopilote) par `scripts/ajouter-bandeau-kzumi.mjs` (idempotent).
+- Étiquette « Mon autre projet » au-dessus de chaque bandeau ; fin contour pour qu'il se détache en mode sombre.
+
+### À venir
+- Remplacer les adresses `utm_*` par un lien `kzumi.com/g/…` (direct au store sur téléphone) quand la page Liens de la console kzumi sera en ligne : une ligne dans `bandeau-kzumi.js`, une dans `index.html`.
+- Les visites se lisent dans la console kzumi (sources du site), pas sur jerwis.fr.
+
 ## 2026-09-28 · Cache des fichiers statiques : fin du « immutable un an »
 
 ### Pourquoi
