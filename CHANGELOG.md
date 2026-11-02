@@ -1,5 +1,16 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Correctif : l'inscription du pied de page partait deux fois
+
+### Pourquoi
+Sur 8 pages (Outils, Workflows, Débutant, GitHub, FR et EN), un script de la page écoutait tous les `.newsletter-form`, y compris celui du pied : deux envois à `/api/subscribe` (le second parfois étiqueté « ai-playbook »), et une erreur JS sur 6 pages.
+
+### Livré
+- Le formulaire du pied s'appelle `rv-pied-form` (`scripts/revue-entete-pied.mjs`, `assets/revue.css`), posé sur les 406 pages (2 lignes par page). Le script remet désormais le pied de référence en français comme en anglais.
+
+### Vérifié
+- Envois interceptés sur 14 pages : en ligne avant correctif, 8 pages à 2 envois ; en local après, 1 envoi partout avec la bonne étiquette, aucune erreur JS, les autres formulaires des pages envoient toujours une fois. Script relancé : 0 page modifiée.
+
 ## 2026-11-02 · Refonte « la revue », temps 2 (accueil FR et EN)
 
 ### Pourquoi

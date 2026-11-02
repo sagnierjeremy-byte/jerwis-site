@@ -11,7 +11,10 @@
  *   avec nav-v2.css, nav-v2.js et nav-dropdown.js.
  * - Pied de page (.footer#contact ou .term-footer) : remplacé par le pied « revue »,
  *   avec son formulaire d'inscription (/api/subscribe, source "footer").
- * Idempotent : une page qui porte déjà rv-nav et rv-pied n'est pas réécrite.
+ *   Un pied « revue » qui diffère de PIED est remis à la référence. Le formulaire porte
+ *   la classe rv-pied-form, jamais newsletter-form : les scripts de plusieurs pages
+ *   écoutent tous les .newsletter-form et l'inscription partait deux fois (vu le 02-11).
+ * Idempotent : une page déjà à jour n'est pas réécrite.
  *
  * Usage : node scripts/revue-entete-pied.mjs [--dry] [--racine=<dossier>] [fichier.html …]
  */
@@ -52,7 +55,7 @@ const T = {
 };
 
 const FORM_JS = `<script>
-    document.querySelectorAll('.rv-pied .newsletter-form').forEach(function(form) {
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
       if (form.dataset.attached === '1') return;
       form.dataset.attached = '1';
       form.addEventListener('submit', async function(e) {
@@ -89,7 +92,7 @@ const PIED = {
         <h2>La lettre du <em>vendredi.</em></h2>
         <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
       </div>
-      <form class="newsletter-form" data-source="footer">
+      <form class="rv-pied-form" data-source="footer">
         <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
@@ -114,7 +117,7 @@ const PIED = {
         <h2>The <em>Friday letter.</em></h2>
         <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
       </div>
-      <form class="newsletter-form" data-source="footer-en">
+      <form class="rv-pied-form" data-source="footer-en">
         <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
@@ -187,10 +190,11 @@ export function habillerHtml(t, rel) {
     t = t.replace(BLOC_RE, () => blocReference('en'));
     notes.push('menu anglais de référence');
   }
+  // Pied déjà « revue » mais différent de la référence (traduction, ou PIED modifié ici) : on le remet.
   const piedActuel = t.match(/<footer class="rv-pied"[^>]*>[\s\S]*?<\/footer>/);
-  if (l === 'en' && piedActuel && piedActuel[0] !== PIED.en) {
-    t = t.replace(piedActuel[0], () => PIED.en);
-    notes.push('pied anglais de référence');
+  if (piedActuel && piedActuel[0] !== PIED[l]) {
+    t = t.replace(piedActuel[0], () => PIED[l]);
+    notes.push('pied de référence');
   }
 
   if (BLOC_RE.test(t)) {

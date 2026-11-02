@@ -1989,7 +1989,7 @@
         <h2>The <em>Friday letter.</em></h2>
         <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
       </div>
-      <form class="newsletter-form" data-source="footer-en">
+      <form class="rv-pied-form" data-source="footer-en">
         <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
@@ -2006,7 +2006,7 @@
     <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
   </div>
   <script>
-    document.querySelectorAll('.rv-pied .newsletter-form').forEach(function(form) {
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
       if (form.dataset.attached === '1') return;
       form.dataset.attached = '1';
       form.addEventListener('submit', async function(e) {

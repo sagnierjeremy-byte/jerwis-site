@@ -1387,7 +1387,7 @@
         <h2>La lettre du <em>vendredi.</em></h2>
         <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
       </div>
-      <form class="newsletter-form" data-source="footer">
+      <form class="rv-pied-form" data-source="footer">
         <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
         <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
@@ -1404,7 +1404,7 @@
     <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
   </div>
   <script>
-    document.querySelectorAll('.rv-pied .newsletter-form').forEach(function(form) {
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
       if (form.dataset.attached === '1') return;
       form.dataset.attached = '1';
       form.addEventListener('submit', async function(e) {
