@@ -207,7 +207,7 @@ console.error(`• Génération du draft "${slug}" (Type ${type})…`);
 const { provider, text } = await generate(prompt, {
   tier: type === 'B' ? 'makingof' : 'seo',
   temperature: 0.7,
-  max_tokens: 16000,   // marge confortable : un article de 2500 mots ne doit jamais être tronqué
+  max_tokens: 32000,   // marge confortable : un article de 2500 mots ne doit jamais être tronqué ; Kimi K2.6 (relais de Claude) réfléchit avant d'écrire, 16 000 l'ont laissé vide le 02-11
 });
 console.error(`  généré par : ${provider}`);
 

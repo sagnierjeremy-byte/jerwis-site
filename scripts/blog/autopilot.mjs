@@ -56,8 +56,8 @@ async function markTopic(id, patch) {
 
 // 3) MODE FULL-AUTO : publie tout seul si la gate passe ; sinon s'abstient en silence.
 let status, url = '';
-if (!draftExists) {
-  status = 'error';                    // recherche/génération KO → sujet reste 'pending' (réessai)
+if (!draftExists || run.status === 3) {
+  status = 'error';                    // recherche/génération KO (run.mjs sort en 3) → sujet reste 'pending' (réessai)
 } else if (passed) {
   const pub = spawnSync('node', ['scripts/blog/publish-auto.mjs', slug, `--type=${type}`, `--date=${today}`],
     { cwd: ROOT, stdio: 'inherit' });

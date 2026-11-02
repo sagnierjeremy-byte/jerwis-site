@@ -37,7 +37,7 @@ const run = (args, label) => {
 
 // 1) Recherche (idempotent : réutilise research/<slug>.json si déjà là on régénère quand même au 1er run)
 if (!run(['scripts/blog/research.mjs', topic, `--type=${type}`, `--out=research/${slug}.json`], `1/3 Recherche : ${topic}`)) {
-  console.error('✗ Recherche échouée.'); process.exit(1);
+  console.error('✗ Recherche échouée.'); process.exit(3);  // 3 = panne technique (≠ 1 = rejet gate) : autopilot garde le sujet
 }
 
 // 2-3) Génération + gate, avec boucle de régénération
@@ -45,7 +45,7 @@ let attempt = 0, passed = false;
 while (attempt <= RUBRIC.max_regen) {
   attempt++;
   if (!run(['scripts/blog/generate-draft.mjs', slug, `--num=${num}`], `2/3 Génération (essai ${attempt}/${RUBRIC.max_regen + 1})`)) {
-    console.error('✗ Génération échouée.'); process.exit(1);
+    console.error('✗ Génération échouée.'); process.exit(3);
   }
   const gate = spawnSync('node', ['scripts/blog/qa-gate.mjs', slug, `--type=${type}`], { cwd: ROOT, stdio: 'inherit' });
   console.log(`\n\x1b[1m▶ 3/3 Gate qualité (essai ${attempt})\x1b[0m`);
