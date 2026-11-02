@@ -1,5 +1,28 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Page Apprendre, version novembre 2026
+
+### Pourquoi
+Demande de Jérémy : « mets à jour l'onglet Apprendre, revois complètement le contenu version novembre 2026, simplifie tout ». Dix points validés le 02-11, puis remarque « ne mets pas le terminal, je veux qu'il utilise l'app desktop Claude directement ou ChatGPT » et revalidation. Page https://claude.ai/artifact/4wkh1JcVqjDFeBTSyFuftN, plan `_internal/apprendre-nov-2026/PLAN.md`.
+
+### Livré
+- **P1** : hero « L'IA, dans l'ordre. Sans être développeur. », mention « Mis à jour en novembre 2026 », 3 étapes · 12 lectures · ~1h50 · 0 €. Titre Google, descriptions, JSON-LD (LearningResource, Course, FAQPage) réécrits. Image de partage refaite (« 3 étapes », `scripts/og-root.html`), `?v=20261102`.
+- **P2** : « 60 secondes pour comprendre » en un paragraphe, deux preuves (Shirley, ma mère). La carte « Moi » (tuto Hermes, terminal) retirée.
+- **P3** : 5 questions au lieu de 10 (coder, prix, installer, casser, métier). Prix revérifiés le 02-11 : Claude Pro et ChatGPT Plus, ~20 $ HT par mois.
+- **P4** : 3 étapes de 4 cartes au lieu de 5 étapes et 24 lectures. Aucune lecture ne passe par le terminal. Cartes en 4 colonnes (titres réduits comme `.learn-grid.cols-4`). Progression remise à zéro (`jerwis_parcours_done_v4`).
+- **P5** : encadré « Fais-le maintenant · 10 min » de l'étape 3, dans l'app Claude (dossier ouvert à Claude) ou l'app ChatGPT (mode Work), message à copier qui fait créer une page web. Sources : aides Claude (« Claude Cowork and chat are one Claude ») et OpenAI (« ChatGPT Work et Codex ») consultées le 02-11.
+- **P6** : section `#prudence`, trois lectures anti-arnaque (voix clonée, deepfake, données).
+- **P7** : section `#plus-loin`, dix liens d'usages quotidiens. Seize articles sortent du parcours (restent en ligne).
+- **P8** : bloc « Reçois le parcours en 7 jours » supprimé avec son formulaire : aucune séquence n'existait, l'inscrit recevait seulement le mail de bienvenue AI Playbook.
+- **P9** : teaser `#learn` de l'accueil aligné (3 étapes + guide modèles, ~1h50). Il annonçait encore les 4 étapes d'avant juillet.
+- **P10** : `en/apprendre.html` et le teaser de `en/index.html` traduits à la main.
+
+### Vérifié
+- Zéro « terminal », « Ghostty », « Claude Code » et tiret cadratin dans le texte visible (FR et EN), JSON-LD valides, tous les liens internes en 200, aucune erreur console, aucun débordement à 390, 820, 1 180 et 1 440 px, clair et sombre. Bandeaux kzumi toujours posés (barre, menu, milieu, pied).
+
+### Reste hors périmètre
+- Une autre section de l'accueil présente encore Claude Code comme « la version terminal de Claude » (`index.html`, bloc Claude Code). Pas touché.
+
 ## 2026-11-02 · kzumi sur tout le site
 
 ### Pourquoi

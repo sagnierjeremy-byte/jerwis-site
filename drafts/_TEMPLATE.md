@@ -17,7 +17,7 @@ tldr:
   - "Point 1 avec <strong>mot clé</strong>"
   - "Point 2"
   - "Point 3"
-# parcours_etape: 2   # Décommente si l'article doit aller dans le parcours Apprendre (1/2/3/4)
+# parcours_etape: 2   # Décommente si l'article doit aller dans le parcours Apprendre (1/2/3, jamais un article qui passe par le terminal)
 ---
 
 <!-- section k-fuchsia -->
