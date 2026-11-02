@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/arnaque-faux-conseiller-voix-clonee.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Fake bank advisor scam: cloned voice and refunds</title>
+<meta name="description" content="How to spot a fake bank advisor scam using AI-cloned voices, protect your business funds, and obtain a full refund from your bank in case of fraud.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Fake bank advisor scam: cloned voice and refunds">
+<meta property="og:description" content="How to spot a fake bank advisor scam using AI-cloned voices, protect your funds, and get a bank refund.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/arnaque-faux-conseiller-voix-clonee">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/arnaque-faux-conseiller-voix-clonee.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-02">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Fake bank advisor scam: cloned voice and refunds">
+<meta name="twitter:description" content="How to spot a fake bank advisor scam using AI-cloned voices, protect your funds, and get a bank refund.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/arnaque-faux-conseiller-voix-clonee.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/arnaque-faux-conseiller-voix-clonee">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/arnaque-faux-conseiller-voix-clonee">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Fake bank advisor scam: cloned voice and refunds",
+  "description": "How to spot a fake bank advisor scam using AI-cloned voices, protect your business funds, and obtain a full refund from your bank in case of fraud.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/arnaque-faux-conseiller-voix-clonee",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/arnaque-faux-conseiller-voix-clonee.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+
+<link rel="stylesheet" href="/assets/article.css?v=20260706">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/en" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="/en#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Learn
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 13</div>
+    <h1>Fake bank advisor<br>when AI copies your bank<br><em>protect your business and your funds</em></h1>
+    <p class="hero-lead">
+      You got a call from your bank that seemed perfectly real, with your advisor's voice and the right number on your screen, yet something felt off? I dug into this AI voice cloning scam that is causing fraud to explode in 2026, because as a curious entrepreneur, I refuse to let these techniques get ahead of me.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> Phone</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li><strong>AI voice cloning scams</strong> use AI to mimic your bank advisor with disturbing realism.</li>
+      <li>Spoofing displays your bank's real number on your phone to lower your guard.</li>
+      <li>A 2026 CJEU ruling forces your bank to refund unauthorized payments in most cases.</li>
+      <li>The right reflex is still to hang up and call back yourself using the official number on your card.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>How does this scam work?</h2>
+    <p>I'm not a developer. I don't code. But I'm curious enough to want to understand how a stranger could end up emptying my business account by pretending to be my advisor.</p>
+    <p>The principle is simple. Scammers collect a few seconds of voice. They pull from videos posted on social media, ephemeral stories, voice messages, or clips from online conferences. These audio snippets are enough to feed AI tools that reproduce the voice with disturbing realism. The result? You get a call. You hear a voice you know. The tone is calm. The wording is right. And most importantly, the number on your screen matches your bank's exactly.</p>
+    <p>This technique is called phone spoofing. It lets scammers display the real number of the bank on your screen. The scam becomes push-button simple. You pick up without suspicion because your phone shows a contact you saved yourself. The scammer knows you're in the middle of a workday. He knows your attention is elsewhere. He exploits this human flaw.</p>
+    <p>The numbers are staggering. In 2026, fake bank advisor fraud cases rose 78% in France. Over 15,000 French people have been hit by scams using an AI-cloned voice since January 2026. The average loss is 2,400 euros. To give you a sense of scale, deepfake fraud attempts jumped 700% in one year in France between Q1 2024 and Q1 2025. This is no longer an amateur scam. It's a structured business, fueled by massive data leaks and the constant improvement of voice AI.</p>
+    <p>I do all this for myself first. Because if I don't understand the mechanism, I'm the next target.</p>
+    <h2>The warning signs</h2>
+    <p>A cloned voice is still a copy. It's convincing, but it doesn't react like a human when something unexpected happens.</p>
+    <p>First, urgency. The fake advisor pressures you. He mentions an ongoing fraud on your business account. He asks you to validate an operation immediately to secure your funds. He asks for a code you received by text. Here is the golden rule I have burned into my brain: a real bank advisor will never ask for your PIN or a password over the phone. Never.</p>
+    <p>Next, linearity. The conversation is too scripted. If you ask an unexpected question, if you suddenly change the subject, the voice clone struggles to adapt. The AI behind the voice can <a href="/en/lexique/hallucination">hallucinate</a> a coherent answer, but it often lacks the real fluidity of a human exchange. It repeats canned phrases. It hesitates in a mechanical way. It won't laugh at an improvised joke. Sometimes, you hear a slight lag in the response. A microsecond too long before the voice picks up again. It's not a network issue. It's the AI's calculation time generating the reply.</p>
+    <p>Finally, context. Your advisor calls you on a Saturday at 8 PM about an issue with your checking account? He asks you to install a remote access app? These things are outside normal protocol. They should set off alarm bells.</p>
+    <p>If you want to dig deeper into detecting AI-generated content, including audio and visual deepfakes, I detailed simple methods in my article on <a href="/en/articles/reperer-contenu-ia-deepfake">how to spot AI content or a deepfake</a>.</p>
+    <div class="callout tip">
+    <h4>The trap to avoid</h4>
+    <p>Never trust the number on your screen. Spoofing is so refined that it can reproduce your bank's exact caller ID. Your phone screen lies.</p>
+    </div>
+    
+    <h2>The reflex that saves you</h2>
+    <p>So what do you do when you pick up and the voice on the other end seems authentic?</p>
+    <p>Only one move matters. Hang up. Then call your bank's official number yourself. You'll find it on your bank's website or on the back of your debit card. You dial the number. You ask to speak to your advisor. If the original call was legit, you'll be reassured fast. If it was a scam, you just pulled the rug out from under the fraudster.</p>
+    <p>This reflex seems simple. Yet it's counterintuitive. When we're told our account is under threat, instinct pushes us to cooperate. The scammer knows this. He counts on that panic. Hanging up means taming that fear. I know how hard it is to hang up on someone who says they hold your security in their hands. The scammer plays on that guilt. He makes you believe hanging up puts your money at risk. It's the opposite.</p>
+    <p>I've made it a habit to warn my professional circle. On my team, we have a clear rule. No sensitive exchange happens on an incoming call. We always call back. It takes two minutes. It can save thousands of euros.</p>
+    <p>Massive data leaks fuel these attacks. Scammers already know where you bank, who your advisor is, and sometimes even how much you recently transferred. To understand how your personal data can be exploited by AI in this kind of context, read my article on <a href="/en/articles/donnees-perso-ia-confidentialite">the risks around personal data and privacy with AI</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Your bank must refund you</h2>
+    <p>Here is information that changes everything. On October 15, 2026, the Court of Justice of the European Union issued a clear ruling. European banks must refund unauthorized payments, even if the customer was grossly negligent. Only suspicion of fraud by the customer himself can justify a refusal.</p>
+    <p>This is massive protection. Before this ruling, many entrepreneurs had their own carelessness thrown back at them. The banker would argue that you gave out a code or answered a call. Today, the legal balance has shifted. Your bank remains responsible for the security of your payment methods.</p>
+    <p>This fits into a broader logic of European AI regulation. To put into context the obligations weighing on AI systems, including those used by scammers, I broke down the AI Act in my article on <a href="/en/articles/ai-act-pour-ton-business">the AI Act for your business</a>.</p>
+    <p>Of course, this is no reason to drop your guard. The refund can take time. The procedures are heavy. And if the bank thinks you acted in bad faith, you enter a legal tug-of-war. Better to avoid the theft than to fight for your money back.</p>
+    <h2>Protect your business every day</h2>
+    <p>I run a team. I can't watch every phone. So I set up simple rules.</p>
+    <p>No banking info travels over an incoming call. Period. No urgent payment is approved without double validation through a second channel. A text to a colleague. An internal email. A confirmation on a secure messenger. Something that breaks the fraudster's isolation.</p>
+    <p>I also train my team on how sophisticated these tools are. Understanding how AI is driven by prompts helps realize these calls aren't the work of a criminal mastermind, but a reproducible process. I explain this in my guide on <a href="/en/articles/ecrire-bon-prompt-non-dev">writing a good prompt without being a developer</a>. If you know how an AI is guided, you better measure its limits and its dangers.</p>
+    <p>We regularly check permissions on our business accounts. We delete inactive users. We turn on push transaction alerts on several phones. We block unplanned instant transfers. We also set transfer limits that require physical confirmation. No code by text alone. An internal video call. An electronic signature on a separate interface. Friction is our friend.</p>
+    <div class="callout tip">
+    <h4>My takeaways from the field</h4>
+    <p>Fake advisor fraud thrives on urgency and trust. The more you institutionalize slowness into your financial procedures, the more you disarm the attacker.</p>
+    </div>
+    
+    <h2>FAQ</h2>
+    <h3>How do scammers get your voice or your advisor's voice?</h3>
+    <p>Scammers collect a few seconds of voice from videos posted on social media, voice messages, or online appearances. These clips are enough to feed voice synthesis tools to create a realistic clone.</p>
+    <h3>Can a scam call really show your bank's number?</h3>
+    <p>It's not your bank calling. It's a technique called phone spoofing that lets scammers make your bank's real number appear on your screen. The displayed number is faked.</p>
+    <h3>What should you do if you already gave out information or approved a suspicious operation?</h3>
+    <p>Contact your bank immediately using the official number on your card. Block your payment methods. File a complaint. Report the fraud to the police. The faster you act, the more you limit the damage.</p>
+    <h3>Can gross negligence still justify your bank refusing a refund?</h3>
+    <p>No. Since the CJEU ruling of October 15, 2026, European banks must refund unauthorized payments even in cases of your gross negligence. Only suspicion of fraud committed by you yourself can block the refund.</p>
+    <h3>Are there tools to detect AI-cloned voices in real time?</h3>
+    <p>As of this article, no consumer solution automatically filters these calls in real time on your phone. The best defense remains the human reflex. Hang up and call back yourself using the official number.</p>
+    <h2>My takeaways</h2>
+    <p>I'm not a programmer. I'm not going to code a voice antivirus. But I can change a habit. I can teach my team to hang up. I can read court rulings to know my rights.</p>
+    <p>The AI fake bank advisor scam is a serious threat. It has hit over 15,000 French people since January 2026 with an average loss of 2,400 euros. Voice synthesis tools are evolving fast. ElevenLabs v3 came out in October 2026. AI models get better every month.</p>
+    <p>Against this, technology won't save me. Only my ability to stay slow and suspicious, with flawless rigor, will. And if one day I doubt, I hang up. Always.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and I share what works, with no jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday newsletter. And if you have a question or a doubt, just reply, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>- Newsletter</div>
+        <h3>One email a week.<br>What I actually test.</h3>
+        <p>My real-world AI uses, the tools I buy/keep/ditch, and my articles the moment they drop. No news recap, no fluff.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          A question, a doubt, a critique? <strong>Write to me. I read everything, I reply to everything.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Read</h5>
+        <ul>
+          <li><a href="/en/apprendre">Beginner path</a></li>
+          <li><a href="/en/claude-code">Claude Code guide</a></li>
+          <li><a href="/en/articles">All articles</a></li>
+          <li><a href="/en/lexique">AI glossary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Tools</h5>
+        <ul>
+          <li><a href="/en/precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Photo generator · €39</a></li>
+          <li><a href="/en/outils">My tool stack</a></li>
+          <li><a href="/en/modeles-ia">AI models guide</a></li>
+          <li><a href="/en/podcast">AI Wars podcast</a></li>
+          <li><a href="/en/github">My GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Follow me</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="/en/mentions-legales">Legal notice</a></li>
+          <li><a href="/en/politique-confidentialite">Privacy</a></li>
+          <li><a href="/en/cgv">Terms of sale</a></li>
+          <li><a href="/en/suppression-donnees">Delete my data</a></li>
+          <li><a href="/en/preferences">Preferences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Made with coffee</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

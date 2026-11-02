@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/arnaque-faux-conseiller-voix-clonee.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Arnaque faux conseiller bancaire : voix clonée et remboursement</title>
+<meta name="description" content="Comment reconnaître une arnaque bancaire par voix clonée par IA, protéger tes fonds et obtenir le remboursement de ta banque en cas de fraude.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Arnaque faux conseiller bancaire : voix clonée et remboursement">
+<meta property="og:description" content="Comment reconnaître une arnaque bancaire par voix clonée par IA, protéger tes fonds et obtenir le remboursement de ta banque en cas de fraude.">
+<meta property="og:url" content="https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/arnaque-faux-conseiller-voix-clonee.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-02">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Arnaque faux conseiller bancaire : voix clonée et remboursement">
+<meta name="twitter:description" content="Comment reconnaître une arnaque bancaire par voix clonée par IA, protéger tes fonds et obtenir le remboursement de ta banque en cas de fraude.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/arnaque-faux-conseiller-voix-clonee.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/arnaque-faux-conseiller-voix-clonee">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Arnaque faux conseiller bancaire : voix clonée et remboursement",
+  "description": "Comment reconnaître une arnaque bancaire par voix clonée par IA, protéger tes fonds et obtenir le remboursement de ta banque en cas de fraude.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/arnaque-faux-conseiller-voix-clonee.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+
+<link rel="stylesheet" href="../assets/article.css?v=20260706">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="../index" class="logo">
+      <span class="logo-dot"></span>
+      Jérémy Sagnier
+    </a>
+    <div style="display:flex; align-items:center">
+      <a href="../index#learn" class="back-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Retour à Apprendre
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 13</div>
+    <h1>Faux conseiller bancaire<br>quand l'IA copie ta banque<br><em>protéger ton entreprise et tes fonds</em></h1>
+    <p class="hero-lead">
+      Tu as reçu un appel de ta banque qui semblait parfaitement réel, avec la voix de ton conseiller et le bon numéro sur l'écran, et pourtant quelque chose te chiffonnait ? Je me suis penché sur cette arnaque par clonage vocal IA qui fait exploser les fraudes en 2026, car en tant qu'entrepreneur curieux, je refuse de me faire dépasser par ces techniques.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> Téléphone</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Les <strong>arnaques par voix clonée</strong> utilisent l'IA pour imiter ton conseiller bancaire avec un réalisme troublant.</li>
+      <li>Le spoofing affiche le vrai numéro de ta banque sur ton téléphone pour tromper ta vigilance.</li>
+      <li>Un arrêt de la CJUE de 2026 oblige ta banque à te rembourser les paiements non autorisés dans la plupart des cas.</li>
+      <li>Le bon réflexe reste de raccrocher et de rappeler toi-même le numéro officiel trouvé sur ta carte.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Comment ça marche, cette arnaque ?</h2>
+    <p>Je ne suis pas développeur. Je ne code pas. Mais je suis assez curieux pour vouloir comprendre comment un inconnu peut finir par vider mon compte pro en se faisant passer pour mon conseiller.</p>
+    <p>Le principe est simple. Les fraudeurs collectent quelques secondes de voix. Ils puisent dans des vidéos publiées sur les réseaux sociaux, des stories éphémères, des messages vocaux ou des extraits de conférences en ligne. Ces bribes audio suffisent à alimenter des outils d&#39;IA pour reproduire la voix avec un réalisme troublant. Le résultat ? Tu reçois un appel. Tu entends une voix que tu connais. Le ton est calme. Les formulations sont bonnes. Et surtout, le numéro affiché correspond exactement à celui de ta banque.</p>
+    <p>Cette technique s&#39;appelle le spoofing téléphonique. Elle permet aux escrocs d&#39;afficher le véritable numéro de l&#39;établissement bancaire sur ton écran. L&#39;arnaque devient presse-bouton. Tu décroches sans méfiance parce que ton téléphone affiche un contact que tu as toi-même enregistré. Le fraudeur sait que tu es en pleine journée de travail. Il sait que ton attention est ailleurs. Il profite de cette faille humaine.</p>
+    <p>Les chiffres donnent le tournis. En 2026, les cas de fraude au faux conseiller bancaire ont augmenté de 78% en France. Plus de 15 000 Français ont été touchés par des fraudes utilisant une voix clonée par IA depuis janvier 2026. Le préjudice moyen s&#39;élève à 2 400 euros. Pour mesurer l&#39;ampleur, les tentatives de fraude par deepfake ont bondi de 700 % en un an en France entre le premier trimestre 2024 et le premier trimestre 2025. Ce n&#39;est plus une arnaque de bricoleur. C&#39;est un business structuré, alimenté par les fuites de données massives et l&#39;amélioration constante des IA vocales.</p>
+    <p>Je fais tout ça d&#39;abord pour moi. Parce que si je ne comprends pas le mécanisme, je suis la prochaine cible.</p>
+    <h2>Les signaux qui doivent alerter</h2>
+    <p>Une voix clonée reste une copie. Elle est convaincante, mais elle ne réagit pas comme un être humain face à l&#39;imprévu.</p>
+    <p>D&#39;abord, l&#39;urgence. Le faux conseiller te met la pression. Il évoque une fraude en cours sur ton compte pro. Il te demande de valider une opération immédiate pour sécuriser tes fonds. Il te sollicite un code reçu par SMS. Voici la règle d&#39;or que j&#39;ai gravée dans ma tête : un vrai conseiller bancaire ne te demandera jamais ton code confidentiel ou un mot de passe par téléphone. Jamais.</p>
+    <p>Ensuite, la linéarité. La conversation est trop scriptée. Si tu poses une question inattendue, si tu changes de sujet brusquement, le clone vocal peine à s&#39;adapter. L&#39;IA derrière la voix peut <a href="/lexique/hallucination">halluciner</a> une réponse cohérente, mais elle manque souvent de la fluidité réelle d&#39;un échange humain. Elle répète des formules toutes faites. Elle hésite d&#39;une façon mécanique. Elle ne rit pas d&#39;une blague improvisée. Parfois, tu entends un léger décalage dans la réponse. Une micro-seconde de trop avant que la voix ne reprenne. Ce n&#39;est pas un problème de réseau. C&#39;est le temps de calcul de l&#39;IA qui génère la réplique.</p>
+    <p>Enfin, le contexte. Ton conseiller t&#39;appelle un samedi à 20 heures pour un problème sur ton compte courant ? Il te demande d&#39;installer une application de prise en main à distance ? Ces éléments sortent du protocole normal. Ils doivent te faire l&#39;effet d&#39;un couperet.</p>
+    <p>Si tu veux approfondir la détection des contenus générés par IA, y compris les deepfakes audio et visuels, j&#39;ai détaillé des méthodes simples dans mon article sur <a href="/articles/reperer-contenu-ia-deepfake">comment repérer un contenu IA ou un deepfake</a>.</p>
+    <div class="callout tip">
+    <h4>Le piège à éviter</h4>
+    <p>Ne te fie jamais au numéro affiché. Le spoofing est si perfectionné qu'il peut reproduire l'identifiant exact de ta banque. L'écran de ton téléphone ment.</p>
+    </div>
+    
+    <h2>Le réflexe qui sauve</h2>
+    <p>Alors que faire quand tu décroches et que la voix à l&#39;autre bout semble authentique ?</p>
+    <p>Un seul geste compte. Raccroche. Puis appelle toi-même le numéro officiel de ton organisme. Tu le trouveras sur le site internet de ta banque ou au dos de ta carte bancaire. Tu composes le numéro. Tu demandes à parler à ton conseiller. Si l&#39;appel initial était légitime, tu seras vite rassuré. Si c&#39;était une arnaque, tu viens de couper l&#39;herbe sous le pied du fraudeur.</p>
+    <p>Ce réflexe paraît simple. Il est pourtant contre-intuitif. Quand on nous dit que notre compte est menacé, l&#39;instinct pousse à coopérer. Le fraudeur le sait. Il compte sur cette panique. Raccrocher demande de dompter cette peur. Je sais combien il est difficile de raccrocher sur quelqu&#39;un qui dit tenir ta sécurité entre ses mains. Le fraudeur joue sur cette culpabilité. Il te fait croire que raccrocher met ton argent en danger. C&#39;est l&#39;inverse.</p>
+    <p>J&#39;ai pris l&#39;habitude de prévenir mon entourage pro. Dans mon équipe, on a une règle claire. Aucun échange sensible ne se fait sur appel entrant. On rappelle systématiquement. Cela prend deux minutes. Cela peut sauver des milliers d&#39;euros.</p>
+    <p>Les fuites de données massives alimentent ces attaques. Les fraudeurs savent déjà où tu bankes, quel est ton conseiller, et parfois même quel montant tu as récemment transféré. Pour comprendre comment tes données personnelles peuvent être exploitées par l&#39;IA dans ce type de contexte, lis mon article sur <a href="/articles/donnees-perso-ia-confidentialite">les risques liés aux données perso et à la confidentialité avec l&#39;IA</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Ta banque doit te rembourser</h2>
+    <p>Voici une information qui change la donne. Le 15 octobre 2026, la Cour de justice de l&#39;Union européenne a rendu une décision claire. Les banques européennes doivent rembourser les paiements non autorisés, même si le client a commis une négligence grave. Seul un soupçon de fraude du client lui-même peut justifier un refus.</p>
+    <p>C&#39;est une protection massive. Avant cet arrêt, beaucoup d&#39;entrepreneurs se voyaient opposer leur propre imprudence. Le banquier invoquait le fait que tu avais donné un code ou répondu à un appel. Aujourd&#39;hui, la donne juridique a basculé. Ta banque reste responsable de la sécurité de tes moyens de paiement.</p>
+    <p>Ce cadre s&#39;inscrit dans une logique plus large de régulation européenne sur l&#39;IA. Pour contextualiser les obligations qui pèsent sur les systèmes d&#39;IA, y compris ceux utilisés par les escrocs, j&#39;ai décrypté l&#39;AI Act dans mon article sur <a href="/articles/ai-act-pour-ton-business">l&#39;AI Act pour ton business</a>.</p>
+    <p>Bien sûr, ce n&#39;est pas une raison pour baisser la garde. Le remboursement peut prendre du temps. Les procédures sont lourdes. Et si la banque pense que tu as agi de mauvaise foi, tu rentres dans un bras de fer juridique. Mieux vaut éviter le vol que réclamer son argent.</p>
+    <h2>Protéger ton entreprise au quotidien</h2>
+    <p>Je gère une équipe. Je ne peux pas surveiller chaque téléphone. Alors j&#39;ai mis en place des règles simples.</p>
+    <p>Aucune information bancaire ne transite par appel entrant. Point final. Aucun paiement urgent n&#39;est validé sans double validation par un second canal. Un SMS vers un collègue. Un mail interne. Une confirmation sur une messagerie sécurisée. Quelque chose qui casse l&#39;isolement du fraudeur.</p>
+    <p>Je sensibilise aussi mon équipe à la sophistication des outils. Comprendre comment l&#39;IA est conduite par des prompts aide à réaliser que ces appels ne sont pas le fruit d&#39;un génie du crime, mais d&#39;un processus reproductible. J&#39;explique cela dans mon guide pour <a href="/articles/ecrire-bon-prompt-non-dev">écrire un bon prompt sans être développeur</a>. Si tu sais comment une IA est guidée, tu mesures mieux ses limites et ses dangers.</p>
+    <p>Nous vérifions régulièrement les autorisations sur nos comptes pro. Nous supprimons les utilisateurs inactifs. Nous activons les alertes de transaction par push sur plusieurs téléphones. Nous bloquons les virements instantanés non prévus. Nous avons aussi fixé des plafonds de virement qui nécessitent une confirmation physique. Pas de code par SMS seul. Un appel vidéo interne. Une signature électronique sur une autre interface. La friction est notre alliée.</p>
+    <div class="callout tip">
+    <h4>Ce que je retiens du terrain</h4>
+    <p>La fraude au faux conseiller prospère sur l'urgence et la confiance. Plus tu institutionnalises la lenteur dans tes procédures financières, plus tu désarmes l'attaquant.</p>
+    </div>
+    
+    <h2>Questions fréquentes</h2>
+    <h3>Comment les fraudeurs obtiennent-ils ta voix ou celle de ton conseiller ?</h3>
+    <p>Les fraudeurs collectent quelques secondes de voix via des vidéos publiées sur les réseaux sociaux, des messages vocaux, ou des interventions en ligne. Ces extraits suffisent à alimenter des outils de synthèse vocale pour créer un clone réaliste.</p>
+    <h3>Ta banque peut-elle vraiment afficher un numéro d&#39;appel frauduleux ?</h3>
+    <p>Ce n&#39;est pas ta banque qui appelle. C&#39;est la technique du spoofing téléphonique qui permet aux escrocs de faire apparaître le véritable numéro de ta banque sur ton écran. Le numéro affiché est usurpé.</p>
+    <h3>Que faire si tu as déjà donné des informations ou validé une opération suspecte ?</h3>
+    <p>Contacte immédiatement ta banque via le numéro officiel inscrit sur ta carte. Fais opposition sur tes moyens de paiement. Dépose plainte. Signale la fraude à la police ou à la gendarmerie. Plus tu agis vite, plus tu limites les dégâts.</p>
+    <h3>La négligence grave peut-elle toujours justifier un refus de remboursement de ta banque ?</h3>
+    <p>Non. Depuis la décision de la CJUE du 15 octobre 2026, les banques européennes doivent rembourser les paiements non autorisés même en cas de négligence grave de ta part. Seul le soupçon d&#39;une fraude commise par toi-même peut bloquer le remboursement.</p>
+    <h3>Existe-t-il des outils pour détecter en temps réel les voix clonées par IA ?</h3>
+    <p>À la date de cet article, aucune solution grand public ne filtre automatiquement ces appels en temps réel sur ton téléphone. La meilleure défense reste le réflexe humain. Raccroche et rappelle toi-même le numéro officiel.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Je ne suis pas programmeur. Je ne vais pas coder un antivirus vocal. Mais je peux changer une habitude. Je peux apprendre à mon équipe à raccrocher. Je peux lire les décisions de justice pour connaître mes droits.</p>
+    <p>L&#39;arnaque au faux conseiller bancaire par IA est une menace sérieuse. Elle a touché plus de 15 000 Français depuis janvier 2026 avec un préjudice moyen de 2 400 euros. Les outils de synthèse vocale évoluent vite. ElevenLabs v3 est sorti en octobre 2026. Les modèles d&#39;IA se perfectionnent chaque mois.</p>
+    <p>Face à ça, la technologie ne me sauvera pas. Seule ma capacité à rester lent et méfiant, avec une rigueur sans faille, le fera. Et si un jour je doute, je raccroche. Toujours.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="footer" id="contact">
+  <div class="container">
+
+    <!-- Newsletter inline -->
+    <div class="footer-newsletter">
+      <div>
+        <div class="kicker"><span class="pulse"></span>— Newsletter</div>
+        <h3>1 mail par semaine.<br>Ce que je teste <em>vraiment.</em></h3>
+        <p>Mes vrais usages IA, les outils que j'achète/garde/jette, mes articles dès qu'ils sortent. Pas de récap d'actu, pas de blabla.</p>
+      </div>
+      <form class="newsletter-form" data-source="footer">
+        <input type="email" name="email" placeholder="ton@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Adresse email">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit">M'inscrire</button>
+      </form>
+    </div>
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <h3>Jérémy Sagnier</h3>
+        <p>
+          Une question, un doute, une critique ? <strong>Écris-moi — je lis tout, je réponds à tout.</strong>
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Lire</h5>
+        <ul>
+          <li><a href="../apprendre">Parcours débutant</a></li>
+          <li><a href="../claude-code">Guide Claude Code</a></li>
+          <li><a href="../articles">Tous les articles</a></li>
+          <li><a href="../lexique">Lexique IA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Outils</h5>
+        <ul>
+          <li><a href="../precommande-photos-personal-branding" style="color:var(--fuchsia); font-weight:600;">Générateur photos · 39 €</a></li>
+          <li><a href="../outils">Ma stack outils</a></li>
+          <li><a href="../modeles-ia">Guide des modèles IA</a></li>
+          <li><a href="../podcast">Podcast Guerres d'IA</a></li>
+          <li><a href="../github">Mon GitHub</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Suis-moi</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YT · Frères Sagnier</a></li>
+          <li><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YT · Jérémy solo</a></li>
+          <li><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Légal</h5>
+        <ul>
+          <li><a href="../mentions-legales">Mentions légales</a></li>
+          <li><a href="../politique-confidentialite">Confidentialité</a></li>
+          <li><a href="../cgv">CGV</a></li>
+          <li><a href="../suppression-donnees">Supprimer mes données</a></li>
+          <li><a href="../preferences">Préférences</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 · Jérémy Sagnier · Fait avec du café</span>
+      <span style="color:var(--ink); display:inline-flex; align-items:center; gap:8px">
+        <span style="display:inline-flex; gap:3px">
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--teal)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--fuchsia)"></span>
+          <span style="width:8px; height:8px; border-radius:50%; background:var(--orange)"></span>
+        </span>
+        Fiesta · 89
+      </span>
+    </div>
+  </div>
+
+  <!-- Footer newsletter form handler · self-contained, garde anti-double-attach -->
+  <script>
+    document.querySelectorAll('.footer .newsletter-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl?.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = '✓ Merci';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = '× Erreur';
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

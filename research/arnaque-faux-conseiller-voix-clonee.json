@@ -1,0 +1,144 @@
+{
+  "topic": "l'arnaque au faux conseiller bancaire avec une voix clonée par l'IA : comment la reconnaître, les bons réflexes, et quand ta banque doit te rembourser",
+  "slug": "arnaque-faux-conseiller-voix-clonee",
+  "type": "A",
+  "generated_at": "2026-11-02",
+  "angle": "Cet article décrypte les arnaques au faux conseiller bancaire dopées à l'IA, offrant aux entrepreneurs non-développeurs des stratégies concrètes pour les identifier, les déjouer et comprendre leurs droits au remboursement face à une menace de plus en plus sophistiquée.",
+  "intent": "Le lecteur, un entrepreneur non-développeur, veut comprendre comment les arnaques bancaires par clonage vocal IA fonctionnent, comment s'en protéger efficacement, quels réflexes adopter en cas de doute, et savoir si sa banque est tenue de le rembourser en cas de fraude.",
+  "keywords": [
+    "arnaque faux conseiller bancaire IA",
+    "clonage vocal IA fraude",
+    "remboursement banque arnaque IA",
+    "deepfake vocal bancaire",
+    "prévention fraude IA voix"
+  ],
+  "facts": [
+    {
+      "claim": "En 2026, les arnaques bancaires par deepfake et clonage vocal imitent parfaitement la voix d'un conseiller ou d'un proche, affichant parfois le numéro exact de la banque (spoofing) pour tromper la victime.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpN5YkwODoyTaECL7lbMrO7A3GmTMsXTVi556DteTDP3pkSt3gXuC3ziyjqhPqd2FpfguwtvHkXzKW6f4VSwTzolHq7wbvm4R2en9JUn6bHuxahfOhwY_sAvBAk8UUIXrc2ZsjWaE6w5CcH2IzuyC3z3obEUeM8nHneH_mwIh9cTXNd5D5DTT8ch4aUaBk1r0",
+      "date": "2026-03-20"
+    },
+    {
+      "claim": "Les fraudeurs collectent quelques secondes de voix de leur cible ou du conseiller via des vidéos sur les réseaux sociaux, messages vocaux ou interventions en ligne, puis utilisent des outils d'IA pour reproduire la voix avec un réalisme troublant.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpN5YkwODoyTaECL7lbMrO7A3GmTMsXTVi556DteTDP3pkSt3gXuC3ziyjqhPqd2FpfguwtvHkXzKW6f4VSwTzolHq7wbvm4R2en9JUn6bHuxahfOhwY_sAvBAk8UUIXrc2ZsjWaE6w5CcH2IzuyC3z3obEUeM8nHneH_mwIh9cTXNd5D5DTT8ch4aUaBk1r0",
+      "date": "2026-03-20"
+    },
+    {
+      "claim": "La technique du 'spoofing' téléphonique permet aux escrocs d'afficher le véritable numéro de la banque sur le téléphone de la victime, rendant l'arnaque encore plus crédible.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHrrV3X_JBDe1PyrcsL8m2ePyzLQy5u0_NabxtLE4cjBQJfKoCxIBACESD9Rc48BD9SfQPkl5XhKMPYQEX5349GoAyNXzcFw42igva03-R4fcWvZOb0JE8Pt3cyCJfBfgETxnYmAp3UwIVFxGt31YbaAgFjnK0sFFdI1EOpdVbMhZdVXO3_y2bH5apvqzDWM6hv_lmBCCa",
+      "date": "2026-04-29"
+    },
+    {
+      "claim": "Une décision de la Cour de justice de l'Union européenne (CJUE) du 15 octobre 2026 impose aux banques européennes de rembourser les paiements non autorisés, même en cas de 'négligence grave' du client, sauf si la banque soupçonne une fraude du client lui-même.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdbrIpXweFoPk2zScgsAArI-CFVks04KXDoufUVkIUjoCRgbREmHUtk9zoH37vC-F6tAMPqdbL9cYjtoVLs-Bqa4WzLUEqOxMnQ_79mhVy_S4b8a1qG3hcGGLy5uJI1fF-FBef3q0pCMLNTVhxR2CqwpCQKLpa2PZYFgjE6wMCskmVxAteWL9XMsJ9XuecS1i1ylTg6VJi2lTbBWHkgTQu4daKEQJ9E49sAIsj7idYFRY",
+      "date": "2026-10-15"
+    },
+    {
+      "claim": "Le réflexe essentiel face à un appel suspect est de raccrocher et de rappeler soi-même le numéro officiel de l'organisme concerné, trouvé sur son site ou au dos de sa carte bancaire, sans se fier au numéro affiché.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP3NsBLA34dKKBfB0QDqKg6Jv8pMUhGh4TilMHHaJVQQXVrwx8TBkjhGW1_Vjv7VxGk9zjh-ccpkyGlDAx7M2o1YrEc9XomUPJYA9j-dN03JKtTw99TBDAN3IBCN0vOIWPPy353U9spACUBV3QIE01Jeov2lRoPV3snIdrCBiw129dbeYUdSEje9ZbywvauVeqf6XZdemik0mIP4kYnlAdIh2LavfHuRcwzI0guMSOAng",
+      "date": "2026-06-26"
+    },
+    {
+      "claim": "ElevenLabs v3 est la dernière version majeure pour la synthèse vocale, lancée le 7 octobre 2026, avec des mises à jour continues pour les voix v4 permettant un ajustement de la force du clonage et des modèles Flash v2.5 pour les agents conversationnels en temps réel.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu9XX5te9PgZ-9lqdS_qnNp0KU7FWCUY9vQLZNvMyURBnxc-YF_HvUzPRA2_AuMV8G1J3ZB22ZiL88zigYvx_NMikMNspdIPWyLtm_peRCBj11EpsOQ917STsN4W62WgLSBqt4",
+      "date": "2026-10-28"
+    },
+    {
+      "claim": "ChatGPT 6.1 Terra est la dernière version du modèle d'OpenAI, lancée le 26 octobre 2026, optimisée pour l'utilisation informatique et le raisonnement visuel, avec une offre Pro 500 incluant l'accès à Astra Ultrafast.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHjApigxDf6dBofOXBDlkHKmfIae1pfBwZl8mBqokQnkWCFW-apm4H0OQJLZ4F8FG76VJMBuGvHF42cbWjCASC8AIX-fxFUKx51fwqKv4LqkQ6j4un-A61HGj2mT_aA4tn7eGiU4GIsqAdFA",
+      "date": "2026-10-26"
+    },
+    {
+      "claim": "Google a dévoilé Gemini 4 Carbon le 29 octobre 2026, un modèle dominant en cybersécurité et codage, mais il reste réservé à certains experts. Les versions Gemini 3.5 Flash et 3.6 Flash sont les dernières largement disponibles pour des tâches rapides et efficaces.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8HfOSe_veMmdg7aKM97swORsRY74zQZ_Xcec24F7eUos124T-mcjBZx7iw7lLxW4KMYlKJBVfqEcA_V4hgZfGOnZoFJ_XAREVQ2Ao-LRm2N2Cjw8awU05T-x2OrSm9hxKwZgm_ONpTrrP5AzsxnefHwNw_sgbyJlQtTdwlwEYKkFvI3oQNg5j6FufugCAcEdvZwUizTw2WyNC57Abqn4oDhkBG-x_ny6P7qvU09z1jH0nQQx8uOKBZN-NOg2JZZccv0004OX0muy2Sr48guaLyt_-6FXV6xAVwBkturka83zIzgSNNJm563cniffBFx0OJDeT0zisc9Gw",
+      "date": "2026-10-29"
+    },
+    {
+      "claim": "Claude Opus 5.5, lancé le 22 septembre 2026, est le modèle phare le plus capable d'Anthropic, leader en codage agentique, utilisation informatique et travail de connaissance.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExTkpAoBgCXW-vW7caCqJrtoHd6-S2RrJaaZ2utomrWdD6Sj2YWMxJchEWOjdDnF2DSw307Pru6o4ptiXxiKLcf6CFxQXM1r6sd98pxld1WeybhRWof_o8AcFQVBf9s_PTgQOg",
+      "date": "2026-09-22"
+    },
+    {
+      "claim": "Midjourney V8.2 est la version par défaut depuis le 24 juillet 2026, offrant des améliorations esthétiques, de qualité d'image et de personnalisation, ainsi qu'un contrôle plus précis de la composition.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHEeLd6YKRB33QXP_9ZAHq75pkn8cw02CPOnrkiw30d453mLkVqyFO031g9J-xFJUJjPGlrHai35-_V--beCzVrohWb06d5hQtESI2fJEFZItor9Ma_hhR7YtMO7xjaqCmfjpKdyjx6VKcoI_5C-sTA2i2gQE79-hCNUK3xCH4",
+      "date": "2026-07-24"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Les fraudes aux moyens de paiement ont représenté près de 618 millions d'euros au premier semestre 2025 en France, en hausse de 7% par rapport à 2024, avec une progression marquée des fraudes par manipulation et appels frauduleux.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpN5YkwODoyTaECL7lbMrO7A3GmTMsXTVi556DteTDP3pkSt3gXuC3ziyjqhPqd2FpfguwtvHkXzKW6f4VSwTzolHq7wbvm4R2en9JUn6bHuxahfOhwY_sAvBAk8UUIXrc2ZsjWaE6w5CcH2IzuyC3z3obEUeM8nHneH_mwIh9cTXNd5D5DTT8ch4aUaBk1r0",
+      "date": "2025"
+    },
+    {
+      "stat": "En 2026, les cas de fraude au faux conseiller bancaire (vishing) ont augmenté de 78% en France, alimentés par les fuites de données massives et l'amélioration des IA vocales.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHrrV3X_JBDe1PyrcsL8m2ePyzLQy5u0_NabxtLE4cjBQJfKoCxIBACESD9Rc48BD9SfQPkl5XhKMPYQEX5349GoAyNXzcFw42igva03-R4fcWvZOb0JE8Pt3cyCJfBfgETxnYmAp3UwIVFxGt31YbaAgFjnK0sFFdI1EOpdVbMhZdVXO3_y2bH5apvqzDWM6hv_lmBCCa",
+      "date": "2026"
+    },
+    {
+      "stat": "Les tentatives de fraude par deepfake ont bondi de 700 % en un an en France entre le T1 2024 et le T1 2025, et une tentative de fraude par deepfake a lieu toutes les 5 minutes en 2024.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_0usxVw6GXHUkEqVqcIjTLbBbUxpx5u3aH_KKwV8d7u9FYhWtxMQPikY1hK8xqSpvw1BX-IzeqKr2dMPdW2as4HLdMkz32wU9glwp8TNCN1-j6mkeC8ySsSP3oc6H5EvODouWJK0fgpG53Qj4BRT4GiOdwT99j6J4__J7-nKr",
+      "date": "2025"
+    },
+    {
+      "stat": "Plus de 15 000 Français ont été touchés par des fraudes utilisant une voix clonée par IA depuis janvier 2026, avec un préjudice moyen de 2 400 euros.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWF6ngossFLoGiA1T5GV4Fu2oqgS2aezeE19pJDSFeffqfuSw2KyLQ7SHbrzczGZwQwxFdGW3H_nHcgYp486aAfiFuYE1mNg9OIL6yxphS80rGELuRPWCPIKzIur3v5pCjsdLPBctL3qUxo0zGaHJk5lMGo4PGU0uiVE4yih6fYmtp7YLUPV55m26SIm028j2IpQslRIe2-U_RXUHU_",
+      "date": "2026"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/reperer-contenu-ia-deepfake",
+      "why": "Pour approfondir la détection des contenus générés par IA, y compris les deepfakes visuels et audio."
+    },
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Pour comprendre les risques liés à la collecte et l'utilisation des données personnelles par l'IA, souvent exploitées dans ces arnaques."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Bien que l'article soit sur la fraude, comprendre comment l'IA est 'promptée' peut aider à saisir la sophistication des techniques des fraudeurs."
+    },
+    {
+      "url": "/lexique/hallucination",
+      "why": "Pour expliquer que même si l'IA peut créer des voix réalistes, elle peut aussi 'halluciner' des informations, ce qui peut être un point de vigilance."
+    },
+    {
+      "url": "/articles/ai-act-pour-ton-business",
+      "why": "Pour contextualiser le cadre légal européen autour de l'IA, notamment les obligations de transparence pour les systèmes d'IA qui interagissent avec des humains."
+    }
+  ],
+  "outline": [
+    "L'anatomie de l'arnaque au faux conseiller bancaire par IA : comment ça marche ?",
+    "Les signaux d'alerte : reconnaître une voix clonée et un scénario frauduleux",
+    "Les bons réflexes pour déjouer l'arnaque et protéger tes fonds",
+    "Remboursement bancaire : quand ta banque doit-elle te couvrir face à la fraude IA ?",
+    "Protéger ton entreprise : mesures préventives et sensibilisation de ton équipe"
+  ],
+  "faq": [
+    "Comment les fraudeurs obtiennent-ils ma voix ou celle de mon conseiller ?",
+    "Ma banque peut-elle vraiment afficher un numéro d'appel frauduleux ?",
+    "Que faire si j'ai déjà donné des informations ou validé une opération suspecte ?",
+    "La 'négligence grave' peut-elle toujours justifier un refus de remboursement de ma banque ?",
+    "Existe-t-il des outils pour détecter en temps réel les voix clonées par IA ?"
+  ],
+  "pitfalls": [
+    "Ne pas sous-estimer la sophistication des outils d'IA actuels : les voix clonées sont quasi indétectables à l'oreille humaine et les scénarios sont très crédibles.",
+    "La notion de 'négligence grave' est de plus en plus difficile à invoquer par les banques suite aux récentes décisions de la CJUE, mais elle n'est pas totalement abolie.",
+    "Les informations personnelles (nom, adresse, opérations récentes) utilisées par les fraudeurs proviennent souvent de fuites de données antérieures, ce qui renforce leur crédibilité.",
+    "L'urgence est la principale arme psychologique des fraudeurs : ne jamais agir sous la pression."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpN5YkwODoyTaECL7lbMrO7A3GmTMsXTVi556DteTDP3pkSt3gXuC3ziyjqhPqd2FpfguwtvHkXzKW6f4VSwTzolHq7wbvm4R2en9JUn6bHuxahfOhwY_sAvBAk8UUIXrc2ZsjWaE6w5CcH2IzuyC3z3obEUeM8nHneH_mwIh9cTXNd5D5DTT8ch4aUaBk1r0",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHrrV3X_JBDe1PyrcsL8m2ePyzLQy5u0_NabxtLE4cjBQJfKoCxIBACESD9Rc48BD9SfQPkl5XhKMPYQEX5349GoAyNXzcFw42igva03-R4fcWvZOb0JE8Pt3cyCJfBfgETxnYmAp3UwIVFxGt31YbaAgFjnK0sFFdI1EOpdVbMhZdVXO3_y2bH5apvqzDWM6hv_lmBCCa",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdbrIpXweFoPk2zScgsAArI-CFVks04KXDoufUVkIUjoCRgbREmHUtk9zoH37vC-F6tAMPqdbL9cYjtoVLs-Bqa4WzLUEqOxMnQ_79mhVy_S4b8a1qG3hcGGLy5uJI1fF-FBef3q0pCMLNTVhxR2CqwpCQKLpa2PZYFgjE6wMCskmVxAteWL9XMsJ9XuecS1i1ylTg6VJi2lTbBWHkgTQu4daKEQJ9E49sAIsj7idYFRY",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP3NsBLA34dKKBfB0QDqKg6Jv8pMUhGh4TilMHHaJVQQXVrwx8TBkjhGW1_Vjv7VxGk9zjh-ccpkyGlDAx7M2o1YrEc9XomUPJYA9j-dN03JKtTw99TBDAN3IBCN0vOIWPPy353U9spACUBV3QIE01Jeov2lRoPV3snIdrCBiw129dbeYUdSEje9ZbywvauVeqf6XZdemik0mIP4kYnlAdIh2LavfHuRcwzI0guMSOAng",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu9XX5te9PgZ-9lqdS_qnNp0KU7FWCUY9vQLZNvMyURBnxc-YF_HvUzPRA2_AuMV8G1J3ZB22ZiL88zigYvx_NMikMNspdIPWyLtm_peRCBj11EpsOQ917STsN4W62WgLSBqt4",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHjApigxDf6dBofOXBDlkHKmfIae1pfBwZl8mBqokQnkWCFW-apm4H0OQJLZ4F8FG76VJMBuGvHF42cbWjCASC8AIX-fxFUKx51fwqKv4LqkQ6j4un-A61HGj2mT_aA4tn7eGiU4GIsqAdFA",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8HfOSe_veMmdg7aKM97swORsRY74zQZ_Xcec24F7eUos124T-mcjBZx7iw7lLxW4KMYlKJBVfqEcA_V4hgZfGOnZoFJ_XAREVQ2Ao-LRm2N2Cjw8awU05T-x2OrSm9hxKwZgm_ONpTrrP5AzsxnefHwNw_sgbyJlQtTdwlwEYKkFvI3oQNg5j6FufugCAcEdvZwUizTw2WyNC57Abqn4oDhkBG-x_ny6P7qvU09z1jH0nQQx8uOKBZN-NOg2JZZccv0004OX0muy2Sr48guaLyt_-6FXV6xAVwBkturka83zIzgSNNJm563cniffBFx0OJDeT0zisc9Gw",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExTkpAoBgCXW-vW7caCqJrtoHd6-S2RrJaaZ2utomrWdD6Sj2YWMxJchEWOjdDnF2DSw307Pru6o4ptiXxiKLcf6CFxQXM1r6sd98pxld1WeybhRWof_o8AcFQVBf9s_PTgQOg",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHEeLd6YKRB33QXP_9ZAHq75pkn8cw02CPOnrkiw30d453mLkVqyFO031g9J-xFJUJjPGlrHai35-_V--beCzVrohWb06d5hQtESI2fJEFZItor9Ma_hhR7YtMO7xjaqCmfjpKdyjx6VKcoI_5C-sTA2i2gQE79-hCNUK3xCH4",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_0usxVw6GXHUkEqVqcIjTLbBbUxpx5u3aH_KKwV8d7u9FYhWtxMQPikY1hK8xqSpvw1BX-IzeqKr2dMPdW2as4HLdMkz32wU9glwp8TNCN1-j6mkeC8ySsSP3oc6H5EvODouWJK0fgpG53Qj4BRT4GiOdwT99j6J4__J7-nKr",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWF6ngossFLoGiA1T5GV4Fu2oqgS2aezeE19pJDSFeffqfuSw2KyLQ7SHbrzczGZwQwxFdGW3H_nHcgYp486aAfiFuYE1mNg9OIL6yxphS80rGELuRPWCPIKzIur3v5pCjsdLPBctL3qUxo0zGaHJk5lMGo4PGU0uiVE4yih6fYmtp7YLUPV55m26SIm028j2IpQslRIe2-U_RXUHU_"
+  ]
+}

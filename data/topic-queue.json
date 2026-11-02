@@ -426,8 +426,9 @@
       "topic": "l'arnaque au faux conseiller bancaire avec une voix clonée par l'IA : comment la reconnaître, les bons réflexes, et quand ta banque doit te rembourser",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-02"
     },
     {
       "id": "arnaques-mails-sms-ia",
