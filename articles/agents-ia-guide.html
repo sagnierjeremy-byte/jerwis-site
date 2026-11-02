@@ -1763,33 +1763,6 @@ tu proposes toujours 3 créneaux pour un rendez-vous, tu tutoies.</code></pre>
     localStorage.setItem('theme', next);
   });
 
-  const form = document.getElementById('newsletterForm');
-  const submitBtn = document.getElementById('newsletterSubmit');
-  const successMsg = document.getElementById('newsletterSuccess');
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const email = form.email.value.trim();
-    if (!email) return;
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Envoi…';
-    try {
-      const res = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'article-guide-agents' })
-      });
-      if (res.ok) {
-        form.style.display = 'none';
-        successMsg.style.display = 'block';
-      } else {
-        submitBtn.textContent = 'Réessaie →';
-        submitBtn.disabled = false;
-      }
-    } catch (err) {
-      submitBtn.textContent = 'Réessaie →';
-      submitBtn.disabled = false;
-    }
-  });
 </script>
 
 <script>

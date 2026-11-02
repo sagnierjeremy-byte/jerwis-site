@@ -1,5 +1,10 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-02 · Nettoyage : code mort du formulaire de fin d'article (14 articles faits main)
+
+- Le formulaire `#newsletterForm` de fin d'article a disparu le 30-06 (3c68d05), mais son script était resté dans 7 articles FR et 7 EN (tuto-agent-gmail, tuto-agent-contrats, veille-pour-demain, outil-vente-claude-code, agents-ia-guide, limova-vs-claude-code, better-call-vs-associe) : erreur « Cannot read properties of null » dans la console, sans autre effet. Les 27 lignes sont retirées.
+- Vérifié : 14 erreurs JS en ligne avant, 0 en local après ; titre et pied présents sur les 14 pages.
+
 ## 2026-11-02 · Tout le site à la date du jour (P1 à P7)
 
 ### Pourquoi

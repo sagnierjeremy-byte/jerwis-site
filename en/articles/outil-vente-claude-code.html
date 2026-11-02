@@ -1702,33 +1702,6 @@ document.querySelectorAll('.share-btn-copy').forEach(btn => {
     localStorage.setItem('theme', next);
   });
 
-  const form = document.getElementById('newsletterForm');
-  const submitBtn = document.getElementById('newsletterSubmit');
-  const successMsg = document.getElementById('newsletterSuccess');
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const email = form.email.value.trim();
-    if (!email) return;
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending…';
-    try {
-      const res = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'article-outil-vente' })
-      });
-      if (res.ok) {
-        form.style.display = 'none';
-        successMsg.style.display = 'block';
-      } else {
-        submitBtn.textContent = 'Try again →';
-        submitBtn.disabled = false;
-      }
-    } catch (err) {
-      submitBtn.textContent = 'Try again →';
-      submitBtn.disabled = false;
-    }
-  });
 </script>
 
 
