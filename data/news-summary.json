@@ -1,62 +1,70 @@
 {
-  "generated_at": "2026-11-03T12:36:02.372Z",
-  "day_label": "Mardi 3 novembre",
+  "generated_at": "2026-11-04T12:45:48.946Z",
+  "day_label": "Mercredi 4 novembre",
   "items": [
     {
-      "title": "Facture électronique obligatoire pour les auto-entrepreneurs en 2027",
-      "why_it_matters": "Je retiens que dès septembre 2027, je devrai émettre et déclarer mes factures en format électronique. Il faut s'y préparer dès maintenant.",
+      "title": "Fortuneo piratée : plus de 118 millions d'euros détournés",
+      "why_it_matters": "Je note que des virements clients sont bloqués. Je vérifie la sécurité de ma banque en ligne et je pense à diversifier mes comptes pro.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/fintech/1557199-facture-electronique-ce-que-les-auto-entrepreneurs-devront-vraiment-faire-en-septembre-2027/"
-        }
-      ]
-    },
-    {
-      "title": "Record de créations d'entreprises mais les banques laissent tomber les petites",
-      "why_it_matters": "Je note qu'on crée plus d'entreprises que jamais en France, mais les TPE peinent toujours à obtenir des crédits. C'est un frein à la croissance.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/start-up/1557161-la-france-n-a-jamais-cree-autant-d-entreprises-pourquoi-le-financement-fait-il-encore-defaut-aux-plus-petites/"
-        }
-      ]
-    },
-    {
-      "title": "Carburant : la baisse amorcée mais le diesel reste cher pour les pros",
-      "why_it_matters": "Je note que 6 000 stations baissent leurs prix, mais à 2,40 € le litre, le diesel pèse encore lourd sur les coûts de livraison et déplacement.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/essence/apres-le-destockage-des-reserves-strategiques-la-baisse-des-prix-des-carburants-amorcee-dans-6-000-stations-service-selon-le-gouvernement_8265662.html#xtor=RSS-3-%5Bgeneral%5D"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/la-banque-credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-20261104"
         },
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/retail/1557217-chaque-kilometre-compte-quand-le-prix-du-diesel-devient-un-enjeu-de-resilience-pour-les-supply-chains/"
-        }
-      ]
-    },
-    {
-      "title": "Des frigos de supermarchés piratés en Europe : le risque cyber est partout",
-      "why_it_matters": "Je retiens que des attaquants ciblent les installations frigorifiques. Même mon matériel connecté doit être sécurisé, pas seulement mes ordinateurs.",
-      "sources": [
-        {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/monde/europe/frigos-pirates-dans-des-supermarches-de-nouvelles-attaques-en-europe-et-un-mystere-qui-demeure-IZKRSF4ETBDTLMBXQC6XVB3WXU/"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/piratage-a-118-millions-deuros-au-credit-mutuel-arkea-les-clients-ne-peuvent-plus-faire-certains-virements-1531555"
         },
         {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/attaque-chaine-froid-hygiene-cyber-230062"
+          "name": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2367485-piratage-du-credit-mutuel-arkea-ce-que-lon-sait-et-qui-est-reellement-concerne.html"
         }
       ]
     },
     {
-      "title": "La réforme douanière de l'UE complique plus qu'elle ne simplifie",
-      "why_it_matters": "Je note que la nouvelle réglementation multiplie les statuts et contrôles sans harmoniser les pratiques entre les 27 pays. L'import/export s'annonce galère.",
+      "title": "Piratage de frigos : EFS et supermarchés touchés en Europe",
+      "why_it_matters": "Je retiens que des hackers attaquent la chaîne du froid. Si j'ai des produits frais, je surveille mes équipements.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/retail/1557201-reforme-douaniere-l-europe-a-les-bonnes-idees-pas-encore-la-bonne-methode/"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/social/apres-les-supermarches-l-etablissement-francais-du-sang-victime-d-une-cyberattaque-ses-chambres-froides-prises-pour-cible-20261104"
+        },
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/cybersecurite/nous-avons-du-tout-jeter-douze-pays-europeens-desormais-concernees-par-la-cyberattaque-visant-des-refrigerateurs_AD-202611040433.html"
+        },
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/etablissement-francais-du-sang-piratage-frigos/"
+        }
+      ]
+    },
+    {
+      "title": "Google propose des départs volontaires en France",
+      "why_it_matters": "Je vois que Google réduit ses effectifs en France sur l'IA. C'est le moment pour recruter de bons profils tech.",
+      "sources": [
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/big-tech/google/google-propose-des-departs-volontaires-en-france-sur-fond-de-depenses-massives-dans-lia.VZFLLA47XBF3TGT3SHR7PNL3JM.html"
+        }
+      ]
+    },
+    {
+      "title": "Le Brésil interdit à Meta d'utiliser la presse pour son IA",
+      "why_it_matters": "Je retiens que les règles sur le contenu et l'IA deviennent plus strictes. Si je crée du contenu, mes droits sont mieux protégés ailleurs.",
+      "sources": [
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/empecher-un-abus-manifeste-de-droit-et-eviter-des-dommages-irreversibles-la-justice-bresilienne-interdit-a-meta-d-utiliser-des-contenus-de-presse-pour-entrainer-son-ia_AD-202611040445.html"
+        }
+      ]
+    },
+    {
+      "title": "Les créateurs français génèrent 9 milliards d'euros en 2026",
+      "why_it_matters": "Je note que l'influence génère 9 milliards. C'est le 3e marché mondial. Une opportunité à ne pas ignorer pour ma marque.",
+      "sources": [
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/reseaux-sociaux-les-createurs-de-contenus-francais-vont-generer-environ-9-milliards-d-euros-en-2026-en-recolteront-un-peu-plus-de-45-mais-ils-sont-encore-rares-a-pouvoir-en-vivre_AD-202611040528.html"
         }
       ]
     }
