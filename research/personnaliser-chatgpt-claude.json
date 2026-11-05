@@ -1,0 +1,169 @@
+{
+  "topic": "régler la mémoire et les instructions personnalisées de ChatGPT et de Claude pour qu'ils te connaissent : ce qu'il faut écrire, ce qu'il ne faut pas leur confier, et comment tout effacer",
+  "slug": "personnaliser-chatgpt-claude",
+  "type": "A",
+  "generated_at": "2026-11-05",
+  "angle": "Cet article fournit aux entrepreneurs non-développeurs des stratégies concrètes et des meilleures pratiques pour personnaliser ChatGPT et Claude via leurs fonctionnalités de mémoire et d'instructions, afin d'optimiser leur productivité tout en garantissant la confidentialité et la sécurité de leurs données sensibles.",
+  "intent": "Le lecteur souhaite comprendre comment configurer efficacement les instructions personnalisées et la mémoire de ChatGPT et Claude, savoir quelles informations partager ou non, et comment gérer ou effacer ces données pour une utilisation sécurisée et adaptée à ses besoins professionnels.",
+  "keywords": [
+    "ChatGPT Claude mémoire instructions personnalisées",
+    "personnaliser IA entrepreneur",
+    "confidentialité données ChatGPT Claude",
+    "effacer historique IA",
+    "optimiser IA non-développeur",
+    "ChatGPT custom instructions",
+    "Claude AI préférences"
+  ],
+  "facts": [
+    {
+      "claim": "Les instructions personnalisées de ChatGPT permettent aux utilisateurs de spécifier des préférences que le modèle doit prendre en compte dans chaque réponse, évitant ainsi de répéter les mêmes informations à chaque interaction.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy2dmyeOzzlM1owMV0njGAVOdjDSuJDFSySNottsPXVDnqYRJsjqcMI8HGPK-wthCtgoMKVxLpv5ylfhQcT8vNIl-ppdcQBM1ZTZUU-hszPoc4zySaOlM1hZuSM1Mz4E4q8g9K5ozU6WzsXUusoZcd0JlL8umw0WQInfHAYQNGMtNQdKPn_to=",
+      "date": "2026-09-19"
+    },
+    {
+      "claim": "Les instructions personnalisées de ChatGPT sont disponibles sur toutes les offres (gratuit, Plus, Team, Enterprise) et sur toutes les plateformes (web, bureau, iOS, Android) depuis au moins octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdXy6-HEB8l3O3udw_SUKHF9wSbCFi5wPHoT-iRbL4t2B7xVWq7SRKx33oQPgrVATeAL56e5vmmfZCuRcG-j0sTRQnCeDjaJZvxsfJCOY6yhJpS7tH_lV1e1r9bOEk-eFCEm9ZZc1zrQQlzqDHKJputYPshB2sNMqb0eAZg7NwCMizera7",
+      "date": "2026-10-27"
+    },
+    {
+      "claim": "La fonctionnalité de mémoire de ChatGPT, introduite en 2025, permet au service de retenir des détails utiles et des préférences entre les conversations, comme le ton préféré ou des informations récurrentes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf3Q9As8UhmAvskxsa6jH6niIiVccgXkXR7VaOAg1Q0kyZpHrVR4SPfDK8P8-5k5I1Z__wi_pWxfHfuapMIiOqxr9KSeoKFkbKrU5onhmfr7y47_-jwjF696UJKLihuG3ub5QpWWDzE5p6rLfl-iEtIcXAkGyaZ8Y=",
+      "date": "2026-11-01"
+    },
+    {
+      "claim": "La mémoire de ChatGPT est distincte des instructions personnalisées : les instructions sont des directives directes, tandis que la mémoire se développe à partir des conversations et d'autres sources pertinentes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf3Q9As8UhmAvskxsa6jH6niIiVccgXkXR7VaOAg1Q0kyZpHrVR4SPfDK8P8-5k5I1Z__wi_pWxfHfuapMIiOqxr9KSeoKFkbKrU5onhmfr7y47_-jwjF696UJKLihuG3ub5QpWWDzE5p6rFfl-iEtIcXAkGyaZ8Y=",
+      "date": "2026-11-01"
+    },
+    {
+      "claim": "Chez Claude, les 'Instructions for Claude' (anciennement 'Profile Preferences') sont un prompt système configuré au niveau du compte qui est pris en compte dans chaque nouvelle conversation, complétant les instructions de projet et les styles par chat.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFLEw1ocnymfqT3dh5-4taKgGu-EGOdbxeh2tu4qS3YR3DSMJiURDOGSslDPeJ1LRTsmikxcrErcICKpcd75BEvGJr19h6h5Cqh2SY--XmndhZ588IG30dysc-IGhQrilwc8-BLrnCGmBOTlk2O9bOHGkdSM3KSehdV9g=",
+      "date": "2026-06-01"
+    },
+    {
+      "claim": "Les 'Styles' de Claude sont des préréglages de ton, de voix, de vocabulaire et de niveau de détail que les utilisateurs peuvent appliquer par chat, et ils peuvent être générés à partir d'un exemple d'écriture ou d'une description.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFLEw1ocnymfqT3dh5-4taKgGu-EGOdbxeh2tu4qS3YR3DSMJiURDOGSslDPeJ1LRTsmikxcrErcICKpcd75BEvGJr19h6h5Cqh2SY--XmndhZ588IG30dysc-IGhQrilwc8-BLrnCGmBOTlk2O9bOHGkdSM3KSehdV9g=",
+      "date": "2026-06-01"
+    },
+    {
+      "claim": "Les invites système de Claude sont périodiquement mises à jour avec chaque nouvelle version du modèle, le changelog allant de Claude 3 (juillet 2024) à Claude Opus 4.7 (avril 2026).",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdgRoT6JLP0Ij-NBgL3SSWYKnx-CQJK_d_rGw2DxlcudPogk9HLhhfcSjdmdloYlsMBLxswNk0Y-_mdkuKMUwuWAU8Xeeulz5zBOQ2bYJacmFgyQzj0pJn-n_wL3qptML71n5p5izo",
+      "date": "2026-04-24"
+    },
+    {
+      "claim": "Pour les comptes ChatGPT grand public (Free, Plus, Go), les données saisies peuvent être stockées, examinées par des humains et utilisées pour entraîner les modèles futurs, sauf si l'utilisateur désactive explicitement cette option.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQeEw1NcyGSVqVZISkrx1cIjM5A5TsqcClYeJmMcIAYqjOKIpUFKUjaj6yaMjLRaX5H3svLK_pM7rsFVHOzyF1iEi3tcm15PfrkBTq1cvTGYt3rREZChK_ZpmE1COBPvOla74pHCL0c179K-LplzWJxYSJt48X8OvlKTvNyE7WDYTyKbwM",
+      "date": "2026-07-02"
+    },
+    {
+      "claim": "Pour les versions ChatGPT Business, Team et Enterprise, les données sont chiffrées et ne sont pas utilisées pour l'entraînement des modèles d'OpenAI par défaut, offrant des contrôles de confidentialité et de rétention des données aux administrateurs.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAksE-ea22HISppWhsKbnQn2Ce8_cNFbdlldPbNY3HPKpVtpuj2axgcJUXJci450nqTmgCXEHp2nA8hfFlgevJbGnxSD5NFTVUBuNIRTwiAplSKABC0a-7XkFGTlC-CnNx2gohoVAbFafa8EU=",
+      "date": "2026-10-20"
+    },
+    {
+      "claim": "Depuis septembre 2025, les conditions d'utilisation de Claude pour les comptes grand public (Free, Pro, Max) ont changé : les conversations peuvent être utilisées pour entraîner les modèles d'Anthropic si l'utilisateur ne désactive pas l'option 'You can help improve Claude', qui est activée par défaut.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVgFxthoLGFNbO8hHt_H4K9a47IhGztldykIbSxwvtTXI4hZe132SNQh3loO8m4XGci9Oi3KNk27uFr62Xq2z3RaQGqEu4zDcMWqd7nY2uDt4sQfbHIphfKs0ZVP3u7ZBh_5h1hLnLjSFG1wDVYJEQpYV5-fwMuu6TgGndgkBPUMktd5wO2A==",
+      "date": "2025-08-29"
+    },
+    {
+      "claim": "Pour les offres Claude Team, Enterprise et l'API, les données des utilisateurs ne sont pas utilisées pour l'entraînement des modèles par défaut, et des options comme le mode 'Zero Data Retention' (ZDR) sont disponibles pour les industries sensibles.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl31bbx38n3tTKvCFu8UUGzvDcf4u_3Evy5ASQPS6ata4SilqkS11lDwOGEoB52gjQzcCe6nUXrYADeGhptwkX8ObvNTWh51-1OtK6Uo-EjZY1LY4Q5OPSMO4qN0LXdgVhoDT6Zc_2BtFFNIdyxOb6nnRw",
+      "date": "2026-10-15"
+    },
+    {
+      "claim": "Pour effacer les instructions personnalisées de ChatGPT, il faut désactiver l'option 'Activer la personnalisation' dans les paramètres et, si désiré, supprimer le texte des champs correspondants.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdXy6-HEB8l3O3udw_SUKHF9wSbCFi5wPHoT-iRbL4t2B7xVWq7SRKx33oQPgrVATeAL56e5vmmfZCuRcG-j0sTRQnCeDjaJZvxsfJCOY6yhJpS7tH_lV1e1r9bOEk-eFCEm9ZZc1zrQQlzqDHKJputYPshB2sNMqb0eAZg7NwCMizera7",
+      "date": "2026-10-27"
+    },
+    {
+      "claim": "La mémoire de ChatGPT peut être gérée dans les paramètres sous 'Personnalisation > Mémoire', où les utilisateurs peuvent consulter un résumé, corriger des informations, supprimer des entrées spécifiques ou effacer toute la mémoire.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf3Q9As8UhmAvskxsa6jH6niIiVccgXkXR7VaOAg1Q0kyZpHrVR4SPfDK8P8-5k5I1Z__wi_pWxfHfuapMIiOqxr9KSeoKFkbKrU5onhmfr7y47_-jwjF696UJKLihuG3ub5QpWWDzE5p6rFfl-iEtIcXAkGyaZ8Y=",
+      "date": "2026-11-01"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Le rapport 2025 de Cyberhaven sur l'adoption et les risques de l'IA a révélé que 34,8 % des données d'entreprise que les employés saisissent dans les outils d'IA sont désormais sensibles, contre 10,7 % deux ans auparavant.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQeEw1NcyGSVqVZISkrx1cIjM5A5TsqcClYeJmMcIAYqjOKIpUFKUjaj6yaMjLRaX5H3svLK_pM7rsFVHOzyF1iEi3tcm15PfrkBTq1cvTGYt3rREZChK_ZpmE1COBPvOla74pHCL0c179K-LplzWJxYSJt48X8OvlKTvNyE7WDYTyKbwM",
+      "date": "2025"
+    },
+    {
+      "stat": "Un rapport de Cyberhaven Labs de 2026 indique que 32,3 % de l'utilisation de ChatGPT se fait via des comptes personnels, même lorsque des espaces de travail d'entreprise sont disponibles.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAksE-ea22HISppWhsKbnQn2Ce8_cNFbdlldPbNY3HPKpVtpuj2axgcJUXJci450nqTmgCXEHp2nA8hfFlgevJbGnxSD5NFTVUBuNIRTwiAplSKABC0a-7XkFGTlC-CnNx2gohoVAbFafa8EU=",
+      "date": "2026"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Pour approfondir les enjeux généraux de la protection des données personnelles avec l'IA, un sujet central de cet article."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Les instructions personnalisées et la mémoire sont des formes avancées de prompt engineering, ce lien offre une base essentielle."
+    },
+    {
+      "url": "/articles/claude-c-est-quoi",
+      "why": "Pour les lecteurs moins familiers avec Claude, cet article fournit un contexte sur l'outil."
+    },
+    {
+      "url": "/articles/fonctions-cachees-chatgpt",
+      "why": "Les fonctionnalités de mémoire et d'instructions personnalisées peuvent être perçues comme des fonctions avancées ou 'cachées' de ChatGPT."
+    },
+    {
+      "url": "/lexique/context-window",
+      "why": "Les instructions personnalisées et la mémoire influencent directement la fenêtre de contexte de l'IA, un concept clé à comprendre."
+    }
+  ],
+  "outline": [
+    "Introduction : Pourquoi personnaliser votre IA est un atout stratégique",
+    "ChatGPT : Maîtriser les instructions personnalisées pour des réponses sur mesure",
+    "ChatGPT : Exploiter la mémoire pour une IA qui vous connaît vraiment",
+    "Claude : Configurer vos préférences avec les 'Instructions for Claude' et les 'Styles'",
+    "Confidentialité et sécurité : Ce qu'il faut écrire et ce qu'il ne faut PAS confier à votre IA",
+    "Gestion et effacement : Comment nettoyer la mémoire, les instructions et l'historique de vos IA",
+    "Conclusion : Optimiser l'IA pour votre business en toute sécurité et efficacité"
+  ],
+  "faq": [
+    "Quelle est la différence entre les instructions personnalisées et la mémoire de ChatGPT ?",
+    "Mes données sont-elles utilisées pour entraîner les modèles de ChatGPT ou Claude si j'utilise ces fonctionnalités ?",
+    "Puis-je utiliser les instructions personnalisées et la mémoire sur les versions gratuites de ChatGPT et Claude ?",
+    "Comment puis-je m'assurer que Claude ne retient pas d'informations sensibles sur moi ?",
+    "Est-il possible de supprimer sélectivement des éléments de la mémoire de ChatGPT ou faut-il tout effacer ?",
+    "Les instructions personnalisées de Claude s'appliquent-elles à tous mes projets ou seulement à certains ?"
+  ],
+  "pitfalls": [
+    "Ne pas confondre la désactivation des fonctionnalités de mémoire/instructions avec la suppression de l'historique de chat ou la garantie que les données n'ont jamais été utilisées pour l'entraînement (surtout sur les versions grand public avant l'option de désactivation).",
+    "La limite de 1500 caractères pour les instructions personnalisées de ChatGPT peut nécessiter de la concision et de la priorisation.",
+    "La distinction cruciale entre les politiques de confidentialité des versions grand public et entreprise pour ChatGPT et Claude, notamment en ce qui concerne l'utilisation des données pour l'entraînement des modèles.",
+    "Le changement de politique de confidentialité de Claude en septembre 2025, où l'option d'entraînement des modèles sur les données utilisateurs est devenue opt-in par défaut pour les comptes grand public.",
+    "Le risque que des informations contenues dans les instructions personnalisées de ChatGPT puissent être transmises aux développeurs de plugins tiers si ces derniers sont utilisés."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy2dmyeOzzlM1owMV0njGAVOdjDSuJDFSySNottsPXVDnqYRJsjqcMI8HGPK-wthCtgoMKVxLpv5ylfhQcT8vNIl-ppdcQBM1ZTZUU-hszPoc4zySaOlM1hZuSM1Mz4E4q8g9K5ozU6WzsXUusoZcd0JlL8umw0WQInfHAYQNGMtNQdKPn_to=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaoBcRC_sErLYBNJY00kxbKBwGrvaubytZmyK1Pr8FvTpywUJn4Dp9jmiSsHByNH8mKaUG8pR4fQGvHrdRrm33QJzU3BuLDpuIQptVmkXqIwfqE0eb2cSdYOCL2bBKIwRmDz4q_t-sQh0lm27zpo5Q_KnSDv81zbbwwR0BYg9fNNBom9Ge4M_gygLc5I=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdXy6-HEB8l3O3udw_SUKHF9wSbCFi5wPHoT-iRbL4t2B7xVWq7SRKx33oQPgrVATeAL56e5vmmfZCuRcG-j0sTRQnCeDjaJZvxsfJCOY6yhJpS7tH_lV1e1r9bOEk-eFCEm9ZZc1zrQQlzqDHKJputYPshB2sNMqb0eAZg7NwCMizera7",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFABcK2rGy1DtmJoRV1nWsoBwiD0imSk7tbaiftPr_IU0_ynD6wi7VcXFawr4hYvx-WDl7uYdameGkMntvMSWPMQ9sSLw5Oo-_K52JItLb_NRUVW8IklsXw924MMikLGXxVQ0-sJqgfc5GaGrSY7FFxgQR1pa7ZRAz_Y6URbAIToAN2LGvmqsAhWv_OEaX9MW_eNZVV",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRbZmA04zKVY-uPb1Ehf9DdKBoa20d7RkHopCJAHReo1XHHtI5jgyar9h07P_O1-ugspagGVZlfscZxjLLlk59aL4Ku0slemlGyUD9kd4g7hYVO_gVO2R1S54YjAWLoZRDAPiNzXkadJwPk0DHHTiIFVgdk8-kFaBnUlpdbDAc5oZFns6G9eScClDbzovZ9QA0uEeO3OfIWxDL8UJxz-ZkerMHbZldn2s0HjOalO5v8WVhvYqQW5mSnqHR4a9xndXOI20NrOkmsPuzqzrqZxh25Pg5yNa-NCRwlqzs8Qc",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZz9Kfah_pOT8hBAItbx1UW9sOnaNKdPSaNRM5_iCtFRxZHsyF3YuuS9asBIF8G3i2RjUvLqdE9PeH_J5uUDRIv5n63Qnfbq1DMg7x3UdKYGr7Na1fp1GQb-FDSmVHTl0gHhtn88vTN3gy9kh6c_5nQj78pa96z5E8TZtA2sd8ZcNy9Wo",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6yORyPBeTNWA7huCWQ2r3TYAWwUdTVAPfFeRCq9u0H_cd_Xauq5I0RL_nZLe0mEeIRl3LJGtsn6pdkX7Re4FpJwIdqBkwxjBXe2j6hId3ZeGc3SfBfaFnGGgKI-wGAQolkQ_Tb1mwGOX_MHVY3BHhjli-JzD9fsuJvMRr0DBtI1GBlMCe",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf3Q9As8UhmAvskxsa6jH6niIiVccgXkXR7VaOAg1Q0kyZpHrVR4SPfDK8P8-5k5I1Z__wi_pWxfHfuapMIiOqxr9KSeoKFkbKrU5onhmfr7y47_-jwjF696UJKLihuG3ub5QpWWDzE5p6rLfl-iEtIcXAkGyaZ8Y=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoKycUz310fjMnSie0K-Ht3Z4Ao41c2fuOxe-rLxLFdWdCJgSmm4NaO5FZtSixt4MbYbVD5SfRKc0sWVNMeUEbxJDhW6Qc_FxlQaVG--0wTrHXwGCSyBAHXrvcKLbE1Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6TwDeWR4Pw0-z3wUj1QFe_zYL0Ra4Vksee8vGRRJ6KjqC7504ffW5gro3VTReLkjl-vk1PTwoXs10BicbG7Z_k4sSdhtNnGwmBj_kFe__2TO1Wta_wvp3YdhJGOE87XQEstnl_0AfYI3nCw1lc146CHBnCd7YejPjFNt83sYsM8sc_6R0EVyK_eywdlq037uOiySqxqLrzbJ5gtauWNpzJN72qPU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEngaTr6XoYN8noBbBwfl5zrXQ1GCcVtuJbS7q6Vidc9faROYM3ngnEM4PhxEgRbTuQv73SeHCATwGmrBuiGvHoY1Epnphm8ioZ_NPrSyH5FkJq5zTmbwa8WkLgkGliqqkFdpwanGz-OkswcQ1yzjlOSaOYLwk0YROYuojkvsO74_A__TXMc5e7JH1QOoBt7Nqj3dmSwty20I4hEI6bzCstpNtYjrph4CeGI_7Pkq3dbf8pb7QaCftXDncAlQBC7vofZRt7vfjMDAQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbKuHGHuY-R-3m3Ym1q9Fb4CiLdhFTI2GoYH0bgPEzOSZYkk3Gkz7Ii5uvOT3dCSqeqGMcStYDlwmygkLXgE1MO9_pLoHjr7-XxxYt1bUwRqmgPowS9v_JkcXxwgdg3zBwwDx0pYNfF_LJx3zTurbDezn8kyorgdZRj7oSnuDkyHez8oGNcShO5y3V6m_N6UbKVsoztTta20820WvPxRJEtFnqDUc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdgRoT6JLP0Ij-NBgL3SSWYKnx-CQJK_d_rGw2DxlcudPogk9HLhhfcSjdmdloYlsMBLxswNk0Y-_mdkuKMUwuWAU8Xeeulz5zBOQ2bYJacmFgyQzj0pJn-n_wL3qptML71n5p5izo",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQeEw1NcyGSVqVZISkrx1cIjM5A5TsqcClYeJmMcIAYqjOKIpUFKUjaj6yaMjLRaX5H3svLK_pM7rsFVHOzyF1iEi3tcm15PfrkBTq1cvTGYt3rREZChK_ZpmE1COBPvOla74pHCL0c179K-LplzWJxYSJt48X8OvlKTvNyE7WDYTyKbwM",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbIO3hLyM16xgkgEBmYcrnC91UYEIgm9dJZglFkyFZjdU01B6gDO6MaTAKJ89hZJV8QTi1gkWGd4tJ5b7EJWomIuPfaEhEgxEdGlo9PEYEIKzw6NaFFBEocsSnnBIgZS8ndafRzzGxvfzNh7m_q1n",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeqKj0wJ3O4jK2PzvqGEVNWOiQ2MuNTA9AfNsARk5VEnNrnuy-qc5uUxSqzAcKRymciaq1CIWHFR7r4hlYoBMtje_jOtvdFxrxzFGm_fgtT4uLSjj1ZSy7htrSEndwfMf5",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAksE-ea22HISppWhsKbnQn2Ce8_cNFbdlldPbNY3HPKpVtpuj2axgcJUXJci450nqTmgCXEHp2nA8hfFlgevJbGnxSD5NFTVUBuNIRTwiAplSKABC0a-7XkFGTlC-CnNx2gohoVAbFafa8EU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFLEw1ocnymfqT3dh5-4taKgGu-EGOdbxeh2tu4qS3YR3DSMJiURDOGSslDPeJ1LRTsmikxcrErcICKpcd75BEvGJr19h6h5Cqh2SY--XmndhZ588IG30dysc-IGhQrilwc8-BLrnCGmBOTlk2O9bOHGkdSM3KSehdV9g=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVgFxthoLGFNbO8hHt_H4K9a47IhGztldykIbSxwvtTXI4hZe132SNQh3loO8m4XGci9Oi3KNk27uFr62Xq2z3RaQGqEu4zDcMWqd7nY2uDt4sQfbHIphfKs0ZVP3u7ZBh_5h1hLnLjSFG1wDVYJEQpYV5-fwMuu6TgGndgkBPUMktd5wO2A==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMGTv3ZMyzVYypKfZblz8sP6r9uittlDgkrygXI3vaR-LzZjXsqc3xz6wLCmJLIrBYhU2V_v6RV2CIeQ2to75q_ee3O8HA95vJRQKwTod43qQsFT6JhP21-EgvJmSFwUNUM18PeHwzMdOX2JnMY6caig9R_dPe-s6E5ps1MAxLTcEK",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZj6k_C0DoPaKakghu0c1h9CpbwuIEoYZWOqAdGqf-atMqOC1rnpqJQBYgJRe0ksPiXVAPmwEW_z5K5O_Oqi8wERETn0su-XN3pV26vUGUrc3_d2mNc-XBJ8zYgz9dUS9QIL3nHilnpg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl31bbx38n3tTKvCFu8UUGzvDcf4u_3Evy5ASQPS6ata4SilqkS11lDwOGEoB52gjQzcCe6nUXrYADeGhptwkX8ObvNTWh51-1OtK6Uo-EjZY1LY4Q5OPSMO4qN0LXdgVhoDT6Zc_2BtFFNIdyxOb6nnRw",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENnvx6CSwZyWnG1fUPNf4sHD2DHnQgWVlK--NLnzR8shFLRDi8JmgTioocIQBDSdjiG7AMnc8JZYA8tV-POz6Du5rP87DsackBLoI7kyA3yfpsIiUQGPqj9PklvnPMiwOj3Kv97i33MRIvwXGRdp72PV12yGmizlK70r2zA9w=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmkl_Q5_6WpWK9qGBBSLSQ1BCNOGcx8mxD9Jr_T8LrKb-OierTQFwFobP4ZgfN9hj04iW1VhjCR_Q_fr_PfirK7bOm08FZ8tSccmuL8o9DgJJrtSSPCROpnSP-jkmvOWKg",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf3Q9As8UhmAvskxsa6jH6niIiVccgXkXR7VaOAg1Q0kyZpHrVR4SPfDK8P8-5k5I1Z__wi_pWxfHfuapMIiOqxr9KSeoKFkbKrU5onhmfr7y47_-jwjF696UJKLihuG3ub5QpWWDzE5p6rFfl-iEtIcXAkGyaZ8Y="
+  ]
+}

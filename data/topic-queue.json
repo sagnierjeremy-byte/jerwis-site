@@ -588,10 +588,11 @@
       "topic": "régler la mémoire et les instructions personnalisées de ChatGPT et de Claude pour qu'ils te connaissent : ce qu'il faut écrire, ce qu'il ne faut pas leur confier, et comment tout effacer",
       "type": "A",
       "priority": 0,
-      "status": "pending",
+      "status": "done",
       "added": "2026-11-02",
       "added_by": "claude",
-      "parcours_etape": 2
+      "parcours_etape": 2,
+      "published_at": "2026-11-05"
     },
     {
       "id": "projets-ia-ranger-conversations",

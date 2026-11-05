@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/personnaliser-chatgpt-claude.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Personnaliser ChatGPT et Claude : le guide pour entrepreneur</title>
+<meta name="description" content="Comment configurer la mémoire et les instructions personnalisées de ChatGPT et Claude pour gagner du temps sans exposer tes données sensibles.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Personnaliser ChatGPT et Claude : le guide pour entrepreneur">
+<meta property="og:description" content="Comment configurer la mémoire et les instructions personnalisées de ChatGPT et Claude pour gagner du temps sans exposer tes données sensibles.">
+<meta property="og:url" content="https://jerwis.fr/articles/personnaliser-chatgpt-claude">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/personnaliser-chatgpt-claude.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-05">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Personnaliser ChatGPT et Claude : le guide pour entrepreneur">
+<meta name="twitter:description" content="Comment configurer la mémoire et les instructions personnalisées de ChatGPT et Claude pour gagner du temps sans exposer tes données sensibles.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/personnaliser-chatgpt-claude.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/personnaliser-chatgpt-claude">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/personnaliser-chatgpt-claude">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/personnaliser-chatgpt-claude">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/personnaliser-chatgpt-claude">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Personnaliser ChatGPT et Claude : le guide pour entrepreneur",
+  "description": "Comment configurer la mémoire et les instructions personnalisées de ChatGPT et Claude pour gagner du temps sans exposer tes données sensibles.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/personnaliser-chatgpt-claude",
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/personnaliser-chatgpt-claude.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 34</div>
+    <h1>Instructions et mémoire<br>pour ton IA<br><em>sans compromettre tes données</em></h1>
+    <p class="hero-lead">
+      Tu passes tes journées à répéter à ChatGPT qui tu es et ce que tu fais ? Tu sens que Claude pourrait mieux te comprendre mais tu ne sais pas par où commencer ? Je partage dans cet article ce que j'ai progressivement mis en place pour que ces outils travaillent vraiment à ma place. L'objectif est simple : ne plus avoir à tout réexpliquer à chaque conversation tout en gardant le contrôle sur mes données.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Les <strong>instructions personnalisées</strong> évitent de répéter tes préférences à chaque prompt</li>
+      <li>La <strong>mémoire</strong> de ChatGPT retient tes détails entre les conversations</li>
+      <li>Claude propose des <strong>instructions de compte</strong> et des styles par chat</li>
+      <li>Les données grand public peuvent servir à l'entraînement : fais attention à ce que tu partages</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Pourquoi je me suis mis à personnaliser</h2>
+    <p>Je fais tout ça d&#39;abord pour moi. Quand j&#39;ai commencé à utiliser ChatGPT et Claude quotidiennement, je perdais un temps fou à répéter les mêmes informations. Mon secteur d&#39;activité, la façon dont je préfère recevoir les réponses, les outils que j&#39;utilise au quotidien, le format que j&#39;attends. À chaque nouvelle conversation, c&#39;était reparti pour un tour. Je me sentais comme un client régulier obligé de réciter sa commande à chaque fois.</p>
+    <p>Les instructions personnalisées et la mémoire ont changé la donne. Ce ne sont pas des gadgets réservés aux experts. C&#39;est comme donner un brief permanent à ton assistant. ChatGPT les appelle &quot;instructions personnalisées&quot; et &quot;mémoire&quot;. Claude parle d&#39;&quot;Instructions for Claude&quot; et de &quot;Styles&quot;. Dans les deux cas, l&#39;idée est simple. Il s&#39;agit de faire en sorte que l&#39;IA te connaisse assez pour être utile dès le premier message, sans que tu aies à tout réapprendre à chaque fois.</p>
+    <p>Et le meilleur dans l&#39;histoire ? Ces fonctionnalités sont accessibles sur toutes les offres ChatGPT depuis au moins octobre 2026. Que tu sois sur la version gratuite, Plus, Team ou Enterprise. Même chose sur mobile et bureau. Pour Claude, les &quot;Instructions for Claude&quot; fonctionnent au niveau du compte et s&#39;appliquent à chaque nouvelle conversation. Tu n&#39;as aucune excuse pour t&#39;en priver.</p>
+    <p>Personnellement, je considère ces réglages comme une forme d&#39;investissement. Dix minutes de configuration aujourd&#39;hui économisent des heures de répétition demain. Mais il y a un revers. Plus tu dis à ton IA qui tu es, plus tu exposes de toi-même. Et tout le monde n&#39;a pas conscience de ce que cela implique en termes de confidentialité. C&#39;est exactement ce que je veux partager avec toi ici. Comment bien paramétrer ces outils, ce qu&#39;il faut y mettre, et surtout ce qu&#39;il faut en garder hors.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Les deux leviers de ChatGPT</h2>
+    <p>Chez ChatGPT, tu as deux outils distincts pour personnaliser ton expérience. Les instructions personnalisées sont des directives directes que tu rédiges toi-même. Tu expliques qui tu es, ce que tu attends, comment tu veux que le ton soit ajusté. Le modèle les prend en compte dans chaque réponse. Cela évite de répéter les mêmes informations à chaque interaction.</p>
+    <p>La mémoire, elle, se développe différemment. Introduite en 2025, elle retient des détails utiles et des préférences entre tes conversations. Ton ton préféré, des informations récurrentes sur ton business, les formats que tu apprécies. Elle grandit au fil de ce que tu lui dis, alors que les instructions restent figées jusqu&#39;à ce que tu les modifies.</p>
+    <p>C&#39;est une différence clé à comprendre. Les instructions sont un prompt système que tu contrôles. La mémoire est un résumé vivant que l&#39;IA construit à partir de tes échanges. Pour bien faire les choses, je te conseille de garder les instructions pour ton contexte métier stable et de laisser la mémoire capter les détails d&#39;usage au jour le jour.</p>
+    <p>Si tu débutes avec le prompt engineering, ces réglages sont une forme avancée d&#39;écriture de prompt. J&#39;en parle dans mon guide sur <a href="/articles/ecrire-bon-prompt-non-dev">comment écrire un bon prompt quand on n&#39;est pas développeur</a>. Et pour découvrir d&#39;autres réglages cachés de l&#39;outil, jette un œil à mes <a href="/articles/fonctions-cachees-chatgpt">fonctions cachées de ChatGPT</a>.</p>
+    <div class="callout tip"><h4>Mon conseil</h4><p>Ne surcharge pas tes instructions personnalisées. J'ai tendance à vouloir tout mettre dans ce champ, mais plus tu écris, plus tu risques de créer des contradictions. Mieux vaut trois lignes claires qu'un roman que l'IA doit décrypter à chaque réponse.</p></div>
+    
+    <h2>Ce que la mémoire change vraiment</h2>
+    <p>La mémoire de ChatGPT, c&#39;est ce qui fait passer l&#39;outil d&#39;un interlocuteur amnésique à un collègue qui se souvient de ton dernier échange. Elle stocke des préférences et des faits que tu confirmes ou que tu lui indiques directement.</p>
+    <p>Tu peux la gérer dans tes paramètres, sous &quot;Personnalisation &gt; Mémoire&quot;. Là, tu trouves un résumé de ce que ChatGPT retient. Tu peux corriger une information, supprimer une entrée spécifique qui ne te convient plus, ou effacer toute la mémoire d&#39;un coup si tu veux repartir à zéro.</p>
+    <p>Moi, j&#39;utilise cette fonctionnalité pour deux choses. D&#39;abord, pour que ChatGPT sache que je préfère les réponses courtes et structurées. Ensuite, pour qu&#39;il retienne les grandes lignes de mes projets en cours. Comme ça, quand je lui demande de relire un texte ou d&#39;analyser une idée, il a déjà le contexte.</p>
+    <p>Cela dit, cette mémoire influence aussi la <a href="/lexique/context-window">fenêtre de contexte</a> de l&#39;IA. C&#39;est-à-dire l&#39;espace disponible pour traiter ta demande. Si tu accumules trop de souvenirs inutiles, tu réduis la place pour le contenu utile de ta conversation. D&#39;où l&#39;intérêt de faire le ménage régulièrement.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Comment j&#39;ai configuré Claude</h2>
+    <p>Claude fonctionne différemment, mais le principe reste le même : donner un brief permanent. Les &quot;Instructions for Claude&quot;, qui s&#39;appelaient auparavant &quot;Profile Preferences&quot;, sont un prompt système configuré au niveau du compte. Il est pris en compte dans chaque nouvelle conversation. Il vient compléter les instructions de projet et les styles que tu peux choisir par chat.</p>
+    <p>Ces &quot;Styles&quot; sont des préréglages de ton, de voix, de vocabulaire et de niveau de détail. Tu peux les générer à partir d&#39;un exemple d&#39;écriture ou d&#39;une simple description. C&#39;est particulièrement utile si tu veux que Claude adopte un registre proche du tien pour rédiger tes emails ou tes articles.</p>
+    <p>Si tu ne connais pas bien l&#39;outil, mon article sur <a href="/articles/claude-c-est-quoi">ce qu&#39;est Claude</a> te donnera les bases. Sache aussi que les invites système de Claude évoluent régulièrement. Le changelog officiel va de Claude 3 en juillet 2024 à Claude Opus 4.7 en avril 2026. À la date de cet article, les réglages que tu configures restent valables d&#39;une version à l&#39;autre, mais il est bon de vérifier que tout fonctionne encore comme prévu après une mise à jour majeure.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Ne confonds pas les instructions de compte et les styles par chat. Les premières s'appliquent partout. Les seconds sont locaux à une conversation. Si tu veux que Claude te connaisse sur tous tes projets, c'est dans les "Instructions for Claude" qu'il faut écrire, pas seulement dans le style du moment.</p></div>
+    
+    <h2>Ce que je ne mets jamais dedans</h2>
+    <p>Voici la partie sérieuse. Personnaliser ton IA, c&#39;est bien. Y mettre des informations sensibles, c&#39;est dangereux. Et beaucoup d&#39;entrepreneurs le font sans le savoir.</p>
+    <p>Selon un rapport de Cyberhaven daté de 2025, 34,8 % des données d&#39;entreprise que les employés saisissent dans les outils d&#39;IA sont désormais sensibles. C&#39;était seulement 10,7 % deux ans auparavant. Le risque monte en flèche.</p>
+    <p>Pourquoi ? Parce que sur les comptes ChatGPT grand public (Free, Plus, Go), tes données peuvent être stockées, examinées par des humains et utilisées pour entraîner les modèles futurs. Sauf si tu désactives explicitement cette option dans tes paramètres. Chez Claude, la situation est similaire pour les comptes grand public (Free, Pro, Max). Depuis septembre 2025, tes conversations peuvent servir à l&#39;entraînement si tu laisses l&#39;option &quot;You can help improve Claude&quot; activée. Elle l&#39;est par défaut.</p>
+    <p>Alors qu&#39;est-ce que je ne mets jamais dans mes instructions ni dans ma mémoire ? Les données clients nominatives, les chiffres d&#39;affaires précis, les stratégies non rendues publiques, les mots de passe, les codes d&#39;accès. Rien qui puisse me nuire s&#39;il sortait de la bulle.</p>
+    <p>Si tu es sur des offres pro, la donne change. ChatGPT Business, Team et Enterprise chiffrent les données et ne les utilisent pas pour l&#39;entraînement par défaut. Les administrateurs ont des contrôles de confidentialité et de rétention. Du côté Claude, les offres Team, Enterprise et l&#39;API ne utilisent pas tes données pour l&#39;entraînement par défaut. Et il existe même un mode &quot;Zero Data Retention&quot; pour les industries sensibles.</p>
+    <p>Mais attention. D&#39;après Cyberhaven Labs en 2026, 32,3 % de l&#39;utilisation de ChatGPT se fait via des comptes personnels, même quand des espaces de travail d&#39;entreprise sont disponibles. Cela veut dire qu&#39;une bonne partie des fuites vient d&#39;une simple erreur de connexion.</p>
+    <p>Je te recommande de lire mon article sur <a href="/articles/donnees-perso-ia-confidentialite">les enjeux de la confidentialité des données personnelles avec l&#39;IA</a> pour creuser le sujet.</p>
+    <h2>Comment tout effacer quand tu veux</h2>
+    <p>Tu as le droit de changer d&#39;avis. Ou de te rendre compte que tu as partagé trop de choses. Voici comment reprendre le contrôle.</p>
+    <p>Pour effacer les instructions personnalisées de ChatGPT, rends-toi dans tes paramètres. Désactive l&#39;option &quot;Activer la personnalisation&quot;. Si tu veux, tu peux aussi supprimer le texte des champs correspondants. C&#39;est immédiat.</p>
+    <p>Pour la mémoire, c&#39;est dans le même menu &quot;Personnalisation &gt; Mémoire&quot;. Tu peux consulter le résumé de ce que ChatGPT retient. Tu as le choix : corriger une information, supprimer une entrée spécifique qui te gêne, ou effacer toute la mémoire d&#39;un seul coup. Moi, je fais un petit ménage chaque mois. Cela prend deux minutes et cela m&#39;évite d&#39;accumuler des souvenirs obsolètes.</p>
+    <p>Chez Claude, la logique est similaire pour les instructions de compte. Tu retournes dans tes préférences, tu modifies ou effaces le texte. Pour les styles par chat, tu changes simplement le réglage dans la conversation active.</p>
+    <p>Le plus important, c&#39;est de ne pas laisser ces données traîner si tu changes d&#39;ordinateur, si tu quittes un poste, ou si tu veux simplement tester un nouveau réglage sans héritage du passé.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>Quelle est la différence entre les instructions personnalisées et la mémoire de ChatGPT ?</h3>
+    <p>Les instructions personnalisées sont des directives que tu écris toi-même. Elles restent fixes et le modèle les applique à chaque réponse. La mémoire se construit au fil des conversations. Elle retient des détails et des préférences que ChatGPT juge utiles. C&#39;est un résumé vivant, alors que les instructions sont un brief statique.</p>
+    <h3>Mes données sont-elles utilisées pour entraîner les modèles de ChatGPT ou Claude si j&#39;utilise ces fonctionnalités ?</h3>
+    <p>Sur les comptes ChatGPT grand public (Free, Plus, Go), tes données peuvent être stockées et utilisées pour l&#39;entraînement futur à moins que tu ne désactives l&#39;option. Même chose chez Claude pour les comptes Free, Pro et Max depuis septembre 2025, avec l&#39;option &quot;You can help improve Claude&quot; activée par défaut. Sur les offres professionnelles des deux outils, tes données ne sont pas utilisées pour l&#39;entraînement par défaut.</p>
+    <h3>Puis-je utiliser les instructions personnalisées et la mémoire sur les versions gratuites de ChatGPT et Claude ?</h3>
+    <p>Oui. Les instructions personnalisées de ChatGPT sont disponibles sur toutes les offres et sur toutes les plateformes depuis au moins octobre 2026. Chez Claude, les &quot;Instructions for Claude&quot; et les styles par chat sont accessibles sans abonnement payant.</p>
+    <h3>Comment puis-je m&#39;assurer que Claude ne retient pas d&#39;informations sensibles sur moi ?</h3>
+    <p>Désactive l&#39;option &quot;You can help improve Claude&quot; dans tes paramètres si tu es sur un compte grand public. Si tu traites des données sensibles, oriente-toi vers les offres Team ou Enterprise, ou utilise l&#39;API avec les options de rétention adaptées. Et surtout, n&#39;inclus jamais de données confidentielles dans tes instructions de compte ni dans tes conversations.</p>
+    <h3>Est-il possible de supprimer sélectivement des éléments de la mémoire de ChatGPT ou faut-il tout effacer ?</h3>
+    <p>Tu peux faire les deux. Dans les paramètres &quot;Personnalisation &gt; Mémoire&quot;, tu peux supprimer des entrées spécifiques une par une ou effacer l&#39;intégralité de la mémoire en une seule action.</p>
+    <h3>Les instructions personnalisées de Claude s&#39;appliquent-elles à tous mes projets ou seulement à certains ?</h3>
+    <p>Les &quot;Instructions for Claude&quot; s&#39;appliquent au niveau du compte. Elles sont donc actives dans chaque nouvelle conversation. Elles viennent en complément des instructions spécifiques que tu peux définir par projet et des styles que tu choisis par chat.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Personnaliser ChatGPT et Claude, c&#39;est gagner du temps chaque jour. Mais c&#39;est aussi une responsabilité. Je garde mes instructions légères et professionnelles. Je laisse la mémoire capter les détails d&#39;usage. Et je fais attention à ne jamais y glisser de données sensibles, surtout sur un compte grand public.</p>
+    <p>Prends dix minutes ce soir pour vérifier tes réglages. Lis ce que tes IA retiennent de toi. Corrige, efface, ajuste. C&#39;est un geste simple qui change la qualité de tes réponses. Et qui te protège.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

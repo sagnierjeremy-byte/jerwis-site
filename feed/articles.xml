@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 02 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Personnaliser ChatGPT et Claude : le guide pour entrepreneur</title>
+      <link>https://jerwis.fr/articles/personnaliser-chatgpt-claude</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/personnaliser-chatgpt-claude</guid>
+      <description>Comment configurer la mémoire et les instructions personnalisées de ChatGPT et Claude pour gagner du temps sans exposer tes données sensibles.</description>
+      <pubDate>Thu, 05 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Arnaque faux conseiller bancaire : voix clonée et remboursement</title>
       <link>https://jerwis.fr/articles/arnaque-faux-conseiller-voix-clonee</link>
