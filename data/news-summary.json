@@ -1,70 +1,66 @@
 {
-  "generated_at": "2026-11-04T12:45:48.946Z",
-  "day_label": "Mercredi 4 novembre",
+  "generated_at": "2026-11-05T12:55:32.864Z",
+  "day_label": "Jeudi 5 novembre",
   "items": [
     {
-      "title": "Fortuneo piratée : plus de 118 millions d'euros détournés",
-      "why_it_matters": "Je note que des virements clients sont bloqués. Je vérifie la sécurité de ma banque en ligne et je pense à diversifier mes comptes pro.",
+      "title": "Grève du 5 novembre : 270 000 manifestants et des lycées bloqués",
+      "why_it_matters": "Je retiens que cette mobilisation ralentit la livraison de mes commandes et annonce une hausse des charges sociales.",
       "sources": [
         {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/la-banque-credit-mutuel-arkea-victime-d-une-cyberattaque-ayant-permis-des-operations-frauduleuses-20261104"
+          "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105"
+        }
+      ]
+    },
+    {
+      "title": "Piratage du Crédit Mutuel Arkéa : 100 millions d'euros volés",
+      "why_it_matters": "Je note que même une grande banque française se fait pirater. Ça fragilise la confiance et rappelle de vérifier mes propres sécurités.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-millions-d-euros-voles-une-attaque-inedite-et-une-enquete-ouverte-ce-que-l-on-sait-du-piratage-du-credit-mutuel-arkea_8269124.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/cyberattaque-credit-mutuel-arkea-100-millions-deuros-exfiltres-vers-la-sphere-crypto-507348.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Revalorisation du SMIC : +100 à +130 euros revendiqués",
+      "why_it_matters": "Je retiens que mes coûts de personnel risquent d'augmenter vite. Il faut que je prévois mon budget pour le premier trimestre 2027.",
+      "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/idees/article/2026/11/05/il-faudrait-une-augmentation-du-smic-de-plus-de-130-euros-par-mois-pour-un-temps-plein-uniquement-pour-retrouver-le-niveau-de-2012_6806861_3232.html"
         },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/piratage-a-118-millions-deuros-au-credit-mutuel-arkea-les-clients-ne-peuvent-plus-faire-certains-virements-1531555"
-        },
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2367485-piratage-du-credit-mutuel-arkea-ce-que-lon-sait-et-qui-est-reellement-concerne.html"
+          "url": "https://www.capital.fr/votre-carriere/100-euros-de-plus-pour-le-smic-la-cfdt-persiste-et-signe-alors-que-les-difficultes-s-accumulent-pour-les-entreprises-1531592"
         }
       ]
     },
     {
-      "title": "Piratage de frigos : EFS et supermarchés touchés en Europe",
-      "why_it_matters": "Je retiens que des hackers attaquent la chaîne du froid. Si j'ai des produits frais, je surveille mes équipements.",
+      "title": "Budget rejeté à l'Assemblée : l'instabilité politique continue",
+      "why_it_matters": "Je note que le gouvernement n'arrive pas à faire passer sa loi de finances. Ça crée de l'incertitude sur les taxes et les aides pour mon activité.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/social/apres-les-supermarches-l-etablissement-francais-du-sang-victime-d-une-cyberattaque-ses-chambres-froides-prises-pour-cible-20261104"
-        },
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/cybersecurite/nous-avons-du-tout-jeter-douze-pays-europeens-desormais-concernees-par-la-cyberattaque-visant-des-refrigerateurs_AD-202611040433.html"
-        },
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/etablissement-francais-du-sang-piratage-frigos/"
+          "url": "https://www.lefigaro.fr/politique/budget-le-projet-de-loi-de-finances-unanimement-rejete-en-premiere-lecture-a-l-assemblee-20261104"
         }
       ]
     },
     {
-      "title": "Google propose des départs volontaires en France",
-      "why_it_matters": "Je vois que Google réduit ses effectifs en France sur l'IA. C'est le moment pour recruter de bons profils tech.",
+      "title": "Factures de gaz et électricité : la flambée des prix continue",
+      "why_it_matters": "Je note que mes factures d'énergie vont exploser cet hiver. C'est un coût fixe qui rogne directement sur ma marge et ma trésorerie.",
       "sources": [
         {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/big-tech/google/google-propose-des-departs-volontaires-en-france-sur-fond-de-depenses-massives-dans-lia.VZFLLA47XBF3TGT3SHR7PNL3JM.html"
-        }
-      ]
-    },
-    {
-      "title": "Le Brésil interdit à Meta d'utiliser la presse pour son IA",
-      "why_it_matters": "Je retiens que les règles sur le contenu et l'IA deviennent plus strictes. Si je crée du contenu, mes droits sont mieux protégés ailleurs.",
-      "sources": [
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/empecher-un-abus-manifeste-de-droit-et-eviter-des-dommages-irreversibles-la-justice-bresilienne-interdit-a-meta-d-utiliser-des-contenus-de-presse-pour-entrainer-son-ia_AD-202611040445.html"
-        }
-      ]
-    },
-    {
-      "title": "Les créateurs français génèrent 9 milliards d'euros en 2026",
-      "why_it_matters": "Je note que l'influence génère 9 milliards. C'est le 3e marché mondial. Une opportunité à ne pas ignorer pour ma marque.",
-      "sources": [
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/reseaux-sociaux-les-createurs-de-contenus-francais-vont-generer-environ-9-milliards-d-euros-en-2026-en-recolteront-un-peu-plus-de-45-mais-ils-sont-encore-rares-a-pouvoir-en-vivre_AD-202611040528.html"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/appel-temoignages/2026/11/05/appel-a-temoignages-salaries-etudiants-comment-vous-adaptez-vous-a-la-flambee-des-factures-de-gaz-et-d-electricite_6806862_3234.html"
         }
       ]
     }
