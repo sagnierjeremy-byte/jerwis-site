@@ -1,66 +1,54 @@
 {
-  "generated_at": "2026-11-05T12:55:32.864Z",
-  "day_label": "Jeudi 5 novembre",
+  "generated_at": "2026-11-06T12:41:43.151Z",
+  "day_label": "Vendredi 6 novembre",
   "items": [
     {
-      "title": "Grève du 5 novembre : 270 000 manifestants et des lycées bloqués",
-      "why_it_matters": "Je retiens que cette mobilisation ralentit la livraison de mes commandes et annonce une hausse des charges sociales.",
+      "title": "La facturation électronique suspendue pour les PME",
+      "why_it_matters": "Je retiens que les députés ont voté la suspension pour les petites entreprises, c'est un soulagement administratif concret.",
       "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105"
-        }
-      ]
-    },
-    {
-      "title": "Piratage du Crédit Mutuel Arkéa : 100 millions d'euros volés",
-      "why_it_matters": "Je note que même une grande banque française se fait pirater. Ça fragilise la confiance et rappelle de vérifier mes propres sécurités.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-millions-d-euros-voles-une-attaque-inedite-et-une-enquete-ouverte-ce-que-l-on-sait-du-piratage-du-credit-mutuel-arkea_8269124.html#xtor=RSS-3-%5Bgeneral%5D"
-        },
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/cyberattaque-credit-mutuel-arkea-100-millions-deuros-exfiltres-vers-la-sphere-crypto-507348.htm#xtor=RSS-1"
-        }
-      ]
-    },
-    {
-      "title": "Revalorisation du SMIC : +100 à +130 euros revendiqués",
-      "why_it_matters": "Je retiens que mes coûts de personnel risquent d'augmenter vite. Il faut que je prévois mon budget pour le premier trimestre 2027.",
-      "sources": [
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/idees/article/2026/11/05/il-faudrait-une-augmentation-du-smic-de-plus-de-130-euros-par-mois-pour-un-temps-plein-uniquement-pour-retrouver-le-niveau-de-2012_6806861_3232.html"
-        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/100-euros-de-plus-pour-le-smic-la-cfdt-persiste-et-signe-alors-que-les-difficultes-s-accumulent-pour-les-entreprises-1531592"
+          "url": "https://www.capital.fr/economie-politique/la-facturation-electronique-en-question-les-deputes-votent-sa-suspension-pour-les-petites-entreprises-1531663"
         }
       ]
     },
     {
-      "title": "Budget rejeté à l'Assemblée : l'instabilité politique continue",
-      "why_it_matters": "Je note que le gouvernement n'arrive pas à faire passer sa loi de finances. Ça crée de l'incertitude sur les taxes et les aides pour mon activité.",
+      "title": "Le Smic pourrait augmenter dès le 1er décembre",
+      "why_it_matters": "Je note que la hausse du Smic avancée au 1er décembre change mes prévisions de coûts pour fin d'année.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/politique/budget-le-projet-de-loi-de-finances-unanimement-rejete-en-premiere-lecture-a-l-assemblee-20261104"
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/hausse-du-smic-avancee-au-1er-decembre-la-barre-des-1-500-euros-net-en-ligne-de-mire-selon-le-ministre-du-travail-1531662"
         }
       ]
     },
     {
-      "title": "Factures de gaz et électricité : la flambée des prix continue",
-      "why_it_matters": "Je note que mes factures d'énergie vont exploser cet hiver. C'est un coût fixe qui rogne directement sur ma marge et ma trésorerie.",
+      "title": "Déficit commercial français à 7,3 milliards en septembre",
+      "why_it_matters": "Je retiens que nos importations explosent, c'est un signal sur la santé de l'économie française et mes approvisionnements.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/appel-temoignages/2026/11/05/appel-a-temoignages-salaries-etudiants-comment-vous-adaptez-vous-a-la-flambee-des-factures-de-gaz-et-d-electricite_6806862_3234.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/action-publique/1557689-le-deficit-commercial-francais-a-atteint-7-3-milliards-d-euros-en-septembre/"
+        }
+      ]
+    },
+    {
+      "title": "Le patronat auditionne les candidats à la présidentielle",
+      "why_it_matters": "Je note que le Medef confronte les candidats sur leurs propositions éco, ça dessine le futur cadre fiscal.",
+      "sources": [
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/action-publique/1557677-le-medef-les-entrepreneurs-et-l-u2p-auditionneront-les-candidats-a-la-presidentielle/"
+        }
+      ]
+    },
+    {
+      "title": "Mobilisation pour un moratoire sur les data centers",
+      "why_it_matters": "Je retiens que la consommation énergétique des data centers crée des tensions, ça peut impacter mes outils cloud.",
+      "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/54467093993446/data-centers-mobilisation-inedite-des-ce-vendredi-pour-reclamer-un-moratoire"
         }
       ]
     }
