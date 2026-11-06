@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 05 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Ranger ses conversations ChatGPT et Claude par projet</title>
+      <link>https://jerwis.fr/articles/projets-ia-ranger-conversations</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/projets-ia-ranger-conversations</guid>
+      <description>Comment structurer tes projets dans ChatGPT et Claude pour garder le contexte, éviter les répétitions et gagner du temps chaque jour sans t&apos;y perdre.</description>
+      <pubDate>Fri, 06 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Personnaliser ChatGPT et Claude : le guide pour entrepreneur</title>
       <link>https://jerwis.fr/articles/personnaliser-chatgpt-claude</link>

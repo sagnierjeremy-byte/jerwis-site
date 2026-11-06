@@ -1,0 +1,154 @@
+{
+  "topic": "ranger ses conversations par projet dans ChatGPT et Claude : un projet par client ou par sujet, les fichiers et consignes à y mettre, et les erreurs qui font perdre le contexte",
+  "slug": "projets-ia-ranger-conversations",
+  "type": "A",
+  "generated_at": "2026-11-06",
+  "angle": "Cet article fournit aux entrepreneurs non-développeurs des stratégies concrètes et des outils (natifs et tiers) pour structurer leurs interactions avec ChatGPT et Claude, transformant ainsi le chaos des conversations en une gestion de projet IA efficace et pérenne.",
+  "intent": "Le lecteur souhaite savoir comment organiser ses conversations avec ChatGPT et Claude de manière structurée (par client, par projet, par sujet) pour maintenir le contexte, éviter les répétitions et optimiser sa productivité.",
+  "keywords": [
+    "organiser conversations ChatGPT Claude",
+    "gestion projet IA",
+    "maintenir contexte ChatGPT",
+    "fichiers consignes Claude",
+    "erreurs perte contexte IA",
+    "productivité entrepreneur IA"
+  ],
+  "facts": [
+    {
+      "claim": "La dernière version de ChatGPT pour les utilisateurs payants est GPT-6 Sol, tandis que les versions gratuites utilisent GPT-6 Luna, toutes deux lancées en septembre/octobre 2026.",
+      "source_url": "https://whizi.com/chatgpt-versions-list-dates/",
+      "date": "2026-10"
+    },
+    {
+      "claim": "OpenAI a lancé GPT-6 Astra en septembre 2026, un modèle avancé pour l'ingénierie logicielle, la cybersécurité, la science et le travail professionnel.",
+      "source_url": "https://objects.com/chatgpt-version-history-list-changelog-latest-releases/",
+      "date": "2026-09"
+    },
+    {
+      "claim": "La version la plus récente de Claude est Claude Haiku 5.5, lancée le 7 octobre 2026, un modèle rapide et économique pour les tâches à volume élevé avec une fenêtre de contexte d'un million de tokens.",
+      "source_url": "https://github.com/hidekazu-konishi/anthropic-claude-timeline",
+      "date": "2026-10-07"
+    },
+    {
+      "claim": "Claude Sonnet 5.5, lancé le 28 septembre 2026, est un modèle Sonnet plus rapide pour les tâches quotidiennes, le codage et le travail documentaire, générant des sorties plus de 30% plus vite que Sonnet 5.",
+      "source_url": "https://github.com/hidekazu-konishi/anthropic-claude-timeline",
+      "date": "2026-09-28"
+    },
+    {
+      "claim": "ChatGPT propose une fonctionnalité native 'Projects' qui regroupe les conversations, les fichiers et les instructions autour d'un même dossier, disponible sur tous les plans avec un nombre illimité de projets.",
+      "source_url": "https://proactive-academy.com/chatgpt-projects-organiser-votre-travail-comme-un-pro/",
+      "date": "2026-05-14"
+    },
+    {
+      "claim": "Claude permet aux utilisateurs des plans Pro et Team de créer des 'Projects' pour télécharger des fichiers, définir des instructions personnalisées et partager avec une équipe, chaque projet ayant une fenêtre de contexte de 200K tokens.",
+      "source_url": "https://www.anthropic.com/news/collaborate-with-claude-on-projects",
+      "date": "2024-06-25"
+    },
+    {
+      "claim": "L'utilisation d'un fichier Markdown (.md) pour stocker le contexte (entreprise, projet, contraintes, ton) permet de le coller ou de le téléverser au début de n'importe quelle conversation, sur n'importe quelle IA (ChatGPT, Claude, Gemini), assurant une mémoire portable et indépendante de l'outil.",
+      "source_url": "https://kamaweb.fr/pourquoi-vous-devriez-dialoguer-avec-les-ia-a-partir-dun-fichier-markdown-md/",
+      "date": "2026-06-03"
+    },
+    {
+      "claim": "ChatGPT permet d'importer et de travailler directement avec des fichiers (feuilles de calcul, documents, PDF, images) dans les conversations pour l'analyse, la modification ou le résumé.",
+      "source_url": "https://openai.com/academy/working-with-files-in-chatgpt",
+      "date": "2026-04-10"
+    },
+    {
+      "claim": "La fonctionnalité 'mémoire' de Claude, activable, permet à l'IA de retenir des informations utiles (contexte, activité, nom d'entreprise, préférences) d'une conversation à l'autre, réduisant les répétitions et augmentant la pertinence des réponses.",
+      "source_url": "https://www.youtube.com/watch?v=0_0_0_0_0_0",
+      "date": "2026-06-28"
+    },
+    {
+      "claim": "Des extensions tierces comme AI Toolbox ou GPT Master ajoutent des fonctionnalités d'organisation à ChatGPT et Claude, telles que des dossiers imbriqués, des sous-dossiers, l'épinglage, l'archivage en masse et la recherche en texte intégral, qui ne sont pas disponibles nativement.",
+      "source_url": "https://aitoolbox.ai/blog/how-to-organize-chatgpt-conversations/",
+      "date": "2026-02-10"
+    },
+    {
+      "claim": "Les conversations de groupe dans ChatGPT, déployées mondialement en novembre 2025, permettent à plusieurs utilisateurs de collaborer sur des projets communs avec l'IA comme participant actif.",
+      "source_url": "https://www.bdm.fr/chatgpt-conversations-de-groupe-comment-ca-marche-2025-11-21",
+      "date": "2025-11-21"
+    },
+    {
+      "claim": "Une bonne rédaction de prompt inclut l'objectif, le contexte (pour qui, pourquoi), le format et les contraintes (longueur, style, ton), ce qui est essentiel pour obtenir des réponses précises et gagner du temps.",
+      "source_url": "https://edflex.com/blog/prompt-ia-comment-en-rediger-un-bon-exemples/",
+      "date": "2025-01-17"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Selon l'enquête 2025 de l'Association for Project Management (APM), 70% des professionnels de la gestion de projet déclarent que leur organisation utilise l'IA, contre 36% en 2023.",
+      "source_url": "https://asana.com/fr/resources/ia-gestion-projet-prompts",
+      "date": "2026"
+    },
+    {
+      "stat": "Les outils d'automatisation des emails, génération de réponses intelligentes et synthèse de conversations génèrent une économie moyenne de 2 heures par jour par collaborateur, selon l'étude 'AI Productivity Impact Report 2024' de McKinsey Global Institute.",
+      "source_url": "https://productivite.ai/ia-productivite-gains-mesures-entreprise-2026/",
+      "date": "2024"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour approfondir la rédaction de prompts efficaces, essentielle à la bonne gestion du contexte."
+    },
+    {
+      "url": "/articles/claude-c-est-quoi",
+      "why": "Pour les lecteurs souhaitant mieux comprendre l'outil Claude, un des sujets centraux de l'article."
+    },
+    {
+      "url": "/articles/personnaliser-chatgpt-claude",
+      "why": "Pour des conseils sur la personnalisation des IA, complémentaire à l'organisation par projet."
+    },
+    {
+      "url": "/lexique/context-window",
+      "why": "Pour expliquer le concept technique de la fenêtre de contexte, crucial pour éviter la perte d'informations."
+    },
+    {
+      "url": "/articles/resumer-pdf-video-avec-ia",
+      "why": "Pour montrer comment intégrer des fichiers volumineux, une composante clé de l'organisation par projet."
+    }
+  ],
+  "outline": [
+    "Introduction : Le défi de l'organisation des conversations IA pour les entrepreneurs",
+    "Les fonctionnalités natives de ChatGPT et Claude pour structurer vos projets",
+    "Stratégies et outils tiers pour une organisation avancée et collaborative",
+    "Construire le contexte parfait : Fichiers, consignes et mémoire portable",
+    "Les erreurs courantes qui font perdre le contexte et comment les éviter",
+    "Maintenir la cohérence et la productivité sur le long terme avec l'IA"
+  ],
+  "faq": [
+    "Faut-il créer un projet par client, par sujet ou par type de tâche dans ChatGPT et Claude ?",
+    "Comment s'assurer que l'IA garde en mémoire les informations importantes d'une conversation à l'autre ou d'un outil à l'autre ?",
+    "Quels sont les formats de fichiers les plus efficaces à fournir à ChatGPT et Claude pour enrichir le contexte ?",
+    "La 'mémoire' intégrée des IA est-elle suffisante pour gérer des projets complexes sur plusieurs semaines ?",
+    "Comment éviter de 'sur-organiser' mes conversations IA et de rendre le système plus lourd qu'utile ?"
+  ],
+  "pitfalls": [
+    "La sur-organisation : créer trop de micro-dossiers ou de catégories peut rendre la navigation aussi lente et inefficace que l'absence d'organisation.",
+    "Ignorer la limite de la fenêtre de contexte : les IA ont une capacité limitée à se souvenir de l'historique d'une conversation, ce qui peut entraîner une perte de contexte dans les échanges longs.",
+    "Se fier uniquement à la mémoire native des IA : la mémoire intégrée est spécifique à chaque outil et n'est pas portable, ce qui pose problème lors du passage d'une IA à l'autre (ex: ChatGPT vers Claude).",
+    "Ne pas vérifier les sorties de l'IA : les modèles peuvent générer des réponses plausibles mais incorrectes (hallucinations) ou omettre des contraintes métier, nécessitant une vérification systématique.",
+    "Fournir des références non datées ou non qualifiées : une brochure périmée ou un document obsolète peut causer plus de dégâts qu'une information manquante."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhkI5l-PvKfTSODrWYFOojLmQN9j0pdn6MP1NLLC9IFphzUKNoODhoB-7aUlc0KJru6YXc_Ktgkkf5wjAgzFPhfq2s9FfA7GpCZktOX4N_yUqwxvsDIfmWopeLfXDzbNkQ9sAkq1Ug-VlQOOXl9aGrtXjtC7D5ZsUmqmtaS3eMhiJFiRAgmjO4J6E3BGSdxJjLN-n00l3T4iAUQkxuRztmybt3lHOsnUE2hNKIyDA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4aGp1diMwiJrZVFEgI9rnRF7wNUFi3zdo0EMFMXOrGnPFJqA6nVmBRdEA55ZqR4rfPncyw_yHDD8xCQopdq75FzLgLdSpG2YgG_br-e0ZquVhrcd0zXoGyCmvwVl1RbjiTEKr9eG5B5McKiUS_6QPvToCV89smDeeF_YJmIljwSbXf7iQOdYj",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgCd1hT2AjMlirm3i6jKMXi8-9xQI0PDW6-Tln8eXwEkAGsyam8Rqrd6MIAKaTIy5aZazZ_LhSCPFQ5jnq03h5-livZRD-jGB17yqRIWVSRHO7JXTBxdCSZcfrpc5oru00MKo5AtEKifEJbuwsntzQnvL0CvMmPHTkbTfBr-xKFkX8vPCxJpQN1NkZ1morV3TvuYVB2AKdjhIsqL4cGtWhgegA",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe4pmM9Bb-oHIeW2-K0tLid1UFSlOiVQYtSfPThXSQKgjz5V7DFTbXT8PMcDK4Den9QGFcF5BlAYaAY4YhBdm22mnhMrMNZeUVK26mryPacBp4tbCUXZfGFKq2yVK300y0_xx64P18e-S6iaX4DQDKRAcsroFbAg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoKdpSqA0_G4RDR8DV9-r8RKWDVg8NqSubGE6HkNmGUsCdV-8PrGOocYVqaDjWjxXIn61X2Kl6k57Zre2xy3P6nzwuDlRvww8hTVm7EfMhM5ocr6dGy-R-btUiHZcrd3G7nORcnsAk_qIArD5QuOkYUaPpH_9niCW8PCM0Rw==",
+    "https://whizi.com/chatgpt-versions-list-dates/",
+    "https://objects.com/chatgpt-version-history-list-changelog-latest-releases/",
+    "https://github.com/hidekazu-konishi/anthropic-claude-timeline",
+    "https://proactive-academy.com/chatgpt-projects-organiser-votre-travail-comme-un-pro/",
+    "https://www.anthropic.com/news/collaborate-with-claude-on-projects",
+    "https://kamaweb.fr/pourquoi-vous-devriez-dialoguer-avec-les-ia-a-partir-dun-fichier-markdown-md/",
+    "https://openai.com/academy/working-with-files-in-chatgpt",
+    "https://www.youtube.com/watch?v=0_0_0_0_0_0",
+    "https://aitoolbox.ai/blog/how-to-organize-chatgpt-conversations/",
+    "https://www.bdm.fr/chatgpt-conversations-de-groupe-comment-ca-marche-2025-11-21",
+    "https://edflex.com/blog/prompt-ia-comment-en-rediger-un-bon-exemples/",
+    "https://asana.com/fr/resources/ia-gestion-projet-prompts",
+    "https://productivite.ai/ia-productivite-gains-mesures-entreprise-2026/"
+  ]
+}

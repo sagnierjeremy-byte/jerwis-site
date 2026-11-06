@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - DO NOT REMOVE THE BLOCKS BELOW
+     · TITLE ≤ 60 characters (without suffix " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 characters
+     · OG/TWITTER : titles ≤ 60, descriptions ≤ 110
+     · CANONICAL : absolute URL with exact slug
+     · 1 SINGLE JSON-LD (TechArticle for tutorials, OpinionPiece for opinions)
+     · OG:IMAGE : point to photos/og/projets-ia-ranger-conversations.jpg (generated via scripts/og-batch.html)
+-->
+
+<title>Organize ChatGPT and Claude Chats by Project</title>
+<meta name="description" content="How to structure your projects in ChatGPT and Claude so you keep context, avoid repeating yourself, and save a ton of time every day without ever getting lost or confused.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Organize ChatGPT and Claude Chats by Project">
+<meta property="og:description" content="How to structure your projects in ChatGPT and Claude so you keep context, avoid repetition, and save time every day.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/projets-ia-ranger-conversations">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/projets-ia-ranger-conversations.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-06">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Organize ChatGPT and Claude Chats by Project">
+<meta name="twitter:description" content="How to structure your projects in ChatGPT and Claude so you keep context, avoid repetition, and save time every day.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/projets-ia-ranger-conversations.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/projets-ia-ranger-conversations">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/projets-ia-ranger-conversations">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/projets-ia-ranger-conversations">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/projets-ia-ranger-conversations">
+
+<!-- Schema.org · SINGLE JSON-LD : TechArticle (tutorials) or OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Organize ChatGPT and Claude Chats by Project",
+  "description": "How to structure your projects in ChatGPT and Claude so you keep context, avoid repeating yourself, and save a ton of time every day without ever getting lost or confused.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/projets-ia-ranger-conversations",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/projets-ia-ranger-conversations.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 20</div>
+    <h1>Your AI chats<br>organized by project<br><em>without losing track</em></h1>
+    <p class="hero-lead">
+      You open ChatGPT or Claude to move a client project forward, and you end up with 40 tabs open, no clear conversation names, and the feeling that you have to explain your whole life over and over. I know the feeling. That's exactly why I looked for a way to structure my AI chats the same way I organize my files as an entrepreneur. Result: I stopped wasting time re-explaining context to the AI at every session, and my projects finally move forward smoothly.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>ChatGPT and Claude each offer a <strong>Projects</strong> feature to group files and chats into dedicated folders</li>
+      <li>A single Markdown file lets you carry your context from one tool to another</li>
+      <li>Third-party extensions add folders, search, archiving, and pinning to round out native tools</li>
+      <li>Turning on memory and attaching files keeps you from repeating key details in every prompt</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Why your chats turn into a mess</h2>
+    <p>You know the drill. You ask ChatGPT to rewrite an email for client Dupont. Then you ask it to brainstorm for your next webinar. Then an analysis of some numbers. All in the same window. After 10 messages, the AI mixes everything up. It suggests a webinar for Dupont with numbers that don't belong.</p>
+    <p>I do all of this for myself first. When I found out you could organize chats like desktop folders, it changed how I work. According to the 2025 survey from the Association for Project Management (APM), 70% of project management professionals say their organization uses AI, compared to 36% in 2023. It's no longer an experiment. It's an everyday tool. And like any everyday tool, if it's scattered everywhere, it loses efficiency.</p>
+    <p>For a long time I ended up with a column of conversations with no title. "New conversation", "Conversation 12", "Chat from October 3". Impossible to find what I had asked. Worse, impossible to pick up where I left off. Every return to AI became a memory exercise. I re-explained my business, my constraints, my goals. It was wasted time.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What ChatGPT and Claude offer natively</h2>
+    <p>ChatGPT launched its Projects feature in May 2026. It groups chats and files around a single folder, with custom instructions attached. It's available on all plans, with unlimited projects. So you can create one project per client, per topic, or per campaign. Inside, you drop in reference documents and set the expected tone. The AI keeps this framework in mind for every new chat opened in that folder.</p>
+    <p>Claude also offers <a href="/en/articles/claude-c-est-quoi">Projects</a>. The feature arrived in June 2024. It's reserved for Pro and Team plans. Each project has a <a href="/en/lexique/context-window">context window</a> of 200K tokens. If you don't know what that means in practice, just think of it as the amount of information the AI can read and keep in memory at once. With this capacity, you can load entire reports, complete briefings, or meeting transcripts without losing the thread.</p>
+    <p>I use these native folders like dedicated desks. When I open the "Website 2026" project, I know the AI already understands my positioning, my technical constraints, and my deadlines. No need to re-explain everything. That's the immediate time saver. But there's a limit. These projects are tied to the tool. If you switch platforms tomorrow, you lose that built-in context.</p>
+    <h2>The file that replaces your memory</h2>
+    <p>Even with well-built projects, you might switch tools. One day on ChatGPT, the next on Claude, sometimes on Gemini. How do you carry context over? I adopted a simple method. I keep a single Markdown file.</p>
+    <p>Inside, I write a summary of the business, the current project, constraints, the desired tone of voice, and decisions already made. I upload this file at the start of every important new chat. Or I copy-paste its contents into the project's custom instructions. That gives you portable memory, independent of the tool. No matter which AI you use, it starts from the same foundation.</p>
+    <p>To fill out this document properly, think like when you <a href="/en/articles/ecrire-bon-prompt-non-dev">write effective prompts</a>. Goal, context, format, constraints. That's the foundation of any solid exchange. You can also enrich it with snippets from documents you <a href="/en/articles/resumer-pdf-video-avec-ia">had the AI summarize</a> beforehand. And if you want to go further in customizing responses, I shared some tips in my article on <a href="/en/articles/personnaliser-chatgpt-claude">how to personalize ChatGPT and Claude</a>.</p>
+    <div class="callout tip"><h4>My tip</h4><p>Keep this Markdown file on your desktop or in your cloud. Name it "AI Context - [Project Name]". Update it at the end of the session if the AI led you to an important choice. You're the one steering, not the tool.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>When extensions become essential</h2>
+    <p>Native tools are fine, but they have limits. You can't create subfolders in ChatGPT. You can't bulk-archive your old chats. And finding a specific discussion without scrolling through miles of history is tedious.</p>
+    <p>That's where third-party extensions come in. Tools like AI Toolbox or GPT Master add nested folders, subfolders, pinning, bulk archiving, and full-text search. These features don't replace official Projects. They complement them, especially if you handle lots of clients or topics in parallel.</p>
+    <p>And if you work with a team? Group conversations in ChatGPT, rolled out globally in November 2025, let several users collaborate on shared projects with AI as an active participant. It's useful for validating ideas together without multiplying email exchanges. The AI stays in the channel, accessible to the team, with the same shared context.</p>
+    <p>I tested this feature for a product launch. My business partner and I were able to iterate on sales copy without sending screenshots back and forth. The AI had the brief in front of it. So did we.</p>
+    <h2>The mistakes that made me start over</h2>
+    <p>I lost context more than once. Here's exactly how.</p>
+    <p>First trap: using one chat for everything. You think you're saving time by keeping the same window open. Except the AI ends up mixing topics. A client brief gets contaminated by a discussion about your vacation. Result: answers get imprecise. You waste more time fixing than restarting in a clean project.</p>
+    <p>Second mistake: ignoring project instructions. ChatGPT and Claude let you set guidelines at the folder level. If you leave them empty, you reinvent the wheel every time. Worse, you get answers that don't match your usual tone or your real constraints. It's like hiring an assistant without giving them a job description.</p>
+    <p>Third pitfall: loading too many files without structure. Sending 15 PDFs at once is possible thanks to the context window if it's large, but the AI drowns. Better a summary Markdown file than a mountain of raw documents. Quantity doesn't replace clarity.</p>
+    <p>Last mistake, and it's a silent one: relying on automatic memory without checking. Claude offers a toggleable memory feature. It remembers information from one chat to the next. But if you don't control what's kept, you can end up with outdated preferences or false assumptions. The AI remembers you wanted a casual tone. Except you changed your professional target in the meantime. It will keep using the old register.</p>
+    <p>I also learned to name my chats from the very first message. Not "New chat", but "Dupont client follow-up email - short version". That changes everything when you need to find an idea 3 weeks later.</p>
+    <h2>How to stay on track over several weeks</h2>
+    <p>A project isn't done in an hour. It lasts weeks, sometimes months. How do you keep the AI relevant over time?</p>
+    <p>The answer comes down to two words: reference and memory. In your ChatGPT projects, you can import files and have the AI work directly with them. Spreadsheets, documents, PDFs, images. It analyzes and summarizes them without you having to copy-paste everything. That creates a stable base you reuse every session.</p>
+    <p>For Claude, turn on memory if you're on a plan that allows it. It remembers your business context, your company name, your preferences. That reduces repetition and increases relevance. But don't forget to clean it regularly.</p>
+    <p>What works for me is the Monday morning ritual. I open my active projects, reread the AI's latest answers, update the Markdown file if needed, and I'm back at it. Five minutes, no more.</p>
+    <p>By the way, the McKinsey Global Institute study "AI Productivity Impact Report 2024" found that email automation and conversation summary tools save an average of 2 hours per day per employee. When you structure your AI projects properly, you hit that productivity gain without even noticing.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Don't let the AI guess your context. If you change strategy for a client, update the Markdown file and the project instructions immediately. Otherwise, it will keep running on the old version without warning you.</p></div>
+    
+    <h2>FAQ</h2>
+    <h3>Should you create one project per client, per topic, or per task type in ChatGPT and Claude?</h3>
+    <p>It depends on your business. If you have few clients but very varied topics, one project per topic works. If you handle multiple clients in parallel with different teams, one project per client avoids mixing things up. I combine both. One project per client, and inside I create chats named by topic. The key is not to throw everything in the same bag. When I tried sorting by task type only, I ended up splitting briefs across several folders. Not practical. Today, I run with 5 main projects and a bin for tests. It's my rule of 5. Beyond that, I lose focus.</p>
+    <h3>How do you make sure the AI remembers important details from one chat to another, or from one tool to another?</h3>
+    <p>Don't expect the AI to remember everything on its own. Use a context Markdown file that you upload systematically. In Claude, turn on memory so it keeps key elements from one session to the next. And above all, check regularly what it has remembered to avoid ghost memories. When I switch from Claude to ChatGPT, my file is the bridge. Without it, I start from scratch.</p>
+    <h3>What are the most effective file formats to give ChatGPT and Claude for richer context?</h3>
+    <p>ChatGPT accepts spreadsheets, documents, PDFs, and images. Claude does too, with a particular appetite for structured text. My favorite format remains Markdown for narrative context. For numerical data, a clean spreadsheet beats a scanned PDF. And if you have a document that's too heavy, have it summarized beforehand before integrating it.</p>
+    <h3>Is built-in AI "memory" enough to handle complex projects over several weeks?</h3>
+    <p>No, not on its own. Claude's memory is a good safety net, but it doesn't replace a structured project folder with reference files. For complex projects, you need both. Memory for persistent preferences, and projects with attached files for precise, up-to-date data. Over several weeks, written instructions remain more reliable than floating memory.</p>
+    <h3>How do you avoid over-organizing your AI chats and making the system heavier than helpful?</h3>
+    <p>If you spend more time sorting than moving forward, that's a sign you're overdoing it. Start with 3 or 4 projects max. Name your chats clearly from the start. Don't install 3 different extensions on day one. Let the system grow with your actual usage. A simple sorting system you maintain beats a perfect architecture you abandon. I've been there. My first system had 12 folders and 8 sub-levels. I couldn't find my way around it anymore.</p>
+    <h2>My takeaways</h2>
+    <p>Organizing your AI chats isn't a question of technical skill. It's a question of method. A well-named project, an up-to-date context Markdown file, and a regular check of the AI's memory. With these 3 elements, you go from chaos to real productivity.</p>
+    <p>I'm not a developer. I don't write code. But I realized that treating AI like someone you have to re-explain everything to every single time was the best way to waste my time. By structuring my exchanges the way I organize my files as an entrepreneur, I gained clarity. And the AI finally played its part. That of an assistant who knows my projects almost as well as I do.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ CRITICAL ANCHOR : publish.js replaces everything between the end of the TL;DR and this
+     "Final CTA" comment. DO NOT delete/rename it, or published articles will keep the example
+     body from the template (incident 2026-07-02→06). -->
+<!-- End of article: author signature -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with zero jargon and no hype. If this article helped you, the easiest way not to miss anything is my Friday letter. And if you have a question or a doubt, just reply, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unified) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>The Friday <em>letter.</em></h2>
+        <p>My real AI uses and my articles the moment they drop. Free. Unsubscribe in 1 click.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="you@email.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products & tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">

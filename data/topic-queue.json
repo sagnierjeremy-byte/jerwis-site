@@ -599,10 +599,11 @@
       "topic": "ranger ses conversations par projet dans ChatGPT et Claude : un projet par client ou par sujet, les fichiers et consignes à y mettre, et les erreurs qui font perdre le contexte",
       "type": "A",
       "priority": 0,
-      "status": "pending",
+      "status": "done",
       "added": "2026-11-02",
       "added_by": "claude",
-      "parcours_etape": 2
+      "parcours_etape": 2,
+      "published_at": "2026-11-06"
     },
     {
       "id": "preparer-rendez-vous-client-ia",

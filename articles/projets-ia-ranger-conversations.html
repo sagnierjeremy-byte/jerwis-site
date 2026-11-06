@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/projets-ia-ranger-conversations.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Ranger ses conversations ChatGPT et Claude par projet</title>
+<meta name="description" content="Comment structurer tes projets dans ChatGPT et Claude pour garder le contexte, éviter les répétitions et gagner du temps chaque jour sans t'y perdre.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Ranger ses conversations ChatGPT et Claude par projet">
+<meta property="og:description" content="Comment structurer tes projets dans ChatGPT et Claude pour garder le contexte, éviter les répétitions et gagner du temps chaque jour sans t'y perdre.">
+<meta property="og:url" content="https://jerwis.fr/articles/projets-ia-ranger-conversations">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/projets-ia-ranger-conversations.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-06">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Ranger ses conversations ChatGPT et Claude par projet">
+<meta name="twitter:description" content="Comment structurer tes projets dans ChatGPT et Claude pour garder le contexte, éviter les répétitions et gagner du temps chaque jour sans t'y perdre.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/projets-ia-ranger-conversations.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/projets-ia-ranger-conversations">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/projets-ia-ranger-conversations">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/projets-ia-ranger-conversations">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/projets-ia-ranger-conversations">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Ranger ses conversations ChatGPT et Claude par projet",
+  "description": "Comment structurer tes projets dans ChatGPT et Claude pour garder le contexte, éviter les répétitions et gagner du temps chaque jour sans t'y perdre.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/projets-ia-ranger-conversations",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/projets-ia-ranger-conversations.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 20</div>
+    <h1>Tes conversations IA<br>ranger par projet<br><em>sans perdre le fil</em></h1>
+    <p class="hero-lead">
+      Tu ouvres ChatGPT ou Claude pour avancer sur un dossier client, et tu te retrouves avec quarante onglets ouverts, aucun nom de conversation explicite, et l'impression de réexpliquer ta vie à chaque fois. Je connais ça. C'est exactement pour ça que j'ai cherché comment structurer mes échanges avec l'IA comme je structure mes dossiers d'entrepreneur. Résultat : j'ai arrêté de perdre du temps à recontextualiser l'IA à chaque session, et mes projets avancent enfin sereinement.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>ChatGPT et Claude proposent chacun une fonctionnalité <strong>Projects</strong> pour regrouper fichiers et conversations dans des dossiers dédiés</li>
+      <li>Un fichier Markdown unique permet de transporter ton contexte d'un outil à l'autre</li>
+      <li>Les extensions tierces ajoutent dossiers, recherche, archivage et épinglage pour compléter les outils natifs</li>
+      <li>La mémoire activée et les fichiers joints évitent de répéter les informations clés à chaque prompt</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Pourquoi tes conversations finissent en bazar</h2>
+    <p>Tu connais le scénario. Tu demandes à ChatGPT de réécrire un email pour le client Dupont. Puis tu lui demandes un brainstorming pour ton prochain webinar. Ensuite une analyse de chiffres. Tout ça dans la même fenêtre. Au bout de dix messages, l&#39;IA mélange tout. Elle te propose un webinar pour Dupont avec des chiffres qui n&#39;ont rien à voir.</p>
+    <p>Je fais tout ça d&#39;abord pour moi. Quand j&#39;ai découvert que l&#39;on pouvait structurer les échanges comme des dossiers de bureau, ça a changé ma façon de travailler. Selon l&#39;enquête 2025 de l&#39;Association for Project Management (APM), 70% des professionnels de la gestion de projet déclarent que leur organisation utilise l&#39;IA, contre 36% en 2023. Ce n&#39;est plus une expérimentation. C&#39;est un outil du quotidien. Et comme tout outil du quotidien, s&#39;il est rangé n&#39;importe comment, il perd en efficacité.</p>
+    <p>Je me suis longtemps retrouvé avec une colonne de conversations sans titre. &quot;Nouvelle conversation&quot;, &quot;Conversation 12&quot;, &quot;Chat du 3 octobre&quot;. Impossible de retrouver ce que j&#39;avais demandé. Pire, impossible de reprendre là où je m&#39;étais arrêté. Chaque retour à l&#39;IA devenait un exercice de mémoire. Je réexpliquais mon activité, mes contraintes, mes objectifs. C&#39;était du temps perdu.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Ce que ChatGPT et Claude proposent nativement</h2>
+    <p>ChatGPT a lancé sa fonctionnalité Projects en mai 2026. Elle regroupe conversations et fichiers autour d&#39;un même dossier, avec des consignes personnalisées attachées. C&#39;est disponible sur tous les plans, avec un nombre illimité de projets. Tu peux donc créer un projet par client, par sujet, ou par campagne. À l&#39;intérieur, tu déposes les documents de référence et tu définis le ton attendu. L&#39;IA garde ce cadre en tête pour chaque nouvelle conversation ouverte dans ce dossier.</p>
+    <p>De son côté, <a href="/articles/claude-c-est-quoi">Claude</a> propose aussi des Projects. La fonction est arrivée en juin 2024. Elle est réservée aux plans Pro et Team. Chaque projet dispose d&#39;une fenêtre de contexte de 200K tokens. Si tu ne sais pas ce que cela signifie concrètement, pense simplement que c&#39;est la quantité d&#39;informations que l&#39;IA peut lire et garder en mémoire en une fois. Pour en savoir plus, j&#39;explique le concept de <a href="/lexique/context-window">fenêtre de contexte</a> dans le lexique. Avec cette capacité, tu peux y charger des rapports entiers, des briefings complets, ou des transcriptions de réunion sans perdre le fil.</p>
+    <p>J&#39;utilise ces dossiers natifs comme des bureaux dédiés. Quand j&#39;ouvre le projet &quot;Site web 2026&quot;, je sais que l&#39;IA connaît déjà mon positionnement, mes contraintes techniques et mes délais. Pas besoin de tout réexpliquer. C&#39;est le gain de temps immédiat. Mais il y a une limite. Ces projets sont liés à l&#39;outil. Si demain tu changes de plateforme, tu perds ce contexte intégré.</p>
+    <h2>Le fichier qui remplace ta mémoire</h2>
+    <p>Même avec des projets bien faits, tu peux changer d&#39;outil. Un jour sur ChatGPT, le lendemain sur Claude, parfois sur Gemini. Comment faire suivre le contexte ? J&#39;ai adopté une méthode simple. Je tiens un fichier Markdown unique. Dedans, je note le résumé de l&#39;entreprise, le projet en cours, les contraintes, le ton de voix souhaité, et les décisions déjà prises.</p>
+    <p>Ce fichier, je le téléverse au début de chaque nouvelle conversation importante. Ou je copie-colle son contenu dans les instructions personnalisées du projet. Cela donne une mémoire portable et indépendante de l&#39;outil. Peu importe l&#39;IA que tu utilises, elle repart avec les mêmes bases.</p>
+    <p>Pour bien remplir ce document, il faut penser comme lorsque tu <a href="/articles/ecrire-bon-prompt-non-dev">rédiges des prompts efficaces</a>. Objectif, contexte, format, contraintes. C&#39;est le socle de tout échange qui tient la route. Tu peux aussi l&#39;enrichir avec des extraits de documents que tu as fait <a href="/articles/resumer-pdf-video-avec-ia">résumer par l&#39;IA</a> au préalable. Et si tu veux aller plus loin dans la personnalisation des réponses, j&#39;ai partagé des astuces dans mon article sur <a href="/articles/personnaliser-chatgpt-claude">comment personnaliser ChatGPT et Claude</a>.</p>
+    <div class="callout tip"><h4>Mon conseil</h4><p>Garde ce fichier Markdown sur ton bureau ou dans ton cloud. Nomme-le "Contexte IA - [Nom du projet]". Mets à jour en fin de session si l'IA t'a fait faire un choix important. C'est toi qui tiens la barre, pas l'outil.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Quand les extensions deviennent indispensables</h2>
+    <p>Les outils natifs sont bien, mais ils ont des limites. Tu ne peux pas créer de sous-dossiers dans ChatGPT. Tu ne peux pas archiver en masse tes vieilles conversations. Et retrouver une discussion précise sans faire défiler des kilomètres d&#39;historique, c&#39;est fastidieux.</p>
+    <p>C&#39;est là que des extensions tierces entrent en jeu. Des outils comme AI Toolbox ou GPT Master ajoutent des dossiers imbriqués, des sous-dossiers, l&#39;épinglage, l&#39;archivage en masse et la recherche en texte intégral. Ces fonctionnalités ne remplacent pas les Projects officiels. Elles les complètent, surtout si tu traites beaucoup de clients ou de sujets en parallèle.</p>
+    <p>Et si tu travailles à plusieurs ? Les conversations de groupe dans ChatGPT, déployées mondialement en novembre 2025, permettent à plusieurs utilisateurs de collaborer sur des projets communs avec l&#39;IA comme participant actif. C&#39;est utile pour valider des idées à plusieurs sans multiplier les échanges par email. L&#39;IA reste dans le canal, accessible à l&#39;équipe, avec le même contexte partagé.</p>
+    <p>J&#39;ai testé cette fonctionnalité pour un lancement produit. Mon associée et moi avons pu itérer sur les descriptions commerciales sans nous renvoyer des captures d&#39;écran. L&#39;IA avait le brief sous les yeux. Nous aussi.</p>
+    <h2>Les erreurs qui m&#39;ont fait tout recommencer</h2>
+    <p>J&#39;ai perdu du contexte plus d&#39;une fois. Voici exactement comment.</p>
+    <p>Premier piège : utiliser une seule conversation pour tout. Tu crois gagner du temps en gardant la même fenêtre ouverte. Sauf que l&#39;IA finit par mélanger les sujets. Un brief client se retrouve parasité par une discussion sur tes vacances. Résultat, les réponses deviennent imprécises. Tu perds plus de temps à corriger qu&#39;à recommencer dans un projet propre.</p>
+    <p>Deuxième erreur : négliger les instructions du projet. ChatGPT et Claude te laissent définir des consignes au niveau du dossier. Si tu les laisses vides, tu réinventes la roue à chaque fois. Pire, tu obtiens des réponses qui ne correspondent pas à ton ton habituel ou à tes contraintes réelles. C&#39;est comme d&#39;embaucher un assistant sans lui donner sa fiche de poste.</p>
+    <p>Troisième travers : charger trop de fichiers sans structure. Envoyer quinze PDF d&#39;un coup, c&#39;est possible grâce à la <a href="/lexique/context-window">fenêtre de contexte</a> si elle est large, mais l&#39;IA se noie. Mieux vaut un fichier Markdown de synthèse qu&#39;une montagne de documents bruts. La quantité ne remplace pas la clarté.</p>
+    <p>Dernière erreur, et elle est silencieuse : compter sur la mémoire automatique sans vérifier. Claude propose une fonctionnalité de mémoire activable. Elle retient des informations d&#39;une conversation à l&#39;autre. Mais si tu ne contrôles pas ce qui est retenu, tu peux te retrouver avec des préférences obsolètes ou des hypothèses fausses. L&#39;IA se souvient que tu voulais un ton décontracté. Sauf que tu as changé de cible professionnelle entre-temps. Elle continuera sur l&#39;ancien registre.</p>
+    <p>J&#39;ai aussi appris à nommer mes conversations dès le premier message. Pas &quot;Nouvelle conversation&quot;, mais &quot;Email relance client Dupont - version courte&quot;. Cela change tout quand tu dois retrouver une idée trois semaines plus tard.</p>
+    <h2>Comment garder le cap sur plusieurs semaines</h2>
+    <p>Un projet ne se fait pas en une heure. Il dure des semaines, parfois des mois. Comment faire en sorte que l&#39;IA reste pertinente sur la durée ?</p>
+    <p>La réponse tient en deux mots : référence et mémoire. Dans tes projets ChatGPT, tu peux importer et faire travailler l&#39;IA directement avec des fichiers. Feuilles de calcul, documents, PDF, images. Elle les analyse et les résume sans que tu aies à tout copier-coller. Cela crée une base stable que tu réutilises à chaque session.</p>
+    <p>Pour Claude, active la mémoire si tu es sur un plan qui le permet. Elle retient ton contexte d&#39;activité, ton nom d&#39;entreprise, tes préférences. Cela réduit les répétitions et augmente la pertinence. Mais n&#39;oublie pas de la nettoyer régulièrement.</p>
+    <p>Ce qui fonctionne bien chez moi, c&#39;est le rituel du lundi matin. J&#39;ouvre mes projets actifs, je relis les dernières réponses de l&#39;IA, je mets à jour le fichier Markdown si besoin, et je repars. Cinq minutes, pas plus.</p>
+    <p>Au passage, selon l&#39;étude &#39;AI Productivity Impact Report 2024&#39; de McKinsey Global Institute, les outils d&#39;automatisation des emails et de synthèse de conversations génèrent une économie moyenne de 2 heures par jour par collaborateur. Quand tu structures bien tes projets IA, tu touches ce gain de productivité sans même t&#39;en rendre compte.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Ne laisse pas l'IA deviner ton contexte. Si tu changes de stratégie pour un client, mets à jour le fichier Markdown et les instructions du projet immédiatement. Sinon, elle continuera sur l'ancienne version sans te prévenir.</p></div>
+    
+    <h2>Questions fréquentes</h2>
+    <h3>Faut-il créer un projet par client, par sujet ou par type de tâche dans ChatGPT et Claude ?</h3>
+    <p>Ça dépend de ton activité. Si tu as peu de clients mais des sujets très variés, un projet par sujet fonctionne. Si tu gères plusieurs clients en parallèle avec des équipes différentes, un projet par client évite le mélange des genres. Moi, je combine les deux. Un projet par client, et dedans je crée des conversations nommées par sujet. L&#39;essentiel est de ne pas tout mettre dans le même sac. Quand j&#39;ai testé un classement par type de tâche uniquement, j&#39;ai fini par éclater les briefings entre plusieurs dossiers. Pas pratique. Aujourd&#39;hui, je fonctionne avec cinq projets principaux et une corbeille pour les tests. C&#39;est ma règle des cinq. Au-delà, je m&#39;éparpille.</p>
+    <h3>Comment t&#39;assurer que l&#39;IA garde en mémoire les informations importantes d&#39;une conversation à l&#39;autre ou d&#39;un outil à l&#39;autre ?</h3>
+    <p>N&#39;espère pas que l&#39;IA retienne tout seule. Utilise un fichier Markdown de contexte que tu téléverses systématiquement. Dans Claude, active la mémoire pour qu&#39;elle retienne les éléments clés d&#39;une session à l&#39;autre. Et surtout, vérifie régulièrement ce qu&#39;elle a retenu pour éviter les souvenirs fantômes. Quand je passe de Claude à ChatGPT, c&#39;est mon fichier qui fait le pont. Sans lui, je repars de zéro.</p>
+    <h3>Quels sont les formats de fichiers les plus efficaces à fournir à ChatGPT et Claude pour enrichir le contexte ?</h3>
+    <p>ChatGPT accepte les feuilles de calcul, documents, PDF et images. Claude aussi, avec une appétence particulière pour les textes structurés. Mon format préféré reste le Markdown pour le contexte narratif. Pour les données chiffrées, un tableur propre vaut mieux qu&#39;un PDF scanné. Et si tu as un document trop lourd, fais-le résumer au préalable avant de l&#39;intégrer.</p>
+    <h3>La &#39;mémoire&#39; intégrée des IA est-elle suffisante pour gérer des projets complexes sur plusieurs semaines ?</h3>
+    <p>Non, pas seule. La mémoire de Claude est un bon filet de sécurité, mais elle ne remplace pas un dossier de projet structuré avec des fichiers de référence. Pour les projets complexes, tu as besoin des deux. La mémoire pour les préférences persistantes, et les projets avec fichiers joints pour les données précises et à jour. Sur plusieurs semaines, les instructions écrites restent plus fiables que la mémoire flottante.</p>
+    <h3>Comment éviter de &#39;sur-organiser&#39; tes conversations IA et de rendre le système plus lourd qu&#39;utile ?</h3>
+    <p>Si tu passes plus de temps à classer qu&#39;à avancer, c&#39;est le signe que tu en fais trop. Commence avec trois ou quatre projets maximum. Nomme tes conversations de façon claire dès le départ. N&#39;installe pas trois extensions différentes le premier jour. Laisse le système grandir avec ton usage réel. Un classement simple que tu maintiens vaut mieux qu&#39;une architecture parfaite que tu abandonnes. Je suis passé par là. Mon premier système avait douze dossiers et huit sous-niveaux. Je ne m&#39;y retrouvais plus.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Ranger ses conversations IA, ce n&#39;est pas une question de technicité. C&#39;est une question de méthode. Un projet bien nommé, un fichier Markdown de contexte à jour, et une vérification régulière de la mémoire de l&#39;IA. Avec ces trois éléments, tu passes du chaos à une vraie productivité.</p>
+    <p>Je ne suis pas développeur. Je n&#39;écris pas de code. Mais j&#39;ai compris que traiter l&#39;IA comme un interlocuteur à qui il faut tout réexpliquer à chaque fois, c&#39;était le meilleur moyen de perdre mon temps. En structurant mes échanges comme je structure mes dossiers d&#39;entrepreneur, j&#39;ai gagné en clarté. Et l&#39;IA a enfin tenu son rôle. Celui d&#39;un assistant qui connaît mes projets presque aussi bien que moi.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>
