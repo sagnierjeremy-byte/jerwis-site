@@ -1,54 +1,62 @@
 {
-  "generated_at": "2026-11-06T12:41:43.151Z",
-  "day_label": "Vendredi 6 novembre",
+  "generated_at": "2026-11-07T11:28:31.220Z",
+  "day_label": "Samedi 7 novembre",
   "items": [
     {
-      "title": "La facturation électronique suspendue pour les PME",
-      "why_it_matters": "Je retiens que les députés ont voté la suspension pour les petites entreprises, c'est un soulagement administratif concret.",
+      "title": "La bulle IA éclate en Bourse",
+      "why_it_matters": "Je note que le Nasdaq s'effondre. Si vous levez des fonds ou êtes dans la tech, les prix des entreprises risquent de baisser.",
       "sources": [
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/idees/article/2026/11/07/la-bulle-de-l-ia-se-heurte-a-la-realite_6808268_3232.html"
+        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/la-facturation-electronique-en-question-les-deputes-votent-sa-suspension-pour-les-petites-entreprises-1531663"
+          "url": "https://www.capital.fr/economie-politique/une-bulle-de-lia-en-bourse-tout-le-monde-le-sait-repond-thierry-breton-apres-la-chute-des-marches-1531680"
         }
       ]
     },
     {
-      "title": "Le Smic pourrait augmenter dès le 1er décembre",
-      "why_it_matters": "Je note que la hausse du Smic avancée au 1er décembre change mes prévisions de coûts pour fin d'année.",
+      "title": "Réforme des retraites suspendue",
+      "why_it_matters": "Je retiens que les règles changent. Tous les chefs d'entreprise et indépendants doivent vérifier leur calendrier de départ.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/hausse-du-smic-avancee-au-1er-decembre-la-barre-des-1-500-euros-net-en-ligne-de-mire-selon-le-ministre-du-travail-1531662"
+          "name": "L'Express Économie",
+          "url": "https://www.lexpress.fr/argent/reforme-des-retraites-suspendue-les-nouvelles-regles-a-connaitre-4GWAOHEDEVEUTMP7R7TNHGIJCM/"
         }
       ]
     },
     {
-      "title": "Déficit commercial français à 7,3 milliards en septembre",
-      "why_it_matters": "Je retiens que nos importations explosent, c'est un signal sur la santé de l'économie française et mes approvisionnements.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1557689-le-deficit-commercial-francais-a-atteint-7-3-milliards-d-euros-en-septembre/"
-        }
-      ]
-    },
-    {
-      "title": "Le patronat auditionne les candidats à la présidentielle",
-      "why_it_matters": "Je note que le Medef confronte les candidats sur leurs propositions éco, ça dessine le futur cadre fiscal.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1557677-le-medef-les-entrepreneurs-et-l-u2p-auditionneront-les-candidats-a-la-presidentielle/"
-        }
-      ]
-    },
-    {
-      "title": "Mobilisation pour un moratoire sur les data centers",
-      "why_it_matters": "Je retiens que la consommation énergétique des data centers crée des tensions, ça peut impacter mes outils cloud.",
+      "title": "Tensions commerciales USA-Chine",
+      "why_it_matters": "Je note que les négociations avant le sommet APEC sont très tendues. Cela impacte nos coûts d'approvisionnement et nos marchés.",
       "sources": [
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/54467093993446/data-centers-mobilisation-inedite-des-ce-vendredi-pour-reclamer-un-moratoire"
+          "url": "https://www.latribune.fr/article/economie/19078445356001/commerce-international-responsables-americains-et-chinois-expriment-leurs-preoccupations-avant-un-sommet-asie-pacifique"
+        }
+      ]
+    },
+    {
+      "title": "Les cadres privés voient leur salaire stagner",
+      "why_it_matters": "Je retiens que l'Apec confirme une baisse des augmentations. On peut recruter plus facilement, mais c'est aussi un signal de crise.",
+      "sources": [
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/nouveau-coup-de-froid-sur-la-remuneration-des-cadres-du-prive_8251663.html#xtor=RSS-3-%5Bgeneral%5D"
+        }
+      ]
+    },
+    {
+      "title": "Le Livret A ne suffit plus pour épargner",
+      "why_it_matters": "Je note que des milliers de Français changent de placement. Il faut revoir où on stocke sa trésorerie, car le Livret A ne rapporte presque plus rien.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-argent/plafond-du-livret-a-releve-cadeau-ou-piege-la-chronique-de-jean-jacques-manceau-1531636"
+        },
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/bons-plans/banque-en-ligne/ils-ont-pratiquement-tourne-la-page-du-livret-a-voici-le-placement-que-des-milliers-de-francais-adoptent-depuis-ce-mois_AB-202611070002.html"
         }
       ]
     }
