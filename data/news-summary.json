@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-11-07T11:28:31.220Z",
-  "day_label": "Samedi 7 novembre",
+  "generated_at": "2026-11-08T11:39:47.686Z",
+  "day_label": "Dimanche 8 novembre",
   "items": [
     {
-      "title": "La bulle IA éclate en Bourse",
-      "why_it_matters": "Je note que le Nasdaq s'effondre. Si vous levez des fonds ou êtes dans la tech, les prix des entreprises risquent de baisser.",
+      "title": "Hausse du SMIC au-delà de 1500 € : la tension sociale monte",
+      "why_it_matters": "Je note que le SMIC pourrait dépasser 1500 € net dès décembre. Pour moi, ça change directement mes charges et ma trésorerie si j'embauche.",
       "sources": [
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/idees/article/2026/11/07/la-bulle-de-l-ia-se-heurte-a-la-realite_6808268_3232.html"
-        },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/une-bulle-de-lia-en-bourse-tout-le-monde-le-sait-repond-thierry-breton-apres-la-chute-des-marches-1531680"
-        }
-      ]
-    },
-    {
-      "title": "Réforme des retraites suspendue",
-      "why_it_matters": "Je retiens que les règles changent. Tous les chefs d'entreprise et indépendants doivent vérifier leur calendrier de départ.",
-      "sources": [
-        {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/argent/reforme-des-retraites-suspendue-les-nouvelles-regles-a-connaitre-4GWAOHEDEVEUTMP7R7TNHGIJCM/"
-        }
-      ]
-    },
-    {
-      "title": "Tensions commerciales USA-Chine",
-      "why_it_matters": "Je note que les négociations avant le sommet APEC sont très tendues. Cela impacte nos coûts d'approvisionnement et nos marchés.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/19078445356001/commerce-international-responsables-americains-et-chinois-expriment-leurs-preoccupations-avant-un-sommet-asie-pacifique"
-        }
-      ]
-    },
-    {
-      "title": "Les cadres privés voient leur salaire stagner",
-      "why_it_matters": "Je retiens que l'Apec confirme une baisse des augmentations. On peut recruter plus facilement, mais c'est aussi un signal de crise.",
-      "sources": [
+          "url": "https://www.capital.fr/economie-politique/hausse-du-salaire-minimum-en-decembre-ce-que-vous-allez-vraiment-gagner-selon-le-ministre-du-travail-1531694"
+        },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/nouveau-coup-de-froid-sur-la-remuneration-des-cadres-du-prive_8251663.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.franceinfo.fr/replay-magazine/franceinfo/l-invite-politique/le-7-40-franceinfo-du-dimanche-08-novembre-2026_8244871.html#xtor=RSS-3-%5Bgeneral%5D"
+        },
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/video-colere-sociale-le-syndicat-des-independants-et-des-tpe-n-est-pas-contre-une-augmentation-des-salaires-mais-demande-une-compensation_VN-202611080138.html"
         }
       ]
     },
     {
-      "title": "Le Livret A ne suffit plus pour épargner",
-      "why_it_matters": "Je note que des milliers de Français changent de placement. Il faut revoir où on stocke sa trésorerie, car le Livret A ne rapporte presque plus rien.",
+      "title": "Cyberattaques des réfrigérateurs : le risque d'incendie réel",
+      "why_it_matters": "Je retiens que des hackers ciblent même les chaînes du froid. Je vérifie la sécurité de mes équipements connectés avant que ça ne m'arrive.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-argent/plafond-du-livret-a-releve-cadeau-ou-piege-la-chronique-de-jean-jacques-manceau-1531636"
-        },
-        {
           "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/bons-plans/banque-en-ligne/ils-ont-pratiquement-tourne-la-page-du-livret-a-voici-le-placement-que-des-milliers-de-francais-adoptent-depuis-ce-mois_AB-202611070002.html"
+          "url": "https://www.bfmtv.com/tech/cybersecurite/le-risque-c-etait-potentiellement-l-incendie-la-rupture-de-la-chaine-du-froid-et-ses-consequences-directes-parties-emergees-des-cyberattaques-contre-les-refrigerateurs-de-supermarches_AV-202611080153.html"
+        }
+      ]
+    },
+    {
+      "title": "Fuites de données : 18 comptes piratés chaque minute en France",
+      "why_it_matters": "Je note que la France reste très exposée. Je dois sécuriser mes accès pro et prévenir mes clients pour garder leur confiance.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/fuites-de-donnees-la-france-sort-du-top-3-mondial-mais-18-comptes-sont-encore-pirates-chaque-minute.html"
+        }
+      ]
+    },
+    {
+      "title": "PME bretonne : ses drones sous-marins sécurisent Singapour",
+      "why_it_matters": "Je retiens qu'une petite boîte française peut signer un contrat stratégique à l'export. Ça prouve qu'on peut rivaliser avec les géants.",
+      "sources": [
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/defense/en-france-on-est-ecrase-par-des-gros-groupes-comment-une-entreprise-bretonne-s-est-retrouvee-a-securiser-le-detroit-de-singapour-avec-ses-drones-sous-marins_AN-202611080125.html"
+        }
+      ]
+    },
+    {
+      "title": "L'Europe investit 525 millions dans la conception de puces",
+      "why_it_matters": "Je note que Bruxelles veut réduire notre dépendance techno. Pour moi, c'est une piste de financement si je touche au matériel ou à l'industrie.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/conception-de-puces-leurope-debourse-525-millions-pour-sortir-du-neant.html"
         }
       ]
     }
