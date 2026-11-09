@@ -610,10 +610,11 @@
       "topic": "préparer un rendez-vous client avec l'IA : résumer l'historique, lister les questions à poser, anticiper les objections et faire le compte rendu après, sans confier de données sensibles",
       "type": "A",
       "priority": 0,
-      "status": "pending",
+      "status": "done",
       "added": "2026-11-02",
       "added_by": "claude",
-      "parcours_etape": 2
+      "parcours_etape": 2,
+      "published_at": "2026-11-09"
     },
     {
       "id": "lire-contrat-ia-sans-se-tromper",

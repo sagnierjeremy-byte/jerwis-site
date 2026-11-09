@@ -1,0 +1,148 @@
+{
+  "topic": "préparer un rendez-vous client avec l'IA : résumer l'historique, lister les questions à poser, anticiper les objections et faire le compte rendu après, sans confier de données sensibles",
+  "slug": "preparer-rendez-vous-client-ia",
+  "type": "A",
+  "generated_at": "2026-11-09",
+  "angle": "Cet article montre aux entrepreneurs non-développeurs comment exploiter l'IA pour optimiser chaque étape de leurs rendez-vous clients, de la préparation au compte rendu, en garantissant la confidentialité des données sensibles.",
+  "intent": "Le lecteur souhaite découvrir des méthodes et outils concrets basés sur l'IA pour améliorer l'efficacité de ses rendez-vous commerciaux (résumé d'historique, questions, objections, compte rendu) tout en comprenant comment protéger ses informations client confidentielles.",
+  "keywords": [
+    "IA rendez-vous client",
+    "préparation commerciale IA",
+    "résumer historique client IA",
+    "anticiper objections IA",
+    "compte rendu réunion IA RGPD",
+    "confidentialité données IA entrepreneur"
+  ],
+  "facts": [
+    {
+      "claim": "ChatGPT 6.1 Terra, lancé le 26 octobre 2026, est la dernière version majeure d'OpenAI, optimisée pour l'utilisation informatique et le raisonnement visuel, tandis que GPT-6 Astra (septembre 2026) excelle dans le codage, la science et le travail agentique.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpRg66lMyVxoP47KBrxqmRUFYgeCOITKMKMhlVF6LEPuospY608DLMg1GbnLBS-VoyweHuPWthYbrog-ODGb7G7DDQbMnQMtfWRYlKKTxp0KHt2elS2FK03tYgdNKHgjYns7NQOzjH0EJU0A==",
+      "date": "2026-10-26"
+    },
+    {
+      "claim": "La version gratuite de ChatGPT utilise GPT-6 Luna depuis le 7 octobre 2026, tandis que les abonnés Plus, Pro, Business et Enterprise ont accès à GPT-6 Sol, adapté aux conversations quotidiennes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1HtZJq9XlBNhqM3T_oQWFm8-RWFGYvM4VDskhVauCKcQhKZr0Xe9GkCRsQjX_3iNbDce6JQ958rteUB5otRoNAUPUPtwH9A7Xjv9WpTUC7KxDH1X89ljjz_S7XimVWIIJm9Obt8qezgMj0Fftzy1Y6Jmj8uCzm5Y2DJS28hR41QhkFp0NaBbd3rA06pLswlgO0keqNifdAdPRVWgmsIdVroMhCNAZzWaZDUC_DgOfVmHFgqC46jyK2HA==",
+      "date": "2026-10-07"
+    },
+    {
+      "claim": "Google Gemini 4 Argon, le nouveau modèle phare de Google, est disponible depuis le 13 octobre 2026 pour les abonnés AI Pro et Ultra, avec Gemini 3.8 Flash (2 septembre 2026) comme dernier modèle Flash accessible.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWPnAjWG9lGEsDkh6-rd2V-Hvb7TMhntvLr_pU53_DG72N-KwcHUcDQ2EwtKOho-fCxopnHDEgMipiakH4xcPH0S7JxjvfT8Pz6S8IDDrT7Gnj_Cv8jWCZJ71l9yy6bQ==",
+      "date": "2026-10-13"
+    },
+    {
+      "claim": "Claude Haiku 5.5, le modèle le plus rapide et le plus rentable d'Anthropic, a été lancé le 7 octobre 2026, tandis que Claude Opus 5.5 est sorti le 22 septembre 2026, offrant des capacités améliorées en codage et raisonnement.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv-mi1gWJ5BgdMrjCyAEq6o3oKQywbkmgDT_eUdyYuOvsHsKyhtlyWrFepg5ptExhgjzfUqfdkqzs4cq4eQrzfNc8iWlbBpd2FZgleUJTm1XE0wC0LDv1A7YMNS8VYJgZ2aMJ2J02_OhFSNQxZXO7hiX3_V_OCTHY==",
+      "date": "2026-10-07"
+    },
+    {
+      "claim": "Mistral Large 4, surnommé 'Le Chonk', a été mis en préversion publique le 6 octobre 2026, avec ses poids publiés le 29 octobre 2026, offrant des performances de pointe en codage, cybersécurité et raisonnement sur documents complexes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ROYfZ6U9E6_w1fILEIsXFu1MoLL4WjMNf4gkHbsbVoAent2yBVASD-LIqGrHHVizqQNXYlEMJDHzJfs2YyPksKQJKpekUS0_QV4wtvypgvTSsDoC4wMzLCmPQbjF8Z7dAoclvqM==",
+      "date": "2026-10-29"
+    },
+    {
+      "claim": "L'utilisation d'un LLM local, installé sur l'infrastructure de l'entreprise (PC, Mac, serveur interne), permet de maîtriser les données et de garantir la confidentialité, évitant l'envoi d'informations sensibles vers des plateformes cloud externes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzU3kBXqUA9j39lYJ2KQNsFN3V37hauCxuWABWjRmH7CRTYaXqAqEBthTnaNXyW2pfCDYqCS3VqT_LJdBciYZUfl2inKz9qFgSx62ku4AmD6d6PFvtfpkpJZzfUH7qaquI1CeTmaEUhP0k94g4nfjmW5zf",
+      "date": "2026-05-21"
+    },
+    {
+      "claim": "Des outils comme Microsoft Presidio permettent d'anonymiser ou de pseudonymiser les données sensibles (noms, emails, téléphones) localement avant de les soumettre à des IA cloud, assurant la conformité RGPD sans compromettre le contexte utile pour l'IA.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGssuEKVPuY_Vp3jxSnjsfDQ3vQILE4C16CWL6VdTR8Ax7NbXWFxuXyqZZkjM4DYWAOiW5PgSwSD_i2nhhbrEij3TxJNZFZcKpDYfTHdkjCv-efIiXHkL-OxNG7KS8bYFRSlFTzxxhL",
+      "date": "2026-04-14"
+    },
+    {
+      "claim": "Des solutions d'IA comme Noota, Fireflies.ai et Notta enregistrent, transcrivent et résument automatiquement les réunions, pouvant s'intégrer aux CRM pour automatiser les mises à jour et accélérer les relances commerciales, Noota étant conforme au RGPD avec des serveurs en Europe.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAeGUTiF7rw7k29CqJlrjOpSPlyisgFVcDSJ0qR1nYUAVLuoAOjpWyCN_yiZO0e7mPuGBPSizgssolNoY_SNj9ZLGz7LZ-P22GGkh9tjZWoyEEWQ4UiPclW43ZZeP2b2lnTG-s0Pao1G6LnJjPV5JT",
+      "date": "2026-09-16"
+    },
+    {
+      "claim": "Les versions d'entreprise des IA (ChatGPT Enterprise, Claude Enterprise, Gemini Enterprise) offrent des contrôles de sécurité et de confidentialité renforcés, ne formant généralement pas leurs modèles sur les données des clients et proposant des fonctionnalités d'administration avancées.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxQGH4eYBnBir4BjUsZa8YFk65E99HZW4Z3npmeiSxoLjFixRDtD62f6459ZWQGu8pa6FG5um5ETqKxF8UJsz1FVxDe81_ePNDVSDcktZEgtHOWTqsGu-Ez4oHsBvpu5sorVau_VOmLX7ntjU==",
+      "date": "2026-10-28"
+    },
+    {
+      "claim": "L'IA peut être utilisée par les commerciaux pour préparer des analyses de secteur, anticiper les questions liées aux prix et construire des argumentaires adaptés à leurs interlocuteurs, ainsi que pour personnaliser les messages et les angles d'approche.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvdOvN0m7XSQFPCRDOfhiM8Dyyp-X32KuAwiv9Hd-PK9sBafED9KOKnBv9ZdoVxvvc8Yu5C7uves--J8RSqUURbCDS23Yze8-8zV6OpefwLSIUml6LiomDZqVyc3v6prJg3IXP96XEHiTkT4IRUkPPi5jfvJRp6F8AjQbuWUx4HMvE",
+      "date": "2026-11-08"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Le temps de préparation d'une prise de contact commerciale peut être réduit d'environ 10 fois grâce à l'assistance de l'IA.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBDMaogDykO3bc2jp-qDg8WgudntMoClb-ATzApeVEJzZun38rXdjqjluyJviONfQrstii5q0FOMw2D3BAU_jI5XVY0bQtE0b2cpGcu_Y-27lcY8P_w6yMZqzlh3Yhe7obktrrSAwAnUewlfg14IuEIXFJ",
+      "date": "2026"
+    },
+    {
+      "stat": "Selon une étude McKinsey de 2026, les entreprises qui déploient l'IA de manière stratégique peuvent réaliser des gains de productivité de 20% à 40% sur leurs processus clés.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErPEwZE4vrIcEJiXN0b_ANmq1R6XDTZ0RsRiXekSD6S2q4FFiwX5OrH_SX9THb9Lw7Dmw3_YcNL9B6h9cexWNh3Vuft9ZQcLgUzbotxthY0rXcDJO0oiZ_Ikw79a4_UjBzrzoxnQOJLBLPGajzBmgInfF4CkftFvJolxhst48uHo41lw==",
+      "date": "2026"
+    },
+    {
+      "stat": "En 2026, 78% des équipes de prospection commerciale utilisent l'IA, démontrant son intégration croissante dans les stratégies de vente.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvdOvN0m7XSQFPCRDOfhiM8Dyyp-X32KuAwiv9Hd-PK9sBafED9KOKnBv9ZdoVxvvc8Yu5C7uves--J8RSqUURbCDS23Yze8-8zV6OpefwLSIUml6LiomDZqVyc3v6prJg3IXP96XEHiTkT4IRUkPPi5jfvJRp6F8AjQbuWUx4HMvE",
+      "date": "2026"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Aborde directement la question cruciale de la protection des données personnelles avec l'IA, essentielle pour le sujet de l'article."
+    },
+    {
+      "url": "/articles/llm-local-pour-non-dev",
+      "why": "Fournit des informations détaillées sur l'utilisation des LLM locaux, une solution clé pour la confidentialité des données sensibles mentionnée dans l'article."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Indispensable pour que les entrepreneurs non-développeurs puissent obtenir les meilleurs résultats des IA pour la préparation et le compte rendu de leurs rendez-vous."
+    },
+    {
+      "url": "/articles/compte-rendu-reunion-ia",
+      "why": "Complète la section sur le compte rendu post-rendez-vous en approfondissant les outils et méthodes spécifiques à cette tâche."
+    },
+    {
+      "url": "/lexique/choisir-modele-2026",
+      "why": "Aide le lecteur à naviguer parmi les différentes options d'IA mentionnées (ChatGPT, Gemini, Claude, Mistral) en fonction de ses besoins spécifiques."
+    }
+  ],
+  "outline": [
+    "Introduction : L'IA, votre nouvel assistant commercial invisible et sécurisé",
+    "Préparer le terrain : Résumer l'historique client et analyser le contexte avec l'IA",
+    "Anticiper et questionner : L'IA pour des rendez-vous percutants et des objections gérées",
+    "Après le rendez-vous : Compte rendu et suivi automatisés et efficaces",
+    "La sécurité avant tout : Protéger vos données sensibles avec l'IA (LLM locaux, anonymisation, versions Enterprise)",
+    "Choisir les bons outils IA pour votre entreprise et vos rendez-vous clients",
+    "Conclusion : L'IA au service de l'entrepreneur, un atout compétitif majeur"
+  ],
+  "faq": [
+    "Comment l'IA peut-elle résumer un historique client si je ne veux pas lui donner accès à mon CRM ?",
+    "Les outils d'IA de préparation de réunion sont-ils vraiment conformes au RGPD et à l'AI Act ?",
+    "Dois-je obligatoirement souscrire à une version payante (ChatGPT Plus, Gemini Pro, Claude Pro) pour ces usages professionnels ?",
+    "L'IA peut-elle anticiper toutes les objections possibles, ou y a-t-il des limites ?",
+    "Un LLM local est-il une solution réaliste et abordable pour un entrepreneur non-développeur ?",
+    "Quels sont les principaux risques à éviter lorsque j'utilise l'IA pour mes rendez-vous clients ?"
+  ],
+  "pitfalls": [
+    "Risque d'hallucinations de l'IA, nécessitant une vérification humaine systématique des informations générées (historiques, questions, objections).",
+    "Non-conformité au RGPD et à l'AI Act si les données sensibles ne sont pas correctement anonymisées ou si des versions cloud non sécurisées sont utilisées sans précautions.",
+    "Dépendance excessive à l'IA pouvant nuire à l'intelligence émotionnelle et à l'adaptabilité du commercial en direct.",
+    "Coût des solutions d'entreprise ou des infrastructures pour LLM locaux, qui peut être un frein pour les petites structures.",
+    "Nécessité d'obtenir le consentement explicite des participants pour l'enregistrement et la transcription des réunions par IA, conformément à l'AI Act (applicable au 2 août 2026).",
+    "La complexité de l'anonymisation des données pour une IA réside dans le maintien de l'intégrité sémantique ; une anonymisation trop agressive peut faire perdre sa pertinence factuelle au modèle."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBDMaogDykO3bc2jp-qDg8WgudntMoClb-ATzApeVEJzZun38rXdjqjluyJviONfQrstii5q0FOMw2D3BAU_jI5XVY0bQtE0b2cpGcu_Y-27lcY8P_w6yMZqzlh3Yhe7obktrrSAwAnUewlfg14IuEIXFJ",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErPEwZE4vrIcEJiXN0b_ANmq1R6XDTZ0RsRiXekSD6S2q4FFiwX5OrH_SX9THb9Lw7Dmw3_YcNL9B6h9cexWNh3Vuft9ZQcLgUzbotxthY0rXcDJO0oiZ_Ikw79a4_UjBzrzoxnQOJLBLPGajzBmgInfF4CkftFvJolxhst48uHo41lw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvdOvN0m7XSQFPCRDOfhiM8Dyyp-X32KuAwiv9Hd-PK9sBafED9KOKnBv9ZdoVxvvc8Yu5C7uves--J8RSqUURbCDS23Yze8-8zV6OpefwLSIUml6LiomDZqVyc3v6prJg3IXP96XEHiTkT4IRUkPPi5jfvJRp6F8AjQbuWUx4HMvE",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2gYQpkPQwLoWpLHx9pzpA9SRnoy0crcpZJhu75M9BSKXkC5QS1myWKqJ9cSQJ2nLGQGFXSd4h2sOuF0RnUsJXqTLlEkhwK86flfmMefxCRdd_7WCSkjsRT7g6tIKXoh8XsCcQonHKbEEFRj6rMR-c9UR04pmMD9qf",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUmiSzl4f9roREthp4XtOPw1XiFA0yIY-MBbAS8rRDSuEFexaUNsIdod8brVFEjmZuXtA6ThcEbl7-1daUoe76I3GIfKBv7rFZgPbfAsjvYXPDUItdv7129VY0-XbK7x1doWpfTmE8yNwCcopPDchr6NmS3o9Q",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpRg66lMyVxoP47KBrxqmRUFYgeCOITKMKMhlVF6LEPuospY608DLMg1GbnLBS-VoyweHuPWthYbrog-ODGb7G7DDQbMnQMtfWRYlKKTxp0KHt2elS2FK03tYgdNKHgjYns7NQOzjH0EJU0A==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1HtZJq9XlBNhqM3T_oQWFm8-RWFGYvM4VDskhVauCKcQhKZr0Xe9GkCRsQjX_3iNbDce6JQ958rteUB5otRoNAUPUPtwH9A7Xjv9WpTUC7KxDH1X89ljjz_S7XimVWIIJm9Obt8qezgMj0Fftzy1Y6Jmj8uCzm5Y2DJS28hR41QhkFp0NaBbd3rA06pLswlgO0keqNifdAdPRVWgmsIdVroMhCNAZzWaZDUC_DgOfVmHFgqC46jyK2HA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWPnAjWG9lGEsDkh6-rd2V-Hvb7TMhntvLr_pU53_DG72N-KwcHUcDQ2EwtKOho-fCxopnHDEgMipiakH4xcPH0S7JxjvfT8Pz6S8IDDrT7Gnj_Cv8jWCZJ71l9yy6bQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv-mi1gWJ5BgdMrjCyAEq6o3oKQywbkmgDT_eUdyYuOvsHsKyhtlyWrFepg5ptExhgjzfUqfdkqzs4cq4eQrzfNc8iWlbBpd2FZgleUJTm1XE0wC0LDv1A7YMNS8VYJgZ2aMJ2J02_OhFSNQxZXO7hiX3_V_OCTHY==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ROYfZ6U9E6_w1fILEIsXFu1MoLL4WjMNf4gkHbsbVoAent2yBVASD-LIqGrHHVizqQNXYlEMJDHzJfs2YyPksKQJKpekUS0_QV4wtvypgvTSsDoC4wMzLCmPQbjF8Z7dAoclvqM==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzU3kBXqUA9j39lYJ2KQNsFN3V37hauCxuWABWjRmH7CRTYaXqAqEBthTnaNXyW2pfCDYqCS3VqT_LJdBciYZUfl2inKz9qFgSx62ku4AmD6d6PFvtfpkpJZzfUH7qaquI1CeTmaEUhP0k94g4nfjmW5zf",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGssuEKVPuY_Vp3jxSnjsfDQ3vQILE4C16CWL6VdTR8Ax7NbXWFxuXyqZZkjM4DYWAOiW5PgSwSD_i2nhhbrEij3TxJNZFZcKpDYfTHdkjCv-efIiXHkL-OxNG7KS8bYFRSlFTzxxhL",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAeGUTiF7rw7k29CqJlrjOpSPlyisgFVcDSJ0qR1nYUAVLuoAOjpWyCN_yiZO0e7mPuGBPSizgssolNoY_SNj9ZLGz7LZ-P22GGkh9tjZWoyEEWQ4UiPclW43ZZeP2b2lnTG-s0Pao1G6LnJjPV5JT",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxQGH4eYBnBir4BjUsZa8YFk65E99HZW4Z3npmeiSxoLjFixRDtD62f6459ZWQGu8pa6FG5um5ETqKxF8UJsz1FVxDe81_ePNDVSDcktZEgtHOWTqsGu-Ez4oHsBvpu5sorVau_VOmLX7ntjU=="
+  ]
+}

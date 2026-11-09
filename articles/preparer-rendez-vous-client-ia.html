@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/preparer-rendez-vous-client-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Préparer un rendez-vous client avec l'IA</title>
+<meta name="description" content="Découvre comment utiliser l'IA pour préparer tes rendez-vous clients, anticiper les objections et rédiger tes comptes rendus sans exposer tes données sensibles.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Préparer un rendez-vous client avec l'IA">
+<meta property="og:description" content="Découvre comment utiliser l'IA pour préparer tes rendez-vous clients, anticiper les objections et rédiger tes comptes rendus sans exposer tes données sensibles.">
+<meta property="og:url" content="https://jerwis.fr/articles/preparer-rendez-vous-client-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/preparer-rendez-vous-client-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-09">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Préparer un rendez-vous client avec l'IA">
+<meta name="twitter:description" content="Découvre comment utiliser l'IA pour préparer tes rendez-vous clients, anticiper les objections et rédiger tes comptes rendus sans exposer tes données sensibles.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/preparer-rendez-vous-client-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/preparer-rendez-vous-client-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/preparer-rendez-vous-client-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/preparer-rendez-vous-client-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/preparer-rendez-vous-client-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Préparer un rendez-vous client avec l'IA",
+  "description": "Découvre comment utiliser l'IA pour préparer tes rendez-vous clients, anticiper les objections et rédiger tes comptes rendus sans exposer tes données sensibles.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/preparer-rendez-vous-client-ia",
+  "datePublished": "2026-11-09",
+  "dateModified": "2026-11-09",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/preparer-rendez-vous-client-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 50</div>
+    <h1>Rendez-vous clients<br>préparés par l'IA<br><em>sans fuiter tes données</em></h1>
+    <p class="hero-lead">
+      Tu as un rendez-vous commercial demain et tu ne sais pas par où commencer ? Je te montre comment je m'y prends pour exploiter l'IA de la préparation au suivi. Résumer l'historique, lister les bonnes questions, anticiper les blocages et rédiger le compte rendu. Le tout sans confier tes données sensibles au premier cloud venu. Je ne suis pas développeur. Je suis entrepreneur. Et je refuse de laisser l'IA entre seules les mains des équipes tech.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>7 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT, Claude, Gemini</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>L'IA réduit beaucoup le temps de préparation d'une prise de contact commerciale</li>
+      <li>Les <strong>LLM locaux</strong> et l'anonymisation protègent tes données client</li>
+      <li>Des outils comme Noota automatisent le compte rendu en respectant le RGPD</li>
+      <li>Les versions Enterprise offrent des garanties de confidentialité renforcées</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Quand l&#39;IA prépare ton terrain</h2>
+    <p>Je ne suis pas développeur. Je suis entrepreneur. Et quand j&#39;ai un rendez-vous client, je ne veux pas arriver les mains vides. Avant, je passais des heures à relire des échanges, des notes, des devis. Aujourd&#39;hui, je demande à l&#39;IA de m&#39;aider à résumer l&#39;historique et à analyser le contexte. Je fais tout ça d&#39;abord pour moi.</p>
+    <p>L&#39;IA peut être utilisée par les commerciaux pour préparer des analyses de secteur. Elle aide aussi à anticiper les questions liées aux prix et à construire des argumentaires adaptés à leurs interlocuteurs (2026-11-08). Tu lui donnes le secteur du client. Tu ajoutes ton offre et le dernier échange. Elle te ressort une vue d&#39;ensemble claire. Pas un copier-coller à balancer en réunion. Une base de travail que tu adaptes avec ta voix.</p>
+    <p>Mon processus est simple. Je récupère mes notes de la dernière conversation. Je les copie dans mon outil en veillant à retirer les données sensibles. Je demande un résumé structuré. Qu&#39;est-ce qui a été dit et qu&#39;est-ce qui bloque. Puis qu&#39;est-ce qui avance. J&#39;enchaîne avec trois angles d&#39;approche pour le prochain rendez-vous. En quelques minutes, j&#39;ai une feuille de route.</p>
+    <p>Pour obtenir des résultats utiles, il faut savoir écrire tes prompts. <a href="/articles/ecrire-bon-prompt-non-dev">écrire un bon prompt</a></p>
+    <h2>Comment j&#39;anticipe les questions et les blocages</h2>
+    <p>Une fois le terrain préparé, je m&#39;attaque aux questions et aux objections. Parce qu&#39;un client qui dit non n&#39;est pas un client perdu. C&#39;est souvent un client qui n&#39;a pas encore compris la valeur de ton offre.</p>
+    <p>L&#39;IA peut aussi personnaliser les messages et les angles d&#39;approche (2026-11-08). Tu lui décris ton interlocuteur. Son rôle. Sa problématique. Même son ton. Elle te propose des formulations adaptées. Pas pour réciter un script. Pour te donner des munitions.</p>
+    <p>Selon une étude McKinsey de 2026, les entreprises qui déploient l&#39;IA de manière stratégique peuvent réaliser des gains de productivité de 20% à 40% sur leurs processus clés. Ce n&#39;est pas magique. C&#39;est une question de méthode. Tu demandes à l&#39;IA de lister les cinq objections les plus courantes dans ton secteur. Puis tu lui demande de te proposer une réponse pour chacune. Tu relis. Tu adaptes. Tu ajoutes ton vécu.</p>
+    <p>Je vais parfois plus loin. Je demande à l&#39;IA de jouer le rôle du client pendant deux minutes. Je lui explique son profil. Elle m&#39;envoie les questions pointues. Celles qui piquent. C&#39;est le meilleur entraînement avant l&#39;heure H.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Ne demande jamais à l'IA de rédiger ton discours de A à Z. Elle ne connaît pas ton client. Elle ne connaît pas ta relation. Utilise-la comme un partenaire d'entraînement. Elle te propose. Tu décides.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Et après le café ?</h2>
+    <p>Le rendez-vous s&#39;est bien passé. Tu as pris des notes à la volée. Maintenant, il faut rédiger le compte rendu, mettre à jour ton CRM et préparer la relance. C&#39;est souvent là que le temps s&#39;évapore.</p>
+    <p>Des solutions d&#39;IA comme Noota, Fireflies.ai et Notta enregistrent et transcrivent les réunions. Ils en génèrent aussi un résumé automatique. Ils peuvent s&#39;intégrer aux CRM pour automatiser les mises à jour et accélérer les relances commerciales (2026-09-16). Noota est conforme au RGPD avec des serveurs en Europe. C&#39;est un point qui compte quand tu traites des données de clients européens.</p>
+    <p>Moi qui ne suis pas à l&#39;aise avec la technique, j&#39;apprécie ne pas avoir à coder quoi que ce soit. Tu branches l&#39;outil à ton calendrier ou à ton appel. La transcription se fait seule. Le résumé aussi. Tu relis. Tu corriges le ton. Tu envoies.</p>
+    <p><a href="/articles/compte-rendu-reunion-ia">compte-rendu réunion ia</a></p>
+    <h2>La confidentialité, c&#39;est pas négociable</h2>
+    <p>Jusqu&#39;ici, je t&#39;ai parlé de copier-coller des notes dans une IA. Sauf que tes notes contiennent des noms, des emails, des numéros de téléphone, des informations financières. Tu ne veux pas que ces données partent sur un serveur qui les réutilise pour entraîner des modèles.</p>
+    <p>L&#39;utilisation d&#39;un LLM local, installé sur l&#39;infrastructure de l&#39;entreprise (PC, Mac, serveur interne), permet de maîtriser les données et de garantir la confidentialité. Cela évite l&#39;envoi d&#39;informations sensibles vers des plateformes cloud externes (2026-05-21). C&#39;est la solution la plus sûre. Et aujourd&#39;hui, ce n&#39;est plus réservé aux équipes IT. Des outils avec interface graphique te permettent d&#39;installer un modèle sur ton ordinateur en quelques clics. Tu télécharges. Tu lances. Tu discutes avec tes données qui restent chez toi.</p>
+    <p>Si tu dois absolument utiliser un service cloud, anonymise d&#39;abord. Des outils comme Microsoft Presidio permettent d&#39;anonymiser ou de pseudonymiser les données sensibles localement avant de les soumettre à des IA cloud. Cela assure la conformité RGPD sans compromettre le contexte utile pour l&#39;IA (2026-04-14). Tu remplaces &quot;Dupont&quot; par &quot;Client A&quot;. L&#39;IA comprend qu&#39;il s&#39;agit d&#39;une personne. Mais elle ne sait pas qui c&#39;est.</p>
+    <p>Enfin, il existe les versions d&#39;entreprise des IA (ChatGPT Enterprise, Claude Enterprise, Gemini Enterprise) qui offrent des contrôles de sécurité et de confidentialité renforcés. Elles ne forment généralement pas leurs modèles sur les données des clients et proposent des fonctionnalités d&#39;administration avancées (2026-10-28). Si tu as une équipe et un budget, c&#39;est une piste sérieuse.</p>
+    <p><a href="/articles/donnees-perso-ia-confidentialite">données perso ia confidentialité</a></p>
+    <p><a href="/articles/llm-local-pour-non-dev">llm local pour non dev</a></p>
+    <div class="callout tip"><h4>Ce que je retiens du terrain</h4><p>Si tu n'as qu'une règle à retenir : jamais de données sensibles en clair dans une IA gratuite en ligne. Anonymise, ou passe par un LLM local. C'est toi qui es responsable de tes données client, pas l'outil.</p></div>
+    
+    <h2>Quel outil choisir sans être tech ?</h2>
+    <p>À la date de cet article, le paysage des modèles évolue vite. Voici ce que je retiens pour un entrepreneur non-développeur qui veut préparer ses rendez-vous.</p>
+    <p>ChatGPT 6.1 Terra, lancé le 26 octobre 2026, est la dernière version majeure d&#39;OpenAI, optimisée pour l&#39;utilisation informatique et le raisonnement visuel, tandis que GPT-6 Astra (septembre 2026) excelle dans le codage, la science et le travail agentique (2026-10-26). Pour analyser des documents et préparer des réunions, Terra est plus adapté que sa version Astra. La version gratuite utilise GPT-6 Luna depuis le 7 octobre 2026, tandis que les abonnés Plus, Pro, Business et Enterprise ont accès à GPT-6 Sol, adapté aux conversations quotidiennes (2026-10-07).</p>
+    <p>Chez Google, Gemini 4 Argon est disponible depuis le 13 octobre 2026 pour les abonnés AI Pro et Ultra, avec Gemini 3.8 Flash (2 septembre 2026) comme dernier modèle Flash accessible (2026-10-13). Flash est rapide et économe. Argon est plus puissant pour l&#39;analyse poussée.</p>
+    <p>Claude Haiku 5.5, le modèle le plus rapide et le plus rentable d&#39;Anthropic, a été lancé le 7 octobre 2026, tandis que Claude Opus 5.5 est sorti le 22 septembre 2026, offrant des capacités améliorées en codage et raisonnement (2026-10-07). Pour la préparation de réunion, Opus 5.5 peut creuser un sujet en profondeur. Haiku 5.5 répond vite pour des questions ponctuelles.</p>
+    <p>Enfin, Mistral Large 4, surnommé &#39;Le Chonk&#39;, a été mis en préversion publique le 6 octobre 2026, avec ses poids publiés le 29 octobre 2026, offrant des performances de pointe en codage et en cybersécurité. Il excelle aussi sur le raisonnement appliqué aux documents complexes (2026-10-29). C&#39;est une option intéressante si tu travailles avec des documents longs et techniques.</p>
+    <p><a href="/lexique/choisir-modele-2026">choisir modèle 2026</a></p>
+    <h2>Questions fréquentes</h2>
+    <h3>Comment l&#39;IA peut-elle résumer ton historique client si tu ne veux pas lui donner accès à ton CRM ?</h3>
+    <p>Tu n&#39;as pas besoin de brancher l&#39;IA directement à ton CRM. Tu exportes manuellement les notes ou l&#39;historique sous forme de texte brut. Tu retires les noms et les emails. Tu enlèves aussi les numéros. Tu obtiens une version anonymisée que tu colles dans ton outil. L&#39;IA comprend le contexte sans avoir besoin de l&#39;identité réelle du client. Si tu veux plus de sécurité, tu installes un LLM local sur ton poste. Aucune donnée ne sort de ton ordinateur.</p>
+    <h3>Les outils d&#39;IA de préparation de réunion sont-ils vraiment conformes au RGPD et à l&#39;AI Act ?</h3>
+    <p>Tout dépend de l&#39;outil que tu choisis. Noota est conforme au RGPD avec des serveurs en Europe (2026-09-16). Les versions Enterprise de ChatGPT, Claude ou Gemini offrent des contrôles de sécurité renforcés et ne forment généralement pas leurs modèles sur tes données (2026-10-28). Pour le reste, vérifie où sont hébergés les serveurs et lis les conditions de traitement des données. Quand tu doutes, anonymise tes données avec un outil comme Microsoft Presidio avant de les soumettre (2026-04-14).</p>
+    <h3>Dois-tu obligatoirement souscrire à une version payante pour ces usages professionnels ?</h3>
+    <p>Non. La version gratuite de ChatGPT utilise GPT-6 Luna depuis le 7 octobre 2026 (2026-10-07). Elle convient parfaitement pour résumer des notes ou préparer des questions. Les versions payantes apportent plus de rapidité. Elles offrent aussi plus de capacité et des fonctions d&#39;administration. Si tu traites des données sensibles en entreprise, les versions Enterprise valent le coup pour les garanties de confidentialité. Mais pour démarrer et tester ta méthode, la version gratuite suffit.</p>
+    <h3>L&#39;IA peut-elle anticiper toutes les objections possibles, ou y a-t-il des limites ?</h3>
+    <p>L&#39;IA peut anticiper les objections classiques d&#39;un secteur et t&#39;aider à construire des argumentaires adaptés (2026-11-08). Mais elle ne connaît pas la relation humaine que tu as tissée avec ton client. Elle ne sent pas le doute dans sa voix. Elle ne devine pas les jeux de pouvoir internes de son entreprise. Utilise ses propositions comme une liste de départ. Complète avec ton intuition et ton vécu du terrain.</p>
+    <h3>Un LLM local est-il une solution réaliste pour un entrepreneur non-développeur ?</h3>
+    <p>Oui. L&#39;utilisation d&#39;un LLM local installé sur ton PC ou ton Mac permet de maîtriser tes données (2026-05-21). Aujourd&#39;hui, des applications avec interface graphique te permettent de télécharger et de lancer un modèle en quelques clics. Tu n&#39;as pas besoin de taper de commande. C&#39;est un peu plus lent que le cloud et cela demande un ordinateur récent. Mais pour la confidentialité, le compromis est souvent acceptable.</p>
+    <h3>Quels sont les principaux risques à éviter quand tu utilises l&#39;IA pour tes rendez-vous clients ?</h3>
+    <p>Le premier risque est la fuite de données sensibles. Ne colle jamais un nom, un email ou un numéro de téléphone dans une IA cloud gratuite sans anonymiser. Le deuxième risque est la surconfiance. L&#39;IA invente parfois des détails quand elle manque de contexte. Vérifie toujours ce qu&#39;elle propose. Le troisième risque est de sonner comme un robot. Ses phrases sont lisses. Relis. Réécris avec ton style.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Je ne suis pas développeur. Je suis entrepreneur. Et je veux rester compétitif sans trahir la confiance de mes clients. L&#39;IA m&#39;aide à préparer mes rendez-vous plus vite, à anticiper les blocages et à rédiger mes suivis sans y passer des heures. Mais elle ne remplace pas l&#39;échange humain. Elle le prépare.</p>
+    <p>La règle d&#39;or reste la même. Anonymise tes données. Privilégie un LLM local ou une version Enterprise si tu traites des informations confidentielles. Et garde le contrôle. L&#39;IA est un outil. Tu restes le pilote.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>
