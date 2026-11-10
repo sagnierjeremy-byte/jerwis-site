@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/lire-contrat-ia-sans-se-tromper.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Lire un contrat avec l'IA : guide pratique 2026</title>
+<meta name="description" content="Découvre comment utiliser l'IA pour analyser tes contrats, repérer les clauses importantes et savoir quand consulter un avocat.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Lire un contrat avec l'IA : guide pratique 2026">
+<meta property="og:description" content="Découvre comment utiliser l'IA pour analyser tes contrats, repérer les clauses importantes et savoir quand consulter un avocat.">
+<meta property="og:url" content="https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/lire-contrat-ia-sans-se-tromper.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-10">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Lire un contrat avec l'IA : guide pratique 2026">
+<meta name="twitter:description" content="Découvre comment utiliser l'IA pour analyser tes contrats, repérer les clauses importantes et savoir quand consulter un avocat.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/lire-contrat-ia-sans-se-tromper.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/lire-contrat-ia-sans-se-tromper">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Lire un contrat avec l'IA : guide pratique 2026",
+  "description": "Découvre comment utiliser l'IA pour analyser tes contrats, repérer les clauses importantes et savoir quand consulter un avocat.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/lire-contrat-ia-sans-se-tromper.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 88</div>
+    <h1>Lire un contrat<br>avec l'intelligence artificielle<br><em>sans se tromper</em></h1>
+    <p class="hero-lead">
+      Tu reçois un contrat de prestation ou un bail commercial et tu veux comprendre les risques avant de signer. L'IA peut t'aider, mais elle invente parfois des articles de loi qui n'existent pas. Je te montre comment je procède pour analyser mes propres contrats avec ces outils, vérifier chaque alerte et surtout savoir quand il est temps d'appeler un professionnel.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT, Claude, outils juridiques IA</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>L'IA permet d'analyser un contrat en quelques minutes et de repérer les clauses à risque comme la responsabilité illimitée.</li>
+      <li>Tu dois toujours vérifier toi-même les pages citées et ne jamais croire une référence légale sur parole.</li>
+      <li>Les outils spécialisés surpassent les LLM génériques pour des analyses structurées, mais les deux hallucinent.</li>
+      <li>L'AI Act rend les dirigeants responsables de la conformité dès août 2026, et l'avocat reste indispensable pour les contrats sensibles.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Pourquoi j&#39;utilise l&#39;IA pour mes contrats</h2>
+    <p>Je ne suis pas juriste. Chaque fois que je signe un contrat de prestation, un avenant ou un bail, je prends une petite claque au moment de lire les quinze pages de clauses. L&#39;IA m&#39;a changé la donne. Elle permet d&#39;automatiser la recherche juridique et l&#39;examen de documents. Elle améliore aussi la gestion des dossiers et la surveillance de la conformité. Je fais tout ça d&#39;abord pour moi. Je veux repérer les pièges avant d&#39;engager ma société.</p>
+    <p>Les chiffres de 2025 montrent que l&#39;adoption de l&#39;IA générative dans les départements juridiques d&#39;entreprise est passée de 23 % en 2024 à 52 % en 2025. Une estimation de 2023 indiquait déjà que l&#39;IA pourrait automatiser environ 44 % des tâches juridiques aux États-Unis. C&#39;est le deuxième taux le plus élevé de tous les secteurs. Moi, je n&#39;ai pas de département juridique. J&#39;ai juste un ordinateur et une envie de ne pas signer n&#39;importe quoi.</p>
+    <p>Avant, je survolais. Maintenant, je demande à l&#39;IA de me faire un premier tri. Elle me dit où sont les obligations, les pénalités, les durées. Ça me permet d&#39;arriver préparé quand je discute avec l&#39;autre partie. Mais ce n&#39;est que la première couche. La vérification reste mon job.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Ce que l&#39;IA repère vraiment</h2>
+    <p>Les outils d&#39;IA peuvent analyser des milliers de contrats en quelques minutes. Dans un document unique, ils identifient les clauses clés. Ils repèrent les risques potentiels comme une responsabilité illimitée ou un renouvellement automatique excessif. Ils signalent aussi les dispositions manquantes que l&#39;œil humain pourrait négliger.</p>
+    <p>Dans la pratique, voici ce que je demande. Je copie le texte du contrat dans un outil d&#39;IA. Je lui envoie un prompt structuré pour qu&#39;il me liste les points suivants. La durée du contrat. Les obligations de chaque partie. Les clauses de résiliation. Les pénalités de retard. Et les clauses de confidentialité. <a href="/articles/ecrire-bon-prompt-non-dev">Pour optimiser l&#39;efficacité de l&#39;IA dans l&#39;analyse de contrats, un bon prompt est essentiel</a>.</p>
+    <p>La vraie astuce, c&#39;est d&#39;exiger la page exacte. Si l&#39;IA me dit &quot;clause de responsabilité illimitée à la page 4&quot;, je peux ouvrir le PDF et vérifier immédiatement. Ça change tout. Sans cette précision, je perdrais mon temps à chercher.</p>
+    <div class="callout tip"><h4>Mon conseil du moment</h4><p>Je garde un fichier texte avec mes prompts préférés pour l'analyse de contrat. Quand je reçois un nouveau document, je copie-colle ma trame et j'ajoute une consigne simple : "cite la page exacte pour chaque clause mentionnée". Ça m'évite de chercher pendant des heures.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Les outils que j&#39;ai testés</h2>
+    <p>Il faut distinguer deux familles d&#39;outils. D&#39;un côté, les LLM génériques comme ChatGPT, Gemini ou Claude. De l&#39;autre, les IA juridiques spécialisées. Ces dernières sont entraînées sur des données juridiques et configurées pour des analyses structurées. Elles peuvent comparer un contrat à des playbooks spécifiques. Pour un entrepreneur non juriste, la différence se sent surtout quand le document est dense.</p>
+    <p>À la date de cet article, voici ce que j&#39;ai sous la main. ChatGPT 6 Astra a été lancé en aperçu limité le 3 septembre 2026 et rendu accessible au grand public pour les utilisateurs payants le 4 septembre 2026. Les versions GPT-6 Sol et GPT-6 Luna ont suivi le 7 octobre 2026 pour les conversations quotidiennes. Chez Google, Gemini 4 Argon a été annoncé le 30 septembre 2026 et est disponible pour les abonnés Pro et Ultra depuis le 13 octobre 2026. Gemini 3.8 Flash est arrivé plus tôt, le 2 septembre 2026.</p>
+    <p>Côté Anthropic, Claude Opus 5.5 est sorti le 22 septembre 2026 et reste le modèle recommandé par Anthropic pour la plupart des usages. La société a aussi publié Claude Fable 5.2 et Claude Mythos 5.2 le 9 novembre 2026. En France, Mistral Large 4 a été présenté en préversion début octobre 2026 et ses poids ont été publiés fin octobre 2026. Mistral Medium 3.5 était déjà disponible depuis avril 2026.</p>
+    <p>Pour les contrats très longs, la taille de la fenêtre de contexte des LLM impacte leur capacité à tout analyser d&#39;un bloc. <a href="/lexique/context-window">Expliquer comment la taille de la fenêtre de contexte des LLM impacte leur capacité à analyser des contrats longs</a>. Une technique utile consiste à utiliser la RAG pour améliorer la précision de l&#39;IA en lui permettant de s&#39;appuyer sur des documents contractuels spécifiques. <a href="/lexique/rag-pour-non-dev">Détailler comment la RAG peut améliorer la précision de l&#39;IA en lui permettant de s&#39;appuyer sur des documents contractuels spécifiques</a>.</p>
+    <h2>Les limites qui coûtent cher</h2>
+    <p>L&#39;IA générative a une tendance aux hallucinations. Elle produit des textes plausibles mais potentiellement inexacts. Elle invente parfois des faits juridiques ou des jurisprudences. Selon une étude de Stanford publiée en 2025, les principaux outils d&#39;IA de recherche juridique ont halluciné entre 17 % et 33 % du temps. Imagine que tu bases ta négociation sur un article de loi inventé. Le résultat peut être désastreux.</p>
+    <p>Et ce n&#39;est pas tout. La responsabilité du juriste ou de l&#39;entrepreneur demeure entière sur les livrables produits avec l&#39;aide de l&#39;IA. L&#39;outil ne décharge pas le professionnel de son obligation de vérification et de supervision humaine. Si tu signes en te reposant aveuglément sur une analyse IA, c&#39;est ton nom sur le papier. Pas celui de l&#39;algorithme.</p>
+    <p>La confidentialité pose aussi question. Un contrat contient souvent des données sensibles, des chiffres d&#39;affaires, des stratégies. Avant d&#39;uploader un document dans un outil en ligne, je vérifie toujours ses conditions d&#39;utilisation. <a href="/articles/donnees-perso-ia-confidentialite">Aborder les enjeux de confidentialité des données sensibles contenues dans les contrats lors de l&#39;utilisation d&#39;outils IA</a>. Quand le contrat est vraiment sensible, je préfère anonymiser les parties et les montants.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Comment je vérifie avant de signer</h2>
+    <p>J&#39;ai mis en place une petite routine. Elle me prend dix minutes et elle m&#39;a déjà évité des erreurs.</p>
+    <p>Première étape, je demande à l&#39;IA de me produire une liste des clauses importantes avec le numéro de page exact. Deuxième étape, j&#39;ouvre le PDF original et je vais à la page indiquée. Je lis la clause moi-même pour confirmer que le résumé est juste. Troisième étape, si l&#39;IA cite un article de loi ou une jurisprudence, je le cherche sur Légifrance ou je le demande à mon moteur de recherche. Je ne fais confiance à aucune référence légale non vérifiée.</p>
+    <p>Au mois de mars 2026, 62 % des professionnels du droit ont déclaré économiser entre 6 % et 20 % de leur semaine de travail grâce à l&#39;utilisation de l&#39;IA. Mais ils vérifient tout. C&#39;est précisément cette habitude de contrôle qui fait la différence entre un outil utile et un piège. <a href="/articles/verifier-info-ia">Renforcer la nécessité de la vérification humaine des informations générées par l&#39;IA pour éviter les erreurs</a>.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Ne fais pas confiance aux références de loi citées par l'IA sans vérification. J'ai déjà vu un modèle inventer un article du Code civil en le rendant très crédible. La règle d'or : si l'IA cite un article, tu le cherches toi-même sur Légifrance.</p></div>
+    
+    <h2>Quand j&#39;appelle mon avocat</h2>
+    <p>L&#39;IA est excellente pour le premier filtrage. Elle ne remplace pas l&#39;expertise humaine quand les enjeux deviennent sérieux. Je passe la main à un professionnel du droit dès que je repère une responsabilité illimitée, une clause de non-concurrence, un contrat international ou des montants qui mettent en péril la trésorerie de ma boîte.</p>
+    <p>L&#39;avocat apporte quelque chose que l&#39;IA ne possède pas. Il connaît le contexte précis de mon activité, les jurisprudences récentes de mon secteur et les tactiques de négociation locales. L&#39;IA me permet d&#39;arriver préparé à notre rendez-vous. Je lui présente mes questions précises. Ça réduit le temps de facturation et ça rend la discussion plus productive.</p>
+    <p>La responsabilité demeure entière. Même si l&#39;IA m&#39;a donné une piste, c&#39;est moi qui signe. C&#39;est aussi moi qui décide de consulter un expert quand le doute persiste.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>L&#39;AI Act et ton contrat</h2>
+    <p>Depuis le 2 août 2026, certaines obligations de l&#39;AI Act européen sont entrées en vigueur. Ce règlement impose des règles de transparence et de marquage des contenus générés par IA. Les dirigeants sont personnellement responsables de leur respect. Si tu utilises l&#39;IA pour produire une analyse contractuelle ou un avis juridique interne, tu dois documenter cet usage.</p>
+    <p>Dans la pratique, ça veut dire que je note dans mon dossier quand j&#39;ai utilisé un outil d&#39;IA pour la relecture. Si je transmets ce document à un tiers, je précise qu&#39;il contient une analyse assistée par intelligence artificielle. <a href="/articles/ai-act-pour-ton-business">Expliquer les implications de l&#39;AI Act sur l&#39;utilisation des IA dans un cadre professionnel et juridique</a>. Ce n&#39;est pas une formalité inutile. C&#39;est une protection en cas de contrôle ou de litige.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>L&#39;IA peut-elle remplacer un avocat pour la lecture de contrats ?</h3>
+    <p>Non. L&#39;IA automatise l&#39;examen des documents et elle identifie les clauses clés. Elle ne remplace pas le jugement professionnel d&#39;un avocat. La responsabilité reste humaine et la supervision est obligatoire. Pour les contrats complexes ou à fort enjeu, le professionnel reste indispensable.</p>
+    <h3>Quels sont les risques majeurs d&#39;utiliser l&#39;IA pour analyser un contrat ?</h3>
+    <p>Le premier risque est l&#39;hallucination. L&#39;IA peut inventer des articles de loi ou des jurisprudences. Selon une étude de Stanford publiée en 2025, les outils de recherche juridique ont halluciné entre 17 % et 33 % du temps. Le deuxième risque est la fuite de données confidentielles si tu uploades un document sensible sur une plateforme non sécurisée. Le troisième est la responsabilité personnelle du dirigeant si tu signes sans vérifier.</p>
+    <h3>Comment t&#39;assurer que l&#39;IA ne divulgue pas d&#39;informations confidentielles de tes contrats ?</h3>
+    <p>Vérifie les conditions de confidentialité et d&#39;hébergement de l&#39;outil avant tout upload. Pour les contrats sensibles, anonymise les noms des parties, les montants et les données stratégiques. Privilégie les offres professionnelles avec des garanties de non-utilisation de tes données pour l&#39;entraînement.</p>
+    <h3>Existe-t-il des outils d&#39;IA gratuits pour la révision de contrats ?</h3>
+    <p>Oui. Les LLM génériques proposent des versions gratuites ou d&#39;essai. Ils suffisent pour un premier filtrage et la compréhension des clauses principales. Cependant, les IA juridiques spécialisées, entraînées sur des données juridiques, offrent une analyse plus structurée. Elles sont souvent payantes.</p>
+    <h3>L&#39;AI Act européen s&#39;applique-t-il à l&#39;utilisation d&#39;IA pour tes contrats ?</h3>
+    <p>Oui. Si tu utilises l&#39;IA dans un contexte professionnel pour produire des analyses contractuelles, les règles de transparence s&#39;appliquent. Certaines obligations sont entrées en vigueur le 2 août 2026. Les dirigeants sont personnellement responsables du respect de ces dispositions.</p>
+    <h3>Comment peux-tu vérifier les informations repérées par l&#39;IA dans un contrat ?</h3>
+    <p>Tu retournes au document original à la page citée. Tu relis la clause toi-même. Si l&#39;IA mentionne une loi ou une jurisprudence, tu la cherches sur une source officielle comme Légifrance. Ne crois aucune référence légale sans cette double vérification.</p>
+    <h2>Ce que je retiens</h2>
+    <p>L&#39;IA est un amplificateur d&#39;attention. Elle me permet de lire un contrat sans le survoler et de repérer les points qui méritent un examen approfondi. Je garde la main sur chaque vérification. J&#39;exige les numéros de page. Je ne crois pas les articles de loi sur parole. Et je sais exactement quand passer le relais à mon avocat. C&#39;est comme ça que je garde le contrôle sans me noyer dans les paperasses.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

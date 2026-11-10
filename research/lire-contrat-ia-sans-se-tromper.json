@@ -1,0 +1,167 @@
+{
+  "topic": "lire un contrat avec l'IA sans se tromper : faire repérer les clauses importantes avec la page citée, vérifier soi-même, et savoir quand il faut un professionnel",
+  "slug": "lire-contrat-ia-sans-se-tromper",
+  "type": "A",
+  "generated_at": "2026-11-10",
+  "angle": "Cet article vise à équiper les entrepreneurs non-développeurs des connaissances nécessaires pour utiliser l'IA dans la lecture de contrats, en maximisant ses avantages tout en comprenant ses limites et en sachant précisément quand l'expertise humaine d'un professionnel du droit est indispensable, le tout dans un contexte réglementaire à jour (2026).",
+  "intent": "Le lecteur souhaite comprendre comment l'IA peut l'aider à analyser ses contrats (repérer les clauses importantes, les risques), quels outils utiliser, comment vérifier l'exactitude des informations fournies par l'IA, et quand il est impératif de consulter un avocat pour éviter des erreurs coûteuses et rester conforme aux réglementations de 2026.",
+  "keywords": [
+    "IA lecture contrat",
+    "vérifier contrat IA",
+    "clauses importantes IA",
+    "limites IA juridique",
+    "quand consulter avocat IA",
+    "outils IA analyse contrats PME 2026"
+  ],
+  "facts": [
+    {
+      "claim": "L'IA dans le domaine juridique permet d'automatiser des tâches telles que la recherche juridique, la gestion des dossiers, l'examen de documents et la surveillance de la conformité, améliorant ainsi l'efficacité et la précision.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-HL2zw3cKPNKLfN3GZEDyPY0-7LUo1u0tzYmqD0qeUWKnmrb28RSFUCTICeAlEPZbstBYTrRUszdBPzLleyZMzc_YPLZNd_7CE5wgp2fKBR_pAgdpyXZw06kjnOXKWc4jbT6yayjOEo1zNbcNnhEe1ccRKIxxlU6ByXJ5",
+      "date": "2026"
+    },
+    {
+      "claim": "Les outils d'IA peuvent analyser des milliers de contrats en quelques minutes, identifiant les clauses clés, les risques potentiels (responsabilité illimitée, renouvellement automatique excessif) et les dispositions manquantes que les réviseurs humains pourraient négliger.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-HL2zw3cKPNKLfN3GZEDyPY0-7LUo1u0tzYmqD0qeUWKnmrb28RSFUCTICeAlEPZbstBYTrRUszdBPzLleyZMzc_YPLZNd_7CE5wgp2fKBR_pAgdpyXZw06kjnOXKWc4jbT6yayjOEo1zNbcNnhEe1ccRKIxxlU6ByXJ5",
+      "date": "2026"
+    },
+    {
+      "claim": "Une limite majeure de l'IA générative est sa tendance aux 'hallucinations', produisant des textes plausibles mais potentiellement inexacts, voire inventant des faits juridiques ou des jurisprudences.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaUfisN5bjUHaw8785NVwJrT1vAWLQErL_gLkINDJOianQVAWOVRTskniZ2IZULtjW513OOs4Gure8uRVTsI6V9Z4Y2OzqP4QC5iamR_n4VR0moOJVa0tYOkum3edoqbq5Fcr_wORrec0l8KfFMMY-zoNiku8qRZeCcQBJUzHjZeMtNTZpoOvDNJ-lAj1IsaubEg==",
+      "date": "2025-12"
+    },
+    {
+      "claim": "La responsabilité du juriste ou de l'entrepreneur demeure entière sur les livrables produits avec l'aide de l'IA, car l'outil ne décharge pas le professionnel de son obligation de vérification et de supervision humaine.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaUfisN5bjUHaw8785NVwJrT1vAWLQErL_gLkINDJOianQVAWOVRTskniZ2IZULtjW513OOs4Gure8uRVTsI6V9Z4Y2OzqP4QC5iamR_n4VR0moOJVa0tYOkum3edoqbq5Fcr_wORrec0l8KfFMMY-zoNiku8qRZeCcQBJUzHjZeMtNTZpoOvDNJ-lAj1IsaubEg==",
+      "date": "2025-12"
+    },
+    {
+      "claim": "L'AI Act européen, avec des dispositions sur la transparence et le marquage des contenus générés par IA, est entré en vigueur pour certaines obligations le 2 août 2026, rendant les dirigeants personnellement responsables de leur respect.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtbzayTlSQjWsPYEftyVaYCPUfdRz4_1NALOWFdULYGrXChOVdrhJNfhzd5PuqpXh84P2qEmMfTzarqfQ0DAXXqEsL3dHPByMFy7mPugmBsgf9MmJTsEvNn2vlTW5puExYmFSId2-uGoVmmIObB0raiU2GAy2TjiyqcaAOkioWY4GnH2Ku9wxODARIT6zL91ZaUs568rusoyBheZxFru_-o4qEtsXxUIC-JeYonC0zvVj7eKKPLuI1Td1QX83SaQ==",
+      "date": "2026-08"
+    },
+    {
+      "claim": "Pour la révision de contrats, il est essentiel de distinguer les LLM génériques (comme ChatGPT, Gemini, Claude) des IA juridiques spécialisées, ces dernières étant entraînées sur des données juridiques et configurées pour des analyses structurées et la comparaison à des playbooks spécifiques.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhgeg5xy31xhxnOXW5EIEk_EqPgEnSwnint1xo7i14RSQGObNpfJHPRdZF3SuSgqoi2DB5YavXepw1dNx2nRiY9vdh4N2DD57h3KKgdXE63LhQPkEEZqN8jxU0N6W3kLOxtRA4jxr-V3GQyw_ImV_monkMyFaYJg==",
+      "date": "2026-05"
+    },
+    {
+      "claim": "ChatGPT 6 Astra est la dernière version majeure d'OpenAI, lancée en aperçu limité le 3 septembre 2026 et rendue accessible au grand public (pour les utilisateurs payants) le 4 septembre 2026. Les versions GPT-6 Sol (payant) et GPT-6 Luna (gratuit/Go) ont été déployées le 7 octobre 2026 pour les conversations quotidiennes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe-reS5XmMVpz4yuQySLev-YQlyCDbJ6P6HX_W6UxeTfjU-WIWDx1IUhbT_jH5uELaimHuMb-d8bpkv9SsLqtqiLwPfTrYxFM6eO4fj7bXQ3T1q3A6J2MT1ZaKyJFxDFjeXPgpVOIu7VOCZ9J5Y-hS3ezz5HU=",
+      "date": "2026-09"
+    },
+    {
+      "claim": "Google Gemini 4 Argon a été annoncé le 30 septembre 2026 et est disponible pour les abonnés Google AI Pro et Ultra dans l'application Gemini depuis le 13 octobre 2026. Gemini 3.8 Flash, un modèle Flash plus récent, a été lancé le 2 septembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAUhRJHj04MdX7SwqZsn3AkhYisIL77qNEmC07tT_bSpa8MENmQGdF0A-t1eUSG62dxqbS_89Ys5Hcfi81-9hh6SV85sYlWp1KxmsZIeLAsNPZGwV6KN0u7Wx-1EA6cCbG0mk9m36xq5wxre3sFEhyWWk=",
+      "date": "2026-10"
+    },
+    {
+      "claim": "Anthropic a publié Claude Fable 5.2 et Claude Mythos 5.2 le 9 novembre 2026, avec des améliorations en programmation et raisonnement. Claude Opus 5.5 est sorti le 22 septembre 2026 et reste le modèle recommandé par Anthropic pour la plupart des usages.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPTOUwsQavM5jmm_Iw2daRZt_wxCdt3OcSaYfYNwR0C1HdYAmzjWiPguajCl7ODry7HGOCV67bWB9MHkvWGpeEzV1bFLtUWegGwQPP1pRwAtxCmWlfttHjLkniOckPjCG6a4DsNP5s79cDAVlW7AY3Yc_BqVtblM0=",
+      "date": "2026-11"
+    },
+    {
+      "claim": "Mistral Large 4, un modèle multimodal d'environ un trillion de paramètres, a été présenté en préversion début octobre 2026 et ses poids ont été publiés fin octobre 2026. Mistral Medium 3.5 a été lancé en avril 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW9ZeZ7Vq3GAWOc4Vn2x3uyMMgZsm8pASuH2IF4PmWug3Dt9Kk0_FYHttSfBaUQJZS--UDtl94xw56uUIImnAkLW7no_c3ov7VDgjLLzQOwr05ZQkURE0u9SzC4_rX1FJngZzthLOcSQj2NbZFMbBZCbPfIKxWEL-GK_p4MuScyYvflScT",
+      "date": "2026-10"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "L'adoption de l'IA générative dans les départements juridiques d'entreprise est passée de 23% en 2024 à 52% en 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJY7DUBtJn0MAXFmjoewLoWi43UjmnxEbVMSsasaykA_91RLjZjry8Si30BCbx2KnlY0njAowAXaznLe2U18lCQBFhXB_jfUj5Oxgc2RGxo-V0CMTRYWynSHPQ2IDl-B0AxhyiZ3PiNW9R",
+      "date": "2025"
+    },
+    {
+      "stat": "Les principaux outils d'IA de recherche juridique ont halluciné entre 17% et 33% du temps dans une étude de Stanford publiée en 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJY7DUBtJn0MAXFmjoewLoWi43UjmnxEbVMSsasaykA_91RLjZjry8Si30BCbx2KnlY0njAowAXaznLe2U18lCQBFhXB_jfUj5Oxgc2RGxo-V0CMTRYWynSHPQ2IDl-B0AxhyiZ3PiNW9R",
+      "date": "2025"
+    },
+    {
+      "stat": "L'IA pourrait automatiser environ 44% des tâches juridiques, ce qui représente le deuxième taux le plus élevé de tous les secteurs aux États-Unis.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoa8i7yfm-LVxZwLW0EhX5oCBECS0xZtfqzezeSkfOrJANUXHfw0DoZvay9RvNGT8jHR7V43DizvMs0whnl6vTbYOvSm002zcjgxU8OxXiCfbdVGbe2vruiqWSmHSmZcn65X9-rND2yy8ApSnqENGM7ftgCwh6CIyVfNxPQTalTDiodBTY",
+      "date": "2023"
+    },
+    {
+      "stat": "62% des professionnels du droit ont déclaré économiser entre 6% et 20% de leur semaine de travail grâce à l'utilisation de l'IA en mars 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4ADKuSKHUJ8aFrHxM1hma5cCGkhHGvsA1PvyJo9SIJ6dSWQWM6mSW_H8FcrQtQUG9HiO5Ie7eA95qfBP_HKY0j3znsf7GzaUj9l8eu041w9BHAuU51YuZgnIwyjYLieydgTDsgNzYPJiesQ6LRq8Ts9-ARMm1QWs=",
+      "date": "2026-03"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour optimiser l'efficacité de l'IA dans l'analyse de contrats, un bon prompt est essentiel."
+    },
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Aborder les enjeux de confidentialité des données sensibles contenues dans les contrats lors de l'utilisation d'outils IA."
+    },
+    {
+      "url": "/articles/ai-act-pour-ton-business",
+      "why": "Expliquer les implications de l'AI Act sur l'utilisation des IA dans un cadre professionnel et juridique."
+    },
+    {
+      "url": "/articles/verifier-info-ia",
+      "why": "Renforcer la nécessité de la vérification humaine des informations générées par l'IA pour éviter les erreurs."
+    },
+    {
+      "url": "/lexique/context-window",
+      "why": "Expliquer comment la taille de la fenêtre de contexte des LLM impacte leur capacité à analyser des contrats longs."
+    },
+    {
+      "url": "/lexique/rag-pour-non-dev",
+      "why": "Détailler comment la RAG peut améliorer la précision de l'IA en lui permettant de s'appuyer sur des documents contractuels spécifiques."
+    }
+  ],
+  "outline": [
+    "L'IA et la lecture de contrats : une révolution pour les entrepreneurs non-développeurs ?",
+    "Ce que l'IA peut faire concrètement pour vos contrats (et comment)",
+    "Les outils d'IA pour l'analyse contractuelle en 2026 : généralistes vs spécialisés",
+    "Les limites cruciales de l'IA : hallucinations, biais et confidentialité",
+    "Comment vérifier l'analyse de l'IA : les bonnes pratiques de l'entrepreneur",
+    "Quand le professionnel du droit devient indispensable : le rôle de l'avocat",
+    "Naviguer l'AI Act : responsabilités et conformité en 2026"
+  ],
+  "faq": [
+    "L'IA peut-elle remplacer un avocat pour la lecture de contrats ?",
+    "Quels sont les risques majeurs d'utiliser l'IA pour analyser un contrat ?",
+    "Comment s'assurer que l'IA ne divulgue pas d'informations confidentielles de mes contrats ?",
+    "Existe-t-il des outils d'IA gratuits pour la révision de contrats ?",
+    "L'AI Act européen s'applique-t-il à l'utilisation d'IA pour mes contrats ?",
+    "Comment puis-je vérifier les informations repérées par l'IA dans un contrat ?"
+  ],
+  "pitfalls": [
+    "Ne pas comprendre que l'IA générative peut 'halluciner' et inventer des faits ou des clauses juridiques, nécessitant une vérification systématique.",
+    "Transmettre des contrats contenant des informations sensibles ou confidentielles à des IA génériques sans garanties de protection des données (RGPD).",
+    "Croire que l'utilisation de l'IA décharge l'entrepreneur de sa responsabilité légale en cas d'erreur ou de non-conformité du contrat.",
+    "Ne pas faire la distinction entre les grands modèles de langage (LLM) généralistes et les outils d'IA juridique spécialisés, ces derniers étant plus fiables pour l'analyse contractuelle.",
+    "Ignorer les obligations de transparence et de marquage des contenus générés par IA imposées par l'AI Act, ainsi que les risques de sanctions."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-HL2zw3cKPNKLfN3GZEDyPY0-7LUo1u0tzYmqD0qeUWKnmrb28RSFUCTICeAlEPZbstBYTrRUszdBPzLleyZMzc_YPLZNd_7CE5wgp2fKBR_pAgdpyXZw06kjnOXKWc4jbT6yayjOEo1zNbcNnhEe1ccRKIxxlU6ByXJ5",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6W64uEjfVTAWRM9lqR2-2qan97HqF4y2irjjTJXMlATtdY_s0ymuF0ksXcesd13_TgiZen4pT86_L2Wt0P4IR1Ew_y5dA9ty7TIyPT6xKduCEVOtxNY13e4eR06u8LC8dbUPsDWmJqm2HgFizPwULx_lxetrUmOd--Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhgeg5xy31xhxnOXW5EIEk_EqPgEnSwnint1xo7i14RSQGObNpfJHPRdZF3SuSgqoi2DB5YavXepw1dNx2nRiY9vdh4N2DD57h3KKgdXE63LhQPkEEZqN8jxU0N6W3kLOxtRA4jxr-V3GQyw_ImV_monkMyFaYJg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaUfisN5bjUHaw8785NVwJrT1vAWLQErL_gLkINDJOianQVAWOVRTskniZ2IZULtjW513OOs4Gure8uRVTsI6V9Z4Y2OzqP4QC5iamR_n4VR0moOJVa0tYOkum3edoqbq5Fcr_wORrec0l8KfFMMY-zoNiku8qRZeCcQBJUzHjZeMtNTZpoOvDNJ-lAj1IsaubEg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHaD1QN_jxfyOC4C_7xIFfl0apAh2oQpwe9J5kN1XUS3IvzXB6cWEWPXKk-P8YQsH7f-LDkhFaBl57OzfGigWtZ2CE_ql8JmQM6qsyUXiEIyL82A1omkHRKYZRsmboCbFDzSDafQqhVQbvCu5h6MM9ifIYRc1lyBUB9pGVbwAXE64Fqk1o1eWYTlQw4w==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaXpIpu9VSWOjG9z6DEdbkzldrDmFNS9IVhCfR4-sx98sC2NF0cLb2Uafpvy1s489Oin48XocciysFvsiR8RxNnnTUEguvMQxmqjlZEpElHGa58GfN2nKU-UwQCqNWe99tXQOYFQ0GLzTSqEkNRFXZUl1NOYPvQOcvH0CGtso5uOl4ufJmKPEAIIo8wzcOJCEhND_3zcFJMOjXEY9h2Rrw-UFpmMALVUoSLu1RXpc=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtbzayTlSQjWsPYEftyVaYCPUfdRz4_1NALOWFdULYGrXChOVdrhJNfhzd5PuqpXh84P2qEmMfTzarqfQ0DAXXqEsL3dHPByMFy7mPugmBsgf9MmJTsEvNn2vlTW5puExYmFSId2-uGoVmmIObB0raiU2GAy2TjiyqcaAOkioWY4GnH2Ku9wxODARIT6zL91ZaUs568rusoyBheZxFru_-o4qEtsXxUIC-JeYonC0zvVj7eKKPLuI1Td1QX83SaQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTbkTGKCLKSDcWh52YYBPm9BBkeGuv1csnjalZxApZqS_gR5rz_-O22cnQR8tmUXAmdOlAcHiok7yN--_iIA8ixJN2hTz-YkjFwwn0V4sIeKJtnJA4Ro2qritEJgWcZIlY_CraZjfCWHAntxaOy1FGLPNykdMkN0IiS8DasVMeOw4M1Ph4fEmEt5G_vTkDQ3WEsdfe3z54WuSFYpq42iVD9sGr93rcxU972RoZ6i-D4uG1q5TsepZKe0mr-4SShY7bqKp5MQVbKx4=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe-reS5XmMVpz4yuQySLev-YQlyCDbJ6P6HX_W6UxeTfjU-WIWDx1IUhbT_jH5uELaimHuMb-d8bpkv9SsLqtqiLwPfTrYxFM6eO4fj7bXQ3T1q3A6J2MT1ZaKyJFxDFjeXPgpVOIu7VOCZ9J5Y-hS3ezz5HU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8XW6q0AgJ7n9JV7AiDQ41c1_NafCYeiwTt27vGLIknmjwpJJ2ONFW9YrROFhZOIZWADFexYHP5xA4AWtNvclkqnAZ0J8L01NNUX9UMPVUp92N6DzpQQTfrla4QcI8mmqBIKtvlgpabOMgADaIMF4_rd4v0k0Z_OJR5kStkVOcyrjYoV7wNKj2n0ZXz_uu9hPbqVaMj6L1-FNpx_F5ELgLVFSSFOSpdI0ZAox-2kisrmJy9C4m00BxD5I=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESgL5nGW62MobVXPhJfUSboXw2D0jBG9dvfO7Dc9r1A5Z3I9BYn5GiwaadExu3WWAK99xXTKaCK7M_1VcbDpucqM-jt3pE_bN45W3GHLeOysTtjaBMWf8NQUhoBRZ_2MOE5e5BAgHUbhGiZ_Qo1IUqk5_lQjBvRWIdWZIoByB75dDtteZ2Tal632m7",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwfUYXJaaoKPmW5s5gS0UoDQ63hzsnsSzWxd4kGUmJTJT5nDawz56fOaAnka1LpEDMbUalHpRhhNSpYfALZCTJ32FKTIXcGCMy8vGFCp91lLAdpoYWqmWxfU_cfmwo-Jjjcg_3jaz8JA0Qg1GVkuU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWwRxofWe4NZmgc-b_A4fPKsZBbq1uCW6NDVaySKQMXKB8H1coQOx04S98i9Jo64xE5C2_3lWBrMYTHrxmH9rGQXfR1SwKWOoq45d4Nuomrn6z0JpyUAcJfvTDjwfdu7dBKsU0",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAUhRJHj04MdX7SwqZsn3AkhYisIL77qNEmC07tT_bSpa8MENmQGdF0A-t1eUSG62dxqbS_89Ys5Hcfi81-9hh6SV85sYlWp1KxmsZIeLAsNPZGwV6KN0u7Wx-1EA6cCbG0mk9m36xq5wxre3sFEhyWWk=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGds3WV-csSH1s0rHl5zf-Q0037cZVB7XGE_TLzptBRC6ifJbp5iaRiLmTi_evlsb6i-un6xwPtj5p896dEe-ERnKCJAp0CEy1rVkteRK2b3QjdEYkST9BnmXEa4AMdFosw_Yf3rw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPTOUwsQavM5jmm_Iw2daRZt_wxCdt3OcSaYfYNwR0C1HdYAmzjWiPguajCl7ODry7HGOCV67bWB9MHkvWGpeEzV1bFLtUWegGwQPP1pRwAtxCmWlfttHjLkniOckPjCG6a4DsNP5s79cDAVlW7AY3Yc_BqVtblM0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoycnoqAr68PTn1pNvvhSa6Ie0e4w7mXsyKMFd4bQfyPVolvM96c8u-CqtMWpL1Aovmx-6IWgyb8dVHmXQ4Xu1NrW8QS3R6VhuNpFp0-iI-SGUU6_VUdRamVDqrr6I-72vweq6Tfz2nPIuI3k8bm3k_5w=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSHWIu7Vyy0QhomSb4l3jo0w33sGVRAZ55LjP7LlNau_xAQOlBYV2oNTOlzlGLkjRRNaR55EeOgoY85MkKPc5gCRyMDhCfpiZ5GTnzkcBalYWMK0yp4ECSrB6L9Y_1jpxug2sFpsG8t7X0zmqzR5cq1sfwIugwc7E=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW9ZeZ7Vq3GAWOc4Vn2x3uyMMgZsm8pASuH2IF4PmWug3Dt9Kk0_FYHttSfBaUQJZS--UDtl94xw56uUIImnAkLW7no_c3ov7VDgjLLzQOwr05ZQkURE0u9SzC4_rX1FJngZzthLOcSQj2NbZFMbBZCbPfIKxWEL-GK_p4MuScyYvflScT",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJY7DUBtJn0MAXFmjoewLoWi43UjmnxEbVMSsasaykA_91RLjZjry8Si30BCbx2KnlY0njAowAXaznLe2U18lCQBFhXB_jfUj5Oxgc2RGxo-V0CMTRYWynSHPQ2IDl-B0AxhyiZ3PiNW9R",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw7pF95GNsq-R5234jgvExr3LSS8Fd_5vaO2NRmb6qn5WmnnI6ySMB11s9cVOythDVadJgG7XDhVgROFcEFACS4Ea9dTW0gm_h0NwSFd4AD79n_QDFF5K8l6yMoTJeK8ePI370PHblHjp4gUg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoa8i7yfm-LVxZwLW0EhX5oCBECS0xZtfqzezeSkfOrJANUXHfw0DoZvay9RvNGT8jHR7V43DizvMs0whnl6vTbYOvSm002zcjgxU8OxXiCfbdVGbe2vruiqWSmHSmZcn65X9-rND2yy8ApSnqENGM7ftgCwh6CIyVfNxPQTalTDiodBTY",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi_yDedANF5JnIXgmxeQFfgeTS_U1P9oWdjjEJ73uuXon32jCPaL3S-RQgDVqEnoqJ4mqASiYgM08UBklf7DkhAUERQx86KFO2BpFleeHE1_pZTxRGsvQZydPwxy9yMWqZa7hVSHPvKjYNmy1y4AX6pRBvuWEi-ijFb-B8powZpM17viCRpVhTAempotSg9KI10z6bsMueJ1wuQRU84TVxXYwT_rZhM1JuBMtL4blsD1y42LboMxbp0-CqmHQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4ADKuSKHUJ8aFrHxM1hma5cCGkhHGvsA1PvyJo9SIJ6dSWQWM6mSW_H8FcrQtQUG9HiO5Ie7eA95qfBP_HKY0j3znsf7GzaUj9l8eu041w9BHAuU51YuZgnIwyjYLieydgTDsgNzYPJiesQ6LRq8Ts9-ARMm1QWs=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCUSfD0azoJJ7hUjfLPrNhHP62wGbNQ2IC5CizRt6_-Z3hFA23UvkQ8voliZV78deN_avYcY93QEYHGbMMEJNUn_j86dwjas_W0MhplM3-aFWQUB_zj9gtw4bNQ8UflMDCyrDMGV8FbkV5ftLR3UF0E6iy-VU="
+  ]
+}

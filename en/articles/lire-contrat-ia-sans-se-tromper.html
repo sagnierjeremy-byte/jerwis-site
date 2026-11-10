@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/lire-contrat-ia-sans-se-tromper.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>How to read a contract with AI: 2026 guide</title>
+<meta name="description" content="Here's how I use AI to analyze my contracts, spot risky clauses, and know exactly when to call a lawyer. A practical guide for entrepreneurs.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="How to read a contract with AI: 2026 guide">
+<meta property="og:description" content="Here's how to use AI to analyze contracts, spot risky clauses, and know when to call a lawyer.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/lire-contrat-ia-sans-se-tromper">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/lire-contrat-ia-sans-se-tromper.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-10">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="How to read a contract with AI: 2026 guide">
+<meta name="twitter:description" content="Here's how to use AI to analyze contracts, spot risky clauses, and know when to call a lawyer.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/lire-contrat-ia-sans-se-tromper.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/lire-contrat-ia-sans-se-tromper">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/lire-contrat-ia-sans-se-tromper">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "How to read a contract with AI: 2026 guide",
+  "description": "Here's how I use AI to analyze my contracts, spot risky clauses, and know exactly when to call a lawyer. A practical guide for entrepreneurs.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/lire-contrat-ia-sans-se-tromper",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/jeremy-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/lire-contrat-ia-sans-se-tromper.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 88</div>
+    <h1>Read a contract<br>with artificial intelligence<br><em>without messing up</em></h1>
+    <p class="hero-lead">
+      You get a service contract or a commercial lease and you want to understand the risks before signing. AI can help, but it sometimes invents legal articles that don't exist. I'll show you how I go about analyzing my own contracts with these tools, checking every red flag, and especially knowing when it's time to call a professional.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, Claude, AI legal tools</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>AI lets you analyze a contract in minutes and spot risky clauses like unlimited liability.</li>
+      <li>You always need to check the cited pages yourself and never take a legal reference at face value.</li>
+      <li>Specialized tools beat generic AI models for structured analysis, but both hallucinate.</li>
+      <li>The AI Act makes executives personally responsible for compliance starting August 2026, and a lawyer remains essential for sensitive contracts.</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested on my own stuff first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested on my own stuff first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Why I use AI for my contracts</h2>
+    <p>I'm not a lawyer. Every time I sign a service contract, an amendment, or a lease, I get that sinking feeling when it's time to read fifteen pages of clauses. AI changed the game for me. It automates legal research and document review. It also helps with case management and compliance tracking. I do all this for myself first. I want to spot the traps before I commit my company.</p>
+    <p>2025 numbers show that generative AI adoption in corporate legal departments went from 23% in 2024 to 52% in 2025. A 2023 estimate already suggested AI could automate about 44% of legal tasks in the United States. That's the second highest rate of any sector. Me, I don't have a legal department. I just have a computer and a desire not to sign anything stupid.</p>
+    <p>Before, I just skimmed. Now, I ask AI to do a first pass. It tells me where the obligations, penalties, and durations are. That lets me show up prepared when I talk to the other party. But this is only the first layer. Verification is still my job.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>What AI actually spots</h2>
+    <p>AI tools can analyze thousands of contracts in minutes. In a single document, they identify key clauses. They spot potential risks like unlimited liability or excessive automatic renewal. They also flag missing provisions that the human eye might miss.</p>
+    <p>In practice, here's what I ask. I copy the contract text into an AI tool. I send it a structured prompt so it lists the following points. Contract duration. Each party's obligations. Termination clauses. Late penalties. And confidentiality clauses. <a href="/en/articles/ecrire-bon-prompt-non-dev">To get the most out of AI for contract analysis, a good prompt is essential</a>.</p>
+    <p>The real trick is demanding the exact page. If AI tells me "unlimited liability clause on page 4," I can open the PDF and check immediately. That changes everything. Without that precision, I'd waste time searching.</p>
+    <div class="callout tip"><h4>My tip right now</h4><p>I keep a text file with my favorite contract analysis prompts. When I get a new document, I copy-paste my template and add one simple instruction: "cite the exact page for every clause mentioned." That saves me from searching for hours.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>The tools I've tested</h2>
+    <p>You need to distinguish two families of tools. On one side, generic AI models like ChatGPT, Gemini, or Claude. On the other, specialized legal AIs. The latter are trained on legal data and set up for structured analysis. They can compare a contract against specific playbooks. For a non-lawyer entrepreneur, the difference really shows when the document is dense.</p>
+    <p>As of this article, here's what I have on hand. ChatGPT 6 Astra launched in limited preview on September 3, 2026, and opened to the general public for paying users on September 4, 2026. The GPT-6 Sol and GPT-6 Luna versions followed on October 7, 2026, for daily conversations. At Google, Gemini 4 Argon was announced on September 30, 2026, and has been available for Pro and Ultra subscribers since October 13, 2026. Gemini 3.8 Flash arrived earlier, on September 2, 2026.</p>
+    <p>On Anthropic's side, Claude Opus 5.5 came out on September 22, 2026, and remains the model Anthropic recommends for most uses. The company also released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. In France, Mistral Large 4 was shown in preview in early October 2026, and its weights were published in late October 2026. Mistral Medium 3.5 had already been available since April 2026.</p>
+    <p>For very long contracts, the context window size of language models impacts their ability to analyze everything in one go. <a href="/en/lexique/context-window">Explain how context window size impacts a language model's ability to analyze long contracts</a>. A useful technique is to use RAG to improve AI accuracy by letting it draw on specific contract documents. <a href="/lexique/rag-pour-non-dev">Detail how RAG can improve AI accuracy by letting it rely on specific contract documents</a>.</p>
+    <h2>The limits that cost you big</h2>
+    <p>Generative AI has a tendency to hallucinate. It produces plausible but potentially inaccurate text. It sometimes invents legal facts or case law. According to a Stanford study published in 2025, the main legal research AI tools hallucinated between 17% and 33% of the time. Imagine basing your negotiation on a made-up legal article. The result can be disastrous.</p>
+    <p>And that's not all. The lawyer's or entrepreneur's responsibility remains fully intact for deliverables produced with AI's help. The tool doesn't relieve the professional of their obligation to verify and provide human oversight. If you sign while blindly relying on an AI analysis, it's your name on the paper. Not the algorithm's.</p>
+    <p>Confidentiality is also a concern. A contract often contains sensitive data, revenue figures, strategies. Before uploading a document to an online tool, I always check its terms of service. <a href="/en/articles/donnees-perso-ia-confidentialite">Cover the confidentiality stakes of sensitive data in contracts when using AI tools</a>. When the contract is really sensitive, I prefer to anonymize the parties and the amounts.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>How I check before signing</h2>
+    <p>I've set up a small routine. It takes me ten minutes and has already saved me from mistakes.</p>
+    <p>First step, I ask AI to produce a list of important clauses with the exact page number. Second step, I open the original PDF and go to the cited page. I read the clause myself to confirm the summary is accurate. Third step, if AI cites a legal article or case law, I look it up on Légifrance or I search for it on my search engine. I don't trust any unverified legal reference.</p>
+    <p>In March 2026, 62% of legal professionals said they saved between 6% and 20% of their workweek thanks to using AI. But they verify everything. It's precisely this habit of checking that makes the difference between a useful tool and a trap. <a href="/en/articles/verifier-info-ia">Reinforce the need for human verification of AI-generated information to avoid mistakes</a>.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Don't trust legal references cited by AI without checking. I've already seen a model invent a Civil Code article while making it very credible. The golden rule: if AI cites an article, you look it up yourself on Légifrance.</p></div>
+    
+    <h2>When I call my lawyer</h2>
+    <p>AI is excellent for the first screening. It doesn't replace human expertise when the stakes get serious. I hand over to a legal professional as soon as I spot unlimited liability, a non-compete clause, an international contract, or amounts that threaten my company's cash flow.</p>
+    <p>A lawyer brings something AI doesn't have. They know the specific context of my business, recent case law in my sector, and local negotiation tactics. AI lets me show up prepared to our meeting. I present my specific questions. That reduces billable time and makes the discussion more productive.</p>
+    <p>Responsibility remains fully intact. Even if AI gave me a lead, I'm the one signing. I'm also the one who decides to consult an expert when doubt remains.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>The AI Act and your contract</h2>
+    <p>Since August 2, 2026, certain obligations of the European AI Act have taken effect. This regulation imposes transparency and labeling rules for AI-generated content. Executives are personally responsible for complying with them. If you use AI to produce a contract analysis or internal legal opinion, you need to document that use.</p>
+    <p>In practice, that means I note in my file when I used an AI tool for review. If I send this document to a third party, I specify that it contains an analysis assisted by artificial intelligence. <a href="/en/articles/ai-act-pour-ton-business">Explain the implications of the AI Act on using AI in a professional and legal context</a>. This isn't useless paperwork. It's protection in case of an audit or dispute.</p>
+    <h2>FAQ</h2>
+    <h3>Can AI replace a lawyer for reading contracts?</h3>
+    <p>No. AI automates document review and identifies key clauses. It doesn't replace a lawyer's professional judgment. Responsibility stays human and oversight is mandatory. For complex or high-stakes contracts, the professional remains essential.</p>
+    <h3>What are the major risks of using AI to analyze a contract?</h3>
+    <p>The first risk is hallucination. AI can invent legal articles or case law. According to a Stanford study published in 2025, legal research tools hallucinated between 17% and 33% of the time. The second risk is leaking confidential data if you upload a sensitive document to an unsecured platform. The third is the executive's personal liability if you sign without checking.</p>
+    <h3>How do you make sure AI doesn't leak confidential information from your contracts?</h3>
+    <p>Check the tool's confidentiality and hosting conditions before any upload. For sensitive contracts, anonymize the parties' names, amounts, and strategic data. Favor professional plans with guarantees that your data won't be used for training.</p>
+    <h3>Are there free AI tools for contract review?</h3>
+    <p>Yes. Generic AI models offer free or trial versions. They're enough for a first pass and understanding the main clauses. However, specialized legal AIs, trained on legal data, offer more structured analysis. They're usually paid.</p>
+    <h3>Does the European AI Act apply to using AI for your contracts?</h3>
+    <p>Yes. If you use AI in a professional context to produce contract analyses, transparency rules apply. Certain obligations took effect on August 2, 2026. Executives are personally responsible for complying with these provisions.</p>
+    <h3>How can you verify the information spotted by AI in a contract?</h3>
+    <p>You go back to the original document at the cited page. You reread the clause yourself. If AI mentions a law or case law, you look it up on an official source like Légifrance. Don't believe any legal reference without this double check.</p>
+    <h2>My takeaways</h2>
+    <p>AI is an attention amplifier. It lets me read a contract without skimming and spot the points that deserve a closer look. I keep control of every verification. I demand page numbers. I don't take legal articles at face value. And I know exactly when to hand off to my lawyer. That's how I stay in control without drowning in paperwork.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your own pace</span><span>No ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with no jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday letter. And if you have a question or a doubt, just reply, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>The <em>Friday letter.</em></h2>
+        <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer-en">
+        <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/nav-v2.js" defer></script>
+<script src="/assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

@@ -621,10 +621,11 @@
       "topic": "lire un contrat avec l'IA sans se tromper : faire repérer les clauses importantes avec la page citée, vérifier soi-même, et savoir quand il faut un professionnel",
       "type": "A",
       "priority": 0,
-      "status": "pending",
+      "status": "done",
       "added": "2026-11-02",
       "added_by": "claude",
-      "parcours_etape": 2
+      "parcours_etape": 2,
+      "published_at": "2026-11-10"
     },
     {
       "id": "comparer-devis-ia",
