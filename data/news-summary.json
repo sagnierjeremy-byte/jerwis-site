@@ -1,62 +1,74 @@
 {
-  "generated_at": "2026-11-09T13:35:14.324Z",
-  "day_label": "Lundi 9 novembre",
+  "generated_at": "2026-11-10T13:13:09.945Z",
+  "day_label": "Mardi 10 novembre",
   "items": [
     {
-      "title": "Le SMIC grimpe à 1 502 € net dès le 1er décembre",
-      "why_it_matters": "Je note que mes coûts de main-d'œuvre augmentent dès décembre. Ça pousse à revoir mes marges et mon prix de vente rapidement.",
+      "title": "Anthropic baisse ses prix de 20% avant une IPO à 1000 milliards",
+      "why_it_matters": "Anthropic baisse ses prix de 20% avant son IPO à 1000 milliards. Je retiens que l'IA coûte moins cher, même si la valorisation me paraît surchauffée.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/social/le-gouvernement-annonce-une-revalorisation-du-smic-de-1-6-pour-le-porter-a-1502-euros-des-le-1er-decembre-20261109"
+          "name": "Next",
+          "url": "https://next.ink/266653/anthropic-se-valorise-finalement-1-000-milliards-pour-son-introduction-en-bourse/"
         },
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1557819-fable-5-2-mythos-5-2-le-coup-de-force-d-anthropic-juste-avant-son-ipo/"
+        },
+        {
+          "name": "IT for Business",
+          "url": "https://www.itforbusiness.fr/fable-5-2-mythos-5-2-system-card-anthropic-109654"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/le-nouveau-claude-a-un-gros-probleme-lia-danthropic-est-beaucoup-plus-facile-a-pieger.html"
+        }
+      ]
+    },
+    {
+      "title": "Orange lance une app gratuite avec ChatGPT, Claude et Gemini",
+      "why_it_matters": "Je note que l'accès à l'IA se démocratise en France. Les PME vont pouvoir utiliser plusieurs modèles sans payer cher.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/orange-annonce-une-app-gratuite-tout-en-un-qui-permet-de-discuter-avec-chatgpt-claude-ou-gemini.html"
+        },
+        {
+          "name": "L'Usine Digitale",
+          "url": "https://www.usine-digitale.fr/telecoms/orange/mieux-que-letat-comment-loperateur-orange-compte-offrir-a-tous-un-acces-a-plusieurs-modeles-dia-depuis-son-application.IPM6S7LJ5ZE7NBN5AW6JF6DPHU.html"
+        }
+      ]
+    },
+    {
+      "title": "Sanctions pour les branches pro avec des salaires sous le SMIC",
+      "why_it_matters": "Je retiens que les entreprises des branches concernées vont payer plus de charges. Je dois vérifier si ma convention est en règle.",
+      "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/la-deuxieme-hausse-la-plus-importante-en-20-ans-le-gouvernement-annonce-une-augmentation-du-smic-de-1-6-des-le-1er-decembre_8274524.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.franceinfo.fr/economie/le-decret-pour-sanctionner-les-branches-ayant-des-minima-conventionnels-sous-le-smic-publie-au-journal-officiel_8276099.html#xtor=RSS-3-%5Bgeneral%5D"
         },
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/cest-officiel-le-smic-augmente-au-1er-decembre-ce-que-vous-toucherez-en-plus-sur-votre-fiche-de-paie-1531720"
-        }
-      ]
-    },
-    {
-      "title": "Les marques doivent gérer leur visibilité dans les IA",
-      "why_it_matters": "Je retiens que les clients demandent désormais aux IA avant d'acheter. Il faut être visible là où ces outils cherchent les réponses.",
-      "sources": [
-        {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/comment-les-marques-organisent-leur-visibilite-dans-les-ia/900000030?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
-        }
-      ]
-    },
-    {
-      "title": "L'IA redistribue les cartes du logiciel en Europe",
-      "why_it_matters": "Je vois que les investisseurs mettent 36 milliards dans le logiciel, surtout dans l'IA. Les logiciels classiques ne sont pas morts, mais doivent évoluer.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/business-1367/logiciels-lia-redistribue-les-cartes-du-marche-europeen-sans-condamner-le-saas-230183"
-        }
-      ]
-    },
-    {
-      "title": "Binance ferme tous les comptes crypto français le 31 décembre",
-      "why_it_matters": "Je retiens que la régulation bloque Binance en France. Si j'ai des cryptos sur cette plateforme, je dois les déplacer avant Noël.",
-      "sources": [
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/binance-francais-comptes-cryptos-clotures/"
-        }
-      ]
-    },
-    {
-      "title": "Les patrons de la tech critiquent le silence des candidats sur l'IA",
-      "why_it_matters": "Je m'inquiète que les candidats à la présidentielle ignorent l'IA. Le prochain gouvernement fixera les règles qui encadrent mon usage.",
-      "sources": [
-        {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/vie-professionnelle/c-est-la-plus-grande-rupture-technologique-de-tous-les-temps-mais-les-candidats-a-la-presidentielle-ne-s-y-interessent-pas-le-coup-de-gueule-des-patrons-de-la-tech-20261109"
+          "url": "https://www.lefigaro.fr/social/salaires-un-decret-publie-pour-sanctionner-les-branches-dont-les-minima-sont-inferieurs-au-smic-20261110"
+        }
+      ]
+    },
+    {
+      "title": "Des conversations Notion IA ont été volées chez un prestataire",
+      "why_it_matters": "Je note que même les outils sérieux ont des fuites via leurs sous-traitants. Je dois vérifier où vont mes données sensibles.",
+      "sources": [
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/cyberguerre/2371399-mauvaise-surprise-notion-decouvre-que-des-conversations-avec-son-ia-ont-ete-volees-chez-un-prestataire.html"
+        }
+      ]
+    },
+    {
+      "title": "L'open source IA menacé par les cyberattaques selon Hugging Face",
+      "why_it_matters": "Je retiens que les modèles open source pourraient devenir moins accessibles. C'est un risque pour les start-ups qui s'en servent.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
         }
       ]
     }
