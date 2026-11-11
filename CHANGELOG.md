@@ -1,5 +1,11 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-10 · Page de liens `/liens` (Instagram de Kévin et Jérémy)
+
+- **Pourquoi** : demande de Jérémy, un lien façon Linktree pour la bio du compte Instagram « Kévin et Jérémy Sagnier » (@expertcomptableamazon), qui mène à tous leurs réseaux, à kzumi et à Eurofiscalis. Hébergée ici sur son choix.
+- **Livré** : `liens.html` (page autonome, sans en-tête ni pied du site, sans bandeau kzumi puisque kzumi y a sa carte) + `assets/liens/` (`liens.css` style « la revue », photo recadrée `kevin-jeremy.webp`, `og.jpg`, icônes Simple Icons 16.30.0 en CC0 teintées par masque CSS). Rubriques : § 01 The Board (YouTube, Spotify, Apple Podcasts), § 02 kzumi, Eurofiscalis, jerwis.fr, § 03 Jérémy (X @jeremysagnier9, LinkedIn, TikTok, YouTube) et Kévin (LinkedIn, YouTube).
+- **À savoir** : le vrai LinkedIn de Jérémy est `/in/jérémy-sagnier` ; l'adresse `/in/jeremy-sagnier` (sans accents) donne une page introuvable. Le compte X actif est @jeremysagnier9 (@JeremySagnier existe aussi).
+
 ## 2026-11-02 · Nettoyage : code mort du formulaire de fin d'article (14 articles faits main)
 
 - Le formulaire `#newsletterForm` de fin d'article a disparu le 30-06 (3c68d05), mais son script était resté dans 7 articles FR et 7 EN (tuto-agent-gmail, tuto-agent-contrats, veille-pour-demain, outil-vente-claude-code, agents-ia-guide, limova-vs-claude-code, better-call-vs-associe) : erreur « Cannot read properties of null » dans la console, sans autre effet. Les 27 lignes sont retirées.
