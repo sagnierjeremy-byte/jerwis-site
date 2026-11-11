@@ -28,6 +28,8 @@ const racineArg = args.find((a) => a.startsWith('--racine='));
 const ROOT = racineArg ? path.resolve(racineArg.slice(9)) : path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const cibles = args.filter((a) => !a.startsWith('--'));
 const DOSSIERS = ['.', 'articles', 'lexique', 'en', 'en/articles', 'en/lexique'];
+// Pages autonomes, sans en-tête ni pied du site (liens.html : la page de liens de l'Instagram de Kévin et Jérémy).
+const AUTONOMES = new Set(['liens.html']);
 const VERSION = '20261102';
 
 const SCEAU = '<svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/>' +
@@ -101,7 +103,7 @@ const PIED = {
     <nav class="rv-pied-cols" aria-label="Plan du site">
       <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
       <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
-      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
       <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
     </nav>
     <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
@@ -126,7 +128,7 @@ const PIED = {
     <nav class="rv-pied-cols" aria-label="Site map">
       <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
       <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
-      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
       <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
     </nav>
     <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
@@ -242,6 +244,7 @@ function lister() {
     for (const f of fs.readdirSync(dir).sort()) {
       if (!f.endsWith('.html')) continue;
       if (f.startsWith('_') && f !== '_TEMPLATE.html') continue;
+      if (d === '.' && AUTONOMES.has(f)) continue;
       out.push(d === '.' ? f : d + '/' + f);
     }
   }

@@ -33,7 +33,7 @@ const AUTHOR = {
   name: 'Jérémy Sagnier',
   url: SITE_URL + '/',
   sameAs: [
-    'https://www.linkedin.com/in/jeremy-sagnier/',
+    'https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/',
     'https://x.com/JeremySagnier',
     'https://www.youtube.com/@jeremy-sagnier',
   ],

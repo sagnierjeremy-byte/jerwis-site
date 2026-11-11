@@ -14,8 +14,9 @@ const ANCRE_ARTICLE = '<script src="../assets/ai-summarize.js" defer></script>';
 const LIGNE_ARTICLE = '<script src="../assets/bandeau-kzumi.js" defer></script>';
 const LIGNE_SITE = '<script src="/assets/bandeau-kzumi.js" defer></script>';
 // Mêmes exclusions que bandeau-kzumi.js : pages légales et tunnel de précommande.
+// Plus « liens » : page autonome de l'Instagram de Kévin et Jérémy, où kzumi a déjà sa carte.
 const EXCLUES = ['cgv', 'mentions-legales', 'politique-confidentialite', 'suppression-donnees', 'preferences',
-  'precommande-merci', 'precommande-photos-personal-branding'];
+  'precommande-merci', 'precommande-photos-personal-branding', 'liens'];
 
 const html = (dir) => fs.readdirSync(path.join(ROOT, dir)).filter((f) => f.endsWith('.html')).map((f) => path.join(dir, f));
 const pages = [

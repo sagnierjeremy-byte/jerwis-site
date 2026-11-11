@@ -568,7 +568,7 @@ const html = `<!DOCTYPE html>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/jeremy-sagnier/" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04c-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85c3.6 0 4.26 2.37 4.26 5.45v6.29zM5.34 7.43a2.06 2.06 0 0 1 0-4.12a2.06 2.06 0 0 1 0 4.12zm1.78 13.02H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.23 0z"/></svg>
               LinkedIn
             </a>

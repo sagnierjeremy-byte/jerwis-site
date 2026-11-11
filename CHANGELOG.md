@@ -1,5 +1,11 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-11 · Lien LinkedIn réparé + `/liens` protégée des scripts d'habillage
+
+- **Pourquoi** : le lien LinkedIn du pied (et des JSON-LD `sameAs`) menait à `linkedin.com/in/jeremy-sagnier`, une page introuvable. Le profil de Jérémy est `/in/jérémy-sagnier` (encodé `j%C3%A9r%C3%A9my-sagnier`). Demande de Jérémy : « corrige-le ».
+- **Livré** : 567 liens remplacés dans 415 pages FR/EN et 3 scripts qui les régénèrent (`revue-entete-pied.mjs`, `build-podcast-page.js`, `seo-improve.js`). `revue-entete-pied.mjs --dry` : 0 page à modifier ; JSON-LD toujours valides.
+- **Protection de `/liens`** : `revue-entete-pied.mjs` (liste `AUTONOMES`) et `ajouter-bandeau-kzumi.mjs` (liste `EXCLUES`) ignorent désormais `liens.html`, sinon le robot du blog lui aurait collé le pied du site et le bandeau kzumi.
+
 ## 2026-11-10 · Page de liens `/liens` (Instagram de Kévin et Jérémy)
 
 - **Pourquoi** : demande de Jérémy, un lien façon Linktree pour la bio du compte Instagram « Kévin et Jérémy Sagnier » (@expertcomptableamazon), qui mène à tous leurs réseaux, à kzumi et à Eurofiscalis. Hébergée ici sur son choix.
