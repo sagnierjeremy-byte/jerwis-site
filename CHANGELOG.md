@@ -1,5 +1,9 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-11 · `/liens` : nouveau nom Instagram
+
+- Jérémy a renommé le compte @expertcomptableamazon en @kevinetjeremysagnier : le bouton Instagram de `/liens` pointe vers `instagram.com/kevinetjeremysagnier/` (l'ancienne adresse affiche « page indisponible »).
+
 ## 2026-11-11 · `/liens` simplifiée
 
 - **Pourquoi** : demande de Jérémy, « moins de texte, plus facile de cliquer et de comprendre ce qu'on cherche ».
