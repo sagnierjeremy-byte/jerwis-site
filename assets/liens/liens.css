@@ -1,4 +1,4 @@
-/* Page de liens « Kévin & Jérémy Sagnier » (/liens), style « la revue » */
+/* Page de liens « Kévin & Jérémy Sagnier » (/liens) : peu de texte, gros boutons, vrais logos */
 :root {
   --papier: #FAF9F6;
   --encre: #141414;
@@ -7,137 +7,93 @@
   --fuchsia: #EF426F;
   --orange: #FF8200;
   --jaune: #FFC800;
+  --youtube: #FF0033;
+  --spotify: #1ED760;
+  --apple: #A33FE0;
   --ombre: 4px 4px 0 #141414;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { background: var(--papier); }
 body {
-  background: var(--papier);
-  color: var(--encre);
-  font-family: 'Instrument Sans', system-ui, sans-serif;
-  font-size: 16px;
-  line-height: 1.45;
+  background: var(--papier); color: var(--encre);
+  font-family: 'Instrument Sans', system-ui, sans-serif; font-size: 16px; line-height: 1.35;
   -webkit-font-smoothing: antialiased;
 }
-a { color: inherit; text-decoration: none; }
-.page { max-width: 480px; margin: 0 auto; padding: 0 18px 40px; }
+a { color: inherit; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+.page { max-width: 440px; margin: 0 auto; padding: 0 18px 36px; }
 .rayure { display: flex; height: 8px; }
 .rayure span { flex: 1; }
 .rayure span:nth-child(1) { background: var(--teal); }
 .rayure span:nth-child(2) { background: var(--fuchsia); }
 .rayure span:nth-child(3) { background: var(--orange); }
 
-/* En-tête */
-.tete { text-align: center; padding: 34px 0 6px; }
-.photo {
-  width: 124px; height: 124px; border-radius: 50%;
-  border: 2px solid var(--encre); box-shadow: var(--ombre);
-  object-fit: cover; display: block; margin: 0 auto 18px; background: #ddd;
-}
-.surtitre {
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 11.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--gris);
-}
-h1 { font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -.02em; margin: 6px 0 10px; }
-.chapo { color: var(--gris); max-width: 360px; margin: 0 auto; }
+/* En-tête court */
+.tete { text-align: center; padding: 26px 0 4px; }
+.photo { width: 96px; height: 96px; border-radius: 50%; border: 2px solid var(--encre); box-shadow: var(--ombre);
+  object-fit: cover; display: block; margin: 0 auto 12px; background: #ddd; }
+h1 { font-size: 24px; line-height: 1.15; font-weight: 800; letter-spacing: -.02em; }
+.sous { color: var(--gris); font-size: 15px; margin-top: 2px; }
 
-/* Rangée de réseaux */
-.reseaux { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 22px 0 8px; }
-.rond {
-  width: 46px; height: 46px; border-radius: 50%; border: 2px solid var(--encre);
-  background: #fff; box-shadow: 3px 3px 0 var(--encre);
-  display: grid; place-items: center; transition: transform .12s, box-shadow .12s;
+/* Titres de groupe */
+h2 { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--gris);
+  margin: 26px 0 10px; text-align: center; }
+
+/* Boutons : grands, une seule ligne, logo à gauche */
+.bouton {
+  display: flex; align-items: center; gap: 14px; min-height: 62px; padding: 9px 16px 9px 10px; margin-bottom: 12px;
+  background: #fff; border: 2px solid var(--encre); border-radius: 16px; box-shadow: var(--ombre);
+  font-weight: 700; font-size: 17.5px; transition: transform .1s, box-shadow .1s;
 }
-.rond:hover, .rond:focus-visible { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--encre); }
+.bouton:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--encre); }
+@media (hover: hover) { .bouton:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--encre); } }
+.bouton .nom { flex: 1; }
+.bouton .nom small { display: block; font-weight: 500; font-size: 13.5px; color: var(--gris); margin-top: 1px; }
+.bouton::after { content: "→"; font-weight: 700; font-size: 18px; }
+.logo { width: 42px; height: 42px; border-radius: 11px; display: grid; place-items: center; flex: none; overflow: hidden; }
+.logo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.l-youtube { background: var(--youtube); color: #fff; }
+.l-spotify { background: var(--spotify); color: var(--encre); }
+.l-apple { background: var(--apple); color: #fff; }
+
+/* Bouton principal : le podcast */
+.principal { background: var(--youtube); color: #fff; min-height: 70px; font-size: 19px; }
+.principal .logo { background: #fff; color: var(--youtube); }
+.principal .nom small { color: rgba(255, 255, 255, .85); }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.duo .bouton { font-size: 16px; padding-right: 12px; gap: 10px; }
+.duo .bouton::after { content: none; }
+.duo .logo { width: 36px; height: 36px; border-radius: 10px; }
+
+/* Projets */
+.kzumi { background: var(--jaune); }
+.kzumi .nom { font-family: 'Nunito', 'Instrument Sans', sans-serif; font-weight: 900; font-size: 20px; }
+.kzumi .nom small { font-family: 'Instrument Sans', sans-serif; color: #4A3800; }
+.eurofiscalis { background: #0B1517; color: #F4F2EE; }
+.eurofiscalis .nom small { color: #9DB3A8; }
+.eurofiscalis::after { color: #5ECD8C; }
+.eurofiscalis span.is { color: #5ECD8C; }
+.jerwis .logo { border: 0; }
+
+/* Réseaux : une ligne par personne, icônes seules */
+.ligne { display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin-bottom: 10px;
+  background: #fff; border: 2px solid var(--encre); border-radius: 16px; }
+.ligne .qui { flex: 1; font-weight: 700; font-size: 16px; }
+.rond { width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--encre); background: #fff;
+  display: grid; place-items: center; flex: none; box-shadow: 2px 2px 0 var(--encre); }
+.rond:active { transform: translate(2px, 2px); box-shadow: none; }
+.r-youtube { color: var(--youtube); } .r-instagram { color: #E1306C; } .r-facebook { color: #1877F2; }
+.r-linkedin { color: #0A66C2; } .r-x, .r-tiktok { color: var(--encre); }
 
 /* Icônes (Simple Icons, CC0), teintées par la couleur du texte */
-.ico { width: 20px; height: 20px; background: currentColor; display: inline-block; flex: none;
+.ico { width: 22px; height: 22px; background: currentColor; display: inline-block; flex: none;
   -webkit-mask: var(--i) center / contain no-repeat; mask: var(--i) center / contain no-repeat; }
-.i-youtube { --i: url(youtube.svg); }
-.i-instagram { --i: url(instagram.svg); }
-.i-tiktok { --i: url(tiktok.svg); }
-.i-x { --i: url(x.svg); }
-.i-facebook { --i: url(facebook.svg); }
-.i-spotify { --i: url(spotify.svg); }
+.duo .ico { width: 20px; height: 20px; }
+.i-youtube { --i: url(youtube.svg); } .i-instagram { --i: url(instagram.svg); } .i-tiktok { --i: url(tiktok.svg); }
+.i-x { --i: url(x.svg); } .i-facebook { --i: url(facebook.svg); } .i-spotify { --i: url(spotify.svg); }
 .i-applepodcasts { --i: url(applepodcasts.svg); }
-.i-apple { --i: url(apple.svg); }
-.i-googleplay { --i: url(googleplay.svg); }
-.in { font: 800 15px/1 'Instrument Sans', sans-serif; letter-spacing: -.03em; }
+.in { font: 800 16px/1 'Instrument Sans', sans-serif; letter-spacing: -.03em; }
 
-/* Rubriques */
-.rubrique {
-  display: flex; align-items: baseline; gap: 10px; margin: 34px 0 14px;
-  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px;
-  letter-spacing: .12em; text-transform: uppercase;
-}
-.rubrique b { font-weight: 700; color: var(--fuchsia); }
-.rubrique::after { content: ""; flex: 1; border-top: 2px solid var(--encre); transform: translateY(-3px); }
-
-/* Grandes cartes de liens */
-.lien {
-  display: flex; align-items: center; gap: 14px; padding: 14px 16px; margin-bottom: 12px;
-  background: #fff; border: 2px solid var(--encre); border-radius: 14px; box-shadow: var(--ombre);
-  transition: transform .12s, box-shadow .12s;
-}
-.lien:hover, .lien:focus-visible { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--encre); }
-.pastille {
-  width: 42px; height: 42px; border-radius: 10px; border: 2px solid var(--encre);
-  display: grid; place-items: center; flex: none; color: var(--encre);
-}
-.p-teal { background: var(--teal); } .p-fuchsia { background: var(--fuchsia); }
-.p-orange { background: var(--orange); } .p-jaune { background: var(--jaune); }
-.texte { flex: 1; min-width: 0; }
-.texte strong { display: block; font-size: 16.5px; font-weight: 700; }
-.texte small { display: block; color: var(--gris); font-size: 13.5px; }
-.fleche { font-weight: 700; font-size: 18px; }
-
-/* Cartes projets */
-.projet {
-  border: 2px solid var(--encre); border-radius: 16px; box-shadow: var(--ombre);
-  padding: 18px 18px 16px; margin-bottom: 16px; position: relative; overflow: hidden;
-}
-.projet h2 { font-size: 24px; line-height: 1.1; margin-bottom: 6px; letter-spacing: -.02em; }
-.projet p { font-size: 15px; margin-bottom: 14px; }
-.kzumi { background: var(--jaune); }
-.kzumi h2 { font-family: 'Nunito', 'Instrument Sans', sans-serif; font-weight: 900; font-size: 30px; letter-spacing: -.01em; }
-.kzumi .autocollant {
-  position: absolute; top: 14px; right: -34px; transform: rotate(18deg);
-  background: var(--encre); color: var(--jaune); padding: 4px 40px;
-  font: 700 11px/1.4 'JetBrains Mono', monospace; letter-spacing: .1em; text-transform: uppercase;
-}
-.eurofiscalis { background: #0B1517; color: #F4F2EE; }
-.eurofiscalis h2 span { color: #5ECD8C; }
-.eurofiscalis p { color: #C8D5CC; }
-.jerwis { background: #fff; }
-.jerwis h2 span { color: var(--fuchsia); }
-.boutons { display: flex; flex-wrap: wrap; gap: 8px; }
-.bouton {
-  display: inline-flex; align-items: center; gap: 8px; padding: 9px 13px;
-  background: #fff; color: var(--encre); border: 2px solid var(--encre); border-radius: 999px;
-  font-weight: 700; font-size: 14px; box-shadow: 2px 2px 0 var(--encre); transition: transform .12s, box-shadow .12s;
-}
-.bouton:hover, .bouton:focus-visible { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--encre); }
-.bouton .ico { width: 16px; height: 16px; }
-.eurofiscalis .bouton { box-shadow: 2px 2px 0 #5ECD8C; border-color: #F4F2EE; }
-.eurofiscalis .bouton:hover { box-shadow: 4px 4px 0 #5ECD8C; }
-.petits { display: flex; gap: 8px; margin-top: 12px; }
-.petits a {
-  width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--encre); background: #fff;
-  display: grid; place-items: center;
-}
-.petits .ico { width: 15px; height: 15px; }
-
-/* Nous suivre chacun */
-.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.fiche { background: #fff; border: 2px solid var(--encre); border-radius: 14px; box-shadow: var(--ombre); padding: 14px; }
-.fiche h3 { font-size: 17px; margin-bottom: 10px; }
-.fiche a { display: flex; align-items: center; gap: 9px; padding: 7px 0; font-weight: 600; font-size: 14.5px; border-top: 1px dashed #C9C4BC; }
-.fiche a:first-of-type { border-top: 0; }
-.fiche .ico { width: 16px; height: 16px; }
-.fiche .in { font-size: 13px; width: 16px; text-align: center; }
-
-.pied { text-align: center; margin-top: 36px; color: var(--gris); font-size: 13px; }
-.pied a { text-decoration: underline; text-underline-offset: 3px; }
+.pied { text-align: center; margin-top: 26px; color: var(--gris); font-size: 12.5px; }
 a:focus-visible { outline: 3px solid var(--fuchsia); outline-offset: 3px; }
-@media (max-width: 360px) { .duo { grid-template-columns: 1fr; } h1 { font-size: 26px; } }
+@media (max-width: 350px) { .duo { grid-template-columns: 1fr; } .rond { width: 40px; height: 40px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

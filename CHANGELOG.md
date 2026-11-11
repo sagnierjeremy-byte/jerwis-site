@@ -1,5 +1,10 @@
 # CHANGELOG — Site perso Jérémy Sagnier
 
+## 2026-11-11 · `/liens` simplifiée
+
+- **Pourquoi** : demande de Jérémy, « moins de texte, plus facile de cliquer et de comprendre ce qu'on cherche ».
+- **Livré** : 47 mots au lieu d'environ 200 ; gros boutons (60 px et plus) aux couleurs et logos des services (YouTube, Spotify, Apple Podcasts, icône kzumi, symbole Eurofiscalis `assets/liens/eurofiscalis.webp`, « J » de jerwis.fr) ; trois groupes (Le podcast, Nos projets, Nous suivre avec une ligne par personne) ; le bouton kzumi ouvre directement l'App Store sur iPhone et Google Play sur Android (petit script en bas de page), kzumi.com ailleurs.
+
 ## 2026-11-11 · Lien LinkedIn réparé + `/liens` protégée des scripts d'habillage
 
 - **Pourquoi** : le lien LinkedIn du pied (et des JSON-LD `sameAs`) menait à `linkedin.com/in/jeremy-sagnier`, une page introuvable. Le profil de Jérémy est `/in/jérémy-sagnier` (encodé `j%C3%A9r%C3%A9my-sagnier`). Demande de Jérémy : « corrige-le ».
