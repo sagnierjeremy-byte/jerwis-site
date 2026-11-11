@@ -1,74 +1,62 @@
 {
-  "generated_at": "2026-11-10T13:13:09.945Z",
-  "day_label": "Mardi 10 novembre",
+  "generated_at": "2026-11-11T12:22:45.375Z",
+  "day_label": "Mercredi 11 novembre",
   "items": [
     {
-      "title": "Anthropic baisse ses prix de 20% avant une IPO à 1000 milliards",
-      "why_it_matters": "Anthropic baisse ses prix de 20% avant son IPO à 1000 milliards. Je retiens que l'IA coûte moins cher, même si la valorisation me paraît surchauffée.",
+      "title": "Marine Le Pen reçue par Renault, Dassault et les grands patrons",
+      "why_it_matters": "Je retiens que le RN séduit de plus en plus les grands patrons. Ça change la donne pour la politique économique de demain.",
       "sources": [
         {
-          "name": "Next",
-          "url": "https://next.ink/266653/anthropic-se-valorise-finalement-1-000-milliards-pour-son-introduction-en-bourse/"
-        },
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1557819-fable-5-2-mythos-5-2-le-coup-de-force-d-anthropic-juste-avant-son-ipo/"
-        },
-        {
-          "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/fable-5-2-mythos-5-2-system-card-anthropic-109654"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/le-nouveau-claude-a-un-gros-probleme-lia-danthropic-est-beaucoup-plus-facile-a-pieger.html"
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/11/presidentielle-2027-marine-le-pen-a-rencontre-plusieurs-dirigeants-de-grandes-entreprises-dont-renault-et-totalenergies-fin-octobre_6808967_3234.html"
         }
       ]
     },
     {
-      "title": "Orange lance une app gratuite avec ChatGPT, Claude et Gemini",
-      "why_it_matters": "Je note que l'accès à l'IA se démocratise en France. Les PME vont pouvoir utiliser plusieurs modèles sans payer cher.",
+      "title": "Anthropic lance Claude Sheets et Meetings contre Office",
+      "why_it_matters": "Je note qu'Anthropic veut remplacer Excel et Teams. Pour les entrepreneurs, ça pourrait faire baisser les prix de la bureautique.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/orange-annonce-une-app-gratuite-tout-en-un-qui-permet-de-discuter-avec-chatgpt-claude-ou-gemini.html"
-        },
-        {
-          "name": "L'Usine Digitale",
-          "url": "https://www.usine-digitale.fr/telecoms/orange/mieux-que-letat-comment-loperateur-orange-compte-offrir-a-tous-un-acces-a-plusieurs-modeles-dia-depuis-son-application.IPM6S7LJ5ZE7NBN5AW6JF6DPHU.html"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/anthropic-sattaque-a-microsoft-et-google-avec-claude-sheets-whiteboards-et-meetings-507705.htm#xtor=RSS-1"
         }
       ]
     },
     {
-      "title": "Sanctions pour les branches pro avec des salaires sous le SMIC",
-      "why_it_matters": "Je retiens que les entreprises des branches concernées vont payer plus de charges. Je dois vérifier si ma convention est en règle.",
+      "title": "Nvidia accusé d'avoir vendu 7,5 milliards de puces IA à la Chine",
+      "why_it_matters": "Je retiens que Nvidia risque gros sur les exportations vers la Chine. Si vous achetez des puces IA, les prix et les délais peuvent exploser.",
+      "sources": [
+        {
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/au-moins-7-5-milliards-de-dollars-de-puces-vendues-a-la-chine-par-nvidia-au-travers-d-alice-huang-comment-s-est-organisee-la-maitresse-de-jensen-huang-pour-contourner-les-restrictions-americaines_AN-202611110345.html"
+        }
+      ]
+    },
+    {
+      "title": "Le gazole baisse mais des stations sont en rupture dans le Nord-Est",
+      "why_it_matters": "Je note que la baisse des prix cache des tensions d'approvisionnement. Si vous avez des véhicules ou une logistique, surveillez vos stocks.",
       "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/le-decret-pour-sanctionner-les-branches-ayant-des-minima-conventionnels-sous-le-smic-publie-au-journal-officiel_8276099.html#xtor=RSS-3-%5Bgeneral%5D"
+          "url": "https://www.franceinfo.fr/economie/transports/prix-des-carburants/certaines-stations-essences-peuvent-etre-en-rupture-ponctuelle-dans-le-nord-est-de-la-france-alerte-le-pdg-de-cooperative-u_8277749.html#xtor=RSS-3-%5Beconomie%5D"
         },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/social/salaires-un-decret-publie-pour-sanctionner-les-branches-dont-les-minima-sont-inferieurs-au-smic-20261110"
+          "url": "https://www.lefigaro.fr/conjoncture/baisse-du-prix-du-gazole-la-liberation-des-stocks-strategiques-est-elle-vraiment-la-seule-explication-20261110"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/auto/de-combien-leclerc-a-t-il-vraiment-baisse-le-prix-du-gazole-michel-edouard-leclerc-donne-le-chiffre-1531766"
         }
       ]
     },
     {
-      "title": "Des conversations Notion IA ont été volées chez un prestataire",
-      "why_it_matters": "Je note que même les outils sérieux ont des fuites via leurs sous-traitants. Je dois vérifier où vont mes données sensibles.",
+      "title": "L'Europe pourrait assouplir l'interdiction des voitures thermiques",
+      "why_it_matters": "Je retiens que la fin des moteurs essence en 2035 n'est peut-être pas si définitive. Ça change vos plans si vous renouvelez votre flotte.",
       "sources": [
         {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/cyberguerre/2371399-mauvaise-surprise-notion-decouvre-que-des-conversations-avec-son-ia-ont-ete-volees-chez-un-prestataire.html"
-        }
-      ]
-    },
-    {
-      "title": "L'open source IA menacé par les cyberattaques selon Hugging Face",
-      "why_it_matters": "Je retiens que les modèles open source pourraient devenir moins accessibles. C'est un risque pour les start-ups qui s'en servent.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/fin-des-voitures-thermiques-leurope-prete-a-laisser-la-porte-ouverte-apres-2035.html"
         }
       ]
     }
