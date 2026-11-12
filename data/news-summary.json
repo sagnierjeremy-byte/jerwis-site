@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-11-11T12:22:45.375Z",
-  "day_label": "Mercredi 11 novembre",
+  "generated_at": "2026-11-12T13:30:46.334Z",
+  "day_label": "Jeudi 12 novembre",
   "items": [
     {
-      "title": "Marine Le Pen reçue par Renault, Dassault et les grands patrons",
-      "why_it_matters": "Je retiens que le RN séduit de plus en plus les grands patrons. Ça change la donne pour la politique économique de demain.",
+      "title": "Claude lance trois outils pour concurrencer Office",
+      "why_it_matters": "Je note que Claude lance des outils bureautiques. La concurrence contre Office et Google va faire baisser les prix.",
       "sources": [
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/11/presidentielle-2027-marine-le-pen-a-rencontre-plusieurs-dirigeants-de-grandes-entreprises-dont-renault-et-totalenergies-fin-octobre_6808967_3234.html"
+          "name": "Siècle Digital",
+          "url": "https://siecledigital.fr/2026/11/12/claude-lance-trois-nouveaux-outils-pour-concurrencer-directement-microsoft-office-et-google-workspace/"
         }
       ]
     },
     {
-      "title": "Anthropic lance Claude Sheets et Meetings contre Office",
-      "why_it_matters": "Je note qu'Anthropic veut remplacer Excel et Teams. Pour les entrepreneurs, ça pourrait faire baisser les prix de la bureautique.",
+      "title": "La cybersécurité NIS 2 avance enfin en France",
+      "why_it_matters": "Je retiens que la loi NIS 2 sur la cybersécurité avance. Toutes les entreprises devront bientôt se mettre en conformité.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/anthropic-sattaque-a-microsoft-et-google-avec-claude-sheets-whiteboards-et-meetings-507705.htm#xtor=RSS-1"
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/cybersecurite-1371/projet-loi-resilience-nis-2-230228"
         }
       ]
     },
     {
-      "title": "Nvidia accusé d'avoir vendu 7,5 milliards de puces IA à la Chine",
-      "why_it_matters": "Je retiens que Nvidia risque gros sur les exportations vers la Chine. Si vous achetez des puces IA, les prix et les délais peuvent exploser.",
+      "title": "Pénurie de carburant dans plus de 2 200 stations",
+      "why_it_matters": "Je note que plus de 2 200 stations sont en rupture de carburant. Cela ralentit les déplacements pros et les livraisons.",
       "sources": [
         {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/au-moins-7-5-milliards-de-dollars-de-puces-vendues-a-la-chine-par-nvidia-au-travers-d-alice-huang-comment-s-est-organisee-la-maitresse-de-jensen-huang-pour-contourner-les-restrictions-americaines_AN-202611110345.html"
-        }
-      ]
-    },
-    {
-      "title": "Le gazole baisse mais des stations sont en rupture dans le Nord-Est",
-      "why_it_matters": "Je note que la baisse des prix cache des tensions d'approvisionnement. Si vous avez des véhicules ou une logistique, surveillez vos stocks.",
-      "sources": [
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/transports/prix-des-carburants/certaines-stations-essences-peuvent-etre-en-rupture-ponctuelle-dans-le-nord-est-de-la-france-alerte-le-pdg-de-cooperative-u_8277749.html#xtor=RSS-3-%5Beconomie%5D"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/baisse-du-prix-du-gazole-la-liberation-des-stocks-strategiques-est-elle-vraiment-la-seule-explication-20261110"
+          "name": "Capital",
+          "url": "https://www.capital.fr/auto/plus-de-2-200-stations-sans-gazole-ou-sans-essence-la-carte-de-la-penurie-de-carburant-pres-de-chez-vous-1531789"
         },
         {
           "name": "Capital",
-          "url": "https://www.capital.fr/auto/de-combien-leclerc-a-t-il-vraiment-baisse-le-prix-du-gazole-michel-edouard-leclerc-donne-le-chiffre-1531766"
+          "url": "https://www.capital.fr/auto/penurie-de-carburant-dans-le-grand-est-combien-de-temps-va-t-elle-durer-dominique-schelcher-u-repond-1531785"
         }
       ]
     },
     {
-      "title": "L'Europe pourrait assouplir l'interdiction des voitures thermiques",
-      "why_it_matters": "Je retiens que la fin des moteurs essence en 2035 n'est peut-être pas si définitive. Ça change vos plans si vous renouvelez votre flotte.",
+      "title": "Plan de relance agricole à 725 millions d'euros",
+      "why_it_matters": "Je retiens que l'agriculture reçoit 725 millions d'euros de relance. C'est une opportunité pour vendre des équipements ou services.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/fin-des-voitures-thermiques-leurope-prete-a-laisser-la-porte-ouverte-apres-2035.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/le-plan-de-relance-agricole-s-elevera-finalement-a-725-millions-d-euros-annonce-annie-genevard-20261112"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/plan-de-relance-agricole-la-ministre-de-l-agriculture-promet-725-millions-d-euros-notamment-pour-l-adaptation-au-changement-climatique_8279273.html"
+        }
+      ]
+    },
+    {
+      "title": "Gérer sa fiche entreprise sur ChatGPT",
+      "why_it_matters": "Je note que l'on peut désormais gérer sa fiche entreprise sur ChatGPT. C'est un nouveau canal de visibilité à surveiller.",
+      "sources": [
+        {
+          "name": "Siècle Digital",
+          "url": "https://siecledigital.fr/2026/11/12/les-entreprises-peuvent-desormais-gerer-leur-presence-sur-chatgpt-grace-a-une-nouvelle-fonctionnalite/"
         }
       ]
     }
