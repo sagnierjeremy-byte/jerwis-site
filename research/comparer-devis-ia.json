@@ -1,0 +1,161 @@
+{
+  "topic": "comparer des devis avec l'IA : un tableau prix, délais, garanties et exclusions, dans le chat ou dans l'app Claude ou ChatGPT en mode Work, en gardant la décision pour soi",
+  "slug": "comparer-devis-ia",
+  "type": "A",
+  "generated_at": "2026-11-12",
+  "angle": "Cet article guide les entrepreneurs non-développeurs pour utiliser efficacement les IA génératives (ChatGPT, Claude, Gemini) afin de comparer des devis complexes, en structurant l'information et en identifiant les points clés, tout en soulignant l'importance de la décision humaine finale.",
+  "intent": "Le lecteur souhaite comprendre comment utiliser concrètement l'IA pour analyser et comparer des devis (prix, délais, garanties, exclusions) afin de prendre des décisions d'achat plus éclairées et gagner du temps, sans pour autant déléguer entièrement la décision à la machine.",
+  "keywords": [
+    "comparer devis IA",
+    "analyse devis ChatGPT",
+    "comparateur devis Claude AI",
+    "IA pour négociation devis",
+    "automatiser comparaison de prix",
+    "analyse de contrats IA entrepreneur"
+  ],
+  "facts": [
+    {
+      "claim": "ChatGPT 6 Astra est la dernière version majeure du modèle d'OpenAI, lancée le 3 septembre 2026, avec GPT-6.1 Terra sortie le 26 octobre 2026, offrant des améliorations en ingénierie logicielle et des capacités d'analyse d'écrans et de navigation.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5cmdvbZ1CHF_I_d9NnlkOOEIAdt5yywdpACJRbjBd5pvOzjmkZ75DiJBgkpzbm5q8HBXwykMlD973tMmr9N587S55c1cgIgDWgORhmALkJSiRRnJxJ4IyE6PGA-edy27Wci8Ygo3rHvtaPg==",
+      "date": "2026-09-03"
+    },
+    {
+      "claim": "Claude Fable 5.2 est la dernière version de la famille de modèles Claude, sortie le 9 novembre 2026, tandis que Claude Opus 5.5 a été lancé le 22 septembre 2026, Sonnet 5.5 le 28 septembre 2026 et Haiku 5.5 le 7 octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-9krFNoXuhUPY79QDc9kp7haFQepkDMd7f_wSeA2kfkZKvZd-00PNp0uT227QKv-pihr2Y8VFHy78JlRk9Mg1fmZosWewA0XMFw45emhXpnOdwUAlWqIVpkVPlRwxQo4hD5bk",
+      "date": "2026-11-09"
+    },
+    {
+      "claim": "Gemini 4 Argon est le modèle de pointe le plus récent de Google, en cours de déploiement mondial pour les abonnés Google AI Pro & Ultra depuis le 13 octobre 2026, conçu pour les tâches complexes de bout en bout.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcsOP61gU2lNAbkEoTDUZFS3VCp6WKyBx20k2oryOdN8chwVFOgRcRXawDuklU15X47xg3WPICuT2D3x3TG9cx6C2FfIy4oR26eO2QeFTriW3e7aaViiT0Il3ttRlsIA==",
+      "date": "2026-10-13"
+    },
+    {
+      "claim": "L'IA peut analyser des documents pour catégoriser les clauses et extraire des points de données clés tels que les parties, les dates, les valeurs, les garanties, les délais et les exclusions.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpYWTBymxPFbF8bZN2JPHHnt0EjOdscFQH8R3Td7vK3MoZ01vq8BLV9l6AnRq-9PnIv_9HRNpo1fy7CUclFTI7PRRM6o1Dg4KQhzC-hm2FRd9vVns6oLey5sK5nHjA6vbWKqdO4Eqgs-DL9--2UNGyw55l8npzsrDGo-zTexXWEW02QQ==",
+      "date": "2026"
+    },
+    {
+      "claim": "Les outils d'IA de révision de contrats peuvent comparer les informations extraites avec des 'playbooks' juridiques prédéfinis ou des normes organisationnelles, signalant les écarts, les clauses manquantes ou les formulations à risque élevé.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpYWTBymxPFbF8bZN2JPHHnt0EjOdscFQH8R3Td7vK3MoZ01vq8BLV9l6AnRq-9PnIv_9HRNpo1fy7CUclFTI7PRRM6o1Dg4KQhzC-hm2FRd9vNns6oLey5sK5nHjA6vbWKqdO4Eqgs-DL9--2UNGyw55l8npzsrDGo-zTexXWEW02QQ==",
+      "date": "2026"
+    },
+    {
+      "claim": "ChatGPT, via sa fonction 'Advanced Data Analysis' (anciennement Code Interpreter), peut analyser des fichiers téléchargés (CSV, Excel, PDF, fichiers texte), résumer des données, créer des tableaux et effectuer des calculs basés sur Python.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCjjRqgoQF0Xrrary_ibj6YFT2MC0jkla4pC76NWvk7BF2PUJXTuG16I6q6QqtQ6h-ePa8eeppJklyar4GAlPoUDbxrNiQtOlbU66Zempa4gSsrgLv83_FwWToqB-htHHSXY-2mF62B1EJftAyYKJdRw==",
+      "date": "2026-03-21"
+    },
+    {
+      "claim": "Claude AI est reconnu pour sa grande fenêtre de contexte (jusqu'à 1 million de tokens pour certains modèles comme Opus 4.6 en beta), lui permettant de traiter de très longs documents et des conversations étendues, ce qui est essentiel pour une analyse détaillée.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkGDvJVKetKkOif0aFzvUZubGP8uWIx8hVvNlfrc2jxZZLXqmkR9Jsm7ZA9bFbl3aqcPVUrDeWJkowbONU00_a4AJUstYq8qD45Xm6ixVFJZFWQGkZMkV9ko37qwn0a3sY-cK7LvwRgg7kWsQVLUzZtMlgFzAqZQ_81vrKjwDkHg2FltGiw-y03hQtPmaqfLdYagUxUzo=",
+      "date": "2026-04-29"
+    },
+    {
+      "claim": "L'IA peut traiter des formats de documents hétérogènes (PDF, photo, Word ou Excel) et s'adapter à des mises en page variées, en cherchant le sens plutôt que des champs fixes, ce qui est un avantage majeur pour l'analyse de devis de différents fournisseurs.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfZjIjlG8QXSqa_14GXNyCGDojolJg1aa6MD0oiulCYt3th-sf_ruae5fbDo52OBvyz_DpcbH7bUflEcA1rnBcIC_QYhkIS9BXvdRAq4zbs7OZ_90w",
+      "date": "2026"
+    },
+    {
+      "claim": "Il est crucial de demander à l'IA de noter explicitement les informations 'non précisées' dans les devis, plutôt que de supposer des inclusions basées sur des habitudes, afin d'éviter des comparaisons erronées.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG36i9JNKZiU80_WcT5rScH94UIOT-vOcZrBKjF_bOQ2oI0VrEVoz1G-HWEcXK1JBclz4AvGuT3zrXtZfj4L9iezZywQCZUwq8uZyzIJ98GnH6C04siGjMVvDCLSVyaKzkp8wLuWaIVaDdpnDgNGl-i346Aa0DYcBLT8QnlfJUj_XIq83eRkIWxfKEJJs5Of-Y9-KRZdouNcDG-jB1SokWAXMQqkhcOKkiYeL_b",
+      "date": "2026-11-07"
+    },
+    {
+      "claim": "Les outils d'IA spécialisés dans la révision de contrats surpassent les IA généralistes comme ChatGPT, identifiant 20 à 40% de clauses non-standard supplémentaires par rapport à une révision manuelle.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkabT9I0YssqqrAcAEyLXGQoqP7kKWWCANdC_hKvXGY208tbEfRxzdJGAyHbVTUt5ofGfbLV0iU7f88jbDJMg2WDvkkDqR178BZq6PwG_LudsWSuFL_EeE_G6jUsJ4q5Q7YRqwx9ENKyRtcMifKheTk7kqaFsUCnmiHeYV",
+      "date": "2026-04-17"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "L'OCR moderne atteint une précision de 99,5% sur les documents dactylographiés, et les plateformes de traitement intelligent des documents (IDP) réduisent la manipulation manuelle de 80%.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTssKSZLWfl54BlQPXChPmuqRt9qWywXZApOD3nytgSEL0Ha2IQMEWf7680Pm1u9diWERmUH3KOTeC5FLz8M39cgr5mTckcONU-uaeWWCjXUW1HZ08NFXnZ7jcFLtVbHOnn_IjuPv-UHTHZDLr9nmvKMu2a6Vsan8x2P3BEfkSWCrDRDoysQcb1w==",
+      "date": "2026"
+    },
+    {
+      "stat": "Le marché de l'IA dans les achats devrait passer de 4,25 milliards USD en 2026 à environ 39,20 milliards USD d'ici 2035, avec un TCAC de 28,00%.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGauEIiNYZU-wDwDikiCwHwxwwtc3emXDHpJDWoP76l95k9JHwvZTHsgkDaxkUcjM_8basOLq0b4aE6B2oTweMlt8O9zTpQFZwp_JaReC_WMS19DjKkhi10a4zYJ9Kzi7KXpAyUz_ozUJaMl-vn0yzvlyRfqQL2",
+      "date": "2026"
+    },
+    {
+      "stat": "D'ici 2026, on estime que 75% des grandes entreprises adopteront des solutions d'approvisionnement basées sur l'IA pour automatiser des tâches telles que la sélection des fournisseurs et l'analyse des risques.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHft7O5r00aJAZP_HAIybaY1tLj8dFCwgB0UKE66d1hgZ9DWoiWsIjKV4f9FKmlx-tc4R9bg3JSGFdtZMeXNWAcv0dHc6TVchOoEacyejXRu1pqfyhUBqX4Tj0BaofL0FW-ooyCzye2v-V4Z-y-PSiBnQ==",
+      "date": "2026"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Essentiel pour formuler des requêtes précises et obtenir des résultats pertinents de l'IA lors de l'analyse de devis."
+    },
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Aborde les enjeux de la protection des données sensibles, crucial pour les entrepreneurs manipulant des devis confidentiels avec l'IA."
+    },
+    {
+      "url": "/articles/lire-contrat-ia-sans-se-tromper",
+      "why": "Directement lié à l'analyse de documents par l'IA et insiste sur la nécessité d'une supervision humaine pour éviter les erreurs."
+    },
+    {
+      "url": "/lexique/context-window",
+      "why": "Explique un concept fondamental des LLM (fenêtre de contexte) qui détermine la quantité d'informations qu'une IA peut traiter simultanément pour l'analyse de devis."
+    },
+    {
+      "url": "/lexique/chatgpt-work",
+      "why": "Répond au concept de 'mode Work' mentionné dans le sujet, en expliquant comment utiliser ChatGPT de manière professionnelle pour des tâches comme la comparaison de devis."
+    }
+  ],
+  "outline": [
+    "Introduction : L'IA, votre nouvel allié pour des décisions d'achat éclairées",
+    "Les super-pouvoirs de l'IA pour l'analyse de documents complexes et hétérogènes",
+    "ChatGPT et Claude : des fonctionnalités clés pour comparer vos devis",
+    "Méthodologie pas à pas : Construire votre tableau comparatif idéal avec l'IA",
+    "Prompts efficaces et astuces pour une extraction de données fiable",
+    "Garanties, délais, exclusions : comment l'IA débusque les détails cruciaux",
+    "Les limites de l'IA et l'indispensable supervision humaine : gardez la main sur la décision"
+  ],
+  "faq": [
+    "L'IA peut-elle analyser des devis dans n'importe quel format (PDF, photo, Word, Excel) ?",
+    "Comment garantir la confidentialité de mes devis sensibles lorsque j'utilise l'IA ?",
+    "Est-ce que l'IA peut détecter les clauses cachées ou les exclusions importantes dans un devis ?",
+    "Quel est le meilleur outil (ChatGPT, Claude, Gemini) pour m'aider à comparer des devis ?",
+    "Dois-je systématiquement vérifier les résultats fournis par l'IA pour mes comparaisons de devis ?",
+    "L'IA peut-elle aller jusqu'à m'aider à négocier les devis avec mes fournisseurs ?"
+  ],
+  "pitfalls": [
+    "Les hallucinations de l'IA, où elle peut générer des informations incorrectes ou inventées, particulièrement sur des chiffres ou des interprétations contextuelles complexes.",
+    "La dépendance excessive à l'IA sans vérification humaine, pouvant mener à des décisions d'achat coûteuses ou à des erreurs critiques.",
+    "La difficulté de l'IA à traiter avec précision des documents scannés de mauvaise qualité, des images avec du texte ou des mises en page très complexes, nécessitant souvent une intervention manuelle.",
+    "L'interprétation erronée de termes ambigus ou de non-dits dans les devis si le prompt n'est pas suffisamment précis pour demander une clarification ou une mention 'non précisé'.",
+    "La 'perte de contexte' dans les conversations très longues, où l'IA peut oublier des informations antérieures si la fenêtre de contexte est dépassée ou mal gérée.",
+    "Les limitations de taille de fichier pour l'analyse de données dans certains outils, qui peuvent ralentir ou empêcher le traitement de très grands ensembles de devis."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5cmdvbZ1CHF_I_d9NnlkOOEIAdt5yywdpACJRbjBd5pvOzjmkZ75DiJBgkpzbm5q8HBXwykMlD973tMmr9N587S55c1cgIgDWgORhmALkJSiRRnJxJ4IyE6PGA-edy27Wci8Ygo3rHvtaPg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdBq-N8YuVjfXtmP9k-UfDMbREvAOOP2ffquo47AkehotVdZEYlF4-YsUKg3x0bt4ZwrJBqiJjkn01RuhTv7bvOF2k4zHVYMEEdMj8QpPB3pb07AGsBn1Uizje89So3YOytvCB9Qb1_hjvww==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-9krFNoXuhUPY79QDc9kp7haFQepkDMd7f_wSeA2kfkZKvZd-00PNp0uT227QKv-pihr2Y8VFHy78JlRk9Mg1fmZosWewA0XMFw45emhXpnOdwUAlWqIVpkVPlRwxQo4hD5bk",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcsOP61gU2lNAbkEoTDUZFS3VCp6WKyBx20k2oryOdN8chwVFOgRcRXawDuklU15X47xg3WPICuT2D3x3TG9cx6C2FfIy4oR26eO2QeFTriW3e7aaViiT0Il3ttRlsIA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpYWTBymxPFbF8bZN2JPHHnt0EjOdscFQH8R3Td7vK3MoZ01vq8BLV9l6AnRq-9PnIv_9HRNpo1fy7CUclFTI7PRRM6o1Dg4KQhzC-hm2FRd9vVns6oLey5sK5nHjA6vbWKqdO4Eqgs-DL9--2UNGyw55l8npzsrDGo-zTexXWEW02QQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDGXRHC1Qe76eEJQKR2jvbFpnZjKA7BuULFpNcKobeMAjIh_iwJR-z-_Z0Ldz_y6Pl0RqYHM9KWtiCJlwaCTgW_EACtk8b1Bbo83Tm2i9eFZ4OJOnEmhpRtMvSWs_Av5FRt9QsnXJGJdX_Hh69nc_iCp039SwhmcTO0opU1T_7EDIIgDUf58VqAs-TaqEqQmmGR-OaC-HLgNWOuMijmTjhCZg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEsDaP9wWDaEN0WE1fyipC6qvKT1Lc8f1v3FqtTnjU75SnPk4YMezlAEyRpc9guEkvNOtLttA0A_zCosgZwlbyGAzxP069VXVORGpUabuPqeTpezO_0XaJTZ80uFrRESnHkMvzE8EvGoDDQreWsdyzmowLNfxK4sP57vW7G8UYjiMZ",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCjjRqgoQF0Xrrary_ibj6YFT2MC0jkla4pC76NWvk7BF2PUJXTuG16I6q6QqtQ6h-ePa8eeppJklyar4GAlPoUDbxrNiQtOlbU66Zempa4gSsrgLv83_FwWToqB-htxHSXY-2mF62B1EJftAyYKJdRw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoHodoFvWIy-MwZBIqtoXLQBSg7BNr2r0DmRVBLx48lWBAXMlzs8t_bjsZPJyfm94Go8sd-oTdiZnYLswibFunuHoB10xpB6a1igyqAh2PqbfsVQNarAmbQsHDowNVf9jAPRCykiD6y009JCUlE0Gja9wJ51ntdSKMWX1wnZVLKlg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9IlEQ7zSGrNeQvICNpOiDj7rII6_trubItXy87Dm0pliFgowJqk7bY66MyL2rJW-u2DK2MOdwX7wFgunkeJLudIzFEG_XOrSVFIc1GThz5yZgWTitFhlHoJJUOsFZHrcsyLRHRFFcaSh__fUB79oT0to0bQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkGDvJVKetKkOif0aFzvUZubGP8uWIx8hVvNlfrc2jxZZLXqmkR9Jsm7ZA9bFbl3aqcPVUrDeWJkowbONU00_a4AJUstYq8qD45Xm6ixVFJZFWQGkZMkV9ko37qwn0a3sY-cK7LvwRgg7kWsQVLUzZtMlgFzAqZQ_81vrKjwDkHg2FltGiw-y03hQtPmaqfLdYagUxUzo=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPNg7E6LrriMErPbn7aatsS_g44aNi9ZR_aOKE80ZEpOe3UQkp5X8kqh0-EsPzU319feDAdY1EwUrQp7ab8b3LVwT6-Ou4PcILqFTUv-ik1hOSdvTPBO199APMu0wiCTqVSQ7L66RKvJgiDEk=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfq1m9qCSGBbUTIoWnARPYxKPivgSZCvesk5kv-ErfU_P3ipOnsGQ7cY6SpS2ahQ0oBWfr1aTxSRt0GoNHXgSsjvIjVqu7F15BypBuBlsoGN5lOhxhdf1bIgRxtdodrzyLHUdzVximKN2ZWyruzcht3-EwBojzmYQJni0jkcP_uQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfZjIjlG8QXSqa_14GXNyCGDojolJg1aa6MD0oiulCYt3th-sf_ruae5fbDo52OBvyz_DpcbH7bUflEcA1rnBcIC_QYhkIS9BXvdRAq4zbs7OZ_90w",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm6zjWJSoa5YuovS_ShMHKosMQFFdc3v8jyZbw_0Z0kYToRs3TmWPQ3mBJZyv8kU2EqicMdUHv3EUHul_27Q0Zkf6mD5NAUiLfDnhlUF-9irfJSEVMyQi9psX79OERw89Cgr3KPhNjvo4518ebaFWEQs4mnpfBpicxrmwfSDMTRE43ZdU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG36i9JNKZiU80_WcT5rScH94UIOT-vOcZrBKjF_bOQ2oI0VrEVoz1G-HWEcXK1JBclz4AvGuT3zrXtZfj4L9iezZywQCZUwq8uZyzIJ98tGn6C04siGjMVvDCLSVyaKzkp8wLuWaIVaDdpnDgNGl-i346Aa0DYcBLT8QnlfJUj_XIq83eRkIWxfKEJJs5Of-Y9-KRZdouNcDG-jB1SokWAXMQqkhcOKkiYeL_b",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkabT9I0YssqqrAcAEyLXGQoqP7kKWWCANdC_hKvXGY208tbEfRxzdJGAyHbVTUt5ofGfbLV0iU7f88jbDJMg2WDvkkDqR178BZq6PwG_LudsWSuFL_EeE_G6jUsJ4q5Q7YRqwx9ENKyRtcMifKheTk7kqaFsUCnmiHeYV",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTssKSZLWfl54BlQPXChPmuqRt9qWywXZApOD3nytgSEL0Ha2IQMEWf7680Pm1u9diWERmUH3KOTeC5FLz8M39cgr5mTckcONU-uaeWWCjXUW1HZ08NFXnZ7jcFLtVbHOnn_IjuPv-UHTHZDLr9nmvKMu2a6Vsan8x2P3BEfkSWCrDRDoysQcb1w==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGauEIiNYZU-wDwDikiCwHwxwwtc3emXDHpJDWoP76l95k9JHwvZTHsgkDaxkUcjM_8basOLq0b4aE6B2oTweMlt8O9zTpQFZwp_JaReC_WMS19DjKkhi10a4zYJ9Kzi7KXpAyUz_ozUJaMl-vn0yzvlyRfqQL2",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHft7O5r00aJAZP_HAIybaY1tLj8dFCwgB0UKE66d1hgZ9DWoiWsIjKV4f9FKmlx-tc4R9bg3JSGFdtZMeXNWAcv0dHc6TVchOoEacyejXRu1pqfyhUBqX4Tj0BaofL0FW-ooyCzye2v-V4Z-y-PSiBnQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeTHhAonGgKH3r699DYnUlM3J_I-hAgjP1hTKwCRKsjqKNGykZLWfzQQnLqinTR5B5uIbyeQrf4bDaVRYMQ4EvjaJwizZIZ_fE5JkWvIdBWtmZuLm0eQ02F06STBxv0g70OnsBdnPomb_3yi0D3_jV",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZiSq0oI0yh_rntlaYYJ6jkz_YCj4EabcCKmWASwnpXOqUOPEv4UXcivgOsrW2v9JrBtalDBz2qtD6TaIKAmsiZsz_qnYlHYc9J-tFXGTXtI2g7_cq6YLkQWvO7V23SRtEuKsUu8OZD9dLhw7kVhS70o52W36OMcz6MczNWGcjVKmjORsK2-VBFqKM-8NVdypl",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFnuiojwWgySU3hj8tG_mbf3el8MRz6gVFEZA7ONQt9DkF3V5J9KXDKg_vYiBCM16AYbtQChyGLaNFx3yYlBb9lA_DPfM46xCZoCyQkMGlczjHbIZ3Ck_4SCL_f7lmzGD4hX_tvtbA18QxxVpvwQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElv7WOZN7kxyIOTJn-_ZRsV0IFbKGsBx0icF0aUX5PYUyjczBrz42fWwNf9vAQKb4_k_rHBjBW0JHZrQ7TWFxttzGKUEv7KVcPeZ2z_th1NlS2ZambnkwL1eQhHPFpkniHbR7Ye8YpftYQpWKNaHZMbsayfg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpYWTBymxPFbF8bZN2JPHHnt0EjOdscFQH8R3Td7vK3MoZ01vq8BLV9l6AnRq-9PnIv_9HRNpo1fy7CUclFTI7PRRM6o1Dg4KQhzC-hm2FRd9vNns6oLey5sK5nHjA6vbWKqdO4Eqgs-DL9--2UNGyw55l8npzsrDGo-zTexXWEW02QQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCjjRqgoQF0Xrrary_ibj6YFT2MC0jkla4pC76NWvk7BF2PUJXTuG16I6q6QqtQ6h-ePa8eeppJklyar4GAlPoUDbxrNiQtOlbU66Zempa4gSsrgLv83_FwWToqB-htHHSXY-2mF62B1EJftAyYKJdRw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG36i9JNKZiU80_WcT5rScH94UIOT-vOcZrBKjF_bOQ2oI0VrEVoz1G-HWEcXK1JBclz4AvGuT3zrXtZfj4L9iezZywQCZUwq8uZyzIJ98GnH6C04siGjMVvDCLSVyaKzkp8wLuWaIVaDdpnDgNGl-i346Aa0DYcBLT8QnlfJUj_XIq83eRkIWxfKEJJs5Of-Y9-KRZdouNcDG-jB1SokWAXMQqkhcOKkiYeL_b"
+  ]
+}

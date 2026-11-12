@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Comparateur devis IA : ma méthode pas à pas</title>
+      <link>https://jerwis.fr/articles/comparer-devis-ia</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/comparer-devis-ia</guid>
+      <description>Comment j&apos;utilise ChatGPT et Claude pour comparer des devis complexes : tableau prix, délais, garanties et exclusions. Sans coder, sans perdre le contrôle.</description>
+      <pubDate>Thu, 12 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Lire un contrat avec l&apos;IA : guide pratique 2026</title>
       <link>https://jerwis.fr/articles/lire-contrat-ia-sans-se-tromper</link>

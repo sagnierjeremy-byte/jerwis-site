@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/comparer-devis-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Comparateur devis IA : ma méthode pas à pas</title>
+<meta name="description" content="Comment j'utilise ChatGPT et Claude pour comparer des devis complexes : tableau prix, délais, garanties et exclusions. Sans coder, sans perdre le contrôle.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Comparateur devis IA : ma méthode pas à pas">
+<meta property="og:description" content="Comment j'utilise ChatGPT et Claude pour comparer des devis complexes : tableau prix, délais, garanties et exclusions. Sans coder, sans perdre le contrôle.">
+<meta property="og:url" content="https://jerwis.fr/articles/comparer-devis-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/comparer-devis-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-12">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Comparateur devis IA : ma méthode pas à pas">
+<meta name="twitter:description" content="Comment j'utilise ChatGPT et Claude pour comparer des devis complexes : tableau prix, délais, garanties et exclusions. Sans coder, sans perdre le contrôle.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/comparer-devis-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/comparer-devis-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Comparateur devis IA : ma méthode pas à pas",
+  "description": "Comment j'utilise ChatGPT et Claude pour comparer des devis complexes : tableau prix, délais, garanties et exclusions. Sans coder, sans perdre le contrôle.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/comparer-devis-ia",
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/comparer-devis-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 55</div>
+    <h1>Tes devis<br>sous contrôle<br><em>avec l'IA</em></h1>
+    <p class="hero-lead">
+      Tu as reçu trois devis pour le même projet et tu ne sais plus où donner de la tête ? Moi aussi, j'ai passé des heures à recopier des montants dans des tableurs pour comparer. Aujourd'hui, j'utilise ChatGPT et Claude pour faire le tri à ma place. Je te montre comment je construis un tableau comparatif rigoureux, sans écrire une ligne de code et sans jamais déléguer la décision finale.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>L'IA lit les <strong>formats hétérogènes</strong> (PDF, photo, Excel) sans structure préalable</li>
+      <li>ChatGPT et Claude extraient prix, délais, garanties et exclusions dans un tableau</li>
+      <li>Le bon prompt demande à l'IA de noter ce qui est <strong>non précisé</strong>, pas de deviner</li>
+      <li>La décision finale reste humaine : l'IA structure, tu négocies et tu choisis</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>L&#39;IA m&#39;aide à y voir clair</h2>
+    <p>Je fais tout ça d&#39;abord pour moi. Il y a six mois, j&#39;ai failli signer un devis de rénovation sans voir que la garantie décennale était exclue. J&#39;ai relu trois fois le document. Rien. C&#39;est un ami qui l&#39;a repéré en dix secondes. J&#39;ai compris que mes yeux se fatiguent vite face à des pages de chiffres et de clauses.</p>
+    <p>Depuis, j&#39;envoie mes devis à l&#39;IA avant de signer quoi que ce soit. Je ne suis pas développeur. Je n&#39;utilise pas de terminal, ni de script. J&#39;ouvre l&#39;application Claude sur mon bureau ou je bascule ChatGPT en <a href="/lexique/chatgpt-work">mode Work</a>. Je télécharge mes fichiers. Je demande un tableau comparatif. Prix, délais, garanties et exclusions. En deux minutes, j&#39;ai une vue d&#39;ensemble que je peux relire calmement.</p>
+    <p>Toi aussi tu peux faire ça. Cet article te montre la méthode que j&#39;ai construite pas à pas.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Des formats différents, un seul interlocuteur</h2>
+    <p>Les devis n&#39;arrivent jamais normalisés. L&#39;un est un PDF scanné, l&#39;autre un Word mal formaté, le troisième une photo d&#39;écran envoyée par email. Avant, je passais une heure à recopier des montants dans un tableur. Je faisais des erreurs de frappe. Je mélangeais les prestations.</p>
+    <p>Aujourd&#39;hui, l&#39;IA traite ces formats hétérogènes sans que j&#39;aie besoin de tout ressaisir. Elle lit le sens du document plutôt que de chercher des cases préremplies. PDF, photo, Word ou Excel, elle s&#39;adapte à la mise en page. C&#39;est un avantage immense quand tu compares des prestataires qui n&#39;utilisent aucun logiciel commun.</p>
+    <p>Moi, je télécharge directement mes fichiers dans le chat. ChatGPT, via sa fonction Advanced Data Analysis, accepte les CSV, Excel, PDF et fichiers texte. Il résume les données, crée des tableaux et fait des calculs. Claude, de son côté, embarque une <a href="/lexique/context-window">fenêtre de contexte</a> énorme. Jusqu&#39;à un million de tokens pour certains modèles en bêta. En clair, tu peux lui coller plusieurs devis longs dans la même conversation sans qu&#39;il oublie le début. Tu poses une question sur la page 12 du deuxième document, il sait de quoi tu parles.</p>
+    <h2>ChatGPT et Claude : ce qui change tout</h2>
+    <p>À la date de cet article, plusieurs modèles coexistent. ChatGPT 6 Astra est sorti le 3 septembre 2026, suivi de GPT-6.1 Terra le 26 octobre. Chez Anthropic, Claude Fable 5.2 est arrivé le 9 novembre 2026, tandis que la famille 5.5 (Opus, Sonnet, Haiku) s&#39;est déployée entre septembre et octobre. Google déploie Gemini 4 Argon pour ses abonnés Pro et Ultra depuis le 13 octobre.</p>
+    <p>Je ne vais pas te dire lequel choisir. Pour comparer des devis, j&#39;alterne selon le besoin. Quand je veux des tableaux et des calculs rapides, je pars sur ChatGPT en mode Work. Quand les documents font vingt pages chacun et que la conversation s&#39;étire sur plusieurs allers-retours, je préfère Claude pour sa mémoire longue.</p>
+    <p>L&#39;important, c&#39;est de <a href="/articles/ecrire-bon-prompt-non-dev">savoir écrire un bon prompt</a>. Sans consigne claire, même le modèle le plus récent te renvoie une salade.</p>
+    <div class="callout tip"><h4>Mon conseil</h4><p>Avant d'envoyer tes devis, vérifie que tu es dans une session privée et que tu comprends où vont tes données. Les devis contiennent souvent des montants, des adresses, des descriptions de projet. Jette un œil à mon article sur les <a href="/articles/donnees-perso-ia-confidentialite">données personnelles et la confidentialité</a> pour ne pas prendre de risque évitable.</p></div>
+    
+    <h2>Mon tableau comparatif pas à pas</h2>
+    <p>Voici exactement comment je procède. J&#39;ouvre un nouveau chat. J&#39;upload mes fichiers. Et je donne cette trame à l&#39;IA.</p>
+    <p>Première étape, je demande l&#39;extraction brute. Je veux que l&#39;IA identifie les parties, les dates, les valeurs, les garanties, les délais et les exclusions. Elle catégorise chaque clause et range les informations dans des colonnes claires. C&#39;est ce qu&#39;elle fait le mieux : transformer un fouillis de paragraphes en données structurées.</p>
+    <p>Deuxième étape, je demande un tableau comparatif. Trois colonnes minimum : le critère, le prestataire A, le prestataire B. Parfois j&#39;ajoute une colonne &quot;Mon commentaire&quot; que je remplis moi-même après lecture.</p>
+    <p>Troisième étape, je demande à l&#39;IA de signaler les écarts. Elle compare ce qu&#39;elle a trouvé avec une grille que je lui donne. Par exemple, je veux absolument une garantie d&#39;un an sur les pièces. Si un devis ne la mentionne pas, elle doit me le dire. Pas supposer qu&#39;elle est incluse par habitude.</p>
+    <p>Quatrième étape, je relis moi-même. L&#39;IA a fait le tri. Je prends la décision. Je n&#39;ai pas besoin de comprendre Python ni de toucher à une ligne de code. ChatGPT fait les calculs en arrière-plan. Moi, je regarde le résultat.</p>
+    <h2>Les bonnes questions à poser</h2>
+    <p>Le résultat dépend de ta consigne initiale. Si tu demandes &quot;compare ces devis&quot;, tu obtiendras un avis général flou. Si tu demandes &quot;liste chaque exclusion dans un tableau séparé&quot;, tu auras un outil de travail concret.</p>
+    <p>Voici ce qui fonctionne chez moi. Je commence par décrire mon projet en une phrase. Puis je précise le format de sortie. Ensuite, j&#39;ajoute une règle d&#39;or : si une information n&#39;est pas précisée dans le devis, note-le explicitement. Ne devine pas.</p>
+    <p>Cette dernière consigne change tout. Elle évite que l&#39;IA invente une garantie parce qu&#39;elle l&#39;a vue dans le document précédent. Elle t&#39;oblige à revenir vers le prestataire pour clarifier. C&#39;est exactement ce que tu veux. Un devis flou est un devis dangereux.</p>
+    <p>Tu peux aussi demander à l&#39;IA de reformuler les délais en nombre de jours ouvrés, de convertir les montants hors taxe en TTC, ou de classer les prestations par ordre de prix décroissant. Plus ta demande est précise, plus le tableau est utilisable.</p>
+    <div class="callout tip"><h4>Le piège à éviter</h4><p>Ne demande jamais à l'IA de choisir pour toi. Demande-lui de structurer. La décision reste entre tes mains. Si un devis est moins cher mais exclut la maintenance, seul toi peux savoir si tu as les ressources pour gérer ça en interne.</p></div>
+    
+    <h2>Ce que l&#39;IA débusque mieux que moi</h2>
+    <p>Quand je lis un devis seul, je zappe des lignes. C&#39;est humain. L&#39;IA relit chaque page avec la même attention. Elle repère les clauses manquantes, les formulations à risque, les délais flous et les garanties implicites. Elle m&#39;aide à voir ce que je préférerais ignorer parce que le document est ennuyeux.</p>
+    <p>Les outils spécialisés dans la révision de contrats vont encore plus loin que les modèles généralistes. Ils identifient des clauses non-standard que l&#39;on peut passer à la relecture manuelle. Pour ma part, avec ChatGPT ou Claude, je reste sur une analyse structurée mais je garde en tête cette limite.</p>
+    <p>Ce que je demande toujours : un inventaire des garanties, un calendrier des délais, une liste rouge des exclusions et une colonne sur les pénalités de retard. Si un point est flou, je le surligne. L&#39;IA m&#39;aide à voir les choses. Elle ne me dit pas ce que je dois faire.</p>
+    <h2>Pourquoi je garde la main</h2>
+    <p>L&#39;IA peut comparer, calculer, signaler et synthétiser. Elle ne peut pas négocier à ta place. Elle ne connaît pas la relation que tu as avec ton fournisseur. Elle ignore si tu préfères payer un peu plus pour dormir tranquille. Elle ne sait pas non plus si tu as déjà eu un problème avec une clause similaire l&#39;année dernière.</p>
+    <p>Les outils spécialisés surpassent les IA généralistes sur la détection de clauses complexes. Ils s&#39;appuient sur des playbooks juridiques prédéfinis et signalent les écarts par rapport à des normes. Mais pour un entrepreneur non-juriste qui compare des devis de rénovation, de marketing, de conseil ou d&#39;informatique, ChatGPT et Claude font déjà un travail remarquable.</p>
+    <p>Je garde la décision finale. Je relis les points sensibles. Parfois je demande un avis externe. L&#39;IA m&#39;a fait gagner du temps sur le tri. Elle ne m&#39;a pas transformé en expert. Et c&#39;est tant mieux.</p>
+    <p>Tu peux aussi lire mon article sur <a href="/articles/lire-contrat-ia-sans-se-tromper">comment lire un contrat avec l&#39;IA sans se tromper</a> pour approfondir la supervision humaine.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>L&#39;IA peut-elle analyser des devis dans n&#39;importe quel format (PDF, photo, Word, Excel) ?</h3>
+    <p>Oui. L&#39;IA traite des formats hétérogènes et s&#39;adapte à des mises en page variées. Elle cherche le sens plutôt que des champs fixes. ChatGPT, via Advanced Data Analysis, prend en charge les CSV, Excel, PDF et fichiers texte. Tu peux aussi lui envoyer une photo.</p>
+    <h3>Comment garantir la confidentialité de mes devis sensibles lorsque j&#39;utilise l&#39;IA ?</h3>
+    <p>Vérifie les conditions de la plateforme. Ne télécharge pas de données stratégiques dans une version gratuite dont tu ne maîtrises pas l&#39;hébergement. Si ton devis contient des montants confidentiels ou des données clients, anonymise ou utilise un service entreprise. J&#39;ai détaillé la démarche dans mon article sur les <a href="/articles/donnees-perso-ia-confidentialite">données personnelles et la confidentialité</a>.</p>
+    <h3>Est-ce que l&#39;IA peut détecter les clauses cachées ou les exclusions importantes dans un devis ?</h3>
+    <p>Elle peut identifier les exclusions et signaler les formulations à risque. Les outils spécialisés vont plus loin que les modèles généralistes. Mais l&#39;œil humain reste nécessaire pour juger de l&#39;impact réel d&#39;une clause sur ton activité.</p>
+    <h3>Quel est le meilleur outil (ChatGPT, Claude, Gemini) pour m&#39;aider à comparer des devis ?</h3>
+    <p>À la date de cet article, ChatGPT 6 Astra est disponible depuis le 3 septembre 2026, Claude Fable 5.2 depuis le 9 novembre, et Gemini 4 Argon est en cours de déploiement depuis le 13 octobre. ChatGPT excelle pour les tableaux et calculs. Claude tient mieux les longs documents. Gemini est pertinent si tu es déjà dans l&#39;écosystème Google. Teste les trois avec le même prompt et garde celui qui te parle le plus.</p>
+    <h3>Dois-je systématiquement vérifier les résultats fournis par l&#39;IA pour mes comparaisons de devis ?</h3>
+    <p>Oui. Demande à l&#39;IA de noter explicitement ce qui n&#39;est pas précisé plutôt que de supposer. Relis chaque point sensible. L&#39;IA structure. Tu décides.</p>
+    <h3>L&#39;IA peut-elle aller jusqu&#39;à m&#39;aider à négocier les devis avec mes fournisseurs ?</h3>
+    <p>Elle peut te préparer des arguments en te montrant les écarts entre plusieurs propositions. Elle peut rédiger un email de négociation. Mais elle ne connaît pas la valeur de ta relation avec le prestataire. La négociation reste humaine.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Je compare mes devis avec l&#39;IA depuis plusieurs mois. Je gagne du temps. Je zappe moins de détails. Et surtout, je me sens moins seul face à des documents de vingt pages.</p>
+    <p>Je n&#39;ai pas besoin d&#39;être développeur pour ça. J&#39;ai besoin d&#39;un bon prompt, de fichiers propres, et de garder la tête froide. L&#39;IA construit le tableau. Je garde le stylo rouge. C&#39;est exactement l&#39;équilibre que je cherchais.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+</body>
+</html>

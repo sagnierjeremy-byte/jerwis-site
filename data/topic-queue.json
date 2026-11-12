@@ -632,10 +632,11 @@
       "topic": "comparer des devis avec l'IA : un tableau prix, délais, garanties et exclusions, dans le chat ou dans l'app Claude ou ChatGPT en mode Work, en gardant la décision pour soi",
       "type": "A",
       "priority": 0,
-      "status": "pending",
+      "status": "done",
       "added": "2026-11-02",
       "added_by": "claude",
-      "parcours_etape": 3
+      "parcours_etape": 3,
+      "published_at": "2026-11-12"
     },
     {
       "id": "repondre-avis-clients-ia",
