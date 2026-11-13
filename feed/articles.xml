@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 12 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Gérer tes avis clients avec l&apos;IA sans coder</title>
+      <link>https://jerwis.fr/articles/repondre-avis-clients-ia</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/repondre-avis-clients-ia</guid>
+      <description>95% des clients lisent les avis avant d&apos;acheter. Voici comment j&apos;utilise ChatGPT et Claude pour répondre vite, garder mon ton, et gérer les critiques sans stress.</description>
+      <pubDate>Fri, 13 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Comparateur devis IA : ma méthode pas à pas</title>
       <link>https://jerwis.fr/articles/comparer-devis-ia</link>

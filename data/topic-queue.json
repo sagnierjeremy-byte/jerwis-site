@@ -643,10 +643,11 @@
       "topic": "répondre aux avis clients avec l'IA : garder son ton, traiter un avis négatif sans s'énerver, préparer des réponses en série dans l'app Claude ou ChatGPT en mode Work, et relire avant de publier",
       "type": "A",
       "priority": 0,
-      "status": "pending",
+      "status": "done",
       "added": "2026-11-02",
       "added_by": "claude",
-      "parcours_etape": 3
+      "parcours_etape": 3,
+      "published_at": "2026-11-13"
     }
   ]
 }

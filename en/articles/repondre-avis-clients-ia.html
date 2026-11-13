@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - DO NOT DELETE THE BLOCKS BELOW
+     · TITLE ≤ 60 characters (without suffix)
+     · META DESCRIPTION: 140-155 characters
+     · OG/TWITTER: titles ≤ 60, descriptions ≤ 110
+     · CANONICAL: absolute URL with exact slug
+     · ONLY 1 JSON-LD (TechArticle for tutorials, OpinionPiece for opinions)
+     · OG:IMAGE: point to photos/og/repondre-avis-clients-ia.jpg (generated via scripts/og-batch.html)
+-->
+
+<title>Handle customer reviews with AI, no coding needed</title>
+<meta name="description" content="95% of customers read reviews before buying. Here's how I use ChatGPT and Claude to reply fast, keep my tone, and handle criticism without the stress.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Handle customer reviews with AI, no coding needed">
+<meta property="og:description" content="95% of customers read reviews before buying. I use ChatGPT and Claude to reply fast, keep my tone, and handle bad reviews without stress.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/repondre-avis-clients-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/repondre-avis-clients-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-13">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Handle customer reviews with AI, no coding needed">
+<meta name="twitter:description" content="95% of customers read reviews before buying. I use ChatGPT and Claude to reply fast, keep my tone, and handle bad reviews without stress.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/repondre-avis-clients-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/repondre-avis-clients-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/repondre-avis-clients-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/repondre-avis-clients-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/repondre-avis-clients-ia">
+
+<!-- Schema.org · ONLY 1 JSON-LD : TechArticle (tutorials) or OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Handle customer reviews with AI, no coding needed",
+  "description": "95% of customers read reviews before buying. Here's how I use ChatGPT and Claude to reply fast, keep my tone, and handle criticism without the stress.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/repondre-avis-clients-ia",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/repondre-avis-clients-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 74</div>
+    <h1>Customer reviews<br>you can't escape them<br><em>and replying to each one wears you out</em></h1>
+    <p class="hero-lead">
+      95% of consumers read online reviews before buying, and 56% favor brands that reply. Yet between glowing praise, random remarks, bitter complaints, and endless questions, handling it all by hand quickly becomes a full-time job. I'm not a developer. I don't have a dedicated community manager. So I looked into getting AI to help me without sounding like a robot. Here's what actually works.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>6 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>Personalize your replies with AI to keep a human tone</li>
+      <li>Handle negative reviews without emotion and offer a solution</li>
+      <li>Batch your replies with ChatGPT or Claude's Work mode</li>
+      <li>Always proofread before posting, because AI still makes mistakes</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested on myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Why every review deserves a reply</h2>
+    <p>A 2025 study already showed that 95% of consumers read reviews before buying. And 56% of them favor brands that take the time to reply. Every comment is a shop window. Even the one that seems harmless.</p>
+    <p>The problem is time. When you run your business alone, or with a small team, writing twenty personalized replies a week becomes a chore. You end up copy-pasting canned formulas. Or worse, not replying at all. I wanted an assistant that helps me save time without taking over. AI fills that role when I supervise it.</p>
+    <p>Today, 83% of customer service organizations use AI in one form or another. AI already handles 30% of these cases, with a projection to 50% by 2027 (2026). AI agent adoption in this field jumped from 39% in 2025 to 66% in 2026, according to a Salesforce survey from May 2026. It's no longer a curiosity. It's become an everyday tool for many entrepreneurs. Myself included.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Even AI can sound like you</h2>
+    <p>Risk number one is tone. Customers instantly smell the generic reply. You know, the one that starts with a stiff politeness formula and ends on a slick slogan. AI can actually help you avoid that. It's able to keep a consistent style across all your replies, whether they're positive or negative. The secret is the context you give it.</p>
+    <p>What I do in practice. I keep three or four real replies I wrote by hand in a text file. Before asking the AI anything, I paste these examples. I tell it: "Analyze this tone. It's direct and jargon-free. Short sentences." Only then do I submit a new review to handle. The result is striking. The proposed reply sounds like something I could have written at 10 a.m. after two coffees. Meaning correct, but human.</p>
+    <p>For example, faced with a customer praising the speed, a generic reply would say "We thank you for your comment." My version, and the one the AI learns to imitate, would rather say "Glad it was smooth for you, that's exactly what we aim for."</p>
+    <p>If you want to go deeper on this mechanic, I broke down how to <a href="/en/articles/ecrire-bon-prompt-non-dev">write effective prompts even without being a developer</a>. And to train the AI to really catch your style, this other field note on <a href="/en/articles/personnaliser-chatgpt-claude">how to personalize ChatGPT and Claude to match you</a> rounds out the topic nicely.</p>
+    <div class="callout tip"><h4>The game changer</h4><p>The simplest trick is to store your best past replies in a document. AI imitates what you show it. It never guesses your character on its own. The more examples you give it, the more accurate it gets.</p></div>
+    
+    <h2>When a review stings, stay human</h2>
+    <p>This is where AI gets really useful. 96% of consumers specifically read negative reviews to judge how a brand handles its problems (2025). Your reply to a critic doesn't just reassure the unhappy customer. It reassures every future buyer who'll come across it.</p>
+    <p>Me, when I read a harsh review at 11 p.m., I want to reply right away. That's a mistake. AI acts as my safety net. I copy the review into ChatGPT or Claude. I ask for an empathetic reply that never challenges the customer's version of events. Even if I know they're wrong. Especially if I know they're wrong. The goal isn't to win the case. It's to show you heard them and you're offering a solution.</p>
+    <p>AI helps me find words I wouldn't have come up with on my own in the heat of the moment. It suggests phrasing that defuses tension. In my prompt, I always add an explicit instruction: "Propose a real solution. Don't justify yourself over three paragraphs. A sincere apology and a short explanation, then an action." You then decide if the solution it sketches out is viable in your business model. But AI gives you the skeleton of a calming reply. It keeps you from sending an email you'll regret in the morning.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Batch your replies</h2>
+    <p>When you have a dozen reviews to handle, you don't want to copy them one by one. Generative AI tools can draft instant, personalized replies that take each review's context into account. To process them in bulk, I use two methods depending on which tool I'm using at the moment.</p>
+    <p>With ChatGPT, I open a project in Work mode. I paste the list of my week's reviews into the context window. I ask the AI to output a table with two columns: review summary and proposed reply. It follows the rules I gave it upfront. No identical text for everyone. No direct promo line. And above all, no private customer data in the reply. Google and Yelp don't mention AI in their policies, but they strongly discourage copy-paste and personal information. Personalization remains mandatory.</p>
+    <p>With Claude, I use the desktop app. I open a folder containing a text file with the reviews to handle. Claude analyzes the batch and proposes replies. It's a basic <a href="/en/lexique/agentic-workflow">agentic workflow</a>, but very effective. You set the rules once, it applies them to each line. This batch process saves me an hour a week. An hour I reinvest in tasks AI can't do.</p>
+    <p>If you're looking to automate other tasks without writing a single line of code, this workflow is similar to what I describe in <a href="/en/articles/automatiser-taches-ia-sans-coder">this article on no-code automation</a>. And if you want to push ChatGPT further for this kind of bulk processing, I listed some <a href="/en/articles/fonctions-cachees-chatgpt">hidden features that are super useful for this type of flow</a>.</p>
+    <div class="callout tip"><h4>The mistake to avoid</h4><p>I tested asking AI to reply to three reviews in a row without proofreading. Two were perfect. The third suggested a refund I'd never approved. Since then, I proofread every line. AI doesn't pay. You do.</p></div>
+    
+    <h2>Proofread before hitting send</h2>
+    <p>I never publish an AI-generated reply without proofreading it. Never. Even the best tools produce inaccuracies or outdated examples. Sometimes they adopt a tone that drifts off. Human proofreading remains essential. That's what "human in the loop" mode means. AI proposes, you validate or edit before publishing.</p>
+    <p>What I check first. First, the facts. AI sometimes tends to invent an order detail or generalize a return policy. Next, the tone. The reply has to sound like you, not like a management handbook. Finally, the sign-off. I like to end with a personal sentence. AI often forgets that little touch.</p>
+    <p>Sometimes AI over-interprets a neutral review as negative. It apologizes when no harm was done. This kind of mismatch is obvious during proofreading. This quick check takes thirty seconds per reply. It protects you from a public blunder. And it lets you enrich the text with a detail the AI couldn't guess.</p>
+    <h2>Which tool to pick right now</h2>
+    <p>As of this article, three major models just arrived or got updated. ChatGPT 6 Astra has been available for Business and Enterprise subscriptions since September 16, 2026, and for Pro subscriptions at $100 or $200 with limits. Anthropic launched Claude Fable 5.2 on November 9, 2026. This version brings improvements in programming and reasoning, plus better image analysis, with a 20% price drop from the previous one. Finally, Google rolled out Gemini 4 Hydrogen on November 13, 2026, which replaces Gemini 3.8 Flash as the default free model in the app, search, and API.</p>
+    <p>Whether you're on a paid plan or a free version, the essentials stay the same. It's not the most advanced model that makes a good reply. It's the quality of your prompt and your proofreading. For simply drafting review replies, a free model like Gemini 4 Hydrogen or a standard subscription are more than enough. If you're new to Claude, <a href="/en/articles/claude-c-est-quoi">this article explains what it really is</a>.</p>
+    <h2>FAQ</h2>
+    <h3>Can AI really understand sarcasm or irony in a customer review?</h3>
+    <p>Not really. It often detects that a review is negative, but it frequently misses the nuance. A customer writing "Great, another on-time delivery" when they're actually late can be misread. That's why human proofreading is crucial. You have to spot the irony yourself and adjust the reply.</p>
+    <h3>How do you make sure AI respects your brand voice?</h3>
+    <p>You give it concrete examples of your own replies. Not an abstract description of the style. Real text. Three or four replies you wrote by hand are plenty to calibrate the model. Then you iterate. If a draft drifts, you correct it and ask the AI to integrate that correction going forward.</p>
+    <h3>Is it ethical and legal to use AI to reply to customer reviews?</h3>
+    <p>Yes, as long as you proofread and validate every reply before publishing. What's strictly forbidden is generating or posting fake positive reviews via AI. Those practices count as deceptive business practices. AI should help you reply. Not cheat.</p>
+    <h3>What are the risks of letting AI reply to reviews automatically without supervision?</h3>
+    <p>The tone can become inappropriate. The tool may suggest a solution you haven't approved, or use generic phrasing that platforms don't like. The best solutions run in "human in the loop" mode. AI generates, you control. That's the filter that prevents disasters.</p>
+    <h3>How do you train your AI to handle specific customer situations or recurring complaints?</h3>
+    <p>You create a system prompt with your business rules. For example, "If the customer mentions a late delivery, apologize and offer a partial refund of X euros max. If it's a quality complaint, offer unconditional replacement." You test this prompt on five or six real reviews. You note what doesn't work. You refine. It's a gradual tuning job. Starting from the basics of a good prompt remains the best starting point for structuring these instructions.</p>
+    <h3>Is using AI for review replies detectable by customers or platforms?</h3>
+    <p>If you proofread and personalize every reply, no. However, if you publish identical or nearly identical text from one review to the next, platforms like Google or Yelp may flag them as inauthentic. AI alone tends to smooth out the style. Your proofreading adds the human imperfections that make a reply credible.</p>
+    <h2>My takeaways</h2>
+    <p>I do all this first and foremost for myself. Because replying to reviews is necessary, but it's not what moves my business forward. AI gives me structure, a consistent tone, and a healthy distance from angry reviews. I stay in control. I choose what goes out, what stays in draft, and what deserves a phone call instead of a written reply.</p>
+    <p>At the end of the day, the goal stays simple. Reply better, faster, without wrecking your nerves. With human verification at every step, AI becomes an honest tool. And honestly, it's a game changer.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ CRITICAL ANCHOR: publish.js replaces the entire body between the end of the TL;DR and this "Final CTA" comment. DO NOT delete/rename it, or published articles will keep the template example body (incident from 2026-07-02→06). -->
+<!-- Article end: author signature -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with no jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday letter. And if you have a question or a doubt, reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unified) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>The <em>Friday letter.</em></h2>
+        <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer-en">
+        <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- "Summarize with AI" bar (auto-inserted after the TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/nav-v2.js" defer></script>
+<script src="/assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

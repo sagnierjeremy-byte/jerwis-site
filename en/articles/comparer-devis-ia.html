@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/comparer-devis-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>AI quote comparison: my step-by-step method</title>
+<meta name="description" content="How I use ChatGPT and Claude to compare complex quotes: price tables, timelines, warranties and exclusions. No coding needed, and you stay in control.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI quote comparison: my step-by-step method">
+<meta property="og:description" content="I compare quotes with ChatGPT and Claude: prices, timelines, warranties, exclusions. No coding.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/comparer-devis-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/comparer-devis-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-12">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="AI quote comparison: my step-by-step method">
+<meta name="twitter:description" content="I compare quotes with ChatGPT and Claude: prices, timelines, warranties, exclusions. No coding.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/comparer-devis-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/comparer-devis-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/comparer-devis-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/comparer-devis-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/comparer-devis-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AI quote comparison: my step-by-step method",
+  "description": "How I use ChatGPT and Claude to compare complex quotes: price tables, timelines, warranties and exclusions. No coding needed, and you stay in control.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/comparer-devis-ia",
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/comparer-devis-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 55</div>
+    <h1>Your quotes<br>under control<br><em>with AI</em></h1>
+    <p class="hero-lead">
+      Got three quotes for the same project and your head is spinning? Same here. I used to spend hours copying numbers into spreadsheets to compare them. Now I use ChatGPT and Claude to sort them out for me. I'll show you how I build a solid comparison table, without writing a single line of code and without ever handing off the final decision.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>AI reads <strong>heterogeneous formats</strong> (PDF, photo, Excel) with no prep work</li>
+      <li>ChatGPT and Claude extract prices, timelines, warranties and exclusions into a table</li>
+      <li>The right prompt tells the AI to flag what is <strong>not specified</strong>, not to guess</li>
+      <li>The final call stays human: the AI structures, you negotiate and you choose</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested on my own stuff first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested on my own stuff first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>AI helps me see clearly</h2>
+    <p>I do all this for myself first. Six months ago, I almost signed a renovation quote without noticing the ten-year warranty was excluded. I reread the document three times. Nothing. A friend spotted it in ten seconds. I realized my eyes tire quickly when staring at pages of numbers and clauses.</p>
+    <p>Since then, I send my quotes to AI before signing anything. I'm not a developer. I don't use a terminal or scripts. I open the Claude desktop app or switch ChatGPT to <a href="/en/lexique/chatgpt-work">Work mode</a>. I upload my files. I ask for a comparison table. Prices, timelines, warranties and exclusions. In two minutes, I have an overview I can read calmly.</p>
+    <p>You can do this too. This article shows the method I built step by step.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Different formats, one place for everything</h2>
+    <p>Quotes never arrive standardized. One is a scanned PDF, another a badly formatted Word doc, the third a screenshot sent by email. Before, I'd spend an hour copying amounts into a spreadsheet. I'd make typos. I'd mix up services.</p>
+    <p>Today, AI handles these heterogeneous formats without me needing to retype everything. It reads the meaning of the document rather than hunting for prefilled fields. PDF, photo, Word or Excel, it adapts to the layout. That's a huge advantage when you're comparing providers who don't use any common software.</p>
+    <p>Me, I upload my files straight into the chat. ChatGPT, via its Advanced Data Analysis feature, accepts CSV, Excel, PDF and text files. It summarizes data, creates tables and does calculations. Claude, for its part, packs a huge <a href="/en/lexique/context-window">context window</a>. Up to a million tokens for some beta models. In plain English, you can paste several long quotes into the same conversation without it forgetting the beginning. You ask a question about page 12 of the second document, it knows what you're talking about.</p>
+    <h2>ChatGPT and Claude: what changes everything</h2>
+    <p>At the date of this article, several models coexist. ChatGPT 6 Astra came out on September 3, 2026, followed by GPT-6.1 Terra on October 26. At Anthropic, Claude Fable 5.2 arrived on November 9, 2026, while the 5.5 family (Opus, Sonnet, Haiku) rolled out between September and October. Google has been deploying Gemini 4 Argon for its Pro and Ultra subscribers since October 13.</p>
+    <p>I'm not going to tell you which one to pick. To compare quotes, I switch depending on the need. When I want tables and quick calculations, I go with ChatGPT in Work mode. When documents are twenty pages each and the conversation stretches over several back-and-forths, I prefer Claude for its long memory.</p>
+    <p>The important thing is to <a href="/en/articles/ecrire-bon-prompt-non-dev">know how to write a good prompt</a>. Without clear instructions, even the newest model sends back a mess.</p>
+    <div class="callout tip"><h4>My tip</h4><p>Before sending your quotes, check that you're in a private session and that you understand where your data goes. Quotes often contain amounts, addresses, project descriptions. Take a look at my article on <a href="/en/articles/donnees-perso-ia-confidentialite">personal data and privacy</a> so you don't take an avoidable risk.</p></div>
+    
+    <h2>My comparison table step by step</h2>
+    <p>Here's exactly how I proceed. I open a new chat. I upload my files. And I give the AI this framework.</p>
+    <p>First step, I ask for raw extraction. I want the AI to identify sections, dates, values, warranties, timelines and exclusions. It categorizes each clause and sorts the info into clear columns. That's what it does best: turning a mess of paragraphs into structured data.</p>
+    <p>Second step, I ask for a comparison table. Three columns minimum: the criterion, provider A, provider B. Sometimes I add a 'My notes' column that I fill in myself after reading.</p>
+    <p>Third step, I ask the AI to flag gaps. It compares what it found against a checklist I give it. For example, I absolutely want a one-year warranty on parts. If a quote doesn't mention it, it must tell me. Not assume it's included by habit.</p>
+    <p>Fourth step, I reread myself. The AI did the sorting. I make the decision. I don't need to understand Python or touch a single line of code. ChatGPT does the calculations in the background. Me, I look at the result.</p>
+    <h2>The right questions to ask</h2>
+    <p>The result depends on your initial prompt. If you ask 'compare these quotes', you'll get a vague general opinion. If you ask 'list every exclusion in a separate table', you'll get a concrete working tool.</p>
+    <p>Here's what works for me. I start by describing my project in one sentence. Then I specify the output format. Next, I add a golden rule: if a piece of info isn't specified in the quote, note it explicitly. Don't guess.</p>
+    <p>That last instruction changes everything. It stops the AI from inventing a warranty because it saw one in the previous document. It forces you to go back to the provider for clarification. That's exactly what you want. A vague quote is a dangerous quote.</p>
+    <p>You can also ask the AI to rephrase timelines in business days, convert pre-tax amounts to tax-inclusive, or sort services by descending price. The more specific your request, the more usable the table.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Never ask the AI to choose for you. Ask it to structure. The decision stays in your hands. If one quote is cheaper but excludes maintenance, only you can know if you have the resources to handle that internally.</p></div>
+    
+    <h2>What AI spots better than me</h2>
+    <p>When I read a quote alone, I skip lines. It's human. The AI rereads every page with the same attention. It spots missing clauses, risky wording, vague timelines and implicit warranties. It helps me see what I'd rather ignore because the document is boring.</p>
+    <p>Specialized contract review tools go even further than generalist models. They identify non-standard clauses that can be passed to manual review. For my part, with ChatGPT or Claude, I stick to structured analysis but keep this limit in mind.</p>
+    <p>What I always ask for: an inventory of warranties, a timeline of deadlines, a red list of exclusions and a column on late penalties. If a point is vague, I highlight it. The AI helps me see things. It doesn't tell me what to do.</p>
+    <h2>Why I keep control</h2>
+    <p>AI can compare, calculate, flag and synthesize. It can't negotiate for you. It doesn't know the relationship you have with your supplier. It doesn't know if you'd rather pay a bit more to sleep soundly. It also doesn't know if you already had a problem with a similar clause last year.</p>
+    <p>Specialized tools outperform generalist AI on detecting complex clauses. They rely on predefined legal playbooks and flag deviations from standards. But for a non-lawyer entrepreneur comparing renovation, marketing, consulting or IT quotes, ChatGPT and Claude already do remarkable work.</p>
+    <p>I keep the final decision. I reread sensitive points. Sometimes I ask for external advice. The AI saved me time on sorting. It didn't turn me into an expert. And that's fine.</p>
+    <p>You can also read my article on <a href="/en/articles/lire-contrat-ia-sans-se-tromper">how to read a contract with AI without getting it wrong</a> to go deeper on human oversight.</p>
+    <h2>FAQ</h2>
+    <h3>Can AI analyze quotes in any format (PDF, photo, Word, Excel)?</h3>
+    <p>Yes. AI handles heterogeneous formats and adapts to varied layouts. It looks for meaning rather than fixed fields. ChatGPT, via Advanced Data Analysis, supports CSV, Excel, PDF and text files. You can also send it a photo.</p>
+    <h3>How do I guarantee confidentiality for my sensitive quotes when using AI?</h3>
+    <p>Check the platform's terms. Don't upload strategic data into a free version whose hosting you don't control. If your quote contains confidential amounts or client data, anonymize it or use an enterprise service. I detailed the process in my article on <a href="/en/articles/donnees-perso-ia-confidentialite">personal data and privacy</a>.</p>
+    <h3>Can AI detect hidden clauses or important exclusions in a quote?</h3>
+    <p>It can identify exclusions and flag risky wording. Specialized tools go further than generalist models. But the human eye remains necessary to judge the real impact of a clause on your business.</p>
+    <h3>Which is the best tool (ChatGPT, Claude, Gemini) to help me compare quotes?</h3>
+    <p>At the date of this article, ChatGPT 6 Astra has been available since September 3, 2026, Claude Fable 5.2 since November 9, and Gemini 4 Argon has been rolling out since October 13. ChatGPT excels at tables and calculations. Claude holds longer documents better. Gemini makes sense if you're already in the Google ecosystem. Test all three with the same prompt and keep the one that speaks to you most.</p>
+    <h3>Should I systematically verify the results provided by AI for my quote comparisons?</h3>
+    <p>Yes. Ask the AI to explicitly note what isn't specified rather than assuming. Reread every sensitive point. The AI structures. You decide.</p>
+    <h3>Can AI go as far as helping me negotiate quotes with my suppliers?</h3>
+    <p>It can prep arguments by showing you gaps between several proposals. It can draft a negotiation email. But it doesn't know the value of your relationship with the provider. Negotiation stays human.</p>
+    <h2>My takeaways</h2>
+    <p>I've been comparing my quotes with AI for several months. I save time. I miss fewer details. And most of all, I feel less alone facing twenty-page documents.</p>
+    <p>I don't need to be a developer for this. I need a good prompt, clean files, and a cool head. The AI builds the table. I keep the red pen. That's exactly the balance I was looking for.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'
