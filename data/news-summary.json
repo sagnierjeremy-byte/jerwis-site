@@ -1,62 +1,70 @@
 {
-  "generated_at": "2026-11-12T13:30:46.334Z",
-  "day_label": "Jeudi 12 novembre",
+  "generated_at": "2026-11-13T12:48:43.760Z",
+  "day_label": "Vendredi 13 novembre",
   "items": [
     {
-      "title": "Claude lance trois outils pour concurrencer Office",
-      "why_it_matters": "Je note que Claude lance des outils bureautiques. La concurrence contre Office et Google va faire baisser les prix.",
-      "sources": [
-        {
-          "name": "Siècle Digital",
-          "url": "https://siecledigital.fr/2026/11/12/claude-lance-trois-nouveaux-outils-pour-concurrencer-directement-microsoft-office-et-google-workspace/"
-        }
-      ]
-    },
-    {
-      "title": "La cybersécurité NIS 2 avance enfin en France",
-      "why_it_matters": "Je retiens que la loi NIS 2 sur la cybersécurité avance. Toutes les entreprises devront bientôt se mettre en conformité.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/projet-loi-resilience-nis-2-230228"
-        }
-      ]
-    },
-    {
-      "title": "Pénurie de carburant dans plus de 2 200 stations",
-      "why_it_matters": "Je note que plus de 2 200 stations sont en rupture de carburant. Cela ralentit les déplacements pros et les livraisons.",
-      "sources": [
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/auto/plus-de-2-200-stations-sans-gazole-ou-sans-essence-la-carte-de-la-penurie-de-carburant-pres-de-chez-vous-1531789"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/auto/penurie-de-carburant-dans-le-grand-est-combien-de-temps-va-t-elle-durer-dominique-schelcher-u-repond-1531785"
-        }
-      ]
-    },
-    {
-      "title": "Plan de relance agricole à 725 millions d'euros",
-      "why_it_matters": "Je retiens que l'agriculture reçoit 725 millions d'euros de relance. C'est une opportunité pour vendre des équipements ou services.",
+      "title": "Panne mondiale Outlook et Microsoft 365",
+      "why_it_matters": "Je note que quand Outlook tombe, mon entreprise s'arrête. C'est le moment de réfléchir à une solution de secours.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/le-plan-de-relance-agricole-s-elevera-finalement-a-725-millions-d-euros-annonce-annie-genevard-20261112"
+          "url": "https://www.lefigaro.fr/secteur/high-tech/entreprises-paralysees-examens-perturbes-avions-retardes-la-panne-mondiale-de-microsoft-et-outlook-provoque-des-consequences-en-cascade-20261113"
         },
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/plan-de-relance-agricole-la-ministre-de-l-agriculture-promet-725-millions-d-euros-notamment-pour-l-adaptation-au-changement-climatique_8279273.html"
+          "name": "IT for Business",
+          "url": "https://www.itforbusiness.fr/panne-mondiale-microsoft-365-outlook-109861"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/panne-outlook-pourquoi-elle-tombe-au-pire-moment-pour-letat-francais.html"
         }
       ]
     },
     {
-      "title": "Gérer sa fiche entreprise sur ChatGPT",
-      "why_it_matters": "Je note que l'on peut désormais gérer sa fiche entreprise sur ChatGPT. C'est un nouveau canal de visibilité à surveiller.",
+      "title": "Nvidia sans Jensen Huang : le choc à la tête du leader IA",
+      "why_it_matters": "Je retiens que le patron historique est parti et les employés réclament son retour. L'incertitude sur les puces IA me fait surveiller les prix.",
       "sources": [
         {
-          "name": "Siècle Digital",
-          "url": "https://siecledigital.fr/2026/11/12/les-entreprises-peuvent-desormais-gerer-leur-presence-sur-chatgpt-grace-a-une-nouvelle-fonctionnalite/"
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/"
+        },
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/ramenez-le-patron-des-employes-nvidia-reclament-deja-le-retour-de-jensen-huang.html"
+        },
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/nvidia-face-a-un-tournant-historique-son-incroyable-croissance-peut-elle-tenir-507822.htm"
+        }
+      ]
+    },
+    {
+      "title": "Cyberattaque record chez Crédit Mutuel Arkéa",
+      "why_it_matters": "Je retiens qu'une banque a perdu 100 millions d'euros. Ça me prouve que la cybersécurité n'est pas une option, même pour les grands.",
+      "sources": [
+        {
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275"
+        }
+      ]
+    },
+    {
+      "title": "L'Europe veut interdire les dark patterns",
+      "why_it_matters": "Je note que l'UE va surveiller les interfaces manipulatrices sur nos sites. Je dois vérifier mon parcours client dès maintenant.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/digital-fairness-act-la-commission-europeenne-veut-tirer-les-dark-patterns-au-clair-507806.htm"
+        }
+      ]
+    },
+    {
+      "title": "La startup Jolimoi ferme après 10 millions levés",
+      "why_it_matters": "Je retiens que lever des fonds ne garantit pas la survie. C'est un bon rappel sur la rentabilité avant tout.",
+      "sources": [
+        {
+          "name": "Frenchweb",
+          "url": "https://www.frenchweb.fr/breaking-news/jolimoi-ferme-apres-avoir-leve-plus-de-10-millions-d-euros/c9c2fc76-a562-4890-a05a-92d27ef72ca0?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news"
         }
       ]
     }
