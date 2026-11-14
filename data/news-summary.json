@@ -1,70 +1,62 @@
 {
-  "generated_at": "2026-11-13T12:48:43.760Z",
-  "day_label": "Vendredi 13 novembre",
+  "generated_at": "2026-11-14T11:55:54.484Z",
+  "day_label": "Samedi 14 novembre",
   "items": [
     {
-      "title": "Panne mondiale Outlook et Microsoft 365",
-      "why_it_matters": "Je note que quand Outlook tombe, mon entreprise s'arrête. C'est le moment de réfléchir à une solution de secours.",
+      "title": "Panne Outlook mondiale : 500 millions de pertes pour les entreprises",
+      "why_it_matters": "Je retiens qu'une panne chez Microsoft peut coûter 500 millions aux entreprises. Si on mise tout sur le cloud sans plan B, une panne bloque tout.",
+      "sources": [
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/tech/2374527-panne-geante-microsoft-balaie-la-theorie-dun-agent-ia-qui-aurait-derape.html"
+        },
+        {
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/panne-d-outlook-microsoft-annonce-un-retablissement-complet-du-service-les-pertes-pourraient-atteindre-500-millions-de-dollars-pour-les-entreprises-touchees_AV-202611140194.html"
+        }
+      ]
+    },
+    {
+      "title": "En France, l'IA freine déjà l'embauche des jeunes",
+      "why_it_matters": "Je note que l'IA ne remplace pas tout de suite les salariés, mais elle empêche déjà les jeunes d'entrer dans l'entreprise. Ça change le recrutement.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/yann-le-cun-ne-croit-pas-a-la-fin-du-travail-mais-en-france-lia-freine-deja-lembauche-des-jeunes.html"
+        }
+      ]
+    },
+    {
+      "title": "Scandale Nvidia : Jensen Huang démissionne, choc pour l'IA",
+      "why_it_matters": "Je retiens que le leader des puces IA est fragilisé par un scandale géopolitique. Ça peut impacter les prix et la chaîne d'approvisionnement.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/nvidia/3320401_affaire-jensen-huang-tout-ce-quon-sait-sur-le-scandale-nvidia"
+        },
+        {
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/idees/article/2026/11/14/l-administration-trump-percutee-par-l-onde-de-choc-nvidia_6809983_3232.html"
+        }
+      ]
+    },
+    {
+      "title": "L'immobilier est en panne, prix et ventes s'effondrent",
+      "why_it_matters": "Je note que le marché immobilier s'effondre. Si vous avez des locaux à acheter ou à vendre, les prix baissent et le financement se raréfie.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/entreprises-paralysees-examens-perturbes-avions-retardes-la-panne-mondiale-de-microsoft-et-outlook-provoque-des-consequences-en-cascade-20261113"
-        },
-        {
-          "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/panne-mondiale-microsoft-365-outlook-109861"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/panne-outlook-pourquoi-elle-tombe-au-pire-moment-pour-letat-francais.html"
+          "url": "https://www.lefigaro.fr/economie/chute-des-ventes-prix-en-baisse-la-grande-panne-de-l-immobilier-20261113"
         }
       ]
     },
     {
-      "title": "Nvidia sans Jensen Huang : le choc à la tête du leader IA",
-      "why_it_matters": "Je retiens que le patron historique est parti et les employés réclament son retour. L'incertitude sur les puces IA me fait surveiller les prix.",
+      "title": "82% des Français ne croient plus au Made in France",
+      "why_it_matters": "Je retiens que les clients ne font plus confiance aux étiquettes 'fabriqué en France'. Si vous vendez du local, il faut prouver l'origine mieux qu'avant.",
       "sources": [
         {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/ramenez-le-patron-des-employes-nvidia-reclament-deja-le-retour-de-jensen-huang.html"
-        },
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/nvidia-face-a-un-tournant-historique-son-incroyable-croissance-peut-elle-tenir-507822.htm"
-        }
-      ]
-    },
-    {
-      "title": "Cyberattaque record chez Crédit Mutuel Arkéa",
-      "why_it_matters": "Je retiens qu'une banque a perdu 100 millions d'euros. Ça me prouve que la cybersécurité n'est pas une option, même pour les grands.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/credit-mutuel-arkea-le-president-decrit-une-cyberattaque-inedite-230275"
-        }
-      ]
-    },
-    {
-      "title": "L'Europe veut interdire les dark patterns",
-      "why_it_matters": "Je note que l'UE va surveiller les interfaces manipulatrices sur nos sites. Je dois vérifier mon parcours client dès maintenant.",
-      "sources": [
-        {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/digital-fairness-act-la-commission-europeenne-veut-tirer-les-dark-patterns-au-clair-507806.htm"
-        }
-      ]
-    },
-    {
-      "title": "La startup Jolimoi ferme après 10 millions levés",
-      "why_it_matters": "Je retiens que lever des fonds ne garantit pas la survie. C'est un bon rappel sur la rentabilité avant tout.",
-      "sources": [
-        {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/breaking-news/jolimoi-ferme-apres-avoir-leve-plus-de-10-millions-d-euros/c9c2fc76-a562-4890-a05a-92d27ef72ca0?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/made-in-france-pourquoi-les-francais-doutent-de-plus-en-plus-de-lorigine-francaise-des-produits-presentes-par-les-entreprises-1531834"
         }
       ]
     }
