@@ -444,8 +444,9 @@
       "topic": "trouver des idées de cadeaux de Noël avec l'IA : selon la personne et le budget, comparer les prix, créer une carte ou un cadeau personnalisé",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-16"
     },
     {
       "id": "enfants-chatbots-ia",
