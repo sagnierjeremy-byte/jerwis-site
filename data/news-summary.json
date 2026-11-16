@@ -1,70 +1,74 @@
 {
-  "generated_at": "2026-11-15T12:27:41.910Z",
-  "day_label": "Dimanche 15 novembre",
+  "generated_at": "2026-11-16T13:20:31.427Z",
+  "day_label": "Lundi 16 novembre",
   "items": [
     {
-      "title": "L'IA ne fait pas gagner de temps, c'est confirmé",
-      "why_it_matters": "je retiens que les outils IA créent souvent plus de travail qu'ils n'en suppriment, méfiance sur les promesses de productivité",
+      "title": "Bruno Le Maire veut hausser la TVA, le Smic et l'âge de la retraite",
+      "why_it_matters": "Je retiens que ces trois mesures changeraient mes coûts fixes et ma trésorerie si je recrute ou si je me rapproche de la retraite.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/1-h-30-de-plus-par-jour-lia-devait-vous-faire-gagner-du-temps-mais-ce-nest-finalement-pas-le-cas.html"
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-retraite/partir-a-65-ans-avec-45-annuites-bruno-le-maire-assume-sa-proposition-choc-pour-la-retraite-1531879"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/le-smic-a-1-700-euros-net-de-lfi-je-suis-pour-repond-michel-edouard-leclerc-a-eric-coquerel-1531876"
+        },
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/ceux-qui-bossent-payent-pour-tout-le-reste-bruno-le-maire-veut-3-points-de-tva-pour-augmenter-les-salaires-1531875"
         }
       ]
     },
     {
-      "title": "La hausse du Smic va coûter plus d'un milliard à l'État",
-      "why_it_matters": "je note que les bas salaires augmentent dès décembre, ça change mon calcul si j'ai des employés au Smic",
+      "title": "Renault supprime 1000 postes et en recrute 1600 en usine",
+      "why_it_matters": "Je note que l'industrie française se réorganise vite autour de l'électrique, ça crée des tensions sur les compétences.",
       "sources": [
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/finances-publiques/19627219960945/la-revalorisation-du-smic-et-des-bas-salaires-coutera-plus-dun-milliard-deuros-selon-le-gouvernement"
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/pour-repondre-a-la-forte-demande-de-voitures-electriques-renault-va-embaucher-plus-de-1-600-operateurs-dans-ses-usines-d-ici-a-2028-mais-aussi-supprimer-jusqu-a-1-000-postes-de-cols-blancs_AV-202611160504.html"
         },
         {
-          "name": "Le Monde",
-          "url": "https://www.lemonde.fr/politique/article/2026/11/15/les-revalorisations-du-smic-et-des-bas-salaires-des-fonctionnaires-couteront-un-peu-plus-de-1-milliard-d-euros-aux-finances-publiques-selon-le-gouvernement_6811009_823448.html"
-        },
-        {
-          "name": "France Info",
-          "url": "https://www.franceinfo.fr/economie/pouvoir-achat/il-y-aura-bien-une-hausse-des-points-pour-les-plus-bas-salaires-de-la-fonction-publique-confirme-le-ministre-david-amiel_8283254.html#xtor=RSS-3-%5Beconomie%5D"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/apres-l-ingenierie-renault-remet-a-plat-l-emploi-dans-ses-usines-francaises-20261116"
         }
       ]
     },
     {
       "title": "22 millions de données volées chez une filiale de La Poste",
-      "why_it_matters": "je retiens que la cybersécurité reste un risque réel, même chez les grandes entreprises, et que je dois protéger mes données clients",
+      "why_it_matters": "Je note qu'aucune entreprise n'est à l'abri, je dois vérifier mon assurance cyber et mes mots de passe dès aujourd'hui.",
       "sources": [
         {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/breaking-news/cyberattaque-chez-maileva-les-coordonnees-de-22-millions-de-personnes-derobees/4f07ff8b-28a7-4852-a72e-4c9997b0f385?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news"
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/actualites/22-millions-de-personnes-concernees-une-nouvelle-fuite-de-donnees-xxl-en-france-507901.htm#xtor=RSS-1"
         },
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/telecoms/31070241814747/22-millions-de-personnes-concernees-par-une-fuite-massive-de-donnees-d-une-filiale-de-la-poste"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/encore-une-cyberattaque-maileva-filiale-du-groupe-la-poste-annonce-un-vol-de-donnees-de-grande-ampleur-1531854"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/cyberattaques-comment-se-proteger-et-reagir-face-aux-fuites-de-donnees-personnelles-a-repetition-20240330"
         }
       ]
     },
     {
-      "title": "Une manager condamnée à 51 000 euros pour avoir espionné son équipe",
-      "why_it_matters": "je note qu'on ne peut pas lire les messages privés des salariés, même sur leur ordinateur pro, l'inspection du travail est très stricte là-dessus",
+      "title": "Les médias de LVMH signent un accord avec OpenAI",
+      "why_it_matters": "Je retiens que les grands groupes français négocient leurs contenus avec l'IA, ça pose la question du prix de mes propres données.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/elle-fouillait-les-ordinateurs-de-son-equipe-pour-lire-leurs-messages-la-manager-perd-51-000-euros-en-appel-1531856"
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/pixels/article/2026/11/16/les-medias-de-lvmh-dont-le-parisien-et-les-echos-signent-un-accord-avec-openai_6811772_4408996.html"
         }
       ]
     },
     {
-      "title": "L'IA de Google prive les annonceurs de clics",
-      "why_it_matters": "je retiens que les réponses IA gardent les internautes sur Google, mes campagnes sponsorisées risquent de rapporter moins",
+      "title": "Washington et Pékin se disputent le contrôle des puces d'IA",
+      "why_it_matters": "Je retiens que l'accès aux puces pour l'IA dépend des tensions géopolitiques, ça peut freiner mes projets ou les faire coûter plus cher.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/google-lia-capte-tant-de-recherches-que-des-annonceurs-narrivent-plus-a-depenser-leur-budget.html"
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/nvidia/3324687_la-vraie-raison-derriere-la-chute-du-patron-de-nvidia-la-liaison-etait-le-pretexte-la-chine-est-le-champ-de-bataille"
+        },
+        {
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/intelligence-artificielle/1558031-l-administration-trump-prevoit-de-designer-des-entreprises-d-ia-comme-champions-nationaux/"
         }
       ]
     }
