@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/enfants-chatbots-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Your kid talks to ChatGPT: boundaries and settings</title>
+<meta name="description" content="Your kid uses ChatGPT or My AI? Here are the parental settings to know in 2026, the real risks, and some ways to talk about it calmly with them.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Your kid talks to ChatGPT: boundaries and settings">
+<meta property="og:description" content="Your kid uses ChatGPT or My AI? Parental settings, real risks, and how to talk about it calmly in 2026.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/enfants-chatbots-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/enfants-chatbots-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-17">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Your kid talks to ChatGPT: boundaries and settings">
+<meta name="twitter:description" content="Your kid uses ChatGPT or My AI? Parental settings, real risks, and how to talk about it calmly in 2026.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/enfants-chatbots-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/enfants-chatbots-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/enfants-chatbots-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/enfants-chatbots-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/enfants-chatbots-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Your kid talks to ChatGPT: boundaries and settings",
+  "description": "Your kid uses ChatGPT or My AI? Here are the parental settings to know in 2026, the real risks, and some ways to talk about it calmly with them.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/enfants-chatbots-ia",
+  "datePublished": "2026-11-17",
+  "dateModified": "2026-11-17",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/enfants-chatbots-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 66</div>
+    <h1>Your kid<br>and AI<br><em>what you can do</em></h1>
+    <p class="hero-lead">
+      Your kid chats with ChatGPT or sends messages to My AI on Snapchat? You're not alone. As a curious parent who's not a developer, I spent hours digging into the 2026 parental settings, the real risks, and the right ways to talk about it without creating unnecessary conflict. Here's what I learned for you, with zero technical jargon.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, My AI</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li><strong>ChatGPT for Teens</strong> and the Snapchat Family Center offer real parental controls, but limited ones</li>
+      <li>Anthropomorphizing AI exposes young people to relational dependency and bias</li>
+      <li>You can link your account to manage schedules, but not read conversations</li>
+      <li>Dialogue and AI literacy remain your best protective tools</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>What is this, exactly?</h2>
+    <p>Your kid is chatting with a robot. It's not science fiction anymore. According to a YouGov survey from October 2026, 40% of 11-12 year olds use general-purpose AI tools every week. Yet only 26% of parents are aware of it. That 14 percentage point gap is what pushed me to write this.</p>
+    <p>ChatGPT 6.1, powered by GPT-6.1 Terra, came out on October 26, 2026. It reasons over images and can use a computer for you. It's a powerful version. My kid can access it from a browser or an app. My AI, for its part, lives right inside Snapchat. It answers questions. It also offers ideas and creative suggestions for writing. No need to install anything. It's right there, in the app your teen already uses to talk with friends. The barrier to entry is almost zero. One swipe, and the conversation starts. If you want to understand how these tools invite themselves onto young people's phones, I broke down the stakes of <a href="/en/articles/ia-sur-telephone">AI on phones</a>.</p>
+    <p>OpenAI bans ChatGPT for children under 13. For 13-17 year olds, parents or guardians need to give permission. But practically speaking, how does that verification work on a phone? I took a close look.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>How things can go wrong</h2>
+    <p>The real danger doesn't come from the AI itself. It comes from the relationship your kid can build with it. Researchers have been warning since July 2026 about the anthropomorphizing of social AI. When a chatbot answers with empathy, uses emojis, and asks how your day went, a child or teen can see a friend in it. This phenomenon encourages attachment. It exposes them to biased content, creates confusion between humans and machines, and leads to one-sided relational dependency. The AI feels nothing. Your kid, on the other hand, may end up confiding intimate things to it.</p>
+    <p>On the Snapchat side, Snap Inc.'s privacy policy was updated on September 21, 2026. It states that discussions with My AI are used to improve My AI's responses. In other words, what your kid writes in that chat isn't a secret between them and an imaginary friend. That data feeds the model. It can be reviewed and reused to refine future answers. It's not a private conversation in the classic sense. It's an exchange with a commercial service that learns from every word. To go further on data protection for younger users, I wrote a full piece on <a href="/en/articles/donnees-perso-ia-confidentialite">personal data and privacy</a>.</p>
+    <p>OpenAI strengthened its measures against child sexual abuse content on November 16, 2026. A query that sexualizes children now triggers a 24-hour suspension. That's reassuring in principle. But it also means these queries exist and sometimes reach the system before being blocked.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Don't minimize the emotional impact by saying "it's just a robot". For a teen, the frustration or sadness felt after a conversation with an AI is real. The question isn't to make fun of that emotion, but to help them understand who is really on the other side.</p></div>
+    
+    <h2>The settings that actually exist</h2>
+    <p>You can't ban AI on a phone as easily as you blocked certain websites ten years ago. But you do have concrete tools.</p>
+    <p>For ChatGPT, OpenAI launched ChatGPT for Teens on August 18, 2026. This experience is dedicated to 13-17 year olds. It includes stronger protections and parental controls, plus age estimation. Since January 2026, an age prediction system has been active. It can override the birth date entered by the teen to automatically apply ChatGPT for Teens protections. Your kid can't cheat as easily as before by making up a fake date. The AI itself analyzes whether behavior and language match a teen profile.</p>
+    <p>As a parent, you can link your account to your teen's. This lets you manage schedules and security settings. You can also check certain parameters. However, and this is important, you cannot read the content of conversations. OpenAI made this choice to preserve a minimum of privacy. You control the frame, not the substance. If you want to teach your kid to phrase their exchanges with these tools better, my guide on <a href="/en/articles/ecrire-bon-prompt-non-dev">writing a good prompt without being a developer</a> can help them step back from the start.</p>
+    <p>On the Snapchat side, the Family Center was updated in January 2026. If your kid is between 13 and 17, you can completely disable access to My AI. You can also set content restrictions. You can even check their friends list. Here again, you don't have access to private conversation content. It's frustrating when you want to protect your kid. But it's the same principle as a physical diary.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>How I'd bring it up</h2>
+    <p>I'm not a psychologist. I'm a parent who tests tools before letting them lie around in the digital living room. When I found out my kid was asking an AI questions, my first reaction was to panic in silence. My second was to sit down next to them and ask: "What do you talk to it about?"</p>
+    <p>The secret is curiosity without judgment. If you start with "it's dangerous, you're not allowed", you shut the door. The teen will just keep doing it in secret. But if you ask them to show you a response that impressed them, you build a bridge. Then you can ask simple questions. "Do you think it really understood what you were feeling?" or "Why does it always say yes and never no?" These questions help them step back without you giving them a lecture.</p>
+    <p>I do all this for me first. Because I don't want to find out in ten years that my kids have internalized biases or shared personal data without knowing. And because I refuse to be the parent who bans what they don't understand. If you're looking for resources to bring up these topics as a family, I also listed some leads in my article on <a href="/en/articles/podcast-ia-pour-enfants">AI podcasts for kids</a>.</p>
+    <h2>Critical thinking before tools</h2>
+    <p>Beyond settings and restrictions, there's deeper work. Show your kid how an AI sometimes makes up facts. Show them too that it's always too nice and reproduces clichés without knowing it. That's what we call AI literacy, and it's probably the most useful skill of this decade.</p>
+    <p>Ask them to compare a ChatGPT response with a real Wikipedia page. Point it out when My AI gives medical or romantic advice even though it's neither a doctor nor a therapist. The goal isn't to turn them into an expert. It's to give them a filter. A reflex. Like we teach them not to follow a stranger down the street. That critical thinking will stay with them long after they've changed phones. To help them spot misleading images and texts, my guide on <a href="/en/articles/reperer-contenu-ia-deepfake">spotting AI content and deepfakes</a> can be a good starting point.</p>
+    <p>If you want to broaden the topic, know that there are other models besides ChatGPT. Claude, for example, works differently and has its own safety rules. Knowing these alternatives helps avoid thinking AI boils down to a single tool. I explain the basics in my article <a href="/en/articles/claude-c-est-quoi">Claude, what's that</a>.</p>
+    <div class="callout tip"><h4>My takeaways</h4><p>Parental controls are useful, but they never replace a conversation. A kid who knows why they shouldn't share their address with an AI is better protected than a kid whose access is simply blocked by a password forgotten two weeks later.</p></div>
+    
+    <h2>FAQ</h2>
+    <h3>How old does your kid need to be to use ChatGPT or Snapchat's My AI?</h3>
+    <p>OpenAI bans ChatGPT for children under 13. Users aged 13 to 17 must get permission from their parents or legal guardians. For Snapchat's My AI, the Family Center parental settings specifically target teens aged 13 to 17.</p>
+    <h3>How can you tell if your kid is using an AI chatbot and who they're interacting with?</h3>
+    <p>Check the apps installed on their phone. ChatGPT has a distinct icon. My AI is built right into Snapchat, usually at the top of the chat list. You can also just ask your kid directly, in a calm moment, if they've ever asked a robot questions. Transparency beats hidden surveillance.</p>
+    <h3>Do parental controls let you read your kid's conversations with the AI?</h3>
+    <p>No. Neither on ChatGPT for Teens nor through Snapchat's Family Center can parents access conversation content. You can manage schedules and security settings. You can also check their friends list. But the content of exchanges stays private.</p>
+    <h3>What are the main risks of conversational AI for young people?</h3>
+    <p>Anthropomorphizing can push a child or teen into an emotional attachment with a machine. It exposes them to biased content. It creates confusion between humans and machines. It can lead to one-sided relational dependency. Plus, data shared with My AI is used to improve the model, which raises a privacy question.</p>
+    <h3>How can you explain to your kid what an AI is and what its limits are?</h3>
+    <p>Use simple images. An AI is a very fast word prediction engine. It doesn't think, doesn't feel, has no personal memory. It assembles bits of sentences found on the internet to give a probable answer. Ask them to test it by asking an absurd or very personal question. They'll quickly see the limits.</p>
+    <h3>Can AI help your kid with homework or learning?</h3>
+    <p>Yes, if it's supervised. ChatGPT for Teens was designed with stronger protections for this age group. AI can explain a grammar rule or suggest a writing plan. It can also help understand a scientific concept. But it can make up references or give answers that are too perfect. The important thing is that your kid always checks the information and understands the process, not just the result.</p>
+    <h2>My takeaways</h2>
+    <p>I don't believe we should ban AI for kids. I believe we should guide them through it. The 2026 tools, from ChatGPT for Teens to Snapchat's Family Center, give parents real levers. But these levers have limits. They don't replace education, trust, and critical thinking. My job is to stay curious, test these tools before my kids do, and keep the door open so they can tell me about their strange conversations with a robot without fearing my reaction. That's probably the best protection I can offer them.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with zero jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>The <em>Friday letter.</em></h2>
+        <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer-en">
+        <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/nav-v2.js" defer></script>
+<script src="/assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

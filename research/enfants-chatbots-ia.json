@@ -1,0 +1,144 @@
+{
+  "topic": "ton enfant parle à ChatGPT ou à My AI de Snapchat : ce qu'il faut savoir, les réglages parentaux et comment en parler avec lui",
+  "slug": "enfants-chatbots-ia",
+  "type": "A",
+  "generated_at": "2026-11-17",
+  "angle": "Cet article fournit aux parents non-développeurs les informations essentielles, les réglages parentaux à connaître et des conseils pratiques pour accompagner leurs enfants dans l'utilisation de ChatGPT et My AI de Snapchat, en se basant sur les dernières données de 2025-2026.",
+  "intent": "Le lecteur, un entrepreneur non-développeur et parent, cherche à comprendre les risques et les avantages des IA conversationnelles pour ses enfants, à connaître les outils de contrôle parental disponibles et à savoir comment aborder ce sujet avec eux de manière constructive.",
+  "keywords": [
+    "enfant ChatGPT",
+    "My AI Snapchat parental",
+    "contrôle parental IA enfants",
+    "sécurité IA adolescents",
+    "parler IA à son enfant",
+    "risques chatbots enfants"
+  ],
+  "facts": [
+    {
+      "claim": "ChatGPT 6.1, propulsé par GPT-6.1 Terra, est la version la plus récente, lancée le 26 octobre 2026, avec des capacités de raisonnement visuel et d'utilisation informatique.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6TnGd-fwY2nZYtHBAYwG-w4AOj0Njo_PmXid6ngzLEcyq-1WpsxId0c4SaN97QF8glh0Y6Rf5crchV6CKTvXE4dKLQGu-AHjbkJMJMiJUkdPWgAdNMdCxnRu4CRihbj28x1RFakE63IhzJQ==",
+      "date": "2026-10-26"
+    },
+    {
+      "claim": "My AI est un chatbot conversationnel intégré à l'application Snapchat, utilisant des modèles d'IA générative pour répondre aux questions, proposer des idées et aider à la rédaction ou aux suggestions créatives, sans version distincte mais avec des mises à jour continues de ses fonctionnalités.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6lFevnLdQZBA4XoB-wc27JMbJmTJMSxSgzMbFSTi6ub83ik-1XiPc3QOYKiJvqnc8HCRj2c8HcXfm-UwMPdjlOoBA3BdzfpNoGdt6CghIvCDm-FREpRTxKRCvEPnioYzlksUNPyNe",
+      "date": "2026-10-23"
+    },
+    {
+      "claim": "OpenAI interdit l'utilisation de ChatGPT aux enfants de moins de 13 ans, et les utilisateurs de 13 à 17 ans doivent obtenir l'autorisation de leurs parents ou tuteurs légaux.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAN3fx5JeXPyQd7-EMoaD1fAO8SEkM9Xeu9E0KDkV624OfxG0K0Yz-_mEyxJwdzPgX8nXbx-9-kzdAiqKflZEIJwXymRGUzom49buwqrjx0LxQUvCTu2_9FBxiqH9gNsZ6m0tBZaFTaetTH8f7AJWTbJQDivP6s9_Pj-oysEKjLD8D2SM3LIqdocIdwc_kHDA1UOEaANO9C3dACBr83vhCj9oAabR_SSzoen8=",
+      "date": "2026-10-17"
+    },
+    {
+      "claim": "OpenAI a lancé \"ChatGPT for Teens\" le 18 août 2026, une expérience dédiée aux 13-17 ans avec des protections renforcées, une estimation de l'âge et des contrôles parentaux.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmrgYr5ZBwtr7Zq8BzQUH1_rKYOKvtu-NCSvz7jrnPME3R41FPnqoN__skQ7eFfLOKHxyTD3VQKbBOeg0NtDDg5Ow1kHYp5FTvB_EfQ-an0Ir0ssg-9UFXhetEDv1ERb1dhFmGZdvKU04s8TfwbhkuaWY1S9NDSBAMWjfEPjtY",
+      "date": "2026-09-25"
+    },
+    {
+      "claim": "Les parents peuvent lier leur compte à celui de leur adolescent pour gérer certains réglages et horaires d'utilisation de ChatGPT for Teens, mais ils ne peuvent pas lire le contenu des conversations.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFincxR3ElM_mk75aaJfl47p9OYMjsGv1SwWqIOP53-T---Ynj0ubzAnTmvtjY4oXYYTNgKvohda7mTN4DwdvqUSSkI1QBMr8ZGgZoteTvhk4KPphyQKvgYNZb-11M6lr2DsTH1DQLaqKHt1w==",
+      "date": "2026-11-11"
+    },
+    {
+      "claim": "Le Centre Familial de Snapchat, mis à jour en janvier 2026, permet aux parents de désactiver l'accès au chatbot My AI pour leurs adolescents (13-17 ans), de définir des restrictions de contenu et de consulter la liste d'amis, mais ne donne pas accès au contenu des conversations privées.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpnT7l4bUH7i26QHm0gZODp2gFrNYxV_DKhUF8pPmwaDCvDt44gx1CX4r0E43AjK8Cv_crmvEsOGNSKiwvNuPIFEgQAqyk9vnT17QHAwGJ8rdqyLncOrTp5xRFRxYLjDdebli5zx-1GoLMQAQeLrw9pHLe5RQU8qwWh5-h5Xh9Mdmh01BWgrBsyULo99T4mYsmrJagBdhHr3fkLVXHDDootYKZr0Fu_Ua0aoCE8T-Qf5J9gXW0UTvoGf3rOk7mpYOQyyG",
+      "date": "2026-01-25"
+    },
+    {
+      "claim": "L'anthropomorphisme des IA sociales peut favoriser l'attachement des enfants et adolescents, les exposant à des contenus biaisés, à une confusion entre humains et machines, et à une dépendance relationnelle unilatérale.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIIHAXrTC6Y6jHGrNKMMZxBZ7gyaxMxQpAhLh5t_zpu7Ihu6DSQhfp6-kEbjkmIC8vVl03OKZBbxRIAycehmRUxmrShsyXLL0Fg-SaerPdjJPl1D2SafwKThAhBYuXt6IN06MXSaLGRb4GZJMzzrK1FoH6YXzOvGEAoFUxmdSe2GGrzluZoU0e8T-Txy3kmS2yrB9nuffc4PmU_w==",
+      "date": "2026-07-14"
+    },
+    {
+      "claim": "La politique de confidentialité de Snap Inc., mise à jour le 21 septembre 2026, indique que les discussions que les Snapchatters ont avec My AI sont prises en compte pour améliorer les réponses de My AI.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvJz58qdABfkMyH-oIthvHR031ir-qG3LUxoYszWYtNgqLHwc9rmhkYyOLMejdb8sb1_yr2ihmIVnOVE2X9AmuEpVVudNEjzn-RUtiHD0-lPjs9zF8jCbWxzTTDX8kPz6qnIIp6Dkojf2jM1C8G5LGhMCMw==",
+      "date": "2026-09-21"
+    },
+    {
+      "claim": "OpenAI a annoncé le 16 novembre 2026 des mesures renforcées contre les contenus d'abus sexuels sur mineurs (CSAM), incluant une suspension de 24 heures pour les requêtes sexualisant des enfants.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJuHDFsNUq1bYlNVUWWVInNTHe_2WXBjrQ42FBLlpKXQgyhwO8Tjyg_rTaGW2dG38b8rX1vdv6rePq1aNS2vyPwkTP4t1Q-Y8Tjc0fJGK19p6JHRQQJ8P9PGKiLx4GfiRfpiiBKV4DLAH4WuxcE9GOKLiaLUzznSG731S6-tcMLB6mrlTqOdWloDtdQ8ICMqyMTtS2F9_P82uPwFe6mqf1kZyGmQA==",
+      "date": "2026-11-16"
+    },
+    {
+      "claim": "Le système de prédiction de l'âge de ChatGPT est actif depuis janvier 2026 et peut outrepasser la date de naissance saisie par l'adolescent pour appliquer les protections de \"ChatGPT for Teens\".",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFincxR3ElM_mk75aaJfl47p9OYMjsGv1SwWqIOP53-T---Ynj0ubzAnTmvtjY4oXYYTNgKvohda7mTN4DwdvqUSSkI1QBMr8ZGgZoteTvhk4KPphyQKvgYNZb-11M6lr2DsTH1DQLaqKHt1w==",
+      "date": "2026-11-11"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "En avril 2026, 76% des mineurs de 12 à 17 ans ont utilisé au moins un service d'IA, avec une durée d'utilisation mensuelle moyenne de deux heures quarante en 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV1pM5CcKWc-yIeAAQIDLtxctZgzCNoUYKXh9no6VQfvCqXj__4U16E3mo6yWIW8dmH77G9j-6HR-kO1VdeQy5bsip6Tl44t5oq3W74NoNHtSKhYeiZdZLGkbWjqt8YKpXgq7wjR0Ie8thCOMdELdLtnkL6WTiAyJ9HVg0bI6U9xyFigQQb9A0eSqv6GvkGInu6reJyNMKT8AaJKIh8liti0m8R2eJ012hByva-bGYFk5HkfKZ5zKeNhFMsf6QCHyNJo4Wz5sNsZWM-8GVBD5Oa1cy_rOJi25X-0tvKXGQrTsibKoVXZFYYrvsPHRL2K7HIxSDGeEl91IyEwLJvI1CcbdTAIQCbd1EHQ1Q8YM4",
+      "date": "2026"
+    },
+    {
+      "stat": "Une enquête YouGov d'octobre 2026 révèle que 40% des 11-12 ans déclarent utiliser des outils d'IA généraliste chaque semaine, mais seulement 26% de leurs parents en sont conscients, soit un écart de 14 points de pourcentage.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDmiKBaYEIT91XLCIXwCxDTOh3psj-C-JMNkzJjkV7S11Ftg-zGkPqJRp-M9cSLzQNtzDwz5dBQmHjYTGNxGuhV6C_q7rIBlz2uLtoiftvBpIrxa-7_sd9XVzroba3awj1pn_jlzv0FH-wi4HdDEi_Wr0Y1WE1ctjB_-HKNgw7UMW24ywCX9elIbWJ2tiFS7RRBxNcrY6Fjwv8kF8ssmJpI3nJjCX7c3d5NA==",
+      "date": "2026-10"
+    },
+    {
+      "stat": "L'adoption de l'IA progresse plus de trois fois plus vite chez les enfants que chez les adultes, avec au moins 20 millions d'enfants utilisant l'intelligence artificielle à l'échelle mondiale en juin 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoASfW8AVSaGVlmo1IIK1FmY9s9RdPc6mm9cUYmxyHACgqtN2ksAQ8uFap7vUeAuwP82wJksDzkS90nU5x4Ajc10OeVe9B-fI_R8gFvbzaZCCDQdXlxMaoDkrCpWmfYBhO6_zQ059Ns0STnY-YbhyMbVN2FSegRmjDb9u0s0O7TcYWim1kbbeQDZOaY91n691UpDXTYifXx0IPQlmkE6EBbaJ7REGrNPrza5u1EUHF6dmnY2bdAGxu0KCEs0k=",
+      "date": "2026-06-30"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Pour approfondir les enjeux de protection des données personnelles et de la vie privée des enfants lors de leurs interactions avec les IA."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour aider les parents à enseigner à leurs enfants comment interagir de manière efficace et critique avec les IA, en formulant des requêtes claires et en évaluant les réponses."
+    },
+    {
+      "url": "/articles/reperer-contenu-ia-deepfake",
+      "why": "Essentiel pour sensibiliser aux risques de désinformation et de contenus générés de manière trompeuse, et développer l'esprit critique des jeunes utilisateurs."
+    },
+    {
+      "url": "/articles/ia-sur-telephone",
+      "why": "My AI de Snapchat est un exemple concret d'IA directement accessible sur smartphone, ce lien permet de contextualiser l'usage mobile de l'IA par les jeunes."
+    },
+    {
+      "url": "/articles/podcast-ia-pour-enfants",
+      "why": "Un article directement lié au sujet de l'IA et des enfants, offrant un contenu complémentaire et potentiellement des ressources éducatives."
+    },
+    {
+      "url": "/articles/claude-c-est-quoi",
+      "why": "Pour offrir une perspective plus large sur les différents modèles d'IA conversationnelle, au-delà de ChatGPT, et aider à comprendre les bases de ces technologies."
+    }
+  ],
+  "outline": [
+    "Comprendre ChatGPT et My AI : ce que vos enfants utilisent réellement",
+    "Les risques et défis de l'IA conversationnelle pour les jeunes",
+    "Contrôles parentaux et réglages de sécurité sur ChatGPT et Snapchat",
+    "Comment instaurer un dialogue constructif avec votre enfant sur l'IA",
+    "Développer la littératie IA : au-delà des outils, l'esprit critique"
+  ],
+  "faq": [
+    "À quel âge mon enfant peut-il utiliser ChatGPT ou My AI de Snapchat ?",
+    "Comment puis-je savoir si mon enfant utilise un chatbot IA et avec qui il interagit ?",
+    "Les contrôles parentaux me permettent-ils de lire les conversations de mon enfant avec l'IA ?",
+    "Quels sont les principaux risques liés à l'utilisation des IA conversationnelles par les jeunes ?",
+    "Comment puis-je expliquer à mon enfant ce qu'est une IA et ses limites ?",
+    "L'IA peut-elle aider mon enfant dans ses devoirs ou son apprentissage ?"
+  ],
+  "pitfalls": [
+    "Ne pas sous-estimer la capacité des adolescents à contourner les restrictions techniques, l'accent doit être mis sur le dialogue et l'éducation à l'esprit critique.",
+    "Éviter de présenter l'IA comme une entité 'intelligente' ou 'amicale' pour ne pas renforcer l'anthropomorphisme et la dépendance relationnelle chez l'enfant."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6TnGd-fwY2nZYtHBAYwG-w4AOj0Njo_PmXid6ngzLEcyq-1WpsxId0c4SaN97QF8glh0Y6Rf5crchV6CKTvXE4dKLQGu-AHjbkJMJMiJUkdPWgAdNMdCxnRu4CRihbj28x1RFakE63IhzJQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6lFevnLdQZBA4XoB-wc27JMbJmTJMSxSgzMbFSTi6ub83ik-1XiPc3QOYKiJvqnc8HCRj2c8HcXfm-UwMPdjlOoBA3BdzfpNoGdt6CghIvCDm-FREpRTxKRCvEPnioYzlksUNPyNe",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAN3fx5JeXPyQd7-EMoaD1fAO8SEkM9Xeu9E0KDkV624OfxG0K0Yz-_mEyxJwdzPgX8nXbx-9-kzdAiqKflZEIJwXymRGUzom49buwqrjx0LxQUvCTu2_9FBxiqH9gNsZ6m0tBZaFTaetTH8f7AJWTbJQDivP6s9_Pj-oysEKjLD8D2SM3LIqdocIdwc_kHDA1UOEaANO9C3dACBr83vhCj9oAabR_SSzoen8=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmrgYr5ZBwtr7Zq8BzQUH1_rKYOKvtu-NCSvz7jrnPME3R41FPnqoN__skQ7eFfLOKHxyTD3VQKbBOeg0NtDDg5Ow1kHYp5FTvB_EfQ-an0Ir0ssg-9UFXhetEDv1ERb1dhFmGZdvKU04s8TfwbhkuaWY1S9NDSBAMWjfEPjtY",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFincxR3ElM_mk75aaJfl47p9OYMjsGv1SwWqIOP53-T---Ynj0ubzAnTmvtjY4oXYYTNgKvohda7mTN4DwdvqUSSkI1QBMr8ZGgZoteTvhk4KPphyQKvgYNZb-11M6lr2DsTH1DQLaqKHt1w==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpnT7l4bUH7i26QHm0gZODp2gFrNYxV_DKhUF8pPmwaDCvDt44gx1CX4r0E43AjK8Cv_crmvEsOGNSKiwvNuPIFEgQAqyk9vnT17QHAwGJ8rdqyLncOrTp5xRFRxYLjDdebli5zx-1GoLMQAQeLrw9pHLe5RQU8qwWh5-h5Xh9Mdmh01BWgrBsyULo99T4mYsmrJagBdhHr3fkLVXHDDootYKZr0Fu_Ua0aoCE8T-Qf5J9gXW0UTvoGf3rOk7mpYOQyyG",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIIHAXrTC6Y6jHGrNKMMZxBZ7gyaxMxQpAhLh5t_zpu7Ihu6DSQhfp6-kEbjkmIC8vVl03OKZBbxRIAycehmRUxmrShsyXLL0Fg-SaerPdjJPl1D2SafwKThAhBYuXt6IN06MXSaLGRb4GZJMzzrK1FoH6YXzOvGEAoFUxmdSe2GGrzluZoU0e8T-Txy3kmS2yrB9nuffc4PmU_w==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvJz58qdABfkMyH-oIthvHR031ir-qG3LUxoYszWYtNgqLHwc9rmhkYyOLMejdb8sb1_yr2ihmIVnOVE2X9AmuEpVVudNEjzn-RUtiHD0-lPjs9zF8jCbWxzTTDX8kPz6qnIIp6Dkojf2jM1C8G5LGhMCMw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJuHDFsNUq1bYlNVUWWVInNTHe_2WXBjrQ42FBLlpKXQgyhwO8Tjyg_rTaGW2dG38b8rX1vdv6rePq1aNS2vyPwkTP4t1Q-Y8Tjc0fJGK19p6JHRQQJ8P9PGKiLx4GfiRfpiiBKV4DLAH4WuxcE9GOKLiaLUzznSG731S6-tcMLB6mrlTqOdWloDtdQ8ICMqyMTtS2F9_P82uPwFe6mqf1kZyGmQA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV1pM5CcKWc-yIeAAQIDLtxctZgzCNoUYKXh9no6VQfvCqXj__4U16E3mo6yWIW8dmH77G9j-6HR-kO1VdeQy5bsip6Tl44t5oq3W74NoNHtSKhYeiZdZLGkbWjqt8YKpXgq7wjR0Ie8thCOMdELdLtnkL6WTiAyJ9HVg0bI6U9xyFigQQb9A0eSqv6GvkGInu6reJyNMKT8AaJKIh8liti0m8R2eJ012hByva-bGYFk5HkfKZ5zKeNhFMsf6QCHyNJo4Wz5sNsZWM-8GVBD5Oa1cy_rOJi25X-0tvKXGQrTsibKoVXZFYYrvsPHRL2K7HIxSDGeEl91IyEwLJvI1CcbdTAIQCbd1EHQ1Q8YM4",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDmiKBaYEIT91XLCIXwCxDTOh3psj-C-JMNkzJjkV7S11Ftg-zGkPqJRp-M9cSLzQNtzDwz5dBQmHjYTGNxGuhV6C_q7rIBlz2uLtoiftvBpIrxa-7_sd9XVzroba3awj1pn_jlzv0FH-wi4HdDEi_Wr0Y1WE1ctjB_-HKNgw7UMW24ywCX9elIbWJ2tiFS7RRBxNcrY6Fjwv8kF8ssmJpI3nJjCX7c3d5NA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoASfW8AVSaGVlmo1IIK1FmY9s9RdPc6mm9cUYmxyHACgqtN2ksAQ8uFap7vUeAuwP82wJksDzkS90nU5x4Ajc10OeVe9B-fI_R8gFvbzaZCCDQdXlxMaoDkrCpWmfYBhO6_zQ059Ns0STnY-YbhyMbVN2FSegRmjDb9u0s0O7TcYWim1kbbeQDZOaY91n691UpDXTYifXx0IPQlmkE6EBbaJ7REGrNPrza5u1EUHF6dmnY2bdAGxu0KCEs0k="
+  ]
+}

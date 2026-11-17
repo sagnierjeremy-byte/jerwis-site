@@ -453,8 +453,9 @@
       "topic": "ton enfant parle à ChatGPT ou à My AI de Snapchat : ce qu'il faut savoir, les réglages parentaux et comment en parler avec lui",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-17"
     },
     {
       "id": "donnees-google-meta-entrainement-ia",
