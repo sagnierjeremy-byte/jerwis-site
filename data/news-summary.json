@@ -1,74 +1,58 @@
 {
-  "generated_at": "2026-11-16T13:20:31.427Z",
-  "day_label": "Lundi 16 novembre",
+  "generated_at": "2026-11-17T14:04:12.902Z",
+  "day_label": "Mardi 17 novembre",
   "items": [
     {
-      "title": "Bruno Le Maire veut hausser la TVA, le Smic et l'âge de la retraite",
-      "why_it_matters": "Je retiens que ces trois mesures changeraient mes coûts fixes et ma trésorerie si je recrute ou si je me rapproche de la retraite.",
+      "title": "Genesis AI lève 500 M$ pour ses robots d'usine",
+      "why_it_matters": "Je retiens que la robotique en usine attire les très gros fonds. Ça va accélérer la concurrence et baisser les coûts de production.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-retraite/partir-a-65-ans-avec-45-annuites-bruno-le-maire-assume-sa-proposition-choc-pour-la-retraite-1531879"
+          "name": "Frenchweb",
+          "url": "https://www.frenchweb.fr/genesis-ai-leve-425-millions-d-euros-pour-deployer-ses-robots-en-usine/900000051?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
         },
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/le-smic-a-1-700-euros-net-de-lfi-je-suis-pour-repond-michel-edouard-leclerc-a-eric-coquerel-1531876"
-        },
-        {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/ceux-qui-bossent-payent-pour-tout-le-reste-bruno-le-maire-veut-3-points-de-tva-pour-augmenter-les-salaires-1531875"
+          "name": "Maddyness",
+          "url": "https://www.maddyness.com/2026/11/17/robotique-genesis-ai-boucle-une-serie-a-dun-demi-milliard-de-dollars-aupres-de-nvidia-samsung-et-zoom/"
         }
       ]
     },
     {
-      "title": "Renault supprime 1000 postes et en recrute 1600 en usine",
-      "why_it_matters": "Je note que l'industrie française se réorganise vite autour de l'électrique, ça crée des tensions sur les compétences.",
+      "title": "L'ex-patron de la SEC prévient : l'IA est une bulle",
+      "why_it_matters": "Je note cet avertissement : si l'IA explose comme bulle en moins de 2 ans, mes investissements dedans doivent être solides.",
       "sources": [
-        {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/pour-repondre-a-la-forte-demande-de-voitures-electriques-renault-va-embaucher-plus-de-1-600-operateurs-dans-ses-usines-d-ici-a-2028-mais-aussi-supprimer-jusqu-a-1-000-postes-de-cols-blancs_AV-202611160504.html"
-        },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/apres-l-ingenierie-renault-remet-a-plat-l-emploi-dans-ses-usines-francaises-20261116"
+          "url": "https://www.lefigaro.fr/secteur/high-tech/l-ia-est-une-bulle-qui-va-exploser-a-court-terme-alerte-l-ancien-president-du-gendarme-boursier-americain-20261117"
         }
       ]
     },
     {
-      "title": "22 millions de données volées chez une filiale de La Poste",
-      "why_it_matters": "Je note qu'aucune entreprise n'est à l'abri, je dois vérifier mon assurance cyber et mes mots de passe dès aujourd'hui.",
+      "title": "Apple jugé en 2027 pour obsolescence programmée en France",
+      "why_it_matters": "Je retiens qu'Apple risque gros en France sur la réparation. La régulation durcit : bonne nouvelle pour le marché du reconditionné.",
       "sources": [
         {
-          "name": "ZDNet France",
-          "url": "https://www.zdnet.fr/actualites/22-millions-de-personnes-concernees-une-nouvelle-fuite-de-donnees-xxl-en-france-507901.htm#xtor=RSS-1"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/cyberattaques-comment-se-proteger-et-reagir-face-aux-fuites-de-donnees-personnelles-a-repetition-20240330"
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/5600881146287714/prouver-l-obsolescence-programmee-d-apple-un-casse-tete-pour-la-justice-francaise"
         }
       ]
     },
     {
-      "title": "Les médias de LVMH signent un accord avec OpenAI",
-      "why_it_matters": "Je retiens que les grands groupes français négocient leurs contenus avec l'IA, ça pose la question du prix de mes propres données.",
+      "title": "Apple bloque l'accès des IA aux fichiers Mac",
+      "why_it_matters": "Je note qu'Apple verrouille l'accès des IA aux données Mac. Mes outils d'IA doivent s'adapter à ces nouvelles règles de confidentialité.",
       "sources": [
         {
-          "name": "Le Monde Pixels",
-          "url": "https://www.lemonde.fr/pixels/article/2026/11/16/les-medias-de-lvmh-dont-le-parisien-et-les-echos-signent-un-accord-avec-openai_6811772_4408996.html"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/apple-serre-vis-face-ia-fouillent-fichiers-mac.html"
         }
       ]
     },
     {
-      "title": "Washington et Pékin se disputent le contrôle des puces d'IA",
-      "why_it_matters": "Je retiens que l'accès aux puces pour l'IA dépend des tensions géopolitiques, ça peut freiner mes projets ou les faire coûter plus cher.",
+      "title": "L'IA moins chère à l'unité, mais plus chère à l'usage",
+      "why_it_matters": "Je retiens que le prix des modèles IA baisse, mais la facture finale grimpe. Je dois surveiller mes coûts réels d'usage, pas juste le tarif.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/marques/nvidia/3324687_la-vraie-raison-derriere-la-chute-du-patron-de-nvidia-la-liaison-etait-le-pretexte-la-chine-est-le-champ-de-bataille"
-        },
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/intelligence-artificielle/1558031-l-administration-trump-prevoit-de-designer-des-entreprises-d-ia-comme-champions-nationaux/"
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/modeles-dia-le-tarif-baisse-la-tache-coute-plus-cher/"
         }
       ]
     }
