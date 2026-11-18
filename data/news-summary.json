@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-11-17T14:04:12.902Z",
-  "day_label": "Mardi 17 novembre",
+  "generated_at": "2026-11-18T13:40:31.362Z",
+  "day_label": "Mercredi 18 novembre",
   "items": [
     {
-      "title": "Genesis AI lève 500 M$ pour ses robots d'usine",
-      "why_it_matters": "Je retiens que la robotique en usine attire les très gros fonds. Ça va accélérer la concurrence et baisser les coûts de production.",
-      "sources": [
-        {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/genesis-ai-leve-425-millions-d-euros-pour-deployer-ses-robots-en-usine/900000051?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=article"
-        },
-        {
-          "name": "Maddyness",
-          "url": "https://www.maddyness.com/2026/11/17/robotique-genesis-ai-boucle-une-serie-a-dun-demi-milliard-de-dollars-aupres-de-nvidia-samsung-et-zoom/"
-        }
-      ]
-    },
-    {
-      "title": "L'ex-patron de la SEC prévient : l'IA est une bulle",
-      "why_it_matters": "Je note cet avertissement : si l'IA explose comme bulle en moins de 2 ans, mes investissements dedans doivent être solides.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/l-ia-est-une-bulle-qui-va-exploser-a-court-terme-alerte-l-ancien-president-du-gendarme-boursier-americain-20261117"
-        }
-      ]
-    },
-    {
-      "title": "Apple jugé en 2027 pour obsolescence programmée en France",
-      "why_it_matters": "Je retiens qu'Apple risque gros en France sur la réparation. La régulation durcit : bonne nouvelle pour le marché du reconditionné.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/5600881146287714/prouver-l-obsolescence-programmee-d-apple-un-casse-tete-pour-la-justice-francaise"
-        }
-      ]
-    },
-    {
-      "title": "Apple bloque l'accès des IA aux fichiers Mac",
-      "why_it_matters": "Je note qu'Apple verrouille l'accès des IA aux données Mac. Mes outils d'IA doivent s'adapter à ces nouvelles règles de confidentialité.",
+      "title": "Google et Anthropic réduisent le délai de grâce des failles à 30 jours",
+      "why_it_matters": "Je retiens que les éditeurs n'ont plus que 30 jours pour corriger une faille. Il faut mettre à jour nos systèmes plus vite, cela concerne toutes les PME.",
       "sources": [
         {
           "name": "01net",
-          "url": "https://www.01net.com/actualites/apple-serre-vis-face-ia-fouillent-fichiers-mac.html"
+          "url": "https://www.01net.com/actualites/faux-sentiment-secret-face-ia-google-devoiler-failles-securite-trois-fois-plus-vite.html"
+        },
+        {
+          "name": "Numerama",
+          "url": "https://www.numerama.com/tech/2377793-lia-trouve-les-failles-vraiment-trop-vite-anthropic-et-google-sonnent-la-fin-des-90-jours-de-grace-avant-la-divulgation.html"
         }
       ]
     },
     {
-      "title": "L'IA moins chère à l'unité, mais plus chère à l'usage",
-      "why_it_matters": "Je retiens que le prix des modèles IA baisse, mais la facture finale grimpe. Je dois surveiller mes coûts réels d'usage, pas juste le tarif.",
+      "title": "La CNIL inflige une amende de 5 millions d'euros à Macif Vie",
+      "why_it_matters": "Je note que la CNIL sanctionne un assureur pour des mots de passe mal protégés. C'est un rappel brutal sur la sécurité de nos données clients.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/modeles-dia-le-tarif-baisse-la-tache-coute-plus-cher/"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/la-cnil-inflige-une-amende-de-5-millions-d-euros-a-l-assureur-macif-vie-en-raison-de-l-insuffisance-des-mesures-prises-pour-la-securite-des-donnees_8288285.html#xtor=RSS-3-%5Beconomie%5D"
+        }
+      ]
+    },
+    {
+      "title": "40% des entreprises touchées par une cyberattaque de fournisseur",
+      "why_it_matters": "Je retiens que le risque cyber vient souvent de nos prestataires. Il faut vérifier concrètement leur sécurité, pas seulement signer des papiers.",
+      "sources": [
+        {
+          "name": "Silicon.fr",
+          "url": "https://www.silicon.fr/cybersecurite-1371/risque-fournisseurs-cyber-le-declaratif-atteint-ses-limites-230496"
+        }
+      ]
+    },
+    {
+      "title": "L'IA fait déjà chuter les offres d'emploi dans certains métiers",
+      "why_it_matters": "Je note que 41% des employeurs français voient l'IA impacter leurs recrutements. Il faut repenser nos équipes et former nos salariés vite.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/travail-ia-ces-metiers-ou-offres-emploi-se-sont-effondrees.html"
+        }
+      ]
+    },
+    {
+      "title": "Rupture conventionnelle : signer avant le 25 novembre pour payer moins",
+      "why_it_matters": "Je retiens qu'il faut signer au plus tard le 25 novembre pour une fin en 2026. Cela évite les nouvelles cotisations, un point urgent en RH.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/rupture-conventionnelle-la-date-limite-pour-signer-avant-le-1er-janvier-2027-1531951"
         }
       ]
     }
