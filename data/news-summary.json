@@ -1,58 +1,74 @@
 {
-  "generated_at": "2026-11-18T13:40:31.362Z",
-  "day_label": "Mercredi 18 novembre",
+  "generated_at": "2026-11-19T14:05:04.049Z",
+  "day_label": "Jeudi 19 novembre",
   "items": [
     {
-      "title": "Google et Anthropic réduisent le délai de grâce des failles à 30 jours",
-      "why_it_matters": "Je retiens que les éditeurs n'ont plus que 30 jours pour corriger une faille. Il faut mettre à jour nos systèmes plus vite, cela concerne toutes les PME.",
+      "title": "Cyberattaque à la Commission européenne avec de l'IA",
+      "why_it_matters": "Je note que des pirates utilisent un outil d'IA public pour paralyser la Commission. Même une grande institution reste vulnérable. Je renforce ma sécurité.",
       "sources": [
         {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/faux-sentiment-secret-face-ia-google-devoiler-failles-securite-trois-fois-plus-vite.html"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/business/action-publique/1558247-la-commission-europeenne-a-subi-une-cyberattaque-pendant-plus-de-dix-jours/"
         },
         {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/tech/2377793-lia-trouve-les-failles-vraiment-trop-vite-anthropic-et-google-sonnent-la-fin-des-90-jours-de-grace-avant-la-divulgation.html"
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/cyberattaque-ia-vient-frapper-commission-europeenne-plusieurs-systemes-paralyses-pendant-dix-jours.html"
+        },
+        {
+          "name": "Le Figaro",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/la-commission-europeenne-visee-par-une-cyberattaque-assistee-par-l-ia-des-donnees-personnelles-potentiellement-compromises-20261119"
         }
       ]
     },
     {
-      "title": "La CNIL inflige une amende de 5 millions d'euros à Macif Vie",
-      "why_it_matters": "Je note que la CNIL sanctionne un assureur pour des mots de passe mal protégés. C'est un rappel brutal sur la sécurité de nos données clients.",
+      "title": "Anthropic entre en Bourse et bat le record historique",
+      "why_it_matters": "Je retiens que l'IA Claude vaut désormais 81 milliards. Mais des experts critiquent son manque de sécurité. La hype ne doit pas cacher les risques.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/la-cnil-inflige-une-amende-de-5-millions-d-euros-a-l-assureur-macif-vie-en-raison-de-l-insuffisance-des-mesures-prises-pour-la-securite-des-donnees_8288285.html#xtor=RSS-3-%5Beconomie%5D"
-        }
-      ]
-    },
-    {
-      "title": "40% des entreprises touchées par une cyberattaque de fournisseur",
-      "why_it_matters": "Je retiens que le risque cyber vient souvent de nos prestataires. Il faut vérifier concrètement leur sécurité, pas seulement signer des papiers.",
-      "sources": [
-        {
-          "name": "Silicon.fr",
-          "url": "https://www.silicon.fr/cybersecurite-1371/risque-fournisseurs-cyber-le-declaratif-atteint-ses-limites-230496"
-        }
-      ]
-    },
-    {
-      "title": "L'IA fait déjà chuter les offres d'emploi dans certains métiers",
-      "why_it_matters": "Je note que 41% des employeurs français voient l'IA impacter leurs recrutements. Il faut repenser nos équipes et former nos salariés vite.",
-      "sources": [
+          "name": "BFM Business",
+          "url": "https://www.bfmtv.com/economie/entreprises/direct-la-plus-grande-introduction-en-bourse-de-l-histoire-suivez-les-debuts-a-new-york-d-anthropic-le-createur-de-l-ia-claude_LN-202611190598.html"
+        },
         {
           "name": "01net",
-          "url": "https://www.01net.com/actualites/travail-ia-ces-metiers-ou-offres-emploi-se-sont-effondrees.html"
+          "url": "https://www.01net.com/actualites/anthropic-entre-en-bourse-et-bat-le-record-historique-de-spacex.html"
+        },
+        {
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/pas-une-entreprise-dia-sure-des-experts-dezinguent-le-double-discours-danthropic-qui-cacherait-bien-son-jeu/"
         }
       ]
     },
     {
-      "title": "Rupture conventionnelle : signer avant le 25 novembre pour payer moins",
-      "why_it_matters": "Je retiens qu'il faut signer au plus tard le 25 novembre pour une fin en 2026. Cela évite les nouvelles cotisations, un point urgent en RH.",
+      "title": "Loi Darcos : l'IA doit payer les créateurs français",
+      "why_it_matters": "Je suis cette loi qui obligera les outils d'IA à rémunérer les créateurs. Pour mon entreprise, cela change le coût des contenus générés automatiquement.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/rupture-conventionnelle-la-date-limite-pour-signer-avant-le-1er-janvier-2027-1531951"
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/ia-et-droits-d-auteur-la-proposition-de-loi-darcos-de-nouveau-examinee-a-l-assemblee-nationale-pour-retablir-l-equilibre-entre-geants-de-l-intelligence-artificielle-et-createurs_AV-202611190569.html"
+        }
+      ]
+    },
+    {
+      "title": "Éditeurs français : le prix de l'IA reste flou",
+      "why_it_matters": "Je retiens que les éditeurs français ralentissent car le juste prix de l'IA reste incertain. C'est mon défi aussi : comment facturer l'IA à mes clients ?",
+      "sources": [
+        {
+          "name": "IT for Business",
+          "url": "https://www.itforbusiness.fr/top-250-numeum-logiciel-francais-juste-prix-ia-110122"
+        }
+      ]
+    },
+    {
+      "title": "Droits voisins : les plateformes devront payer la presse",
+      "why_it_matters": "Je note que le Parlement oblige enfin Google et Meta à rémunérer les médias. Si je produis du contenu, c'est une protection contre l'exploitation gratuite.",
+      "sources": [
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/19/droits-voisins-le-parlement-a-definitivement-adopte-une-loi-pour-mieux-remunerer-la-presse_6813305_3234.html"
+        },
+        {
+          "name": "Le Figaro",
+          "url": "https://www.lefigaro.fr/secteur/high-tech/droits-voisins-le-parlement-adopte-une-loi-pour-que-les-plateformes-remunerent-mieux-la-presse-20261119"
         }
       ]
     }
