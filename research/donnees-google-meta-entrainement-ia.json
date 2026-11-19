@@ -1,0 +1,144 @@
+{
+  "topic": "empêcher Google et Meta (Gmail, Google Photos, Instagram, Facebook) d'utiliser tes mails, photos et publications pour leur IA : les réglages à changer",
+  "slug": "donnees-google-meta-entrainement-ia",
+  "type": "A",
+  "generated_at": "2026-11-19",
+  "angle": "Cet article fournit aux entrepreneurs non-développeurs des instructions claires et actualisées (2025-2026) pour configurer leurs comptes Google et Meta afin de limiter l'utilisation de leurs données personnelles (mails, photos, publications) par les intelligences artificielles de ces plateformes.",
+  "intent": "Le lecteur souhaite comprendre comment empêcher Google (Gmail, Google Photos) et Meta (Instagram, Facebook) d'utiliser ses données personnelles pour l'entraînement de leurs IA, en identifiant les réglages spécifiques à modifier et les implications de ces changements.",
+  "keywords": [
+    "empêcher Google Meta IA données",
+    "réglages confidentialité Google Photos IA",
+    "désactiver utilisation données Facebook Instagram IA",
+    "protéger mails Gmail entraînement IA",
+    "paramètres Meta AI vie privée 2026"
+  ],
+  "facts": [
+    {
+      "claim": "La politique de confidentialité de Google, mise à jour autour d'octobre 2026, autorise l'exploitation des e-mails, photos et fichiers Drive pour le ciblage publicitaire via son IA, notamment lorsque des outils d'IA sont utilisés avec ces services.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5EyinAdxGzfNoqqDJfOcB2Unn3fOxdsT8xiOVtEkNTnCjywkXnAl9K5uBDoT3vjnU_xO9SrygnAqCLiZLThHMzu3LSZ2ZBetLBViIGJWkNs9QR2BpQitUNbKtH2lswYJfwxKohSXj_aMxyCwq8zjOzABdnedGdO-pXjrZ_UdoKVMMEn2WvhnB6cMgPgHYp19wsYQriu1RhW16awb0ACnOFcY6xIcyyWjwIjNQ5ebMZaLp0flLoewdSGy6h0cRc6w4EutCowv-pKu-qCrrR3wC98_Iy_ifuIjloch55qG8mtSVKEYOQxybLo7ECYB2FWzpUcs=",
+      "date": "2026-10"
+    },
+    {
+      "claim": "Google déploie une mise à jour (à partir du 18 novembre 2026) permettant de désactiver l'entraînement du modèle Gemini avec les conversations de l'utilisateur sans supprimer l'historique des discussions, en séparant les paramètres de conservation de l'activité et d'utilisation pour l'IA.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_BzSLv0qqBZamsJwxtaj2N8OlYcPUjTZLZgiYRemzlueVyLSvinJcyo83qTG7PkyPuMH-eER7bHpHXcupulnAsq0urRF7c0f86jxVSKTmu1loB8WzuO8YnyuaRTe-dsuDmN-n2rieO3YLGWRaW6SNtqkCp3xigzrUFmP7VUJ2X6vxfNBfPcTj79vOeaFJBYzJWttzlQYoQfz1eiemNa8XACvzpQsMCIXrRAPXpkK6bGEIrkUoJbSVIRjEiMqzVCt2mtV1Z-p0hA=",
+      "date": "2026-11-18"
+    },
+    {
+      "claim": "Meta a annoncé mi-avril 2025 son intention d'utiliser les données personnelles publiques des utilisateurs européens de Facebook et Instagram pour entraîner ses modèles d'IA, avec une date d'entrée en vigueur fixée au 27 mai 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxbHetasu_F6UiIj1Z1DbHAUbTCJwNh5Y4zjaAzYoIhcpBWOIWO12O1E_qWGILaoGClrVzpoFWE95lJ0ThUz9UUCrHeS27bIHfIMYIV3aF3GGH5cQ8xDdzWDP7aGP-3GdPHUarxO8BFyQaV7e3myewMQioIpRHO4aoK5SDnO7h8yf1XxYNzbDBq3HW2AwYf2mhmIcirFEDuBRYSjCpvocAG0eBiVdCYaTPYEe_tBH4AlaOQ0xTn8xocJKx0z-T8pXeS3ieNw=",
+      "date": "2025-04"
+    },
+    {
+      "claim": "Les utilisateurs de l'UE et du Royaume-Uni disposent d'un 'Droit d'opposition' en vertu de l'article 21 du RGPD, leur permettant de s'opposer à l'utilisation de leurs publications publiques Facebook et Instagram pour l'entraînement de l'IA de Meta en remplissant un formulaire d'objection.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTMyumkd8aQftFF3UjmmBMhTEG5iydq7LXmakWzDIolKnUB3RKVrLXCFJAdfPn7bBXKiv5ITqpQ4adK8aLmqsbN0LWCoEwdLxDWmhbk8qW-plSLpJm-0AK_lh7mmN2FOuiKx3V_BB47DvCYmejbaERxqfa_cCL8WiRqvrTdF55lyhxh4mXL9nRafU=",
+      "date": "2026-10-23"
+    },
+    {
+      "claim": "Sur Instagram, il est possible d'empêcher l'utilisation des photos et Reels publics pour la génération d'images par IA en accédant aux 'Paramètres et activité' > 'Partage et réutilisation' et en désactivant l'option 'Autoriser les personnes à utiliser votre contenu sur Instagram et avec les fonctionnalités IA de Meta' pour les publications et les Reels.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDsdifvDIRKnEua8lkOMbWRKX6J3p37vMNyjnbgqu58NpduWHd0fiL4fSx_gXC-iNNa90yP9NctqQ-x3LhMDBlns1YHuBU3aH2evI3bTv4M6I93HWm2Lr3eJib9nbi4M0pD1yhJ-Z-l7jbxyX7fRoSHcaTj2NY8t-kkQ6n3YYWOiDW0M9mjYAYPMiG_uK8Wx33od0i6Jobele2UQ==",
+      "date": "2026-07-09"
+    },
+    {
+      "claim": "La dernière version des modèles Claude est Claude Fable 5.2, lancée le 9 novembre 2026. La gamme actuelle inclut également Claude Opus 5.5 (22 septembre 2026), Claude Sonnet 5.5 (28 septembre 2026) et Claude Haiku 5.5 (7 octobre 2026).",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKMSQjzZo7b3f76VqPNIar1tyNIERjetm3YGxjYdO5xhEWBtXlkkrqHWS7YHNtmbMp1tGl_uncILAOeT0Kf2tiD8YDwtzuPvEuvootgTCq6s6OBVcPUbgyKoxjk0W7POipuqFE3VWToas2mYidx5YEvgqRMQ==",
+      "date": "2026-11-09"
+    },
+    {
+      "claim": "Les derniers modèles ChatGPT pour ChatGPT Work et Codex sont GPT-6.2 Astra et GPT-6.2 Sol, lancés le 17 novembre 2026. Ces modèles ne sont pas disponibles dans l'interface de chat standard de ChatGPT.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM4HFSkmouqOZyiXIf9-EG5M8fhfU3w9oOuVd5sTGLU3Ra0D12h4U-1AnbWrRv0mQJJnyw6z72YBhwlAs_zYTTSD0R_xreU01yxJvsr2mb_SKN8ILc2NG96tdy8kCrVxCw_43DBvMJH2e2sgilsEyaGxw6C2ekrCuJ7w2_",
+      "date": "2026-11-17"
+    },
+    {
+      "claim": "Le modèle Gemini 4 Carbon, le plus puissant de Google avec des performances de pointe en cybersécurité et pour les workflows agentiques complexes, a été mis à la disposition des développeurs, entreprises, scientifiques et consommateurs le 10 novembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHymwFG24_0WMUb6kKp4KK-19pI9-gl3JO0V_eAVK-IfBxPQrjyiA7lp0iDWsyhuyD1lgAd9Duk8xcSkZNiwCONKgzkrNzj0w2WXsLulYBzt8ocpf5unDgNsFQ-TxXDsWzbqI3jAOXd2CZaBNSfBjFtFs7n9o2mz32OiLNYgH-Hhp-78eeQoE7n6TVQLzJZVuw--7YPHMD-Cecu97Fu5GDiIA==",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "Le modèle propriétaire de Meta AI, Muse Spark, est utilisé depuis avril 2026 pour alimenter l'assistant Meta AI intégré à WhatsApp, Instagram, Facebook et Messenger.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlOYVcJimjkTlsTzHQmTVoLDhZf4bGpEFBgwZ-SRa-RaTzgQNgxiByc30mWog9xEffZ85lGgEBMRRQJwolB3oLa9OHcP5oXXMP3LVP6W5m4o6BaodS3KkcKaaxdE135F9FqjVvAFo=",
+      "date": "2026-04"
+    },
+    {
+      "claim": "Meta a introduit les modèles d'IA Muse Wonder et Muse Wonder Full le 12 octobre 2026, conçus pour gérer des tâches personnelles et professionnelles complexes nécessitant planification et raisonnement.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkjhNtZI07wtDfg7WnWJ_9GxF3HRKiPf22Jsxg4uE3yJWHf8L5bZ5fvBeO6oyJ1yFItCWRoNVUKLC12MKvtM-H_0ufVb9V24xVTAZCscFt1PK5plrc_DEPlNAFT78EtCMzHdN4hZVZQdVQxJeJ9WieQ9Zoczl7-H5hlktecqcO4GV4_Be3PPwig53mgEvi7avPQASaFfXfAIs=",
+      "date": "2026-10-12"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Selon une enquête du Pew Research Center, 35% des personnes interrogées se disent plus préoccupées qu'enthousiastes face à l'utilisation croissante de l'intelligence artificielle.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwroaHsnMVSjyxS75eLwyDWa3jP8nHhvmgX4TWLyAbGutQ2KPo5Vrx0SHmTQOCJnibMylo_sdda2ycuD3kfMoTctCG5fdm6GjF1WGN17Oqcs2KJtg0bIoiyAvnoo8_dUJjL8TpGthVrD5uYSXt4S22bckpL5q-65ClokffWlw9TetR0x-HVAQaqdVcopocY7DV1Hvj6XIf6NdH6QkF17GN9cb9",
+      "date": "2026"
+    },
+    {
+      "stat": "L'application Meta AI a atteint plus de 10 millions d'utilisateurs aux États-Unis et au Canada en octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkjhNtZI07wtDfg7WnWJ_9GxF3HRKiPf22Jsxg4uE3yJWHf8L5bZ5fvBeO6oyJ1yFItCWRoNVUKLC12MKvtM-H_0ufVb9V24xVTAZCscFt1PK5plrc_DEPlNAFT78EtCMzHdN4hZVZQdVQxJeJ9WieQ9Zoczl7-H5hlktecqcO4GV4_Be3PPwig53mgEvi7avPQASaFfXfAIs=",
+      "date": "2026-10"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Approfondit le sujet général de la confidentialité des données avec l'IA, très pertinent pour le lecteur."
+    },
+    {
+      "url": "/articles/ai-act-pour-ton-business",
+      "why": "Fournit un contexte légal important sur la régulation de l'IA, notamment pour les droits des utilisateurs en Europe."
+    },
+    {
+      "url": "/articles/meta-ai-whatsapp",
+      "why": "Détaille l'intégration de l'IA de Meta dans ses applications, complétant les informations sur Facebook et Instagram."
+    },
+    {
+      "url": "/articles/creer-images-ia-gratuit",
+      "why": "Relie directement à la problématique de l'utilisation des photos pour la génération d'images par IA."
+    },
+    {
+      "url": "/articles/ecrire-mails-avec-ia",
+      "why": "Aborde l'utilisation de l'IA avec les e-mails, pertinent pour la section sur Gmail."
+    }
+  ],
+  "outline": [
+    "Introduction : L'IA et vos données personnelles, un enjeu majeur pour les entrepreneurs",
+    "Google : Comment empêcher l'IA d'exploiter vos mails, photos et activités ?",
+    "Meta (Facebook, Instagram) : Les réglages pour protéger vos publications et images de l'IA",
+    "Comprendre vos droits : Le droit d'opposition et ses limites géographiques",
+    "Conseils supplémentaires pour une confidentialité renforcée face à l'IA"
+  ],
+  "faq": [
+    "Est-il réellement possible de désactiver complètement l'IA de Google et Meta ?",
+    "Mes messages privés et photos non publiques sont-ils utilisés pour entraîner les IA de ces plateformes ?",
+    "Que se passe-t-il si je ne modifie aucun de ces réglages de confidentialité ?",
+    "Les options de confidentialité sont-elles les mêmes pour les utilisateurs en Europe et aux États-Unis ?",
+    "Comment puis-je vérifier si mes données ont déjà été utilisées par l'IA et demander leur suppression ?"
+  ],
+  "pitfalls": [
+    "Les désactivations de réglages n'empêchent généralement que l'utilisation future des données pour l'entraînement de l'IA ; les données déjà collectées et traitées peuvent rester utilisées.",
+    "Il n'existe pas d'interrupteur unique pour désactiver complètement Meta AI sur toutes ses plateformes (Facebook, Instagram, WhatsApp) ; l'assistant est intégré de manière diffuse.",
+    "Le 'Droit d'opposition' à l'entraînement de l'IA de Meta est plus robuste dans l'UE et au Royaume-Uni grâce au RGPD, mais peut ne pas garantir un refus total ou être moins efficace dans d'autres régions.",
+    "La fonctionnalité 'Muse Image' de Meta, qui permettait de générer des images IA à partir de photos Instagram publiques, a été retirée en juillet 2026 suite à des critiques sur la vie privée, mais la problématique sous-jacente de l'utilisation des données pour l'entraînement IA demeure.",
+    "La nouvelle politique de Google (octobre 2026) lie l'utilisation des données pour les annonces via l'IA à l'utilisation d'outils d'IA avec Gmail, Photos ou Drive, suggérant que ne pas utiliser ces outils pourrait offrir une protection supplémentaire."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh4wyaoW_6kfIjd_T9zIBavxfNQTnyNTEY60Eh1wAdLlb4metVV_oSJLI18P7N580wtdtNMIIvE1F-9XPFcv5OMDD8xkHFpCrZA0kbdMbqK9eOp2ns9L3Gs3xRz2AGhq4mKxtsQMRolSzVO2ubt6cNuYnwk2vkUoZfxAicuwvIs72dUQ7JA_AGpuYBSWRz9sqpDG9RUtm8fITZ7A==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDWy-dB0h3SPvoMEQnS-0b0Hp5ZV9S8QhCkTj9BnEv29ZIojkPtiU3XhKmLJPv6Uz_aOBlF_MhPXpWD_b7_A06bZAsq_tulsfPHtHp82kvjWKpFJ5m4njEMW8CaImlrYGFjwz3rr_S1tngD4CeHm6q8Q3ZggAqTQkC_KSRyd__2FOQ2Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJrNV5CfW6XJ0SrQ0L1VIt6VSjc6Q-P5u9XqLMObcMAdShgQWZjgecvICOwDezmMSy_AwloqzzfZykT9xL6Z-DXI7zdYSyK07Okv1ydzJwuudarhU4da-C8OSEzTd_AXK_ef0hp46bvqvsjBWdOl6BMRgheuhRWkCRRWVUVi3g4Yz7a-_2w8Ksckjyt1iI_QiurtjDY_uxUN59sbZfesIfoCbZkbKRGzW81V2s",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8LEIBBuWcB5jGto8hhMC2wIR31W99RVR6ajfsjs8Xd_QvzEBgBk8m2RaGZy58xJfepdxsUSufg0GjKmrUIfFhqYswAtpE4TCi-yqrRO2J8TKuz7qgtlg0iPZ6EwmRecmQPvHD5mPbZRRQie5XmqkVvCQdTjALmUqn8FhgqENYg5bvTBSYB6f5i6Mx",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiL4by1HqqMp1Bj1lt5HExxVV2aERrEpKWZ8r8oI_m9jmxs6SftTTVMnGKqyWzNoGFQtsXu-sGnQn7_sA8zhN1hCI5v6JIC9Z93ObDC5xjW92_gfes4W7k1EYvvjw8aKQkyrq5YyaKgZf1",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTMyumkd8aQftFF3UjmmBMhTEG5iydq7LXmakWzDIolKnUB3RKVrLXCFJAdfPn7bBXKiv5ITqpQ4adK8aLmqsbN0LWCoEwdLxDWmhbk8qW-plSLpJm-0AK_lh7mmN2FOuiKx3V_BB47DvCYmejbaERxqfa_cCL8WiRqvrTdF55lyhxh4mXL9nRafU=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCeo-DUNMTTAB11rEFAf7648Gazzl8LqTiVWVfJVG1-ybW0fu2g_OkTCcbqBZSJDvNCemqIzNb2RheaRZdA7quwXIU8Wfe2W6x81nWIBdLWAItujylRz6Uu9PRpv7pxe8mDmqz4a13V-WDPESitonWS4iE08VzGQ5_HTREqTy_2SpIlrxsCOdEK9c_MA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz50RPOFFWprgRkFmMvtjzkQoE_IQ8HWvIDV5c6w7k3oYQNqC71iZOgKVrvcPXYg3melj-Pgll6XJh-bA3_b0CVDmEhl105L6tXZDVTkQXztak_spsOwNnuF0PDabhEWkPR0J2QY7iLGaZxw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiasMXafvFRVayomQkME2w3QJuZTky0hao4nUdVukfu4Vl2lO61ck4h-e1lDnz3eWmscYYt2LTHj6ZX88GCXucNAtOOqctG3WkS1QCeFIx9He2qjrxBETXo__yz5rd3t9mL_cr98cdmYYtj0eJ9Eh2Eyk=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpBW8U53wdJSpl56WSMp2lff3PcuethHj0NkpzePi6VQhr6MQggUluWiJxL6qjDMBv4-VU4pIq5CXOOgZpSp4epg2k7wTL65hAvrE3Jqfnz3-02poYaiMOJcxyVldOU52QAZ4=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5EyinAdxGzfNoqqDJfOcB2Unn3fOxdsT8xiOVtEkNTnCjywkXnAl9K5uBDoT3vjnU_xO9SrygnAqCLiZLThHMzu3LSZ2ZBetLBViIGJWkNs9QR2BpQitUNbKtH2lswYJfwxKohSXj_aMxyCwq8zjOzABdnedGdO-pXjrZ_UdoKVMMEn2WvhnB6cMgPgHYp19wsYQriu1RhW16awb0ACnOFcY6xIcyyWjwIjNQ5ebMZaLp0flLoewdSGy6h0cRc6w4EutCowv-pKu-qCrrR3wC98_Iy_ifuIjloch55qG8mtSVKEYOQxybLo7ECYB2FWzpUcs=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_BzSLv0qqBZamsJwxtaj2N8OlYcPUjTZLZgiYRemzlueVyLSvinJcyo83qTG7PkyPuMH-eER7bHpHXcupulnAsq0urRF7c0f86jxVSKTmu1loB8WzuO8YnyuaRTe-dsuDmN-n2rieO3YLGWRaW6SNtqkCp3xigzrUFmP7VUJ2X6vxfNBfPcTj79vOeaFJBYzJWttzlQYoQfz1eiemNa8XACvzpQsMCIXrRAPXpkK6bGEIrkUoJbSVIRjEiMqzVCt2mtV1Z-p0hA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxbHetasu_F6UiIj1Z1DbHAUbTCJwNh5Y4zjaAzYoIhcpBWOIWO12O1E_qWGILaoGClrVzpoFWE95lJ0ThUz9UUCrHeS27bIHfIMYIV3aF3GGH5cQ8xDdzWDP7aGP-3GdPHUarxO8BFyQaV7e3myewMQioIpRHO4aoK5SDnO7h8yf1XxYNzbDBq3HW2AwYf2mhmIcirFEDuBRYSjCpvocAG0eBiVdCYaTPYEe_tBH4AlaOQ0xTn8xocJKx0z-T8pXeS3ieNw=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDsdifvDIRKnEua8lkOMbWRKX6J3p37vMNyjnbgqu58NpduWHd0fiL4fSx_gXC-iNNa90yP9NctqQ-x3LhMDBlns1YHuBU3aH2evI3bTv4M6I93HWm2Lr3eJib9nbi4M0pD1yhJ-Z-l7jbxyX7fRoSHcaTj2NY8t-kkQ6n3YYWOiDW0M9mjYAYPMiG_uK8Wx33od0i6Jobele2UQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKMSQjzZo7b3f76VqPNIar1tyNIERjetm3YGxjYdO5xhEWBtXlkkrqHWS7YHNtmbMp1tGl_uncILAOeT0Kf2tiD8YDwtzuPvEuvootgTCq6s6OBVcPUbgyKoxjk0W7POipuqFE3VWToas2mYidx5YEvgqRMQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM4HFSkmouqOZyiXIf9-EG5M8fhfU3w9oOuVd5sTGLU3Ra0D12h4U-1AnbWrRv0mQJJnyw6z72YBhwlAs_zYTTSD0R_xreU01yxJvsr2mb_SKN8ILc2NG96tdy8kCrVxCw_43DBvMJH2e2sgilsEyaGxw6C2ekrCuJ7w2_",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHymwFG24_0WMUb6kKp4KK-19pI9-gl3JO0V_eAVK-IfBxPQrjyiA7lp0iDWsyhuyD1lgAd9Duk8xcSkZNiwCONKgzkrNzj0w2WXsLulYBzt8ocpf5unDgNsFQ-TxXDsWzbqI3jAOXd2CZaBNSfBjFtFs7n9o2mz32OiLNYgH-Hhp-78eeQoE7n6TVQLzJZVuw--7YPHMD-Cecu97Fu5GDiIA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlOYVcJimjkTlsTzHQmTVoLDhZf4bGpEFBgwZ-SRa-RaTzgQNgxiByc30mWog9xEffZ85lGgEBMRRQJwolB3oLa9OHcP5oXXMP3LVP6W5m4o6BaodS3KkcKaaxdE135F9FqjVvAFo=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkjhNtZI07wtDfg7WnWJ_9GxF3HRKiPf22Jsxg4uE3yJWHf8L5bZ5fvBeO6oyJ1yFItCWRoNVUKLC12MKvtM-H_0ufVb9V24xVTAZCscFt1PK5plrc_DEPlNAFT78EtCMzHdN4hZVZQdVQxJeJ9WieQ9Zoczl7-H5hlktecqcO4GV4_Be3PPwig53mgEvi7avPQASaFfXfAIs=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwroaHsnMVSjyxS75eLwyDWa3jP8nHhvmgX4TWLyAbGutQ2KPo5Vrx0SHmTQOCJnibMylo_sdda2ycuD3kfMoTctCG5fdm6GjF1WGN17Oqcs2KJtg0bIoiyAvnoo8_dUJjL8TpGthVrD5uYSXt4S22bckpL5q-65ClokffWlw9TetR0x-HVAQaqdVcopocY7DV1Hvj6XIf6NdH6QkF17GN9cb9"
+  ]
+}

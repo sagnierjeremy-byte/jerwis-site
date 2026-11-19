@@ -462,8 +462,9 @@
       "topic": "empêcher Google et Meta (Gmail, Google Photos, Instagram, Facebook) d'utiliser tes mails, photos et publications pour leur IA : les réglages à changer",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-19"
     },
     {
       "id": "budget-perso-avec-ia",

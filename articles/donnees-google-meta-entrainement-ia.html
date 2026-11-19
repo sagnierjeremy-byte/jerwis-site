@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/donnees-google-meta-entrainement-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Empêcher Google et Meta d'utiliser tes données pour leur IA</title>
+<meta name="description" content="Découvre les réglages à modifier sur Gmail, Google Photos, Instagram et Facebook pour limiter l'exploitation de tes données par les modèles d'IA de Google et Meta.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Empêcher Google et Meta d'utiliser tes données pour leur IA">
+<meta property="og:description" content="Découvre les réglages à modifier sur Gmail, Google Photos, Instagram et Facebook pour limiter l'exploitation de tes données par les modèles d'IA de Google et Meta.">
+<meta property="og:url" content="https://jerwis.fr/articles/donnees-google-meta-entrainement-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/donnees-google-meta-entrainement-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-19">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Empêcher Google et Meta d'utiliser tes données pour leur IA">
+<meta name="twitter:description" content="Découvre les réglages à modifier sur Gmail, Google Photos, Instagram et Facebook pour limiter l'exploitation de tes données par les modèles d'IA de Google et Meta.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/donnees-google-meta-entrainement-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/donnees-google-meta-entrainement-ia">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/donnees-google-meta-entrainement-ia">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/donnees-google-meta-entrainement-ia">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/donnees-google-meta-entrainement-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Empêcher Google et Meta d'utiliser tes données pour leur IA",
+  "description": "Découvre les réglages à modifier sur Gmail, Google Photos, Instagram et Facebook pour limiter l'exploitation de tes données par les modèles d'IA de Google et Meta.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/donnees-google-meta-entrainement-ia",
+  "datePublished": "2026-11-19",
+  "dateModified": "2026-11-19",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/donnees-google-meta-entrainement-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 82</div>
+    <h1>Tes données<br>face à l'IA<br><em>de Google et Meta</em></h1>
+    <p class="hero-lead">
+      Tu partages sans doute beaucoup de ta vie professionnelle sur Gmail, Google Photos, Instagram ou Facebook. Moi aussi. Et depuis que Google et Meta intègrent l'intelligence artificielle dans chaque recoin de leurs services, une question me trotte en permanence. Est-ce que mes mails à un client, mes photos de produits ou mes publications peuvent servir à entraîner leurs modèles ? J'ai creusé la question pour toi. Voici ce que j'ai trouvé, et surtout ce que tu peux faire concrètement pour limiter la casse.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>7 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> Google et Meta</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Google a <strong>mis à jour sa politique de confidentialité</strong> en octobre 2026 pour lier tes emails et photos au ciblage publicitaire par IA</li>
+      <li>Tu peux <strong>dissocier la conservation de l'historique</strong> de l'entraînement de Gemini depuis le 18 novembre 2026</li>
+      <li>Meta utilise tes <strong>données publiques</strong> pour entraîner Muse Spark, mais les Européens peuvent <strong>s'opposer via le RGPD</strong></li>
+      <li>Sur Instagram, un réglage spécifique protège tes photos et Reels de la <strong>génération d'images par IA</strong></li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Pourquoi je me suis penché sur la question</h2>
+    <p>Je passe une grande partie de ma journée entre Gmail et Instagram. Je reçois des devis, je stocke des captures d&#39;écran de projets sur Google Photos, je publie du contenu sur Facebook pour tester des formats. Bref, je laisse des traces numériques partout.</p>
+    <p>Et visiblement, je ne suis pas le seul à me sentir un peu floué. Selon une enquête du Pew Research Center en 2026, 35% des personnes interrogées se disent plus préoccupées qu&#39;enthousiastes face à l&#39;utilisation croissante de l&#39;intelligence artificielle. Je fais partie de ce groupe. Pas par peur de la technologie. Parce que je veux rester maître de ce que je partage.</p>
+    <p>La politique de confidentialité de Google a été mise à jour autour d&#39;octobre 2026. Elle autorise désormais l&#39;exploitation des e-mails, des photos et des fichiers Drive pour le ciblage publicitaire via son IA, notamment lorsque des outils d&#39;IA sont utilisés avec ces services. En parallèle, Google a mis à disposition son modèle Gemini 4 Carbon le 10 novembre 2026. Meta n&#39;est pas en reste. L&#39;entreprise a annoncé mi-avril 2025 son intention d&#39;utiliser les données publiques des utilisateurs européens pour entraîner ses modèles d&#39;IA, avec une date d&#39;entrée en vigueur fixée au 27 mai 2025. Aujourd&#39;hui, son assistant Meta AI est alimenté par le modèle Muse Spark depuis avril 2026. Il est présent sur WhatsApp, Instagram, Facebook et Messenger.</p>
+    <p>Autant dire que le risque n&#39;est plus théorique. Si tu es entrepreneur, tes données personnelles et professionnelles mélangées représentent une cible. Je te propose de passer en revue les réglages qui comptent vraiment.</p>
+    <h2>Google et tes mails personnels</h2>
+    <p>Google a déployé une mise à jour à partir du 18 novembre 2026. Elle permet de désactiver l&#39;entraînement du modèle Gemini avec tes conversations sans supprimer l&#39;historique des discussions. L&#39;idée est simple. Avant, tout était lié. Si tu voulais empêcher Google d&#39;utiliser tes prompts pour améliorer Gemini, tu devais effacer ton historique. Maintenant, les paramètres sont séparés. Tu peux conserver l&#39;historique de tes échanges pour toi, tout en coupant le robinet de l&#39;entraînement.</p>
+    <p>Mais attention. Cette option concerne les conversations avec Gemini. Elle ne résout pas tout. La politique de confidentialité de Google, mise à jour autour d&#39;octobre 2026, autorise l&#39;exploitation des e-mails, des photos et des fichiers Drive pour le ciblage publicitaire via son IA, notamment lorsque des outils d&#39;IA sont utilisés avec ces services. Cela signifie que tes mails professionnels stockés sur Gmail, ou tes images uploadées sur Google Photos, peuvent être analysés pour affiner des campagnes publicitaires ciblées par intelligence artificielle.</p>
+    <p>Pour couper cette connexion, tu dois aller dans les paramètres de confidentialité de ton compte Google. Cherche la section dédiée à l&#39;IA et à la gestion de l&#39;activité. La nouveauté, c&#39;est cette séparation claire entre la conservation de l&#39;activité et l&#39;utilisation pour l&#39;IA. Désactive l&#39;option qui autorise l&#39;utilisation de tes données pour améliorer les modèles. Garde l&#39;historique si tu en as besoin pour toi.</p>
+    <p>Je te recommande aussi de jeter un œil à <a href="/articles/ecrire-mails-avec-ia">la façon dont l&#39;IA peut t&#39;aider à écrire tes mails</a> pour rester productif sans laisser tes données en ordre de marche.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Les réglages Meta à vérifier d&#39;urgence</h2>
+    <p>Meta a annoncé mi-avril 2025 son intention d&#39;utiliser les données personnelles publiques des utilisateurs européens de Facebook et Instagram pour entraîner ses modèles d&#39;IA. La date d&#39;entrée en vigueur était fixée au 27 mai 2025. Depuis, l&#39;entreprise a largement accéléré. Le modèle Muse Spark est utilisé depuis avril 2026 pour alimenter l&#39;assistant Meta AI intégré à WhatsApp, Instagram, Facebook et Messenger. Et le 12 octobre 2026, Meta a introduit les modèles Muse Wonder et Muse Wonder Full, capables de gérer des tâches complexes nécessitant planification et raisonnement.</p>
+    <p>En octobre 2026, l&#39;application Meta AI a atteint plus de 10 millions d&#39;utilisateurs aux États-Unis et au Canada. Ces chiffres montrent une adoption massive. Plus il y a d&#39;utilisateurs, plus les données circulent.</p>
+    <p>Sur Instagram, il existe un réglage précis pour empêcher l&#39;utilisation de tes photos et Reels publics pour la génération d&#39;images par IA. Tu dois aller dans Paramètres et activité, puis Partage et réutilisation. Là, désactive l&#39;option Autoriser les personnes à utiliser ton contenu sur Instagram et avec les fonctionnalités IA de Meta. Ce paramètre concerne à la fois les publications et les Reels.</p>
+    <p>Sur Facebook, la logique est similaire pour ce qui est des contenus publics. Meta se concentre sur les publications visibles de tous pour entraîner ses modèles. Plus ton profil est ouvert, plus tu es exposé. Si tu utilises ces réseaux pour promouvoir ton activité, tu publies forcément en public. Le risque est réel.</p>
+    <p>Tu peux en apprendre plus sur <a href="/articles/meta-ai-whatsapp">l&#39;intégration de Meta AI dans WhatsApp</a> et les autres applis. Et si tu t&#39;intéresses à la génération d&#39;images par IA, cet article sur <a href="/articles/creer-images-ia-gratuit">comment créer des images avec l&#39;IA gratuitement</a> t&#39;éclairera sur les mécanismes en jeu.</p>
+    <h2>Ton droit d&#39;opposition en Europe</h2>
+    <p>Les utilisateurs de l&#39;Union européenne et du Royaume-Uni disposent d&#39;un atout précieux. Il s&#39;agit du droit d&#39;opposition prévu par l&#39;article 21 du RGPD. Ce droit te permet de t&#39;opposer à l&#39;utilisation de tes publications publiques Facebook et Instagram pour l&#39;entraînement de l&#39;IA de Meta. Pour ce faire, tu dois remplir un formulaire d&#39;objection directement proposé par Meta.</p>
+    <p>Ce n&#39;est pas une option bien visible. C&#39;est un droit légal que Meta a été contraint de mettre en place. Si tu es en France, en Belgique, en Allemagne ou ailleurs en Europe, tu peux l&#39;exercer. Le formulaire vaut pour les publications publiques. Il ne couvre pas les messages privés, qui échappent à ce type de récupération selon les politiques actuelles de Meta.</p>
+    <p>Néanmoins, ce droit a ses limites. Il s&#39;applique géographiquement. Si tu as des clients ou une audience aux États-Unis, sache que le cadre légal est différent. Là-bas, Meta a atteint plus de 10 millions d&#39;utilisateurs sur son application Meta AI en octobre 2026, et les mécanismes de retrait sont moins contraignants pour l&#39;entreprise.</p>
+    <p>Pour mieux comprendre le cadre légal qui protège tes données en Europe, je t&#39;invite à lire <a href="/articles/ai-act-pour-ton-business">ce décryptage du AI Act pour ton business</a>.</p>
+    <h2>Ce que je fais au-delà des réglages</h2>
+    <p>Modifier les paramètres est indispensable. Ce n&#39;est pas suffisant. Je mets en place quelques habitudes simples pour réduire ma surface d&#39;exposition.</p>
+    <p>Je relis les mises à jour de politique de confidentialité quand elles arrivent. Google en a fait une autour d&#39;octobre 2026. Meta en fait régulièrement. Ces textes sont longs, mais les dates et les intitulés changent. Si tu vois apparaître les mots intelligence artificielle, formation des modèles ou ciblage avancé, c&#39;est le moment de vérifier tes réglages.</p>
+    <p>Je limite aussi ce que je mets en ligne en mode public. Si une photo de produit ou un mail contient des informations sensibles, je réfléchis deux fois avant de la publier ou de la stocker sur un compte gratuit lié à un écosystème publicitaire.</p>
+    <div class="callout tip"><h4>Méfiance saine</h4><p>Si un service est gratuit, tu n'es pas le client. Tu es le produit. Ce n'est pas une critique. C'est un rappel. Chaque fois que Google ou Meta lancent un nouvel outil IA, gratuit et intégré, vérifie ce que tu autorises par défaut. Les options changent. J'en ai la preuve avec la mise à jour de novembre 2026 chez Google qui sépare enfin la conservation de l'historique de l'entraînement.</p></div>
+    
+    <p>Je te conseille aussi de consulter <a href="/articles/donnees-perso-ia-confidentialite">cet article sur la confidentialité des données avec l&#39;IA</a> pour élargir ta vue sur le sujet.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>Désactiver complètement l&#39;IA, c&#39;est possible ?</h3>
+    <p>Non. Tu ne peux pas désactiver totalement l&#39;intelligence artificielle chez Google ou Meta. Tu peux limiter l&#39;entraînement des modèles avec tes données personnelles et empêcher certaines réutilisations. Mais ces entreprises intègrent l&#39;IA au cœur de leurs services. Même si tu coupes l&#39;entraînement, tes données peuvent encore être analysées pour du ciblage publicitaire via IA, comme le précise la politique de Google mise à jour en octobre 2026.</p>
+    <h3>Tes messages privés servent à l&#39;entraînement ?</h3>
+    <p>Les faits publics ne montrent pas que Meta utilise tes messages privés pour entraîner Muse Spark ou Muse Wonder. Meta se concentre sur les données publiques pour l&#39;entraînement, notamment celles des utilisateurs européens. Chez Google, la situation est différente pour ce qui est du ciblage. La politique de confidentialité d&#39;octobre 2026 autorise l&#39;exploitation des e-mails et fichiers Drive pour le ciblage publicitaire via IA. Pour les conversations avec Gemini, un réglage distinct existe depuis le 18 novembre 2026 pour stopper leur utilisation à des fins d&#39;entraînement.</p>
+    <h3>Que se passe-t-il sans réglages ?</h3>
+    <p>Si tu ne modifies rien, tu acceptes implicitement les conditions par défaut. Google peut exploiter tes e-mails, photos et fichiers Drive pour affiner le ciblage publicitaire via IA. Meta peut utiliser tes publications publiques pour entraîner ses modèles, en Europe comme ailleurs. Tes photos et Reels Instagram peuvent aussi servir à la génération d&#39;images par IA si tu laisses l&#39;option activée.</p>
+    <h3>Mêmes options en Europe et aux États-Unis ?</h3>
+    <p>Non. Les utilisateurs de l&#39;Union européenne et du Royaume-Uni bénéficient du droit d&#39;opposition prévu par l&#39;article 21 du RGPD. Ce droit leur permet de remplir un formulaire d&#39;objection contre l&#39;utilisation de leurs publications publiques pour l&#39;entraînement de l&#39;IA de Meta. Ce mécanisme n&#39;existe pas avec la même force hors d&#39;Europe. Aux États-Unis et au Canada, l&#39;application Meta AI compte plus de 10 millions d&#39;utilisateurs en octobre 2026, mais les leviers de contrôle sont moins protecteurs.</p>
+    <h3>Supprimer l&#39;usage passé de tes données ?</h3>
+    <p>Il n&#39;existe pas de tableau de bord qui te montre précisément quelles données ont déjà servi à entraîner un modèle. Tu ne peux pas télécharger un historique de l&#39;exploitation. Par contre, tu peux exercer ton droit d&#39;opposition pour l&#39;avenir si tu es en Europe. Pour le passé, la seule certitude est que changer tes réglages aujourd&#39;hui ne rattrape pas ce qui a déjà été ingéré. C&#39;est pourquoi je préfère agir vite.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Je fais tout ça d&#39;abord pour moi. Parce que je refuse de découvrir dans six mois que mes photos de produits ont servi à générer des visuels pour un concurrent, ou que mes mails stratégiques ont alimenté un algorithme de ciblage.</p>
+    <p>L&#39;intelligence artificielle est un outil fabuleux quand on la maîtrise. Elle devient un problème quand elle te traverse sans consentement clair. Les réglages existent. Google les a améliorés en novembre 2026. Meta les rend accessibles, parfois cachés derrière des formulaires. À toi de les activer. Dix minutes aujourd&#39;hui, c&#39;est moins de regrets demain.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>
