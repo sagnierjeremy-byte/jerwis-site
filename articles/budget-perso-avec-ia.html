@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/budget-perso-avec-ia.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Gérer ton budget avec l'IA sans codes bancaires</title>
+<meta name="description" content="Comment j'utilise l'IA pour analyser mes dépenses, débusquer les abonnements oubliés et construire un plan d'épargne sans jamais partager mes identifiants bancaires.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Gérer ton budget avec l'IA sans codes bancaires">
+<meta property="og:description" content="Comment j'utilise l'IA pour analyser mes dépenses, débusquer les abonnements oubliés et construire un plan d'épargne sans jamais partager mes identifiants bancaires.">
+<meta property="og:url" content="https://jerwis.fr/articles/budget-perso-avec-ia">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/budget-perso-avec-ia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-20">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Gérer ton budget avec l'IA sans codes bancaires">
+<meta name="twitter:description" content="Comment j'utilise l'IA pour analyser mes dépenses, débusquer les abonnements oubliés et construire un plan d'épargne sans jamais partager mes identifiants bancaires.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/budget-perso-avec-ia.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/budget-perso-avec-ia">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Gérer ton budget avec l'IA sans codes bancaires",
+  "description": "Comment j'utilise l'IA pour analyser mes dépenses, débusquer les abonnements oubliés et construire un plan d'épargne sans jamais partager mes identifiants bancaires.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/budget-perso-avec-ia",
+  "datePublished": "2026-11-20",
+  "dateModified": "2026-11-20",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/budget-perso-avec-ia.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 77</div>
+    <h1>Ton budget<br>sous le microscope<br><em>sans toucher à tes codes</em></h1>
+    <p class="hero-lead">
+      Tu as peur de te faire voler tes identifiants bancaires mais tu veux quand même profiter de l'IA pour y voir clair dans tes dépenses ? Je suis exactement dans ce cas. J'ai testé plusieurs méthodes pour analyser mon budget, repérer les fuites, nettoyer mes abonnements et bâtir un plan d'épargne sans jamais connecter mes comptes à quoi que ce soit. Voici ce qui marche vraiment en novembre 2026.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>9 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> Claude, ChatGPT, Gemini</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Analyser tes dépenses avec un <strong>budget IA</strong>, des fichiers CSV ou des photos de reçus</li>
+      <li>Débusquer les abonnements oubliés grâce à une saisie manuelle ou un scan OCR</li>
+      <li>Construire un <strong>plan d'épargne</strong> personnalisé sans partager tes identifiants bancaires</li>
+      <li>Choisir entre les assistants généralistes (ChatGPT, Claude, Gemini) et les apps privacy-first comme Richify ou AI Money</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Pourquoi je refuse de lier mes comptes</h2>
+    <p>Je ne suis ni développeur ni expert en cybersécurité. Entrepreneur curieux, je refuse de me faire dépasser par l&#39;IA. Mon argent mérite une méfiance saine. Je fais tout ça d&#39;abord pour moi. Je veux comprendre où part chaque euro sans risquer de voir mes identifiants bancaires stockés dans une base de données qui m&#39;échappe.</p>
+    <p>Le sujet de la confidentialité revient constamment chez les professionnels de la finance. Beaucoup s&#39;inquiètent autant de la sécurité des données que de la fiabilité des résultats produits par l&#39;IA. Moi, je résous le problème à la source. Je ne connecte rien. Je garde le contrôle total sur ce que je partage. Si tu veux en savoir plus sur la manière de protéger tes données financières, j&#39;ai détaillé ma démarche dans un article sur <a href="/articles/donnees-perso-ia-confidentialite">la confidentialité des données personnelles</a>.</p>
+    <h2>Comment j&#39;analyse mes dépenses sans connexion bancaire</h2>
+    <p>La méthode est simple. Tu télécharges un fichier CSV depuis ton espace client bancaire. C&#39;est un export classique. Tu n&#39;as pas besoin de donner tes codes. Ensuite tu importes ce fichier dans un outil qui lit et classe tout automatiquement.</p>
+    <p>Tally Assistant fonctionne exactement comme ça. Tu charges un CSV ou tu photographies un reçu. L&#39;IA catégorise seule tes dépenses. Pas de connexion bancaire directe. Pour les reçus papier ou les factures PDF, des outils comme ExpenseBot et ReceiptsAI utilisent la reconnaissance de texte pour extraire les montants et les classer. Tu restes maître de tes données.</p>
+    <p>Je fais aussi des tests avec des saisies manuelles rapides. AI Money permet de dicter une dépense ou d&#39;envoyer une photo. Tu peux même notifier une transaction via WhatsApp. C&#39;est utile quand tu es en déplacement et que tu veux noter une dépense avant de l&#39;oublier.</p>
+    <div class="callout tip"><h4>Ce que je vérifie avant chaque envoi</h4><p>Avant de glisser un fichier CSV dans ChatGPT ou Claude, je supprime les colonnes inutiles. Je garde la date, le libellé, le montant et la catégorie. Je retire les numéros de carte complètes et les IBAN. Même si je fais confiance à l'outil, je préfère limiter la surface d'attaque au strict minimum. C'est une habitude qui prend dix secondes et qui change tout.</p></div>
+    
+    <p>Pour bien guider l&#39;IA dans cette analyse, il vaut mieux savoir <a href="/articles/ecrire-bon-prompt-non-dev">rédiger des prompts efficaces</a>. Et si tu veux aller plus loin dans l&#39;automatisation des tâches récurrentes, j&#39;explique comment <a href="/articles/automatiser-taches-ia-sans-coder">automatiser des tâches sans écrire de code</a>.</p>
+    <h2>Où se cachent les abonnements oubliés</h2>
+    <p>C&#39;est souvent là que l&#39;IA m&#39;a le plus surpris. Quand tu lui donnes trois mois de relevés, elle repère les lignes qui se répètent. Un abonnement oublié devient visible immédiatement. Ce n&#39;est pas magique. C&#39;est de la détection de récurrence appliquée à tes propres données.</p>
+    <p>L&#39;autre jour, j&#39;ai découvert que je payais encore une application de stockage photo que je n&#39;avais pas ouverte depuis huit mois. L&#39;IA l&#39;a repérée parce que le montant revenait à date fixe avec un libellé presque identique. J&#39;aurais pu le voir seul. Mais sur des centaines de lignes, le cerveau humain fait l&#39;économie de ce qu&#39;il juge insignifiant. L&#39;IA ne fait pas cette erreur.</p>
+    <p>Les assistants IA t&#39;aident à structurer tes revenus, tes charges, tes objectifs et tes échéanciers, à expliquer des approches budgétaires et à proposer des ajustements sans exiger tes identifiants bancaires. Tu leur donnes un résumé manuscrit ou un tableau exporté, et ils mettent en lumière les schémas qui t&#39;échappent.</p>
+    <h2>Construire un plan d&#39;épargne sur mesure</h2>
+    <p>Une fois que tu as une vision claire de tes entrées et sorties, tu peux demander à l&#39;IA de simuler des plans. Tu indiques tes revenus, tes charges fixes, tes dépenses variables et ton objectif. Elle te propose des pistes d&#39;ajustement. C&#39;est un exercice de structuration, pas une prédiction absolue.</p>
+    <p>Richify utilise des agents IA pour ce type de travail. Tu saisis tes chiffres à la main. L&#39;outil reste dans une approche privacy-first. Tu ne partages aucun identifiant bancaire. L&#39;IA croise tes données et te montre des scénarios.</p>
+    <p>J&#39;ai ainsi testé un plan pour constituer un coussin de sécurité. L&#39;IA m&#39;a proposé de décaler certains paiements annuels en mensualisés pour lisser la trésorerie. Ce n&#39;était pas une révélation extraordinaire. C&#39;était une mise en ordre de ce que je savais déjà sans oser le regarder.</p>
+    <div class="callout tip"><h4>L'erreur qui m'a valu une projection fausse</h4><p>J'ai un moment cru une projection d'épargne parce que l'IA avait oublié de compter un abonnement annuel. Depuis, je fais toujours relire le plan par l'IA en lui précisant les dépenses annuelles et trimestrielles. Un modèle n'a pas ta mémoire. Tu dois lui donner toutes les pièces du puzzle.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Quel outil IA choisir en ce moment</h2>
+    <p>À la date de cet article, plusieurs modèles ont été mis à jour récemment. Tu n&#39;as pas besoin d&#39;être développeur pour les utiliser.</p>
+    <p>ChatGPT 6 Astra est sorti le 3 septembre 2026, suivi de GPT-6.2 Astra et Sol en novembre 2026. Claude Opus 5.5 a été lancé le 22 septembre 2026, puis Sonnet 5.5 le 28 septembre 2026 et Haiku 5.5 le 7 octobre 2026. Gemini 4 Argon a été annoncé le 30 septembre 2026 mais reste en accès limité. Le modèle généralement disponible le plus récent est Gemini 3.8 Flash depuis le 2 septembre 2026. Chez Mistral, Mistral Large 4 est en préversion publique depuis le 6 octobre 2026 avec des poids ouverts disponibles fin octobre 2026.</p>
+    <p>Pour importer un fichier CSV directement, j&#39;utilise l&#39;application de bureau de Claude ou ChatGPT en mode Work. Pas de terminal. Pas de ligne de commande. Tu ouvres l&#39;application, tu glisses le fichier, et tu poses ta question.</p>
+    <p>Tu peux aussi opter pour un modèle open-source installé sur ton propre ordinateur avec Ollama ou LM Studio. Cela te permet d&#39;analyser des fichiers CSV sans aucune connexion internet. C&#39;est la méthode la plus isolée que j&#39;aie testée.</p>
+    <p>Si tu hésites entre tous ces modèles, j&#39;ai publié un guide pour <a href="/lexique/choisir-modele-2026">choisir le bon modèle d&#39;IA en 2026</a>.</p>
+    <h2>Les limites à connaître</h2>
+    <p>L&#39;IA aide à structurer et à visualiser. Elle ne remplace pas un conseiller financier. Elle peut aussi se tromper sur un montant, confondre deux libellés ou inventer une récurrence qui n&#39;existe pas.</p>
+    <p>Le marché de l&#39;IA pour la finance personnelle est en forte croissance depuis 2025. Les entreprises du secteur adoptent massivement ces technologies. Mais du côté utilisateur, la prudence reste de mise. Ne suis jamais aveuglément une suggestion d&#39;épargne ou d&#39;investissement générée par un modèle. Tu restes le seul responsable de tes décisions.</p>
+    <p>Je précise que j&#39;ai utilisé l&#39;IA pour structurer certaines des analyses dont je te parle ici. C&#39;est un outil. Pas un oracle.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>Est-il vraiment sûr d&#39;utiliser l&#39;IA pour mes finances sans connecter mes comptes bancaires ?</h3>
+    <p>Oui, à condition de ne jamais partager tes codes, tes cartes complètes, tes identifiants de connexion ou ton mot de passe bancaire. Tu restes en contrôle en important toi-même des exports CSV ou en dictant tes transactions. Pour les plus vigilants, un modèle local installé sur ton ordinateur avec Ollama ou LM Studio analyse tes données sans même passer par internet.</p>
+    <h3>Quels types de données puis-je donner à une IA pour qu&#39;elle m&#39;aide à gérer mon budget ?</h3>
+    <p>Tu peux transmettre des fichiers CSV exportés de ton espace client, des photos de reçus, des résumés manuels de tes entrées et sorties, ou des tableaux que tu as toi-même construits. Évite toujours de donner ton IBAN complet, les numéros de carte, les cryptogrammes ou tes mots de passe bancaires.</p>
+    <h3>Comment une IA peut-elle trouver des abonnements oubliés si elle n&#39;a pas accès à mes relevés bancaires en direct ?</h3>
+    <p>Tu lui fournis tes relevés sous forme de texte ou de fichier. Elle scanne les lignes pour repérer les montants identiques qui reviennent à intervalle régulier. C&#39;est une analyse de récurrence sur les données que tu lui donnes. Elle n&#39;a pas besoin d&#39;un accès temps réel pour faire ce travail.</p>
+    <h3>Puis-je utiliser ChatGPT, Gemini ou Claude pour analyser mes dépenses et créer un plan d&#39;épargne ?</h3>
+    <p>Absolument. Tu peux ouvrir un fichier CSV directement dans l&#39;application de bureau de Claude ou dans ChatGPT en mode Work. Gemini 3.8 Flash est accessible en ligne. Les modèles savent lire des tableaux, catégoriser des dépenses, repérer les doublons et proposer des répartitions d&#39;épargne. Précise bien tes objectifs et tes contraintes dans le prompt pour obtenir un résultat utile.</p>
+    <h3>Quels sont les risques et les limites de l&#39;utilisation de l&#39;IA pour la gestion budgétaire sans connexion bancaire ?</h3>
+    <p>Le principal risque est l&#39;hallucination. L&#39;IA peut calculer un total faux, confondre une dépense annuelle avec une mensuelle ou te proposer un plan irréaliste. Elle n&#39;a pas accès à ta situation fiscale réelle ni à tes contraintes contractuelles. Utilise-la comme un organisateur, pas comme un conseiller financier certifié.</p>
+    <h3>Existe-t-il des applications IA gratuites qui respectent cette approche sans codes bancaires ?</h3>
+    <p>Oui. Tally Assistant, Richify, AI Money et d&#39;autres apps similaires proposent des fonctionnalités de suivi budgétaire sans liaison bancaire. Certaines te laissent scanner des reçus, d&#39;autres fonctionnent par saisie manuelle ou dictée. Les modèles open-source tournant sur ton ordinateur sont aussi gratuits à télécharger et fonctionnent hors ligne.</p>
+    <h2>Ce que je retiens</h2>
+    <p>L&#39;IA m&#39;aide à voir mon budget autrement. Pas parce qu&#39;elle est plus intelligente que moi, mais parce qu&#39;elle ne dort pas et ne néglige aucune ligne. Je garde mes codes bancaires pour moi. Je lui donne juste ce qu&#39;elle doit analyser. C&#39;est un équilibre simple. Et il fonctionne.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+</body>
+</html>

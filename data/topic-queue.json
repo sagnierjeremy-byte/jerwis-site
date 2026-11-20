@@ -471,8 +471,9 @@
       "topic": "gérer son budget avec l'IA : analyser ses dépenses, repérer les abonnements oubliés et préparer un plan d'épargne, sans jamais donner ses codes bancaires",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-20"
     },
     {
       "id": "chatgpt-au-travail-sans-autorisation",

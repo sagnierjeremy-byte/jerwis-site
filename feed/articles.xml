@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Gérer ton budget avec l&apos;IA sans codes bancaires</title>
+      <link>https://jerwis.fr/articles/budget-perso-avec-ia</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/budget-perso-avec-ia</guid>
+      <description>Comment j&apos;utilise l&apos;IA pour analyser mes dépenses, débusquer les abonnements oubliés et construire un plan d&apos;épargne sans jamais partager mes identifiants bancaires.</description>
+      <pubDate>Fri, 20 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Empêcher Google et Meta d&apos;utiliser tes données pour leur IA</title>
       <link>https://jerwis.fr/articles/donnees-google-meta-entrainement-ia</link>

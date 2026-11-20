@@ -1,0 +1,154 @@
+{
+  "topic": "gérer son budget avec l'IA : analyser ses dépenses, repérer les abonnements oubliés et préparer un plan d'épargne, sans jamais donner ses codes bancaires",
+  "slug": "budget-perso-avec-ia",
+  "type": "A",
+  "generated_at": "2026-11-20",
+  "angle": "Découvrez comment les entrepreneurs non-développeurs peuvent maîtriser leur budget grâce à l'IA, en analysant leurs dépenses, débusquant les abonnements oubliés et planifiant leur épargne, le tout sans jamais compromettre leurs codes bancaires.",
+  "intent": "Le lecteur cherche des méthodes concrètes et sécurisées pour utiliser l'intelligence artificielle afin de gérer ses finances personnelles (analyse de dépenses, détection d'abonnements, plan d'épargne) en privilégiant la confidentialité et en évitant le partage de ses identifiants bancaires.",
+  "keywords": [
+    "gérer budget IA sans codes bancaires",
+    "analyse dépenses IA confidentialité",
+    "repérer abonnements oubliés IA",
+    "plan épargne IA non-développeur",
+    "outils IA gestion financière manuelle"
+  ],
+  "facts": [
+    {
+      "claim": "Des outils comme Tally Assistant permettent de suivre les dépenses avec une catégorisation automatique par IA en téléchargeant des fichiers CSV ou en scannant des reçus, sans nécessiter de connexion bancaire directe.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsTwinHwTpIuyrMrXQCccG72HNeeO36tnrStYl01B-GDjRJUPt2nZIBWD-OH1LzkZukRE5xyDk7V5R8rvfnPE5kjANn3YGzC16SRM0a3QDONaV--Y7PqWPnKHTp_KtDvV1ZkwZstPDIjsxIGTpNH_Vmg=",
+      "date": "2026"
+    },
+    {
+      "claim": "Richify est une application de finance personnelle qui utilise des agents IA pour analyser les chiffres (revenus, dépenses, soldes) que l'utilisateur saisit manuellement, offrant une approche 'privacy-first' sans partage d'identifiants bancaires.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3WN6BQwilVtCFVcNLdbtE8-vfPmP850Aq3FjNoY6hG4SYKZGsYqAkqslgAtF_hLEU7T7kbrfw9_Z7KmJ1aUuebhxDHzlZ9lojylYx_jAvi13F1ZebIw9QRqALBRGVuAfOmF4PrpI0X-Uid4c_wQ=",
+      "date": "2026-11-19"
+    },
+    {
+      "claim": "ChatGPT 6 Astra, le modèle phare d'OpenAI, a été lancé le 3 septembre 2026, avec des mises à jour comme GPT-6.2 Astra et Sol en novembre 2026, offrant des capacités avancées pour la recherche et le développement logiciel.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQpwlBpSuuIzPRXNPJZRNE2pW9fHHp4rHf8yoit2b2xp7bgoNaMa63cZAnENdIGF-SjwBbC-gUhOQNZb_i226MTm8LTdWNSNwm__OAZH5hZKPn3180L3Of6ZTN1jlgXTlKsor2LdKYtPDqw==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJg-oFykMRg7a4Mb7gYMZCZj9-RJKF62jGDmXCynMWxQIdkgR2XEJqsPwEPTuN1DvQ4Km6_uvNsZk6hkJuPpD3o6t_19j-Jbn3WnLkHyhtPs1gVkfiR6w-V632LWE7BGNe1a83-P3z",
+      "date": "2026-09-03"
+    },
+    {
+      "claim": "Claude Opus 5.5, le modèle le plus performant de la série Claude 5.5 d'Anthropic, a été lancé le 22 septembre 2026, suivi par Claude Sonnet 5.5 le 28 septembre 2026 et Claude Haiku 5.5 le 7 octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjwQCDsju61RUnyawFNEZAUQ4InuW0oKSv0dCBacuipOlsQVbWieK2wmXLfv0lZ6o5OgwII_m9q6e-Gj7H_5Lzbo_Agh1ptxfn-nHyLednLcvYEdw0OpuHTNqoSdT1cXCiBspN, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCfWG8Sn2zz8csnar0fFgTfX_9hanjWVW0RUgfgPoSaqGUpFhqhsAf3i4y8NIA7Nw7v7RTYtOFLL8av7kFHKPbFa1JM4mavL9Pkn3VtR6ba_S8--WmN9RtP7fNQm4OGSf6vJdyXWle28CreCL5mhBnus5P69d454Q=",
+      "date": "2026-09-22"
+    },
+    {
+      "claim": "Google a annoncé Gemini 4 Argon le 30 septembre 2026, avec un accès initial limité, tandis que Gemini 3.8 Flash est le modèle généralement disponible le plus récent depuis le 2 septembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjdcMjS3QQ-XMuScR9iJ3KQLutk0SZ0TThdu3_7aqHnz1yvnQ2q70ozeNrtapb6DgJmOd7IJ2XC6n8c93p3040VinBSqTkTbH1x3ENxI2eFvxDv7sPW3MG4MgHuXkFnVe6QlmtMyKGizcNfGyow3IFGnbDTsIxUA==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL63f4OsEKbNzGaIAyAVrKugE_lRc2v9oZvjV5cZxgmeuwX2IELjFJNFV8sjNIWW6TYPn1umXdeQKGynC9xpRHoM-Yo0bbKYF2wxmnfyLVyuRruptHzO1wi6u4zhtccgSvEvy2m_AgBQ==",
+      "date": "2026-09-30"
+    },
+    {
+      "claim": "Mistral Large 4, le modèle multimodal phare de Mistral AI, a été lancé en préversion publique le 6 octobre 2026, avec des poids ouverts disponibles fin octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHog9OFX1pn2YGZEPHC9sInrf-TuAP6OXtAWzaGjdjkjfg2rzrAtQrHXPGg6lHiu2UO5SyjLZE-3lb1ElbDeLWtFRV5uJpiA4pMqrvXSDi8xJL21jgwtcK6jcYJhT-OT_OZNI9zbA6bQikugMDzIglSsXkgGyy3Uw==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ_RjxFqd1XCDkYLt8gWtVynhcepHL7zJu_uebwiFPNokOpF-u6a4WP7WFJkXFMtaoyr5JqHnmBqTq5ezrLM9LJUa_jZKKxj6X3OVv88Lt0Hh8d3mC24NbwtVazqgnJaOPaTAMoffD73et5sA7i7_B4gP2nLoHw==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU8t_--5Rln-816oo_Qp1qf4GNPKv-_SJ8vxQ4iJSixzBb4ZlNFbCfqjESBXmaqIh36fObMrKYOkJfcoYza1k9tQ4R2Ks2Ue2TkECpG6zrm35vh3AAEF5Nam-Wm0GGy0Unu_l6QHYKL3Lwq4OWfnmnbmIWlO8=",
+      "date": "2026-10-06"
+    },
+    {
+      "claim": "Des applications comme AI Money permettent de gérer un budget sans lier de compte bancaire, en saisissant manuellement les transactions, en dictant, en photographiant des reçus ou via WhatsApp.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJVbP9XsaBCAbrfgea0Cu2kcWcUWG5QHnYOlbZ2VQrJTKoPmw910r1W4k4T3C-kcoQD6ltomMuCuIZPsmoLUHzyWSk9av_FOwTVt2DlLXNJDe_F8SkcOgDWqsTfUu7qPgI6fRNQYrKirZF69L_xM_cAnFuQz81z6iAnkQQ==",
+      "date": "2026"
+    },
+    {
+      "claim": "Les assistants IA peuvent aider à organiser les revenus, les dépenses et les objectifs, à expliquer les approches budgétaires et à proposer des ajustements de dépenses sans nécessiter de détails sensibles comme les identifiants bancaires.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmuDErf7Crm172YzGFn5ipIqpXQcCwxtIG6_CzninSxRafsThtMSNX2XROSDBfNQhYV6eJ2GHAP5jQRhOF-RhNgrZuQW7FEMH1rmmEi-FEK5D3GHuYAL-VKbNgVwmS8tQ9oxFhdPOdAKW7j4O8LFI5NBPqhLT7CdtkQpHcP-8KrxyB39c=",
+      "date": "2026"
+    },
+    {
+      "claim": "Il est possible d'utiliser un LLM localement sur son propre ordinateur pour analyser des données financières (fichiers CSV) sans connexion internet ni services cloud, en utilisant des outils comme Ollama ou LM Studio avec des modèles open-source.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3WajXrO3N35kkmnnxMVPqbApQ4vygp7pJyFZykcPiqWbtahqYrn7IUnnLJk6wuHaB7Pe96qLHN_Df1FM0YTOtT_DymVvgi-rKWd6tLSuHEhRaFoAqJDPoGrQCfHymsBXKmXIz7N3u93KYX4XFtLK7nxtfMjZZF306EKj08uXbSEf1Cq4_f_C3bk8EfxMu-xJ3dkE-iDbGv_wi0ybDpRZ6gtk5k76bwU-IFPJ1kg-VCRo=",
+      "date": "2026-01-16"
+    },
+    {
+      "claim": "Des outils comme ExpenseBot et ReceiptsAI utilisent l'IA pour l'OCR et la classification des dépenses à partir de reçus, de PDF ou de CSV, permettant une catégorisation automatique et une réconciliation des relevés sans accès direct aux comptes bancaires.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExyrfKN7RcxQrmfjgcJscu38Kwtv5BIh1hil4LGxFgYKYUrAHRYLgxCnB1_awGzDcvQWVTyHNNb7I5cQYPrzOkPXDScufWcUB9cQW2vBd5Ntf1PI_HLK_6YpR_pjl3U3ER5siw5h4_, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU2kc6OAOnzByAiO-DvGDYfu7DEXjQK6jKMe63JpCZLWqJOo50anQ0PQz9YoiH2UEjcj5NkoqrO2S6YI5_KFcFheF4n2HLIKlCcAki_wHho5yR9_If2A6U8hCIJ0BFuqZlzhBU3hXQqMIgEk_LPaM=",
+      "date": "2026-05-15"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "8 entreprises sur 10 dans le secteur financier utilisent déjà l'IA ou prévoient de le faire dans les 12 prochains mois en 2026, contre 6 sur 10 en 2025, démontrant une adoption croissante.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSiM49CKAbO5LMr2Re6UfQ7T59vAj5Jxh3PC9kt0MVDgF4DH6YEmjZU8dF9shiF3RfJrAdFyEo7uPc4MuSjObrnemkMO_5XC5h408FmJ71mEEPMR07Wzl20OJIYttlz2UKpXYNl6rmJF07UlXZcfkVrSgjnfx3wT07uUQof4_d",
+      "date": "2026"
+    },
+    {
+      "stat": "La confidentialité des données et la cybersécurité (53%) ainsi que la précision et la fiabilité des résultats (48%) restent les principales préoccupations des planificateurs financiers concernant l'IA en 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSiM49CKAbO5LMr2Re6UfQ7T59vAj5Jxh3PC9kt0MVDgF4DH6YEmjZU8dF9shiF3RfJrAdFyEo7uPc4MuSjObrnemkMO_5XC5h408FmJ71mEEPMR07Wzl20OJIYttlz2UKpXYNl6rmJF07UlXZcfkVrSgjnfx3wT07uUQof4_d",
+      "date": "2026"
+    },
+    {
+      "stat": "Le marché de l'IA pour la finance personnelle devrait passer de 1,1 milliard de dollars en 2025 à 1,34 milliard de dollars en 2026, avec un taux de croissance annuel composé (CAGR) de 22,1%.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VvUXO9wj2Pg-ZJ-JBpi_IYD-2e6WvTSz3Ugm3-pQAV2hdkoGHGqwnqLmTqK4t0_YE_zcfdwvg-Spfk_oYVJbzebPGjAi-NmJlnSns4zO9b0Fb0W6GATVPX9K2DnSopGjYa7KDk2HcvEdwp9aee6GckPiaPvuEV8LMZCkHtPNc2R4wBs789rQ9RZ_nyd0XA==",
+      "date": "2026"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Aborder les préoccupations de confidentialité liées à l'utilisation de l'IA pour les données financières."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Fournir des conseils sur la manière de formuler des prompts efficaces pour analyser des données financières avec des IA génériques."
+    },
+    {
+      "url": "/articles/automatiser-taches-ia-sans-coder",
+      "why": "Montrer comment l'IA peut automatiser l'analyse de données financières sans compétences en codage."
+    },
+    {
+      "url": "/lexique/choisir-modele-2026",
+      "why": "Aider le lecteur à choisir le bon modèle d'IA (ChatGPT, Gemini, Claude, Mistral) pour ses besoins d'analyse financière, en tenant compte des dernières versions."
+    }
+  ],
+  "outline": [
+    "Introduction : L'IA au service de votre budget, sans compromis sur la sécurité",
+    "Analyser ses dépenses avec l'IA : La puissance des données sans la connexion bancaire",
+    "Débusquer les abonnements oubliés : Quand l'IA révèle l'invisible",
+    "Élaborer un plan d'épargne intelligent avec l'IA : Objectifs et stratégies personnalisées",
+    "Choisir son outil IA : Plateformes dédiées vs. Assistants généralistes (et leurs dernières versions)",
+    "Bonnes pratiques et limites : Utiliser l'IA financièrement responsable"
+  ],
+  "faq": [
+    "Est-il vraiment sûr d'utiliser l'IA pour mes finances sans connecter mes comptes bancaires ?",
+    "Quels types de données puis-je donner à une IA pour qu'elle m'aide à gérer mon budget ?",
+    "Comment une IA peut-elle trouver des abonnements oubliés si elle n'a pas accès à mes relevés bancaires en direct ?",
+    "Puis-je utiliser ChatGPT, Gemini ou Claude pour analyser mes dépenses et créer un plan d'épargne ?",
+    "Quels sont les risques et les limites de l'utilisation de l'IA pour la gestion budgétaire sans connexion bancaire ?",
+    "Existe-t-il des applications IA gratuites qui respectent cette approche sans codes bancaires ?"
+  ],
+  "pitfalls": [
+    "Ne pas confondre l'analyse de données fournies par l'utilisateur avec une connexion bancaire directe, qui présente des risques de sécurité différents.",
+    "La précision de l'analyse IA dépendra fortement de la qualité et de l'exhaustivité des données que l'utilisateur fournit (CSV, saisie manuelle).",
+    "Les IA génériques (ChatGPT, Gemini, Claude) peuvent 'halluciner' ou donner des conseils financiers non adaptés sans une supervision humaine et une bonne ingénierie de prompt.",
+    "Les outils d'IA sans connexion bancaire nécessitent un effort manuel continu pour l'importation ou la saisie des transactions afin de maintenir les données à jour.",
+    "Certaines applications présentées comme 'IA' pour le budget peuvent n'offrir qu'une catégorisation basique, sans réelle intelligence proactive ou conversationnelle."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsTwinHwTpIuyrMrXQCccG72HNeeO36tnrStYl01B-GDkRJUPt2nZIBWD-OH1LzkZukRE5xyDk7V5R8rvfnPE5kjANn3YGzC16SRM0a3QDONaV--Y7PqWPnKHTp_KtDvV1ZkwxZstPDIjsxIGTpNH_Vmg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3WN6BQwilVtCFVcNLdbtE8-vfPmP850Aq3FjNoY6hG4SYKZGsYqAkqslgAtF_hLEU7T7kbrfw9_Z7KmJ1aUuebhxDHzlZ9lojylYx_jAvi13F1ZebIw9QRqALBRGVuAfOmF4PrpI0X-Uid4c_wQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQpwlBpSuuIzPRXNPJZRNE2pW9fHHp4rHf8yoit2b2xp7bgoNaMa63cZAnENdIGF-SjwBbC-gUhOQNZXbi226MTm8LTdWNSNwm__OAZH5hZKPp3180L3Of6ZTN1jlgXTlKsor2LdKYtPDqw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJg-oFykMRg7a4Mb7gYMZCZj9-RJKF62jGDmXCynMWxQIdkgR2XEJqsPwEPTuN1DvQ4Km6_uvNsZk6hkJuPpD3o6t_19j-Jbn3WnLkHyhtPs1gVkfiR6w-V632LWE7BGNe1a83-P3z",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjwQCDsju61RUnyawFNEZAUQ4InuW0oKSv0dCBacuipOlsQVbWieK2wmXLfv0lZ6o5OgwII_m9q6e-Gj7H_5Lzbo_Agh1ptxfn-nHyLednLcvYEdw0OpuHTNqoSdT1cXCiBspz",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCfWG8Sn2zz8csnar0fFgTfX_9hanjWVW0RUgfgPoSaqGUpFhqhsAf3i4y8NIA7Nw7v7RTYtOFLL8av7kFHKPbFa1JM4mavL9Pkn3VtR6ba_S8--WmN9RtP7fNQm4OGSf6vJdyXWle28CreCL5mhBnus5P69d454Q=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjdcMjS3QQ-XMuScR9iJ3KQLutk0SZ0TThdu8_7aqHnz1yvnQ2q70ozeNrtapb6DgJmOd7IJ2XC6n8c93p3040VinBSqTkTbH1x3ENxI2eFvxDv7sPW3MG4MgHuXkFnVe6QlmtMyKGizcNfGyow3IFGnbDTsIxUA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL63f4OsEKbNzGaIAyAVrKugE_lRc2v9oZvjV5cZxgmeuwX2IELjFJNFV8sjNIWW6TYPn1umXdeQKGynC9xpRHoM-Yo0bbKYF2wxmnfyLVyuRruptHzO1wi6u4zhtccgSvEvy2m_AgBQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHog9OFX1pn2YGZEPHC9sInrf-TuAP6OXtAWzaGjdjkjfg2rzrAtQrHXPGg6lHiu2UO5SyjLZE-3lb1ElbDeLWtFRV5uJpiA4pMqrvXSDi8xJL21jgwtcK6jcYJhT-OT_OZNI9zbA6bQikugMDzIglSsXkgGyy3Uw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ_RjxFqd1XCDkYLt8gWtVynhcepHL7zJu_uebwiFPNokOpF-u6a4WP7WFJkXFMtaoyr5JqHnmBqTq5ezrLM9LJUa_jZKKxj6X3OVv88Lt0Hh8d3mC24NbwtVazqgnJaOPaTAMoffmD73et5sA7i7_B4gP2nLoHw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU8t_--5Rln-816oo_Qp1qf4GNPKv-_SJ8vxQ4iJSixzBb4ZlNFbCfqjESBXmaqIh36fObMrKYOkJfcoYza1k9tQ4R2Ks2Ue2TkECpG6zrm35vh3AAEF5Nam-Wm0GGy0Unu_l6QHYKL3Lwq4OWfnmnbmIWlO8=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJVbP9XsaBCAbrfgea0Cu2kcWcUWG5QHnYOlbZ2VQrJTKoPmw910r1W4k4T3C-kcoQD6ltomMuCuIZPsmoLUHzyWSk9av_FOwTVt2DlLXNJDe_F8SkcOgDWqsTfUu7qPgI6fRNQYrKirZF69L_xM_cAnWFuQz81z6iAnkQQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmuDErf7Crm172YzGFn5ipIqpXQcCwxtIG6_CzninSxRafsThtMSNX2XROSDBfNQhYV6eJ2GHAP5jQRhOF-RhNgrZuQW7FEMH1rmmEi-FEK5D3GHuYAL-VKbNgVwmS8tQ9oxFhdPOdAKW7j4O8LFI5NBPqhLT7CdtkQpHcP-8KrxyB39c=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3WajXrO3N35kkmnnxMVPqbApQ4vygp7pJyFZykcPiqWbtahqYrn7IUnnLJk6wuHaB7Pe96qLHN_Df1FM0YTOtT_DymVvgi-rKWd6tLSuHEhRaFoAqJDPoGrQCfHymsBXKmXIz7N3u93KYX4XFtLK7nxtfMjZZF306EKj08uXbSEf1Cq4_f_C3bk8EfxMu-xJ3dkE-iDbGv_wi0ybDpRZ6gtk5k76bwU-IFPJ1kg-VCRo=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExyrfKN7RcxQrmfjgcJscu38Kwtv5BIh1hil4LGxFgYKYUrAHRYLgxCnB1_awGzDcvQWVTyHNNb7I5cQYPrzOkPXDScufWcUB9cQW2vBd5Ntf1PI_HLK_6YpR_pjl3U3ER5siw5h4_",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU2kc6OAOnzByAiO-DvGDYfu7DEXjQK6jKMe63JpCZLWqJOo50anQ0PQz9YoiH2UEjcj5NkoqrO2S6YI5_KFcFheF4n2HLIKlCcAki_wHho5yR9_If2A6U8hCIJ0BFuqZlzhBU3hXQqMIwEk_LPaM=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSiM49CKAbO5LMr2Re6UfQ7T59vAj5Jxh3PC9kt0MVDgF4DH6YEmjZU8dF9shiF3RfJrAdFyEo7uPc4MuSjObrnemkMO_5XC5h408FmJ71mEEPMR07Wzl20OJIYttlz2UKpXYNl6rmJF07UlXZcfkVrSgjnfx3wT07uUQof4_d",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VvUXO9wj2Pg-ZJ-JBpi_IYD-2e6WvTSz3Ugm3-pQAV2hdkoGHGqwnqLmTqK4t0_YE_zcfdwvg-Spfk_oYVJbzebPGyAi-NmJlnsSn4zO9b0Fb0W6GATVPX9K2DnSopGjYa7KDk2HcvEdwp9aee6GckPiaPvuEV8LMZCkHtPNc2R4wBs789rQ9RZ_nyd0XA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsTwinHwTpIuyrMrXQCccG72HNeeO36tnrStYl01B-GDjRJUPt2nZIBWD-OH1LzkZukRE5xyDk7V5R8rvfnPE5kjANn3YGzC16SRM0a3QDONaV--Y7PqWPnKHTp_KtDvV1ZkwZstPDIjsxIGTpNH_Vmg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3WN6BQwilVtCFVcNLdbtE8-vfPmP850Aq3FjNoY6hG4SYKZGsYqAkqslgAtF_hLEU7T7kbrfw9_Z7KmJ1aUuebhxDHzlZ9lojylYx_jAvi13F1ZebIw9QRqALBRGVuAfOmF4PrpI0X-Uid4c_wQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHQpwlBpSuuIzPRXNPJZRNE2pW9fHHp4rHf8yoit2b2xp7bgoNaMa63cZAnENdIGF-SjwBbC-gUhOQNZb_i226MTm8LTdWNSNwm__OAZH5hZKPn3180L3Of6ZTN1jlgXTlKsor2LdKYtPDqw==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJg-oFykMRg7a4Mb7gYMZCZj9-RJKF62jGDmXCynMWxQIdkgR2XEJqsPwEPTuN1DvQ4Km6_uvNsZk6hkJuPpD3o6t_19j-Jbn3WnLkHyhtPs1gVkfiR6w-V632LWE7BGNe1a83-P3z",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjwQCDsju61RUnyawFNEZAUQ4InuW0oKSv0dCBacuipOlsQVbWieK2wmXLfv0lZ6o5OgwII_m9q6e-Gj7H_5Lzbo_Agh1ptxfn-nHyLednLcvYEdw0OpuHTNqoSdT1cXCiBspN, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCfWG8Sn2zz8csnar0fFgTfX_9hanjWVW0RUgfgPoSaqGUpFhqhsAf3i4y8NIA7Nw7v7RTYtOFLL8av7kFHKPbFa1JM4mavL9Pkn3VtR6ba_S8--WmN9RtP7fNQm4OGSf6vJdyXWle28CreCL5mhBnus5P69d454Q=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjdcMjS3QQ-XMuScR9iJ3KQLutk0SZ0TThdu3_7aqHnz1yvnQ2q70ozeNrtapb6DgJmOd7IJ2XC6n8c93p3040VinBSqTkTbH1x3ENxI2eFvxDv7sPW3MG4MgHuXkFnVe6QlmtMyKGizcNfGyow3IFGnbDTsIxUA==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL63f4OsEKbNzGaIAyAVrKugE_lRc2v9oZvjV5cZxgmeuwX2IELjFJNFV8sjNIWW6TYPn1umXdeQKGynC9xpRHoM-Yo0bbKYF2wxmnfyLVyuRruptHzO1wi6u4zhtccgSvEvy2m_AgBQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHog9OFX1pn2YGZEPHC9sInrf-TuAP6OXtAWzaGjdjkjfg2rzrAtQrHXPGg6lHiu2UO5SyjLZE-3lb1ElbDeLWtFRV5uJpiA4pMqrvXSDi8xJL21jgwtcK6jcYJhT-OT_OZNI9zbA6bQikugMDzIglSsXkgGyy3Uw==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ_RjxFqd1XCDkYLt8gWtVynhcepHL7zJu_uebwiFPNokOpF-u6a4WP7WFJkXFMtaoyr5JqHnmBqTq5ezrLM9LJUa_jZKKxj6X3OVv88Lt0Hh8d3mC24NbwtVazqgnJaOPaTAMoffD73et5sA7i7_B4gP2nLoHw==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU8t_--5Rln-816oo_Qp1qf4GNPKv-_SJ8vxQ4iJSixzBb4ZlNFbCfqjESBXmaqIh36fObMrKYOkJfcoYza1k9tQ4R2Ks2Ue2TkECpG6zrm35vh3AAEF5Nam-Wm0GGy0Unu_l6QHYKL3Lwq4OWfnmnbmIWlO8=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDJVbP9XsaBCAbrfgea0Cu2kcWcUWG5QHnYOlbZ2VQrJTKoPmw910r1W4k4T3C-kcoQD6ltomMuCuIZPsmoLUHzyWSk9av_FOwTVt2DlLXNJDe_F8SkcOgDWqsTfUu7qPgI6fRNQYrKirZF69L_xM_cAnFuQz81z6iAnkQQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExyrfKN7RcxQrmfjgcJscu38Kwtv5BIh1hil4LGxFgYKYUrAHRYLgxCnB1_awGzDcvQWVTyHNNb7I5cQYPrzOkPXDScufWcUB9cQW2vBd5Ntf1PI_HLK_6YpR_pjl3U3ER5siw5h4_, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU2kc6OAOnzByAiO-DvGDYfu7DEXjQK6jKMe63JpCZLWqJOo50anQ0PQz9YoiH2UEjcj5NkoqrO2S6YI5_KFcFheF4n2HLIKlCcAki_wHho5yR9_If2A6U8hCIJ0BFuqZlzhBU3hXQqMIgEk_LPaM=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VvUXO9wj2Pg-ZJ-JBpi_IYD-2e6WvTSz3Ugm3-pQAV2hdkoGHGqwnqLmTqK4t0_YE_zcfdwvg-Spfk_oYVJbzebPGjAi-NmJlnSns4zO9b0Fb0W6GATVPX9K2DnSopGjYa7KDk2HcvEdwp9aee6GckPiaPvuEV8LMZCkHtPNc2R4wBs789rQ9RZ_nyd0XA=="
+  ]
+}
