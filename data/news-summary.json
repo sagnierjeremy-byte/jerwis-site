@@ -1,74 +1,66 @@
 {
-  "generated_at": "2026-11-19T14:05:04.049Z",
-  "day_label": "Jeudi 19 novembre",
+  "generated_at": "2026-11-20T13:48:12.089Z",
+  "day_label": "Vendredi 20 novembre",
   "items": [
     {
-      "title": "Cyberattaque à la Commission européenne avec de l'IA",
-      "why_it_matters": "Je note que des pirates utilisent un outil d'IA public pour paralyser la Commission. Même une grande institution reste vulnérable. Je renforce ma sécurité.",
+      "title": "Nouvelle directive bancaire : vos découverts et agios changent",
+      "why_it_matters": "Les banques doivent mieux encadrer les découverts et plafonner les agios. Mon autorisation de découvert sera plus stricte. Les paiements fractionnés sont aussi visés.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/business/action-publique/1558247-la-commission-europeenne-a-subi-une-cyberattaque-pendant-plus-de-dix-jours/"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/cyberattaque-ia-vient-frapper-commission-europeenne-plusieurs-systemes-paralyses-pendant-dix-jours.html"
-        },
-        {
-          "name": "Le Figaro",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/la-commission-europeenne-visee-par-une-cyberattaque-assistee-par-l-ia-des-donnees-personnelles-potentiellement-compromises-20261119"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/social/agios-decouverts-paiements-fractionnes-ce-que-change-la-nouvelle-directive-europeenne-a-partir-du-20-novembre-20261120"
         }
       ]
     },
     {
-      "title": "Anthropic entre en Bourse et bat le record historique",
-      "why_it_matters": "Je retiens que l'IA Claude vaut désormais 81 milliards. Mais des experts critiquent son manque de sécurité. La hype ne doit pas cacher les risques.",
+      "title": "Tickets-restaurant : vos salariés peuvent payer leurs courses, mais...",
+      "why_it_matters": "Le Sénat rend permanent le ticket-restaurant pour les courses, avec un double plafond. Cela change la paie et les avantages de mes équipes.",
       "sources": [
-        {
-          "name": "BFM Business",
-          "url": "https://www.bfmtv.com/economie/entreprises/direct-la-plus-grande-introduction-en-bourse-de-l-histoire-suivez-les-debuts-a-new-york-d-anthropic-le-createur-de-l-ia-claude_LN-202611190598.html"
-        },
-        {
-          "name": "01net",
-          "url": "https://www.01net.com/actualites/anthropic-entre-en-bourse-et-bat-le-record-historique-de-spacex.html"
-        },
         {
           "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/pas-une-entreprise-dia-sure-des-experts-dezinguent-le-double-discours-danthropic-qui-cacherait-bien-son-jeu/"
+          "url": "https://www.presse-citron.net/payer-vos-courses-avec-vos-tickets-restaurant-cest-bientot-definitif-mais-avec-de-nouvelles-limites-voici-ce-qui-change/"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conso/double-plafond-commissions-comment-les-senateurs-ont-modifie-la-reforme-des-tickets-restaurant-20261120"
         }
       ]
     },
     {
-      "title": "Loi Darcos : l'IA doit payer les créateurs français",
-      "why_it_matters": "Je suis cette loi qui obligera les outils d'IA à rémunérer les créateurs. Pour mon entreprise, cela change le coût des contenus générés automatiquement.",
+      "title": "Grèves du 1er décembre : fonction publique et privé réunis",
+      "why_it_matters": "Huit syndicats de la fonction publique et la CFDT appellent à la mobilisation. Mes déplacements et services publics risquent d'être bloqués vendredi.",
       "sources": [
         {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/ia-et-droits-d-auteur-la-proposition-de-loi-darcos-de-nouveau-examinee-a-l-assemblee-nationale-pour-retablir-l-equilibre-entre-geants-de-l-intelligence-artificielle-et-createurs_AV-202611190569.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/social/salaires-huit-syndicats-de-la-fonction-publique-appellent-a-une-journee-de-greve-le-1er-decembre-20261120"
+        },
+        {
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/societe/manifestations/une-intersyndicale-de-la-fonction-publique-lance-un-nouvel-appel-a-la-greve-et-a-la-mobilisation-le-1er-decembre_8292254.html#xtor=RSS-3-%5Beconomie%5D"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/la-tribune-dimanche/societe/2361010986526514/la-cfdt-appelle-les-salaries-du-secteur-prive-a-se-mobiliser-le-1er-decembre"
         }
       ]
     },
     {
-      "title": "Éditeurs français : le prix de l'IA reste flou",
-      "why_it_matters": "Je retiens que les éditeurs français ralentissent car le juste prix de l'IA reste incertain. C'est mon défi aussi : comment facturer l'IA à mes clients ?",
+      "title": "Budgets IT 2027 : les entreprises devront faire des choix",
+      "why_it_matters": "L'inflation, les tensions géopolitiques et l'IA font flamber les budgets IT. Je retiens que 2027 sera une année de choix durs pour la transformation numérique.",
       "sources": [
         {
           "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/top-250-numeum-logiciel-francais-juste-prix-ia-110122"
+          "url": "https://www.itforbusiness.fr/budgets-it-2027-les-dsi-sur-un-fil-110187"
         }
       ]
     },
     {
-      "title": "Droits voisins : les plateformes devront payer la presse",
-      "why_it_matters": "Je note que le Parlement oblige enfin Google et Meta à rémunérer les médias. Si je produis du contenu, c'est une protection contre l'exploitation gratuite.",
+      "title": "5 millions d'amende pour des mots de passe non sécurisés",
+      "why_it_matters": "La CNIL sanctionne la Macif pour avoir stocké des mots de passe en clair. Je retiens que la cybersécurité n'est pas une option, même dans une PME.",
       "sources": [
         {
-          "name": "Le Monde",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/19/droits-voisins-le-parlement-a-definitivement-adopte-une-loi-pour-mieux-remunerer-la-presse_6813305_3234.html"
-        },
-        {
-          "name": "Le Figaro",
-          "url": "https://www.lefigaro.fr/secteur/high-tech/droits-voisins-le-parlement-adopte-une-loi-pour-que-les-plateformes-remunerent-mieux-la-presse-20261119"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/mots-de-passe-en-clair-assureur-francais-cnil/"
         }
       ]
     }
