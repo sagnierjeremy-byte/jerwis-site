@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-11-20T13:48:12.089Z",
-  "day_label": "Vendredi 20 novembre",
+  "generated_at": "2026-11-21T13:13:20.759Z",
+  "day_label": "Samedi 21 novembre",
   "items": [
     {
-      "title": "Nouvelle directive bancaire : vos découverts et agios changent",
-      "why_it_matters": "Les banques doivent mieux encadrer les découverts et plafonner les agios. Mon autorisation de découvert sera plus stricte. Les paiements fractionnés sont aussi visés.",
+      "title": "Budget UE : 204 milliards en moins et une taxe numérique en vue",
+      "why_it_matters": "Je retiens que la France bloque le projet. Moins de fonds européens et une taxe sur le numérique qui tombe sur les entreprises tech.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/social/agios-decouverts-paiements-fractionnes-ce-que-change-la-nouvelle-directive-europeenne-a-partir-du-20-novembre-20261120"
-        }
-      ]
-    },
-    {
-      "title": "Tickets-restaurant : vos salariés peuvent payer leurs courses, mais...",
-      "why_it_matters": "Le Sénat rend permanent le ticket-restaurant pour les courses, avec un double plafond. Cela change la paie et les avantages de mes équipes.",
-      "sources": [
-        {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/payer-vos-courses-avec-vos-tickets-restaurant-cest-bientot-definitif-mais-avec-de-nouvelles-limites-voici-ce-qui-change/"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conso/double-plafond-commissions-comment-les-senateurs-ont-modifie-la-reforme-des-tickets-restaurant-20261120"
-        }
-      ]
-    },
-    {
-      "title": "Grèves du 1er décembre : fonction publique et privé réunis",
-      "why_it_matters": "Huit syndicats de la fonction publique et la CFDT appellent à la mobilisation. Mes déplacements et services publics risquent d'être bloqués vendredi.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/social/salaires-huit-syndicats-de-la-fonction-publique-appellent-a-une-journee-de-greve-le-1er-decembre-20261120"
-        },
-        {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/societe/manifestations/une-intersyndicale-de-la-fonction-publique-lance-un-nouvel-appel-a-la-greve-et-a-la-mobilisation-le-1er-decembre_8292254.html#xtor=RSS-3-%5Beconomie%5D"
+          "url": "https://www.lefigaro.fr/conjoncture/budget-le-conseil-europeen-prevoit-des-coupes-de-204-milliards-d-euros-et-une-taxe-numerique-20261121"
         },
         {
           "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/la-tribune-dimanche/societe/2361010986526514/la-cfdt-appelle-les-salaries-du-secteur-prive-a-se-mobiliser-le-1er-decembre"
+          "url": "https://www.latribune.fr/article/economie/80966591149143/budget-de-lue-le-president-du-conseil-europeen-propose-204-milliards-d-economies-et-une-taxe-numerique"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/21/budget-de-l-ue-antonio-costa-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique_6813983_3234.html"
         }
       ]
     },
     {
-      "title": "Budgets IT 2027 : les entreprises devront faire des choix",
-      "why_it_matters": "L'inflation, les tensions géopolitiques et l'IA font flamber les budgets IT. Je retiens que 2027 sera une année de choix durs pour la transformation numérique.",
+      "title": "Trump veut taxer les centres de données construits hors des États-Unis",
+      "why_it_matters": "Je note cette menace. Si elle passe, les entreprises françaises qui hébergent aux USA ou à l'étranger risquent une grosse surprise sur leurs factures.",
       "sources": [
         {
-          "name": "IT for Business",
-          "url": "https://www.itforbusiness.fr/budgets-it-2027-les-dsi-sur-un-fil-110187"
+          "name": "L'Express Économie",
+          "url": "https://www.lexpress.fr/monde/amerique/donald-trump-menace-de-taxer-les-data-centers-construits-a-letranger-lors-dune-conference-de-presse-REDTJPWO3ZGQHMJIS2B67TF6ZY/"
         }
       ]
     },
     {
-      "title": "5 millions d'amende pour des mots de passe non sécurisés",
-      "why_it_matters": "La CNIL sanctionne la Macif pour avoir stocké des mots de passe en clair. Je retiens que la cybersécurité n'est pas une option, même dans une PME.",
+      "title": "Les clauses à vérifier pour rester propriétaire de son logiciel sur mesure",
+      "why_it_matters": "Je retiens ce conseil juridique. Trop d'entrepreneurs signent des contrats de développement sans vraiment posséder leur outil métier au final.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/mots-de-passe-en-clair-assureur-francais-cnil/"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/management/direction-generale/1558119-la-propriete-du-code-clause-oubliee-des-contrats-de-developpement-web/"
+        }
+      ]
+    },
+    {
+      "title": "Cdiscount réduit ses commissions pour les produits fabriqués en France",
+      "why_it_matters": "Je note cette opportunité concrète. Pour les PME qui produisent sur place, vendre sur la marketplace devient moins cher pendant six mois.",
+      "sources": [
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/cdiscount-propose-des-offres-avantageuses-aux-entreprises-du-made-in-france-20261121"
+        },
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/economie/agroconso/18124464752844/le-site-de-e-commerce-cdiscount-sengage-pour-le-made-in-france"
+        }
+      ]
+    },
+    {
+      "title": "Deutsche Telekom investit 100 millions dans l'IA française Mistral",
+      "why_it_matters": "Je retiens ce signal fort. L'IA française séduit l'industrie allemande et ça ouvre des débouchés européens pour nos entreprises tech.",
+      "sources": [
+        {
+          "name": "Frenchweb",
+          "url": "https://www.frenchweb.fr/breaking-news/deutsche-telekom-investit-100-millions-d-euros-dans-mistral-et-vise-l-industrie-allemande/71be0e22-73c5-4208-b9ec-90033141d1cb?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news"
         }
       ]
     }
