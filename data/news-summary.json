@@ -1,66 +1,66 @@
 {
-  "generated_at": "2026-11-21T13:13:20.759Z",
-  "day_label": "Samedi 21 novembre",
+  "generated_at": "2026-11-22T13:01:26.785Z",
+  "day_label": "Dimanche 22 novembre",
   "items": [
     {
-      "title": "Budget UE : 204 milliards en moins et une taxe numérique en vue",
-      "why_it_matters": "Je retiens que la France bloque le projet. Moins de fonds européens et une taxe sur le numérique qui tombe sur les entreprises tech.",
+      "title": "Les offres d'emploi s'effondrent dans les métiers touchés par l'IA",
+      "why_it_matters": "Je note que l'IA fait déjà baisser les offres d'emploi dans certains métiers. Je réfléchis à comment mon entreprise s'adapte.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/budget-le-conseil-europeen-prevoit-des-coupes-de-204-milliards-d-euros-et-une-taxe-numerique-20261121"
-        },
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/80966591149143/budget-de-lue-le-president-du-conseil-europeen-propose-204-milliards-d-economies-et-une-taxe-numerique"
-        },
-        {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/21/budget-de-l-ue-antonio-costa-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique_6813983_3234.html"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/les-offres-d-emploi-decrochent-dans-les-metiers-les-plus-exposes-a-l-ia_8250511.html#xtor=RSS-3-%5Beconomie%5D"
         }
       ]
     },
     {
-      "title": "Trump veut taxer les centres de données construits hors des États-Unis",
-      "why_it_matters": "Je note cette menace. Si elle passe, les entreprises françaises qui hébergent aux USA ou à l'étranger risquent une grosse surprise sur leurs factures.",
+      "title": "La SEC enquête sur Nvidia, le géant des puces IA",
+      "why_it_matters": "Je retiens que Nvidia est sous enquête. Si le leader des puces IA trébuche, les prix et l'innovation en France risquent de changer.",
       "sources": [
+        {
+          "name": "La Tribune",
+          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/29818797651812/etats-unis-le-gendarme-boursier-americain-va-enqueter-sur-les-pratiques-comptables-de-nvidia-en-pleine-affaire-huang"
+        },
         {
           "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/monde/amerique/donald-trump-menace-de-taxer-les-data-centers-construits-a-letranger-lors-dune-conference-de-presse-REDTJPWO3ZGQHMJIS2B67TF6ZY/"
+          "url": "https://www.lexpress.fr/monde/asie/affaire-nvidia-la-campagne-secrete-de-la-chine-pour-acquerir-des-puces-semi-conductrices-23VEOYYUXFBNDIXAJAOUVXW4NA/"
         }
       ]
     },
     {
-      "title": "Les clauses à vérifier pour rester propriétaire de son logiciel sur mesure",
-      "why_it_matters": "Je retiens ce conseil juridique. Trop d'entrepreneurs signent des contrats de développement sans vraiment posséder leur outil métier au final.",
-      "sources": [
-        {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/management/direction-generale/1558119-la-propriete-du-code-clause-oubliee-des-contrats-de-developpement-web/"
-        }
-      ]
-    },
-    {
-      "title": "Cdiscount réduit ses commissions pour les produits fabriqués en France",
-      "why_it_matters": "Je note cette opportunité concrète. Pour les PME qui produisent sur place, vendre sur la marketplace devient moins cher pendant six mois.",
+      "title": "Macron veut une règle d'or pour les finances publiques",
+      "why_it_matters": "Je retiens que la règle d'or budgétaire revient. Moins de déficit, c'est peut-être moins de soutien public pour les entreprises.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/cdiscount-propose-des-offres-avantageuses-aux-entreprises-du-made-in-france-20261121"
+          "url": "https://www.lefigaro.fr/politique/budget-emmanuel-macron-reflechirait-a-convoquer-le-congres-pour-instaurer-une-regle-d-or-20261122"
         },
         {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/economie/agroconso/18124464752844/le-site-de-e-commerce-cdiscount-sengage-pour-le-made-in-france"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/politique/un-bouclier-qui-protege-les-francais-la-droite-et-le-rn-sont-prets-a-soutenir-un-projet-de-regle-d-or-budgetaire-20261122"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/budget-pourquoi-la-regle-d-or-n-est-pas-la-solution-miracle-aux-deficits-chroniques-de-la-france-20260804"
         }
       ]
     },
     {
-      "title": "Deutsche Telekom investit 100 millions dans l'IA française Mistral",
-      "why_it_matters": "Je retiens ce signal fort. L'IA française séduit l'industrie allemande et ça ouvre des débouchés européens pour nos entreprises tech.",
+      "title": "Tesla FSD v15 : encore un retard pour la France",
+      "why_it_matters": "Je note que la conduite autonome de Tesla prend du retard en France. La régulation européenne freine les déploiements d'IA.",
       "sources": [
         {
-          "name": "Frenchweb",
-          "url": "https://www.frenchweb.fr/breaking-news/deutsche-telekom-investit-100-millions-d-euros-dans-mistral-et-vise-l-industrie-allemande/71be0e22-73c5-4208-b9ec-90033141d1cb?utm_source=rss&utm_medium=syndication&utm_campaign=flux_general&utm_content=breaking_news"
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/marques/tesla/3333971_tesla-lance-son-spectaculaire-fsd-v15-pourquoi-ces-nouveautes-vont-encore-retarder-son-arrivee-en-france"
+        }
+      ]
+    },
+    {
+      "title": "Google Assistant disparaît au profit de Gemini",
+      "why_it_matters": "Je retiens que Google Assistant s'arrête sur nos enceintes connectées. Si j'utilise ces outils, je dois migrer vers Gemini.",
+      "sources": [
+        {
+          "name": "Frandroid IA",
+          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/google-gemini/3333801_google-assistant-va-disparaitre-des-enceintes-google-nest-au-profit-de-gemini"
         }
       ]
     }
