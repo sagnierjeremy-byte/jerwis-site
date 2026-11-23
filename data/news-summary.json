@@ -1,66 +1,62 @@
 {
-  "generated_at": "2026-11-22T13:01:26.785Z",
-  "day_label": "Dimanche 22 novembre",
+  "generated_at": "2026-11-23T15:38:38.436Z",
+  "day_label": "Lundi 23 novembre",
   "items": [
     {
-      "title": "Les offres d'emploi s'effondrent dans les métiers touchés par l'IA",
-      "why_it_matters": "Je note que l'IA fait déjà baisser les offres d'emploi dans certains métiers. Je réfléchis à comment mon entreprise s'adapte.",
+      "title": "Apple fait payer l'usage avancé de son IA via iCloud+",
+      "why_it_matters": "Je note qu'Apple passe au modèle payant pour l'IA avancée. L'IA gratuite partout n'est qu'une phase d'appel, il faut budgéter cet usage.",
+      "sources": [
+        {
+          "name": "Next",
+          "url": "https://next.ink/brief-article/apple-limite-lusage-de-son-ia-et-vend-des-quotas-plus-eleves-avec-icloud/"
+        }
+      ]
+    },
+    {
+      "title": "Macron veut une règle d'or pour limiter les déficits publics",
+      "why_it_matters": "Je retiens que l'État veut bloquer les dépenses par la Constitution. Pour nous, cela pourrait limiter les aides et les investissements publics.",
       "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/les-offres-d-emploi-decrochent-dans-les-metiers-les-plus-exposes-a-l-ia_8250511.html#xtor=RSS-3-%5Beconomie%5D"
-        }
-      ]
-    },
-    {
-      "title": "La SEC enquête sur Nvidia, le géant des puces IA",
-      "why_it_matters": "Je retiens que Nvidia est sous enquête. Si le leader des puces IA trébuche, les prix et l'innovation en France risquent de changer.",
-      "sources": [
-        {
-          "name": "La Tribune",
-          "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/29818797651812/etats-unis-le-gendarme-boursier-americain-va-enqueter-sur-les-pratiques-comptables-de-nvidia-en-pleine-affaire-huang"
-        },
-        {
-          "name": "L'Express Économie",
-          "url": "https://www.lexpress.fr/monde/asie/affaire-nvidia-la-campagne-secrete-de-la-chine-pour-acquerir-des-puces-semi-conductrices-23VEOYYUXFBNDIXAJAOUVXW4NA/"
-        }
-      ]
-    },
-    {
-      "title": "Macron veut une règle d'or pour les finances publiques",
-      "why_it_matters": "Je retiens que la règle d'or budgétaire revient. Moins de déficit, c'est peut-être moins de soutien public pour les entreprises.",
-      "sources": [
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/politique/budget-emmanuel-macron-reflechirait-a-convoquer-le-congres-pour-instaurer-une-regle-d-or-20261122"
+          "url": "https://www.franceinfo.fr/economie/budget/budget-de-la-france-a-quoi-servirait-la-regle-d-or-budgetaire-souhaitee-par-emmanuel-macron_8296121.html#xtor=RSS-3-%5Beconomie%5D"
         },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/politique/un-bouclier-qui-protege-les-francais-la-droite-et-le-rn-sont-prets-a-soutenir-un-projet-de-regle-d-or-budgetaire-20261122"
+          "url": "https://www.lefigaro.fr/politique/emmanuel-macron-au-figaro-la-regle-d-or-budgetaire-peut-etre-une-idee-a-explorer-20261123"
         },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/budget-pourquoi-la-regle-d-or-n-est-pas-la-solution-miracle-aux-deficits-chroniques-de-la-france-20260804"
+          "url": "https://www.lefigaro.fr/politique/congres-referendum-quelles-solutions-pour-inscrire-une-regle-d-or-budgetaire-dans-la-constitution-20261123"
         }
       ]
     },
     {
-      "title": "Tesla FSD v15 : encore un retard pour la France",
-      "why_it_matters": "Je note que la conduite autonome de Tesla prend du retard en France. La régulation européenne freine les déploiements d'IA.",
+      "title": "Le Sénat vote la fin de la réduction d'impôt pour scolarité",
+      "why_it_matters": "Je note que 4,7 millions de foyers vont perdre cet avantage. C'est moins de pouvoir d'achat pour vos salariés et peut-être pour vous-même.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/marques/tesla/3333971_tesla-lance-son-spectaculaire-fsd-v15-pourquoi-ces-nouveautes-vont-encore-retarder-son-arrivee-en-france"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/enfant-au-college-au-lycee-ou-en-etudes-le-senat-vote-la-fin-de-votre-reduction-d-impot-pour-frais-de-scolarite-1532099"
         }
       ]
     },
     {
-      "title": "Google Assistant disparaît au profit de Gemini",
-      "why_it_matters": "Je retiens que Google Assistant s'arrête sur nos enceintes connectées. Si j'utilise ces outils, je dois migrer vers Gemini.",
+      "title": "Microsoft To Do disparaît en 2027 sans alternative prévue",
+      "why_it_matters": "Je retiens que Microsoft abandonne cet outil de productivité. Si vous l'utilisez, préparez votre migration vers une autre solution dès maintenant.",
       "sources": [
         {
-          "name": "Frandroid IA",
-          "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/google-gemini/3333801_google-assistant-va-disparaitre-des-enceintes-google-nest-au-profit-de-gemini"
+          "name": "Siècle Digital",
+          "url": "https://siecledigital.fr/2026/11/23/microsoft-to-do-disparaitra-en-2027-et-aucune-alternative-nest-prevue/"
+        }
+      ]
+    },
+    {
+      "title": "OpenRouter renforce la protection des données après une faille",
+      "why_it_matters": "Je note que trois fournisseurs ont été exclus pour fuite de données. Quand on utilise l'IA, je vérifie toujours où vont nos informations.",
+      "sources": [
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/"
         }
       ]
     }
