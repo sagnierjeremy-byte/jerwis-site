@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - DO NOT DELETE THE BLOCKS BELOW
+     · TITLE ≤ 60 characters (without suffix " · Jerwis")
+     · META DESCRIPTION : 140-155 characters
+     · OG/TWITTER : titles ≤ 60, descriptions ≤ 110
+     · CANONICAL : absolute URL with exact slug
+     · ONLY 1 JSON-LD (TechArticle for tutorials, OpinionPiece for opinions)
+     · OG:IMAGE : point to photos/og/chatgpt-au-travail-sans-autorisation.jpg (generated via scripts/og-batch.html)
+-->
+
+<title>ChatGPT at work without approval: the real risks</title>
+<meta name="description" content="Want to use ChatGPT at work but your company hasn't approved it? Here are the real risks to your data and a simple way to talk to your manager without stress.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="ChatGPT at work without approval: the real risks">
+<meta property="og:description" content="Want to use ChatGPT at work but your company hasn't approved it? Here's how to protect your data and talk to your manager.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/chatgpt-au-travail-sans-autorisation">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/chatgpt-au-travail-sans-autorisation.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-23">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="ChatGPT at work without approval: the real risks">
+<meta name="twitter:description" content="Want to use ChatGPT at work but your company hasn't approved it? Here's how to protect your data and talk to your manager.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/chatgpt-au-travail-sans-autorisation.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/chatgpt-au-travail-sans-autorisation">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/chatgpt-au-travail-sans-autorisation">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation">
+
+<!-- Schema.org · ONLY 1 JSON-LD : TechArticle (tutorials) or OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "ChatGPT at work without approval: the real risks",
+  "description": "Want to use ChatGPT at work but your company hasn't approved it? Here are the real risks to your data and a simple way to talk to your manager without stress.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/chatgpt-au-travail-sans-autorisation",
+  "datePublished": "2026-11-23",
+  "dateModified": "2026-11-23",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/chatgpt-au-travail-sans-autorisation.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Deep dive · 61</div>
+    <h1>ChatGPT at work<br>without approval<br><em>the real risks and what to do</em></h1>
+    <p class="hero-lead">
+      Ever copied a client email or a spreadsheet into ChatGPT to save time? You're not alone. Plenty of employees do it every day. But before you keep going, there are security, privacy, and legal questions your company might not even have spotted yet. I'll give you an honest rundown, zero jargon, and a simple way to turn this risk into a constructive chat with your manager.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>7 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>Unregulated <strong>ChatGPT use at work</strong> exposes your data to leaks on OpenAI's US servers</li>
+      <li>Free versions aren't GDPR compliant, unlike Business and Enterprise plans</li>
+      <li>The AI Act has required transparency rules since August 2026 that your company must follow</li>
+      <li>You can offer your manager a testable approach with clear rules instead of using the tool in the shadows</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested for myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested for myself first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>When your company hasn't planned for anything</h2>
+    <p>You open your browser. You've got a painful email to write, a spreadsheet to decode, a presentation to prep, a report to structure. ChatGPT is right there, in the next tab. You didn't ask permission. Nobody said no either. That's the most common gray area of 2026.</p>
+    <p>I see this pattern everywhere. Generative AI is already on our screens, but rarely in the employee handbook. French companies struggle to formalize a framework. Meanwhile, teams move forward in the shadows. This phenomenon has a name: Shadow AI. It's when you use an AI tool from a personal account or an unapproved channel, outside your IT department's view. Except the data you process then completely escapes your company's control.</p>
+    <p>According to a Cyberhaven study published in 2025, 38% of employees have already shared confidential data with a generative AI tool. Not harmless stuff. Internal info, contract details, client data, strategies. When you copy these into ChatGPT's chat bar, they travel through OpenAI's servers in the United States. They leave your company's perimeter. Even if your intention is to save time, the result is a potential data leak.</p>
+    <p>And it's not about company size. Whether you're in a fifteen-person startup or a bigger structure, the risk exists the moment sensitive information leaves your workstation without approval.</p>
+    <h2>What actually happens to your data</h2>
+    <p>Copying a contract clause or a financial table into ChatGPT isn't harmless. You're not just asking a virtual assistant a question. You're exporting information to infrastructure you don't control, hosted across the Atlantic.</p>
+    <p>The first distinction to get is between the free version and the pro versions. Free versions of ChatGPT aren't GDPR compliant. They keep data with no clear time limit and lack transparency on how it's processed. In plain English, what you type can be stored indefinitely, without you knowing exactly how it's used.</p>
+    <p>On the flip side, Business, Enterprise, and API plans offer a Data Processing Addendum and stronger guarantees. That includes data hosting in Europe and opt-out from model training by default. This isn't a technical detail. It's the difference between a regulated professional use and a personal use that exposes your company.</p>
+    <p>And if your job involves professional secrecy? Then the stakes jump up a notch. Using generative AI is allowed provided no information covered by secrecy leaves the user's controlled environment. For a lawyer, breaching that secrecy is a crime punishable by one year in prison and a 15,000 euro fine. Even if you're not a lawyer, this applies if you handle medical, banking, or strictly confidential data.</p>
+    <p>This isn't about skill. It's about perimeter. I'll share a rule I set for myself: if I wouldn't be comfortable displaying the information on a screen in the subway, I don't send it to an unapproved AI.</p>
+    <p>At the time of writing, ChatGPT Work includes dedicated models like GPT-6.2 Astra for complex work and GPT-6.2 Sol for daily tasks. These versions don't automatically make the tool safe, but they show there are work-appropriate perimeters, clearly separate from consumer accounts.</p>
+    <h2>The 2026 law, you're affected</h2>
+    <p>People often say European regulation is complicated. It's true. But for you, today, two dates matter.</p>
+    <p>Since February 2, 2025, the AI Act requires companies to take measures ensuring people who interact with these systems have sufficient AI literacy. Your employer has a training and clarity obligation. They can no longer ignore the topic by claiming it's too new.</p>
+    <p>August 2, 2026 marked a second turning point. Transparency obligations kicked in. A person must know they're chatting with an AI. Generated content must be recognizable as such. If your company uses AI to communicate with clients without disclosing it, they're breaking the law.</p>
+    <p>But what matters most in your day-to-day is the link between these texts and your individual responsibility. If your company has no AI policy, that's not a legal void that protects you. It's a gray area that exposes you. In case of a client data leak or breach of professional secrecy, the lack of an internal framework doesn't let you off the hook. The fact that the tool is convenient isn't a legal excuse.</p>
+    <p>That's why I don't recommend waiting. You can be the one who asks the question at the right time. The one who says: we need rules, and I have a way to set them up without blocking innovation.</p>
+    <p>If you want to understand exactly <a href="/articles/articles/ai-act-pour-ton-business">what the AI Act changes for your business</a>, I broke down the obligations by company type in a dedicated article.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>How I'd bring this up with my manager</h2>
+    <p>Afraid of looking like the party pooper? I get it. But imagine the opposite. In six months, a data leak hits. Your manager finds out the whole team was using personal accounts. And you knew. You won't look any smarter for staying silent.</p>
+    <p>Turning risk into opportunity isn't fluff. It's exactly what you'll do if you prepare the conversation well.</p>
+    <p>Never start with "I already use ChatGPT." Even if it's true, it puts people on the defensive. Your manager will hear: you're bending the rules. Start with a shared observation. AI is already in the team's browsers. 38% of employees already share confidential data with these tools, according to Cyberhaven's 2025 study. Your company has a vital interest in framing the topic before an incident hits and costs dearly in reputation or compliance.</p>
+    <p>Prepare a one-page proposal. Not a twenty-slide PowerPoint. Three clear points.</p>
+    <p>First a quick diagnosis. Who's using what? Personal accounts? Work emails signed up for free versions? Time to take stock without judgment.</p>
+    <p>Then a testable solution. Propose a framed version. That could mean ChatGPT Enterprise or an alternative with European hosting, a Data Processing Addendum, and opt-out from model training. Show you understand the difference between a consumer version and a professional one. At the time of writing, ChatGPT Work even offers dedicated models like GPT-6.2 Astra for complex work and GPT-6.2 Sol for daily tasks. That proves the ecosystem is evolving toward professional perimeters.</p>
+    <p>Finally, clear ground rules. What data do we never share, even in the paid version? How do we anonymize a prompt? Who validates use cases?</p>
+    <p>The goal isn't to become the company AI lead. The goal is to show you understood the risk and you're offering a compass. Your manager isn't looking for a technical expert. They're looking for a pragmatic person who spots problems before they blow up.</p>
+    <p>And if the answer is no? If they say it's not a priority? Ask for it in writing. A written refusal is better than a gray area that lands on you later. At least you'll have documented your approach. That's protection in itself.</p>
+    <h2>What I do to stay careful</h2>
+    <p>While waiting for an official green light, I have my own red lines. I'm sharing them because they require zero technical skill and change everything.</p>
+    <p>I never copy client data, financial figures, or sensitive internal info into an unapproved AI tool. Never. If I need help rephrasing an email, I remove names, amounts, specific dates, project names. I anonymize the context until it becomes generic. It takes a bit longer, but it keeps the information inside the company perimeter.</p>
+    <p>I also document what I did. If my manager asks tomorrow whether I use ChatGPT, I want to show I acted responsibly, with no sensitive data, and that I proposed a framed alternative. Transparency is my best shield.</p>
+    <div class="callout tip"><h4>The break room table test</h4><p>Before pasting anything into ChatGPT, ask yourself if you'd be comfortable printing that text and leaving it on the break room table. If the answer is no, don't send it.</p></div>
+    
+    <p>You can also improve your method to reduce risk. Learning to <a href="/articles/articles/ecrire-bon-prompt-non-dev">write effective and secure prompts</a> helps you get what you need without revealing more than necessary. The less internal context you add, the less risk you take.</p>
+    <p>And don't forget to look around you. If your colleagues are also using personal accounts, the risk isn't just coming from you. It's coming from the collective lack of a framework. That's why I recommend you <a href="/articles/articles/donnees-perso-ia-confidentialite">dig into the privacy issues around personal data and AI</a>. The more you understand these mechanisms, the more you can help your team move forward without getting burned.</p>
+    <h2>FAQ</h2>
+    <h3>Can my company sanction me for using ChatGPT without approval?</h3>
+    <p>Yes. If you share confidential data or breach professional secrecy, your employer can start disciplinary proceedings. Even without a proven leak, using a non-approved tool that bypasses IT policy can be considered misconduct. That's why I recommend not using the tool in the shadows. Ask openly, or at minimum stop using internal data in a personal account.</p>
+    <h3>Is the free version of ChatGPT really dangerous for my company's data?</h3>
+    <p>Yes. Free versions aren't GDPR compliant. They keep data with no clear time limit and lack transparency on processing. In practice, what you type can be stored and potentially used to improve models. For professional use, only Business or Enterprise versions offer enough guarantees with a Data Processing Addendum, European data hosting, and training opt-out by default.</p>
+    <h3>How do I know if my company already has a policy on generative AI?</h3>
+    <p>Ask your manager or IT directly. Also check your intranet, procedure manual, or employment contract. Since the AI Act transparency obligations took effect on August 2, 2026, companies should be communicating on this. If you find nothing, the policy probably doesn't exist yet. Time to propose one.</p>
+    <h3>What are more secure alternatives to ChatGPT for companies?</h3>
+    <p>ChatGPT Enterprise and the OpenAI API with a DPA are options. There are also other players offering European hosting. The key isn't the tool's name, but having a data processing agreement, European hosting, a training opt-out policy, and a named security contact. Compare these four criteria before choosing. At the time of writing, ChatGPT Work offers dedicated models like GPT-6.2 Astra for complex work and GPT-6.2 Sol for daily tasks, showing the ecosystem is evolving toward professional perimeters.</p>
+    <h3>Does the European AI Act ban using ChatGPT at work?</h3>
+    <p>No. The AI Act frames the use, it doesn't ban it. It requires transparency measures (disclosing when you're using AI) and literacy obligations for users. Your company must ensure employees understand the tools they handle. That's an opportunity to normalize use rather than hide it.</p>
+    <h2>My takeaways</h2>
+    <p>I do all of this first and foremost for myself. Because I don't want a careless mistake to ruin a project or a client relationship. Because I'd rather be the one who anticipates than the one who apologizes after the fact.</p>
+    <p>AI at work is less about tech than governance. If your company hasn't decided yet, don't let that void become a personal risk for you. Anonymize your prompts. Document your approach. And above all, propose a structured solution. Your manager will remember the person who turned a vague threat into a real opportunity.</p>
+    <p>If you want to go deeper on how <a href="/articles/articles/ia-et-ton-emploi">AI is transforming your job and your skills</a>, I dug into that in a separate article. The bottom line is this: don't let AI hide in the shadows. Put it on the table, with rules, and it becomes an asset instead of a threat.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before applying</span><span>At your pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before applying</span><span>At your pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ CRITICAL ANCHOR: publish.js replaces the entire body between the end of the TL;DR and this
+     "Final CTA" comment. DO NOT delete/rename it, or published articles
+     will keep the example body from the template (incident 2026-07-02→06). -->
+<!-- End of article: author signature -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, zero jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday letter. And if you have a question or a doubt: reply to me, I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unified) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>The <em>Friday letter.</em></h2>
+        <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer-en">
+        <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- "Summarize with AI" bar (auto-inserted after the TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/nav-v2.js" defer></script>
+<script src="/assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

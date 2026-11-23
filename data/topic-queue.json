@@ -480,8 +480,9 @@
       "topic": "utiliser ChatGPT au travail quand ton entreprise ne l'a pas prévu : les vrais risques (données clients, secret professionnel) et comment en parler à ton manager",
       "type": "A",
       "priority": 1,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-23"
     },
     {
       "id": "agents-ia-agir-a-ta-place",

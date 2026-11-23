@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/chatgpt-au-travail-sans-autorisation.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>ChatGPT au travail sans autorisation : les vrais risques</title>
+<meta name="description" content="Tu veux utiliser ChatGPT au travail mais ton entreprise ne l'a pas validé ? Voici les vrais risques pour tes données et une méthode pour en parler à ton manager sans stress.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="ChatGPT au travail sans autorisation : les vrais risques">
+<meta property="og:description" content="Tu veux utiliser ChatGPT au travail mais ton entreprise ne l'a pas validé ? Voici les vrais risques pour tes données et une méthode pour en parler à ton manager sans stress.">
+<meta property="og:url" content="https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/chatgpt-au-travail-sans-autorisation.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-23">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="ChatGPT au travail sans autorisation : les vrais risques">
+<meta name="twitter:description" content="Tu veux utiliser ChatGPT au travail mais ton entreprise ne l'a pas validé ? Voici les vrais risques pour tes données et une méthode pour en parler à ton manager sans stress.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/chatgpt-au-travail-sans-autorisation.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/chatgpt-au-travail-sans-autorisation">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "ChatGPT au travail sans autorisation : les vrais risques",
+  "description": "Tu veux utiliser ChatGPT au travail mais ton entreprise ne l'a pas validé ? Voici les vrais risques pour tes données et une méthode pour en parler à ton manager sans stress.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation",
+  "datePublished": "2026-11-23",
+  "dateModified": "2026-11-23",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/chatgpt-au-travail-sans-autorisation.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 61</div>
+    <h1>ChatGPT au bureau<br>sans feu vert<br><em>les vrais risques et comment agir</em></h1>
+    <p class="hero-lead">
+      Tu as déjà copié un email client ou un tableau de chiffres dans ChatGPT pour gagner du temps ? Tu n'es pas seul. Beaucoup d'employés font de même chaque jour. Mais avant de continuer, il y a des questions de sécurité, de confidentialité et de légalité que ton entreprise n'a peut-être même pas encore identifiées. Je te propose un état des lieux honnête, sans jargon, et surtout une méthode simple pour transformer ce risque en discussion constructive avec ton manager.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>7 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ChatGPT</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>Les usages non encadrés de <strong>ChatGPT au travail</strong> exposent tes données à des fuites vers les serveurs américains d'OpenAI</li>
+      <li>Les versions gratuites ne sont pas conformes au RGPD, contrairement aux offres Business et Enterprise</li>
+      <li>L'AI Act impose depuis août 2026 des règles de transparence que ton entreprise doit respecter</li>
+      <li>Tu peux proposer à ton manager une approche testable avec des règles claires plutôt que d'utiliser l'outil dans l'ombre</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Quand ton entreprise n&#39;a rien prévu</h2>
+    <p>Tu ouvres ton navigateur. Tu as un email pénible à rédiger, un tableau à décrypter, une présentation à préparer, un compte-rendu à structurer. ChatGPT est là, dans l&#39;onglet d&#39;à côté. Tu n&#39;as pas demandé la permission. Personne ne t&#39;a dit non non plus. C&#39;est le flou le plus courant de 2026.</p>
+    <p>Je vois ce schéma partout. L&#39;IA générative est déjà sur les écrans, mais rarement dans le règlement intérieur. Les entreprises françaises peinent à formaliser un cadre. Pendant ce temps, les équipes avancent dans l&#39;ombre. Ce phénomène porte un nom : le Shadow AI. C&#39;est quand tu utilises un outil d&#39;IA depuis un compte personnel ou un canal non approuvé, en dehors de la visibilité de ton service informatique. Sauf que les données que tu traites échappent alors complètement au contrôle de l&#39;entreprise.</p>
+    <p>Selon une étude Cyberhaven publiée en 2025, 38 % des employés ont déjà partagé des données confidentielles avec un outil d&#39;IA générative. Pas des données anodines. Des infos internes, des éléments de contrat, des données clients, des stratégies. Quand tu copies ces éléments dans la barre de conversation de ChatGPT, ils transitent par les serveurs d&#39;OpenAI aux États-Unis. Ils quittent le périmètre de ton entreprise. Même si ton intention est de gagner du temps, le résultat est une fuite de données potentielle.</p>
+    <p>Et ce n&#39;est pas une question de taille d&#39;entreprise. Que tu sois dans une startup de quinze personnes ou une structure plus grande, le risque existe dès le moment où une information sensible quitte ton poste de travail sans autorisation.</p>
+    <h2>Ce qui se passe vraiment avec tes données</h2>
+    <p>Copier un passage de contrat ou un tableau financier dans ChatGPT, ce n&#39;est pas anodin. Tu ne poses pas une question à un assistant virtuel. Tu exportes une information vers une infrastructure que tu ne contrôles pas, hébergée outre-Atlantique.</p>
+    <p>La première distinction à comprendre, c&#39;est entre la version gratuite et les versions professionnelles. Les versions gratuites de ChatGPT ne sont pas conformes au RGPD. Elles conservent les données sans limite de temps claire et manquent de transparence sur leur traitement. En clair, ce que tu tapes peut être stocké indéfiniment, sans que tu saches exactement comment il est exploité.</p>
+    <p>À l&#39;inverse, les offres Business, Enterprise et l&#39;API proposent un Data Processing Addendum et des garanties renforcées. Cela inclut l&#39;hébergement de données en Europe et l&#39;exclusion de l&#39;entraînement des modèles par défaut. Ce n&#39;est pas un détail technique. C&#39;est la différence entre une utilisation professionnelle encadrée et une utilisation personnelle qui expose ton entreprise.</p>
+    <p>Et si ton métier tient au secret professionnel ? Là, la gravité monte d&#39;un cran. L&#39;utilisation d&#39;IA générative est autorisée à condition qu&#39;aucune information couverte par le secret ne sorte du cadre maîtrisé par l&#39;utilisateur. Pour un avocat, la violation de ce secret est un délit passible d&#39;un an d&#39;emprisonnement et de 15 000 euros d&#39;amende. Même si tu n&#39;es pas avocat, ce cadre te concerne si tu manipules des données médicales, bancaires ou strictement confidentielles.</p>
+    <p>Ce n&#39;est pas une question de compétence. C&#39;est une question de périmètre. Je te partage une règle que je m&#39;impose : si je ne serais pas à l&#39;aise pour afficher l&#39;information sur un écran dans le métro, je ne l&#39;envoie pas à une IA non validée.</p>
+    <p>À la date de cet article, ChatGPT Work intègre des modèles dédiés comme GPT-6.2 Astra pour les travaux complexes et GPT-6.2 Sol pour les tâches quotidiennes. Ces versions ne rendent pas l&#39;outil automatiquement sûr, mais elles montrent qu&#39;il existe des périmètres adaptés au travail, bien distincts des comptes grand public.</p>
+    <h2>La loi de 2026, tu es concerné</h2>
+    <p>On entend souvent que la réglementation européenne est compliquée. C&#39;est vrai. Mais pour toi, aujourd&#39;hui, deux dates suffisent.</p>
+    <p>Depuis le 2 février 2025, l&#39;AI Act impose aux entreprises de prendre des mesures pour garantir un niveau suffisant de compréhension de l&#39;IA par les personnes qui interagissent avec ces systèmes. Ton employeur a une obligation de formation et de clarté. Il ne peut plus ignorer le sujet en prétendant que c&#39;est trop nouveau.</p>
+    <p>Le 2 août 2026 a marqué un second tournant. Les obligations de transparence sont entrées en vigueur. Une personne doit savoir qu&#39;elle échange avec une IA. Les contenus générés doivent pouvoir être reconnus comme tels. Si ton entreprise utilise l&#39;IA pour communiquer avec des clients sans le signaler, elle est en infraction.</p>
+    <p>Mais ce qui importe le plus dans ton quotidien, c&#39;est le lien entre ces textes et ta responsabilité individuelle. Si ton entreprise n&#39;a pas de politique IA, ce n&#39;est pas un vide juridique qui te protège. C&#39;est un flou qui t&#39;expose. En cas de fuite de données clients ou de violation du secret professionnel, l&#39;absence de cadre interne ne te déresponsabilise pas. Le fait que l&#39;outil soit pratique ne constitue pas une excuse légale.</p>
+    <p>C&#39;est pourquoi je ne te recommande pas d&#39;attendre. Tu peux être celui qui pose la question au bon moment. Celui qui dit : on a besoin de règles, et je te propose une façon de les mettre en place sans bloquer l&#39;innovation.</p>
+    <p>Si tu veux comprendre précisément <a href="articles/ai-act-pour-ton-business">ce que l&#39;AI Act change pour ton business</a>, j&#39;ai détaillé les obligations par type d&#39;entreprise dans un article dédié.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Comment j&#39;aborderais le sujet avec mon manager</h2>
+    <p>Tu as peur de passer pour le trouble-fête ? Je comprends. Mais imagine l&#39;inverse. Dans six mois, une fuite de données éclate. Ton manager découvre que toute l&#39;équipe utilisait des comptes personnels. Et toi, tu savais. Tu n&#39;auras pas l&#39;air plus malin pour avoir gardé le silence.</p>
+    <p>Transformer le risque en opportunité, ce n&#39;est pas du pipo. C&#39;est exactement ce que tu vas faire si tu prépares bien ta discussion.</p>
+    <p>Ne commence jamais par &quot;j&#39;utilise déjà ChatGPT&quot;. Même si c&#39;est vrai, ça place la barre sur la défensive. Ton manager va entendre : tu contours les règles. Commence par un constat partagé. L&#39;IA est déjà dans les navigateurs de l&#39;équipe. 38 % des employés partagent déjà des données confidentielles avec ces outils, selon l&#39;étude Cyberhaven de 2025. Ton entreprise a un intérêt vital à encadrer le sujet avant qu&#39;un incident ne survienne et ne coûte cher en image ou en conformité.</p>
+    <p>Prépare une proposition sur une page. Pas un PowerPoint de vingt diapositives. Trois points clairs.</p>
+    <p>D&#39;abord un diagnostic rapide. Qui utilise quoi ? Des comptes personnels ? Des emails professionnels inscrits sur des versions gratuites ? C&#39;est le moment de faire le point sans juger.</p>
+    <p>Ensuite une solution testable. Propose une version encadrée. Cela peut passer par ChatGPT Enterprise ou une alternative avec hébergement européen, un Data Processing Addendum et une exclusion de l&#39;entraînement des modèles. Montre que tu as compris la différence entre une version grand public et une version professionnelle. À la date de cet article, ChatGPT Work propose même des modèles dédiés comme GPT-6.2 Astra pour les travaux complexes et GPT-6.2 Sol pour les tâches quotidiennes. Cela prouve que l&#39;écosystème évolue vers des périmètres professionnels.</p>
+    <p>Enfin des règles du jeu claires. Quelles données on ne partage jamais, même dans la version payante ? Comment on anonymise un prompt ? Qui valide les usages ?</p>
+    <p>Le but n&#39;est pas de devenir le référent IA de l&#39;entreprise. Le but est de montrer que tu as compris le risque et que tu proposes une boussole. Ton manager ne cherche pas un expert technique. Il cherche quelqu&#39;un de pragmatique qui anticipe les problèmes avant qu&#39;ils n&#39;explosent.</p>
+    <p>Et si la réponse est non ? Si on te dit que ce n&#39;est pas la priorité ? Demande à ce que ce soit noté. Un refus écrit vaut mieux qu&#39;un flou qui te retombe dessus plus tard. Au moins, tu auras documenté ta démarche. C&#39;est une protection en soi.</p>
+    <h2>Ce que je fais pour rester prudent</h2>
+    <p>En attendant un feu vert officiel, j&#39;ai mes propres lignes rouges. Je te les partage car elles demandent zéro compétence technique et elles changent tout.</p>
+    <p>Je ne copie jamais de données clients, de chiffres financiers ou d&#39;informations internes sensibles dans un outil IA non validé. Jamais. Si j&#39;ai besoin d&#39;aide pour reformuler un email, je retire les noms, les montants, les dates précises, les noms de projets. J&#39;anonymise le contexte jusqu&#39;à ce qu&#39;il devienne générique. C&#39;est un peu plus long, mais ça garde l&#39;information dans le périmètre de l&#39;entreprise.</p>
+    <p>Je documente aussi ce que j&#39;ai fait. Si mon manager me demande demain si j&#39;utilise ChatGPT, je veux pouvoir montrer que j&#39;ai agi de manière responsable, sans données sensibles, et que j&#39;ai proposé une alternative encadrée. La transparence est mon meilleur bouclier.</p>
+    <div class="callout tip"><h4>Le test de la table de pause</h4><p>Avant de coller quoi que ce soit dans ChatGPT, demande-toi si tu serais à l'aise pour imprimer ce texte et le laisser sur la table de la pause. Si la réponse est non, ne l'envoie pas.</p></div>
+    
+    <p>Tu peux aussi améliorer ta méthode pour réduire les risques. Apprendre à <a href="articles/ecrire-bon-prompt-non-dev">écrire des prompts efficaces et sécurisés</a> t&#39;aide à obtenir ce dont tu as besoin sans dévoiler plus que nécessaire. Moins tu mets de contexte interne, moins tu prends de risques.</p>
+    <p>Et n&#39;oublie pas de regarder autour de toi. Si tes collègues utilisent eux aussi des comptes personnels, le risque ne vient pas seulement de toi. Il vient de l&#39;absence collective de cadre. C&#39;est pourquoi je te recommande de <a href="articles/donnees-perso-ia-confidentialite">te pencher sur les enjeux de confidentialité des données personnelles avec l&#39;IA</a>. Plus tu comprends ces mécanismes, plus tu peux aider ton équipe à avancer sans se brûler les ailes.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>Mon entreprise peut-elle me sanctionner si j&#39;utilise ChatGPT sans autorisation ?</h3>
+    <p>Oui. Si tu partages des données confidentielles ou que tu enfreins le secret professionnel, ton employeur peut engager une procédure disciplinaire. Même sans fuite avérée, l&#39;utilisation d&#39;un outil non approuvé qui contourne la politique informatique peut être considérée comme une faute. C&#39;est pourquoi je te recommande de ne pas utiliser l&#39;outil dans l&#39;ombre. Pose la question ouvertement, ou au minimum cesse d&#39;utiliser des données internes dans un compte personnel.</p>
+    <h3>La version gratuite de ChatGPT est-elle vraiment dangereuse pour les données de mon entreprise ?</h3>
+    <p>Oui. Les versions gratuites ne sont pas conformes au RGPD. Elles conservent les données sans limite de temps claire et manquent de transparence sur leur traitement. En pratique, ce que tu tapes peut être stocké et potentiellement utilisé pour améliorer les modèles. Pour un usage professionnel, seules les versions Business ou Enterprise offrent des garanties suffisantes avec un Data Processing Addendum, l&#39;hébergement de données en Europe et l&#39;exclusion de l&#39;entraînement par défaut.</p>
+    <h3>Comment savoir si mon entreprise a déjà une politique sur l&#39;utilisation de l&#39;IA générative ?</h3>
+    <p>Demande directement à ton manager ou à ton service informatique. Cherche aussi dans ton intranet, ton manuel de procédures ou ton contrat de travail. Depuis l&#39;entrée en vigueur des obligations de transparence de l&#39;AI Act le 2 août 2026, les entreprises devraient communiquer sur ce sujet. Si tu ne trouves rien, c&#39;est probable que la politique n&#39;existe pas encore. C&#39;est le moment d&#39;en proposer une.</p>
+    <h3>Quelles sont les alternatives à ChatGPT plus sécurisées pour les entreprises ?</h3>
+    <p>ChatGPT Enterprise et l&#39;API OpenAI avec un DPA sont des pistes. Il existe aussi d&#39;autres acteurs qui proposent un hébergement européen. L&#39;essentiel n&#39;est pas le nom de l&#39;outil, mais la présence d&#39;un contrat de traitement des données, d&#39;un hébergement localisé en Europe, d&#39;une politique d&#39;exclusion de l&#39;entraînement et d&#39;un responsable sécurité identifié. Compare ces quatre critères avant de faire un choix. À la date de cet article, ChatGPT Work propose des modèles dédiés comme GPT-6.2 Astra pour les travaux complexes et GPT-6.2 Sol pour les tâches quotidiennes, ce qui montre que l&#39;écosystème évolue vers des périmètres professionnels.</p>
+    <h3>L&#39;AI Act européen interdit-il l&#39;utilisation de ChatGPT au travail ?</h3>
+    <p>Non. L&#39;AI Act encadre l&#39;utilisation, il ne l&#39;interdit pas. Il impose des mesures de transparence (signaler qu&#39;on utilise une IA) et des obligations de compréhension pour les utilisateurs. Ton entreprise doit s&#39;assurer que les employés comprennent les outils qu&#39;ils manipulent. C&#39;est une opportunité pour normaliser l&#39;usage plutôt que de le cacher.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Je fais tout ça d&#39;abord pour moi. Parce que je ne veux pas qu&#39;une faute d&#39;inattention ruine un projet ou une relation client. Parce que je préfère être celui qui anticipe plutôt que celui qui s&#39;excuse après coup.</p>
+    <p>L&#39;IA au travail relève moins de la technique que de la gouvernance. Si ton entreprise n&#39;a pas encore tranché, ne laisse pas ce vide devenir un risque personnel pour toi. Anonymise tes prompts. Documente ta démarche. Et surtout, propose une solution structurée. Ton manager se souviendra de la personne qui a transformé une menace floue en opportunité réelle.</p>
+    <p>Si tu veux aller plus loin sur la façon dont <a href="articles/ia-et-ton-emploi">l&#39;IA transforme ton emploi et tes compétences</a>, j&#39;ai creusé le sujet dans un article à part. L&#39;essentiel est là : ne laisse pas l&#39;IA se cacher dans l&#39;ombre. Mets-la sur la table, avec des règles, et elle deviendra un atout plutôt qu&#39;une menace.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+{
+  "topic": "utiliser ChatGPT au travail quand ton entreprise ne l'a pas prévu : les vrais risques (données clients, secret professionnel) et comment en parler à ton manager",
+  "slug": "chatgpt-au-travail-sans-autorisation",
+  "type": "A",
+  "generated_at": "2026-11-23",
+  "angle": "Cet article offre aux entrepreneurs non-développeurs une feuille de route pragmatique pour naviguer les risques liés à l'utilisation non-officielle de ChatGPT au travail, et les équipe pour initier une discussion constructive avec leur management sur une adoption sécurisée de l'IA.",
+  "intent": "Le lecteur veut comprendre les dangers concrets (fuite de données, non-conformité légale) de l'utilisation de ChatGPT sans autorisation en entreprise, et savoir comment proposer une approche encadrée à son manager pour exploiter l'IA de manière responsable.",
+  "keywords": [
+    "ChatGPT travail risques",
+    "utiliser IA entreprise non prévue",
+    "confidentialité données ChatGPT",
+    "secret professionnel IA générative",
+    "parler IA manager",
+    "conformité RGPD ChatGPT entreprise"
+  ],
+  "facts": [
+    {
+      "claim": "La dernière version de ChatGPT, GPT-6.2 Astra et GPT-6.2 Sol, a été introduite le 17 novembre 2026 dans ChatGPT Work et Codex, avec Astra étant le modèle de pointe pour les travaux complexes et Sol pour les tâches quotidiennes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3SF-qJoAkM69_ewMNC4p0Mx96jtMPQRGPlhrSfUz1v8L3stMfA958IhHCre_jpGlGlH7yhb3GsDvR9K6-Azkb4M8sjNb6aAM1FdWQ9MGrcR-0vL-DZ8ior7AXt3KCgzT9reqwPB-hHibXrSqNcMFknajLNAqxYFEGf-8H",
+      "date": "2026-11-17"
+    },
+    {
+      "claim": "Les dernières versions de Gemini sont Gemini 4 Carbon et Gemini 4 Hydrogen, toutes deux lancées en novembre 2026. Gemini 4 Argon a été annoncé en octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG86p_bz-lagBengztyXXeCFF2gFZTajBm3J6f9Jv7EdU4_WcHKIPt59SpLzhJaXLMk2f6Kx15YaJdZzTU1SSJSHrW2qJdzImN1n6VN9qDzjyhl7MO-Oup9X2gNn6wp",
+      "date": "2026-11"
+    },
+    {
+      "claim": "Claude Fable 5.2 est la dernière version vérifiée de Claude, sortie le 9 novembre 2026. Claude Opus 5.5, Claude Sonnet 5.5 et Claude Haiku 5.5 ont été introduits en septembre et octobre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3T9TJCNBpn6YJbIwtQP-6gONqika2Zi88jujXsZ-4nT04VaZd6bcQ_iLGBRntJyTkUgfeaGbhjJ6aczH44K7K68QZkvVsqMhofBk6Zb2ad_yUl6vyPBmRMWXUaXp0S7eygFQ-Q3Dm0-OEwQI",
+      "date": "2026-11-09"
+    },
+    {
+      "claim": "Midjourney V8.2 a été lancé comme version par défaut le 24 juillet 2026, se concentrant sur l'esthétique, la qualité d'image et la personnalisation, et introduisant le nouveau modèle Edit.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLABXadOO1hvQOC0HUxhWMgNwIpUOW17TPOp805SCIJdKr5ISYiKUYOrmYZGWf482z2qzZKhN0pwV6Tl-A2JJKzMaOYpx_b3_uvJoYYhb2VifZLQDjyh14lFbLcWHGuSYVxAwsxxocvc1gmIy9oSCrZCVcR3i7kPMpYlVw-EhC",
+      "date": "2026-07-24"
+    },
+    {
+      "claim": "Chaque prompt envoyé à ChatGPT transite par les serveurs d'OpenAI aux États-Unis, ce qui signifie que les données (contrats clients, tableaux financiers, code source) quittent le périmètre de l'entreprise.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdFsxw9TTZq_A5tu7tf8NCOE73MYnBiJ5UQeElrU7_PIS74uG8xWVAb_V-FWXRnQce5b3VQ0Qpu3shbvVeaTRf49Ttba0dUzPadLCvtCLajs1Ed5Uu2QrztJeBhoPxFQglRH90zTH9qgHmSB5DVH5P",
+      "date": "2026-04-21"
+    },
+    {
+      "claim": "La conformité RGPD de ChatGPT en 2026 dépend de la version utilisée : les versions gratuites ne sont pas conformes (conservation illimitée, manque de transparence), tandis que les offres Business, Enterprise et l'API proposent un DPA (Data Processing Addendum) et des garanties renforcées, incluant l'hébergement de données en Europe et l'exclusion de l'entraînement des modèles par défaut.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQouTwggsrtYCUa0b7O_PKd1BkA9f9Q0xsdg7LRtlvLCIYDhbeWebppB-oCPeQe4mxSvXhbgCB3zexGQ0FehVb046r-QuEgH9YGi1VKFlp9mbd3XfuIfu8YSqtmMc-a-Ah-bB6I9kCWmX7QjattAg0l7Xve6fWw993tiJ4EiUavuTz",
+      "date": "2026-01-09"
+    },
+    {
+      "claim": "L'utilisation d'IA générative dans un métier tenu au secret professionnel est autorisée à condition qu'aucune information couverte par le secret ne sorte du cadre maîtrisé par l'utilisateur. Pour les avocats, la violation du secret professionnel est un délit passible d'un an d'emprisonnement et de 15 000 euros d'amende.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqpanl622pkfJbYe3nTUvupU0L-4YxOCtUmkoxXuTlLhJA_PTpkprCdW1vYUsLMW7PUIM_PNsZcs3iMHgH8fu16VHnKxRxrh_uR8kfES0qzRij2BIa6VJ8XbejlqZR5VcLNvizaA8ilD6oOyqifA==",
+      "date": "2026-10-23"
+    },
+    {
+      "claim": "Depuis le 2 février 2025, l'AI Act impose aux entreprises de prendre des mesures pour garantir un niveau suffisant de compréhension de l'IA par les personnes qui interagissent avec ces systèmes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd-xgcxR8GizckGy1a8TgPJp3flwf5yEhT3J8u3O0HGRPdKXwTSo1A9XTWhdmCkMIZbQYgcVHiDnvlWNHheX5UeVNHS5X4yJJwcZDzxSMQ9pQmZB9eKRlOPQQzemwexi8=",
+      "date": "2025-02-02"
+    },
+    {
+      "claim": "Depuis le 2 août 2026, les obligations de transparence de l'AI Act s'appliquent, exigeant qu'une personne sache qu'elle échange avec une IA et que les contenus générés puissent être reconnus comme tels.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2df-duLyZ0viO-wP5T3oZWKdSqpjGcQsjH6KcvFHc3RUZllwI3FFHSSZ6wS6qjfmRzxSBmAD02tLstDForCOkz8-6ngFnsZBeHttLdSOaNnIhcmVqnEw9PKTp0Tf",
+      "date": "2026-08-02"
+    },
+    {
+      "claim": "Le 'Shadow AI', c'est-à-dire l'utilisation d'outils d'IA depuis des comptes personnels ou des canaux non approuvés, amplifie les problèmes de sécurité en échappant à la visibilité des équipes de sécurité de l'entreprise.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaY-Eh9Rfuy86tlgX3W6PcsYI8Eu4OzTOwgBSfXph0BUMKjPEFqe-ZsFttUU1C6Ht2sTmz6C1IZm0v8DsDo7V6gs0KCBwaa6JyOA7FaqYEKDokHuV_jtmdjnMxVbpWY6dpxDLATg5iL6AyiMb5EDKc76RWUsfjoAWAUxJSY6BT3OPrbJiXtAaqsg==",
+      "date": "2026-10-01"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "En août 2025, ChatGPT comptait 180 millions d'utilisateurs actifs mensuels et 5 millions d'entreprises clientes dans le monde.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQouTwggsrtYCUa0b7O_PKd1BkA9f9Q0xsdg7LRtlvLCIYDhbeWebppB-oCPeQe4mxSvXhbgCB3zexGQ0FehVb046r-QuEgH9YGi1VKFlp9mbd3XfuIfu8YSqtmMc-a-Ah-bB6I9kCWmX7QjattAg0l7Xve6fWw993tiJ4EiUavuTz",
+      "date": "2025-08"
+    },
+    {
+      "stat": "38 % des employés ont déjà partagé des données confidentielles avec un outil d'IA générative (étude Cyberhaven 2025).",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdFsxw9TTZq_A5tu7tf8NCOE73MYnBiJ5UQeElrU7_PIS74uG8xWVAb_V-FWXRnQce5b3VQ0Qpu3shbvVeaTRf49Ttba0dUzPadLCvtCLajs1Ed5Uu2QrztJeBhoPxFQglRH90zTH9qgHmSB5DVH5P",
+      "date": "2025"
+    },
+    {
+      "stat": "En 2025, 18 % des entreprises implantées en France déclarent utiliser au moins une technologie d'intelligence artificielle, soit 8 points de plus qu'en 2024. Cette proportion atteint 58 % pour les entreprises de 250 salariés ou plus.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe6G1YgztKZZuO4hpjTuBabweM-ejmraJ3G7IqbR3c0Wnt8WbZUI6D8ym1cNvqEnL4PvxJ93uzgHmLComPC0ms38N5468Fj4JxWoFIReDXCuGZc45fqyrPVcMPyb1qegG28fSZ3ixYlVzQXLuh0V21klTeixCCuf02e5GxaFetT4rhi9hOkjVhPJ8Zr0AsuzhOIVH4CDJpoHdukb48bMPpnN8OveDrbDY3BXLanIADCZ3ORm5YOqfxiE9T-2u1Nig-wWOFtX2-Rbnm_Ea7xIvTZtlhxFv-tcxxqk2FMh_MtcMaay2s1kIK6cdJICFWY_mrbejBvJt4nbZU3yot6YSTVk-icHWZvfYFTjGeOqOoX8RhD-lGCDAQ37lDKDxbsauqkcZI6EgA--54tR8naAEhRyRmhvIT9It6-OC89578jC0MixmKtlE",
+      "date": "2025"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Pour approfondir les enjeux de confidentialité des données personnelles avec l'IA."
+    },
+    {
+      "url": "/articles/ai-act-pour-ton-business",
+      "why": "Pour comprendre le cadre légal européen de l'IA et ses implications pour les entreprises."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour apprendre à formuler des prompts efficaces et sécurisés, réduisant les risques de fuite d'informations."
+    },
+    {
+      "url": "/articles/ia-et-ton-emploi",
+      "why": "Pour situer l'utilisation de l'IA dans un contexte plus large d'évolution du travail et des compétences."
+    }
+  ],
+  "outline": [
+    "L'IA générative au bureau : entre adoption massive et usages 'clandestins'",
+    "Les risques concrets de l'utilisation non encadrée de l'IA (données, conformité, secret professionnel)",
+    "Le cadre légal en 2026 : ce que l'AI Act et le RGPD imposent aux entreprises",
+    "Comment aborder le sujet avec ton manager : transformer le risque en opportunité",
+    "Bonnes pratiques pour une utilisation responsable et sécurisée de l'IA au travail"
+  ],
+  "faq": [
+    "Mon entreprise peut-elle me sanctionner si j'utilise ChatGPT sans autorisation ?",
+    "La version gratuite de ChatGPT est-elle vraiment dangereuse pour les données de mon entreprise ?",
+    "Comment savoir si mon entreprise a déjà une politique sur l'utilisation de l'IA générative ?",
+    "Quelles sont les alternatives à ChatGPT plus sécurisées pour les entreprises ?",
+    "L'AI Act européen interdit-il l'utilisation de ChatGPT au travail ?"
+  ],
+  "pitfalls": [
+    "Ne pas faire la distinction claire entre les versions grand public (gratuites ou personnelles) et les versions professionnelles (Business, Enterprise, API) des outils d'IA générative. Les garanties en matière de confidentialité des données, de non-utilisation pour l'entraînement des modèles et de conformité RGPD sont radicalement différentes et cruciales pour l'évaluation des risques."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3SF-qJoAkM69_ewMNC4p0Mx96jtMPQRGPlhrSfUz1v8L3stMfA958IhHCre_jpGlGlH7yhb3GsDvR9K6-Azkb4M8sjNb6aAM1FdWQ9MGrcR-0vL-DZ8ior7AXt3KCgzT9reqwPB-hHibXrSqNcMFknajLNAqxYFEGf-8H",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG86p_bz-lagBengztyXXeCFF2gFZTajBm3J6f9Jv7EdU4_WcHKIPt59SpLzhJaXLMk2f6Kx15YaJdZzTU1SSJSHrW2qJdzImN1n6VN9qDzjyhl7MO-Oup9X2gNn6wp",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3T9TJCNBpn6YJbIwtQP-6gONqika2Zi88jujXsZ-4nT04VaZd6bcQ_iLGBRntJyTkUgfeaGbhjJ6aczH44K7K68QZkvVsqMhofBk6Zb2ad_yUl6vyPBmRMWXUaXp0S7eygFQ-Q3Dm0-OEwQI",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLABXadOO1hvQOC0HUxhWMgNwIpUOW17TPOp805SCIJdKr5ISYiKUYOrmYZGWf482z2qzZKhN0pwV6Tl-A2JJKzMaOYpx_b3_uvJoYYhb2VifZLQDjyh14lFbLcWHGuSYVxAwsxxocvc1gmIy9oSCrZCVcR3i7kPMpYlVw-EhC",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdFsxw9TTZq_A5tu7tf8NCOE73MYnBiJ5UQeElrU7_PIS74uG8xWVAb_V-FWXRnQce5b3VQ0Qpu3shbvVeaTRf49Ttba0dUzPadLCvtCLajs1Ed5Uu2QrztJeBhoPxFQglRH90zTH9qgHmSB5DVH5P",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQouTwggsrtYCUa0b7O_PKd1BkA9f9Q0xsdg7LRtlvLCIYDhbeWebppB-oCPeQe4mxSvXhbgCB3zexGQ0FehVb046r-QuEgH9YGi1VKFlp9mbd3XfuIfu8YSqtmMc-a-Ah-bB6I9kCWmX7QjattAg0l7Xve6fWw993tiJ4EiUavuTz",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqpanl622pkfJbYe3nTUvupU0L-4YxOCtUmkoxXuTlLhJA_PTpkprCdW1vYUsLMW7PUIM_PNsZcs3iMHgH8fu16VHnKxRxrh_uR8kfES0qzRij2BIa6VJ8XbejlqZR5VcLNvizaA8ilD6oOyqifA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd-xgcxR8GizckGy1a8TgPJp3flwf5yEhT3J8u3O0HGRPdKXwTSo1A9XTWhdmCkMIZbQYgcVHiDnvlWNHheX5UeVNHS5X4yJJwcZDzxSMQ9pQmZB9eKRlOPQQzemwexi8=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi2df-duLyZ0viO-wP5T3oZWKdSqpjGcQsjH6KcvFHc3RUZllwI3FFHSSZ6wS6qjfmRzxSBmAD02tLstDForCOkz8-6ngFnsZBeHttLdSOaNnIhcmVqnEw9PKTp0Tf",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaY-Eh9Rfuy86tlgX3W6PcsYI8Eu4OzTOwgBSfXph0BUMKjPEFqe-ZsFttUU1C6Ht2sTmz6C1IZm0v8DsDo7V6gs0KCBwaa6JyOA7FaqYEKDokHuV_jtmdjnMxVbpWY6dpxDLATg5iL6AyiMb5EDKc76RWUsfjoAWAUxJSY6BT3OPrbJiXtAaqsg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe6G1YgztKZZuO4hpjTuBabweM-ejmraJ3G7IqbR3c0Wnt8WbZUI6D8ym1cNvqEnL4PvxJ93uzgHmLComPC0ms38N5468Fj4JxWoFIReDXCuGZc45fqyrPVcMPyb1qegG28fSZ3ixYlVzQXLuh0V21klTeixCCuf02e5GxaFetT4rhi9hOkjVhPJ8Zr0AsuzhOIVH4CDJpoHdukb48bMPpnN8OveDrbDY3BXLanIADCZ3ORm5YOqfxiE9T-2u1Nig-wWOFtX2-Rbnm_Ea7xIvTZtlhxFv-tcxxqk2FMh_MtcMaay2s1kIK6cdJICFWY_mrbejBvJt4nbZU3yot6YSTVk-icHWZvfYFTjGeOqOoX8RhD-lGCDAQ37lDKDxbsauqkcZI6EgA--54tR8naAEhRyRmhvIT9It6-OC89578jC0MixmKtlE"
+  ]
+}
