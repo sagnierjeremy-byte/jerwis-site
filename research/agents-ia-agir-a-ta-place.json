@@ -1,0 +1,166 @@
+{
+  "topic": "laisser une IA agir à ta place (réserver, acheter, remplir un formulaire) : ce que savent vraiment faire les agents IA en 2026 et les précautions avant de leur confier ta carte bancaire",
+  "slug": "agents-ia-agir-a-ta-place",
+  "type": "A",
+  "generated_at": "2026-11-24",
+  "angle": "Démystifier les capacités réelles des agents IA en 2026 pour les entrepreneurs non-développeurs, en soulignant leur potentiel d'automatisation tout en insistant sur les précautions indispensables, notamment financières.",
+  "intent": "Le lecteur veut savoir concrètement ce que les agents IA peuvent faire pour son business (automatisation de tâches administratives, réservations, achats) et comment les utiliser en toute sécurité, particulièrement avec des données sensibles comme la carte bancaire.",
+  "keywords": [
+    "agents IA autonomes 2026",
+    "IA pour automatiser tâches administratives",
+    "agents IA réservation achat",
+    "sécurité agents IA carte bancaire",
+    "limites agents IA 2026"
+  ],
+  "facts": [
+    {
+      "claim": "Les agents IA autonomes en 2026 sont capables de planifier, exécuter des tâches multi-étapes, utiliser des outils externes et prendre des décisions sans supervision humaine constante, agissant dans le monde réel en naviguant sur le web, remplissant des formulaires et interagissant avec des bases de données.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7zsBuXjxu9jk9N7LFSS4P_g5-Zp_BL9xwlVx_KrGqbk0_OcafKzOcY09DHLNoHl5oGHAm23SD0kWM2mDsZzTO6hYtUEH73VmvWn8seKySgz2khQpeS5dfC5Z0VacH8UkWq2y28Pd2Nos=",
+      "date": "2026-08-21"
+    },
+    {
+      "claim": "Les agents de voyage IA peuvent planifier, réserver et gérer des voyages, explorer vols, hôtels, restaurants et activités, et transformer des recommandations en réservations réelles, bien que la vente et le service après-vente restent un défi.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjTcYCXLnCJhtqFBmPyuPczwa7fJLfKkOeN-Shgkv6olRW06MY4lSldftEkowDYqOCQNuTABwfeLkieevtlgT4Ph-tK6EaXmmIPOCKRlsqr5jUcQupNeyAXoLRzkkCXv8_CkwqEHdwXw==",
+      "date": "2026-08-13"
+    },
+    {
+      "claim": "Les agents IA e-commerce peuvent répondre aux questions des clients, recommander des produits, appliquer des filtres, ajouter au panier et créer des tickets de retour, étant connectés aux données du catalogue, des stocks et des commandes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFm5LT5CrOoj3VqC3yAXnTrfhrAcGP5n-kDTdJJ3CUTvdDLyb6XT97TzEUUY5PKIL1JpDF2vZ8vZR_E7RG5oSCqxD9Srnl8KGPg-HzVN1fjCyl5tX106WRY8xI7-_Ix_FhKxEQJ5ekLqgTPw==",
+      "date": "2026-07-06"
+    },
+    {
+      "claim": "ChatGPT utilise la version GPT-6 Pro depuis le 16 octobre 2026 pour les utilisateurs Pro, Business et Enterprise, offrant des réponses plus rapides et la capacité pour plusieurs agents de traiter différentes parties d'une tâche en parallèle.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsh9hg7NuVYVP70j1-uM1drEc8vPZ4AkRzg7frkYEoNGdHzXtytB4GiEWSGglZyKhh9D2dUEZPIIYMFcaFqCLRTvKqQx1tvnICs8ta_74w8ruOzFgYD16q2bd3eoDDrStotdpBOuLlQvl4kKqOBFpQMIgFT66WwJsSBZ6-Pk=",
+      "date": "2026-10-16"
+    },
+    {
+      "claim": "La dernière version de Google Gemini est Gemini 4 Neon, lancée le 18 novembre 2026 et disponible pour les abonnés Google AI Pro dans l'application Gemini, tandis que Gemini 4 Hydrogen, sorti le 12 novembre 2026, est le premier modèle Gemini 4 accessible sans abonnement et devient le modèle par défaut du mode IA de Google.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOrAr3tfSih9ezyxSPTxhNUuIwVolEaDI6RB8DI_LgCNJwTdKcLSmq0TUyO3GZSZaUjZ820Ajz2xM0vhBOlXwpu-X561Q-ILY-_JaHDlxtX5KdHu19FmYZEXJU8VHBUVGKkY6yw5qNOogX790VhY19ZQ==",
+      "date": "2026-11-18"
+    },
+    {
+      "claim": "Claude Opus 5.5 est sorti le 22 septembre 2026 et est le dernier modèle d'Anthropic, avec des mises à jour comme l'utilisation d'ordinateur (Computer Use) disponible en bêta sur les plans Team et Enterprise depuis novembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXJD-KzakXwzJyp_IRdm3HXHnZDiEGD9HgqSFpaj9-UNDWxCGXs99hbxnkulZACyuIM6JVP0CevADTWUx025msyrSbrvJnKysM-0RiIVkYC4qZPB_XdeJPc9NkHM9E49Kdgocw71Ks46X-HIxLUTUJRw==",
+      "date": "2026-09-22"
+    },
+    {
+      "claim": "Midjourney V8.2 est la version par défaut depuis le 24 juillet 2026, avec des améliorations axées sur l'esthétique, la qualité d'image et la personnalisation, et un nouveau 'Thinking Mode' est en test depuis octobre 2026 pour améliorer la précision des prompts.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4kHnoWp8uEA6RLRZ6ZrofYYtU3HtRPW_kMuL0qo2HufNgxsA7k4ZQGls4vPoxgIJprAJk0mH1rElBR-1A9q54zWbYbuL9RAN8mIUBNjbmygZ4-YpCo6EvTtCDH4PjCGbDOw==",
+      "date": "2026-07-24"
+    },
+    {
+      "claim": "Les banques américaines, dont Citibank, JPMorgan Chase et Bank of America, ont modifié leurs conditions d'utilisation en ligne en novembre 2026, rendant les clients responsables de tout ce que fait un agent IA tiers accédant à leurs comptes, y compris en cas de piratage.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiSCKK7nyPLF3Og0VxXYMAozLP28iunkqloh14OEOrcQzKwpYOwzT6LOyhUZrdQWrLYMDzX6x92cYmis7p3A-rkfC7fVTrBtlANoHIyr1-ZU1iBV-STRG-CTxqmvBuedbIFMHqzaTj8UqHKrBzbYezQIqCpuN1l0EFEPDKAVIjp5k2ZJWcUbrvRiqZWA==",
+      "date": "2026-11-20"
+    },
+    {
+      "claim": "EMVCo a publié un projet de cadre en septembre 2026 pour vérifier l'intention derrière un paiement effectué par un agent IA, exigeant que l'IA respecte les limites de paiement fixées par le propriétaire.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHujNKgk97Ivrd1WkUvPpTfyFR1o1J57oYYR-ztKlXLHPb1eA1PiJKRUEL3S6dyMEqLTFs9_4tXLkUYz81WnUoCy_BL3f9mX5-p8RJeF7nv0Wk4DDfEfxVGxRh-UeCVNsHBKBl-OY-iR_tBIFuGPfQVULiBuIGhSS_gepNCVZqz7fNSgtlVnnbqGbVpC2Pq5bbm4il1Ji7eESuLFVKmFPxwFjrGR9rmI6gBU-1U-XttXOY3YeetOJAvYqdUTUoz1akUO1CHQWSXLAnuT25O7rr1Z3-G7E_-GNboObhvDf3fruyADHLTgPJD",
+      "date": "2026-09-10"
+    },
+    {
+      "claim": "Certaines plateformes comme Amazon et United Airlines ont déjà interdit aux assistants IA d'effectuer des achats sur leurs sites en septembre 2026, et les autorités américaines classent les agents de paiement autonomes au niveau de risque le plus élevé.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmX7yLfyt4T_BhFZBsJLgx1iQpUI6D7Hr0XTac4M-4wLSbbMSTAvlMHsb7N_A9JJKMJEMNANlQgi6XnWMuiM4FWoCA9chVI6QVIu7e6T9LzdUnkKiLIX7EqjgVRUaN3-wKNNOxkqIOSxDIyxqyy2mGYvqJlf5NAGg=",
+      "date": "2026-11-17"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "40 % des applications d'entreprise intégreront des agents IA spécialisés d'ici fin 2026, contre moins de 5 % en 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiiOYFBCVSvehPw-mk8xHDquSrHhscGJ4MeuPhNLx8vi_vFphlPz3KkvdhlmsJ6JmKQzkP4z9mr3GDWoeHTt6mwQaEbVWRSmd008dzrJ34b5LRtDcziDr-sT5yH9yqes30JJ8GGBP2ijwOqNtlxzXuyDjh",
+      "date": "2026"
+    },
+    {
+      "stat": "88 % des pilotes d'agents IA n'atteignent jamais la production, principalement en raison d'intégrations sous-estimées, de données mal préparées, d'une gouvernance absente et d'un périmètre mal cadré.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiiOYFBCVSvehPw-mk8xHDquSrHhscGJ4MeuPhNLx8vi_vFphlPz3KkvdhlmsJ6JmKQzkP4z9mr3GDWoeHTt6mwQaEbVWRSmd008dzrJ34b5LRtDcziDr-sT5yH9yqes30JJ8GGBP2ijwOqNtlxzXuyDjh",
+      "date": "2026"
+    },
+    {
+      "stat": "Seuls 26 % des 100 premiers sites e-commerce français proposaient un agent IA en octobre 2026, et aucun ne permettait encore de déléguer complètement l'achat.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkN0EHc0gDQFRffmc4_IUTMLGafgwViRl9vL737lU1FXBxmvYmm_2Lra_P5NTL3Hw5WGfrgAdBq4oBD4ziVUT6l4rudyth-caaJr4Jo4QwV3jD0RJ3hkARI67I4jvyDnLx76Jtuw==",
+      "date": "2026"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/agents-ia-guide",
+      "why": "Pour une définition et une compréhension approfondie des agents IA en entreprise, essentielle avant d'aborder leurs capacités et limites."
+    },
+    {
+      "url": "/articles/automatiser-taches-ia-sans-coder",
+      "why": "Explique comment les entrepreneurs non-développeurs peuvent tirer parti de l'IA pour l'automatisation, un pilier de l'article."
+    },
+    {
+      "url": "/articles/donnees-perso-ia-confidentialite",
+      "why": "Aborde les enjeux de confidentialité des données, directement lié aux précautions à prendre avec la carte bancaire et les informations sensibles."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Même avec des agents autonomes, la qualité du prompt reste cruciale pour guider l'IA et éviter les erreurs, un point important pour les non-développeurs."
+    },
+    {
+      "url": "/lexique/agentic-workflow",
+      "why": "Fournit une explication technique mais accessible du fonctionnement des workflows agentiques, enrichissant la compréhension du lecteur."
+    },
+    {
+      "url": "/lexique/computer-use",
+      "why": "Détaille les capacités d'une IA à interagir avec un environnement informatique, directement pertinent pour les tâches d'automatisation avancées."
+    }
+  ],
+  "outline": [
+    "Introduction : L'Ère des Agents IA Autonomes en 2026, entre promesses et réalités",
+    "Ce que les Agents IA savent VRAIMENT faire pour les entrepreneurs non-développeurs",
+    "Les Modèles d'IA de Référence et leurs Dernières Avancées (ChatGPT, Gemini, Claude, Midjourney)",
+    "Les Limites Actuelles et le 'Mur de la Production' des Agents IA",
+    "Confier sa Carte Bancaire à une IA : Précautions Indispensables et Responsabilités",
+    "Comment Adopter les Agents IA en Toute Sécurité dans son Entreprise : Bonnes Pratiques",
+    "Conclusion : Vers une Collaboration IA plus Intelligente et Sécurisée pour les Entrepreneurs"
+  ],
+  "faq": [
+    "Un agent IA peut-il vraiment faire des achats sans ma supervision constante en 2026 ?",
+    "Quels sont les risques concrets si je confie mes identifiants bancaires ou ma carte à un agent IA ?",
+    "Comment choisir un agent IA fiable et sécurisé pour automatiser des tâches financières dans mon entreprise ?",
+    "Les agents IA peuvent-ils gérer des tâches complexes nécessitant du jugement humain ou des interactions imprévues ?",
+    "Quelle est la différence fondamentale entre un chatbot avancé et un véritable agent IA autonome ?",
+    "L'IA agentique est-elle accessible aux entrepreneurs non-développeurs, ou faut-il des compétences techniques spécifiques ?"
+  ],
+  "pitfalls": [
+    "Ne pas minimiser le phénomène d''agent washing', où des outils sont étiquetés 'agents' sans offrir une réelle autonomie ou des capacités multi-étapes.",
+    "Souligner que l'autonomie des agents IA, bien qu'avancée, n'est pas encore parfaite et nécessite une supervision humaine, surtout pour les tâches critiques ou financières, en raison des risques d'hallucinations ou d'erreurs d'exécution.",
+    "Insister sur la responsabilité de l'utilisateur en cas de problème financier avec un agent tiers, car les banques transfèrent cette responsabilité aux clients.",
+    "Préciser que les versions et capacités des modèles d'IA évoluent très rapidement, et qu'il est crucial de toujours vérifier les informations les plus récentes et les conditions d'utilisation."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7zsBuXjxu9jk9N7LFSS4P_g5-Zp_BL9xwlVx_KrGqbk0_OcafKzOcY09DHLNoHl5oGHAm23SD0kWM2mDsZzTO6hYtUEH73VmvWn8seKySgz2khQpeS5dfC5Z0VacH8UkWq2y28Pd2Nos=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv7k407ncUFTc21g_usv9dpVwGQyTUkMKIe80sxn0-m8UKFEEgkLIGmSI5ev69b1ajHlHVNZCH7GQKUHFS5YdrUhA3KOzTGxzlfrfHEeqBKeO46i7t2-Y3m9Rk0cCaj-5t",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiAufuANfxElSLPMEkvsH7-cQwwRTNI9b3EBR2wQ2_AFz1ZciVQQsBJ6AcY6UG7yh4TLJAknwJpeRKgUAdyY40kmqp6w_-MCtQPS07pBJE2b8Ia7elc1jbhFt4DX4ZBwbcwe0=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUFi7_F8vBvkr4ROfOqrPJoGh_3B5sH9ieZroF-M2aPNCHjAAI2F3YIxbwTusYj00ymJWEhX9Og1ExhJj60s91PU5e6sTFrEw3EOhflanjeBqIZs4KnXhXRTmW0v8yJxxCKEFtDZccwgg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjTcYCXLnCJhtqFBmPyuPczwa7fJLfKkOeN-Shgkv6olRW06MY4lSldftEkowDYqOCQNuTABwfeLkieevtlgT4Ph-tK6EaXmmIPOCKRlsqr5jUcQupNeyAXoLRzkkCXv8_CkwqEHdwXw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE0BMA3BmQv4KqqE5AFQcYGwQGjo_yfwOftVJqXQIgojqfq_34vt6b780j2fn-wcmRy--WJd3FoD8IsbkcSWTdagD7qKRXtA_8RozATIv_O_4BEU1EZoOWOBD751u2XDSvnI7CuvAS1ImZ5BSD1_CaANPIdpPTPJSUuK3WQnS2r-QyixY=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEORhmEiA_Ktd6Dt7i8hi73M2rhdwXaCYBTPZvHhqAz4oWuNUETZkOshw4XZvCYNFAOK5RaMbLnR7Aliu6zb-Ey77e_NaLLLn7cCtLCu5wsMIVu1rNi2AI7k4HUxPTWB4dKpivFi2MLOtMJ1lYMNyU8IyE5oKUTnR63ilfK5pVtz8TXozNQv3aXd7Vess5cJx2ELiU4EZzAT3y74N7Ctm1_FXsf2T3b4waLvVw8JGWkpxTO",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFm5LT5CrOoj3VqC3yAXnTrfhrAcGP5n-kDTdJJ3CUTvdDLyb6XT97TzEUUY5PKIL1JpDF2vZ8vZR_E7RG5oSCqxD9Srnl8KGPg-HzVN1fjCyl5tX106WRY8xI7-_Ix_FhKxEQJ5ekLqgTPw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs3dSDuaG8AOMtNV2JoRH8XccgULzGbQJQurN2fAo9K0p-OII-xa14rC5vggxwH_Yo4b2SQ30wvDyVkB3PJX4lvdIwoWVjbVkg547mL_w2wKc-k0fCYZwtCsz7uXZKmqpbuIB1yUEZsY292btbZFT8CSVBJMg1K0St0ju9JpuXUaQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsh9hg7NuVYVP70j1-uM1drEc8vPZ4AkRzg7frkYEoNGdHzXtytB4GiEWSGglZyKhh9D2dUEZPIIYMFcaFqCLRTvKxQx1tvnICs8ta_74w8ruOzFgYD16q2bd3eoDDrStotdpBOuLlQvl4kKqOBFpQMIgFT66WwJsSBZ6-Pk=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOrAr3tfSih9ezyxSPTxhNUuIwVolEaDI6RB8DI_LgCNJwTdKcLSmq0TUyO3GZSZaUjZ820Ajz2xM0vhBOlXwpu-X561Q-ILY-_JaHDlxtX5KdHu19FmYZEXJU8VHBUVGKkY6yw5qNOogX790VhY19ZQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzKE0mKzTNZgwK8ywSXtgCAyFLoHMK1v6xC5cYw7CZBfcdbjhf4-u2plataajIdBpJMHWbtTHJ3n_o7Sw08D0ua2Iv7dQKaPISQf8s5qt0OcYep1S84k5jSM1Bgb2YHxiGX08gR606ABEF7v9_3gNfDFUM1KS0mYnZxK5A1T2HBm9aIKGfUpmYlRZVy7DMfRTWGd0lnT_MvWy9DwIqgnZVo_djwVczY-q1DYvX-30Ti7qi8Nq-QT98J5oXZqA=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjr9HWgVHMnYJ2QVUX2DPiF7eZLwQfuKTpIhY-VU5_fdIsvfWVPLRSPWRW7unu4rhVe225Su8LlPhVvOQsnfzB1eaP4KJu4h30tWFPerMe9DlmUiYIPiGcM33x_vCMkU_g8kSeQnnHEEnJyugp_rfhDrgd4tGPNmjkbYiloIaf8Y3qRW_jJTTPLjk_BvVaHxU1fjxajiIci8jYhFBp5-g_9zmWVuU1W-zu7co5XSulB6BE0INWFs_3AVLfEegVJWkoo59AoPYxS2x7YsyyQCyZdHxEXsgiswGHuoaDBYuLSYt4h4wiQFkdJNEivMs=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXJD-KzakXwzJyp_IRdm3HXHnZDiEGD9HgqSFpaj9-UNDWxCGXs99hbxnkulZACyuIM6JVP0CevADTWUx025msyrSbrvJnKysM-0RiIVkYC4qZPB_XdeJPc9NkHM9E49Kdgocw71Ks46X-HIxLUTUJRw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1whudJKdHbgas2YBnhsDUZobFCIpS6D2E-If11FyxKK88PmhLers8W7uobCgC_EAHoipPe7Mk_PsyBwKP-ZagOWngVZSnoiITx2Rv8_w_a95QeQpAWavMWWxxFTCnbTQlSH-jmuqraQI7B5l8lGT-SH-DrRKsLJL5Ng==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0N8QPTq9fm4mTHrL26UyGIsUztQSYLTgE-tbtRJczBvksiobfla76N74QbgI5-WTQXYMG7_j696Z_3_ZZozz2U__wLtrZfBt8N_S-xC8xTj9Rv5t10TPHkrImT3kTBs2j62WzRY-r1X24sQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4kHnoWp8uEA6RLRZ6ZrofYYtU3HtRPW_kMuL0qo2HufNgxsA7k4ZQGls4vPoxgIJprAJk0mH1rElBR-1A9q54zWbYbuL9RAN8mIUBNjbmygZ4-YpCo6EvTtCDH4PjCGyDOw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_qjDa3-RI-sKHZSRgegNN3PJe33FQAPCqHWwxQU5LVORuTjDpwZRlpHB_fD0AVOsg1BduxYjhKtUWk_korOgfz7VNdf-WoFyqELIyOaDglh7MNZQNij-L4OiVDKGyVaztvyAEOYnaSH_btVhVs867TABVu3rdOPFCqeIQZQ=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbRnHTNMsmPQwWCIy8h88CH6yjp_J2PCO4JTEOxiDcOd_SDqgfbo7XWNzambrFhfVfPLLPr45GfolK4SrndMMy0OTgvRbGxMtHu0TdYrflxNkmGvr0ij82Zh2C10S8JiYGWos8w5n6U6HQuKfzOUY=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2ZUsFK433Ml4Mes-Jas9mf1qTdLXXMxqgxxAvtUtix9JLd8yAWnXqRFMgA4FIMMGzjmQStFyoEve5V8pOydbYr00PaDHEURwj6IeVujidNNTEThugjJjSl5OynlRrPqeq_Q==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiSCKK7nyPLF3Og0VxXYMAozLP28iunkqloh14OEOrcQzKwpYOwzT6LOyhUZrdQWrLYMDzX6x92cYmis7p3A-rkfC7fVTrBtlANoHIyr1-ZU1iBV-STRg-CTxqmvBuedbIFMHqzaTj8UqHKrBzbYezQIqCpuN1l0EFEPDKAVIjp5k2ZJWcUbrvRiqZWA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHujNKgk97Ivrd1WkUvPpTfyFR1o1J57oYYR-ztKlXLHPb1eA1PiJKRUEL3S6dyMEqLTFs9_4tXLkUYz81WnUoCy_BL3f9mX5-p8RJeF7nv0Wk4DDfEfxVGxRh-UeCVNsHBKBl-OY-iR_tBIFuGPfQVULiBuIGhSS_gepNCVZqz7fNSgtlVnnbqGbVpC2Pq5bbm4il1Ji7eESuLFVKmFPxwFjrGR9rmI6gBU-1U-XttXOY3YeetOJAvYqdUTXoz1akUO1CHQWSXLAnuT25O7rr1Z3-G7E_-GNboObhvDf3fruyADHLTgPJD",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmX7yLfyt4T_BhFZBsJLgx1iQpUI6D7Hr0XTac4M-4wLSbbMSTAvlMHsb7N_A9JJKMJEMNANlQgi6XnWMuiM4FWoCA9chVI6QVIu7e6T9LzdUnkKiLIX7EqjgVRUaN3-wKNNOxkqIOSxDIyxqyy2mGYvqJlf5NAGg=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiiOYFBCVSvehPw-mk8xHDquSrHhscGJ4MeuPhNLx8vi_vFphlPz3KkvdhlmsJ6JmKQzkP4z9mr3GDWoeHTt6mwQaEbVWRSmd008dzrJ34b5LRtDcziDr-sT5yH9yqes30JJ8GGBP2ijwOqNtlxzXuyDjh",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkN0EHc0gDQFRffmc4_IUTMLGafgwViRl9vL737lU1FXBxmvYmm_2Lra_P5NTL3Hw5WGfrgAdBq4oBD4ziVUT6l4rudyth-caaJr4Jo4QwV3jD0RJ3hkARI67I4jvyDnLx76Jtuw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVfrRnljPWx3MTkgD4XG5rlF2gdrhtFAAXKgsmtRWN_nm3EV0L2sprTX18-pMAgw9IeSFIsFYplEA9vlhLMElrMIVLMBYE146xWjE2zrroGs2H21Y6_XkpJ9nD_9vUy47TQ8UcwNRhVSU29WGHlX-Niivq8kOHuirqSTwZYylwLiHWMP5fD1Q1",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAcUZm6nQ2nCdL5Jk2dmbhpl1HveaJxCcR1MjGiBpUWqVcJ73h73jV-cQSFLYrr-GtiXiaDe1aEwgbdyqJH3UuBtsecaiBMf-rX8YdF8ux9tAbo8dRfCkBcHWDr0IU0kF6Mg==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsh9hg7NuVYVP70j1-uM1drEc8vPZ4AkRzg7frkYEoNGdHzXtytB4GiEWSGglZyKhh9D2dUEZPIIYMFcaFqCLRTvKqQx1tvnICs8ta_74w8ruOzFgYD16q2bd3eoDDrStotdpBOuLlQvl4kKqOBFpQMIgFT66WwJsSBZ6-Pk=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4kHnoWp8uEA6RLRZ6ZrofYYtU3HtRPW_kMuL0qo2HufNgxsA7k4ZQGls4vPoxgIJprAJk0mH1rElBR-1A9q54zWbYbuL9RAN8mIUBNjbmygZ4-YpCo6EvTtCDH4PjCGbDOw==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiSCKK7nyPLF3Og0VxXYMAozLP28iunkqloh14OEOrcQzKwpYOwzT6LOyhUZrdQWrLYMDzX6x92cYmis7p3A-rkfC7fVTrBtlANoHIyr1-ZU1iBV-STRG-CTxqmvBuedbIFMHqzaTj8UqHKrBzbYezQIqCpuN1l0EFEPDKAVIjp5k2ZJWcUbrvRiqZWA==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHujNKgk97Ivrd1WkUvPpTfyFR1o1J57oYYR-ztKlXLHPb1eA1PiJKRUEL3S6dyMEqLTFs9_4tXLkUYz81WnUoCy_BL3f9mX5-p8RJeF7nv0Wk4DDfEfxVGxRh-UeCVNsHBKBl-OY-iR_tBIFuGPfQVULiBuIGhSS_gepNCVZqz7fNSgtlVnnbqGbVpC2Pq5bbm4il1Ji7eESuLFVKmFPxwFjrGR9rmI6gBU-1U-XttXOY3YeetOJAvYqdUTUoz1akUO1CHQWSXLAnuT25O7rr1Z3-G7E_-GNboObhvDf3fruyADHLTgPJD"
+  ]
+}

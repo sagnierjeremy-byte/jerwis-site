@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Agents IA autonomes 2026 : ce qu&apos;ils savent vraiment faire</title>
+      <link>https://jerwis.fr/articles/agents-ia-agir-a-ta-place</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/agents-ia-agir-a-ta-place</guid>
+      <description>Je teste les agents IA qui réservent, achètent et remplissent des formulaires à ta place. Voici ce qu&apos;ils savent faire en 2026 et comment protéger ta carte bancaire.</description>
+      <pubDate>Tue, 24 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>ChatGPT au travail sans autorisation : les vrais risques</title>
       <link>https://jerwis.fr/articles/chatgpt-au-travail-sans-autorisation</link>

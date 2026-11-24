@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - DO NOT DELETE THE BLOCKS BELOW
+     · TITLE ≤ 60 characters (without suffix " by Jérémy Sagnier")
+     · META DESCRIPTION: 140-155 characters
+     · OG/TWITTER: titles ≤ 60, descriptions ≤ 110
+     · CANONICAL: absolute URL with exact slug
+     · ONLY 1 JSON-LD (TechArticle for tutorials, OpinionPiece for opinions)
+     · OG:IMAGE: point to photos/og/agents-ia-agir-a-ta-place.jpg (generated via scripts/og-batch.html)
+-->
+
+<title>AI agents in 2026: what they can actually do</title>
+<meta name="description" content="I test the AI agents that book, buy, and fill out forms for you. Here's what they can actually do in 2026, and how to protect your credit card.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AI agents in 2026: what they can actually do">
+<meta property="og:description" content="I test AI agents that book and buy for you. Here's what they can do in 2026, and how to protect your credit card.">
+<meta property="og:url" content="https://jerwis.fr/en/articles/agents-ia-agir-a-ta-place">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://jerwis.fr/photos/og/agents-ia-agir-a-ta-place.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-24">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="AI agents in 2026: what they can actually do">
+<meta name="twitter:description" content="I test AI agents that book and buy for you. Here's what they can do in 2026, and how to protect your credit card.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/agents-ia-agir-a-ta-place.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/en/articles/agents-ia-agir-a-ta-place">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/agents-ia-agir-a-ta-place">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/agents-ia-agir-a-ta-place">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/agents-ia-agir-a-ta-place">
+
+<!-- Schema.org · ONLY 1 JSON-LD : TechArticle (tutorials) or OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "AI agents in 2026: what they can actually do",
+  "description": "I test the AI agents that book, buy, and fill out forms for you. Here's what they can actually do in 2026, and how to protect your credit card.",
+  "inLanguage": "en-US",
+  "url": "https://jerwis.fr/en/articles/agents-ia-agir-a-ta-place",
+  "datePublished": "2026-11-24",
+  "dateModified": "2026-11-24",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/en/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/en/photos/og/agents-ia-agir-a-ta-place.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/revue.css?v=20261102">
+<link rel="stylesheet" href="/assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="/assets/article.css?v=20261102">
+<link rel="preload" href="/assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/article-toc.css"></noscript>
+<link rel="preload" href="/assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/ai-summarize.css"></noscript>
+<link rel="preload" href="/assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="/assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>This week's edition</span><span class="rv-edition-mid">AI · business · made in Mougins</span><span>The letter goes out Friday at 9 am</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Main navigation">
+  <a class="brand rv-marque" href="/en" aria-label="Home, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Open menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/en/apprendre">Learn</a>
+    <a href="/en/articles">Articles</a>
+    <a href="/en/podcast">Podcast</a>
+    <a href="/en#newsletters" class="rv-sabonner">Subscribe →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="More pages">
+        More
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/en/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>AI models</strong><span>Claude, GPT, Gemini compared…</span></span>
+        </a>
+        <a href="/en/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>AI image models</strong><span>Image, audio &amp; video generation</span></span>
+        </a>
+        <a href="/en/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>AI glossary</strong><span>270+ terms explained</span></span>
+        </a>
+        <a href="/en/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>AI by profession</span></span>
+        </a>
+        <a href="/en/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>My tools</strong><span>My AI &amp; web stack</span></span>
+        </a>
+        <a href="/en/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>For non-devs · full guide</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>AI &amp; business news</span></span>
+        </a>
+        <a href="/en/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Videos</strong><span>My YouTube channels</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>About me</strong><span>Bio + journey + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/en/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Personal photos · €39</strong><span>AI photo generator</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Breakdown · 45</div>
+    <h1>Autonomous AI agents<br>and your credit card<br><em>what you really need to know before delegating</em></h1>
+    <p class="hero-lead">
+      You wonder if an AI can really book your next flight or buy your gear without you watching every click? In 2026, autonomous agents browse, fill out forms, and interact with external tools. I've been testing them for months. Here's what they can actually do, and more importantly, why I won't hand over my credit card anytime soon.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>8 min</strong> read</span>
+      <span class="hero-meta-item"><strong>Level</strong> Beginner</span>
+      <span class="hero-meta-item"><strong>Tools</strong> ChatGPT, Gemini, Claude</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">In 30 seconds</div>
+    <h2>What you'll walk away with</h2>
+    <ul>
+      <li>Autonomous <strong>AI agents</strong> in 2026 plan and execute multi-step tasks without constant supervision</li>
+      <li>They can book trips and handle e-commerce interactions, but sales and customer support stay limited</li>
+      <li>US banks hold customers responsible for the actions of third-party AI agents, even in case of hacking</li>
+      <li>Before automating, frame the agent's scope and keep control of your financial data</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+  <span>Zero jargon</span><span>Tested for me first</span><span>Sources in the text</span><span>Prompts to copy</span><span>Reply if you disagree</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>When AI really takes action</h2>
+    <p>I remember the first time I let an AI click for me. I watched the screen with a mix of amazement and worry. The agent opened a browser. It read a page. Then it filled in a field. All by itself.</p>
+    <p>A year ago, I was still asking the AI to summarize text for me. Today, I can ask it to find a meeting slot, send an email, and note the reply in my spreadsheet. That's a big leap. The agent no longer just generates text. It acts on external systems. For my business, that's a game changer. I can delegate administrative tasks that used to take me hours every week.</p>
+    <p>In 2026, this kind of scenario is no longer a lab demo. Autonomous AI agents can plan entire sequences, execute multi-step tasks, use external tools, and make decisions without me staying glued to the screen. They browse the web and fill out forms. Some even interact with databases. That's what we call an <a href="/en/lexique/agentic-workflow">agentic workflow</a>, even if I prefer to see it as concrete delegation.</p>
+    <p>But watch out. Delegating doesn't mean checking out.</p>
+    <h2>What an agent can do for you</h2>
+    <p>For a non-coder entrepreneur, the promise is clear. Less time on repetitive tasks, more time on strategy.</p>
+    <p>Let's take travel. An AI agent can plan a trip, search for flights for five people, and check a hotel's meeting room availability. It can also suggest a nearby restaurant. It can even turn a recommendation into a real booking. That said, sales and customer support remain a real pain point. The agent can book your ticket. If you need to change it last-minute because of a strike, you're still the one who has to step in.</p>
+    <p>In e-commerce, things are moving fast. Some agents answer customer questions, recommend products, apply filters, add items to cart, and create return tickets. They're connected in real time to catalog, inventory, and order data. If you run an online store, that's time saved on the first level of customer service. But when a customer is angry or the request goes off-script, the agent shows its limits.</p>
+    <p>I see this as a <a href="/en/articles/automatiser-taches-ia-sans-coder">first level of automation accessible without coding</a>. Useful for easing the admin load. Not yet for replacing your judgment.</p>
+    <div class="callout tip"><h4>My advice</h4><p>Start with low-risk tasks. Letting an agent compare flights is one thing. Giving it your card to book directly is another. Test the browsing before you turn on payment.</p></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>The ones I'm testing right now</h2>
+    <p>On the tools side, the landscape has shifted a lot these past few months.</p>
+    <p>ChatGPT switched to GPT-6 Pro on October 16, 2026 for Pro, Business, and Enterprise users. Responses are faster and several agents can handle different parts of the same task in parallel. I tested a request where one agent drafted a brief while another checked sources. The time savings are tangible for heavy projects.</p>
+    <p>At Google, Gemini 4 Neon arrived on November 18, 2026 for Google AI Pro subscribers in the Gemini app. And Gemini 4 Hydrogen, released on November 12, 2026, is the first Gemini 4 model available without a subscription. It became the default model for Google's AI mode. Hydrogen interests me particularly because it democratizes access to advanced capabilities. Neon, on the other hand, seems reserved for users deeply invested in the Google ecosystem.</p>
+    <p>Claude Opus 5.5 came out on September 22, 2026. Anthropic also opened its <a href="/en/lexique/computer-use">Computer Use</a> in beta on Team and Enterprise plans since November 2026. The AI can literally use your computer for you. It opens applications and controls the keyboard. For a curious entrepreneur, it's fascinating. For your security, it's something to watch closely.</p>
+    <p>Midjourney V8.2 has been the default version since July 24, 2026. The team worked on aesthetics, image quality, and personalization. A new Thinking Mode has been in testing since October 2026 to improve prompt precision. It's not a conversational agent, but it shows how much models are gaining in rigor.</p>
+    <p>All these models evolve fast. Very fast.</p>
+    <h2>The wall many don't see coming</h2>
+    <p>Yet there is a wall many don't see coming. A large share of AI agent pilots never reaches production. The reasons are always the same. Underestimated integrations. Badly prepared data. Absent governance. And poorly scoped boundaries.</p>
+    <p>I've seen entrepreneurs invest hefty budgets in custom agents. The prototype worked. Production broke everything. The agent didn't connect properly to the existing database. No one had defined who was allowed to do what. And the instruction was too vague. Automate my invoicing is a sentence that leads straight into a wall if you don't detail every case.</p>
+    <p>On the French e-commerce side, reality is still timid. In October 2026, few major sites offered an AI agent. And among those that had one, none allowed fully delegating the purchase. The agent helped you choose. The final click stayed human.</p>
+    <p>It's a useful reminder. Automation doesn't replace a <a href="/en/articles/ecrire-bon-prompt-non-dev">good initial prompt</a>. If you don't know exactly what you want, the agent won't guess it for you.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Your credit card and the agents</h2>
+    <p>Then comes the touchy subject. Your credit card.</p>
+    <p>In September 2026, EMVCo published a draft framework to verify intent behind a payment made by an AI agent. The idea is simple. The AI must respect the payment limits you set yourself. It's reassuring on paper. In practice, it remains a draft.</p>
+    <p>More worrying. Some US banks like Citibank, JPMorgan Chase, and Bank of America changed their terms of use in November 2026. They now hold customers responsible for everything a third-party AI agent does accessing their accounts. Including in case of hacking. You read that right. If a malicious or compromised agent uses your credentials, the bank may refuse to cover you.</p>
+    <p>Commercial platforms have already reacted. Amazon and United Airlines banned AI assistants from making purchases on their sites starting September 2026. And US authorities classify autonomous payment agents at the highest risk level since November 2026.</p>
+    <p>In short, the message is clear. No one will tell you it's safe.</p>
+    <div class="callout tip"><h4>The trap to avoid</h4><p>Never store your banking credentials in a third-party AI agent whose hosting you don't control. Use virtual cards with low limits if you absolutely must test automated payment. And read your bank's terms before activating anything.</p></div>
+    
+    <h2>Where I'd start today</h2>
+    <p>So how do you move forward without messing up?</p>
+    <p>I suggest a three-step method. Start by mapping. Which tasks take up your time with no financial stake? That's where you place the agent. Set clear rules next. A simple instruction. The agent proposes, you validate. And check regularly what the agent did. Automation isn't a garden that tends itself.</p>
+    <p>Then, favor agents built into official platforms over anonymous browser extensions. A native agent in an ecosystem you know is always safer than a third-party tool asking for your credentials.</p>
+    <p>For sensitive data, I'm uncompromising. No third-party agent holds my banking credentials. If I need to automate a recurring purchase, I use a virtual card with a zero-euro limit by default. I raise the limit manually for the transaction. Then I put it back to zero. It's cumbersome. It's also the only protection that counts. To learn more about protecting your <a href="/en/articles/donnees-perso-ia-confidentialite">personal information</a>, I detailed my method in a dedicated article.</p>
+    <p>Finally, scope strictly. Give the agent a single mission and clear limits. If you want it to book a hotel, give the maximum price range. If you want it to buy equipment, give the exact reference. Ambiguity is automation's worst enemy. To go further on definitions and best practices, I gathered my notes in a <a href="/en/articles/agents-ia-guide">guide on AI agents for business</a>.</p>
+    <h2>FAQ</h2>
+    <h3>Can an AI agent really make purchases without my constant supervision in 2026?</h3>
+    <p>Not really. Some agents can navigate to the payment page and pre-fill fields. But platforms like Amazon or United Airlines explicitly banned this practice in September 2026. And on French e-commerce sites, none of the major players allow fully delegating the purchase. The human keeps the final say, especially on payment.</p>
+    <h3>What are the concrete risks if I hand over my banking credentials or card to an AI agent?</h3>
+    <p>The main risk is legal. Major US banks changed their terms in November 2026 to hold the customer responsible for the actions of a third-party AI agent. If the agent is hacked or hijacked, you might not get refunded. US authorities also classify these autonomous payment agents at the highest risk level.</p>
+    <h3>How do I choose a reliable and secure AI agent to automate financial tasks in my business?</h3>
+    <p>My recommendation is simple. Don't choose one. Not yet. In 2026, no agent deserves your blind trust on financial flows. If you must automate, use solutions internal to your banking tools or virtual cards with strict limits. And above all, never store your credentials in an interface you don't control.</p>
+    <h3>Can AI agents handle complex tasks requiring human judgment or unexpected interactions?</h3>
+    <p>They can handle complex sequences, like planning a trip with several constraints. But as soon as something unexpected happens, like a last-minute cancellation or a subtle customer complaint, the agent trips. Customer support and strategic judgment remain human. The agent executes. It doesn't always anticipate.</p>
+    <h3>What's the fundamental difference between an advanced chatbot and a real autonomous AI agent?</h3>
+    <p>A chatbot answers your questions in a conversation. An autonomous AI agent acts in the real world. It opens browsers, fills out forms, interacts with databases, and chains steps without you validating each click. That's the shift from answer to action.</p>
+    <h3>Is agentic AI accessible to non-developer entrepreneurs, or do you need specific technical skills?</h3>
+    <p>It's increasingly accessible. The new versions of ChatGPT, Gemini, or Claude are designed for varied profiles. You don't need to code to launch an agent on a simple task. However, you absolutely must know how to <a href="/en/articles/ecrire-bon-prompt-non-dev">write a good prompt</a> and understand the tool's limits. Technique isn't the blocker. Vigilance is.</p>
+    <h2>My takeaways</h2>
+    <p>I do all this for me first. I test, I research, I share. The AI agents of 2026 are impressive for relieving repetitive tasks. They browse, compare, fill out. Still, your credit card and credentials remain a red line. Until banks and regulators clearly frame responsibilities, I'm keeping my wallet shut. Productivity isn't worth a card emptied by an algo error. And you should do the same.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Understand before you apply</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+  <span>Understand before you apply</span><span>At your own pace</span><span>Zero ads</span><span>Unsubscribe in 1 click</span><span>I read every reply</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ CRITICAL ANCHOR: publish.js replaces the entire body between the end of the TL;DR and this
+     "Final CTA" comment. DO NOT delete/rename it, or published articles
+     will keep the template's example body (incident from 2026-07-02→06). -->
+<!-- End of article: author signature -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="/photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="/photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Thanks for reading this far 👋</span>
+        <h2 class="article-end-title">Shall we keep going?</h2>
+        <p>I test AI for real and share what works, with no jargon or hype. If this article helped you, the easiest way to not miss anything is my Friday letter. And if you have a question or a doubt, reply to me. I read everything.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Get the newsletter →</a>
+          <a href="/en/articles" class="article-end-btn ghost">Read more articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unified) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>The <em>Friday letter.</em></h2>
+        <p>How I really use AI, and my articles as soon as they are out. Free, one-click unsubscribe.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer-en">
+        <input type="email" name="email" placeholder="name@example.com" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Your email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Subscribed ✓" data-ko="Try again">Subscribe →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Site map">
+      <div><h3>Read</h3><a href="/en/apprendre">Beginner path</a><a href="/en/articles">All articles</a><a href="/en/lexique">AI glossary</a><a href="/en/modeles-ia">AI models guide</a></div>
+      <div><h3>Products and tools</h3><a href="/en/precommande-photos-personal-branding">Photo generator · €39</a><a href="/en/outils">My tool stack</a><a href="/en/claude-code">Claude Code guide</a><a href="/podcast">AI Wars podcast</a><a href="/en/github">My GitHub</a></div>
+      <div><h3>Follow me</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Sagnier brothers</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Contact and legal</h3><a href="/en/preferences">Preferences</a><a href="/en/mentions-legales">Legal notice</a><a href="/en/politique-confidentialite">Privacy</a><a href="/en/cgv">Terms of sale</a><a href="/en/suppression-donnees">Delete my data</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · made in Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Write to me, I read everything</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="/assets/article-toc.js" defer></script>
+<!-- "Summarize with an AI" bar (auto-inserted after the TL;DR) -->
+<script src="/assets/ai-summarize.js" defer></script>
+<script src="/assets/bandeau-kzumi.js" defer></script>
+
+  <script src="/assets/lexique-tooltip.js" defer></script>
+  <script src="/assets/article-reading.js" defer></script>
+<script src="/assets/nav-v2.js" defer></script>
+<script src="/assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

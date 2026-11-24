@@ -489,8 +489,9 @@
       "topic": "laisser une IA agir à ta place (réserver, acheter, remplir un formulaire) : ce que savent vraiment faire les agents IA en 2026 et les précautions avant de leur confier ta carte bancaire",
       "type": "A",
       "priority": 2,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-24"
     },
     {
       "id": "se-former-ia-gratuit-cpf",
