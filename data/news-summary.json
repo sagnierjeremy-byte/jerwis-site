@@ -1,62 +1,58 @@
 {
-  "generated_at": "2026-11-23T15:38:38.436Z",
-  "day_label": "Lundi 23 novembre",
+  "generated_at": "2026-11-24T15:30:03.774Z",
+  "day_label": "Mardi 24 novembre",
   "items": [
     {
-      "title": "Apple fait payer l'usage avancé de son IA via iCloud+",
-      "why_it_matters": "Je note qu'Apple passe au modèle payant pour l'IA avancée. L'IA gratuite partout n'est qu'une phase d'appel, il faut budgéter cet usage.",
+      "title": "BYD va produire des voitures en Moselle : la concurrence s'installe",
+      "why_it_matters": "Je retiens que le leader chinois de l'électrique s'installe en France. Nos entreprises auto vont devoir s'adapter vite.",
       "sources": [
         {
-          "name": "Next",
-          "url": "https://next.ink/brief-article/apple-limite-lusage-de-son-ia-et-vend-des-quotas-plus-eleves-avec-icloud/"
+          "name": "Numerama",
+          "url": "https://www.numerama.com/vroom/2383677-bientot-des-byd-made-in-france-le-geant-chinois-veut-racheter-lusine-des-4x4-ineos.html"
+        },
+        {
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/societes/le-constructeur-auto-chinois-byd-sur-le-point-de-racheter-une-usine-en-moselle-pour-produire-en-france-20261124"
         }
       ]
     },
     {
-      "title": "Macron veut une règle d'or pour limiter les déficits publics",
-      "why_it_matters": "Je retiens que l'État veut bloquer les dépenses par la Constitution. Pour nous, cela pourrait limiter les aides et les investissements publics.",
+      "title": "La France crée des stocks de terres rares pour moins dépendre de la Chine",
+      "why_it_matters": "Je note que l'État se prépare à des tensions commerciales. Pour nous, ça veut dire des risques d'approvisionnement sur le long terme.",
       "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/budget/budget-de-la-france-a-quoi-servirait-la-regle-d-or-budgetaire-souhaitee-par-emmanuel-macron_8296121.html#xtor=RSS-3-%5Beconomie%5D"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/politique/emmanuel-macron-au-figaro-la-regle-d-or-budgetaire-peut-etre-une-idee-a-explorer-20261123"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/politique/congres-referendum-quelles-solutions-pour-inscrire-une-regle-d-or-budgetaire-dans-la-constitution-20261123"
+          "url": "https://www.franceinfo.fr/economie/projet-francais-dependance-chinoise-exemple-americain-quatre-questions-sur-les-stocks-strategiques-de-terres-rares-et-metaux_8297829.html#xtor=RSS-3-%5Beconomie%5D"
         }
       ]
     },
     {
-      "title": "Le Sénat vote la fin de la réduction d'impôt pour scolarité",
-      "why_it_matters": "Je note que 4,7 millions de foyers vont perdre cet avantage. C'est moins de pouvoir d'achat pour vos salariés et peut-être pour vous-même.",
+      "title": "Une IA a expulsé une locataire après lui avoir promis un sursis",
+      "why_it_matters": "Je retiens qu'une IA sans supervision humaine peut engager la responsabilité de l'entreprise. À méditer avant d'automatiser le service client.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/enfant-au-college-au-lycee-ou-en-etudes-le-senat-vote-la-fin-de-votre-reduction-d-impot-pour-frais-de-scolarite-1532099"
+          "name": "Tech&Co",
+          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/elle-avait-obtenu-un-sursis-pour-payer-ses-loyers-en-retard-mais-a-ete-chassee-de-son-appartement-avant-l-heure-l-interlocutrice-compatissante-avec-qui-elle-parlait-par-mail-etait-une-l-ia_AN-202611240688.html"
         }
       ]
     },
     {
-      "title": "Microsoft To Do disparaît en 2027 sans alternative prévue",
-      "why_it_matters": "Je retiens que Microsoft abandonne cet outil de productivité. Si vous l'utilisez, préparez votre migration vers une autre solution dès maintenant.",
+      "title": "Les Français retirent massivement sur leur Livret A : le pouvoir d'achat flambe",
+      "why_it_matters": "Je note que les gens puisent dans leur épargne pour payer le quotidien. C'est un signal fort pour la consommation de nos clients.",
       "sources": [
         {
-          "name": "Siècle Digital",
-          "url": "https://siecledigital.fr/2026/11/23/microsoft-to-do-disparaitra-en-2027-et-aucune-alternative-nest-prevue/"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/la-baisse-de-l-encours-du-livret-a-en-2026-est-un-signal-reel-de-la-baisse-du-pouvoir-d-achat-des-francais-explique-un-economiste_8297811.html#xtor=RSS-3-%5Beconomie%5D"
         }
       ]
     },
     {
-      "title": "OpenRouter renforce la protection des données après une faille",
-      "why_it_matters": "Je note que trois fournisseurs ont été exclus pour fuite de données. Quand on utilise l'IA, je vérifie toujours où vont nos informations.",
+      "title": "Rupture conventionnelle : signer en décembre pourrait déjà être trop tard",
+      "why_it_matters": "Je retiens que le Sénat plafonne les indemnités exonérées dès 2027. Si vous prévoyez des départs, il faut accélérer les signatures.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/management/emploi-cadres/1558825-indemnites-de-depart-pourquoi-signer-votre-rupture-conventionnelle-en-decembre-pourrait-deja-etre-trop-tard/"
         }
       ]
     }
