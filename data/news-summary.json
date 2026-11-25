@@ -1,58 +1,62 @@
 {
-  "generated_at": "2026-11-24T15:30:03.774Z",
-  "day_label": "Mardi 24 novembre",
+  "generated_at": "2026-11-25T15:15:13.017Z",
+  "day_label": "Mercredi 25 novembre",
   "items": [
     {
-      "title": "BYD va produire des voitures en Moselle : la concurrence s'installe",
-      "why_it_matters": "Je retiens que le leader chinois de l'électrique s'installe en France. Nos entreprises auto vont devoir s'adapter vite.",
+      "title": "Trump annonce de nouveaux droits de douane contre l'UE",
+      "why_it_matters": "Je retiens que ces taxes touchent directement les entrepreneurs français qui importent ou exportent vers les USA.",
       "sources": [
-        {
-          "name": "Numerama",
-          "url": "https://www.numerama.com/vroom/2383677-bientot-des-byd-made-in-france-le-geant-chinois-veut-racheter-lusine-des-4x4-ineos.html"
-        },
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/societes/le-constructeur-auto-chinois-byd-sur-le-point-de-racheter-une-usine-en-moselle-pour-produire-en-france-20261124"
+          "url": "https://www.lefigaro.fr/conjoncture/union-europeenne-chine-mexique-washington-annonce-de-nouveaux-droits-de-douane-contre-ses-principaux-partenaires-commerciaux-20261125"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/25/donald-trump-persiste-avec-une-nouvelle-salve-de-droits-de-douane-malgre-la-claque-electorale_6815108_3234.html"
         }
       ]
     },
     {
-      "title": "La France crée des stocks de terres rares pour moins dépendre de la Chine",
-      "why_it_matters": "Je note que l'État se prépare à des tensions commerciales. Pour nous, ça veut dire des risques d'approvisionnement sur le long terme.",
+      "title": "BYD veut produire des voitures électriques en France",
+      "why_it_matters": "Je note que ce projet d'usine en Moselle crée des opportunités mais aussi une concurrence forte pour l'industrie auto.",
       "sources": [
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/projet-francais-dependance-chinoise-exemple-americain-quatre-questions-sur-les-stocks-strategiques-de-terres-rares-et-metaux_8297829.html#xtor=RSS-3-%5Beconomie%5D"
-        }
-      ]
-    },
-    {
-      "title": "Une IA a expulsé une locataire après lui avoir promis un sursis",
-      "why_it_matters": "Je retiens qu'une IA sans supervision humaine peut engager la responsabilité de l'entreprise. À méditer avant d'automatiser le service client.",
-      "sources": [
-        {
-          "name": "Tech&Co",
-          "url": "https://www.bfmtv.com/tech/intelligence-artificielle/elle-avait-obtenu-un-sursis-pour-payer-ses-loyers-en-retard-mais-a-ete-chassee-de-son-appartement-avant-l-heure-l-interlocutrice-compatissante-avec-qui-elle-parlait-par-mail-etait-une-l-ia_AN-202611240688.html"
-        }
-      ]
-    },
-    {
-      "title": "Les Français retirent massivement sur leur Livret A : le pouvoir d'achat flambe",
-      "why_it_matters": "Je note que les gens puisent dans leur épargne pour payer le quotidien. C'est un signal fort pour la consommation de nos clients.",
-      "sources": [
+          "url": "https://www.franceinfo.fr/economie/automobile/l-arrivee-d-une-usine-byd-en-france-va-dans-le-bon-sens-juge-sebastien-martin_8299752.html#xtor=RSS-3-%5Beconomie%5D"
+        },
         {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/la-baisse-de-l-encours-du-livret-a-en-2026-est-un-signal-reel-de-la-baisse-du-pouvoir-d-achat-des-francais-explique-un-economiste_8297811.html#xtor=RSS-3-%5Beconomie%5D"
+          "url": "https://www.franceinfo.fr/economie/automobile/la-marque-de-voitures-chinoises-byd-veut-produire-en-france_8299761.html#xtor=RSS-3-%5Beconomie%5D"
         }
       ]
     },
     {
-      "title": "Rupture conventionnelle : signer en décembre pourrait déjà être trop tard",
-      "why_it_matters": "Je retiens que le Sénat plafonne les indemnités exonérées dès 2027. Si vous prévoyez des départs, il faut accélérer les signatures.",
+      "title": "France Digitale dévoile 24 propositions pour 2027",
+      "why_it_matters": "Je retiens que les startups françaises veulent alléger les réglementations et attirer plus de capitaux d'investissement.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/management/emploi-cadres/1558825-indemnites-de-depart-pourquoi-signer-votre-rupture-conventionnelle-en-decembre-pourrait-deja-etre-trop-tard/"
+          "name": "Maddyness",
+          "url": "https://www.maddyness.com/2026/11/25/presidentielle-2027-france-digitale-devoile-24-propositions-pour-le-prochain-quinquennat/"
+        }
+      ]
+    },
+    {
+      "title": "Les géants de la tech investissent 99% de leur trésorerie en IA",
+      "why_it_matters": "Je note que Microsoft, Amazon et Meta misent tout sur l'IA. Si la bulle éclate, les outils que j'utilise risquent de changer de prix.",
+      "sources": [
+        {
+          "name": "Actu IA",
+          "url": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/"
+        }
+      ]
+    },
+    {
+      "title": "Une étude HEC désigne les métiers les plus exposés à l'IA",
+      "why_it_matters": "Je retiens que la comptabilité et l'administration sont les plus menacées. Ça change mes recrutements et la formation de mes équipes.",
+      "sources": [
+        {
+          "name": "Capital",
+          "url": "https://www.capital.fr/votre-carriere/votre-metier-est-il-expose-a-lia-generative-une-etude-dhec-designe-les-plus-concernes-1532166"
         }
       ]
     }
