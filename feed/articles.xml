@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 24 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Se former à l&apos;IA gratuitement ou avec son CPF : éviter les arnaques</title>
+      <link>https://jerwis.fr/articles/se-former-ia-gratuit-cpf</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/se-former-ia-gratuit-cpf</guid>
+      <description>Tu cherches une formation IA sérieuse en France ? Je te partage les options gratuites et éligibles au CPF, avec les critères pour repérer les arnaques.</description>
+      <pubDate>Thu, 26 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Agents IA autonomes 2026 : ce qu&apos;ils savent vraiment faire</title>
       <link>https://jerwis.fr/articles/agents-ia-agir-a-ta-place</link>

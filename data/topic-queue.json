@@ -498,8 +498,9 @@
       "topic": "se former à l'IA gratuitement ou avec son CPF : les formations sérieuses en France et comment éviter les arnaques",
       "type": "A",
       "priority": 2,
-      "status": "pending",
-      "added": "2026-11-02"
+      "status": "done",
+      "added": "2026-11-02",
+      "published_at": "2026-11-26"
     },
     {
       "id": "candidature-filtres-ia-recruteurs",
