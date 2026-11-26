@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-11-25T15:15:13.017Z",
-  "day_label": "Mercredi 25 novembre",
+  "generated_at": "2026-11-26T14:40:23.462Z",
+  "day_label": "Jeudi 26 novembre",
   "items": [
     {
-      "title": "Trump annonce de nouveaux droits de douane contre l'UE",
-      "why_it_matters": "Je retiens que ces taxes touchent directement les entrepreneurs français qui importent ou exportent vers les USA.",
+      "title": "Un Espagnol bientôt à la tête de la BCE",
+      "why_it_matters": "Je retiens que la politique des taux restera stable. Pour nous entrepreneurs, ça veut dire des emprunts dont on peut anticiper le coût sans mauvaise surprise.",
       "sources": [
         {
           "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/union-europeenne-chine-mexique-washington-annonce-de-nouveaux-droits-de-douane-contre-ses-principaux-partenaires-commerciaux-20261125"
+          "url": "https://www.lefigaro.fr/conjoncture/l-espagnol-pablo-hernandez-de-cos-va-succeder-a-christine-lagarde-a-la-bce-20261126"
         },
         {
-          "name": "Le Monde Économie",
-          "url": "https://www.lemonde.fr/economie/article/2026/11/25/donald-trump-persiste-avec-une-nouvelle-salve-de-droits-de-douane-malgre-la-claque-electorale_6815108_3234.html"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/bce-l-espagnol-pablo-hernandez-de-cos-sur-le-point-d-etre-choisi-comme-successeur-de-christine-lagarde-20261120"
         }
       ]
     },
     {
-      "title": "BYD veut produire des voitures électriques en France",
-      "why_it_matters": "Je note que ce projet d'usine en Moselle crée des opportunités mais aussi une concurrence forte pour l'industrie auto.",
+      "title": "Le Smic augmente au 1er décembre",
+      "why_it_matters": "Je note que 164 branches ont des grilles qui partent sous le nouveau Smic. Si vous avez des salariés, vérifiez votre masse salariale dès maintenant.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/l-arrivee-d-une-usine-byd-en-france-va-dans-le-bon-sens-juge-sebastien-martin_8299752.html#xtor=RSS-3-%5Beconomie%5D"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/la-hausse-du-smic-en-france-vient-de-paraitre-au-journal-officiel/"
         },
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/automobile/la-marque-de-voitures-chinoises-byd-veut-produire-en-france_8299761.html#xtor=RSS-3-%5Beconomie%5D"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/social/la-cgt-reclame-au-gouvernement-de-sevir-sur-les-entreprises-qui-ne-relancent-pas-de-negociations-sur-les-salaires-20261126"
         }
       ]
     },
     {
-      "title": "France Digitale dévoile 24 propositions pour 2027",
-      "why_it_matters": "Je retiens que les startups françaises veulent alléger les réglementations et attirer plus de capitaux d'investissement.",
+      "title": "Allègement du RGPD pour les PME",
+      "why_it_matters": "Je retiens que les entreprises de moins de 1000 salariés vont être moins étouffées par les papiers. Moins d'administratif, c'est du temps gagné.",
       "sources": [
         {
-          "name": "Maddyness",
-          "url": "https://www.maddyness.com/2026/11/25/presidentielle-2027-france-digitale-devoile-24-propositions-pour-le-prochain-quinquennat/"
+          "name": "Siècle Digital",
+          "url": "https://siecledigital.fr/2026/11/26/rgpd-une-importante-simplification-administrative-se-profile-pour-les-entreprises/"
         }
       ]
     },
     {
-      "title": "Les géants de la tech investissent 99% de leur trésorerie en IA",
-      "why_it_matters": "Je note que Microsoft, Amazon et Meta misent tout sur l'IA. Si la bulle éclate, les outils que j'utilise risquent de changer de prix.",
+      "title": "L'énergie fait fermer des usines en Italie",
+      "why_it_matters": "Je note que le gaz et l'électricité ont doublé. C'est un signal d'alerte pour toute entreprise qui dépend de la chaîne d'approvisionnement européenne.",
       "sources": [
         {
-          "name": "Actu IA",
-          "url": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/en-italie-les-acieries-mises-a-l-arret-par-la-flambee-des-prix-de-l-energie-20261126"
         }
       ]
     },
     {
-      "title": "Une étude HEC désigne les métiers les plus exposés à l'IA",
-      "why_it_matters": "Je retiens que la comptabilité et l'administration sont les plus menacées. Ça change mes recrutements et la formation de mes équipes.",
+      "title": "L'UE prépare un fonds tech de 50 milliards",
+      "why_it_matters": "Je retiens que Bruxelles veut financer l'indépendance technologique européenne. Pour les startups françaises, c'est peut-être une nouvelle source de fonds.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/votre-carriere/votre-metier-est-il-expose-a-lia-generative-une-etude-dhec-designe-les-plus-concernes-1532166"
+          "name": "Siècle Digital",
+          "url": "https://siecledigital.fr/2026/11/26/lunion-europeenne-prepare-un-fonds-souverain-de-50-milliards-deuros-pour-soutenir-ses-ambitions-technologiques/"
         }
       ]
     }
