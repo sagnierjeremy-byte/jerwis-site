@@ -1,62 +1,58 @@
 {
-  "generated_at": "2026-11-26T14:40:23.462Z",
-  "day_label": "Jeudi 26 novembre",
+  "generated_at": "2026-11-27T14:38:34.031Z",
+  "day_label": "Vendredi 27 novembre",
   "items": [
     {
-      "title": "Un Espagnol bientôt à la tête de la BCE",
-      "why_it_matters": "Je retiens que la politique des taux restera stable. Pour nous entrepreneurs, ça veut dire des emprunts dont on peut anticiper le coût sans mauvaise surprise.",
+      "title": "La France est officiellement en récession",
+      "why_it_matters": "Je retiens que le PIB recule depuis deux trimestres. Cela change la donne pour mes projets et ma trésorerie.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/l-espagnol-pablo-hernandez-de-cos-va-succeder-a-christine-lagarde-a-la-bce-20261126"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/croissance/le-pib-recule-de-0-2-en-france-au-troisieme-trimestre-apres-une-revision-a-la-baisse-de-l-insee_8302671.html#xtor=RSS-3-%5Beconomie%5D"
         },
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/bce-l-espagnol-pablo-hernandez-de-cos-sur-le-point-d-etre-choisi-comme-successeur-de-christine-lagarde-20261120"
+          "name": "Capital",
+          "url": "https://www.capital.fr/economie-politique/c-est-officiel-la-france-est-en-recession-le-pib-a-recule-deux-trimestres-de-suite-selon-l-insee-1532221"
         }
       ]
     },
     {
-      "title": "Le Smic augmente au 1er décembre",
-      "why_it_matters": "Je note que 164 branches ont des grilles qui partent sous le nouveau Smic. Si vous avez des salariés, vérifiez votre masse salariale dès maintenant.",
+      "title": "La DINUM devient Ariane et impose ses outils aux ministères",
+      "why_it_matters": "Je note que l'État crée une autorité IA et numérique. Cela va structurer les marchés publics tech en France.",
       "sources": [
         {
-          "name": "Presse-citron",
-          "url": "https://www.presse-citron.net/la-hausse-du-smic-en-france-vient-de-paraitre-au-journal-officiel/"
-        },
-        {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/social/la-cgt-reclame-au-gouvernement-de-sevir-sur-les-entreprises-qui-ne-relancent-pas-de-negociations-sur-les-salaires-20261126"
+          "name": "Next",
+          "url": "https://next.ink/270519/ariane-succede-officiellement-a-la-dinum-et-pourra-imposer-ses-outils-aux-ministeres/"
         }
       ]
     },
     {
-      "title": "Allègement du RGPD pour les PME",
-      "why_it_matters": "Je retiens que les entreprises de moins de 1000 salariés vont être moins étouffées par les papiers. Moins d'administratif, c'est du temps gagné.",
+      "title": "Le gouvernement prévoit une hausse de 4% des prix alimentaires en 2027",
+      "why_it_matters": "Je retiens cette anticipation pour caler mes budgets. Les fruits et légumes vont particulièrement grimper.",
       "sources": [
         {
-          "name": "Siècle Digital",
-          "url": "https://siecledigital.fr/2026/11/26/rgpd-une-importante-simplification-administrative-se-profile-pour-les-entreprises/"
+          "name": "France Info Éco",
+          "url": "https://www.franceinfo.fr/economie/inflation/le-gouvernement-anticipe-une-hausse-des-prix-alimentaires-d-environ-4-au-debut-de-l-annee-2027_8303091.html#xtor=RSS-3-%5Beconomie%5D"
         }
       ]
     },
     {
-      "title": "L'énergie fait fermer des usines en Italie",
-      "why_it_matters": "Je note que le gaz et l'électricité ont doublé. C'est un signal d'alerte pour toute entreprise qui dépend de la chaîne d'approvisionnement européenne.",
+      "title": "Le Sénat baisse la TVA à 5,5% sur le logement neuf locatif",
+      "why_it_matters": "Je note cette opportunité pour les investisseurs immobiliers. Cela redonne un coup de pouce à la construction neuve.",
       "sources": [
         {
-          "name": "Le Figaro Économie",
-          "url": "https://www.lefigaro.fr/conjoncture/en-italie-les-acieries-mises-a-l-arret-par-la-flambee-des-prix-de-l-energie-20261126"
+          "name": "Capital",
+          "url": "https://www.capital.fr/immobilier/logement-neuf-le-senat-vote-une-tva-a-55-pour-les-investisseurs-1532222"
         }
       ]
     },
     {
-      "title": "L'UE prépare un fonds tech de 50 milliards",
-      "why_it_matters": "Je retiens que Bruxelles veut financer l'indépendance technologique européenne. Pour les startups françaises, c'est peut-être une nouvelle source de fonds.",
+      "title": "L'IA générative entre dans les réponses aux appels d'offres",
+      "why_it_matters": "Je retiens qu'elle fait gagner du temps mais peut faire perdre un marché. Il faut savoir ce qu'on délègue à la machine.",
       "sources": [
         {
-          "name": "Siècle Digital",
-          "url": "https://siecledigital.fr/2026/11/26/lunion-europeenne-prepare-un-fonds-souverain-de-50-milliards-deuros-pour-soutenir-ses-ambitions-technologiques/"
+          "name": "Journal du Net",
+          "url": "https://www.journaldunet.com/management/formation/1559241-appels-d-offres-ce-que-l-ia-generative-peut-preparer-et-ce-qu-elle-ne-doit-jamais-signer/"
         }
       ]
     }
