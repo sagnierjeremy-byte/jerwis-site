@@ -1,0 +1,166 @@
+{
+  "topic": "premier emploi ou stage quand les recruteurs trient les candidatures avec l'IA : comment passer les filtres automatiques sans tricher",
+  "slug": "candidature-filtres-ia-recruteurs",
+  "type": "A",
+  "generated_at": "2026-11-27",
+  "angle": "Cet article guide les jeunes diplômés et stagiaires à transformer les filtres de recrutement basés sur l'IA d'un obstacle en un avantage stratégique, en optimisant leurs candidatures de manière éthique et efficace.",
+  "intent": "Le lecteur cherche à comprendre comment les systèmes d'IA filtrent les candidatures pour un premier emploi ou stage, et veut des stratégies concrètes et éthiques pour optimiser son CV et sa lettre de motivation afin de passer ces filtres automatiques et d'atteindre l'œil humain du recruteur.",
+  "keywords": [
+    "premier emploi IA recrutement",
+    "stage filtres automatiques",
+    "optimiser CV IA",
+    "passer ATS sans tricher",
+    "IA pour recherche d'emploi",
+    "candidature IA éthique",
+    "recrutement automatisé jeunes diplômés",
+    "préparer entretien IA"
+  ],
+  "facts": [
+    {
+      "claim": "En 2025, environ 87% des employeurs utilisent l'IA à au moins une étape de leur processus de recrutement, le filtrage des CV étant l'application la plus courante.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN9Akx3PrYA5AeGAD8cjBOVYqsGB0N5etx3a3SVZTeX6Mz26yGOV_i5nQeMzp1q7VDuLgs5mhAiOHyFxKPwtwTKS_O1sddGAiEcO2PQAxQdF0ifEKHAQ7nNhrBDLvxKbOOXSY3BXOYidO7vPL0K1I2waebxwsacyRVM9eXyAY82RfvQ9ib",
+      "date": "2026-06-25"
+    },
+    {
+      "claim": "Les systèmes de filtrage de CV basés sur l'IA analysent les candidatures en les comparant aux exigences du poste, en extrayant des informations structurées et en classant les candidats pour que les recruteurs examinent d'abord les correspondances les plus fortes.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwQM7J_ElObbU5WBGoUifFaeepiaNTcXlWj6BzX1pBg41SMRtYKmM_f3vmFwR7GxCTkC17YN8lPdlmiudXI3bVVyXhE-VgFf25kDns7OwmoLWgHdEjnA-9Loa2vOdzgPmdVmRjnY7sQlCzW6",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "Pour passer les filtres ATS (Applicant Tracking Systems) et l'IA, il est crucial d'utiliser une mise en page simple, en une seule colonne, sans graphiques ni tableaux, d'inclure des mots-clés exacts de la description de poste et d'enregistrer le fichier au format Word standard ou PDF textuel.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1pr8Htjw3bMPRyydQBs7J9BeHsAzXuR5J4n1mpUkdw5VPe823ljM2wqOZl5LLbPCQkeQVJWFoD0CXoYZOLHfyHWyctgjorKR1OszdMsnSr_BKp4alkZy0g7AjsJwvkA2BYpK-E1arSad7b8LgPoM2Pbu1degqPC5JgDS-FFtydM91JyB0kS8jR9XVJDbW3eepiHO4j92zcg2T7HN-SvRW9gtYBdEA0TybTWMZg22n-YYD4Y2Fkb7zpb6G8pQQz-xFotqLIlBi",
+      "date": "2026-11-25"
+    },
+    {
+      "claim": "Les recruteurs utilisent des systèmes d'IA pour des tâches telles que le filtrage des CV (48%), la mise en correspondance des candidats avec les rôles (46%) et l'automatisation de la communication initiale (30%) en 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-Y2P7s6G3jhF5Ct3NUXqaEffHWJCzIKGPeI9QtqB7REIv8fKpcpSrefEpZ4GO6O37CELSgclZO0PWIkpjk14QmgybnuJn-jVbInEC25JsunLomtxNn6rP43ZT--AZPZ02J3_j9636dPU2eHXyO5EYNRRGi8O6-c",
+      "date": "2026-02-05"
+    },
+    {
+      "claim": "Le dernier modèle de ChatGPT est GPT-6.2, disponible dans l'expérience de Chat pour les utilisateurs Plus, Pro, Business et Enterprise depuis le 23 novembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvb36D9XkU6yFpotk2WZ8ikrpGbY6YBjZN5wgIc_wWNYi8EF3d0BKhhVRZdQ-4DPFM493NXzM5YzCDrDRQFSOBUz_2iGMTYR8GKMnNajsF_wY7pyoTtgLZCJnh4Jc-TA74Fae0f3Z8YUXfnnEmSfW9VST_B7oEIdbH6AO",
+      "date": "2026-11-23"
+    },
+    {
+      "claim": "Le dernier modèle de Claude est Claude Fable 5.2, sorti le 9 novembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpjBatV72U_zv5pHH3Bwq2JQtlL2fKnDNrJEwwlO4nY1Io5FB44JfzVQt1rZlCSXTAYkbH3ioSDcKue3Ahbu6BY1ZvMqsnKACTWjBdV7CZTN2Fnd1TSbf0K9b1mqF5qlJuROt-",
+      "date": "2026-11-09"
+    },
+    {
+      "claim": "Gemini Agent, un outil expérimental capable d'accomplir des tâches en plusieurs étapes, est disponible sur le web pour les abonnés Google AI Ultra depuis le 19 novembre 2026.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiXxoaJ39lGsl9xQ8a37mvO2TTwr47sYfw_B9tItH4-Nj4bGhhAZk4-NxlRUIPhXoai58dzMK2B4z7wF-wg-ifFpB2WipK9qL3TgzhCCu-kyqYQeuyQodjKHBRFWuk0g==",
+      "date": "2026-11-19"
+    },
+    {
+      "claim": "Les outils d'IA pour la recherche d'emploi, comme Jobscan, Teal, Rezi ou Simplify, peuvent aider à optimiser les CV pour les ATS, à suivre les candidatures, à générer des lettres de motivation et à automatiser le remplissage des formulaires.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVz-yA1xzJbcM-4lN--iNylFfWzwbFsTC4aZPbrop4CkhaigdH6HEKYseyA6ebZ3SmERIOYz4xe_BmqnvIvF5a3jGQi6-W_poYX8dB92BReHet6A8FFmf7J6TLz9fXub1zYRV8py726CT3mzcr",
+      "date": "2026-07-13"
+    },
+    {
+      "claim": "La personnalisation du CV pour chaque offre d'emploi est essentielle, car les systèmes d'IA évaluent la pertinence des mots-clés par rapport à la description de poste spécifique.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENVmzHU3bg3ZzkrT_h62wbRBwjlFaR2TsVHV8lgum9z2iBIxBMlV_oZB0uY2Dp3frFsuoIb3ov1uOG8O_Ybf0SL4gE74ick4koa9Jsw3mvJjgmv9YLZ57AH6RVfZs-iqjp3A713LAeNl4OnXD7K9VjqGAjYE6ntrUmld9t1w==",
+      "date": "2026"
+    },
+    {
+      "claim": "L'utilisation de verbes d'action et la quantification des réalisations sont des éléments clés pour optimiser un CV pour l'IA, car l'IA préfère les résultats mesurables.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbefhaGZFidggyGg20ZIBw9u883ppdhayVsyPlLPIdZljMvIRzXRw3nU7Xd1AuBa6I_cv89UT-06uPHvDym-nAYizdiRnjrZgXYvXL91EbJJFdnK77zWxrULfx2ghuHF28Ntlx6D3yrBapnt7eYStK4jk=",
+      "date": "2025-02-26"
+    },
+    {
+      "claim": "Les biais dans les systèmes d'IA de recrutement peuvent provenir des données d'entraînement historiques (reflétant des préjugés passés), des caractéristiques utilisées par le modèle (proxies pour des traits protégés) et de la manière dont les humains utilisent les résultats.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz-7aghbEEkiXK2MHHHXbkm2gfsiO231QESJ2aTTrruUCZPtYH9MIZuU39EbgRawMzGqKTmG1jDL8184Ro7p1-M7P-IiPD7iopge5Wd2FQge2SQSlpgOxnc_ddm1_yqxk0E1fQeh-SgQveqIHb",
+      "date": "2026-11-21"
+    },
+    {
+      "claim": "En 2026, plus d'un tiers des emplois de premier échelon exigent des compétences en IA, soit près du triple par rapport à l'automne 2025.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzmAJG-6i2TuYft9X69uW8RntBlyVKY_bVLBdmtYQLVdKcofMMvngIQK58EDHnkQ7YOszZ1Sm9tL4tZC4usX3eJ_ON4t9j8LfkdodcSIuM88ONRH8qnECVqXXDu0JcdS7T_GyP4r3zPyJZdMBFxAJRPz_Pu75fy3ykcyMT5rJTJTRJXrRE9Rl7fJ9frvRcPyLWXGFLuju41p8z9EbsewqHxHOpvt1JsI9_JzWEpwv3FMHDO9r-lsKYabt08s",
+      "date": "2026-04-20"
+    }
+  ],
+  "stats": [
+    {
+      "stat": "Seulement 26% des candidats font confiance à l'IA pour les évaluer équitablement, alors que 52% pensent que l'IA filtre leur candidature (enquête Gartner, juillet 2025).",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz-7aghbEEkiXK2MHHHXbkm2gfsiO231QESJ2aTTrruUCZPtYH9MIZuU39EbgRawMzGqKTmG1jDL8184Ro7p1-M7P-IiPD7iopge5Wd2FQge2SQSlpgOxnc_ddm1_yqxk0E1fQeh-SgQveqIHb",
+      "date": "2025"
+    },
+    {
+      "stat": "L'IA peut réduire le temps d'embauche jusqu'à 75%, et les entreprises utilisant le sourcing et le filtrage de candidats basés sur l'IA ont réduit le temps de pourvoi des postes jusqu'à 50%.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXFyT05z9_AJ8swlsYAKyNA68VOJ3LPMknfM1r4eK1hpZ2RgrnIzueRgMgWONz9cSnh6TdGjLaz9Vc_cFDvXwd-ZXUsNLyJlyzyHURtp4srim86yHjPWSd-J0UHid9CDm5DKsnyp7nAwV5k5gYwNHPOEf2yJdwpu1uK-wlNHpjwB43R8WvjTsX",
+      "date": "2026-06-25"
+    },
+    {
+      "stat": "40% des demandeurs d'emploi américains dans une enquête Greenhouse 2025 ont admis avoir caché du texte dans leurs candidatures pour influencer un filtreur d'IA.",
+      "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxwPObHCTixaAZwatUhZGsguAwgmVsHEdv5mO0-B1zt7MuKGrEnzw910qGzwhDrDq4lcI7EYzzGoYEp1yjbubJH43VLB7jTxlBLeA2po3g3j1wwFRfGOD0ghXFXXW6XQKpt0tCKcPFdYAZLxsWwGZH4dWkf7p9l3Zpor8A-T4y",
+      "date": "2025"
+    }
+  ],
+  "internal_links": [
+    {
+      "url": "/articles/ia-et-ton-emploi",
+      "why": "Pour comprendre l'impact global de l'IA sur le marché du travail et les compétences requises."
+    },
+    {
+      "url": "/articles/ecrire-bon-prompt-non-dev",
+      "why": "Pour apprendre à formuler des requêtes efficaces pour les IA génératives, utile pour rédiger des éléments de candidature ou s'entraîner."
+    },
+    {
+      "url": "/articles/ia-cv-lettre-entretien",
+      "why": "Article directement lié au sujet, approfondissant l'utilisation de l'IA pour les différentes étapes de la candidature."
+    },
+    {
+      "url": "/lexique/bases",
+      "why": "Pour les lecteurs qui souhaitent comprendre les fondamentaux de l'IA et des termes techniques mentionnés."
+    }
+  ],
+  "outline": [
+    "L'IA dans le recrutement : un passage obligé pour votre premier emploi ou stage",
+    "Comment les systèmes de filtrage IA (ATS) analysent votre candidature",
+    "Optimiser votre CV et lettre de motivation pour l'IA, sans tricher",
+    "Les outils d'IA au service du candidat : alliés ou pièges ?",
+    "Dépasser l'IA : l'importance de l'authenticité et des compétences humaines",
+    "Réglementations et éthique : naviguer dans un paysage en évolution"
+  ],
+  "faq": [
+    "L'IA peut-elle rejeter ma candidature sans qu'un humain ne la voie ?",
+    "Est-il éthique d'utiliser l'IA pour rédiger mon CV ou ma lettre de motivation ?",
+    "Quels sont les formats de CV préférés par les systèmes d'IA ?",
+    "Comment puis-je identifier les mots-clés pertinents pour l'IA dans une offre d'emploi ?",
+    "L'IA détecte-t-elle les CV générés entièrement par une autre IA ?",
+    "Comment prouver mon authenticité et mes compétences face à un filtre IA ?"
+  ],
+  "pitfalls": [
+    "Ne pas tomber dans le 'keyword stuffing' (bourrage de mots-clés) qui peut être détecté et pénalisé par l'IA ou un recruteur humain.",
+    "Éviter les formats de CV trop créatifs ou graphiques (tableaux, images, colonnes multiples) qui peuvent rendre le document illisible pour les parseurs d'IA.",
+    "Ne pas utiliser de 'texte caché' pour manipuler l'IA, car cela peut être repéré et entraîner un rejet immédiat.",
+    "Comprendre que l'IA est un outil d'aide à la décision, et que la supervision humaine reste cruciale pour la plupart des processus de recrutement.",
+    "Ne pas se fier uniquement aux outils d'IA pour la rédaction, car un langage générique ou 'robotique' est facilement repéré par les recruteurs humains."
+  ],
+  "grounding_sources": [
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN9Akx3PrYA5AeGAD8cjBOVYqsGB0N5etx3a3SVZTeX6Mz26yGOV_i5nQeMzp1q7VDuLgs5mhAiOHyFxKPwtwTKS_O1sddGAiEcO2PQAxQdF0ifEKHAQ7nNhrBDLvxKbOOXSY3BXOYidO7vPL0K1I2waebxwsacyRVM9eXyAY82RfvQ9ib",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwQM7J_ElObbU5WBGoUifFaeepiaNTcXlWj6BzX1pBg41SMRtYKmM_f3vmFwR7GxCTkC17YN8lPdlmiudXI3bVVyXhE-VgFf25kDns7OwmoLWgHdEjnA-9Loa2vOdzgPgPmdVmRjnY7sQlCzW6",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMFN3Vt0AW_nXjPMWEhpBVtraLXPQOgppQeYlnYdeHBFKMr7ithHd25dCvWxyYx7Ck_SKlOvwHYJx8aA1QJyLAfuoDiF5yEstyVOXBz3AtKLTzN7udHSVtkhyP87jgs_1NYAwsa_YRhDW7_h-TwdPu3dlViIShiNKGQY8IPitNCUhlfJmceJ740gZJ9_pzaCL1CPLIw0mwf2DYmrtVsOZAg1yu0sAZd2IYAFg1om6XNbH6GuWG",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1pr8Htjw3bMPRyydQBs7J9BeHsAzXuR5J4n1mpUkdw5VPe823ljM2wqOZl5LLbPCQkeQVJWFoD0CXoYZOLHfyHWyctgjorKR1OszdMsnSr_BKp4alkZy0g7AjsJwvkA2BYpK-E1arSad7b8LgPoM2Pbu1degqPC5JgDS-FFtydM91JyB0kS8jR9XVJDbW3eepiHO4j92zcg2T7HN-SvRW9gtYBdEA0TybTWMZg22n-YYD4Y2Fkb7zpb6G8pQQz-xFotqLIlBi",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-Y2P7s6G3jhF5Ct3NUXqaEffHWJCzIKGPeI9QtqB7REIv8fKpcpSrefEpZ4GO6O37CELSgclZO0PWIkpjk14QmgybnuJn-jVbInEC25JsunLomtxNn6rP43ZT--AZPZ02J3_j9636dPU2eHXyO5EYNRRGi8O6-c=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGvb36D9XkU6yFpotk2WZ8ikrpGbY6YBjZN5wgIc_wWNYi8EF3d0BKhhVRZdQ-4DPFM493NXzM5YzCDrDRQFSOBUz_2iGMTYR8GKMnNajsF_wY7pyoTtgLZCJnh4Jc-TA74Fae0f3Z8YUXfnnEmSfW9VST_B7oEIdbH6AO",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpjBatV72U_zv5pHH3Bwq2JQtlL2fKnDNrJEwwlO4nY1Io5FB44JfzVQt1rZlCSXTAYkbH3ioSDcKue3Ahbu6BY1ZvMqsnKACTWjBdV7CZTN2Fnd1TSbf0K9b1mqF5qlJuROt-",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvbx_f9sR7MLea_URZfHpj2T2Ekr7VEigFA0KFh-Z9E7WTrZNd-9WyvpzfzOhhB6lCwmHyKrKMQD6_WtrC30l7oaApZOgl8ptcRRM-fb4kRBDHCfIMVAfHF8he2vvK-TDw_DzO",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiXxoaJ39lGsl9xQ8a37mvO2TTwr47sYfw_B9tItH4-Nj4bGhhAZk4-NxlRUIPhXoai58dzMK2B4z7wF-wg-ifFpB2WipK9qL3TgzhCCu-kyqYQeuyQodjKHBRFWuk0g==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVz-yA1xzJbcM-4lN--iNylFfWzwbFsTC4aZPbrop4CkhaigdH6HEKYseyA6ebZ3SmERIOYz4xe_BmqnvIvF5a3jGQi6-W_poYX8dB92BReHet6A8FFmf7J6TLz9fXub1zYRV8py726CT3mzcr",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYruHtheJSjImkNnTr9VGJVVzcejNC373s0EXqjYO-tVstfaP4WoLMj_YaypulFkhPx-cdIMux7DOnCiwvS8h2gYf0A4i5S1SEZ8F2zvoGidWneKZA-QXQGC6ZV6sI1bNJVtlQX8A=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFozOVEvwv4iDiFWT8jFdL3f6DHnatHcfuGaU6CANJI_vA3CSbeHDX5OfeQ3QDN5vCUGaf-M3A-kGdbJ1SlomXEriOtyeyzWJH-xSiofapBvzk9twR41z2YtP53fTiJmW5HsOhy7k0SujR1G2J1X4le4A=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENVmzHU3bg3ZzkrT_h62wbRBwjlFaR2TsVHV8lgum9z2iBIxBMlV_oZB0uY2Dp3frFsuoIb3ov1uOG8O_Ybf0SL4gE74ick4koa9Jsw3mvJjgmv9YLZ57AH6RVfZs-iqjp3A713LAeNl4OnXD7K9VjqGAjYE6ntrUmld9t1w==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbefhaGZFidggyGg20ZIBw9u883ppdhayVsyPlLPIdZljMvIRzXRw3nU7Xd1AuBa6I_cv89UT-06uPHvDym-nAYizdiRnjrZgXYvXL91EbJJFdnK77zWxrULfx2ghuHF28Ntlx6D3yrBapnt7eYStK4jk=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3H1n3E3ABrF3U0pyM1MCfxjT0QAR9RZUl7DeTyyOxLyquExjibIdPOSwavf1iahrZUNytjPakZe7lUa21y3R0Z9_loZ9iWLA8XpuIo2P-DMu3k5JQs-LtlanuU-3T9xzyxXLSWyfDYn0yZ_zV_VxFh8zdWkLUT7NHu2U3x_UUkHFJ_WPEPn9REDkkNB_jOabOlVQXYXlZZQYb_B8_U8tRsbWZdshRxQ==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz-7aghbEEkiXK2MHHHXbkm2gfsiO231QESJ2aTTrruUCZPtYH9MIZuU39EbgRawMzGqKTmG1jDL8184Ro7p1-M7P-IiPD7iopge5Wd2FQge2SQSlpgOxnc_ddm1_yqxk0E1fQeh-SgQveqIHb",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzmAJG-6i2TuYft9X69uW8RntBlyVKY_bVLBdmtYQLVdKcofMMvngIQK58EDHnkQ7YOszZ1Sm9tL4tZC4usX3eJ_ON4t9j8LfkdodcSIuM88ONRH8qnECVqXXDu0JcdpS7T_GyP4r3zPyiZdMBFxAJRPz_Pu75fy3ykcyMT5rJTJTRJXrRE9Rl7fJ9frvRcPyLWXGFLuju41p8z9EbsewqHxHOpvt1JsI9_JzWEpwv3FMHDO9r-lsKYabt08s=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXFyT05z9_AJ8swlsYAKyNA68VOJ3LPMknfM1r4eK1hpZ2RgrvIzueRgMgWONz9cSnh6TdGjLaz9Vc_cFDvXwd-ZXUsNLyJlyzyHURtp4srim86yHjPWSd-J6UHid9CDm5DKsnyp7nAwV5k5gYwNHPOEf2yJdwpu1uK-wlNHpjwB43R8WvjTsX",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxwPObHCTixaAZwatUhZGsguAwgmVsHEdv5mO0-B1zt7MuKGrEnzw910qGzwhDrDq4lcI7EYzzGoYEp1yjbubJH43VLB7jTxlBLeA2po3g3j1wwFRfGOD0ghXFXXW6XQKpt0tCKcPFdYAZLxsWwGZH4dWkf7p9l3Zpor8A-T4y",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF18W8V9U76DkCN338RHPcK-8H7HD0F3pfJAmYDzqPoXGcW08Fq9d3IwqqwoODp2jMeeWDuFOhzkzGBwruRN1Yb-khuPsWPipEEqOqcTKKPz2RnqnAhaNL7N8rjFqiaqmv9OtVuAiQ753r69DkXl1sKFy5Lwo1ZDQyxTrHW9-9-tS0OjgoAjenwB8qpiHjCfdijnn7T7zagWvVSWPDG6A==",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV5ZVSDlTK803Ux_4m2gRsp10-m7H9svCzkz6mseA4V5UO6ecOEJMYevkFBLCe50tougdCuMsrCegXfP9d2nw8v-viJR0N3ITyjKfvqmYXAAYZrCVo3Y0UUlLYxNBbyLGEeP0E7F5W7aM0aeUzYMbPQ2s2",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJ2DgAbiV4lRjulGiTNUxUx1KgKB92aavUSVm_v-adKFPBTtuUIaD1yBYGBlYlHN6t6lW7Js5ep5_1Ro2mb29unr2X3q9M0CfbeiL8ipqQKKs0jzEB8_ZR9isgghbRzWZ_L3bKg4HZmPoUF990oazIh8TKuiY=",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwQM7J_ElObbU5WBGoUifFaeepiaNTcXlWj6BzX1pBg41SMRtYKmM_f3vmFwR7GxCTkC17YN8lPdlmiudXI3bVVyXhE-VgFf25kDns7OwmoLWgHdEjnA-9Loa2vOdzgPmdVmRjnY7sQlCzW6",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-Y2P7s6G3jhF5Ct3NUXqaEffHWJCzIKGPeI9QtqB7REIv8fKpcpSrefEpZ4GO6O37CELSgclZO0PWIkpjk14QmgybnuJn-jVbInEC25JsunLomtxNn6rP43ZT--AZPZ02J3_j9636dPU2eHXyO5EYNRRGi8O6-c",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzmAJG-6i2TuYft9X69uW8RntBlyVKY_bVLBdmtYQLVdKcofMMvngIQK58EDHnkQ7YOszZ1Sm9tL4tZC4usX3eJ_ON4t9j8LfkdodcSIuM88ONRH8qnECVqXXDu0JcdS7T_GyP4r3zPyJZdMBFxAJRPz_Pu75fy3ykcyMT5rJTJTRJXrRE9Rl7fJ9frvRcPyLWXGFLuju41p8z9EbsewqHxHOpvt1JsI9_JzWEpwv3FMHDO9r-lsKYabt08s",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXFyT05z9_AJ8swlsYAKyNA68VOJ3LPMknfM1r4eK1hpZ2RgrnIzueRgMgWONz9cSnh6TdGjLaz9Vc_cFDvXwd-ZXUsNLyJlyzyHURtp4srim86yHjPWSd-J0UHid9CDm5DKsnyp7nAwV5k5gYwNHPOEf2yJdwpu1uK-wlNHpjwB43R8WvjTsX"
+  ]
+}

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light" class="rv-page">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ⚠️ SEO REQUIREMENTS (audit 2026-04-24) - NE PAS SUPPRIMER LES BLOCS CI-DESSOUS
+     · TITLE ≤ 60 caractères (sans suffixe " — par Jérémy Sagnier")
+     · META DESCRIPTION : 140-155 caractères
+     · OG/TWITTER : titres ≤ 60, descriptions ≤ 110
+     · CANONICAL : URL absolue avec slug exact
+     · 1 SEUL JSON-LD (TechArticle pour tutos, OpinionPiece pour opinions)
+     · OG:IMAGE : pointer vers photos/og/candidature-filtres-ia-recruteurs.jpg (généré via scripts/og-batch.html)
+-->
+
+<title>Comment passer les filtres IA de recrutement</title>
+<meta name="description" content="Tu candidatures pour un premier emploi ou un stage ? Voici comment optimiser ton CV et ta lettre pour les systèmes de filtrage IA sans jamais tricher.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Comment passer les filtres IA de recrutement">
+<meta property="og:description" content="Tu candidatures pour un premier emploi ou un stage ? Voici comment optimiser ton CV et ta lettre pour les systèmes de filtrage IA sans jamais tricher.">
+<meta property="og:url" content="https://jerwis.fr/articles/candidature-filtres-ia-recruteurs">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://jerwis.fr/photos/og/candidature-filtres-ia-recruteurs.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:author" content="Jérémy Sagnier">
+<meta property="article:published_time" content="2026-11-27">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@JeremySagnier">
+<meta name="twitter:creator" content="@JeremySagnier">
+<meta name="twitter:title" content="Comment passer les filtres IA de recrutement">
+<meta name="twitter:description" content="Tu candidatures pour un premier emploi ou un stage ? Voici comment optimiser ton CV et ta lettre pour les systèmes de filtrage IA sans jamais tricher.">
+<meta name="twitter:image" content="https://jerwis.fr/photos/og/candidature-filtres-ia-recruteurs.jpg">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://jerwis.fr/articles/candidature-filtres-ia-recruteurs">
+<link rel="alternate" hreflang="fr" href="https://jerwis.fr/articles/candidature-filtres-ia-recruteurs">
+<link rel="alternate" hreflang="en" href="https://jerwis.fr/en/articles/candidature-filtres-ia-recruteurs">
+<link rel="alternate" hreflang="x-default" href="https://jerwis.fr/articles/candidature-filtres-ia-recruteurs">
+
+<!-- Schema.org · UN SEUL JSON-LD : TechArticle (tutos) ou OpinionPiece (opinions) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Comment passer les filtres IA de recrutement",
+  "description": "Tu candidatures pour un premier emploi ou un stage ? Voici comment optimiser ton CV et ta lettre pour les systèmes de filtrage IA sans jamais tricher.",
+  "inLanguage": "fr-FR",
+  "url": "https://jerwis.fr/articles/candidature-filtres-ia-recruteurs",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "author": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier",
+    "sameAs": [
+      "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/",
+      "https://x.com/JeremySagnier",
+      "https://www.youtube.com/@jeremy-sagnier"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jérémy Sagnier",
+    "url": "https://jerwis.fr/jeremy-sagnier"
+  },
+  "image": "https://jerwis.fr/photos/og/candidature-filtres-ia-recruteurs.jpg"
+}
+</script>
+
+<!-- Preload critical resources (perf · LCP/CWV) -->
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo-black.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../assets/fonts/archivo.woff2" crossorigin>
+
+<link rel="stylesheet" href="../assets/fonts.css">
+<link rel="stylesheet" href="../assets/revue.css?v=20261102">
+<link rel="stylesheet" href="../assets/nav-v2.css?v=20260520-dropdown">
+
+<link rel="stylesheet" href="../assets/article.css?v=20261102">
+<link rel="preload" href="../assets/article-toc.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/article-toc.css"></noscript>
+<link rel="preload" href="../assets/ai-summarize.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/ai-summarize.css"></noscript>
+<link rel="preload" href="../assets/lexique-tooltip.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="../assets/lexique-tooltip.css"></noscript>
+<link rel="stylesheet" href="../assets/footer.css">
+</head>
+<body>
+<div class="bk-barre-place" style="height:44px" aria-hidden="true"></div>
+
+<!-- Top stripe -->
+<div class="triple-stripe" aria-hidden="true">
+  <span style="background:#00B2A9"></span>
+  <span style="background:#EF426F"></span>
+  <span style="background:#FF8200"></span>
+</div>
+
+<!-- Header -->
+<!-- NAV-UNIFIED-START -->
+<div class="rv-edition"><div class="rv-edition-in"><span data-rv-date>Édition de la semaine</span><span class="rv-edition-mid">IA · business · fait à Mougins</span><span>La lettre part vendredi à 9 h</span></div></div>
+<script>(function(){var en=document.documentElement.lang==="en",d=new Date().toLocaleDateString(en?"en-US":"fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});document.querySelectorAll("[data-rv-date]").forEach(function(e){e.textContent=(en?"Edition of ":"Édition du ")+d;});})();</script>
+<nav class="mini-nav rv-nav" aria-label="Navigation principale">
+  <a class="brand rv-marque" href="/" aria-label="Accueil, Jérémy Sagnier"><svg class="rv-sceau-mini" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#141414"/><g transform="translate(50 50) scale(.72) translate(-50 -50)" fill="#EF426F"><circle cx="50" cy="50" r="14"/><polygon points="50,0 55,40 45,40"/><polygon points="100,50 60,55 60,45"/><polygon points="50,100 45,60 55,60"/><polygon points="0,50 40,45 40,55"/><polygon points="85,15 62,42 58,38"/><polygon points="85,85 58,62 62,58"/><polygon points="15,85 38,58 42,62"/><polygon points="15,15 42,38 38,42"/></g><circle cx="50" cy="50" r="4.5" fill="#141414"/></svg><span class="rv-nom">Jérémy Sagnier</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="mini-nav-links" aria-label="Ouvrir le menu">
+    <span class="burger-icon" aria-hidden="true"></span>
+  </button>
+  <div class="links" id="mini-nav-links">
+    <a href="/apprendre">Apprendre</a>
+    <a href="/articles">Articles</a>
+    <a href="/podcast">Podcast</a>
+    <a href="/#newsletters" class="rv-sabonner">S'abonner →</a>
+    <div class="more-wrap">
+      <button type="button" class="more-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Plus de pages">
+        Plus
+        <svg viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M1 1l4 4 4-4"/>
+        </svg>
+      </button>
+      <div class="more-menu" role="menu">
+        <a href="/modeles-ia" role="menuitem">
+          <span class="more-icon">🧠</span>
+          <span class="more-text"><strong>Modèles IA</strong><span>Comparatif Claude, GPT, Gemini…</span></span>
+        </a>
+        <a href="/modeles-image-ia" role="menuitem">
+          <span class="more-icon">🎨</span>
+          <span class="more-text"><strong>Modèles image IA</strong><span>Génération d'images, audio, vidéo</span></span>
+        </a>
+        <a href="/lexique" role="menuitem">
+          <span class="more-icon">📚</span>
+          <span class="more-text"><strong>Lexique IA</strong><span>Plus de 270 termes expliqués</span></span>
+        </a>
+        <a href="/workflows" role="menuitem">
+          <span class="more-icon">🔁</span>
+          <span class="more-text"><strong>Workflows</strong><span>L'IA par métier</span></span>
+        </a>
+        <a href="/outils" role="menuitem">
+          <span class="more-icon">🛠</span>
+          <span class="more-text"><strong>Mes outils</strong><span>Ma stack IA et web</span></span>
+        </a>
+        <a href="/github" role="menuitem">
+          <span class="more-icon">⚡</span>
+          <span class="more-text"><strong>GitHub</strong><span>Pour non-devs · guide complet</span></span>
+        </a>
+        <a href="/news" role="menuitem">
+          <span class="more-icon">📡</span>
+          <span class="more-text"><strong>News</strong><span>Actus IA et Business</span></span>
+        </a>
+        <a href="/videos" role="menuitem">
+          <span class="more-icon">▶</span>
+          <span class="more-text"><strong>Vidéos</strong><span>Mes chaînes YouTube</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/jeremy-sagnier" role="menuitem">
+          <span class="more-icon">👤</span>
+          <span class="more-text"><strong>Qui je suis</strong><span>Bio + parcours + contact</span></span>
+        </a>
+        <div class="more-separator"></div>
+        <a href="/precommande-photos-personal-branding" class="more-cta" role="menuitem">
+          <span class="more-icon">💳</span>
+          <span class="more-text"><strong>Photos perso · 39 €</strong><span>Générateur de photos IA</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="theme-toggle-v2" id="themeToggle" aria-label="Changer de thème">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3A7 7 0 0 0 21 12.79Z"/>
+    </svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+      <circle cx="12" cy="12" r="5"/>
+      <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+    </svg>
+  </button>
+</nav>
+<!-- NAV-UNIFIED-END -->
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    
+    <div class="kicker"><span class="dot"></span>Décryptage · 55</div>
+    <h1>Premier emploi,<br>filtres IA<br><em>comment rester visible ?</em></h1>
+    <p class="hero-lead">
+      Tu viens de passer des années à étudier et tu postules à ton premier emploi ou stage. Sauf que ton CV ne tombe pas sur un bureau. Il atterrit d'abord dans un système qui décide en quelques secondes si un humain verra ton nom. Je me suis penché sur le sujet parce que cette barrière mérite d'être comprise, pas subie.
+    </p>
+    <div class="hero-meta">
+      <span class="hero-meta-item"><strong>7 min</strong> de lecture</span>
+      <span class="hero-meta-item"><strong>Niveau</strong> Débutant</span>
+      <span class="hero-meta-item"><strong>Outils</strong> ATS, IA générative</span>
+    </div>
+  
+  </div>
+</section>
+
+<!-- TL;DR -->
+<div class="container">
+  <div class="tldr">
+    <div class="tldr-label">En 30 secondes</div>
+    <h2>Ce que tu repars avec</h2>
+    <ul>
+      <li>En 2025, 87% des employeurs utilisent l'IA dans le recrutement, souvent pour filtrer les CV avant même le regard humain</li>
+      <li>Adapte ton CV à chaque offre avec les <strong>mots-clés exacts</strong> de la description de poste</li>
+      <li>Privilégie une mise en page simple, une colonne, sans graphique, en PDF textuel ou Word standard</li>
+      <li>Quantifie tes réalisations et garde le contrôle : les outils t'aident, mais ton authenticité fait la différence</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- ARTICLE_BODY:START -->
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+  <span>Zéro jargon</span><span>Testé d'abord pour moi</span><span>Sources dans le texte</span><span>Prompts à copier</span><span>Réponds si tu n'es pas d'accord</span>
+</div></div>
+
+<section class="block">
+  <div class="container">
+    <h2>Ton CV croise d&#39;abord l&#39;IA</h2>
+    <p>En 2025, environ 87% des employeurs utilisent l&#39;IA à au moins une étape de leur recrutement. Le filtrage des CV en est l&#39;application la plus courante. Côté pratique, 48% des recruteurs s&#39;en servent pour ce tri initial, 46% pour faire correspondre les profils aux rôles, et 30% pour automatiser les premiers échanges.</p>
+    <p>Le résultat est brutal pour toi. L&#39;IA peut réduire le temps d&#39;embauche jusqu&#39;à 75%. Les entreprises qui utilisent ces systèmes ont aussi réduit leur temps de pourvoi jusqu&#39;à 50%. Pour elles, c&#39;est une efficacité. Pour toi, cela veut dire que le premier jury est une machine. Une enquête Gartner de juillet 2025 le confirme : 52% des candidats pensent que l&#39;IA filtre leur candidature, et seulement 26% lui font confiance pour évaluer équitablement.</p>
+    <p>Ce n&#39;est pas une raison pour baisser les bras. C&#39;est une raison pour comprendre la machine avant de l&#39;affronter. Si tu veux saisir l&#39;impact global de l&#39;IA sur le marché du travail, j&#39;explique les fondamentaux dans un autre article sur <a href="/articles/ia-et-ton-emploi">l&#39;IA et ton emploi</a>.</p>
+    <h2>Ce que l&#39;IA regarde vraiment</h2>
+    <p>Les systèmes de filtrage, qu&#39;on appelle ATS (Applicant Tracking Systems), ne lisent pas ton CV comme un humain. Ils extraient des données structurées. Ils comparent ce qu&#39;ils trouvent avec les exigences du poste. Puis ils classent. Le recruteur ne voit souvent que le haut du classement.</p>
+    <p>Ces outils aiment la clarté. Une mise en page simple, en une seule colonne, sans graphiques ni tableaux. Ils lisent mal les images. Le fichier doit être un Word standard ou un PDF textuel. Évite les CV trop design qui plaisent à l&#39;œil mais bloquent le robot.</p>
+    <p>Leur logique est froide mais prévisible. Si tu sais comment ils fonctionnent, tu peux leur parler sans te renier. Pour les lecteurs qui débutent vraiment, le <a href="/lexique/bases">lexique des bases de l&#39;IA</a> reprend les termes techniques un par un.</p>
+    <h2>Comment adapter ton CV sans tricher</h2>
+    <p>La personnalisation change tout. Les systèmes d&#39;IA évaluent la pertinence des mots-clés par rapport à la description de poste spécifique. Un mot-clé présent dans l&#39;annonce mais absent de ton CV peut te faire disparaître. Relis l&#39;offre. Note les compétences et les formulations exactes. Réintroduis-les dans ton document de manière naturelle.</p>
+    <p>Ensuite, parle en résultats. L&#39;IA privilégie les réalisations mesurables. Utilise des verbes d&#39;action et quantifie ce que tu as fait. Même pour un stage. Une phrase vague comme &quot;J&#39;ai participé à un projet&quot; devient &quot;J&#39;ai contribué à la mise à jour d&#39;une base de données de 500 contacts&quot;. Les chiffres créent des points d&#39;ancrage pour l&#39;algorithme.</p>
+    <p>Et surtout, ne cache pas de texte blanc dans ton CV. Une enquête Greenhouse de 2025 révèle que 40% des demandeurs d&#39;emploi américains ont admis cette pratique pour influencer un filtre. C&#39;est une tricherie qui se détecte de plus en plus. Elle ruine ta crédibilité.</p>
+    <div class="callout tip"><h4>Le piège du texte invisible</h4><p>Ne joue pas les magiciens. Coller des mots-clés en blanc sur fond blanc ou en taille 1 est la meilleure façon de te faire blacklister quand le recruteur finit par ouvrir ton fichier. L'IA et l'humain partagent un point commun : ils n'aiment pas les candidats malhonnêtes.</p></div>
+    
+    <p>Si tu cherches des conseils plus poussés sur l&#39;utilisation de l&#39;IA pour chaque étape de la candidature, j&#39;ai fait un point précis sur <a href="/articles/ia-cv-lettre-entretien">l&#39;IA pour ton CV, ta lettre et ton entretien</a>.</p>
+    
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <h2>Les outils qui t&#39;aident vraiment</h2>
+    <p>Je ne suis pas développeur. Je n&#39;écris pas de code. Mais je refuse de laisser l&#39;IA me dépasser. Alors je teste des outils. Des plateformes comme Jobscan, Teal, Rezi ou Simplify existent pour ça. Elles analysent ton CV face à une offre. Elles suggèrent des mots-clés manquants. Elles aident à suivre tes candidatures, à générer des lettres de motivation ou à remplir des formulaires à ta place.</p>
+    <p>Je fais tout ça d&#39;abord pour moi. Pour comprendre comment fonctionne le jeu avant d&#39;y jouer. Ces outils ne remplacent pas ta réflexion. Ils la rendent plus efficace. Tu restes le pilote. L&#39;IA dans ton navigateur est ton copilote.</p>
+    <p>Si tu veux aller plus loin, apprendre à bien formuler tes requêtes auprès des IA génératives t&#39;aidera à rédiger des éléments de candidature plus percutants. J&#39;ai écrit un guide simple pour <a href="/articles/ecrire-bon-prompt-non-dev">écrire un bon prompt sans être développeur</a>.</p>
+    <h2>Rester humain face aux algorithmes</h2>
+    <p>Voici un paradoxe. En 2026, plus d&#39;un tiers des emplois de premier échelon exigent des compétences en IA. C&#39;est près du triple par rapport à l&#39;automne 2025. Donc montrer que tu comprends l&#39;IA, même modestement, devient un atout. Mais ce n&#39;est pas une compétence technique seule qui te fera signer un contrat.</p>
+    <p>Les systèmes restent perfectibles. Les biais dans les IA de recrutement peuvent venir des données d&#39;entraînement historiques. Ils peuvent venir des caractéristiques utilisées par le modèle comme proxies pour des traits protégés. Ils peuvent même venir de la façon dont les recruteurs lisent le classement final. L&#39;algorithme peut favoriser certains profils sans que ses concepteurs en soient conscients.</p>
+    <div class="callout tip"><h4>Ce qui te différencie vraiment</h4><p>Un filtre IA peut te faire monter dans le classement. Il ne fera pas l'entretien à ta place. Ton histoire, ta curiosité et ta façon d'expliquer un échec retourné en apprentissage sont des signaux que l'IA ne peut pas inventer. Le filtre te sélectionne. L'humain te choisit.</p></div>
+    
+    <h2>Ce que dit l&#39;éthique aujourd&#39;hui</h2>
+    <p>La question n&#39;est pas de savoir si l&#39;IA doit exister dans le recrutement. Elle est déjà là. La question est de savoir comment tu t&#39;y positionnes. Utiliser l&#39;IA pour t&#39;aider à structurer ta pensée, ça s&#39;appelle être pragmatique. Utiliser l&#39;IA pour mentir sur tes compétences, ça s&#39;appelle te saborder.</p>
+    <p>Les biais existent. Ils viennent des données passées, des variables choisies par les développeurs et de l&#39;usage que les recruteurs font des classements. Tu ne peux pas changer l&#39;algorithme de l&#39;entreprise. Tu peux par contre rendre ta candidature si claire qu&#39;elle traverse le bruit sans en rajouter.</p>
+    <h2>Questions fréquentes</h2>
+    <h3>L&#39;IA peut-elle rejeter ma candidature sans qu&#39;un humain ne la voie ?</h3>
+    <p>Oui. C&#39;est exactement le fonctionnement du filtrage initial. Si ton score de correspondance avec la fiche de poste est trop faible, le recruteur ne recevra peut-être jamais ton dossier. C&#39;est pourquoi adapter ton CV à chaque offre n&#39;est pas du temps perdu. C&#39;est une étape de survie.</p>
+    <h3>Est-il éthique d&#39;utiliser l&#39;IA pour rédiger mon CV ou ma lettre de motivation ?</h3>
+    <p>Oui, à condition de rester honnête. L&#39;IA est un outil. Si tu l&#39;utilises pour reformuler une expérience, trouver des verbes plus percutants ou structurer une lettre, il n&#39;y a pas de faute. Le problème commence quand tu inventes des compétences ou que tu copies une lettre générique sans la relire. Ton CV doit refléter toi, pas un modèle statistique.</p>
+    <h3>Quels sont les formats de CV préférés par les systèmes d&#39;IA ?</h3>
+    <p>Les systèmes préfèrent la simplicité. Une mise en page en une seule colonne, sans graphiques, sans tableaux, sans images. Le fichier doit être enregistré en Word standard ou en PDF textuel. Évite les CV trop design qui plaisent à l&#39;œil mais bloquent le robot.</p>
+    <h3>Comment puis-je identifier les mots-clés pertinents pour l&#39;IA dans une offre d&#39;emploi ?</h3>
+    <p>Relis la description de poste plusieurs fois. Les compétences techniques et les soft skills répétés sont tes indices. Si l&#39;annonce demande &quot;gestion de projet agile&quot; et que tu écris &quot;coordination de projet&quot;, l&#39;IA peut ne pas faire le lien. Utilise les mêmes termes que l&#39;employeur. Des outils comme Jobscan ou Teal peuvent aussi t&#39;aider à croiser les mots manquants.</p>
+    <h3>L&#39;IA détecte-t-elle les CV générés entièrement par une autre IA ?</h3>
+    <p>De plus en plus. Les recruteurs et les éditeurs de logiciels entraînent leurs systèmes à repérer les textes génériques, les tournures trop lisses et les incohérences. Un CV 100% généré par IA et non relu sonne faux. Il manque de la granularité de ton parcours. Relis toujours. Corrige. Personnalise.</p>
+    <h3>Comment prouver mon authenticité et mes compétences face à un filtre IA ?</h3>
+    <p>Quantifie tes réalisations. Utilise des verbes d&#39;action. Montre que tu comprends l&#39;environnement IA en cours de route. Mais surtout, prépare l&#39;entretien. Le filtre te donne une chance. L&#39;entretien te transforme en candidat. L&#39;authenticité ne se déclare pas dans un fichier. Elle se prouve dans l&#39;échange.</p>
+    <h2>Ce que je retiens</h2>
+    <p>Je retiens que l&#39;IA dans le recrutement n&#39;est pas un mur. C&#39;est un sas. Un sas étroit, froid, mais traversable. Tu n&#39;as pas besoin de tricher. Tu as besoin de comprendre la logique du filtre pour mieux raconter ta propre logique. Le premier emploi ou le stage que tu vises mérite que tu passes ce cap. Pas en magicien. En candidat qui sait où il met les pieds.</p>
+    
+  </div>
+</section>
+
+<div class="mini-marquee" aria-hidden="true"><div class="mini-marquee-track">
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+  <span>Comprendre avant d'appliquer</span><span>À ton rythme</span><span>Pas de pub</span><span>Désinscription en 1 clic</span><span>Je lis toutes les réponses</span>
+</div></div>
+<!-- ARTICLE_BODY:END -->
+<!-- Final CTA -->
+<!-- ⚠️ ANCRE CRITIQUE : publish.js remplace tout le corps entre la fin du TL;DR et ce
+     commentaire « Final CTA ». NE PAS le supprimer/renommer, sinon les articles publiés
+     gardent le corps d'exemple du template (incident du 2026-07-02→06). -->
+<!-- Fin d'article : signature auteur -->
+<section class="article-end">
+  <div class="container">
+    <div class="article-end-card">
+      <picture><source srcset="../photos/jeremy-avatar.webp" type="image/webp"><img class="article-end-avatar" src="../photos/jeremy-avatar.jpg" width="72" height="72" alt="Jérémy Sagnier" loading="lazy" decoding="async"></picture>
+      <div class="article-end-body">
+        <span class="article-end-kicker">Merci d'avoir lu jusqu'ici 👋</span>
+        <h2 class="article-end-title">On continue ensemble ?</h2>
+        <p>Je teste l'IA pour de vrai et je partage ce qui marche, sans jargon ni hype. Si cet article t'a servi, le plus simple pour ne rien rater c'est ma lettre du vendredi. Et si tu as une question ou un doute : réponds-moi, je lis tout.</p>
+        <div class="article-end-actions">
+          <a href="#contact" class="article-end-btn primary">Recevoir la newsletter →</a>
+          <a href="../articles" class="article-end-btn ghost">Lire d'autres articles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer (rich, unifié) -->
+<footer class="rv-pied" id="contact">
+  <div class="rv-pied-in">
+    <div class="rv-pied-lettre">
+      <div>
+        <h2>La lettre du <em>vendredi.</em></h2>
+        <p>Mes vrais usages de l'IA et mes articles dès qu'ils sortent. Gratuit, désinscription en 1 clic.</p>
+      </div>
+      <form class="rv-pied-form" data-source="footer">
+        <input type="email" name="email" placeholder="prenom@exemple.fr" required inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" aria-label="Ton adresse e-mail">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+        <button type="submit" data-ok="Inscrit ✓" data-ko="Réessaie">M'inscrire →</button>
+      </form>
+    </div>
+    <nav class="rv-pied-cols" aria-label="Plan du site">
+      <div><h3>Lire</h3><a href="/apprendre">Parcours débutant</a><a href="/articles">Tous les articles</a><a href="/lexique">Lexique de l'IA</a><a href="/modeles-ia">Guide des modèles IA</a></div>
+      <div><h3>Produits et outils</h3><a href="/precommande-photos-personal-branding">Générateur photos · 39 €</a><a href="/outils">Ma stack outils</a><a href="/claude-code">Guide Claude Code</a><a href="/podcast">Podcast Guerres d'IA</a><a href="/github">Mon GitHub</a></div>
+      <div><h3>Me suivre</h3><a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-sagnier/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.youtube.com/@kevinetjeremysagnier" target="_blank" rel="noopener">YouTube · Frères Sagnier</a><a href="https://www.youtube.com/@jeremy-sagnier" target="_blank" rel="noopener">YouTube · Jérémy</a><a href="https://www.instagram.com/jeremy.sagnier/" target="_blank" rel="noopener">Instagram</a></div>
+      <div><h3>Direct et légal</h3><a href="/preferences">Préférences</a><a href="/mentions-legales">Mentions légales</a><a href="/politique-confidentialite">Confidentialité</a><a href="/cgv">CGV</a><a href="/suppression-donnees">Supprimer mes données</a></div>
+    </nav>
+    <div class="rv-pied-bas"><span>© 2026 Jérémy Sagnier · fait à Mougins</span><a href="mailto:jeremy.sagnier@jerwis.fr">Écris-moi, je lis tout</a></div>
+    <div class="rv-pied-mot" aria-hidden="true">jerwis<span>.</span></div>
+    <div class="rv-bandes" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+  <script>
+    document.querySelectorAll('.rv-pied .rv-pied-form').forEach(function(form) {
+      if (form.dataset.attached === '1') return;
+      form.dataset.attached = '1';
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        if (form.querySelector('input[name="website"]').value) return;
+        var emailEl = form.querySelector('input[name="email"]');
+        var btn = form.querySelector('button[type="submit"]');
+        var email = (emailEl.value || '').trim();
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = '...';
+        try {
+          var res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, source: form.dataset.source || 'footer' }),
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          btn.textContent = btn.dataset.ok;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; form.reset(); }, 2500);
+        } catch (err) {
+          btn.textContent = btn.dataset.ko;
+          setTimeout(function() { btn.textContent = originalText; btn.disabled = false; }, 2500);
+        }
+      });
+    });
+  </script>
+</footer>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('theme');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', initialTheme);
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+<script src="../assets/article-toc.js" defer></script>
+<!-- Barre « Résumer avec une IA » (auto-insérée après le TL;DR) -->
+<script src="../assets/ai-summarize.js" defer></script>
+<script src="../assets/bandeau-kzumi.js" defer></script>
+
+  <script src="../assets/lexique-tooltip.js" defer></script>
+  <script src="../assets/article-reading.js" defer></script>
+<script src="../assets/nav-v2.js" defer></script>
+<script src="../assets/nav-dropdown.js?v=20260520-dropdown" defer></script>
+<script src="/assets/lang-toggle.js" defer></script>
+</body>
+</html>

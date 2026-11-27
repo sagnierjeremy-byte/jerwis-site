@@ -6,7 +6,15 @@
     <atom:link href="https://jerwis.fr/feed/articles.xml" rel="self" type="application/rss+xml" />
     <description>Les tutos, opinions et making-of de Jérémy Sagnier sur l&apos;IA, Claude Code et les agents. Ce que je teste et ce qui m&apos;a servi.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 07:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Comment passer les filtres IA de recrutement</title>
+      <link>https://jerwis.fr/articles/candidature-filtres-ia-recruteurs</link>
+      <guid isPermaLink="true">https://jerwis.fr/articles/candidature-filtres-ia-recruteurs</guid>
+      <description>Tu candidatures pour un premier emploi ou un stage ? Voici comment optimiser ton CV et ta lettre pour les systèmes de filtrage IA sans jamais tricher.</description>
+      <pubDate>Fri, 27 Nov 2026 07:00:00 GMT</pubDate>
+      <dc:creator>Jérémy Sagnier</dc:creator>
+    </item>
     <item>
       <title>Se former à l&apos;IA gratuitement ou avec son CPF : éviter les arnaques</title>
       <link>https://jerwis.fr/articles/se-former-ia-gratuit-cpf</link>
