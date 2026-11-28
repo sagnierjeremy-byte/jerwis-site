@@ -1,58 +1,62 @@
 {
-  "generated_at": "2026-11-27T14:38:34.031Z",
-  "day_label": "Vendredi 27 novembre",
+  "generated_at": "2026-11-28T13:51:25.717Z",
+  "day_label": "Samedi 28 novembre",
   "items": [
     {
-      "title": "La France est officiellement en récession",
-      "why_it_matters": "Je retiens que le PIB recule depuis deux trimestres. Cela change la donne pour mes projets et ma trésorerie.",
+      "title": "S&P menace de dégrader la note de la France",
+      "why_it_matters": "Je retiens que nos finances publiques restent fragiles. Ça peut faire monter les taux et freiner les investissements des entreprises.",
       "sources": [
         {
-          "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/croissance/le-pib-recule-de-0-2-en-france-au-troisieme-trimestre-apres-une-revision-a-la-baisse-de-l-insee_8302671.html#xtor=RSS-3-%5Beconomie%5D"
+          "name": "Le Figaro Économie",
+          "url": "https://www.lefigaro.fr/conjoncture/c-est-un-avertissement-reagit-roland-lescure-a-la-perspective-negative-de-s-p-sur-la-dette-francaise-20261128"
         },
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/economie-politique/c-est-officiel-la-france-est-en-recession-le-pib-a-recule-deux-trimestres-de-suite-selon-l-insee-1532221"
-        }
-      ]
-    },
-    {
-      "title": "La DINUM devient Ariane et impose ses outils aux ministères",
-      "why_it_matters": "Je note que l'État crée une autorité IA et numérique. Cela va structurer les marchés publics tech en France.",
-      "sources": [
-        {
-          "name": "Next",
-          "url": "https://next.ink/270519/ariane-succede-officiellement-a-la-dinum-et-pourra-imposer-ses-outils-aux-ministeres/"
-        }
-      ]
-    },
-    {
-      "title": "Le gouvernement prévoit une hausse de 4% des prix alimentaires en 2027",
-      "why_it_matters": "Je retiens cette anticipation pour caler mes budgets. Les fruits et légumes vont particulièrement grimper.",
-      "sources": [
-        {
           "name": "France Info Éco",
-          "url": "https://www.franceinfo.fr/economie/inflation/le-gouvernement-anticipe-une-hausse-des-prix-alimentaires-d-environ-4-au-debut-de-l-annee-2027_8303091.html#xtor=RSS-3-%5Beconomie%5D"
+          "url": "https://www.franceinfo.fr/economie/crise/crise-de-la-dette/s-p-maintient-la-note-de-la-france-mais-menace-de-la-degrader-la-faute-a-une-politique-economique-qui-soigne-le-mal-par-le-mal-selon-eric-coquerel_8304498.html#xtor=RSS-3-%5Beconomie%5D"
         }
       ]
     },
     {
-      "title": "Le Sénat baisse la TVA à 5,5% sur le logement neuf locatif",
-      "why_it_matters": "Je note cette opportunité pour les investisseurs immobiliers. Cela redonne un coup de pouce à la construction neuve.",
+      "title": "Les méga-data centers poussent partout en France",
+      "why_it_matters": "Je note que l'IA demande énormément d'énergie et d'espace. Ça change nos territoires et nos factures électriques futures.",
       "sources": [
         {
-          "name": "Capital",
-          "url": "https://www.capital.fr/immobilier/logement-neuf-le-senat-vote-une-tva-a-55-pour-les-investisseurs-1532222"
+          "name": "Presse-citron",
+          "url": "https://www.presse-citron.net/les-effets-sur-notre-quotidien-sont-concrets-pourquoi-larrivee-des-mega-data-centers-concerne-tous-les-francais/"
         }
       ]
     },
     {
-      "title": "L'IA générative entre dans les réponses aux appels d'offres",
-      "why_it_matters": "Je retiens qu'elle fait gagner du temps mais peut faire perdre un marché. Il faut savoir ce qu'on délègue à la machine.",
+      "title": "Binance quitte l'Europe, la régulation crypto se durcit",
+      "why_it_matters": "Je retiens que même les géants peinent à obtenir leurs autorisations. La nouvelle régulation change la donne pour les entreprises de la finance.",
       "sources": [
         {
-          "name": "Journal du Net",
-          "url": "https://www.journaldunet.com/management/formation/1559241-appels-d-offres-ce-que-l-ia-generative-peut-preparer-et-ce-qu-elle-ne-doit-jamais-signer/"
+          "name": "Le Monde Pixels",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/28/binance-geant-mondial-des-cryptomonnaies-prepare-sa-sortie-de-l-europe-faute-de-visa-des-regulateurs_6816107_3234.html"
+        },
+        {
+          "name": "Le Monde Économie",
+          "url": "https://www.lemonde.fr/economie/article/2026/11/28/binance-geant-mondial-des-cryptomonnaies-prepare-sa-sortie-de-l-europe-faute-de-visa-des-regulateurs_6816107_3234.html"
+        }
+      ]
+    },
+    {
+      "title": "Un outil IA pour tableurs promet de gagner des heures",
+      "why_it_matters": "Je retiens que l'IA remplit les feuilles de calcul toute seule. C'est concret pour la productivité des petites entreprises.",
+      "sources": [
+        {
+          "name": "ZDNet France",
+          "url": "https://www.zdnet.fr/pratique/jai-teste-claude-sheets-sur-trois-taches-et-ca-ma-permis-de-gagner-des-heures-de-travail-en-seulement-10-minutes-508834.htm#xtor=RSS-1"
+        }
+      ]
+    },
+    {
+      "title": "Fuite record de 2 milliards de mots de passe",
+      "why_it_matters": "Je note que les Français sont visés. C'est un rappel brutal de sécuriser les accès de nos entreprises maintenant.",
+      "sources": [
+        {
+          "name": "01net",
+          "url": "https://www.01net.com/actualites/fuite-geante-de-2-milliards-de-mots-de-passe-le-chercheur-alerte-les-francais-une-cible-plus-rentable-pour-les-pirates.html"
         }
       ]
     }
